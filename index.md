@@ -2,6 +2,9 @@
 title: Developer Home
 layout: default
 ---
+
+{% capture choose %}
+
 # SEE OUR DATA.
 
 # DISCOVER OUR API.
@@ -10,3 +13,7 @@ layout: default
 
 * [Beginner](beginner/ "Beginner")
 * [Experienced](experienced/ "Experienced")
+
+{% endcapture %}
+
+{% include template.html %}
