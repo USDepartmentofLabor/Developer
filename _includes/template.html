@@ -1,12 +1,12 @@
 <div id="choose_parent">
-    <div id="choose" markdown="1">
+    <div id="choose" class="hometext">
         {{ choose | markdownify}}
         <a href="beginner/"  class="button radius cb1">Beginner</a>
         <a href="experienced/" class="button radius cb2">Experienced</a>
     </div>
 </div>
 
-<div id="stats" markdown="1">
+<div id="stats">
     <table>
         <tr><td>
                 {{ stats | markdownify }}
@@ -18,4 +18,18 @@
             </td>
         </tr>
     </table>   
+</div>
+
+<div id="cpi" class="hometext">
+   <table>
+        <tr><td>
+                <img src="/img/Chart.png" alt="cpi graph">
+            </td>
+            <td>
+                {{ cpi | markdownify }}
+                <a href="data/" class="button radius">Sample the Data</a>
+            </td>
+            
+        </tr>
+    </table>  
 </div>
