@@ -9,7 +9,7 @@ layout: default
 
 # DISCOVER OUR API.
 
-# GRAB OUR CODE
+# GRAB OUR CODE.
 
 
 {% endcapture %}

@@ -5,10 +5,12 @@ developer.dol.gov
     Created on : Jan 20, 2015, 10:45:53 AM
     Author     : Neil Neyman <neyman.neil.e@dol.gov>
 */
-@font-face {
-    font-family: sansLight;
-    src: url
+
+#choose_parent {
+    display: table;
+    width: 100%;
 }
+
 #choose {
     text-align: center;
     color: white;
@@ -18,12 +20,15 @@ developer.dol.gov
     background-image: url("/img/devs_coffee.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    display: table-cell;
     vertical-align: middle;
+     width: 100%;
+     position: relative;
 }
 
 #choose h1 {
     
-    font-size: 36px;
+    font-size: 42px;
     font-weight: bold;
     color: white;
 
@@ -35,6 +40,13 @@ developer.dol.gov
     opacity: .8;
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
+}
+
+.cb1 {
+    position:relative; left: 200px;
+}
+.cb2 {
+    position:relative; right: 200px;
 }
 
 #stats {
@@ -70,6 +82,7 @@ developer.dol.gov
 
 #stats .button {
     background-color: black;
-    opacity: .5;
-    
+    opacity: 1;
+     font-family: 'Open Sans', sans-serif;
+    font-weight:200;
 }
