@@ -93,7 +93,7 @@ h1.header-logo-type {
 	text-decoration:underline !important;
 }
 .brand {
-	background: url('{{ site.baseurl }}/img/logo.png') no-repeat;
+	background: url('../img/logo.png') no-repeat;
 	cursor: pointer;
 	float: left;
 	height: 70px;
@@ -295,7 +295,7 @@ ul.bulleted-list li {
 	float: right;
 }
 .sm-facebook, .sm-twitter, .sm-instagram, .sm-rss, .sm-rss-btm, .sm-email, .sm-email-btm, .sm-in, .sm-gplus  {
-	background-image:url("{{ site.baseurl }}/img/icons-social-media-group.png");
+	background-image:url("../img/icons-social-media-group.png");
 	float: left;
 	margin: 20px 0 20px 0;
 	overflow: hidden;
@@ -439,7 +439,7 @@ h1.header-logo-type {
 	margin-top: 15px!important;
 }
 .brand {
- background: url("{{ site.baseurl }}/img/logo-m.png") no-repeat;
+ background: url("../img/logo-m.png") no-repeat;
  cursor: pointer;
  float: left;
  height: 60px;
@@ -458,7 +458,7 @@ h1.header-logo-type {
  margin-top: 10px!important;
 }
  .brand {
- background: url("{{ site.baseurl }}/img/logo-s.png") no-repeat;
+ background: url("../img/logo-s.png") no-repeat;
  cursor: pointer;
  float: left;
  height: 50px;
@@ -516,7 +516,7 @@ h1.header-logo-type {
     margin-top: 4px!important;
 }
  .brand {
- background: url("{{ site.baseurl }}/img/logo-s.png") no-repeat);
+ background: url("../img/logo-s.png") no-repeat);
  cursor: pointer;
  float: left;
  height: 50px;
@@ -549,7 +549,7 @@ h1.header-logo-type {
  margin-bottom: 10px;
 }
 .brand {
- background: url("{{ site.baseurl }}/img/logo-s.png") no-repeat;
+ background: url("../img/logo-s.png") no-repeat;
  cursor: pointer;
  float: left;
  text-indent: -9999em;
