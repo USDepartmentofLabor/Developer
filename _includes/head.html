@@ -8,14 +8,14 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
           <!-- css -->
-      <link rel="stylesheet" href="/css/foundation.css" />
-      <link rel="stylesheet" href="/css/flexslider.css"  />
-      <link rel="stylesheet" href="/css/megamenu.css" />
-      <link rel="stylesheet" href="/css/dol-style.css" />
-      <link rel="stylesheet" href="/css/content.css" />
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/foundation.css" />
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/flexslider.css"  />
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/megamenu.css" />
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/dol-style.css" />
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/content.css" />
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
             
-      <script src="/js/modernizr.js"></script>
+      <script src="{{ site.baseurl }}/js/modernizr.js"></script>
       <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
       <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
@@ -23,7 +23,7 @@
       <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
       <![endif]-->
       
-      <script type="text/javascript" src="/js/scripts.js"></script><!-- Scripts for the dropdown megamenu and flexslider -->
+      <script type="text/javascript" src="{{ site.baseurl }}/js/scripts.js"></script><!-- Scripts for the dropdown megamenu and flexslider -->
       <script src="/js/jquery.flexslider.js"></script><!-- Scripts for the highlights banner -->
       <script><!-- Scripts for the dropdown megamenu especially for the smart phone -->
          $(document).ready(function($){

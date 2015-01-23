@@ -1,4 +1,4 @@
-<div id="choose_parent">
+<div class="valign_parent">
     <div id="choose" class="hometext">
         {{ choose | markdownify}}
         <a href="beginner/"  class="button radius cb1">Beginner</a>
@@ -21,7 +21,7 @@
 </div>
 
 <div id="cpi" class="hometext">
-   <table>
+    <table>
         <tr><td>
                 <img src="/img/Chart.png" alt="cpi graph">
             </td>
@@ -29,7 +29,24 @@
                 {{ cpi | markdownify }}
                 <a href="data/" class="button radius">Sample the Data</a>
             </td>
-            
+
         </tr>
     </table>  
+</div>
+<div class="valign_parent">
+    <div id="grab">
+        <h1>GRAB OUR CODE</h1>
+        <div class="grabdiv">
+            {{ grab1 | markdownify }}
+            <a href="code/" class="button radius">Grab Code</a>
+        </div>
+        <div class="grabdiv">
+            {{ grab2 | markdownify }}
+            <a href="code/" class="button radius">Grab Code</a>
+        </div>
+        <div class="grabdiv">
+            {{ grab3 | markdownify }}
+            <a href="code/" class="button radius">Grab Code</a>
+        </div>
+    </div>
 </div>

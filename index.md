@@ -38,4 +38,42 @@ of goods and services
 
 {% endcapture %}
 
+
+{% capture grab1 %}
+
+![Settings gear icon](/img/settings.png)
+
+# SDK
+
+The description of the  
+SDK would go here  
+with a button.  
+
+{% endcapture %}
+
+{% capture grab2 %}
+
+![Mobile phone icon](/img/phone.png)
+
+# MOBILE
+
+The description of the  
+Mobile code would go  
+here with a button.  
+
+{% endcapture %}
+
+{% capture grab3 %}
+
+![Computer Display Icon](/img/display.png)
+
+# WEB & DESKTOP
+
+The description of the  
+Web and Desktop  
+code would go here.  
+
+{% endcapture %}
+
+
 {% include template.html %}

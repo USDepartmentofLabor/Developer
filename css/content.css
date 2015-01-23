@@ -5,8 +5,7 @@ developer.dol.gov
     Created on : Jan 20, 2015, 10:45:53 AM
     Author     : Neil Neyman <neyman.neil.e@dol.gov>
 */
-
-#choose_parent {
+.valign_parent {
     display: table;
     width: 100%;
 }
@@ -96,7 +95,7 @@ developer.dol.gov
 
 #cpi {
     width: 100%;
-    height: 600px;
+    height: 500px;
     color: white;
     
 }
@@ -127,4 +126,48 @@ developer.dol.gov
    
 }
 
-#
+
+
+#grab {
+    width: 100%;
+    background-color: #EEEEEE;
+    height: 500px; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;    
+}
+
+#grab h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+    color: black;
+}
+
+.grabdiv {
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    font-size: 20px;
+    color: black;
+}
+
+.grabdiv h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 24px;
+    color: black;
+}
+
+#grab .button {
+    background-color: black;
+    opacity: 1;
+     font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+}
+
+#grab img {
+    height: 125px;
+}
