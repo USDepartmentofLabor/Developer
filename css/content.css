@@ -13,7 +13,7 @@ developer.dol.gov
 #choose {
     width: 100%;
     height: 600px;
-    background-image: url("/img/devs_coffee.jpg");
+    background-image: url("{{ site.baseurl }}/img/devs_coffee.jpg");
     display: table-cell;
     vertical-align: middle;
     position: relative;
@@ -119,7 +119,7 @@ developer.dol.gov
     table-layout: fixed;
     width: 100%;
     height: 100%;
-    background-image: url("/img/cpi_back.jpg");
+    background-image: url("{{ site.baseurl }}/img/cpi_back.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     

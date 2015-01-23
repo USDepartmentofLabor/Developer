@@ -41,7 +41,7 @@ of goods and services
 
 {% capture grab1 %}
 
-![Settings gear icon](/img/settings.png)
+![Settings gear icon]({{ site.baseurl }}/img/settings.png)
 
 # SDK
 
@@ -53,7 +53,7 @@ with a button.
 
 {% capture grab2 %}
 
-![Mobile phone icon](/img/phone.png)
+![Mobile phone icon]({{ site.baseurl }}/img/phone.png)
 
 # MOBILE
 
@@ -65,7 +65,7 @@ here with a button.
 
 {% capture grab3 %}
 
-![Computer Display Icon](/img/display.png)
+![Computer Display Icon]({{ site.baseurl }}/img/display.png)
 
 # WEB & DESKTOP
 
