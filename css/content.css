@@ -171,3 +171,16 @@ developer.dol.gov
 #grab img {
     height: 125px;
 }
+
+
+
+.custom-alert-box {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background: #0A4366;
+    text-align: center;
+    line-height: 2.5;
+    -webkit-box-shadow: 0 0 5px black;
+    -moz-box-shadow:    0 0 5px black;
+    box-shadow:         0 0 5px black;
+}

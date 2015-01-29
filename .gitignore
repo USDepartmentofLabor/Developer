@@ -2,3 +2,4 @@ _site
 .sass-cache
 /nbproject/private/
 .DS_Store
+.idea/
