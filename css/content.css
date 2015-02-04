@@ -142,6 +142,7 @@ developer.dol.gov
     font-weight:bold;
     font-size: 30px;
     color: black;
+    
 }
 
 .grabdiv {
@@ -170,6 +171,50 @@ developer.dol.gov
 
 #grab img {
     height: 125px;
+}
+
+#how {
+    display: table-cell;
+    vertical-align: middle;
+    height: 450px;
+    background: -webkit-linear-gradient(#9dd3c5, #7ca89d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9dd3c5, #7ca89d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9dd3c5, #7ca89d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9dd3c5, #7ca89d); /* Standard syntax (must be last) */
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#how h1 {
+    font-size: 36px;
+    font-weight: bold;
+    
+
+}
+
+#how .button {
+    background-color: black;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+}
+
+.howdiv {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.howdiv p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+    font-size: 18px;
+    color: black;
+}
+
+.howdiv h2 {
+    font-size: 28px;
+    font-weight: bold;
 }
 
 
