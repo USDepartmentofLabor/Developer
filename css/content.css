@@ -12,7 +12,7 @@ developer.dol.gov
 
 #choose {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-image: url("../img/devs_coffee.jpg");
     display: table-cell;
     vertical-align: middle;
@@ -39,14 +39,33 @@ developer.dol.gov
     font-size: 42px;
     font-weight: bold;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#choose .button {
+.button_tran {
     background-color: black;
     opacity: .8;
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
+    margin: 0 20px;
+    width: 200px;
+    padding: 15px 0;
 }
+
+.button_dol {
+    background-color: black;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    margin: 0 20px;
+    width: 150px;
+    padding: 15px 0;
+}
+
+#choose .button:hover, #stats .button:hover, #grab .button:hover,.button_tran:hover, .button_dol:hover {
+    background-color: #333333;
+}
+
 
 .cb2 {
     position:relative; right: 00px;
@@ -62,18 +81,38 @@ developer.dol.gov
     color: #000;
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
+    text-align: center;
 }
 
-#stats p {
+.stats_dol {
+
+    background-color: #ffffff;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    text-align: center;
+
+}
+
+.stats_box {
+    padding: 75px 0;
+    height: 550px;
+}
+
+.stats_dol p {
     font-size: 22px;
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
+    text-align: left;
+    margin-left: 25px;
     
 }
 
-#stats h1 {
+.stats_dol h1 {
     font-size: 36px;
     font-weight: bold;
+    text-align: left;
+    margin-left: 25px;
 }
 
 #stats table {
@@ -88,12 +127,6 @@ developer.dol.gov
    
 }
 
-#stats .button {
-    background-color: black;
-    opacity: 1;
-     font-family: 'Open Sans', sans-serif;
-    font-weight:200;
-}
 
 #cpi {
     width: 100%;
@@ -103,13 +136,6 @@ developer.dol.gov
 }
 
 
-
-#cpi .button {
-    background-color: black;
-    opacity: .8;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
-}
 
 #cpi table {
     border: none;
@@ -128,7 +154,34 @@ developer.dol.gov
    
 }
 
+.image_box {
+    padding: 75px 0;
+    height: 450px;
+}
+.cpi_background {
+    background: url("../img/cpi_back.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/cpi_back.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../img/cpi_back.jpg,sizingMethod=scale)";
+    color: white;
+    text-align: center;
+}
+.cpi_background p {
+    font-size: 22px;
+    text-align: left;
+    margin-left: 20px;
+}
 
+.cpi_background h1 {
+    text-align: left;
+    color: white;
+    font-weight:bold;
+    font-size: 32px;
+    margin-left: 20px;
+}
 
 #grab {
     width: 100%;
@@ -164,13 +217,6 @@ developer.dol.gov
     color: black;
 }
 
-#grab .button {
-    background-color: black;
-    opacity: 1;
-     font-family: 'Open Sans', sans-serif;
-    font-weight:200;
-}
-
 #grab img {
     height: 125px;
 }
@@ -194,12 +240,7 @@ developer.dol.gov
 
 }
 
-#how .button {
-    background-color: black;
-    opacity: 1;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:200;
-}
+
 
 .howdiv {
     float: left;

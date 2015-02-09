@@ -1,72 +1,52 @@
-<div id = "menu">
-            <div class="megamenu_container megamenu_dark_bar megamenu_light">
-               <!-- Begin Menu Container -->
-               <ul class="megamenu" role="navigation">
-                  <!-- Begin Mega Menu -->
-                 <li>
-                 	<a href="#" class="no_megamenu_drop">USE THE API</a>
-                      <!-- Begin Item -->
-                  </li>
-                  <!-- End Item -->
-
-                  <li>
-                 	   <a href="#" class="no_megamenu_drop">EXPLORE THE DATA</a>
-                      
-                  </li>
-                  <!-- End Item -->
-
-                  <li>
-                     <a href="#" class="no_megamenu_drop">GRAB OUR CODE</a><!-- Begin Item -->
-
-                  </li>
-                  <!-- End Item -->
-                  <!-- About DOL -->
-                  <li>
-                     <a href="#" class="megamenu_drop">SUPPORT</a><!-- Begin Item -->
-                     <div class="dropdown_fullwidth dropdown_container">
-                        <!-- Begin Item Container -->
-                        <div class="col_5">
-                           <!-- h3>About the U.S. Department of Labor</h3 -->
-                           <ul>
-                           </ul>
-                        </div>
-                     </div>
-                     <!-- End Item container -->
-                 </li>
-                  <!-- End Item -->
-                  <!-- Newsroom -->
-                  <li>
-                     <a href="#" class="no_megamenu_drop">ABOUT THE API</a><!-- Begin Item -->
-                     
-                  </li>
-                  <!-- End Item -->
-               </ul>
-               <!-- End Mega Menu -->
-            </div>
-            <!-- End Menu Container -->
-         </div>
+<div id="menu">
+<nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+        <li class="name">
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+    </ul>
+    <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+            <li><a href="#">API KEYS</a></li>
+        </ul>
+        <ul class="left">
+            <li><a href="#">USE THE API</a></li>
+            <li><a href="#">EXPLORE THE DATA</a></li>
+            <li><a href="#">GRAB OUR CODE</a></li>
+            <li><a href="#">ABOUT THE API</a></li>
+            <li class="has-dropdown"><a href="#">SUPPORT</a>
+            <ul class="dropdown">
+                <li><a href="#">Contact Form</a></li>
+                <li><a href="#">API Help</a></li>
+            </ul>
+            </li>
+        </ul>
+    </section>
+</nav>
 <div class="valign_parent">
     <div id="choose" class="hometext">
         {{ choose | markdownify}}
-        <a href="beginner/"  class="button radius cb1">Beginner</a>
-        <a href="experienced/" class="button radius cb2">Experienced</a>
+        <a href="beginner/"  class="button radius button_tran">Beginner</a>
+        <a href="experienced/" class="button radius button_tran">Experienced</a>
     </div>
 </div>
-<div id="stats">
-    <table>
-        <tr><td>
-                {{ stats | markdownify }}
-                <a href="try/" class="button radius">Try It Out</a>
-                <a href="code/" class="button radius">Grab the Code</a>
-            </td>
-            <td>
-                <img src="{{ site.baseurl }}/img/3iPhones.png" alt="Three iPhones">
-            </td>
-        </tr>
-    </table>   
 </div>
 
-<div id="cpi" class="hometext">
+<div class="stats_dol stats_box">
+    <div class="large-6 columns">
+        {{ stats | markdownify }}
+        <a href="try/" class="button radius button_dol">Try It Out</a>
+        <a href="code/" class="button radius button_dol">Grab the Code</a>
+    </div>
+    <div class="large-6 columns">
+        <img src="{{ site.baseurl }}/img/3iPhones.png" alt="Three iPhones">
+
+    </div>
+</div>
+
+<!--<div id="cpi" class="hometext">
     <table>
         <tr><td>
                 <img src="{{ site.baseurl }}/img/Chart.png" alt="cpi graph">
@@ -78,21 +58,34 @@
 
         </tr>
     </table>  
+</div>-->
+
+<div class="cpi_background image_box">
+    <div class="large-6 columns">
+        <img src="{{ site.baseurl }}/img/Chart.png" alt="cpi graph">
+    </div>
+    <div class="large-6 columns">
+        {{ cpi | markdownify }}
+        <a href="data/" class="button radius button_tran">Sample the Data</a>
+
+    </div>
 </div>
+
+
 <div class="valign_parent">
     <div id="grab">
         <h1>GRAB OUR CODE</h1>
         <div class="grabdiv">
             {{ grab1 | markdownify }}
-            <a href="code/" class="button radius">Grab Code</a>
+            <a href="code/" class="button radius button_dol">Grab Code</a>
         </div>
         <div class="grabdiv">
             {{ grab2 | markdownify }}
-            <a href="code/" class="button radius">Grab Code</a>
+            <a href="code/" class="button radius button_dol">Grab Code</a>
         </div>
         <div class="grabdiv">
             {{ grab3 | markdownify }}
-            <a href="code/" class="button radius">Grab Code</a>
+            <a href="code/" class="button radius button_dol">Grab Code</a>
         </div>
     </div>
 </div>

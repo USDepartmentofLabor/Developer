@@ -59,7 +59,7 @@ body {
   color: #222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+ font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1144,7 +1144,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+ font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1237,7 +1237,7 @@ button, .button {
     text-align: right;
     padding-right: 0.75rem; }
   button.radius, .button.radius {
-    border-radius: 3px; }
+    border-radius: 8px; }
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
@@ -3648,8 +3648,9 @@ p {
     font-style: italic; }
 
 /* Default header styles */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+h1, h2, h3, h4, h5, h6 {  
+   
+    font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
