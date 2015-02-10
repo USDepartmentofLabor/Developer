@@ -7,6 +7,9 @@ baseurl: "/Developer" # the subpath of your site, e.g. /blog/
 url: "http://USDepartmentOfLabor.github.io" # the base hostname & protocol for your site
 #baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://localhost" # the base hostname & protocol for your site
+#baseurl: ""
+#url: "http://developerportal.opadev.dol.gov/"
+
 
 # Build settings
 markdown: rdiscount
