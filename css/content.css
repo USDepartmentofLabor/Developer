@@ -103,16 +103,12 @@ developer.dol.gov
     font-size: 22px;
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
-    text-align: left;
-    margin-left: 25px;
     
 }
 
-.stats_dol h1 {
+.stats_dol h1, .how_background h1 {
     font-size: 36px;
     font-weight: bold;
-    text-align: left;
-    margin-left: 25px;
 }
 
 #stats table {
@@ -221,10 +217,7 @@ developer.dol.gov
     height: 125px;
 }
 
-#how {
-    display: table-cell;
-    vertical-align: middle;
-    height: 450px;
+.how_background {
     background: -webkit-linear-gradient(#9dd3c5, #7ca89d); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#9dd3c5, #7ca89d); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#9dd3c5, #7ca89d); /* For Firefox 3.6 to 15 */
@@ -233,33 +226,42 @@ developer.dol.gov
     text-align: center;
 }
 
+
 #how h1 {
     font-size: 36px;
-    font-weight: bold;
-    
-
+    font-weight: 400;
 }
 
-
-
 .howdiv {
-    float: left;
-    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.howdiv p,.dol_sub h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.dol_sub {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.howdiv h2,.dol_sub h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
     text-align: center;
 }
 
-.howdiv p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight:200;
-    font-size: 18px;
-    color: black;
+.how_box {
+    padding: 10px 10px;
+    height: 400px;
 }
-
-.howdiv h2 {
-    font-size: 28px;
-    font-weight: bold;
-}
-
 
 
 .custom-alert-box {
@@ -271,4 +273,22 @@ developer.dol.gov
     -webkit-box-shadow: 0 0 5px black;
     -moz-box-shadow:    0 0 5px black;
     box-shadow:         0 0 5px black;
+}
+
+.vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%); /* For mozilla support */
+    -webkit-transform: translateY(-50%); /* For safari support */
+    -ms-transform: translateY(-50%); /* For IE support */
+    -o-transform: translateY(-50%); /* For opera support */
+}
+
+ hr {
+    margin: 17px 0 18px;
+    height: 0;
+    clear: both;
+    border: solid #ddd;
+    border-width: 3px 0 0;
 }
