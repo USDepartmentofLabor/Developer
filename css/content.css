@@ -237,13 +237,47 @@ developer.dol.gov
     padding: 20px 0;
 }
 
-.howdiv p,.dol_sub h2 {
+.howdiv p,
+.dol_sub h2,
+.dol_sub h2 a,
+.dol_sub h2 a:link
+
+{
     font-family: 'Open Sans', sans-serif;
     font-weight:200;
     font-size: 16px;
     color: black;
     text-align: center;
     padding: 20px 0;
+}
+
+.dol_sub p,
+.dol_sub p a,
+.dol_sub p a:link
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.dol_sub h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: black;
+    text-align: left;
+    padding: 0;
+}
+
+.dol_sub h2 a:hover,
+.dol_sub h2 a:active,
+.dol_sub p a:hover,
+.dol_sub p a:active
+{
+    text-decoration: underline;
 }
 
 .dol_sub {
@@ -254,7 +288,7 @@ developer.dol.gov
 .howdiv h2,.dol_sub h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
-    font-weight: 600;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -292,3 +326,14 @@ developer.dol.gov
     border: solid #ddd;
     border-width: 3px 0 0;
 }
+ 
+ .icons {
+     position: relative;
+ }
+ 
+ .icons-content {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+ 
