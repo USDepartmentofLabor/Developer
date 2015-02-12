@@ -326,14 +326,39 @@ developer.dol.gov
     border: solid #ddd;
     border-width: 3px 0 0;
 }
- 
- .icons {
-     position: relative;
- }
- 
- .icons-content {
-     position: absolute;
-     bottom: 0;
-     left: 0;
- }
- 
+
+
+.top-bar {
+    background: #E4E4E4;
+    color: black !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.top-bar-section li a:not(.button) {
+    background: #E4E4E4 !important;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.top-bar-section li a:not(.button):hover {
+    background: #0A4366 !important;
+    color: black;
+}
+
+.top-bar-section ul li.active > a {
+    background: #0A4366 !important;
+    color: black;
+}
+
+.top-bar-section ul li.active > a:hover {
+    background: #0A4366  !important;
+    color: black;
+}
+
+.top-bar-section .has-dropdown > a:after {
+    border-color: #000000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
