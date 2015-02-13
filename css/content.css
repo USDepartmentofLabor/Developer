@@ -106,7 +106,10 @@ developer.dol.gov
     
 }
 
-.stats_dol h1, .how_background h1 {
+.stats_dol h1,
+.how_background h1,
+.how_experienced h1
+{
     font-size: 36px;
     font-weight: bold;
 }
@@ -218,12 +221,22 @@ developer.dol.gov
 }
 
 .how_background {
-    background: -webkit-linear-gradient(#9dd3c5, #7ca89d); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#9dd3c5, #7ca89d); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#9dd3c5, #7ca89d); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#9dd3c5, #7ca89d); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(#58AFC2, #7ca89d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#58AFC2, #7ca89d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#58AFC2, #7ca89d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#58AFC2, #7ca89d); /* Standard syntax (must be last) */
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+}
+
+.how_experienced {
+    background: -webkit-linear-gradient(#9dd3c5, #8AE7EF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9dd3c5, #8AE7EF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9dd3c5, #8AE7EF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9dd3c5, #8AE7EF); /* Standard syntax (must be last) */
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
 }
 
 
@@ -361,4 +374,19 @@ developer.dol.gov
 
 .top-bar-section .has-dropdown > a:after {
     border-color: #000000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+.details {
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/devs_coffee.jpg");
+    color: white;
+    
+    
+}
+
+.details h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
 }
