@@ -1,15 +1,25 @@
 <div class="valign_parent">
     <div id="choose" class="hometext">
         {{ choose | markdownify}}
-        <a href="beginner/"  class="button radius button_tran">Beginner</a>
+        <a href="beginner/" class="button radius button_tran">Beginner</a>
         <a href="experienced/" class="button radius button_tran">Experienced</a>
     </div>
 </div>
 <div class="stats_dol stats_box">
     <div class="large-6 columns">
-        {{ stats | markdownify }}
-        <a href="try/" class="button radius button_dol">Try It Out</a>
-        <a href="code/" class="button radius button_dol">Grab the Code</a>
+        <div class="row">
+            <div class="large-8 large-offset-2 columns end">
+                {{ stats | markdownify }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-3 large-offset-2 columns">
+                <a href="try/" class="button radius button_dol">Try It Out</a>
+            </div>
+            <div class="large-3 large-offset-2 columns end">
+                <a href="code/" class="button radius button_dol">Grab the Code</a>
+            </div>
+        </div>
     </div>
     <div class="large-6 columns">
         <img src="{{ site.baseurl }}/img/3iPhones.png" alt="Three iPhones">
@@ -26,22 +36,26 @@
 
     </div>
 </div>
-
-
-<div class="valign_parent">
-    <div id="grab">
-        <h1>GRAB OUR CODE</h1>
-        <div class="grabdiv">
-            {{ grab1 | markdownify }}
-            <a href="code/" class="button radius button_dol">Grab Code</a>
-        </div>
-        <div class="grabdiv">
-            {{ grab2 | markdownify }}
-            <a href="code/" class="button radius button_dol">Grab Code</a>
-        </div>
-        <div class="grabdiv">
-            {{ grab3 | markdownify }}
-            <a href="code/" class="button radius button_dol">Grab Code</a>
+<div id="grab">
+    <div class="row">
+        <div class="small-6 small-centered columns">
+            <h1><br />GRAB OUR CODE</h1><br/>
         </div>
     </div>
+    <div class="row">
+        <div class="small-4 columns">
+            {{ grab1 | markdownify }}
+            <a href="code/" class="button radius button_dol">SDK</a>
+        </div>
+        <div class="small-4 columns">
+            {{ grab2 | markdownify }}
+            <a href="code/" class="button radius button_dol">Mobile</a>
+        </div>
+        <div class="small-4 columns">
+            {{ grab3 | markdownify }}
+            <a href="code/" class="button radius button_dol">Web & Desktop</a>
+            
+        </div>
+    </div>
+    <div class="row"><br /><br /></div>
 </div>

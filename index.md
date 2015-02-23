@@ -18,11 +18,11 @@ layout: default
 
 # Labor Stats
 
-Keep up to date on the latest  
-economic indicators from the  
-Department of Labor using our  
-Employment Training Administration &  
-Business Labor Statistics datasets.  
+Keep up to date on the latest
+economic indicators from the
+Department of Labor using our
+Employment Training Administration &
+Business Labor Statistics datasets.
 
 {% endcapture %}
 
@@ -41,37 +41,21 @@ of goods and services
 
 {% capture grab1 %}
 
-![Settings gear icon]({{ site.baseurl }}/img/settings.png)
-
-# SDK
-
-The description of the  
-SDK would go here  
-with a button.  
+[![Settings gear icon]({{ site.baseurl }}/img/settings.png)]({{ site.baseurl }}/code/)
 
 {% endcapture %}
 
 {% capture grab2 %}
 
-![Mobile phone icon]({{ site.baseurl }}/img/phone.png)
-
-# MOBILE
-
-The description of the  
-Mobile code would go  
-here with a button.  
+[![Mobile phone icon]({{ site.baseurl }}/img/phone.png)]({{ site.baseurl }}/code/)
+  
 
 {% endcapture %}
 
 {% capture grab3 %}
 
-![Computer Display Icon]({{ site.baseurl }}/img/display.png)
-
-# WEB & DESKTOP
-
-The description of the  
-Web and Desktop  
-code would go here.  
+[![Computer Display Icon]({{ site.baseurl }}/img/display.png)]({{ site.baseurl }}/code/)
+ 
 
 {% endcapture %}
 
