@@ -107,12 +107,17 @@ developer.dol.gov
     
 }
 
-.stats_dol h1,
+.stats_dol h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
 .how_background h1,
 .how_experienced h1
 {
     font-size: 36px;
     font-weight: bold;
+    color: white;
 }
 
 #stats table {
@@ -190,6 +195,15 @@ developer.dol.gov
 
 }
 
+.lefttext p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    font-size: 14px;
+    color: black;
+    
+}
+
 #grab h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight:bold;
@@ -199,8 +213,6 @@ developer.dol.gov
 }
 
 .grabdiv {
-    float: left;
-    width: 33%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
@@ -220,21 +232,25 @@ developer.dol.gov
 }
 
 .how_background {
-    background: -webkit-linear-gradient(#58AFC2, #7ca89d); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#58AFC2, #7ca89d); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#58AFC2, #7ca89d); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#58AFC2, #7ca89d); /* Standard syntax (must be last) */
+
+    /*background: -webkit-linear-gradient(#58AFC2, #7ca89d); *//* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(#58AFC2, #7ca89d); *//* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#58AFC2, #7ca89d); *//* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(#58AFC2, #7ca89d); *//* Standard syntax (must be last) */
+    background: #225448;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    color: white;
 }
 
 .how_experienced {
-    background: -webkit-linear-gradient(#9dd3c5, #8AE7EF); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#9dd3c5, #8AE7EF); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#9dd3c5, #8AE7EF); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#9dd3c5, #8AE7EF); /* Standard syntax (must be last) */
+    /*background: -webkit-linear-gradient(#9dd3c5, #8AE7EF); *//* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(#9dd3c5, #8AE7EF); *//* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#9dd3c5, #8AE7EF); *//* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(#9dd3c5, #8AE7EF); *//* Standard syntax (must be last) */
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    color: white;
     
 }
 
@@ -242,23 +258,35 @@ developer.dol.gov
 #how h1 {
     font-size: 36px;
     font-weight: 400;
+    color: white;
+    
 }
 
 .howdiv {
     text-align: center;
     padding: 20px 0;
+    color: white;
 }
 
 .howdiv p,
 .dol_sub h2,
 .dol_sub h2 a,
-.dol_sub h2 a:link
-
-{
+.dol_sub h2 a:link {
     font-family: 'Open Sans', sans-serif;
     font-weight:200;
     font-size: 16px;
     color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.howdiv p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+    font-size: 16px;
+    color: white;
     text-align: center;
     padding: 20px 0;
 }
@@ -297,11 +325,20 @@ developer.dol.gov
     padding: 25px 0;
 }
 
-.howdiv h2,.dol_sub h1 {
+.dol_sub h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
     font-weight: bolder;
     text-align: center;
+    color: black;
+}
+
+ .howdiv h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
 }
 
 .how_box {

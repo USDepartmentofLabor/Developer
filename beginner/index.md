@@ -3,11 +3,6 @@ Title: Beginners Guide
 layout: default
 ---
 
-{% capture how1 %}
-
-![Developer dashboard icon group]({{ site.baseurl }}/img/dashboard.png)
-
-{% endcapture %}
 
 {% capture how2 %}
 
