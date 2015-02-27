@@ -3,12 +3,6 @@ Title: Developers Guide
 layout: default
 ---
 
-{% capture how1 %}
-
-![Developer dashboard icon group]({{ site.baseurl }}/img/dashboard.png)
-
-{% endcapture %}
-
 {% capture how2 %}
 
 ## HOW OUR API WORKS

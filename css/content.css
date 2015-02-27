@@ -248,6 +248,7 @@ developer.dol.gov
     /*background: -o-linear-gradient(#9dd3c5, #8AE7EF); *//* For Opera 11.1 to 12.0 */
     /*background: -moz-linear-gradient(#9dd3c5, #8AE7EF); *//* For Firefox 3.6 to 15 */
     /*background: linear-gradient(#9dd3c5, #8AE7EF); *//* Standard syntax (must be last) */
+    background: #28577E;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
@@ -315,7 +316,8 @@ developer.dol.gov
 .dol_sub h2 a:hover,
 .dol_sub h2 a:active,
 .dol_sub p a:hover,
-.dol_sub p a:active
+.dol_sub p a:active,
+.details a:hover
 {
     text-decoration: underline;
 }
@@ -416,7 +418,9 @@ developer.dol.gov
 .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
     color: black; }
 
-.details {
+.details
+{
+    padding: 10px 0;
     width: 100%;
     height: 350px;
     background-image: url("../img/devs_coffee.jpg");
@@ -425,8 +429,15 @@ developer.dol.gov
     
 }
 
+.details a,
+.details a:link {
+    color: white;
+}
+
 .details h1 {
-    font-size: 36px;
+    padding: 10px 0;
+    font-size: 22px;
     font-weight: bold;
     color: white;
+    text-align: center;
 }
