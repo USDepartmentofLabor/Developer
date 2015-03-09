@@ -13,4 +13,4 @@ url: "http://USDepartmentOfLabor.github.io" # the base hostname & protocol for y
 
 # Build settings
 markdown: rdiscount
-permalink: pretty
+permalink: /:categories/:title

@@ -20,4 +20,4 @@ url: "http://developerportal.opadev.dol.gov/"
 
 # Build settings
 markdown: rdiscount
-permalink: pretty
+permalink: /dataset/:title

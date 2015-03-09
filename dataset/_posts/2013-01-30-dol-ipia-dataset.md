@@ -1,0 +1,381 @@
+---
+layout: post
+title: DOL IPIA Dataset
+created: 1359576936
+---
+
+```
+http://api.dol.gov/V1/IPIA
+```
+
+<p>The U.S. Department of Labor has been working collaboratively with our state partners to identify several robust strategies that focus on the prevention of overpayments and will yield the highest impact in reducing UI improper payment rates.</p>
+
+<p>Improper Unemployment Insurance benefit payments are most likely to occur when:</p>
+
+<ul>
+	<li>Recipients continue to claim benefits after returning to work;</li>
+	<li>Employers or their third party administrators do not submit timely or accurate separation information; and</li>
+	<li>Claimants fail to register with the state's Employment Service (ES) as dictated by state law.</li>
+</ul>
+
+<p>Earlier this year, the Department actively intervened to encourage the ten states with the highest Employment Service registration error rates to focus on the issue. Senior DOL officials personally contacted these states to determine specific steps the states would take to address their error rates, and the Department provided targeted technical assistance.</p>
+
+<p>As a result, dramatic progress is being made in this area, with a 23% reduction in improper payments to people who did not register with employment services agencies, including a more than 35% drop in eight states.</p>
+
+
+### Dataset Metadata  
+http://api.dol.gov/V1/IPIA/$metadata
+
+[Sample the DOL IPIA Dataset](https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL IPIA)  
+
+### Dataset Tables:  
+<h3>causeByState</h3>
+
+<p>IPIA Cause By State</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Column Name</th>
+			<th>Column Description</th>
+			<th>Data Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>id</th>
+			<td>Record Id. - Primary Key</td>
+			<td>bigint</td>
+		</tr>
+		<tr>
+			<th>state</th>
+			<td>State.</td>
+			<td>varchar (3)</td>
+		</tr>
+		<tr>
+			<th>bamSample</th>
+			<td>Benefit Accuracy Measurement Sample.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>amountPaid</th>
+			<td>Amount paid.</td>
+			<td>decimal (19, 4)</td>
+		</tr>
+		<tr>
+			<th>estimatedAmountBenefitsOverpaid</th>
+			<td>Estimated amount of benefits overpaid.</td>
+			<td>decimal (19, 4)</td>
+		</tr>
+		<tr>
+			<th>percentDollarsPaidInError</th>
+			<td>Percent of dollars paid in error.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>benefitYearEarnings</th>
+			<td>Benefit year earnings.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>workSearchIssues</th>
+			<td>Work search issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>separationIssues</th>
+			<td>Seperation issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>esRegistrationIssues</th>
+			<td>E.S. registration issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>basePeriodWagesIssues</th>
+			<td>Base period wages issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>AbleAndAvailable</th>
+			<td>Able and available.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>otherEligibleIssue</th>
+			<td>Other eligible issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>otherIssues</th>
+			<td>Other issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>otherBenifits</th>
+			<td>Other benefits.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>dependentsAllow</th>
+			<td>Dependants issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>periodStartDate</th>
+			<td>Period start date.</td>
+			<td>datetime</td>
+		</tr>
+		<tr>
+			<th>periodEndDate</th>
+			<td>Period end date.</td>
+			<td>datetime</td>
+		</tr>
+	</tbody>
+</table>
+<h3>causeByStateSummary</h3>
+
+<p>IPIA Cause By State 3 Year Summary</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Column Name</th>
+			<th>Column Description</th>
+			<th>Data Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>id</th>
+			<td>Record Id. - Primary Key</td>
+			<td>bigint</td>
+		</tr>
+		<tr>
+			<th>state</th>
+			<td>State.</td>
+			<td>varchar (3)</td>
+		</tr>
+		<tr>
+			<th>bamSample</th>
+			<td>Benefit Accuracy Measurement Sample.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>amountPaid</th>
+			<td>Amount paid.</td>
+			<td>decimal (19, 4)</td>
+		</tr>
+		<tr>
+			<th>estimatedAmountBenefitsOverpaid</th>
+			<td>Estimated amount of benefits overpaid.</td>
+			<td>decimal (19, 4)</td>
+		</tr>
+		<tr>
+			<th>percentDollarsPaidInError</th>
+			<td>Percent of dollars paid in error.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>benefitYearEarnings</th>
+			<td>Benefit year earnings.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>workSearchIssues</th>
+			<td>Work search issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>separationIssues</th>
+			<td>Seperation issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>esRegistrationIssues</th>
+			<td>E.S. registration issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>basePeriodWagesIssues</th>
+			<td>Base period wages issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>AbleAndAvailable</th>
+			<td>Able and available.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>otherEligibleIssue</th>
+			<td>Other eligible issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>otherIssues</th>
+			<td>Other issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>otherBenifits</th>
+			<td>Other benefits.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>dependentsAllow</th>
+			<td>Dependants issues.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>periodStartDate</th>
+			<td>Period start date.</td>
+			<td>datetime</td>
+		</tr>
+		<tr>
+			<th>periodEndDate</th>
+			<td>Period end date.</td>
+			<td>datetime</td>
+		</tr>
+	</tbody>
+</table>
+<h3>rate</h3>
+
+<p>IPIA Rate</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Column Name</th>
+			<th>Column Description</th>
+			<th>Data Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>id</th>
+			<td>Record Id. - Primary Key</td>
+			<td>bigint</td>
+		</tr>
+		<tr>
+			<th>state</th>
+			<td>State.</td>
+			<td>varchar (3)</td>
+		</tr>
+		<tr>
+			<th>Sample</th>
+			<td>Sample.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>TotalPaid</th>
+			<td>Total paid.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>annualReportRate</th>
+			<td>Annual report rate.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>operatingRate</th>
+			<td>Operating rate.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>fraudRate</th>
+			<td>Fraud rate.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>underpaymentRate</th>
+			<td>Underpayment rate.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>ipiaImproperPaymentRate</th>
+			<td>IPIA improper payment rate.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>periodStartDate</th>
+			<td>Period start date.</td>
+			<td>datetime</td>
+		</tr>
+		<tr>
+			<th>periodEndDate</th>
+			<td>Period end date.</td>
+			<td>datetime</td>
+		</tr>
+	</tbody>
+</table>
+<h3>rateSummary</h3>
+
+<p>IPIA Rate 3 Year Summary</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Column Name</th>
+			<th>Column Description</th>
+			<th>Data Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>id</th>
+			<td>Record Id. - Primary Key</td>
+			<td>bigint</td>
+		</tr>
+		<tr>
+			<th>state</th>
+			<td>State.</td>
+			<td>varchar (3)</td>
+		</tr>
+		<tr>
+			<th>Sample</th>
+			<td>Sample.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>TotalPaid</th>
+			<td>Total paid.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>annualReportRate</th>
+			<td>Annual report rate.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>operatingRate</th>
+			<td>Operating rate.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>fraudRate</th>
+			<td>Fraud rate.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>underpaymentRate</th>
+			<td>Underpayment rate.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>ipiaImproperPaymentRate</th>
+			<td>IPIA improper payment rate.</td>
+			<td>float</td>
+		</tr>
+		<tr>
+			<th>periodStartDate</th>
+			<td>Period start date.</td>
+			<td>datetime</td>
+		</tr>
+		<tr>
+			<th>periodEndDate</th>
+			<td>Period end date.</td>
+			<td>datetime</td>
+		</tr>
+	</tbody>
+</table>

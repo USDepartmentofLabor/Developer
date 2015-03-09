@@ -1,0 +1,72 @@
+---
+layout: post
+title: DOL MSPA Dataset
+created: 1359490827
+---
+
+```
+http://api.dol.gov/V1/MSPA
+```
+
+<p>Migrant and Seasonal Agricultural Protection Act (MSPA) Registered Farm Labor Contractor Listing: The MSPA requires a contractor to obtain federal certification prior to performing any farm labor contracting activities. The farm labor contractors who appear on the following list have obtained a federal certificate. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Agriculture/Migrant-and-Seasonal-Agricultural-Protection-Act-M/bsvf-3e67&amp;exitTitle=Migrant%20and%20Seasonal%20Agricultural%20Protection%20Act%20(MSPA)&amp;fedpage=yes">http://explore.data.gov/Agriculture/Migrant-and-Seasonal-Agricultural-Protection-Act-M/bsvf-3e67</a></p>
+
+
+### Dataset Metadata  
+http://api.dol.gov/V1/MSPA/$metadata
+
+[Sample the DOL MSPA Dataset](https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL MSPA)  
+
+### Dataset Tables:  
+<h3>FarmLaborContractors Table</h3>
+
+<table>
+	<thead>
+		<tr>
+			<th>Column Name</th>
+			<th>Column Description</th>
+			<th>Data Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>FLC_Certificate_Number</th>
+			<td>Farm Labor Contractor Number - Primary key</td>
+			<td>varchar(20)</td>
+		</tr>
+		<tr>
+			<th>FLC_Business_or_Individual</th>
+			<td>Busines or Individual Name</td>
+			<td>varchar(80)</td>
+		</tr>
+		<tr>
+			<th>FLC_Address</th>
+			<td>Address</td>
+			<td>varchar(100)</td>
+		</tr>
+		<tr>
+			<th>FLC_Business_Type</th>
+			<td>Business Type</td>
+			<td>varchar(30)</td>
+		</tr>
+		<tr>
+			<th>Driving_Authorization</th>
+			<td>Driving Authorization</td>
+			<td>char(1)</td>
+		</tr>
+		<tr>
+			<th>Housing_Authorization</th>
+			<td>Housing Authorization</td>
+			<td>char(1)</td>
+		</tr>
+		<tr>
+			<th>Transportation_Authorization</th>
+			<td>Transportation Authorization</td>
+			<td>char(1)</td>
+		</tr>
+		<tr>
+			<th>FLC_Certificate_Valid_Until</th>
+			<td>FLC Certificate Valid Until</td>
+			<td>dateTime</td>
+		</tr>
+	</tbody>
+</table>
