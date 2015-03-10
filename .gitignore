@@ -3,3 +3,4 @@ _site
 /nbproject/private/
 .DS_Store
 .idea/
+deploy.sh
