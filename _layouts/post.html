@@ -1,16 +1,54 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="row" data-equalizer>
+    <div class="large-4 columns show-for-medium-up" data-equalizer-watch>
+        <ul class="accordion" data-accordion>
+            <li class="accordion-navigation">
+                <a href="#healthsafe">Health & Safety</a>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+                <div id="healthsafe" class="content">
+                    <ul>
+                        <li><a href="{{ site.baseurl }}/dataset/dol-osha-compliance-dataset">OSHA Compliance</a></li>
+                        <li><a href="{{ site.baseurl }}/dataset/mine-inspections-dataset">Mine Inspection</a></li>
+                        <li><a href="{{ site.baseurl }}/dataset/mine-accident-injuries-dataset">Mine Accident
+                            Injuries</a></li>
+                        <li><a href="{{ site.baseurl }}/dataset/dol-mine-violation-dataset">Mine Violations</a></li>
+                        <li><a href="{{ site.baseurl }}/dataset/dol-full-mine-info-mines-dataset">Full Mine Info</a></li>
+                        <li><a href="{{ site.baseurl }}/dataset/dol-basic-mine-info-dataset">Basic Mine Info</a></li>
+                        <li><a href="{{ site.baseurl }}/dataset/injuries-and-illness-dataset">Injuries And Illness</a></li>
+                        <li><a href="{{ site.baseurl }}/dataset/fatal-occupational-injuries-dataset">Fatal Occupational Injuries</a></li>
+                        <li><a href="{{ site.baseurl }}/dataset/dol-safety-and-health-dataset">Safety &amp; Health</a></li>
+                        <li><a href="{{ site.baseurl }}/dataset/dol-msha-employment-production-dataset">MSHA Employment Production</a></li>
+                        <li><a href="{{ site.baseurl }}/dataset/auto-workers-dataset">Auto Workers</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation">
+                <a href="#keeping">Keeping What You Earn</a>
+                <div id="keeping" class="content">
+                    <ul>
+                        <li><a href="/dataset/dol-whd-compliance-dataset">WHD Compliance Dataset</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
 
-  <article class="post-content">
-    {{ content | markdownify }}
-  </article>
+    </div>
+
+
+    <div class="large-8 columns post">
+
+        <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+
+            <p class="post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
+
+        <article class="post-content">
+            {{ content | markdownify }}
+        </article>
+
+    </div>
 
 </div>
-r

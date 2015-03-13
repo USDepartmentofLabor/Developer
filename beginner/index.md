@@ -3,9 +3,7 @@ Title: Beginners Guide
 layout: default
 ---
 
-
 {% capture how2 %}
-
 ## HOW OUR API WORKS
 
 Explaining how the api to the left works. Or just snappy  

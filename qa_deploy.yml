@@ -10,14 +10,9 @@ title: U.S. Department of Labor Developer
 email: neyman.neil.e@dol.gov
 description: > # this means to ignore newlines until "baseurl:"
   Department of Labor Developer API Site
-#baseurl: "/Developer" # the subpath of your site, e.g. /blog/
-#url: "http://USDepartmentOfLabor.github.io" # the base hostname & protocol for your site
-#baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://localhost" # the base hostname & protocol for your site
 baseurl: ""
 url: "http://developerportal.opadev.dol.gov/"
 
-
 # Build settings
 markdown: rdiscount
-permalink: /dataset/:title
+permalink: /:categories/:title
