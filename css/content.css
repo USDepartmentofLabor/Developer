@@ -72,6 +72,16 @@ developer.dol.gov
     padding: 15px 0;
 }
 
+.button_dataset {
+    background-color: black;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+
+    width: 150px;
+    padding: 15px 0;
+}
+
 #choose .button:hover, #stats .button:hover, #grab .button:hover,.button_tran:hover, .button_dol:hover {
     background-color: #333333;
 }
