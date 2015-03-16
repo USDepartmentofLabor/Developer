@@ -1,6 +1,6 @@
 ---
 Title: Datasets
-layout: datasets
+layout: default
 ---
 
-# Datasets
+{% include explore.html %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BLS Current Employment Statistics (CES)
+title: Current Employment Statistics (CES)
 created: 1359575092
 ---
 

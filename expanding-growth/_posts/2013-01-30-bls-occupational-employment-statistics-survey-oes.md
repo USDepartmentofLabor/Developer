@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BLS Occupational Employment Statistics Survey (OES)
+title: Occupational Employment Statistics Survey (OES)
 created: 1359578884
 ---
 

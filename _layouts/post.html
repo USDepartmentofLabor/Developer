@@ -7,30 +7,41 @@ layout: default
             <li class="accordion-navigation">
                 <a href="#healthsafe">Health & Safety</a>
 
-                <div id="healthsafe" class="content">
+                <div id="healthsafe" class="content {% if page.categories contains 'health-and-safety' %}active{% endif %}">
                     <ul>
-                        <li><a href="{{ site.baseurl }}/dataset/dol-osha-compliance-dataset">OSHA Compliance</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/mine-inspections-dataset">Mine Inspection</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/mine-accident-injuries-dataset">Mine Accident Injuries</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/dol-mine-violation-dataset">Mine Violations</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/dol-full-mine-info-mines-dataset">Full Mine Info</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/dol-basic-mine-info-dataset">Basic Mine Info</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/injuries-and-illness-dataset">Injuries And Illness</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/gulf-oil-spill">Gulf Oil Spill</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/fatal-occupational-injuries-dataset">Fatal Occupational Injuries</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/dol-safety-and-health-dataset">Safety &amp; Health</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/dol-msha-employment-production-dataset">MSHA Employment Production</a></li>
-                        <li><a href="{{ site.baseurl }}/dataset/auto-workers-dataset">Auto Workers</a></li>
+                        {% for item in site.categories.health-and-safety %}
+                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </li>
             <li class="accordion-navigation">
                 <a href="#keeping">Keeping What You Earn</a>
-                <div id="keeping" class="content">
+                <div id="keeping" class="content {% if page.categories contains 'keeping-what-you-earn' %}active{% endif %}">
                     <ul>
-                        <li><a href="/dataset/wage-and-hour-publications">Wage & Hour Publications System</a></li>
-                        <li><a href="/dataset/dol-whd-compliance-dataset">WHD Compliance</a></li>
-                        <li><a href="/dataset/dol-mspa-dataset">DOL MSPA</a></li>
+                        {% for item in site.categories.keeping-what-you-earn %}
+                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation">
+                <a href="#expanding">Expanding Growth Opportunities & Learning</a>
+                <div id="expanding" class="content {% if page.categories contains 'expanding-growth' %}active{% endif %}">
+                    <ul>
+                        {% for item in site.categories.expanding-growth %}
+                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation">
+                <a href="#others">Others</a>
+                <div id="others" class="content {% if page.categories contains 'others' %}active{% endif %}">
+                    <ul>
+                        {% for item in site.categories.others %}
+                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </li>

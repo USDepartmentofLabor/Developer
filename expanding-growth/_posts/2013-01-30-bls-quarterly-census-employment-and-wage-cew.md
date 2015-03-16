@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BLS Quarterly Census Employment and Wage (CEW)
+title: Quarterly Census Employment and Wage (CEW)
 created: 1359578858
 ---
 

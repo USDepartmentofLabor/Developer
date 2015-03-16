@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BLS Current Population Survey (CPS)
+title: Current Population Survey (CPS)
 created: 1359579396
 ---
 

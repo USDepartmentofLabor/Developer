@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BLS Consumer Price Indexes (CPI)
+title: Consumer Price Indexes (CPI)
 created: 1359576522
 ---
 
