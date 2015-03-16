@@ -82,7 +82,8 @@ developer.dol.gov
     padding: 15px 0;
 }
 
-#choose .button:hover, #stats .button:hover, #grab .button:hover,.button_tran:hover, .button_dol:hover {
+#choose .button:hover, #stats .button:hover, #grab .button:hover,.button_tran:hover, .button_dol:hover,
+.button_dataset:hover {
     background-color: #333333;
 }
 
@@ -364,9 +365,14 @@ developer.dol.gov
     color: white;
 }
 
-.how_box {
+.how_box_experienced {
     padding: 10px 10px;
-    height: 400px;
+    height: 450px;
+}
+
+.how_box_beginner {
+    padding: 10px 10px;
+    height: 375px;
 }
 
 
@@ -441,10 +447,7 @@ developer.dol.gov
 
 .details
 {
-    padding: 10px 0;
-    width: 100%;
-    height: 350px;
-    background-image: url("../img/devs_coffee.jpg");
+
     color: white;
     
     

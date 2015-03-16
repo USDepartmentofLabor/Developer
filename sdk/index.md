@@ -1,6 +1,6 @@
 ---
-Title: SDK
-layout: sdk
+Title: Grab Our Code
+layout: default
 ---
 
-# SDKs
+{% include grab.html %}
