@@ -11,8 +11,8 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 <p>The Injuries, Illnesses, and Fatalities (IIF) program provides annual information on the rate and number of work related injuries, illnesses, and fatal injuries, and how these statistics vary by incident, industry, geography, occupation, and other characteristics. More information and details about the data provided can be found at <a href="http://bls.gov/iif/Data.htm">http://bls.gov/iif/Data.htm</a>.</p>
 
 
-<a href ="http://api.dol.gov/V1/Safety/InjuriesAndIllness/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Injuries%20and%20Illness%20Dataset" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Safety/InjuriesAndIllness/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Injuries%20and%20Illness%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

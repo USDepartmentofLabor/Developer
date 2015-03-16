@@ -11,8 +11,8 @@ http://api.dol.gov/V1/SafetyHealth
 <p>Data related to safety and health in the workplace.</p>
 
 
-<a href ="http://api.dol.gov/V1/SafetyHealth/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="http://developer.dol.gov/DOL-SafetyHealth-DATASET.htm" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/SafetyHealth/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="http://developer.dol.gov/DOL-SafetyHealth-DATASET.htm" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

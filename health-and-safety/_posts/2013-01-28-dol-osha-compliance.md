@@ -13,8 +13,8 @@ http://api.dol.gov/V1/Compliance/OSHA
 <p>This complete dataset can be found on the DOL Data Enforcement application at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://enforcedata.dol.gov&amp;exitTitle=Enforcement&amp;fedpage=yes">http://enforcedata.dol.gov</a></p>
 
 
-<a href ="http://api.dol.gov/V1/Compliance/OSHA/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Compliance-OSHA" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Compliance/OSHA/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Compliance-OSHA" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

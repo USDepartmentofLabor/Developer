@@ -11,8 +11,8 @@ http://api.dol.gov/V1/Mining/FullMineInfo/
 <p>The Full Mine Info dataset lists all Coal and Metal/Non-Metal mines under MSHA's jurisdiction since 1/1/1970. It includes such information as the current status of each mine (Active, Abandoned, NonProducing, etc.), the current owner and operating company, commodity codes and physical attributes of the mine. Mine ID is the unique key for this data.</p>
 
 
-<a href ="http://api.dol.gov/V1/Mining/FullMineInfo/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Mines%20Dataset" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Mining/FullMineInfo/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Mines%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

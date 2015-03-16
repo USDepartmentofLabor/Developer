@@ -13,8 +13,8 @@ http://api.dol.gov/V1/Compliance/MineInspection
 <p>This complete dataset can be found at https://explore.data.gov/Energy-and-Utilities/Mine-Inspections/wt25-mkey</p>
 
 
-<a href ="http://api.dol.gov/V1/Compliance/MineInspection/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Mine%20Inspections%20Dataset" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Compliance/MineInspection/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Mine%20Inspections%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

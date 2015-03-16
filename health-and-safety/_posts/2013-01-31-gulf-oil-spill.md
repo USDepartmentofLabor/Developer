@@ -11,8 +11,8 @@ http://api.dol.gov/V1/Safety/GulfOilSpill
 <p>Following its sampling plan, OSHA industrial hygienists are monitoring workers engaged in the oil spill clean up in the Gulf of Mexico for exposure to hazardous chemicals and conditions. These data tables provide sample results for chemicals, noise, and heat stress index measurements. Samples to assess airborne concentrations of oil, weathered oil, oil dispersants, cleaning agents and other materials as identified are taken. When evaluating worker exposure, direct reading instruments and shift-long sampling is performed in the actual breathing zone of workers. OSHA has also sampled areas that are periodically frequented by workers but the samples are not taken from the breathing zone of workers. Finally, OSHA has sampled directly over tar balls, inside bags containing contaminated materials, and other locations that do not represent worker exposure but provide information on the types of chemicals that may be coming off contaminated materials.</p>
 
 
-<a href ="http://api.dol.gov/V1/Safety/GulfOilSpill/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Gulf%20Oil%20Spill" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Safety/GulfOilSpill/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Gulf%20Oil%20Spill" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

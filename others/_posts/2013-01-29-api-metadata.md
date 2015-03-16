@@ -11,7 +11,7 @@ http://api.dol.gov/V1/APIMetadata
 <p>The API Metadata provides a list of available datasets that the Department of Labor supplies as a service.</p>
 
 
-<a href ="http://api.dol.gov/V1/APIMetadata/$metadata" class="button radius button_dataset">Dataset Metadata</a>
+<a href ="http://api.dol.gov/V1/APIMetadata/$metadata" class="button radius button_dataset">Browse Metadata</a>
 
 
 ### Dataset Tables:  

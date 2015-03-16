@@ -13,8 +13,8 @@ http://api.dol.gov/V1/Geography
 <p><img alt="" src="/sites/default/files/dataset-geography.jpg" style="width: 407px; height: 401px;" /></p>
 
 
-<a href ="http://api.dol.gov/V1/Geography/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Geography" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Geography/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Geography" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

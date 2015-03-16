@@ -18,8 +18,8 @@ http://api.dol.gov/V1/Statistics/WIA
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Labor-Force-Employment-and-Earnings/Workforce-Investment-Act-WIA-Net-Impact-Evaluation/m6mr-quje&amp;exitTitle=Workforce Investment Act&amp;fedpage=yes">http://explore.data.gov/Labor-Force-Employment-and-Earnings/Workforce-Investment-Act-WIA-Net-Impact-Evaluation/m6mr-quje</a></p>
 
 
-<a href ="http://api.dol.gov/V1/Statistics/WIA/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Workforce Investment Act" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Statistics/WIA/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Workforce Investment Act" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

@@ -72,6 +72,26 @@ developer.dol.gov
     padding: 15px 0;
 }
 
+.button_dol_left {
+    background-color: black;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    text-align: left;
+    width: 150px;
+    padding: 15px 0;
+}
+
+.button_ls {
+    background-color: black;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+
+    width: 100px;
+    padding: 15px 0;
+}
+
 .button_dataset {
     background-color: black;
     opacity: 1;
@@ -83,7 +103,9 @@ developer.dol.gov
 }
 
 #choose .button:hover, #stats .button:hover, #grab .button:hover,.button_tran:hover, .button_dol:hover,
-.button_dataset:hover {
+.button_dataset:hover,
+.button_tran_left:hover,
+.button_ls:hover {
     background-color: #333333;
 }
 
@@ -286,6 +308,12 @@ developer.dol.gov
 }
 
 .howdiv {
+    text-align: left;
+    padding: 20px 0;
+    color: white;
+}
+
+.howdiv_c {
     text-align: center;
     padding: 20px 0;
     color: white;
@@ -310,7 +338,7 @@ developer.dol.gov
     font-weight:200;
     font-size: 16px;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 20px 0;
 }
 
@@ -361,7 +389,7 @@ developer.dol.gov
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
@@ -449,7 +477,7 @@ developer.dol.gov
 {
 
     color: white;
-    
+    text-align: left;
     
 }
 
@@ -463,11 +491,15 @@ developer.dol.gov
     font-size: 22px;
     font-weight: bold;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 #non-responsive {
     width: 1000px;
     margin: auto;
 
+}
+
+.grab_block {
+    margin-left: 20px;
 }

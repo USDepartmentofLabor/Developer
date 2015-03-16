@@ -13,8 +13,8 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 <p>More information and details about the data provided can be found at <a href="http://www.bls.gov/oes">http://www.bls.gov/oes</a></p>
 
 
-<a href ="http://api.dol.gov/V1/Statistics/OES/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Occupational Employment Statistics Survey (OES)" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Statistics/OES/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Occupational Employment Statistics Survey (OES)" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

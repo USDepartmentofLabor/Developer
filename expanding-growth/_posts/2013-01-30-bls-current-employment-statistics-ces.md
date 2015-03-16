@@ -13,8 +13,8 @@ http://api.dol.gov/V1/Statistics/CES
 <p>More information and details about the data provided can be found at <a href="http://www.bls.gov/cpi">http://www.bls.gov/ces</a></p>
 
 
-<a href ="http://api.dol.gov/V1/Statistics/CES/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Current Employment Statistics Survey (CES)" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Statistics/CES/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Current Employment Statistics Survey (CES)" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

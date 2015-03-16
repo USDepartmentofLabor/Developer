@@ -11,8 +11,8 @@ http://api.dol.gov/V1/AutoWorkers
 <p>This dataset tells you Auto Companies which are closed or repurposed in the last couple of decades. It also shows you how successful or bad the closure process or the repurpose process is and in which state and city these companies found.</p>
 
 
-<a href ="http://api.dol.gov/V1/AutoWorkers/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Auto%20Workers%20Dataset" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/AutoWorkers/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Auto%20Workers%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

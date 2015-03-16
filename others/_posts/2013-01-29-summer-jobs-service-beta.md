@@ -52,8 +52,8 @@ For example: ?region=&amp;locality=<br />
 <a>http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27atom%27&amp;query=%27Nurse%27&amp;region=%27New York%27&amp;locality=%27New York%27&amp;skipCount=1</a></p>
 
 
-<a href ="http://api.dol.gov/V1/SummerJobs/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="http://api.dol.gov/V1/SummerJobs/$metadata" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/SummerJobs/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="http://api.dol.gov/V1/SummerJobs/$metadata" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

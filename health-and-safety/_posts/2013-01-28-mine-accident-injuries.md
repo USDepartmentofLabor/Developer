@@ -13,8 +13,8 @@ http://api.dol.gov/V1/Safety/Accidents
 <p>This complete dataset can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Energy-and-Utilities/Accident-Injuries-Data-Set/qbck-cccw&amp;exitTitle=Accident Injuries Data Set&amp;fedpage=yes">http://explore.data.gov/Energy-and-Utilities/Accident-Injuries-Data-Set/qbck-cccw</a></p>
 
 
-<a href ="http://api.dol.gov/V1/Safety/Accidents/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Mine Accident Injuries Data Set" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Safety/Accidents/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Mine Accident Injuries Data Set" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

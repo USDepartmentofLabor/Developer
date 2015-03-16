@@ -25,8 +25,8 @@ http://api.dol.gov/V1/Statistics/OES2010
 </ul>
 
 
-<a href ="http://api.dol.gov/V1/Statistics/OES2010/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS 2010 Occupation Employment Statistics" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Statistics/OES2010/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS 2010 Occupation Employment Statistics" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

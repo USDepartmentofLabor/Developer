@@ -13,8 +13,8 @@ http://api.dol.gov/V1/Statistics/REI
 <p>This complete dataset can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Labor-Force-Employment-and-Earnings/Department-of-Labor-Research-and-Evaluation-Invent/zy4n-wgdb&amp;exitTitle=Research%20and%20Evaluation&amp;fedpage=yes">http://explore.data.gov/Labor-Force-Employment-and-Earnings/Department-of-Labor-Research-and-Evaluation-Invent/zy4n-wgdb</a></p>
 
 
-<a href ="http://api.dol.gov/V1/Statistics/REI/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Research and Evaluation Inventory Dataset" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Statistics/REI/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Research and Evaluation Inventory Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  

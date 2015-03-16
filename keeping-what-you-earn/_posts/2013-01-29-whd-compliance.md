@@ -12,44 +12,8 @@ http://api.dol.gov/V1/Compliance/WHD
 
 <p>This complete dataset can be found on the DOL Data Enforcement application at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://enforcedata.dol.gov&amp;exitTitle=Enforcement&amp;fedpage=yes">http://enforcedata.dol.gov</a></p>
 
-<p>If you are using this data as part of the DOL informACTION App Challenge, please be aware of this:<br />
-From this dataset, make sure your solution presents these elements to the user:</p>
-
-<ul>
-	<li>Trade Name</li>
-	<li>Address (Address, City, State, Zip)</li>
-	<li>NAIC Description</li>
-	<li>Period of Findings (Findings Date Start, Findings Date End)</li>
-	<li>FLSA Violations Indicator
-	<ol>
-		<li>FLSA Violations</li>
-		<li>FLSA Repeat Violator</li>
-		<li>FLSA BW ATP</li>
-		<li>FLSA EE's ATP</li>
-		<li>FLSA MW BW ATP</li>
-		<li>FLSA OT BW ATP</li>
-		<li>FLSA 15(a)(3) BW ATP</li>
-		<li>FLSA CMP Assessed</li>
-	</ol>
-	</li>
-	<li>Child Labor Findings Indicator
-	<ol>
-		<li>FLSA- CL Violations</li>
-		<li>FLSA- CL Minors</li>
-		<li>FLSA- CL CMP Assessed</li>
-	</ol>
-	</li>
-</ul>
-
-<p>&nbsp;</p>
-
-<h3>Frequency</h3>
-
-<p>Monthly</p>
-
-
-<a href ="http://api.dol.gov/V1/Compliance/WHD/$metadata" class="button radius button_dataset">Dataset Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Compliance-WHD" class="button radius button_dataset">Dataset Sample</a>
+<a href ="http://api.dol.gov/V1/Compliance/WHD/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Compliance-WHD" class="button radius button_dataset">Explore This Data</a>
 
 
 ### Dataset Tables:  
