@@ -10,14 +10,11 @@ http://api.dol.gov/V1/Geography
 
 <p>Find here a list of States, Counties, Cities and, Congressional Districts. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.census.gov/geo/www/cd110th/tables110.html&amp;exitTitle=U.S.%20Census%20Bureau&amp;fedpage=yes">http://www.census.gov/geo/www/cd110th/tables110.html</a></p>
 
-<p><img alt="" src="/sites/default/files/dataset-geography.jpg" style="width: 407px; height: 401px;" /></p>
-
-
 <a href ="http://api.dol.gov/V1/Geography/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Geography" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
+## Dataset Tables  
 <h3>City Table</h3>
 
 <table>

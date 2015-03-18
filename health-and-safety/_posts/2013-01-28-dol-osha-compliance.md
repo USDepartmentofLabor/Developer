@@ -17,7 +17,15 @@ http://api.dol.gov/V1/Compliance/OSHA
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Compliance-OSHA" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
+## Dataset Tables  
+
+- [full](#full)
+- [foodservice](#foodservice)
+- [hospitality](#hospitality)
+- [retail](#retail)
+- [occupationcode](#occupationcode)
+- [substancecode](#substancecode)
+
 <h3>full Table</H3>
 <table>
 	<thead>
@@ -101,7 +109,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3>foodService Table</h3>
+<h3><a name="foodservice">foodService Table<a/></h3>
 
 <table>
 	<thead>
@@ -185,7 +193,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3>hospitality Table</h3>
+<h3><a name="hospitality">hospitality Table</a></h3>
 
 <table>
 	<thead>
@@ -269,7 +277,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3>retail Table</h3>
+<h3><a name="retail">retail Table</a></h3>
 
 <table>
 	<thead>
@@ -353,7 +361,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3>occupationCode Table</h3>
+<h3><a name="occupationcode">occupationCode Table</a></h3>
 
 <table>
 	<thead>
@@ -382,7 +390,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3>substanceCode Table</h3>
+<h3><a name="substancecode">substanceCode Table</a></h3>
 
 <table>
 	<thead>

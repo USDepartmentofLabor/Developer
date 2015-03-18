@@ -16,8 +16,15 @@ http://api.dol.gov/V1/Compliance/WHD
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Compliance-WHD" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
-<h3>full Table</h3>
+## Dataset Tables 
+
+- [full table](#full)
+- [foodservice table](#foodservice)
+- [hospitality table](#hospitality)
+- [retail table](#retail)
+
+ 
+<h3><a name="full">full Table</a></h3>
 
 <table>
 	<thead>
@@ -130,7 +137,7 @@ http://api.dol.gov/V1/Compliance/WHD
 		</tr>
 	</tbody>
 </table>
-<h3>foodService Table</h3>
+<h3><a name="foodservice">foodService Table<a/></h3>
 
 <table>
 	<thead>
@@ -243,7 +250,7 @@ http://api.dol.gov/V1/Compliance/WHD
 		</tr>
 	</tbody>
 </table>
-<h3>hospitality Table</h3>
+<h3><a name="hospitality">hospitality Table</a></h3>
 
 <table>
 	<thead>
@@ -356,7 +363,7 @@ http://api.dol.gov/V1/Compliance/WHD
 		</tr>
 	</tbody>
 </table>
-<h3>retail Table</h3>
+<h3><a name="retail">retail Table</a></h3>
 
 <table>
 	<thead>

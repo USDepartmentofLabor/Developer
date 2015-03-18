@@ -17,7 +17,7 @@ http://api.dol.gov/V1/Statistics/REI
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Research and Evaluation Inventory Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
+## Dataset Tables  
 <h3>researchEvaluationInventory</h3>
 
 <p>Research and evaluation inventory.</p>

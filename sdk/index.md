@@ -1,5 +1,5 @@
 ---
-Title: Grab Our Code
+title: Grab Our Code
 layout: default
 ---
 

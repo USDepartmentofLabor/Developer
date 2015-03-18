@@ -15,26 +15,20 @@ http://api.dol.gov/V1/Mining/Violation
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Violation%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
+## Dataset Tables  
 <h3>MSHA_violations</h3>
 
 <table>
     <thead>
         <tr>
           <th>
-            
               Column Name
-            
           </th>
           <th>
-            
               Column Description
-            
           </th>
           <th>
-            
               Data Type
-            
           </th>
         </tr>
           <tbody>

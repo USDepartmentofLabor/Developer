@@ -40,6 +40,7 @@ developer.dol.gov
     font-weight: bold;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .button_tran {
@@ -383,6 +384,7 @@ developer.dol.gov
     font-weight: bolder;
     text-align: center;
     color: black;
+    text-transform: uppercase;
 }
 
  .howdiv h2 {
@@ -395,7 +397,7 @@ developer.dol.gov
 
 .how_box_experienced {
     padding: 10px 10px;
-    height: 450px;
+    height: 400px;
 }
 
 .how_box_beginner {

@@ -15,8 +15,27 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Fatal%20Occupational%20Injuries%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
-<h3>FI_AREA Table</h3>
+## Dataset Tables
+
+- [FI_AREA](#FI_AREA)
+- [FI_CASE](#FI_CASE)
+- [FI_CATEGORY](#FI_CATEGORY)
+- [FI_CATEGORY2](#FI_CATEGORY2)  
+- [FI_DATA_PUB](#FI_DATA_PUB)
+- [FI_DATA_TYPE](#FI_DATA_TYPE)
+- [FI_EVENT](#FI_EVENT)
+- [FI_FOOTNOTE](#FI_FOOTNOTE)
+- [FI_GQT_CASE](#FI_GQT_CASE)
+- [FI_GQT_CHAR](#FI_GQT_CHAR)
+- [FI_GQT_CHAR_OWNERSHIP](#FI_GQT_CHAR_OWNERSHIP)
+- [FI_GQT_OWNERSHIP](#FI_GQT_OWNERSHIP)
+- [FI_GQT_STATE](#FI_GQT_STATE)
+- [FI_GQT_STATE_OWNERSHIP](#FI_GQT_STATE_OWNERSHIP)
+- [FI_INDUSTRY](#FI_INDUSTRY)
+- [FI_SERIES](#FI_SERIES)
+- [FI_SUPERSECTOR](#FI_SUPERSECTOR)
+  
+<h3><a name="FI_AREA">FI_AREA Table</a></h3>
 
 <table>
 	<thead>
@@ -54,7 +73,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_CASE Table</h3>
+<h3><a name="FI_CASE">FI_CASE Table</a></h3>
 
 <table>
 	<thead>
@@ -77,7 +96,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_CATEGORY Table</h3>
+<h3><a name="FI_CATEGORY">FI_CATEGORY Table</a></h3>
 
 <table>
 	<thead>
@@ -105,7 +124,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_CATEGORY2 Table</h3>
+<h3><a name="FI_CATEGORY2">FI_CATEGORY2 Table</a></h3>
 
 <table>
 	<thead>
@@ -128,7 +147,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_DATA_PUB Table</h3>
+<h3><a name="FI_DATA_PUB">FI_DATA_PUB Table</a></h3>
 
 <table>
 	<thead>
@@ -166,7 +185,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_DATA_TYPE Table</h3>
+<h3><a name="FI_DATA_TYPE">FI_DATA_TYPE Table</a></h3>
 
 <table>
 	<thead>
@@ -189,7 +208,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_EVENT Table</h3>
+<h3><a name="FI_EVENT">FI_EVENT Table</a></h3>
 
 <table>
 	<thead>
@@ -227,7 +246,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_FOOTNOTE Table</h3>
+<h3><a name="FI_FOOTNOTE">FI_FOOTNOTE Table</a></h3>
 
 <table>
 	<thead>
@@ -250,7 +269,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_GQT_CASE Table</h3>
+<h3><a name="FI_GQT_CASE">FI_GQT_CASE Table</a></h3>
 
 <table>
 	<thead>
@@ -308,7 +327,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_GQT_CHAR Table</h3>
+<h3><a name="FI_GQT_CHAR">FI_GQT_CHAR Table</a></h3>
 
 <table>
 	<thead>
@@ -336,7 +355,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_GQT_CHAR_OWNERSHIP Table</h3>
+<h3><a name="FI_GQT_CHAR_OWNERSHIP">FI_GQT_CHAR_OWNERSHIP Table</a></h3>
 
 <table>
 	<tbody>
@@ -372,7 +391,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_GQT_OWNERSHIP Table</h3>
+<h3><a name="FI_GQT_OWNERSHIP">FI_GQT_OWNERSHIP Table</a></h3>
 
 <table>
 	<thead>
@@ -400,7 +419,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_GQT_STATE Table</h3>
+<h3><a name="FI_GQT_STATE">FI_GQT_STATE Table</a></h3>
 
 <table>
 	<thead>
@@ -428,7 +447,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_GQT_STATE_OWNERSHIP Table</h3>
+<h3><a name="FI_GQT_STATE_OWNERSHIP">FI_GQT_STATE_OWNERSHIP Table</a></h3>
 
 <table>
 	<thead>
@@ -466,7 +485,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_INDUSTRY Table</h3>
+<h3><a name="FI_INDUSTRY">FI_INDUSTRY Table</a></h3>
 
 <table>
 	<thead>
@@ -504,7 +523,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_SERIES Table</h3>
+<h3><a name="FI_SERIES">FI_SERIES Table</a></h3>
 
 <table>
 	<thead>
@@ -587,7 +606,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		</tr>
 	</tbody>
 </table>
-<h3>FI_SUPERSECTOR Table</h3>
+<h3><a name="FI_SUPERSECTOR">FI_SUPERSECTOR Table</a></h3>
 
 <table>
 	<thead>

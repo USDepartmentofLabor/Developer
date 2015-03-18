@@ -17,8 +17,18 @@ http://api.dol.gov/V1/Statistics/CPI
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Consumer Price Index (CPI)" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
-<h3>CU_AREA</h3>
+## Dataset Tables
+
+- [CU_AREA](#CU_AREA)
+- [CU_BASE](#CU_BASE)
+- [CU_DATA_PUB](#CU_DATA_PUB)
+- [CU_FOOTNOTE](#CU_FOOTNOTE)
+- [CU_ITEM](#CU_ITEM)
+- [CU_PERIODICITY](#CU_PERIODICITY)
+- [CU_SEASONAL](#CU_SEASONAL)
+- [CU_SERIES](#CU_SERIES)
+
+<h3><a name="CU_AREA">CU_AREA Table</a></h3>
 
 <table>
 	<thead>
@@ -56,7 +66,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3>CU_BASE</h3>
+<h3><a name="CU_BASE">CU_BASE Table</a></h3>
 
 <table>
 	<thead>
@@ -79,7 +89,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3>CU_DATA_PUB</h3>
+<h3><a name="CU_DATA_PUB">CU_DATA_PUB Table</a></h3>
 
 <table>
 	<thead>
@@ -117,7 +127,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3>CU_FOOTNOTE</h3>
+<h3><a name="CU_FOOTNOTE">CU_FOOTNOTE Table</a></h3>
 
 <table>
 	<thead>
@@ -140,7 +150,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3>CU_ITEM</h3>
+<h3><a name="CU_ITEM">CU_ITEM Table</a></h3>
 
 <table>
 	<thead>
@@ -178,7 +188,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3>CU_PERIODICITY</h3>
+<h3><a name="CU_PERIODICITY">CU_PERIODICITY Table</a></h3>
 
 <table>
 	<thead>
@@ -201,7 +211,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3>CU_SEASONAL</h3>
+<h3><a name="CU_SEASONAL">CU_SEASONAL Table</a></h3>
 
 <table>
 	<thead>
@@ -224,7 +234,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3>CU_SERIES</h3>
+<h3><a name="CU_SERIES">CU_SERIES Table</a></h3>
 
 <table>
 	<thead>

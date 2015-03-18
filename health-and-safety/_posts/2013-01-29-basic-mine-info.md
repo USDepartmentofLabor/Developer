@@ -19,7 +19,7 @@ http://api.dol.gov/V1/Mining/BasicMineInfo
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Basic%20Mine%20Info%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
+## Dataset Tables  
 <h3>addressOfRecord</h3>
 
 <p>Address of record</p>

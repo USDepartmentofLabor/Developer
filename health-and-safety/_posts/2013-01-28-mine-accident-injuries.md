@@ -17,7 +17,7 @@ http://api.dol.gov/V1/Safety/Accidents
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Mine Accident Injuries Data Set" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
+## Dataset Tables  
 <h3>mineAccidents </h3>
 <p>Mine Accident, Injury and Illness Report</p>
 <table>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Request Authorization
 created: 1359565490
 ---
@@ -27,7 +27,7 @@ mm = two digit minute, padded if less than 10 ( e.g. 09 )<br />
 ss = two digit second, padded if less than 10 ( e.g. 00 )<br />
 Z = timezone (always T which means UTC)</p>
 
-<h3>Example:</h3>
+<h3>Example</h3>
 
 <p>Request from a client to the service on March 9th, 2011 at 6:09:00 PM. Local time zone is ADT (or UTC -4).<br />
 To create a valid time stamp you shall:</p>
@@ -49,7 +49,7 @@ To create a valid time stamp you shall:</p>
 
 <p>Each request must contain a signature to authenticate that the owner of the API key is the one making the request. The signature is computed using the HMAC-SHA1 algorithm providing the API key's Shared Secret as the secret key and the Authorization header as the input.</p>
 
-<h3>Example:</h3>
+<h3>Example</h3>
 
 <p>You want to read data from table <em>Agencies</em> in the dataset named <em>FORMS</em>.</p>
 
@@ -58,7 +58,7 @@ Your API Key is <span class="style1">d9c6c290-da4c-424e-a378-fb4bd027b58b</span>
 Your shared secret is <span class="style1">mysecret11111111111</span><br />
 Local time is <span class="style1">March 9th, 2011 at 6:09:00 PM UTC-4</span></p>
 
-<h3>Steps:</h3>
+<h3>Steps</h3>
 
 <ol>
 	<li>Calculate timestamp (see timestamp section):<span class="style1"> 2011-03-09T22:09:00Z</span></li>
@@ -77,7 +77,7 @@ Local time is <span class="style1">March 9th, 2011 at 6:09:00 PM UTC-4</span></p
 
 <p>The "Authorization" header must be set to <span class="style1">Timestamp={0}&amp;ApiKey={1}&amp;Signature={2}</span> where {0}, {1}, and {2} are the values for Timestamp, API Key, and Signature respectively. The values must be calculated as specified in this document.</p>
 
-<h3>Example:</h3>
+<h3>Example</h3>
 
 <p>You want to read data from table <em>Agencies</em> in the dataset named <em>FORMS</em>.</p>
 
@@ -86,7 +86,7 @@ Your API Key is <span class="style1">d9c6c290-da4c-424e-a378-fb4bd027b58b</span>
 Your shared secret is <span class="style1">mysecret11111111111</span><br />
 Local time is <span class="style1">March 9th, 2011 at 6:09:00 PM UTC-4</span></p>
 
-<h3>Steps:</h3>
+<h3>Steps</h3>
 
 <ol>
 	<li>Calculate timestamp (see timestamp section): <span class="style1">2011-03-09T22:09:00Z</span></li>

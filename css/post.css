@@ -1,0 +1,46 @@
+.post_title_dataset {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    
+}
+
+
+.post_content_dataset,
+.post_content_dataset p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: black;
+}
+
+.post_content_dataset h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+}
+
+.post_content_dataset h3 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+
+}
+
+.post_content_dataset tr th:nth-of-type(3),
+.post_content_dataset tr td:nth-of-type(2) {
+    white-space: nowrap !important;
+}
+
+.post_content_dataset tr:nth-child(even) {
+    background-color: #F3F3F3;
+}
+
+.post_content_dataset thead tr {
+    background-color: #D9D9D9;
+}

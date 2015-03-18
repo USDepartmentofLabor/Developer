@@ -36,7 +36,7 @@ layout: default
                 </div>
             </li>
             <li class="accordion-navigation">
-                <a href="#others">Others</a>
+                <a href="#others">Other Datasets</a>
                 <div id="others" class="content {% if page.categories contains 'others' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.others %}
@@ -53,12 +53,12 @@ layout: default
     <div class="large-8 columns post">
 
         <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
+            <h1 class="post_title_dataset">{{ page.title }}</h1>
 
             <p class="post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
 
-        <article class="post-content">
+        <article class="post_content_dataset">
             {{ content | markdownify }}
         </article>
 

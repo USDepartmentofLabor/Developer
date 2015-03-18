@@ -17,7 +17,7 @@ http://api.dol.gov/V1/Compliance/MineInspection
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Mine%20Inspections%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
+## Dataset Tables  
 <h3>mineInspections</h3>
 
 <table>

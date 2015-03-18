@@ -15,15 +15,37 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Numbers" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
-<p>&nbsp;<br />
-&nbsp;<br />
-&nbsp;<br />
-&nbsp;<br />
-&nbsp;<br />
-&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</p>
+## Dataset Tables  
+- [averageHourlyEarnings](#averageHourlyEarnings)
+- [consumerPriceIndex](#consumerPriceIndex)
+- [employmentCostIndex](#employmentCostIndex)
+- [exportPriceIndex](#exportPriceIndex)
+- [importPriceIndex](#importPriceIndex)
+- [payrollEmployment](#payrollEmployment)
+- [producerPriceIndex](#producerPriceIndex)
+- [productivity](#productivity)
+- [unemploymentRate](#unemploymentRate)
+- [averageHourlyEarnings12MonthChange](#averageHourlyEarnings12MonthChange)
+- [averageHourlyEarnings1MonthChange](#averageHourlyEarnings1MonthChange)
+- [averageHourlyEarnings1MonthNetChange](#averageHourlyEarnings1MonthNetChange)
+- [consumerPriceIndex12MonthChange](#consumerPriceIndex12MonthChange)
+- [consumerPriceIndex1MonthChange](#consumerPriceIndex1MonthChange)
+- [exportPriceIndex12MonthChange](#exportPriceIndex12MonthChange)
+- [exportPriceIndex1MonthChange](#exportPriceIndex1MonthChange)
+- [importPriceIndex12MonthChange](#importPriceIndex12MonthChange)
+- [importPriceIndex1MonthChange](#importPriceIndex1MonthChange)
+- [payrollEmployment12MonthChange](#payrollEmployment12MonthChange)
+- [payrollEmployment12MonthNetChange](#payrollEmployment12MonthNetChange)
+- [payrollEmployment1MonthChange](#payrollEmployment1MonthChange)
+- [payrollEmployment1MonthNetChange](#payrollEmployment1MonthNetChange)
+- [producerPriceIndex12MonthChange](#producerPriceIndex12MonthChange)
+- [producerPriceIndex1MonthChange](#producerPriceIndex1MonthChange)
+- [unemploymentrate12monthchange](#unemploymentrate12monthchange)
+- [unemploymentrate1monthchange](#unemploymentrate1monthchange)
 
-<h3>averageHourlyEarnings Table</h3>
+
+
+<h3><a href="averageHourlyEarnings">averageHourlyEarnings Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
@@ -58,7 +80,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>consumerPriceIndex Table</h3>
+<h3><a name="consumerPriceIndex">consumerPriceIndex Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
 
@@ -93,7 +115,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>employmentCostIndex Table</h3>
+<h3><a name="employmentCostIndex">employmentCostIndex Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CIS1010000000000Q&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CIS1010000000000Q</a></p>
 
@@ -128,7 +150,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>exportPriceIndex Table</h3>
+<h3><a name="exportPriceIndex">exportPriceIndex Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
 
@@ -163,7 +185,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>importPriceIndex Table</h3>
+<h3><a name="importPriceIndex">importPriceIndex Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
 
@@ -198,7 +220,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>payrollEmployment Table</h3>
+<h3><a name="payrollEmployment">payrollEmployment Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
@@ -233,7 +255,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>producerPriceIndex Table</h3>
+<h3><a name="producerPriceIndex">producerPriceIndex Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth</a></p>
 
@@ -268,7 +290,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>productivity Table</h3>
+<h3><a name="productivity">productivity Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/PRS85006092&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/PRS85006092</a></p>
 
@@ -303,7 +325,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>unemploymentRate Table</h3>
+<h3><a name="unemploymentRate">unemploymentRate Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
 
@@ -338,7 +360,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>averageHourlyEarnings12MonthChange Table</h3>
+<h3><a name="averageHourlyEarnings12MonthChange">averageHourlyEarnings12MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
@@ -373,7 +395,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>averageHourlyEarnings1MonthChange Table</h3>
+<h3><a name="averageHourlyEarnings1MonthChange">averageHourlyEarnings1MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
@@ -408,7 +430,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>averageHourlyEarnings1MonthNetChange Table</h3>
+<h3><a name="averageHourlyEarnings1MonthNetChange">averageHourlyEarnings1MonthNetChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
@@ -443,7 +465,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>consumerPriceIndex12MonthChange Table</h3>
+<h3><a name="consumerPriceIndex12MonthChange">consumerPriceIndex12MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
 
@@ -478,7 +500,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>consumerPriceIndex1MonthChange Table</h3>
+<h3><a name="consumerPriceIndex1MonthChange">consumerPriceIndex1MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
 
@@ -513,7 +535,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>exportPriceIndex12MonthChange Table</h3>
+<h3><a name="exportPriceIndex12MonthChange">exportPriceIndex12MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
 
@@ -548,7 +570,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>exportPriceIndex1MonthChange Table</h3>
+<h3><a name="exportPriceIndex1MonthChange">exportPriceIndex1MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
 
@@ -583,7 +605,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>importPriceIndex12MonthChange Table</h3>
+<h3><a name="importPriceIndex12MonthChange">importPriceIndex12MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
 
@@ -618,7 +640,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>importPriceIndex1MonthChange Table</h3>
+<h3><a name="importPriceIndex1MonthChange">importPriceIndex1MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
 
@@ -653,7 +675,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>payrollEmployment12MonthChange Table</h3>
+<h3><a name="payrollEmployment12MonthChange">payrollEmployment12MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
@@ -688,7 +710,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>payrollEmployment12MonthChange Table</h3>
+<h3><a name="payrollEmployment12MonthNetChange">payrollEmployment12MonthNetChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
@@ -723,7 +745,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>payrollEmployment1MonthChange Table</h3>
+<h3><a name="payrollEmployment1MonthChange">payrollEmployment1MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
@@ -758,7 +780,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>payrollEmployment1MonthNetChange Table</h3>
+<h3><a name="payrollEmployment1MonthNetChange">payrollEmployment1MonthNetChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
@@ -793,7 +815,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>producerPriceIndex12MonthChange Table</h3>
+<h3><a name="producerPriceIndex12MonthChange">producerPriceIndex12MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth</a></p>
 
@@ -828,7 +850,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>producerPriceIndex1MonthChange Table</h3>
+<h3><a name="producerPriceIndex1MonthChange">producerPriceIndex1MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth</a></p>
 
@@ -863,7 +885,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>unemploymentRate12MonthChange Table</h3>
+<h3><a name="unemploymentRate12MonthChange">unemploymentRate12MonthChange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
 
@@ -898,7 +920,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		</tr>
 	</tbody>
 </table>
-<h3>unemploymentrate1monthchange</h3>
+<h3><a name="unemploymentrate1monthchange">unemploymentrate1monthchange Table</a></h3>
 
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
 

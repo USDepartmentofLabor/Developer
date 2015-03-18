@@ -1,5 +1,5 @@
 ---
-Title: Others
+title: Others
 layout: post
 categories: others
 ---

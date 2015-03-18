@@ -17,8 +17,17 @@ http://api.dol.gov/V1/Statistics/CES
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Current Employment Statistics Survey (CES)" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
-<h3>CE_DATA_PUB</h3>
+## Dataset Tables 
+ 
+- [CE_DATA_PUB](#CE_DATA_PUB)
+- [CE_DATATYYPE](#CE_DATATYYPE)
+- [CE_FOOTNOTE](#CE_FOOTNOTE)
+- [CE_INDUSTRY](#CE_INDUSTRY)
+- [CE_SEASONAL](#CE_SEASONAL)
+- [CE_SERIES](#CE_SERIES)
+- [CE_SUPERSECTOR](#CE_SUPERSECTOR)
+
+<h3><a name="CE_DATA_PUB">CU_DATA_PUB Table</a></h3>
 
 <table>
 	<thead>
@@ -56,7 +65,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3>CE_DATATYYPE</h3>
+<h3><a name="CE_DATATYYPE">CE_DATATYYPE Table</a></h3>
 
 <table>
 	<thead>
@@ -79,7 +88,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3>CE_FOOTNOTE</h3>
+<h3><a name="CE_FOOTNOTE">CE_FOOTNOTE Table</a></h3>
 
 <table>
 	<thead>
@@ -102,7 +111,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3>CE_INDUSTRY</h3>
+<h3><a name="CE_INDUSTRY">CE_INDUSTRY Table</a></h3>
 
 <table>
 	<thead>
@@ -150,7 +159,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3>CE_SEASONAL</h3>
+<h3><a name="CE_SEASONAL">CE_SEASONAL Table</a></h3>
 
 <table>
 	<thead>
@@ -173,7 +182,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3>CE_SERIES</h3>
+<h3><a name="CE_SERIES">CE_SERIES Table</a></h3>
 
 <table>
 	<thead>
@@ -236,7 +245,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3>CE_SUPERSECTOR</h3>
+<h3><a name="CE_SUPERSECTOR">CE_SUPERSECTOR Table</a></h3>
 
 <table>
 	<thead>

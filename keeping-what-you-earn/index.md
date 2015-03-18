@@ -1,5 +1,5 @@
 ---
-Title: Keeping What You Earn
+title: Keeping What You Earn
 layout: post
 categories: keeping-what-you-earn
 ---

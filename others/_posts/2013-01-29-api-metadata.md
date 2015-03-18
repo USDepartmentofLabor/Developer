@@ -14,7 +14,7 @@ http://api.dol.gov/V1/APIMetadata
 <a href ="http://api.dol.gov/V1/APIMetadata/$metadata" class="button radius button_dataset">Browse Metadata</a>
 
 
-### Dataset Tables:  
+## Dataset Tables  
 <h3>APIMetadata</h3>
 
 <p>Lists datasets' narrative, path, and documentation location information for available sources.</p>

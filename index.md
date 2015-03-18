@@ -5,11 +5,11 @@ layout: default
 
 {% capture choose %}
 
-# SEE OUR DATA.
+# See Our Data.
 
-# DISCOVER OUR API.
+# Discover our API.
 
-# GRAB OUR CODE.
+# Grab our Code.
 
 
 {% endcapture %}
@@ -28,33 +28,33 @@ Business Labor Statistics datasets.
 
 {% capture cpi %}
 
-# Consumer Price Index
+# VETS-100
 
-The Consumer Price Indexes (CPI)  
-program produces monthly data on  
-changes in the prices paid by urban  
-consumers for a representative basket  
-of goods and services 
+"Covered Veterans" in employment since  
+2008. This data is a must for anyone  
+interested in the number of veterans  
+employed with companies having contracts  
+with the Federal government.
 
 {% endcapture %}
 
 
 {% capture grab1 %}
 
-[![Settings gear icon]({{ site.baseurl }}/img/settings.png)]({{ site.baseurl }}/code/)
+[![Settings gear icon]({{ site.baseurl }}/img/settings.png)]({{ site.baseurl }}/sdk/)
 
 {% endcapture %}
 
 {% capture grab2 %}
 
-[![Mobile phone icon]({{ site.baseurl }}/img/phone.png)]({{ site.baseurl }}/code/)
+[![Mobile phone icon]({{ site.baseurl }}/img/phone.png)]({{ site.baseurl }}/apps/)
   
 
 {% endcapture %}
 
 {% capture grab3 %}
 
-[![Computer Display Icon]({{ site.baseurl }}/img/display.png)]({{ site.baseurl }}/code/)
+[![Computer Display Icon]({{ site.baseurl }}/img/display.png)]({{ site.baseurl }}/apps/)
  
 
 {% endcapture %}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Accessing the APIs Using HTTP Requests
 created: 1359565589
 ---
@@ -32,7 +32,7 @@ The dataset name is invalid.</p>
 
 <h3>Authentication</h3>
 
-<p>This method requires authentication. Please refer to <a href="/sdk-documentation/request-authorization">Request Authorization</a>.</p>
+<p>This method requires authentication. Please refer to <a href="{{ site.baseurl }}/request-authorization/">Request Authorization</a>.</p>
 
 <h3>Arguments</h3>
 
@@ -58,7 +58,7 @@ The dataset name or table name is invalid.</p>
 
 <h3>Authentication</h3>
 
-<p>This method requires authentication. Please refer to <a href="/sdk-documentation/request-authorization">Request Authorization</a>.</p>
+<p>This method requires authentication. Please refer to <a href="{{ site.baseurl }}/request-authorization/">Request Authorization</a>.</p>
 
 <h3>Arguments</h3>
 
@@ -86,7 +86,7 @@ The dataset name or table name is invalid.</p>
 
 <h3>Authentication</h3>
 
-<p>This method requires authentication. Please refer to <a href="/sdk-documentation/request-authorization">Request Authorization</a>.</p>
+<p>This method requires authentication. Please refer to <a href="{{ site.baseurl }}/request-authorization/">Request Authorization</a>.</p>
 
 <h3>Arguments</h3>
 
@@ -114,7 +114,7 @@ The dataset name or table name is invalid.</p>
 
 <h3>Authentication</h3>
 
-<p>This method requires authentication. Please refer to <a href="/sdk-documentation/request-authorization">Request Authorization</a>.</p>
+<p>This method requires authentication. Please refer to <a href="{{ site.baseurl }}/request-authorization/">Request Authorization</a>.</p>
 
 <h3>Arguments</h3>
 
@@ -143,7 +143,7 @@ The dataset name or table name is invalid.</p>
 
 <h3>Authentication</h3>
 
-<p>This method requires authentication. Please refer to <a href="/sdk-documentation/request-authorization">Request Authorization</a>.</p>
+<p>This method requires authentication. Please refer to <a href="{{ site.baseurl }}/request-authorization/">Request Authorization</a>.</p>
 
 <h3>Arguments</h3>
 
@@ -171,7 +171,7 @@ The dataset name or table name is invalid.</p>
 
 <h3>Authentication</h3>
 
-<p>This method requires authentication. Please refer to <a href="/sdk-documentation/request-authorization">Request Authorization</a>.</p>
+<p>This method requires authentication. Please refer to <a href="{{ site.baseurl }}/request-authorization/">Request Authorization</a>.</p>
 
 <h3>Arguments</h3>
 
@@ -207,7 +207,7 @@ More than one column can be specified. Separate column names with commas.</p>
 
 <h3>Authentication</h3>
 
-<p>This method requires authentication. Please refer to <a href="/sdk-documentation/request-authorization">Request Authorization</a>.</p>
+<p>This method requires authentication. Please refer to <a href="{{ site.baseurl }}/request-authorization/">Request Authorization</a>.</p>
 
 <h3>Arguments</h3>
 
@@ -249,7 +249,7 @@ More than one filter can be specified. See [link] article for details.</p>
 
 <h3>Authentication</h3>
 
-<p>This method requires authentication. Please refer to <a href="/sdk-documentation/request-authorization">Request Authorization</a>.</p>
+<p>This method requires authentication. Please refer to <a href="{{ site.baseurl }}/request-authorization/">Request Authorization</a>.</p>
 
 <h3>Arguments</h3>
 

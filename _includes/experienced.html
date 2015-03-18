@@ -7,7 +7,6 @@
     <div class="row">
         <div class="small-6 columns howdiv_c">
             <img src="{{ site.baseurl }}/img/exp_speedometer.png" alt="Speedometer: Experienced">
-            {{ how2 | markdownify }}
         </div>
         <div class="small-6 columns details">
             <div class="row">
@@ -17,34 +16,37 @@
             <div class="row">
                 <div class="small-6 columns">
                     <div class="row">
-                        <div class="small-3 columns"><a href="urls/"><img src="{{ site.baseurl }}/img/url_wht.png" alt="Globe Icon"></a></div>
-                        <div class="small-9 columns"><p><a href="urls/">URLS</a></p></div>
+                        <div class="small-3 columns"><a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/"><img src="{{ site.baseurl }}/img/url_wht.png" alt="Accessing APIs over http"></a></div>
+                        <div class="small-9 columns"><p><a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/">HTTP</a></p></div>
                     </div>
                     <div class="row">
-                        <div class="small-3 columns"><a href="auth/"><img src="{{ site.baseurl }}/img/auth_wht.png" alt="Lock Icon"></a></div>
-                        <div class="small-9 columns"><p><a href="auth/">AUTHENTICATION</a></p></div>
+                        <div class="small-3 columns"><a href="{{ site.baseurl }}/beginners-guide/#accessing"><img src="{{ site.baseurl }}/img/auth_wht.png" alt="Lock Icon"></a></div>
+                        <div class="small-9 columns"><p><a href="{{ site.baseurl }}/beginners-guide/#accessing">AUTHENTICATION</a></p></div>
                     </div>
+                   <!--
                     <div class="row">
                         <div class="small-3 columns"><a href="encoding/"><img src="{{ site.baseurl }}/img/encode_wht.png" alt="Encoding Gear Icon"></a></div>
                         <div class="small-9 columns"><p><a href="encoding/">ENCODING</a></p></div>
                     </div>
+                    
                     <div class="row">
                         <div class="small-3 columns"><a href="dates/"><img src="{{ site.baseurl }}/img/calendar_wht.png" alt="Calendar Icon"></a></div>
                         <div class="small-9 columns"><p><a href="dates/">DATES</a></p></div>
                     </div>
+                    -->
                 </div>
                 <div class="small-6 columns end">
                     <div class="row">
-                        <div class="small-3 columns"><a href="ask/"><img src="{{ site.baseurl }}/img/questions_wht.png" alt="Globe Icon"></a></div>
-                        <div class="small-9 columns"><p><a href="ask/">ASK QUESTIONS</a></p></div>
+                        <div class="small-3 columns"><a href="https://opendata.stackexchange.com/questions/ask?tags=labor"><img src="{{ site.baseurl }}/img/questions_wht.png" alt="Globe Icon"></a></div>
+                        <div class="small-9 columns"><p><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">ASK QUESTIONS</a></p></div>
                     </div>
                     <div class="row">
-                        <div class="small-3 columns"><a href="bugs/"><img src="{{ site.baseurl }}/img/bugs_wht.png" alt="Lock Icon"></a></div>
-                        <div class="small-9 columns"><p><a href="bugs/">REPORT BUGS</a></p></div>
+                        <div class="small-3 columns"><a href="https://github.com/USDepartmentofLabor/DOLAPI/issues/new"><img src="{{ site.baseurl }}/img/bugs_wht.png" alt="Lock Icon"></a></div>
+                        <div class="small-9 columns"><p><a href="https://github.com/USDepartmentofLabor/DOLAPI/issues/new">REPORT BUGS</a></p></div>
                     </div>
                     <div class="row">
-                        <div class="small-3 columns"><a href="tos/"><img src="{{ site.baseurl }}/img/tos_wht.png" alt="Settings Icon"></a></div>
-                        <div class="small-9 columns"><p><a href="tos/">TERMS OF SERVICE</a></p></div>
+                        <div class="small-3 columns"><a href="{{ site.baseurl }}/terms-of-service/"><img src="{{ site.baseurl }}/img/tos_wht.png" alt="Settings Icon"></a></div>
+                        <div class="small-9 columns"><p><a href="{{ site.baseurl }}/terms-of-service/">TERMS OF SERVICE</a></p></div>
                     </div>
                 </div>
             </div>
@@ -55,34 +57,4 @@
 <hr>
 {% include grab.html %}
 <hr>
-<div class="dol_sub">
-    <div class="row">
-        <div class="small-6 small-centered columns">
-            <h1>APPLICATIONS THAT USE OUR API</h1>
-            <br />
-        </div>
-    </div>
-    <div class="row">
-        <div class="small-3 columns">
-            <img src="{{ site.baseurl }}/img/phone_color.png" alt="Phone Icon">
-            <h1>MOBILE</h1>
-        </div>
-        <div class="small-3 columns">
-            <p><a href="#">DOL Timesheet</a></p>
-            <p><a href="#">Labor Stats</a></p>
-            <p><a href="#">OSHA Heat Safety</a></p>
-            <p><a href="#">Strategy Tracker</a></p>
-        </div>
-        <div class="small-3 columns">
-            <img src="{{ site.baseurl }}/img/display_color.png" alt="Desktop Computer Icon">
-            <h1>WEB & DESKTOP</h1>
-        </div>
-        <div class="small-3 columns">
-            <p><a href="#">API Status</a></p>
-            <p><a href="#">JS Dashboard</a></p>
-            <p><a href="#">OSHA Heat Safety</a></p>
-            <p><a href="#">Was This Page Helpful</a></p>
-        </div>
-    </div>
-
-</div>
+{% include apps.html %}

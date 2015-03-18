@@ -15,7 +15,7 @@ This dataset contains the annual summation of employee hours and coal production
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Mine%20Employment%20Production%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
+## Dataset Tables  
 <h3>MSHA_employmentProduction</h3> 
 
 <table >

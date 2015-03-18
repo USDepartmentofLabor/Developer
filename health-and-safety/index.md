@@ -1,5 +1,5 @@
 ---
-Title: Health and Safety
+title: Health and Safety
 layout: post
 categories: health-and-safety
 ---

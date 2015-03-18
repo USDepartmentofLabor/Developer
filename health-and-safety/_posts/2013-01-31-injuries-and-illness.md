@@ -15,8 +15,23 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Injuries%20and%20Illness%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
-### Dataset Tables:  
-<h3>II_AREA Table</h3>
+## Dataset Tables
+  
+- [II_AREA](#II_AREA)
+- [II_CASE_TYPE](#II_CASE_TYPE)
+- [II_DATA_PUB](#II_DATA_PUB)
+- [II_DATA_TYPE](#II_DATA_TYPE)
+- [II_FOOTNOTE](#II_FOOTNOTE)
+- [II_GQT_CASE](#II_GQT_CASE)
+- [II_GQT_CHAR](#II_GQT_CHAR)
+- [II_GQT_OWNERSHIP](#II_GQT_OWNERSHIP)
+- [II_GQT_STATE](#II_GQT_STATE)
+- [II_GQT_STATE_OWNERSHIP](#II_GQT_STATE_OWNERSHIP)
+- [II_INDUSTRY](#II_INDUSTRY)
+- [II_SERIES](#II_SERIES)
+- [II_SUPERSECTOR](#II_SUPERSECTOR)
+  
+<h3><a name="II_AREA">II_AREA Table<a/></h3>
 
 <table>
 	<thead>
@@ -54,7 +69,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_CASE_TYPE Table</h3>
+<h3><a name="II_CASE_TYPE">II_CASE_TYPE Table</a></h3>
 
 <table>
 	<thead>
@@ -77,7 +92,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_DATA_PUB Table</h3>
+<h3><a name="II_DATA_PUB">II_DATA_PUB Table</a></h3>
 
 <table>
 	<thead>
@@ -115,7 +130,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_DATA_TYPE Table</h3>
+<h3><a name="II_DATA_TYPE">II_DATA_TYPE Table</a></h3>
 
 <table>
 	<thead>
@@ -138,7 +153,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_FOOTNOTE Table</h3>
+<h3><a name="II_FOOTNOTE">II_FOOTNOTE Table</a></h3>
 
 <table>
 	<thead>
@@ -161,7 +176,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_GQT_CASE Table</h3>
+<h3><a name="II_GQT_CASE">II_GQT_CASE Table</a></h3>
 
 <table>
 	<thead>
@@ -219,7 +234,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_GQT_CHAR Table</h3>
+<h3><a name="II_GQT_CHAR">II_GQT_CHAR Table</a></h3>
 
 <table>
 	<thead>
@@ -247,7 +262,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_GQT_OWNERSHIP Table</h3>
+<h3><a name="II_GQT_OWNERSHIP">II_GQT_OWNERSHIP Table</a></h3>
 
 <table>
 	<thead>
@@ -275,7 +290,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_GQT_STATE Table</h3>
+<h3><a name="II_GQT_STATE">II_GQT_STATE Table</a></h3>
 
 <table>
 	<thead>
@@ -303,7 +318,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_GQT_STATE_OWNERSHIP Table</h3>
+<h3><a name="II_GQT_STATE_OWNERSHIP">II_GQT_STATE_OWNERSHIP Table</a></h3>
 
 <table>
 	<thead>
@@ -341,7 +356,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_INDUSTRY Table</h3>
+<h3><a name="II_INDUSTRY">II_INDUSTRY Table</a></h3>
 
 <table>
 	<thead>
@@ -384,7 +399,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_SERIES Table</h3>
+<h3><a name="II_SERIES">II_SERIES Table</a></h3>
 
 <table>
 	<thead>
@@ -452,7 +467,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tr>
 	</tbody>
 </table>
-<h3>II_SUPERSECTOR Table</h3>
+<h3><a name="II_SUPERSECTOR">II_SUPERSECTOR Table</a></h3>
 
 <table>
 	<thead>
