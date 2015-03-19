@@ -2,6 +2,7 @@
 layout: post
 title: Mine Violation
 created: 1359571242
+description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 as a result of MSHA inspections.
 ---
 
 ```

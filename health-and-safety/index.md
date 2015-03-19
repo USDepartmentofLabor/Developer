@@ -4,4 +4,9 @@ layout: post
 categories: health-and-safety
 ---
 
-# Health and Safety
+{% for item in site.categories.health-and-safety %}
+
+###[{{ item.title }}]({{ site.baseurl }}{{ item.url }})
+{{ item.description }}
+
+{% endfor %}

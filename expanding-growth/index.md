@@ -4,4 +4,9 @@ layout: post
 categories: expanding-growth
 ---
 
-# Expanding Growth Opportunities and Learning
+{% for item in site.categories.expanding-growth %}
+
+###[{{ item.title }}]({{ site.baseurl }}{{ item.url }})
+{{ item.description }}
+
+{% endfor %}

@@ -4,4 +4,9 @@ layout: post
 categories: others
 ---
 
-# Others
+{% for item in site.categories.others %}
+
+###[{{ item.title }}]({{ site.baseurl }}{{ item.url }})
+{{ item.description }}
+
+{% endfor %}

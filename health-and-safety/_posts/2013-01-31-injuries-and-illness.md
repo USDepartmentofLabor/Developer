@@ -2,6 +2,7 @@
 layout: post
 title: Injuries And Illness
 created: 1359641735
+description: The Injuries, Illnesses, and Fatalities (IIF) program provides annual information on the rate and number of work related injuries, illnesses, and fatal injuries, and how these statistics vary by incident, industry, geography, occupation, and other characteristics.
 ---
 
 ```

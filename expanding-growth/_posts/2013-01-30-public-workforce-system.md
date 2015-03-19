@@ -2,6 +2,7 @@
 layout: post
 title: Public Workforce System
 created: 1359580002
+description: The PWSD is a dataset that can be used to answer questions about various public workforce system programs and how these programs fit in with the overall public workforce system and the economy.
 ---
 
 ```

@@ -2,6 +2,7 @@
 layout: post
 title: Safety & Health
 created: 1359491704
+description: Data related to safety and health in the workplace.
 ---
 
 ```

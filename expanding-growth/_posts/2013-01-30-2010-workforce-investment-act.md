@@ -2,6 +2,7 @@
 layout: post
 title: 2010 Workforce Investment Act
 created: 1359574573
+description: The evaluation employs administrative data from 12 states, covering approximately 160,000 WIA participants and nearly 3 million comparison group members.
 ---
 
 ```

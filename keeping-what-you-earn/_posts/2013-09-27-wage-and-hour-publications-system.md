@@ -2,6 +2,7 @@
 layout: post
 title: Wage & Hour Publications System
 created: 1380292809
+description: This dataset provides information regarding all of the publicly available and currently active publications.
 ---
 
 ```

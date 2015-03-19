@@ -2,6 +2,7 @@
 layout: post
 title: Mine Inspections
 created: 1359127523
+description: The Mine Inspections dataset lists every mine inspection conducted by MSHA dating back to 1/1/1978.
 ---
 
 ```
