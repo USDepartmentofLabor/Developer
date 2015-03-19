@@ -103,10 +103,19 @@ developer.dol.gov
     padding: 15px 0;
 }
 
+.button_wide {
+    background-color: black;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    padding: 15px 15px;
+}
+
 #choose .button:hover, #stats .button:hover, #grab .button:hover,.button_tran:hover, .button_dol:hover,
 .button_dataset:hover,
 .button_tran_left:hover,
-.button_ls:hover {
+.button_ls:hover,
+.button_wide:hover {
     background-color: #333333;
 }
 
@@ -504,4 +513,14 @@ developer.dol.gov
 
 .grab_block {
     margin-left: 20px;
+}
+
+.anchor {
+    color: black;
+}
+
+.guide_note, .guide_note p {
+    color: #666666;
+    font-size: 12px;
+    margin-bottom: 1.25rem;
 }

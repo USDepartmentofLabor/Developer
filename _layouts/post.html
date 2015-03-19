@@ -3,54 +3,75 @@ layout: default
 ---
 <div class="row" data-equalizer>
     <div class="large-4 columns show-for-medium-up" data-equalizer-watch>
-        <ul class="accordion" data-accordion>
-            <li class="accordion-navigation">
+        <div class="row">
+            {% if page.categories contains 'health-and-safety' %}
+            <div class="large-4 columns"><img src="{{ site.baseurl }}/img/health.png" class="menu_title_dataset_img" alt="Health Icon"></div>
+            
+            <div class="large-8 columns"><h1 class="menu_title_dataset">DOL HEALTH & SAFETY DATASETS</h1></div>
+            {% elsif page.categories contains 'keeping-what-you-earn' %}
+            <div class="large-4 columns"><img src="{{ site.baseurl }}/img/bank.png" class="menu_title_dataset_img" alt="Bank Icon"></div>
+
+            <div class="large-8 columns"><h1 class="menu_title_dataset">KEEPING WHAT YOU EARN</h1></div>
+            {% elsif page.categories contains 'expanding-growth' %}
+            <div class="large-4 columns"><img src="{{ site.baseurl }}/img/charticon.png" class="menu_title_dataset_img" alt="Chart Icon"></div>
+
+            <div class="large-8 columns"><h1 class="menu_title_dataset">Expanding Growth Opportunities & Learning</h1></div>
+            {% elsif page.categories contains 'others' %}
+            <div class="large-4 columns"><img src="{{ site.baseurl }}/img/purpleQs.png" class="menu_title_dataset_img" alt="Question Mark Icon"></div>
+
+            <div class="large-8 columns"><h1 class="menu_title_dataset">DOL OTHER DATASETS</h1></div>
+            {% endif %}
+        </div>
+        <div class="row">
+            <ul class="accordion" data-accordion>
+            <li class="accordion-navigation {% if page.categories contains 'health-and-safety' %}active{% endif %}">
                 <a href="#healthsafe">Health & Safety</a>
 
                 <div id="healthsafe" class="content {% if page.categories contains 'health-and-safety' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.health-and-safety %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                            
                         {% endfor %}
                     </ul>
                 </div>
             </li>
-            <li class="accordion-navigation">
+            <li class="accordion-navigation {% if page.categories contains 'keeping-what-you-earn' %}active{% endif %}">
                 <a href="#keeping">Keeping What You Earn</a>
                 <div id="keeping" class="content {% if page.categories contains 'keeping-what-you-earn' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.keeping-what-you-earn %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </div>
             </li>
-            <li class="accordion-navigation">
-                <a href="#expanding">Expanding Growth Opportunities & Learning</a>
+            <li class="accordion-navigation {% if page.categories contains 'expanding-growth' %}active{% endif %}">
+                <a href="#expanding">Expanding Growth<br />Opportunities & Learning</a>
                 <div id="expanding" class="content {% if page.categories contains 'expanding-growth' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.expanding-growth %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </div>
             </li>
-            <li class="accordion-navigation">
+            <li class="accordion-navigation {% if page.categories contains 'others' %}active{% endif %}">
                 <a href="#others">Other Datasets</a>
                 <div id="others" class="content {% if page.categories contains 'others' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.others %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </div>
             </li>
-        </ul>
+            </ul>
+        </div>
+</div>
+    
 
-    </div>
-
-
-    <div class="large-8 columns post">
+    <div class="large-8 columns post" data-equalizer-watch>
 
         <header class="post-header">
             <h1 class="post_title_dataset">{{ page.title }}</h1>

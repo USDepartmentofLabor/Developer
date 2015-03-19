@@ -4,7 +4,23 @@
     font-weight: bold;
     font-size: 30px;
     color: black;
-    
+    margin-top: 20px;
+}
+
+.menu_title_dataset {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    margin-top: 20px;
+
+}
+
+.menu_title_dataset_img {
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
 }
 
 
@@ -43,4 +59,37 @@
 
 .post_content_dataset thead tr {
     background-color: #D9D9D9;
+}
+
+.accordion .accordion-navigation > a, .accordion dd > a  {
+    background-color: white;
+    border-bottom: solid;
+    border-width: 1px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+    border-left: solid;
+    background-color: white;
+    border-left-color: darkred;
+    
+    border-left-width: 10px;
+}
+
+.content a {
+    font-size: 14px;
+    color: black;
+}
+
+.content a:hover {
+    color: #0078a0 !important;
+    text-decoration: underline !important;
+}
+
+.content a:active,
+.current_item,
+.current_item a{
+    color: #black;
+    font-weight: bold;
 }
