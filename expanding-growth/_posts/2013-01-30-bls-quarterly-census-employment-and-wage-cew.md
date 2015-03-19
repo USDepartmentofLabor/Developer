@@ -18,7 +18,19 @@ http://api.dol.gov/V1/Statistics/CEW
 
 
 ## Dataset Tables  
-<h3>EN_AREA</h3>
+
+- [EN_AREA](#EN_AREA)
+- [EN_DATA_PUB](#EN_DATA_PUB)
+- [EN_FOOTNOTE](#EN_FOOTNOTE)
+- [EN_INDUSTRY](#EN_INDUSTRY)
+- [EN_LQAREA](#EN_LQAREA)
+- [EN_OWNER](#EN_OWNER)
+- [EN_SERIES](#EN_SERIES)
+- [EN_STATE](#EN_STATE)
+- [EN_TYPE](#EN_TYPE)
+
+<h3><a name="EN_AREA">EN_AREA</a></h3>
+
 
 <table>
 	<thead>
@@ -56,7 +68,7 @@ http://api.dol.gov/V1/Statistics/CEW
 		</tr>
 	</tbody>
 </table>
-<h3>EN_DATA_PUB</h3>
+<h3><a name="EN_DATA_PUB">EN_DATA_PUB</a></h3>
 
 <table>
 	<thead>
@@ -94,7 +106,7 @@ http://api.dol.gov/V1/Statistics/CEW
 		</tr>
 	</tbody>
 </table>
-<h3>EN_FOOTNOTE</h3>
+<h3><a name="EN_FOOTNOTE">EN_FOOTNOTE</a></h3>
 
 <table>
 	<thead>
@@ -117,7 +129,7 @@ http://api.dol.gov/V1/Statistics/CEW
 		</tr>
 	</tbody>
 </table>
-<h3>EN_INDUSTRY</h3>
+<h3><a name="EN_INDUSTRY">EN_INDUSTRY</a></h3>
 
 <table>
 	<thead>
@@ -155,7 +167,7 @@ http://api.dol.gov/V1/Statistics/CEW
 		</tr>
 	</tbody>
 </table>
-<h3>EN_LQAREA</h3>
+<h3><a name="EN_LQAREA">EN_LQAREA</a></h3>
 
 <table>
 	<thead>
@@ -193,7 +205,7 @@ http://api.dol.gov/V1/Statistics/CEW
 		</tr>
 	</tbody>
 </table>
-<h3>EN_OWNER</h3>
+<h3><a name="EN_OWNER">EN_OWNER</a></h3>
 
 <table>
 	<thead>
@@ -231,7 +243,7 @@ http://api.dol.gov/V1/Statistics/CEW
 		</tr>
 	</tbody>
 </table>
-<h3>EN_SERIES</h3>
+<h3><a name="EN_SERIES">EN_SERIES</a></h3>
 
 <table>
 	<thead>
@@ -304,7 +316,7 @@ http://api.dol.gov/V1/Statistics/CEW
 		</tr>
 	</tbody>
 </table>
-<h3>EN_STATE</h3>
+<h3><a name="EN_STATE">EN_STATE</a></h3>
 
 <table>
 	<thead>
@@ -342,7 +354,7 @@ http://api.dol.gov/V1/Statistics/CEW
 		</tr>
 	</tbody>
 </table>
-<h3>EN_TYPE</h3>
+<h3><a name="EN_TYPE">EN_TYPE</a></h3>
 
 <table>
 	<thead>

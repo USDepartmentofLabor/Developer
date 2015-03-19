@@ -18,7 +18,22 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 
 
 ## Dataset Tables  
-<h3>OE_AREA</h3>
+
+- [OE_AREA](#OE_AREA)
+- [OE_AREATYPE](#OE_AREATYPE)
+- [OE_DATA_PUB](#OE_DATA_PUB)
+- [OE_DATATYPE](#OE_DATATYPE)
+- [OE_FOOTNOTE](#OE_FOOTNOTE)
+- [OE_INDUSTRY](#OE_INDUSTRY)
+- [OE_OCCUGROUP](#OE_OCCUGROUP)
+- [OE_OCCUPATION](#OE_OCCUPATION)
+- [OE_RELEASE](#OE_RELEASE)
+- [OE_SEASONAL](#OE_SEASONAL)
+- [OE_SECTOR](#OE_SECTOR)
+- [OE_SERIES](#OE_SERIES)
+- [OE_STATEMSA](#OE_STATEMSA)
+
+<h3><a name="OE_AREA">OE_AREA</a></h3>
 
 <table>
 	<thead>
@@ -46,7 +61,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_AREATYPE</h3>
+<h3><a name="OE_AREATYPE">OE_AREATYPE</a></h3>
 
 <table>
 	<thead>
@@ -69,7 +84,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_DATA_PUB</h3>
+<h3><a name="OE_DATA_PUB">OE_DATA_PUB</a></h3>
 
 <table>
 	<thead>
@@ -107,7 +122,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_DATATYPE</h3>
+<h3><a name="OE_DATATYPE">OE_DATATYPE</a></h3>
 
 <table>
 	<thead>
@@ -135,7 +150,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_FOOTNOTE</h3>
+<h3><a name="OE_FOOTNOTE">OE_FOOTNOTE</a></h3>
 
 <table>
 	<thead>
@@ -158,7 +173,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_INDUSTRY</h3>
+<h3><a name="OE_INDUSTRY">OE_INDUSTRY</a></h3>
 
 <table>
 	<thead>
@@ -196,7 +211,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_OCCUGROUP</h3>
+<h3><a name="OE_OCCUGROUP">OE_OCCUGROUP</a></h3>
 
 <table>
 	<thead>
@@ -219,7 +234,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_OCCUPATION</h3>
+<h3><a name="OE_OCCUPATION">OE_OCCUPATION</a></h3>
 
 <table>
 	<thead>
@@ -257,7 +272,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_RELEASE</h3>
+<h3><a name="OE_RELEASE">OE_RELEASE</a></h3>
 
 <table>
 	<thead>
@@ -280,7 +295,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_SEASONAL</h3>
+<h3><a name="OE_SEASONAL">OE_SEASONAL</a></h3>
 
 <table>
 	<thead>
@@ -303,7 +318,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_SECTOR</h3>
+<h3><a name="OE_SECTOR">OE_SECTOR</a></h3>
 
 <table>
 	<thead>
@@ -326,7 +341,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_SERIES</h3>
+<h3><a name="OE_SERIES">OE_SERIES</a></h3>
 
 <table>
 	<thead>
@@ -399,7 +414,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tr>
 	</tbody>
 </table>
-<h3>OE_STATEMSA</h3>
+<h3><a name="OE_STATEMSA">OE_STATEMSA</a></h3>
 
 <table>
 	<thead>

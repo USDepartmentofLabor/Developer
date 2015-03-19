@@ -14,8 +14,14 @@ http://api.dol.gov/V1/Geography
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Geography" class="button radius button_dataset">Explore This Data</a>
 
 
-## Dataset Tables  
-<h3>City Table</h3>
+## Dataset Tables
+
+- [City](#City)
+- [CongressDistrict](#CongressDistrict)
+- [County](#County)
+- [State](#State)
+
+<h3><a name="City">City Table</a></h3>
 
 <table>
 	<thead>
@@ -53,7 +59,7 @@ http://api.dol.gov/V1/Geography
 		</tr>
 	</tbody>
 </table>
-<h3>CongressDistrict Table</h3>
+<h3><a name="CongressDistrict">CongressDistrict Table</a></h3>
 
 <table>
 	<thead>
@@ -81,7 +87,7 @@ http://api.dol.gov/V1/Geography
 		</tr>
 	</tbody>
 </table>
-<h3>County Table</h3>
+<h3><a name="County">County Table</a></h3>
 
 <table>
 	<thead>
@@ -104,7 +110,7 @@ http://api.dol.gov/V1/Geography
 		</tr>
 	</tbody>
 </table>
-<h3>State Table</h3>
+<h3><a name="State">State Table</a></h3>
 
 <table>
 	<tbody>
