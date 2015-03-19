@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Beginners Guide
+title: Beginner's Guide
 created: 1359565402
 ---
 

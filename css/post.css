@@ -23,7 +23,9 @@
     margin-top: 20px;
 }
 
-
+.post_content_dataset a:hover {
+    text-decoration: underline;
+}
 .post_content_dataset,
 .post_content_dataset p {
     font-family: 'Open Sans', sans-serif;
@@ -32,11 +34,16 @@
     color: black;
 }
 
-.post_content_dataset h2 {
+.post_content_dataset h2,
+.post_content_dataset h2 a {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 28px;
     color: black;
+}
+
+.post_content_dataset h2 a:hover {
+    text-decoration: none;
 }
 
 .post_content_dataset h3 {
