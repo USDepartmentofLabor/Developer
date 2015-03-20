@@ -1778,7 +1778,7 @@ meta.foundation-mq-topbar {
       .top-bar .toggle-topbar.menu-icon a {
         height: 34px;
         line-height: 33px;
-        padding: 0 2.5rem 0 0.9375rem;
+        padding: 0 59.5rem 0 0.9375rem;
         color: black;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a span::after {
@@ -1788,7 +1788,7 @@ meta.foundation-mq-topbar {
           height: 0;
           top: 50%;
           margin-top: -8px;
-          right: 0.9375rem;
+          right: 57.9375rem;
           box-shadow: 0 0 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
