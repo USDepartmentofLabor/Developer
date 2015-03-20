@@ -103,3 +103,7 @@
     color: #black;
     font-weight: bold;
 }
+
+article {
+    min-height: 800px;
+}
