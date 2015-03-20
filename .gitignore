@@ -4,3 +4,8 @@ _site
 .DS_Store
 .idea/
 deploy.sh
+qadeploy.sh
+github_deploy.yml
+qa_deploy.yml
+developerportalqa_deploy.yml
+
