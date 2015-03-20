@@ -34,12 +34,17 @@
     color: black;
 }
 
-.post_content_dataset h2,
-.post_content_dataset h2 a {
+.post_content_dataset h2, {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 28px;
     color: black;
+}
+
+.post_content_dataset h2 a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
 }
 
 .post_content_dataset h2 a:hover {
@@ -91,6 +96,8 @@
     font-size: 14px;
     color: black;
 }
+
+.content 
 
 .content a:hover {
     color: #0078a0 !important;
