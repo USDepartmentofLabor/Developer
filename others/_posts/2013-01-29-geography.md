@@ -22,7 +22,7 @@ http://api.dol.gov/V1/Geography
 - [County](#County)
 - [State](#State)
 
-<h3><a name="City">City Table</a></h3>
+<h3><a id="City">City Table</a></h3>
 
 <table>
 	<thead>
@@ -60,7 +60,7 @@ http://api.dol.gov/V1/Geography
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CongressDistrict">CongressDistrict Table</a></h3>
+<h3><a id="CongressDistrict">CongressDistrict Table</a></h3>
 
 <table>
 	<thead>
@@ -88,7 +88,7 @@ http://api.dol.gov/V1/Geography
 		</tr>
 	</tbody>
 </table>
-<h3><a name="County">County Table</a></h3>
+<h3><a id="County">County Table</a></h3>
 
 <table>
 	<thead>
@@ -111,7 +111,7 @@ http://api.dol.gov/V1/Geography
 		</tr>
 	</tbody>
 </table>
-<h3><a name="State">State Table</a></h3>
+<h3><a id="State">State Table</a></h3>
 
 <table>
 	<tbody>

@@ -29,7 +29,7 @@ http://api.dol.gov/V1/Statistics/CPI
 - [CU_SEASONAL](#CU_SEASONAL)
 - [CU_SERIES](#CU_SERIES)
 
-<h3><a name="CU_AREA">CU_AREA Table</a></h3>
+<h3><a id="CU_AREA">CU_AREA Table</a></h3>
 
 <table>
 	<thead>
@@ -67,7 +67,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CU_BASE">CU_BASE Table</a></h3>
+<h3><a id="CU_BASE">CU_BASE Table</a></h3>
 
 <table>
 	<thead>
@@ -90,7 +90,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CU_DATA_PUB">CU_DATA_PUB Table</a></h3>
+<h3><a id="CU_DATA_PUB">CU_DATA_PUB Table</a></h3>
 
 <table>
 	<thead>
@@ -128,7 +128,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CU_FOOTNOTE">CU_FOOTNOTE Table</a></h3>
+<h3><a id="CU_FOOTNOTE">CU_FOOTNOTE Table</a></h3>
 
 <table>
 	<thead>
@@ -151,7 +151,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CU_ITEM">CU_ITEM Table</a></h3>
+<h3><a id="CU_ITEM">CU_ITEM Table</a></h3>
 
 <table>
 	<thead>
@@ -189,7 +189,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CU_PERIODICITY">CU_PERIODICITY Table</a></h3>
+<h3><a id="CU_PERIODICITY">CU_PERIODICITY Table</a></h3>
 
 <table>
 	<thead>
@@ -212,7 +212,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CU_SEASONAL">CU_SEASONAL Table</a></h3>
+<h3><a id="CU_SEASONAL">CU_SEASONAL Table</a></h3>
 
 <table>
 	<thead>
@@ -235,7 +235,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CU_SERIES">CU_SERIES Table</a></h3>
+<h3><a id="CU_SERIES">CU_SERIES Table</a></h3>
 
 <table>
 	<thead>

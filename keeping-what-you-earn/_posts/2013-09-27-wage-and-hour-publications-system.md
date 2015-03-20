@@ -20,7 +20,7 @@ http://api.dol.gov/V1/WHPS
 - [PublicationsView](#publicationsview)
 - [DocumentsView](#documentsview)
 
-<h3><a name="publicationsview">PublicationsView Table</a></h3>
+<h3><a id="publicationsview">PublicationsView Table</a></h3>
 
 <table>
 	<thead>
@@ -119,7 +119,7 @@ http://api.dol.gov/V1/WHPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="documentsview">DocumentsView Table<a/></h3>
+<h3><a id="documentsview">DocumentsView Table<a/></h3>
 <table>
     <thead>
         <tr>

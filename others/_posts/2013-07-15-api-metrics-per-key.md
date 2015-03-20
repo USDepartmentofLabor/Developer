@@ -37,7 +37,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 - [TopDataTablesPerKeyWeeks](#TopDataTablesPerKeyWeeks)
 - [TopDataTablesPerKeyYears](#TopDataTablesPerKeyYears)
 
-<h3><a name="NumberOfRequestsPerKeys">NumberOfRequestsPerKeys</a></h3>
+<h3><a id="NumberOfRequestsPerKeys">NumberOfRequestsPerKeys</a></h3>
 
 <table>
 	<thead>
@@ -60,35 +60,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="NumberOfRequestsPerDayByKeys">NumberOfRequestsPerDayByKeys</a></h3>
-
-<table>
-	<thead>
-		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>TOKEN</th>
-			<td>API Key</td>
-			<td>GUID</td>
-		</tr>
-		<tr>
-			<th>RequestDate</th>
-			<td>Date</td>
-			<td>DateTime</td>
-		</tr>
-		<tr>
-			<th>RequestCount</th>
-			<td>Number of Requests</td>
-			<td>Integer</td>
-		</tr>
-	</tbody>
-</table>
-<h3><a name="NumberOfRequestsPerMonthByKeys">NumberOfRequestsPerMonthByKeys</a></h3>
+<h3><a id="NumberOfRequestsPerDayByKeys">NumberOfRequestsPerDayByKeys</a></h3>
 
 <table>
 	<thead>
@@ -116,7 +88,35 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="NumberOfRequestsPerYearByKeys">NumberOfRequestsPerYearByKeys</a></h3>
+<h3><a id="NumberOfRequestsPerMonthByKeys">NumberOfRequestsPerMonthByKeys</a></h3>
+
+<table>
+	<thead>
+		<tr>
+			<th>Column Name</th>
+			<th>Column Description</th>
+			<th>Data Type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>TOKEN</th>
+			<td>API Key</td>
+			<td>GUID</td>
+		</tr>
+		<tr>
+			<th>RequestDate</th>
+			<td>Date</td>
+			<td>DateTime</td>
+		</tr>
+		<tr>
+			<th>RequestCount</th>
+			<td>Number of Requests</td>
+			<td>Integer</td>
+		</tr>
+	</tbody>
+</table>
+<h3><a id="NumberOfRequestsPerYearByKeys">NumberOfRequestsPerYearByKeys</a></h3>
 
 <table>
 	<thead>
@@ -144,7 +144,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="NumberOfRequestsPerYearByWeeks">NumberOfRequestsPerYearByWeeks</a></h3>
+<h3><a id="NumberOfRequestsPerYearByWeeks">NumberOfRequestsPerYearByWeeks</a></h3>
 
 <table>
 	<thead>
@@ -177,7 +177,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="TopDatasetsPerKeys">TopDatasetsPerKeys</a></h3>
+<h3><a id="TopDatasetsPerKeys">TopDatasetsPerKeys</a></h3>
 
 <table>
 	<thead>
@@ -205,7 +205,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="TopDatasetsPerYearPerKeys">TopDatasetsPerYearPerKeys</a></h3>
+<h3><a id="TopDatasetsPerYearPerKeys">TopDatasetsPerYearPerKeys</a></h3>
 
 <table>
 	<thead>
@@ -233,7 +233,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="TopDatasetsPerMonthPerKeys">TopDatasetsPerMonthPerKeys</a></h3>
+<h3><a id="TopDatasetsPerMonthPerKeys">TopDatasetsPerMonthPerKeys</a></h3>
 
 <table>
 	<thead>
@@ -261,7 +261,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="TopDatasetsPerWeekPerKeys">TopDatasetsPerWeekPerKeys</a></h3>
+<h3><a id="TopDatasetsPerWeekPerKeys">TopDatasetsPerWeekPerKeys</a></h3>
 
 <table>
 	<thead>
@@ -289,7 +289,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="TopDatasetsPerDayPerKeys">TopDatasetsPerDayPerKeys</a></h3>
+<h3><a id="TopDatasetsPerDayPerKeys">TopDatasetsPerDayPerKeys</a></h3>
 
 <table>
 	<thead>
@@ -317,7 +317,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="TopDataTablesPerKeys">TopDataTablesPerKeys</a></h3>
+<h3><a id="TopDataTablesPerKeys">TopDataTablesPerKeys</a></h3>
 
 <table>
 	<thead>
@@ -345,7 +345,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="TopDataTablesPerKeyDays">TopDataTablesPerKeyDays</a></h3>
+<h3><a id="TopDataTablesPerKeyDays">TopDataTablesPerKeyDays</a></h3>
 
 <table>
 	<thead>
@@ -373,7 +373,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="TopDataTablesPerKeyMonths">TopDataTablesPerKeyMonths</a></h3>
+<h3><a id="TopDataTablesPerKeyMonths">TopDataTablesPerKeyMonths</a></h3>
 
 <table>
 	<thead>
@@ -401,7 +401,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="TopDataTablesPerKeyWeeks">TopDataTablesPerKeyWeeks</a></h3>
+<h3><a id="TopDataTablesPerKeyWeeks">TopDataTablesPerKeyWeeks</a></h3>
 
 <table>
 	<thead>
@@ -429,7 +429,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 		</tr>
 	</tbody>
 </table>
-<h3><a name="TopDataTablesPerKeyYears">TopDataTablesPerKeyYears</a></h3>
+<h3><a id="TopDataTablesPerKeyYears">TopDataTablesPerKeyYears</a></h3>
 
 <table>
 	<thead>

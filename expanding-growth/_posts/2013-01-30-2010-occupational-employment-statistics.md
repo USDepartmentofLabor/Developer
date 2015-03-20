@@ -49,7 +49,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 - [series](#series)
 - [statemsa](#statemsa)
 
-<h3><a name="area">area Table</a></h3>
+<h3><a id="area">area Table</a></h3>
 
 <p>Describes Area codes and Area names.</p>
 
@@ -79,7 +79,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="area_definitions">area_definitions Table</a></h3>
+<h3><a id="area_definitions">area_definitions Table</a></h3>
 <h3>area_definitions Table</h3>
 
 <p>Describes States, Counties, and Metropolitan Specific Areas.</p>
@@ -145,7 +145,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="areatype">areatype Table</a></h3>
+<h3><a id="areatype">areatype Table</a></h3>
 
 <p>Describes Area Types.</p>
 
@@ -170,7 +170,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="data">data Table</a></h3>
+<h3><a id="data">data Table</a></h3>
 
 <p>Describes current estimates.</p>
 
@@ -210,7 +210,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="datatype">datatype Table</a></h3>
+<h3><a id="datatype">datatype Table</a></h3>
 
 <p>Describes Data Types.</p>
 
@@ -240,7 +240,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="footnote">footnote Table</a></h3>
+<h3><a id="footnote">footnote Table</a></h3>
 
 <p>Describes Footnotes and explanation.</p>
 
@@ -265,7 +265,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="industry">industry Table</a></h3>
+<h3><a id="industry">industry Table</a></h3>
 
 <p>Describes Industry Codes and titles.</p>
 
@@ -305,7 +305,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="industry_titles">industry_titles Table</a></h3>
+<h3><a id="industry_titles">industry_titles Table</a></h3>
 
 <p>Describes Industry titles.</p>
 
@@ -330,7 +330,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="occugroup">occugroup Table</a></h3>
+<h3><a id="occugroup">occugroup Table</a></h3>
 
 <p>Describes major Occupation Groups codes and titles.</p>
 
@@ -355,7 +355,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="occupation">occupation Table</a></h3>
+<h3><a id="occupation">occupation Table</a></h3>
 
 <p>Describes detail Occupation codes and titles.</p>
 
@@ -395,7 +395,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="occupation_definitions">occupation_definitions Table</a></h3>
+<h3><a id="occupation_definitions">occupation_definitions Table</a></h3>
 
 <p>Describes Occupation definitions.</p>
 
@@ -427,7 +427,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="release">release Table</a></h3>
+<h3><a id="release">release Table</a></h3>
 
 <p>Describes the reference date.</p>
 
@@ -452,7 +452,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="seasonal">Seasonal Table</a></h3>
+<h3><a id="seasonal">Seasonal Table</a></h3>
 
 <p>Describes Seasonal adjustment indicator.</p>
 
@@ -477,7 +477,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="sector">sector Table</a></h3>
+<h3><a id="sector">sector Table</a></h3>
 
 <p>Describes Industry Sector codes and titles.</p>
 
@@ -502,7 +502,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		</tr>
 	</tbody>
 </table>
-<h3><a name="series">series Table</a></h3>
+<h3><a id="series">series Table</a></h3>
 
 <p>Describes all Series codes with start and end dates.</p>
 
@@ -589,7 +589,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	<li>occupation_code = 000000</li>
 	<li>datatype_code = 01</li>
 </ul>
-<h3><a name="statemsa">statemsa Table</a></h3>
+<h3><a id="statemsa">statemsa Table</a></h3>
 
 <p>Describes States and Areas.</p>
 

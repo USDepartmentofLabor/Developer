@@ -110,7 +110,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a name="foodservice">foodService Table<a/></h3>
+<h3><a id="foodservice">foodService Table<a/></h3>
 
 <table>
 	<thead>
@@ -194,7 +194,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a name="hospitality">hospitality Table</a></h3>
+<h3><a id="hospitality">hospitality Table</a></h3>
 
 <table>
 	<thead>
@@ -278,7 +278,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a name="retail">retail Table</a></h3>
+<h3><a id="retail">retail Table</a></h3>
 
 <table>
 	<thead>
@@ -362,7 +362,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a name="occupationcode">occupationCode Table</a></h3>
+<h3><a id="occupationcode">occupationCode Table</a></h3>
 
 <table>
 	<thead>
@@ -391,7 +391,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a name="substancecode">substanceCode Table</a></h3>
+<h3><a id="substancecode">substanceCode Table</a></h3>
 
 <table>
 	<thead>

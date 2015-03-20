@@ -40,7 +40,7 @@ http://api.dol.gov/V1/Statistics/CPS
 - [LE_TDATA](#LE_TDATA)
 - [LE_UNIN](#LE_UNIN)
 
-<h3><a name="LE_AGES">LE_AGES</a></h3>
+<h3><a id="LE_AGES">LE_AGES</a></h3>
 
 <table>
 	<thead>
@@ -63,7 +63,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_BORN">LE_BORN</a></h3>
+<h3><a id="LE_BORN">LE_BORN</a></h3>
 
 <table>
 	<thead>
@@ -101,7 +101,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_CLASS">LE_CLASS</a></h3>
+<h3><a id="LE_CLASS">LE_CLASS</a></h3>
 
 <table>
 	<thead>
@@ -139,7 +139,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_DATA_PUB">LE_DATA_PUB</a></h3>
+<h3><a id="LE_DATA_PUB">LE_DATA_PUB</a></h3>
 
 
 <table>
@@ -178,7 +178,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_EARN">LE_EARN</a></h3>
+<h3><a id="LE_EARN">LE_EARN</a></h3>
 
 <table>
 	<thead>
@@ -201,7 +201,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_EDUCATION">LE_EDUCATION</a></h3>
+<h3><a id="LE_EDUCATION">LE_EDUCATION</a></h3>
 
 <table>
 	<thead>
@@ -224,7 +224,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_FIPS">LE_FIPS</a></h3>
+<h3><a id="LE_FIPS">LE_FIPS</a></h3>
 
 <table>
 	<thead>
@@ -247,7 +247,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_FOOTNOTE">LE_FOOTNOTE</a></h3>
+<h3><a id="LE_FOOTNOTE">LE_FOOTNOTE</a></h3>
 
 <table>
 	<thead>
@@ -270,7 +270,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_INDY">LE_INDY</a></h3>
+<h3><a id="LE_INDY">LE_INDY</a></h3>
 
 <table>
 	<thead>
@@ -293,7 +293,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_LFST">LE_LFST</a></h3>
+<h3><a id="LE_LFST">LE_LFST</a></h3>
 
 <table>
 	<thead>
@@ -316,7 +316,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_OCCUPATION">LE_OCCUPATION</a></h3>
+<h3><a id="LE_OCCUPATION">LE_OCCUPATION</a></h3>
 
 <table>
 	<thead>
@@ -339,7 +339,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_ORIG">LE_ORIG</a></h3>
+<h3><a id="LE_ORIG">LE_ORIG</a></h3>
 
 <table>
 	<thead>
@@ -362,7 +362,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_PCTS">LE_PCTS</a></h3>
+<h3><a id="LE_PCTS">LE_PCTS</a></h3>
 
 <table>
 	<thead>
@@ -385,7 +385,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_RACE">LE_RACE</a></h3>
+<h3><a id="LE_RACE">LE_RACE</a></h3>
 
 <table>
 	<thead>
@@ -408,7 +408,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_SEASONAL">LE_SEASONAL</a></h3>
+<h3><a id="LE_SEASONAL">LE_SEASONAL</a></h3>
 
 <table>
 	<thead>
@@ -431,7 +431,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_SERIES">LE_SERIES</a></h3>
+<h3><a id="LE_SERIES">LE_SERIES</a></h3>
 
 <table>
 	<thead>
@@ -559,7 +559,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_SEXS">LE_SEXS</a></h3>
+<h3><a id="LE_SEXS">LE_SEXS</a></h3>
 
 <table>
 	<thead>
@@ -582,7 +582,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_TDATA">LE_TDATA</a></h3>
+<h3><a id="LE_TDATA">LE_TDATA</a></h3>
 
 <table>
 	<thead>
@@ -605,7 +605,7 @@ http://api.dol.gov/V1/Statistics/CPS
 		</tr>
 	</tbody>
 </table>
-<h3><a name="LE_UNIN">LE_UNIN</a></h3>
+<h3><a id="LE_UNIN">LE_UNIN</a></h3>
 
 <table>
 	<thead>

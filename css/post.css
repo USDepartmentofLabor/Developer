@@ -47,6 +47,17 @@
     font-size: 28px;
 }
 
+.anchorlinks h2 a,
+.anchorlinks h2 a:hover,
+.anchorlinks h3 a,
+.anchorlinks h3 a:hover,
+.anchorlinks a,
+.anchorlinks a:hover {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
 .post_content_dataset h2 a:hover {
     text-decoration: none;
 }
@@ -88,7 +99,6 @@
     border-left: solid;
     background-color: white;
     border-left-color: darkred;
-    
     border-left-width: 10px;
 }
 
@@ -112,5 +122,5 @@
 }
 
 article {
-    min-height: 800px;
+    min-height: 700px;
 }

@@ -24,7 +24,7 @@ http://api.dol.gov/V1/Statistics/PWSD
 - [model](#model)
 - [recessionPeriods](#recessionPeriods)
 
-<h3><a name="esFinal">esFinal</a></h3>
+<h3><a id="esFinal">esFinal</a></h3>
 
 <p>Employment service final.</p>
 
@@ -79,7 +79,7 @@ http://api.dol.gov/V1/Statistics/PWSD
 		</tr>
 	</tbody>
 </table>
-<h3><a name="model">model</a></h3>
+<h3><a id="model">model</a></h3>
 
 <p>Model.</p>
 
@@ -1139,7 +1139,7 @@ http://api.dol.gov/V1/Statistics/PWSD
 		</tr>
 	</tbody>
 </table>
-<h3><a name="recessionPeriods">recessionPeriods</a></h3>
+<h3><a id="recessionPeriods">recessionPeriods</a></h3>
 
 <p>Recession periods.</p>
 

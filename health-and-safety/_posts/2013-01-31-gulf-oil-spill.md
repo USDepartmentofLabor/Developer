@@ -20,7 +20,7 @@ http://api.dol.gov/V1/Safety/GulfOilSpill
 - [OSHA_Direct_Read_Sampling](#OSHA_Direct_Read_Sampling)
 - [OSHA_NOISE_REPORT](#OSHA_NOISE_REPORT) 
  
-<h3><a name="OSHA_Direct_Read_Sampling">OSHA_Direct_Read_Sampling Table</a></h3>
+<h3><a id="OSHA_Direct_Read_Sampling">OSHA_Direct_Read_Sampling Table</a></h3>
 
 <table>
 	<thead>
@@ -84,7 +84,7 @@ http://api.dol.gov/V1/Safety/GulfOilSpill
 	</tbody>
 </table>
 
-<h3><a name="OSHA_NOISE_REPORT">OSHA_NOISE_REPORT Table</a></h3>
+<h3><a id="OSHA_NOISE_REPORT">OSHA_NOISE_REPORT Table</a></h3>
 
 <table>
 	<thead>

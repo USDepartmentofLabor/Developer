@@ -31,7 +31,7 @@ To use the API you must register at <a href="https://devtools.dol.gov/developer"
 	<li>The token value will be auto-generated and added to your tokens list.</li>
 </ul>
 
-<h2><a name="accessing" class="anchor">Accessing the API</a></h2>
+<h2><a id="accessing" class="anchor">Accessing the API</a></h2>
 
 <p>The API is exposed as an <a href="http://www.odata.org/">OData</a> producer, with the addition of request authorizations. We are providing SDK's for some platforms that abstract the OData and request signing process and provides you with an easy to use method call. Please visit the <a href="{{ site.baseurl }}/sdk/">SDKs Page</a> to learn more about the DOL Data SDKs.</p>
 

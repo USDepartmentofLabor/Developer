@@ -25,7 +25,7 @@ http://api.dol.gov/V1/Compliance/WHD
 - [retail table](#retail)
 
  
-<h3><a name="full">full Table</a></h3>
+<h3><a id="full">full Table</a></h3>
 
 <table>
 	<thead>
@@ -138,7 +138,7 @@ http://api.dol.gov/V1/Compliance/WHD
 		</tr>
 	</tbody>
 </table>
-<h3><a name="foodservice">foodService Table<a/></h3>
+<h3><a id="foodservice">foodService Table<a/></h3>
 
 <table>
 	<thead>
@@ -251,7 +251,7 @@ http://api.dol.gov/V1/Compliance/WHD
 		</tr>
 	</tbody>
 </table>
-<h3><a name="hospitality">hospitality Table</a></h3>
+<h3><a id="hospitality">hospitality Table</a></h3>
 
 <table>
 	<thead>
@@ -364,7 +364,7 @@ http://api.dol.gov/V1/Compliance/WHD
 		</tr>
 	</tbody>
 </table>
-<h3><a name="retail">retail Table</a></h3>
+<h3><a id="retail">retail Table</a></h3>
 
 <table>
 	<thead>

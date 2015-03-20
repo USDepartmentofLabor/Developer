@@ -28,7 +28,7 @@ http://api.dol.gov/V1/Statistics/CES
 - [CE_SERIES](#CE_SERIES)
 - [CE_SUPERSECTOR](#CE_SUPERSECTOR)
 
-<h3><a name="CE_DATA_PUB">CU_DATA_PUB Table</a></h3>
+<h3><a id="CE_DATA_PUB">CU_DATA_PUB Table</a></h3>
 
 <table>
 	<thead>
@@ -66,7 +66,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CE_DATATYYPE">CE_DATATYYPE Table</a></h3>
+<h3><a id="CE_DATATYYPE">CE_DATATYYPE Table</a></h3>
 
 <table>
 	<thead>
@@ -89,7 +89,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CE_FOOTNOTE">CE_FOOTNOTE Table</a></h3>
+<h3><a id="CE_FOOTNOTE">CE_FOOTNOTE Table</a></h3>
 
 <table>
 	<thead>
@@ -112,7 +112,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CE_INDUSTRY">CE_INDUSTRY Table</a></h3>
+<h3><a id="CE_INDUSTRY">CE_INDUSTRY Table</a></h3>
 
 <table>
 	<thead>
@@ -160,7 +160,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CE_SEASONAL">CE_SEASONAL Table</a></h3>
+<h3><a id="CE_SEASONAL">CE_SEASONAL Table</a></h3>
 
 <table>
 	<thead>
@@ -183,7 +183,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CE_SERIES">CE_SERIES Table</a></h3>
+<h3><a id="CE_SERIES">CE_SERIES Table</a></h3>
 
 <table>
 	<thead>
@@ -246,7 +246,7 @@ http://api.dol.gov/V1/Statistics/CES
 		</tr>
 	</tbody>
 </table>
-<h3><a name="CE_SUPERSECTOR">CE_SUPERSECTOR Table</a></h3>
+<h3><a id="CE_SUPERSECTOR">CE_SUPERSECTOR Table</a></h3>
 
 <table>
 	<thead>

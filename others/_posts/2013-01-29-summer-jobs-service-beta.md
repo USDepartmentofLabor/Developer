@@ -100,7 +100,7 @@ For example: ?region=&amp;locality=<br />
 </table>
 <h3>Lookup Codes</h3>
 
-<p><label><a name="formatcodes"></a>Format Codes:</label><br />
+<p><label><a id="formatcodes"></a>Format Codes:</label><br />
 json ( Default )<br />
 xml<br />
 atom</p>

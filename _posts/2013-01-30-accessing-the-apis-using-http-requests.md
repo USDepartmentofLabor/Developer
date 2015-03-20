@@ -16,7 +16,7 @@ created: 1359565589
 - [Filtering Data - Multiple Filters](#filter_multi)
 
 <div class="post_content_dataset">
-<h2><a name="requesting">Requesting Dataset Metadata</a></h2>
+<h2 class="anchorlinks"><a id="requesting">Requesting Dataset Metadata</a></h2>
 <h3>Authentication</h3>
 This method does not require authentication.  An API key is <strong>not</strong> required.
 <h3>Arguments</h3>
@@ -47,7 +47,7 @@ None
 <hr>
 <div class='post_content_dataset'>
     <div class='col12 pad1y'>
-        <h2 ><a name="reading">Reading a table</a></h2>
+        <h2 class="anchorlinks"><a id="reading">Reading a table</a></h2>
         <h3 >Authentication</h3>
         This method does not require authentication.
         <h3 >Arguments</h3>
@@ -79,7 +79,7 @@ None
 <hr>
 <div class='post_content_dataset'>
     <div class='col12 pad2y'>
-        <h2 ><a name="limit">Limit the number of results returned</a></h2>
+        <h2 class="anchorlinks"><a id="limit">Limit the number of results returned</a></h2>
         <h3 >Authentication</h3>
         This method does not require authentication.
         <h3 >Arguments</h3>
@@ -116,7 +116,7 @@ None
 <hr>
 <div class='post_content_dataset'>
     <div class='col12 pad1y'>
-        <h2 ><a name="skip">Skip a Number of Results</a></h2>
+        <h2 class="anchorlinks"><a id="skip">Skip a Number of Results</a></h2>
         <h3 >Authentication</h3>
         This method does not require authentication
         <h3 >Arguments</h3>
@@ -153,7 +153,7 @@ None
 <hr>
 <div class='post_content_dataset'>
     <div class='col12 pad1y'>
-        <h2 ><a name="pagination">Data Pagination by Combining Top and Skip</a></h2>
+        <h2 class="anchorlinks"><a id="pagination">Data Pagination by Combining Top and Skip</a></h2>
         <h3 >Authentication</h3>
         This method does not require authentication
         <h3 >Arguments</h3>
@@ -191,7 +191,7 @@ None
 <hr>
 <div class='post_content_dataset'>
     <div class='col12 pad1y'>
-        <h2 ><a name="select">Selecting Specific Columns</a></h2>
+        <h2 class="anchorlinks"><a id="select">Selecting Specific Columns</a></h2>
         <h3 >Authentication</h3>
         This method does not require authentication
         <h3 >Arguments</h3>
@@ -228,7 +228,7 @@ None
 <hr>
 <div class='post_content_dataset'>
     <div class='col12 pad1y'>
-        <h2 ><a name="sort">Sorting Data</a></h2>
+        <h2 class="anchorlinks"><a id="sort">Sorting Data</a></h2>
         <h3 >Authentication</h3>
         This method does not require authentication
         <h3 >Arguments</h3>
@@ -271,7 +271,7 @@ None
 <hr>
 <div class='post_content_dataset'>
     <div class='col12 pad1y'>
-        <h2 ><a name="filter_single">Filtering Data - Single Filter</a></h2>
+        <h2 class="anchorlinks"><a id="filter_single">Filtering Data - Single Filter</a></h2>
         <h3 >Authentication</h3>
         This method does not require authentication
         <h3 >Arguments</h3>
@@ -317,7 +317,7 @@ None
 <hr>
 <div class='post_content_dataset'>
     <div class='col12 pad1y'>
-        <h2 ><a name="filter_multi">Filtering Data - Multiple Filters</a></h2>
+        <h2 class="anchorlinks"><a id="filter_multi">Filtering Data - Multiple Filters</a></h2>
         <h3 >Authentication</h3>
         This method does not require authentication
         <h3 >Arguments</h3>
