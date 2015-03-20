@@ -15,7 +15,7 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 
 
 <a href ="http://api.dol.gov/V1/Statistics/OES/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Occupational Employment Statistics Survey (OES)" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Occupational%20Employment%20Statistics%20Survey%20(OES)" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables  

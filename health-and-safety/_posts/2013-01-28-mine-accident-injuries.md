@@ -15,7 +15,7 @@ http://api.dol.gov/V1/Safety/Accidents
 
 
 <a href ="http://api.dol.gov/V1/Safety/Accidents/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Mine Accident Injuries Data Set" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Mine%20Accident%20Injuries%20Data%20Set" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables  

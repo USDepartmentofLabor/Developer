@@ -15,7 +15,7 @@ http://api.dol.gov/V1/Statistics/CPI
 
 
 <a href ="http://api.dol.gov/V1/Statistics/CPI/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Consumer Price Index (CPI)" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Consumer%20Price%20Index%20(CPI)" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables

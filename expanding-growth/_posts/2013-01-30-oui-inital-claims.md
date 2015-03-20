@@ -13,7 +13,7 @@ http://api.dol.gov/V1/Statistics/OUI_InitialClaims
 
 
 <a href ="http://api.dol.gov/V1/Statistics/OUI_InitialClaims/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=OUI Initial Claims" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=OUI%20Initial%20Claims" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables  

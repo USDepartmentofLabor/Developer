@@ -15,7 +15,7 @@ http://api.dol.gov/V1/Statistics/REI
 
 
 <a href ="http://api.dol.gov/V1/Statistics/REI/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Research and Evaluation Inventory Dataset" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Research%20and%20Evaluation%20Inventory%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables  

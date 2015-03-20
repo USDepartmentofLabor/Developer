@@ -15,7 +15,7 @@ http://api.dol.gov/V1/Statistics/CPS
 
 
 <a href ="http://api.dol.gov/V1/Statistics/CPS/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Customer Population Survey (CPS)" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Customer%20Population%20Survey%20(CPS)" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables  

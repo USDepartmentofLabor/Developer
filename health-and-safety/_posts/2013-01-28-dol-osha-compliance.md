@@ -15,7 +15,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 
 
 <a href ="http://api.dol.gov/V1/Compliance/OSHA/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Compliance-OSHA" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Compliance-OSHA" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables  
@@ -110,7 +110,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a id="foodservice">foodService Table<a/></h3>
+<h3><a id="foodservice">foodService Table</a></h3>
 
 <table>
 	<thead>

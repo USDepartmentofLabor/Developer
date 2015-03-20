@@ -20,7 +20,7 @@ http://api.dol.gov/V1/Statistics/WIA
 
 
 <a href ="http://api.dol.gov/V1/Statistics/WIA/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Workforce Investment Act" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Workforce%20Investment%20Act" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables

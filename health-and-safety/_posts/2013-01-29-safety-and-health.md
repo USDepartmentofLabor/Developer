@@ -13,7 +13,7 @@ http://api.dol.gov/V1/SafetyHealth
 
 
 <a href ="http://api.dol.gov/V1/SafetyHealth/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="http://developer.dol.gov/DOL-SafetyHealth-DATASET.htm" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables

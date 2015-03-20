@@ -14,7 +14,7 @@ http://api.dol.gov/V1/Compliance/WHD
 <p>This complete dataset can be found on the DOL Data Enforcement application at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://enforcedata.dol.gov&amp;exitTitle=Enforcement&amp;fedpage=yes">http://enforcedata.dol.gov</a></p>
 
 <a href ="http://api.dol.gov/V1/Compliance/WHD/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL Compliance-WHD" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Compliance-WHD" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables 
@@ -138,7 +138,7 @@ http://api.dol.gov/V1/Compliance/WHD
 		</tr>
 	</tbody>
 </table>
-<h3><a id="foodservice">foodService Table<a/></h3>
+<h3><a id="foodservice">foodService Table</a></h3>
 
 <table>
 	<thead>

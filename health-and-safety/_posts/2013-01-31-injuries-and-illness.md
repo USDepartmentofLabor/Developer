@@ -32,7 +32,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 - [II_SERIES](#II_SERIES)
 - [II_SUPERSECTOR](#II_SUPERSECTOR)
   
-<h3><a id="II_AREA">II_AREA Table<a/></h3>
+<h3><a id="II_AREA">II_AREA Table</a></h3>
 
 <table>
 	<thead>

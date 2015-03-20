@@ -15,7 +15,7 @@ http://api.dol.gov/V1/Statistics/CES
 
 
 <a href ="http://api.dol.gov/V1/Statistics/CES/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS Current Employment Statistics Survey (CES)" class="button radius button_dataset">Explore This Data</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Current%20Employment%20Statistics%20Survey%20(CES)" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables 

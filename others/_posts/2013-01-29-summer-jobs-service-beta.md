@@ -54,7 +54,6 @@ For example: ?region=&amp;locality=<br />
 
 
 <a href ="http://api.dol.gov/V1/SummerJobs/$metadata" class="button radius button_dataset">Browse Metadata</a>
-<a href ="http://api.dol.gov/V1/SummerJobs/$metadata" class="button radius button_dataset">Explore This Data</a>
 
 
 ## Dataset Tables  

@@ -119,7 +119,7 @@ http://api.dol.gov/V1/WHPS
 		</tr>
 	</tbody>
 </table>
-<h3><a id="documentsview">DocumentsView Table<a/></h3>
+<h3><a id="documentsview">DocumentsView Table</a></h3>
 <table>
     <thead>
         <tr>
