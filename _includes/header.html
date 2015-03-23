@@ -33,12 +33,13 @@
             </form></-->
           <form action="//search.usa.gov/search" method="get" class="usagov" role="search">
             <div class="small-10 columns">
-              <input autocomplete="off" type="text" id="query" name="query" placeholder="Enter Search Terms" class="usagov-search-autocomplete" required="required" >
+                <label for="query"><span class="hide">Search</span></label>
+                <input autocomplete="off" type="text" id="query" name="query" placeholder="Enter Search Terms" class="usagov-search-autocomplete" required="required" >
             </div>
             <div class="small-2 columns">
                 <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
 
-              <input type="image"  src="{{ site.baseurl }}/img/icon-search.png" alt="Search DOL" class="usagov-submit">
+              <input type="image"  src="{{ site.baseurl }}/img/icon-search.png" alt="Search" class="usagov-submit">
                 <!--
                 <input type="image"  src="{{ site.baseurl }}/img/beta_ribbon.png"  vspace="4"  alt="Search DOL" class="usagov-submit">
                 -->
