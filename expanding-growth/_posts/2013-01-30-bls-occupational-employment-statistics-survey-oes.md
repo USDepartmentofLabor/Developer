@@ -34,410 +34,422 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 - [OE_SERIES](#OE_SERIES)
 - [OE_STATEMSA](#OE_STATEMSA)
 
-<h3><a id="OE_AREA">OE_AREA</a></h3>
-
-<table>
+<h3 id="OE_AREA">OE_AREA</h3>
+<table summary="Area - Occupational Employment Statistics (OES)">
+	<caption>Area</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>AREA_CODE</th>
+			<th scope="row">AREA_CODE</th>
 			<td>Area Code</td>
 			<td>varchar (7)</td>
 		</tr>
 		<tr>
-			<th>AREATYPE_CODE</th>
+			<th scope="row">AREATYPE_CODE</th>
 			<td>Area Type Code</td>
 			<td>varchar (1)</td>
 		</tr>
 		<tr>
-			<th>AREA_NAME</th>
+			<th scope="row">AREA_NAME</th>
 			<td>Area Name</td>
 			<td>varchar (100)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_AREATYPE">OE_AREATYPE</a></h3>
 
-<table>
+<h3 id="OE_AREATYPE">OE_AREATYPE</h3>
+<table summary="Area Type - Occupational Employment Statistics (OES)">
+	<caption>Area Type</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>AREATYPE_CODE</th>
+			<th scope="row">AREATYPE_CODE</th>
 			<td>Area Type Code</td>
 			<td>varchar (1)</td>
 		</tr>
 		<tr>
-			<th>AREATYPE_NAME</th>
+			<th scope="row">AREATYPE_NAME</th>
 			<td>Area Type Description</td>
 			<td>varchar (100)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_DATA_PUB">OE_DATA_PUB</a></h3>
 
-<table>
+<h3 a id="OE_DATA_PUB">OE_DATA_PUB</h3>
+<table summary="Data Pub - Occupational Employment Statistics (OES)">
+	<caption>Data Pub</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>SERIES_ID</th>
+			<th scope="row">SERIES_ID</th>
 			<td>Series Identifier Code</td>
 			<td>varchar (30)</td>
 		</tr>
 		<tr>
-			<th>YEAR</th>
+			<th scope="row">YEAR</th>
 			<td>Data Observation Year</td>
 			<td>varchar (4)</td>
 		</tr>
 		<tr>
-			<th>PERIOD</th>
+			<th scope="row">PERIOD</th>
 			<td>Data Observation Period (Month, Quarter, Semi-Annual, Annual)</td>
 			<td>varchar (3)</td>
 		</tr>
 		<tr>
-			<th>VALUE</th>
+			<th scope="row">VALUE</th>
 			<td>Data Observation/Estimate</td>
 			<td>varchar (12)</td>
 		</tr>
 		<tr>
-			<th>FOOTNOTE_CODES</th>
+			<th scope="row">FOOTNOTE_CODES</th>
 			<td>Footnote Code</td>
 			<td>varchar (10)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_DATATYPE">OE_DATATYPE</a></h3>
 
-<table>
+<h3 a id="OE_DATATYPE">OE_DATATYPE</h3>
+<table summary="Data Type - Occupational Employment Statistics (OES)">
+	<caption>Data Type</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>DATATYPE_CODE</th>
+			<th scope="row">DATATYPE_CODE</th>
 			<td>Data Type Code</td>
 			<td>varchar (2)</td>
 		</tr>
 		<tr>
-			<th>DATATYPE_NAME</th>
+			<th scope="row">DATATYPE_NAME</th>
 			<td>Data Type Code Description</td>
 			<td>varchar (100)</td>
 		</tr>
 		<tr>
-			<th>FOOTNOTE_CODE</th>
+			<th scope="row">FOOTNOTE_CODE</th>
 			<td>Footnote Code</td>
 			<td>varchar (1)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_FOOTNOTE">OE_FOOTNOTE</a></h3>
 
-<table>
+<h3 a id="OE_FOOTNOTE">OE_FOOTNOTE</h3>
+<table summary="Footnote - Occupational Employment Statistics (OES)">
+	<caption>Footnote</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>FOOTNOTE_CODE</th>
+			<th scope="row">FOOTNOTE_CODE</th>
 			<td>Footnote Code</td>
 			<td>varchar (1)</td>
 		</tr>
 		<tr>
-			<th>FOOTNOTE_TEXT</th>
+			<th scope="row">FOOTNOTE_TEXT</th>
 			<td>Footnote Code Description</td>
 			<td>varchar (300)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_INDUSTRY">OE_INDUSTRY</a></h3>
 
-<table>
+<h3 a id="OE_INDUSTRY">OE_INDUSTRY</h3>
+<table summary="Industry - Occupational Employment Statistics (OES)">
+	<caption>Industry</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>INDUSTRY_CODE</th>
+			<th scope="row">INDUSTRY_CODE</th>
 			<td>Industry Code</td>
 			<td>varchar (6)</td>
 		</tr>
 		<tr>
-			<th>INDUSTRY_NAME</th>
+			<th scope="row">INDUSTRY_NAME</th>
 			<td>Industry Code Description</td>
 			<td>varchar (100)</td>
 		</tr>
 		<tr>
-			<th>DISPLAY_LEVEL</th>
+			<th scope="row">DISPLAY_LEVEL</th>
 			<td>Display Indent Level For Query Tool</td>
 			<td>varchar (2)</td>
 		</tr>
 		<tr>
-			<th>SELECTABLE</th>
+			<th scope="row">SELECTABLE</th>
 			<td>Code To Allow/Disallow Query Tool Selection</td>
 			<td>varchar (1)</td>
 		</tr>
 		<tr>
-			<th>SORT_SEQUENCE</th>
+			<th scope="row">SORT_SEQUENCE</th>
 			<td>Data Query Tool Widget Sorting</td>
 			<td>varchar (5)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_OCCUGROUP">OE_OCCUGROUP</a></h3>
 
-<table>
+<h3 a id="OE_OCCUGROUP">OE_OCCUGROUP</h3>
+<table summary="OCCU Group - Occupational Employment Statistics (OES)">
+	<caption>Occupation Group</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>OCCUGROUP_CODE</th>
+			<th scope="row">OCCUGROUP_CODE</th>
 			<td>Occupation Group Code 2 Digit Level</td>
 			<td>varchar (6)</td>
 		</tr>
 		<tr>
-			<th>OCCUGROUP_NAME</th>
+			<th scope="row">OCCUGROUP_NAME</th>
 			<td>Occupation Group Code Description</td>
 			<td>varchar (100)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_OCCUPATION">OE_OCCUPATION</a></h3>
 
-<table>
+<h3 a id="OE_OCCUPATION">OE_OCCUPATION</h3>
+<table summary="Occupation - Occupational Employment Statistics (OES)">
+	<caption>Occupation</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>OCCUPATION_CODE</th>
+			<th scope="row">OCCUPATION_CODE</th>
 			<td>Occupation Code</td>
 			<td>varchar (6)</td>
 		</tr>
 		<tr>
-			<th>OCCUPATION_NAME</th>
+			<th scope="row">OCCUPATION_NAME</th>
 			<td>Occupation Code Description</td>
 			<td>varchar (100)</td>
 		</tr>
 		<tr>
-			<th>DISPLAY_LEVEL</th>
+			<th scope="row">DISPLAY_LEVEL</th>
 			<td>Display Indent Level For Query Tool</td>
 			<td>varchar (2)</td>
 		</tr>
 		<tr>
-			<th>SELECTABLE</th>
+			<th scope="row">SELECTABLE</th>
 			<td>Code To Allow/Disallow Query Tool Selection</td>
 			<td>varchar (1)</td>
 		</tr>
 		<tr>
-			<th>SORT_SEQUENCE</th>
+			<th scope="row">SORT_SEQUENCE</th>
 			<td>Data Query Tool Widget Sorting</td>
 			<td>varchar (5)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_RELEASE">OE_RELEASE</a></h3>
 
-<table>
+<h3 a id="OE_RELEASE">OE_RELEASE</h3>
+<table summary="Release - Occupational Employment Statistics (OES)">
+	<caption>Release</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>RELEASE_DATE</th>
+			<th scope="row">RELEASE_DATE</th>
 			<td>Data Reference Period</td>
 			<td>varchar (7)</td>
 		</tr>
 		<tr>
-			<th>DESCRIPTION</th>
+			<th scope="row">DESCRIPTION</th>
 			<td>Data Reference Period Description</td>
 			<td>varchar (50)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_SEASONAL">OE_SEASONAL</a></h3>
 
-<table>
+<h3 a id="OE_SEASONAL">OE_SEASONAL</h3>
+<table summary="Seasonal - Occupational Employment Statistics (OES)">
+	<caption>Seasonal</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>SEASONAL</th>
+			<th scope="row">SEASONAL</th>
 			<td>Seasonal Code</td>
 			<td>varchar (1)</td>
 		</tr>
 		<tr>
-			<th>SEASONAL_TEXT</th>
+			<th scope="row">SEASONAL_TEXT</th>
 			<td>Seasonal Code Description</td>
 			<td>varchar (30)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_SECTOR">OE_SECTOR</a></h3>
 
-<table>
+<h3 a id="OE_SECTOR">OE_SECTOR</h3>
+<table summary="Sector - Occupational Employment Statistics (OES)">
+	<caption>Sector</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>SECTOR_CODE</th>
+			<th scope="row">SECTOR_CODE</th>
 			<td>Industry Sector Code</td>
 			<td>varchar (6)</td>
 		</tr>
 		<tr>
-			<th>SECTOR_NAME</th>
+			<th scope="row">SECTOR_NAME</th>
 			<td>Industry Sector Description</td>
 			<td>varchar (100)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_SERIES">OE_SERIES</a></h3>
 
-<table>
+<h3 a id="OE_SERIES">OE_SERIES</h3>
+<table summary="Series - Occupational Employment Statistics (OES)">
+	<caption>Series</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>SERIES_ID</th>
+			<th scope="row">SERIES_ID</th>
 			<td>Series Identifier Code</td>
 			<td>varchar (30)</td>
 		</tr>
 		<tr>
-			<th>SEASONAL</th>
+			<th scope="row">SEASONAL</th>
 			<td>Seasonal Code</td>
 			<td>varchar (1)</td>
 		</tr>
 		<tr>
-			<th>AREATYPE_CODE</th>
+			<th scope="row">AREATYPE_CODE</th>
 			<td>Area Type Code</td>
 			<td>varchar (1)</td>
 		</tr>
 		<tr>
-			<th>AREA_CODE</th>
+			<th scope="row">AREA_CODE</th>
 			<td>Area Code</td>
 			<td>varchar (7)</td>
 		</tr>
 		<tr>
-			<th>INDUSTRY_CODE</th>
+			<th scope="row">INDUSTRY_CODE</th>
 			<td>Industry Code</td>
 			<td>varchar (6)</td>
 		</tr>
 		<tr>
-			<th>OCCUPATION_CODE</th>
+			<th scope="row">OCCUPATION_CODE</th>
 			<td>Occupation Code</td>
 			<td>varchar (6)</td>
 		</tr>
 		<tr>
-			<th>DATATYPE_CODE</th>
+			<th scope="row">DATATYPE_CODE</th>
 			<td>Data Type Code</td>
 			<td>varchar (2)</td>
 		</tr>
 		<tr>
-			<th>FOOTNOTE_CODES</th>
+			<th scope="row">FOOTNOTE_CODES</th>
 			<td>Footnote Codes</td>
 			<td>varchar (10)</td>
 		</tr>
 		<tr>
-			<th>BEGIN_YEAR</th>
+			<th scope="row">BEGIN_YEAR</th>
 			<td>Begin Year Of Series</td>
 			<td>varchar (4)</td>
 		</tr>
 		<tr>
-			<th>BEGIN_PERIOD</th>
+			<th scope="row">BEGIN_PERIOD</th>
 			<td>Begin Period Of Series</td>
 			<td>varchar (3)</td>
 		</tr>
 		<tr>
-			<th>END_YEAR</th>
+			<th scope="row">END_YEAR</th>
 			<td>End Year Of Series</td>
 			<td>varchar (4)</td>
 		</tr>
 		<tr>
-			<th>END_PERIOD</th>
+			<th scope="row">END_PERIOD</th>
 			<td>End Period Of Series</td>
 			<td>varchar (3)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="OE_STATEMSA">OE_STATEMSA</a></h3>
 
-<table>
+<h3 a id="OE_STATEMSA">OE_STATEMSA</h3>
+<table summary="State MSA - Occupational Employment Statistics (OES)">
+	<caption>State MSA</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>STATE_CODE</th>
+			<th scope="row">STATE_CODE</th>
 			<td>State Code</td>
 			<td>varchar (2)</td>
 		</tr>
 		<tr>
-			<th>MSA_CODE</th>
+			<th scope="row">MSA_CODE</th>
 			<td>MSA Code</td>
 			<td>varchar (7)</td>
 		</tr>
 		<tr>
-			<th>MSA_NAME</th>
+			<th scope="row">MSA_NAME</th>
 			<td>MSA Name</td>
 			<td>varchar (100)</td>
 		</tr>

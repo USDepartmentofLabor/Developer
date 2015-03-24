@@ -30,265 +30,260 @@ http://api.dol.gov/V1/Statistics/WIA
 - [workforceInvestmentActWages](#workforceInvestmentActWages)
 - [lookup codes](#lookup)
 
-<h3><a id="workforceInvestmentAct">workforceInvestmentAct Table</a></h3>
-
-<p>Describes Workforce Investment Act data.</p>
-
-<table>
+<h3 id="workforceInvestmentAct">workforceInvestmentAct Table</h3>
+<table summary="Workforce Investment Act">
+	<caption>Workforce Investment Act</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>id</th>
+			<th scope="row">id</th>
 			<td>Id - Primary Key</td>
 			<td>bigint</td>
 		</tr>
 		<tr>
-			<th>idIndividual</th>
+			<th scope="row">idIndividual</th>
 			<td>Individual Identifier</td>
 			<td>bigint</td>
 		</tr>
 		<tr>
-			<th>dateOfProgramParticipationYear</th>
+			<th scope="row">dateOfProgramParticipationYear</th>
 			<td>Date of Program Participation: year</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>dateOfProgramParticipationMonth</th>
+			<th scope="row">dateOfProgramParticipationMonth</th>
 			<td>Date of Program Participation: month</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>dateOfExitYear</th>
+			<th scope="row">dateOfExitYear</th>
 			<td>Date of Exit: year</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>dateOfExitMonth</th>
+			<th scope="row">dateOfExitMonth</th>
 			<td>Date of Exit: month</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adultLocalFormula</th>
+			<th scope="row">adultLocalFormula</th>
 			<td>Adult (local formula)</td>
 			<td>varchar(1)</td>
 		</tr>
 		<tr>
-			<th>dislocatedWorkerLocalFormula</th>
+			<th scope="row">dislocatedWorkerLocalFormula</th>
 			<td>Dislocated Worker (local formula)</td>
 			<td>varchar(1)</td>
 		</tr>
 		<tr>
-			<th>dateOfFirstIntensiveServiceYear</th>
+			<th scope="row">dateOfFirstIntensiveServiceYear</th>
 			<td>Date of First Intensive Service: year</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>dateOfFirstIntensiveServiceMonth</th>
+			<th scope="row">dateOfFirstIntensiveServiceMonth</th>
 			<td>Date of First Intensive Service: month</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>dateEnteredTrainingYear</th>
+			<th scope="row">dateEnteredTrainingYear</th>
 			<td>Date Entered Training: year</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>dateEnteredTrainingMonth</th>
+			<th scope="row">dateEnteredTrainingMonth</th>
 			<td>Date Entered Training: month</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>dateOfActualQualifyingDislocationYear</th>
+			<th scope="row">dateOfActualQualifyingDislocationYear</th>
 			<td>Date of Actual Qualifying Dislocation: year</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>dateOfActualQualifyingDislocationMonth</th>
+			<th scope="row">dateOfActualQualifyingDislocationMonth</th>
 			<td>Date of Actual Qualifying Dislocation: month</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>ageAtEvent</th>
+			<th scope="row">ageAtEvent</th>
 			<td>Age at event</td>
 			<td>decimal(10,3)</td>
 		</tr>
 		<tr>
-			<th>gender</th>
+			<th scope="row">gender</th>
 			<td>Gender</td>
 			<td>varchar(100)</td>
 		</tr>
 		<tr>
-			<th>race</th>
+			<th scope="row">race</th>
 			<td>Race</td>
 			<td>varchar(1)</td>
 		</tr>
 		<tr>
-			<th>ethnicityHispanicLatino</th>
+			<th scope="row">ethnicityHispanicLatino</th>
 			<td>Ethnicity Hispanic/Latino</td>
 			<td>varchar(1)</td>
 		</tr>
 		<tr>
-			<th>numOfYearsOfEducation</th>
+			<th scope="row">numOfYearsOfEducation</th>
 			<td># of years of education</td>
 			<td>varchar(1)</td>
 		</tr>
 		<tr>
-			<th>individualWithDisability</th>
+			<th scope="row">individualWithDisability</th>
 			<td>Individual with a Disability</td>
 			<td>varchar(1)</td>
 		</tr>
 		<tr>
-			<th>eligibleVeteranStatus</th>
+			<th scope="row">eligibleVeteranStatus</th>
 			<td>Eligible Veteran Status</td>
 			<td>varchar(1)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="workforceInvestmentActUi">workforceInvestmentActUi Table</a></h3>
 
-<p>Describes Workforce Investment Act UI data.</p>
-
-<table>
+<h3 id="workforceInvestmentActUi">workforceInvestmentActUi Table</h3>
+<table summary="UI - Workforce Investment Act">
+	<caption>UI</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>id</th>
+			<th scope="row">id</th>
 			<td>Id - Primary Key</td>
 			<td>bigint</td>
 		</tr>
 		<tr>
-			<th>idIndividual</th>
+			<th scope="row">idIndividual</th>
 			<td>Individual Identifier</td>
 			<td>bigint</td>
 		</tr>
 		<tr>
-			<th>dateFiledUiClaimYear</th>
+			<th scope="row">dateFiledUiClaimYear</th>
 			<td>Date filed UI claim: year</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>dateFiledUiClaimMonth</th>
+			<th scope="row">dateFiledUiClaimMonth</th>
 			<td>Date filed UI claim: month</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>lastDateOfPaymentsYear</th>
+			<th scope="row">lastDateOfPaymentsYear</th>
 			<td>Last Date of Payments: year</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>lastDateOfPaymentsMonth</th>
+			<th scope="row">lastDateOfPaymentsMonth</th>
 			<td>Last Date of Payments: month</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>endDateOfPriorJobYear</th>
+			<th scope="row">endDateOfPriorJobYear</th>
 			<td>End Date of Prior Job: year</td>
 			<td>int)</td>
 		</tr>
 		<tr>
-			<th>endDateOfPriorJobMonth</th>
+			<th scope="row">endDateOfPriorJobMonth</th>
 			<td>End Date of Prior Job: month</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>sumOfPaymentsUnderClaim</th>
+			<th scope="row">sumOfPaymentsUnderClaim</th>
 			<td>Sum of Payments Under Claim</td>
 			<td>bigint</td>
 		</tr>
 		<tr>
-			<th>ageAtEvent</th>
+			<th scope="row">ageAtEvent</th>
 			<td>Age at event</td>
 			<td>decimal(10,3)</td>
 		</tr>
 		<tr>
-			<th>gender</th>
+			<th scope="row">gender</th>
 			<td>Gender</td>
 			<td>varchar(1)</td>
 		</tr>
 		<tr>
-			<th>race</th>
+			<th scope="row">race</th>
 			<td>Race</td>
 			<td>varchar(1)</td>
 		</tr>
 		<tr>
-			<th>ethnicityHispanicLatino</th>
+			<th scope="row">ethnicityHispanicLatino</th>
 			<td>Ethnicity Hispanic/Latino</td>
 			<td>varchar(1)</td>
 		</tr>
 		<tr>
-			<th>numOfYearsOfEducation</th>
+			<th scope="row">numOfYearsOfEducation</th>
 			<td># of years of education</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>individualWithDisability</th>
+			<th scope="row">individualWithDisability</th>
 			<td>Individual with a Disability</td>
 			<td>varchar(1)</td>
 		</tr>
 		<tr>
-			<th>eligibleVeteranStatus</th>
+			<th scope="row">eligibleVeteranStatus</th>
 			<td>Eligible Veteran Status</td>
 			<td>varchar(1)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="workforceInvestmentActWages">workforceInvestmentActWages Table</a></h3>
 
-<p>Describes Workforce Investment Act wages data.</p>
-
-<table>
+<h3 id="workforceInvestmentActWages">workforceInvestmentActWages Table</h3>
+<table summary="Wages - Workforce Investment Act">
+	<caption>Wages</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>idIndividual</th>
+			<th scope="row">idIndividual</th>
 			<td>Individual Identifier - Primary Key</td>
 			<td>bigint</td>
 		</tr>
 		<tr>
-			<th>year</th>
+			<th scope="row">year</th>
 			<td>Year - Primary Key</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>quarter</th>
+			<th scope="row">quarter</th>
 			<td>Quarter - Primary Key</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>wageAmount</th>
+			<th scope="row">wageAmount</th>
 			<td>Wage Amount</td>
 			<td>double</td>
 		</tr>
 		<tr>
-			<th>industry</th>
+			<th scope="row">industry</th>
 			<td>Industry</td>
 			<td>varchar(1)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="lookup">Lookup Codes</a></h3>
 
+<h3 id="lookup">Lookup Codes</h3>
 <h4>Industry Codes:</h4>
-
 <ul>
 	<li>1 = Manufacturing</li>
 	<li>2 = Services</li>
@@ -299,7 +294,6 @@ http://api.dol.gov/V1/Statistics/WIA
 </ul>
 
 <h4>Adult Codes:</h4>
-
 <ul>
 	<li>0 = No</li>
 	<li>1 = Yes</li>
@@ -309,14 +303,12 @@ http://api.dol.gov/V1/Statistics/WIA
 </ul>
 
 <h4>Gender Codes:</h4>
-
 <ul>
 	<li>1 = Male</li>
 	<li>2 = Female</li>
 </ul>
 
 <h4>Race Codes:</h4>
-
 <ul>
 	<li>1 = White only</li>
 	<li>2 = Black (including black and any other racial category)</li>
@@ -325,21 +317,18 @@ http://api.dol.gov/V1/Statistics/WIA
 </ul>
 
 <h4>Hispanic Codes:</h4>
-
 <ul>
 	<li>0 = No</li>
 	<li>1 = Yes</li>
 </ul>
 
 <h4>Disable Codes:</h4>
-
 <ul>
 	<li>0 = No</li>
 	<li>1 = Yes</li>
 </ul>
 
 <h4>Veteran Status Codes:</h4>
-
 <ul>
 	<li>0 = No</li>
 	<li>1 = Yes</li>

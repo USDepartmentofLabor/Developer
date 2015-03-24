@@ -24,1156 +24,1152 @@ http://api.dol.gov/V1/Statistics/PWSD
 - [model](#model)
 - [recessionPeriods](#recessionPeriods)
 
-<h3><a id="esFinal">esFinal</a></h3>
-
-<p>Employment service final.</p>
-
-<table>
+<h3 id="esFinal">esFinal</h3>
+<table summary="Employment services">
+	<caption>Employment Service Final</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>id</th>
+			<th scope="row">id</th>
 			<td>Record id. - Primary Key</td>
 			<td>bigint</td>
 		</tr>
 		<tr>
-			<th>state</th>
+			<th scope="row">state</th>
 			<td>State.</td>
 			<td>varchar (3)</td>
 		</tr>
 		<tr>
-			<th>fy</th>
+			<th scope="row">fy</th>
 			<td>Fiscal year.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>fyq</th>
+			<th scope="row">fyq</th>
 			<td>Fiscal year quarter.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>cy</th>
+			<th scope="row">cy</th>
 			<td>Calendar year.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>cyq</th>
+			<th scope="row">cyq</th>
 			<td>Calendar year quarter.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>esObligation</th>
+			<th scope="row">esObligation</th>
 			<td>Employment service obligation.</td>
 			<td>float</td>
 		</tr>
 		<tr>
-			<th>esExpenditure</th>
+			<th scope="row">esExpenditure</th>
 			<td>Employment service expenditure.</td>
 			<td>float</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="model">model</a></h3>
 
-<p>Model.</p>
-
-<table>
+<h3 id="model">Model</h3>
+<table summary="model">
+	<caption>Model</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>id</th>
+			<th scope="row">id</th>
 			<td>Record id. - Primary Key</td>
 			<td>bigint</td>
 		</tr>
 		<tr>
-			<th>state</th>
+			<th scope="row">state</th>
 			<td>State.</td>
 			<td>varchar (3)</td>
 		</tr>
 		<tr>
-			<th>calendarYear</th>
+			<th scope="row">calendarYear</th>
 			<td>Calendar year.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>calendarQuarter</th>
+			<th scope="row">calendarQuarter</th>
 			<td>Calendar year quarter.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>fiscalYear</th>
+			<th scope="row">fiscalYear</th>
 			<td>Fiscal year.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>fiscalQuarter</th>
+			<th scope="row">fiscalQuarter</th>
 			<td>Fiscal year quarter.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>laborForce</th>
+			<th scope="row">laborForce</th>
 			<td>Labor force.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>employment</th>
+			<th scope="row">employment</th>
 			<td>Employment.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>unemployment</th>
+			<th scope="row">unemployment</th>
 			<td>Unemployment.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>unemploymentRate</th>
+			<th scope="row">unemploymentRate</th>
 			<td>Unemployment rate.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>quarterGDP</th>
+			<th scope="row">quarterGDP</th>
 			<td>Quarter GDP.</td>
 			<td>varchar (10)</td>
 		</tr>
 		<tr>
-			<th>benefitsPaid</th>
+			<th scope="row">benefitsPaid</th>
 			<td>Benefits paid.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>initialClaims</th>
+			<th scope="row">initialClaims</th>
 			<td>Initial claims.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>firstPayments</th>
+			<th scope="row">firstPayments</th>
 			<td>First payments.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>weeksClaimed</th>
+			<th scope="row">weeksClaimed</th>
 			<td>Weeks claimed.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>weeksCompensated</th>
+			<th scope="row">weeksCompensated</th>
 			<td>Weeks compensated.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>exhaustions</th>
+			<th scope="row">exhaustions</th>
 			<td>Exhaustions.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>averageDuration</th>
+			<th scope="row">averageDuration</th>
 			<td>Average duration.</td>
 			<td>float</td>
 		</tr>
 		<tr>
-			<th>exhaustionRate</th>
+			<th scope="row">exhaustionRate</th>
 			<td>Exhaustion rate.</td>
 			<td>varchar (16)</td>
 		</tr>
 		<tr>
-			<th>ebBenefits</th>
+			<th scope="row">ebBenefits</th>
 			<td>EB benefits.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>ebFirstPayments</th>
+			<th scope="row">ebFirstPayments</th>
 			<td>EB first payments.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>ebWeeksClaimed</th>
+			<th scope="row">ebWeeksClaimed</th>
 			<td>EB weeks claimed.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>ebExhaustions</th>
+			<th scope="row">ebExhaustions</th>
 			<td>EB exhaustions.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>ebWeeksCompensated</th>
+			<th scope="row">ebWeeksCompensated</th>
 			<td>EB weeks compensated.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>profiledClaimants</th>
+			<th scope="row">profiledClaimants</th>
 			<td>Profiled claimants.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>poolProfiledClaimants</th>
+			<th scope="row">poolProfiledClaimants</th>
 			<td>Pool profiled claimants.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>referredProfiledClaimants</th>
+			<th scope="row">referredProfiledClaimants</th>
 			<td>Referred profiled claimants.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>exemptedProfiledClaimants</th>
+			<th scope="row">exemptedProfiledClaimants</th>
 			<td>Exempted profiled claimants.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>reportingToService</th>
+			<th scope="row">reportingToService</th>
 			<td>Reporting to service.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>reportingToOrientationService</th>
+			<th scope="row">reportingToOrientationService</th>
 			<td>Reporting to orientation service.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>reportingToAssessmentService</th>
+			<th scope="row">reportingToAssessmentService</th>
 			<td>Reporting to assessment service.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>reportingToCounselingService</th>
+			<th scope="row">reportingToCounselingService</th>
 			<td>Reporting to counseling service.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>reportingToPlacementService</th>
+			<th scope="row">reportingToPlacementService</th>
 			<td>Reporting to placement service.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>reportingToJSWServices</th>
+			<th scope="row">reportingToJSWServices</th>
 			<td>Reporting to JSW services.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>reportingToTrainingServices</th>
+			<th scope="row">reportingToTrainingServices</th>
 			<td>Reporting to training services.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>reportingToSelfEmploymentService</th>
+			<th scope="row">reportingToSelfEmploymentService</th>
 			<td>Reporting to self employment service.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>completingServices</th>
+			<th scope="row">completingServices</th>
 			<td>Completing services.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>completingOrientationService</th>
+			<th scope="row">completingOrientationService</th>
 			<td>Completing orientation service.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>completingAssessmentService</th>
+			<th scope="row">completingAssessmentService</th>
 			<td>Completing assessment service.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>completingCounselingServices</th>
+			<th scope="row">completingCounselingServices</th>
 			<td>Completing counseling services.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>completingPlacementServices</th>
+			<th scope="row">completingPlacementServices</th>
 			<td>Completing placement services.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>completingJSWServices</th>
+			<th scope="row">completingJSWServices</th>
 			<td>Completing JSW services.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>completingTrainingServices</th>
+			<th scope="row">completingTrainingServices</th>
 			<td>Completing training services.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>completingSelfEmploymentService</th>
+			<th scope="row">completingSelfEmploymentService</th>
 			<td>Completing self employment service.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalWagnerPeyser</th>
+			<th scope="row">totalWagnerPeyser</th>
 			<td>Total Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalMaleWagnerPeyser</th>
+			<th scope="row">totalMaleWagnerPeyser</th>
 			<td>Total male Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalUIEligibleWagnerPeyser</th>
+			<th scope="row">totalUIEligibleWagnerPeyser</th>
 			<td>Total UI eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalEmployedWagnerPeyser</th>
+			<th scope="row">totalEmployedWagnerPeyser</th>
 			<td>Total employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalUnemployedWagnerPeyser</th>
+			<th scope="row">totalUnemployedWagnerPeyser</th>
 			<td>Total unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalInSchoolWagnerPeyser</th>
+			<th scope="row">totalInSchoolWagnerPeyser</th>
 			<td>Total in school Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalLessThanHighSchoolEducationWagnerPeyser</th>
+			<th scope="row">totalLessThanHighSchoolEducationWagnerPeyser</th>
 			<td>Total less than high school education Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalHighSchoolEducationOrGedWagnerPeyser</th>
+			<th scope="row">totalHighSchoolEducationOrGedWagnerPeyser</th>
 			<td>Total high school education or GED Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalPostSecondaryEducationWagnerPeyser</th>
+			<th scope="row">totalPostSecondaryEducationWagnerPeyser</th>
 			<td>Total post secondary education Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalYouthWagnerPeyser</th>
+			<th scope="row">totalYouthWagnerPeyser</th>
 			<td>Total youth Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalAdult18To22WagnerPeyser</th>
+			<th scope="row">totalAdult18To22WagnerPeyser</th>
 			<td>Total adult 18 to 22 Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalAdult18To44WagnerPeyser</th>
+			<th scope="row">totalAdult18To44WagnerPeyser</th>
 			<td>Total adult 18 to 44 Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalAdult45To54WagnerPeyser</th>
+			<th scope="row">totalAdult45To54WagnerPeyser</th>
 			<td>Total adult 45 to 54 Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalAdult55PlusWagnerPeyser</th>
+			<th scope="row">totalAdult55PlusWagnerPeyser</th>
 			<td>Total adult 55 and older Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalReferredToJtpaOrWiaWagnerPeyser</th>
+			<th scope="row">totalReferredToJtpaOrWiaWagnerPeyser</th>
 			<td>Total referred to JTPA or WIA Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalReferredToSupportServicesWagnerPeyser</th>
+			<th scope="row">totalReferredToSupportServicesWagnerPeyser</th>
 			<td>Total referred to support services Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalJobSearchActivitiesWagnerPeyser</th>
+			<th scope="row">totalJobSearchActivitiesWagnerPeyser</th>
 			<td>Total job search activities Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalReferredToEmploymentWagnerPeyser</th>
+			<th scope="row">totalReferredToEmploymentWagnerPeyser</th>
 			<td>Total referred to employment Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalServiceReceivedWagnerPeyser</th>
+			<th scope="row">totalServiceReceivedWagnerPeyser</th>
 			<td>Total service received Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalCareerGuidanceWagnerPeyser</th>
+			<th scope="row">totalCareerGuidanceWagnerPeyser</th>
 			<td>Total career guidance Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalWorkforceInfoServicesReceivedWagnerPeyser</th>
+			<th scope="row">totalWorkforceInfoServicesReceivedWagnerPeyser</th>
 			<td>Total workforce info services received Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalEnteredEmploymentWagnerPeyser</th>
+			<th scope="row">totalEnteredEmploymentWagnerPeyser</th>
 			<td>Total entered employment Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalExitersWagnerPeyser</th>
+			<th scope="row">totalExitersWagnerPeyser</th>
 			<td>Total exiters Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalEERateBaseDenominatorWagnerPeyser</th>
+			<th scope="row">totalEERateBaseDenominatorWagnerPeyser</th>
 			<td>Total EE rate base denominator Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalEERateWagnerPeyser</th>
+			<th scope="row">totalEERateWagnerPeyser</th>
 			<td>Total EE rate Wagner Peyser.</td>
 			<td>varchar (16)</td>
 		</tr>
 		<tr>
-			<th>totalEETotalApplicantsWagnerPeyser</th>
+			<th scope="row">totalEETotalApplicantsWagnerPeyser</th>
 			<td>Total EE total applicants Wagner Peyser.</td>
 			<td>float</td>
 		</tr>
 		<tr>
-			<th>totalEEReceivedReportableServicesWagnerPeyser</th>
+			<th scope="row">totalEEReceivedReportableServicesWagnerPeyser</th>
 			<td>Total EE received reportable services Wagner Peyser.</td>
 			<td>float</td>
 		</tr>
 		<tr>
-			<th>totalReceivedReportableServicesApplicantsWagnerPeyser</th>
+			<th scope="row">totalReceivedReportableServicesApplicantsWagnerPeyser</th>
 			<td>Total received reportable services applicants Wagner Peyser.</td>
 			<td>float</td>
 		</tr>
 		<tr>
-			<th>totalActiveAppsUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">totalActiveAppsUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Total active apps unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>maleUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">maleUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Male unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>youthUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">youthUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Youth unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult18To22UnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">adult18To22UnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Adult 18 to 22 unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult18To44UnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">adult18To44UnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Adult 18 to 44 unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult45To54UnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">adult45To54UnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Adult 45 to 54 unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult55PlusUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">adult55PlusUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Adult 55 and older unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>referredToJtpaOrWiaUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">referredToJtpaOrWiaUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Referred toJTPA or WIA unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>referredToSupportUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">referredToSupportUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Referred to support unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>jobSearchActivitiesUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">jobSearchActivitiesUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Job search activities unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>referredToEmploymentUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">referredToEmploymentUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Referred to employment unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>receivedReportServiceUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">receivedReportServiceUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Received report service unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>careerGuidanceUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">careerGuidanceUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Career guidance unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>receivedWorkforceInfoServicesUnemploymentInsuranceEligibeWagnerPeyser</th>
+			<th scope="row">receivedWorkforceInfoServicesUnemploymentInsuranceEligibeWagnerPeyser</th>
 			<td>Received workforce info services unemployment insurance eligibe Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>enteredEmploymentUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">enteredEmploymentUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Entered employment unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalExitersUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">totalExitersUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>Total exiters unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>eeRateBaseDenominatorUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">eeRateBaseDenominatorUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>EE rate base denominator unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>eeRateUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">eeRateUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>EE rate unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>eeTotalApplicantsUnemploymentInsuranceEligibleWagnerPeyser</th>
+			<th scope="row">eeTotalApplicantsUnemploymentInsuranceEligibleWagnerPeyser</th>
 			<td>EE total applicants unemployment insurance eligible Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>eeReceivedReportableServicesUnemploymentInsuranceWagnerPeyser</th>
+			<th scope="row">eeReceivedReportableServicesUnemploymentInsuranceWagnerPeyser</th>
 			<td>EE received reportable services unemployment insurance Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>receivedReportableServicesTotalApplicantsUnemploymentWagnerPeyser</th>
+			<th scope="row">receivedReportableServicesTotalApplicantsUnemploymentWagnerPeyser</th>
 			<td>Received reportable services total applicants unemployment Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalActiveAppsEmployedWagnerPeyser</th>
+			<th scope="row">totalActiveAppsEmployedWagnerPeyser</th>
 			<td>Total active apps employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>maleEmployedWagnerPeyser</th>
+			<th scope="row">maleEmployedWagnerPeyser</th>
 			<td>Male employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>youthEmployedWagnerPeyser</th>
+			<th scope="row">youthEmployedWagnerPeyser</th>
 			<td>Youth employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult18To22EmployedWagnerPeyser</th>
+			<th scope="row">adult18To22EmployedWagnerPeyser</th>
 			<td>Adult 18 to 22 employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult18To44EmployedWagnerPeyser</th>
+			<th scope="row">adult18To44EmployedWagnerPeyser</th>
 			<td>Adult 18 to 44 employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult45To54EmployedWagnerPeyser</th>
+			<th scope="row">adult45To54EmployedWagnerPeyser</th>
 			<td>Adult 45 to 54 employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult55PlusEmployedWagnerPeyser</th>
+			<th scope="row">adult55PlusEmployedWagnerPeyser</th>
 			<td>Adult 55 and older employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>referredToJtpaOrWiaEmployedWagnerPeyser</th>
+			<th scope="row">referredToJtpaOrWiaEmployedWagnerPeyser</th>
 			<td>Referred to JTPA orWIA employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>referredToSupportServiceEmployedWagnerPeyser</th>
+			<th scope="row">referredToSupportServiceEmployedWagnerPeyser</th>
 			<td>Referred to support service employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>jobSearchActivitiesEmployedWagnerPeyser</th>
+			<th scope="row">jobSearchActivitiesEmployedWagnerPeyser</th>
 			<td>Job search activities employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>referredToEmploymentEmployedWagnerPeyser</th>
+			<th scope="row">referredToEmploymentEmployedWagnerPeyser</th>
 			<td>Referred to employment employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>receivedReportServiceEmployedWagnerPeyser</th>
+			<th scope="row">receivedReportServiceEmployedWagnerPeyser</th>
 			<td>Received report service employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>careerGuidanceEmployedWagnerPeyser</th>
+			<th scope="row">careerGuidanceEmployedWagnerPeyser</th>
 			<td>Career guidance employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>receivedWorkforceInfoServicesEmployedWagnerPeyser</th>
+			<th scope="row">receivedWorkforceInfoServicesEmployedWagnerPeyser</th>
 			<td>Received workforce info services employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>enteredEmploymentEmployedWagnerPeyser</th>
+			<th scope="row">enteredEmploymentEmployedWagnerPeyser</th>
 			<td>Entered employment employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalExitersEmployedWagnerPeyser</th>
+			<th scope="row">totalExitersEmployedWagnerPeyser</th>
 			<td>Total exiters employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>eeRateBaseDenominatorEmployedWagnerPeyser</th>
+			<th scope="row">eeRateBaseDenominatorEmployedWagnerPeyser</th>
 			<td>EE rate base denominator employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>eeRateEmployedWagnerPeyser</th>
+			<th scope="row">eeRateEmployedWagnerPeyser</th>
 			<td>EE rate employed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalActiveAppsUnemployedWagnerPeyser</th>
+			<th scope="row">totalActiveAppsUnemployedWagnerPeyser</th>
 			<td>Total active apps unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>maleUnemployedWagnerPeyser</th>
+			<th scope="row">maleUnemployedWagnerPeyser</th>
 			<td>Male unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>youthUnemployedWagnerPeyser</th>
+			<th scope="row">youthUnemployedWagnerPeyser</th>
 			<td>Youth unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult18To22UnemployedWagnerPeyser</th>
+			<th scope="row">adult18To22UnemployedWagnerPeyser</th>
 			<td>Adult 18 to 22 unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult18To44UnemployedWagnerPeyser</th>
+			<th scope="row">adult18To44UnemployedWagnerPeyser</th>
 			<td>Adult 18 to 44 unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult45To54UnemployedWagnerPeyser</th>
+			<th scope="row">adult45To54UnemployedWagnerPeyser</th>
 			<td>Adult 45 to 54 unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult55UnemployedWagnerPeyser</th>
+			<th scope="row">adult55UnemployedWagnerPeyser</th>
 			<td>Adult 55 unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>referredToJtpaOrWiaUnemployedWagnerPeyser</th>
+			<th scope="row">referredToJtpaOrWiaUnemployedWagnerPeyser</th>
 			<td>Referred toJTPA or WIA unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>referredToSupportServiceUnemployedWagnerPeyser</th>
+			<th scope="row">referredToSupportServiceUnemployedWagnerPeyser</th>
 			<td>Referred to support service unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>jobSearchActivitiesUnemployedWagnerPeyser</th>
+			<th scope="row">jobSearchActivitiesUnemployedWagnerPeyser</th>
 			<td>Job search activities unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>referredToEmploymentUnemployedWagnerPeyser</th>
+			<th scope="row">referredToEmploymentUnemployedWagnerPeyser</th>
 			<td>Referred to employment unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>receivedReportServiceUnemployedWagnerPeyser</th>
+			<th scope="row">receivedReportServiceUnemployedWagnerPeyser</th>
 			<td>Received report service unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>careerGuidanceUnemployedWagnerPeyser</th>
+			<th scope="row">careerGuidanceUnemployedWagnerPeyser</th>
 			<td>Career guidance unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>receivedWorkforceInfoServicesUnemployedWagnerPeyser</th>
+			<th scope="row">receivedWorkforceInfoServicesUnemployedWagnerPeyser</th>
 			<td>Received workforce info services unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>enteredEmploymentUnemployedWagnerPeyser</th>
+			<th scope="row">enteredEmploymentUnemployedWagnerPeyser</th>
 			<td>Entered employment unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalExitersUnemployedWagnerPeyser</th>
+			<th scope="row">totalExitersUnemployedWagnerPeyser</th>
 			<td>Total exiters unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>eeRateBaseDenominatorUnemployedWagnerPeyser</th>
+			<th scope="row">eeRateBaseDenominatorUnemployedWagnerPeyser</th>
 			<td>EE rate base denominator unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>eeRateUnemployedWagnerPeyser</th>
+			<th scope="row">eeRateUnemployedWagnerPeyser</th>
 			<td>EE rate unemployed Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>esObligation</th>
+			<th scope="row">esObligation</th>
 			<td>Employment service obligation.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>esExpenditure</th>
+			<th scope="row">esExpenditure</th>
 			<td>Employment service expenditure.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>totalAdult</th>
+			<th scope="row">totalAdult</th>
 			<td>Total adult.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>male</th>
+			<th scope="row">male</th>
 			<td>Male.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>female</th>
+			<th scope="row">female</th>
 			<td>Female.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>age18To21</th>
+			<th scope="row">age18To21</th>
 			<td>Age 18 to 21.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>age22To44</th>
+			<th scope="row">age22To44</th>
 			<td>Age 22 to 44.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>age45To54</th>
+			<th scope="row">age45To54</th>
 			<td>Age 45 to 54.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>age55</th>
+			<th scope="row">age55</th>
 			<td>Age 55 and older.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>lowerThanhighschool</th>
+			<th scope="row">lowerThanhighschool</th>
 			<td>Lower than high school.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>ged</th>
+			<th scope="row">ged</th>
 			<td>GED.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>hsgrad</th>
+			<th scope="row">hsgrad</th>
 			<td>High school graduate.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>somecoll</th>
+			<th scope="row">somecoll</th>
 			<td>Some College.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>cert</th>
+			<th scope="row">cert</th>
 			<td>Certificate.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>assoc</th>
+			<th scope="row">assoc</th>
 			<td>Associates degree.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>ba</th>
+			<th scope="row">ba</th>
 			<td>Bachelor's degree.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>beyondba</th>
+			<th scope="row">beyondba</th>
 			<td>Beyond Bachelor's degree.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>employed</th>
+			<th scope="row">employed</th>
 			<td>Employed.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>uiclaimant</th>
+			<th scope="row">uiclaimant</th>
 			<td>UI Claimant.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>uiexhaustee</th>
+			<th scope="row">uiexhaustee</th>
 			<td>UI exhaustee.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult_l</th>
+			<th scope="row">adult_l</th>
 			<td>Adult l.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult_st</th>
+			<th scope="row">adult_st</th>
 			<td>Adult st.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>wagner</th>
+			<th scope="row">wagner</th>
 			<td>Wagner Peyser.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>ss</th>
+			<th scope="row">ss</th>
 			<td>SS.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>selfcore</th>
+			<th scope="row">selfcore</th>
 			<td>Self Core.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>staffcore</th>
+			<th scope="row">staffcore</th>
 			<td>Staff Core.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>wis</th>
+			<th scope="row">wis</th>
 			<td>WIS.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>ita_trn</th>
+			<th scope="row">ita_trn</th>
 			<td>ITA TRN.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>prevoc</th>
+			<th scope="row">prevoc</th>
 			<td>Prevoc.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>intserv</th>
+			<th scope="row">intserv</th>
 			<td>Intserv.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>enttrain</th>
+			<th scope="row">enttrain</th>
 			<td>Enttrain.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>comptrain</th>
+			<th scope="row">comptrain</th>
 			<td>Comptrain.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>trn_ojt</th>
+			<th scope="row">trn_ojt</th>
 			<td>Training - on job training.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>trn_skillupg</th>
+			<th scope="row">trn_skillupg</th>
 			<td>Training - skill upgrade.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>trn_entrep</th>
+			<th scope="row">trn_entrep</th>
 			<td>Training - entrep.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>trn_abe_esl</th>
+			<th scope="row">trn_abe_esl</th>
 			<td>Training - abe esl.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>trn_custom</th>
+			<th scope="row">trn_custom</th>
 			<td>Training - Custom.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>trn_othoccskill</th>
+			<th scope="row">trn_othoccskill</th>
 			<td>Training - other CC Skills.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>emp_q1</th>
+			<th scope="row">emp_q1</th>
 			<td>Employed quarter 1.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>emp_q2</th>
+			<th scope="row">emp_q2</th>
 			<td>Employed quarter 2.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>emp_q3</th>
+			<th scope="row">emp_q3</th>
 			<td>Employed quarter 3.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>emp_q4</th>
+			<th scope="row">emp_q4</th>
 			<td>Employed quarter 4.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_uiwage_q1</th>
+			<th scope="row">type_uiwage_q1</th>
 			<td>Type UI wage quarter 1.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_fedemp_q1</th>
+			<th scope="row">type_fedemp_q1</th>
 			<td>Type Federally employed quarter 1.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_milemp_q1</th>
+			<th scope="row">type_milemp_q1</th>
 			<td>Type military employed quarter 1.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_othadm_q1</th>
+			<th scope="row">type_othadm_q1</th>
 			<td>Type other administrative employment quarter 1.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_supple_q1</th>
+			<th scope="row">type_supple_q1</th>
 			<td>Type supplemental employment quarter 1.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_uiwage_q2</th>
+			<th scope="row">type_uiwage_q2</th>
 			<td>Type UI wage quarter 2.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_fedemp_q2</th>
+			<th scope="row">type_fedemp_q2</th>
 			<td>Type Federally employed quarter 2.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_milemp_q2</th>
+			<th scope="row">type_milemp_q2</th>
 			<td>Type mile employed quarter 2.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_othadm_q2</th>
+			<th scope="row">type_othadm_q2</th>
 			<td>Type other administrative employment quarter 2.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_supple_q2</th>
+			<th scope="row">type_supple_q2</th>
 			<td>Type supplemental employment quarter 2.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_uiwage_q3</th>
+			<th scope="row">type_uiwage_q3</th>
 			<td>Type UI wage quarter 3.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_fedemp_q3</th>
+			<th scope="row">type_fedemp_q3</th>
 			<td>Type Federally employed quarter 3.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_milemp_q3</th>
+			<th scope="row">type_milemp_q3</th>
 			<td>Type military employed quarter 3.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_othadm_q3</th>
+			<th scope="row">type_othadm_q3</th>
 			<td>Type other administrative employment quarter 3.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_supple_q3</th>
+			<th scope="row">type_supple_q3</th>
 			<td>Type supplemental employment quarter 3.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_uiwage_q4</th>
+			<th scope="row">type_uiwage_q4</th>
 			<td>Type UI wage quarter 4.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_fedemp_q4</th>
+			<th scope="row">type_fedemp_q4</th>
 			<td>Type Federally employed quarter 4.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_milemp_q4</th>
+			<th scope="row">type_milemp_q4</th>
 			<td>Type military employed quarter 4.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_othadm_q4</th>
+			<th scope="row">type_othadm_q4</th>
 			<td>Type other administrative employment quarter 4.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_supple_q4</th>
+			<th scope="row">type_supple_q4</th>
 			<td>Type supplemental employment quarter 4.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>emp_trn</th>
+			<th scope="row">emp_trn</th>
 			<td>Employment training.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>non_trad</th>
+			<th scope="row">non_trad</th>
 			<td>Non-traditional.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>empreg11</th>
+			<th scope="row">empreg11</th>
 			<td>Empreg11.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>empreg10</th>
+			<th scope="row">empreg10</th>
 			<td>Empreg10.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>empreg00</th>
+			<th scope="row">empreg00</th>
 			<td>Empreg00.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>empreg01</th>
+			<th scope="row">empreg01</th>
 			<td>Empreg01.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>attcred</th>
+			<th scope="row">attcred</th>
 			<td>Attcred.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>performance</th>
+			<th scope="row">performance</th>
 			<td>Performance.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult_er</th>
+			<th scope="row">adult_er</th>
 			<td>Adult ER.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>d_adult_er</th>
+			<th scope="row">d_adult_er</th>
 			<td>D adult ER.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult_ret</th>
+			<th scope="row">adult_ret</th>
 			<td>Adult ret.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>d_adult_ret</th>
+			<th scope="row">d_adult_ret</th>
 			<td>D adult ret.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>adult_ret12</th>
+			<th scope="row">adult_ret12</th>
 			<td>Adult ret 12.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>d_adult_ret12</th>
+			<th scope="row">d_adult_ret12</th>
 			<td>D adult ret 12.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>emp_q5</th>
+			<th scope="row">emp_q5</th>
 			<td>Emp q5.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_uiwage_q5</th>
+			<th scope="row">type_uiwage_q5</th>
 			<td>Type UI wage q5.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_supple_q5</th>
+			<th scope="row">type_supple_q5</th>
 			<td>Type supplemental q5.</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>type_othadm_q5</th>
+			<th scope="row">type_othadm_q5</th>
 			<td>Type other administrative q5</td>
 			<td>int</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="recessionPeriods">recessionPeriods</a></h3>
 
-<p>Recession periods.</p>
-
-<table>
+<h3 id="recessionPeriods">recessionPeriods</h3>
+<table summary="Recession Periods">
+	<caption>Recession periods</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="row">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>id</th>
+			<th scope="col">id</th>
 			<td>Record id. - Primary Key</td>
 			<td>int</td>
 		</tr>
 		<tr>
-			<th>year</th>
+			<th scope="row">year</th>
 			<td>Year.</td>
 			<td>float</td>
 		</tr>
 		<tr>
-			<th>period</th>
+			<th scope="row">period</th>
 			<td>Period.</td>
 			<td>varchar (3)</td>
 		</tr>
 		<tr>
-			<th>unemploymentRate</th>
+			<th scope="row">unemploymentRate</th>
 			<td>Unemployment rate.</td>
 			<td>float</td>
 		</tr>
 		<tr>
-			<th>recession</th>
+			<th scope="row">recession</th>
 			<td>Recession.</td>
 			<td>bool</td>
 		</tr>
