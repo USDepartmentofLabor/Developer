@@ -780,7 +780,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 <h3 id="payrollEmployment1MonthNetChange">payrollEmployment1MonthNetChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 <table summary="Payroll Employment One Month Net Change - BLS Numbers">
-	<caption>Payroll Employment one Month Net Change</caption>
+	<caption>Payroll Employment One Month Net Change</caption>
 	<thead>
 		<tr>
 			<th scope="col">Column Name</th>

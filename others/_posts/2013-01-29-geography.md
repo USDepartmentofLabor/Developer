@@ -14,7 +14,6 @@ http://api.dol.gov/V1/Geography
 <a href ="http://api.dol.gov/V1/Geography/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Geography" class="button radius button_dataset">Explore This Data</a>
 
-
 ## Dataset Tables
 
 - [City](#City)
@@ -22,111 +21,114 @@ http://api.dol.gov/V1/Geography
 - [County](#County)
 - [State](#State)
 
-<h3><a id="City">City Table</a></h3>
-
-<table>
+<h3 id="City">City Table</h3>
+<table summary="City - Geography">
+	<caption>City</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>CityCode</th>
+			<th scope="row">CityCode</th>
 			<td>City Code - Primary Key</td>
 			<td>bigint</td>
 		</tr>
 		<tr>
-			<th>CountyCode</th>
+			<th scope="row">CountyCode</th>
 			<td>County Code - Primary Key</td>
 			<td>smallint</td>
 		</tr>
 		<tr>
-			<th>StateCode</th>
+			<th scope="row">StateCode</th>
 			<td>State Code - Primary Key</td>
 			<td>smallint</td>
 		</tr>
 		<tr>
-			<th>CityName</th>
+			<th scope="row">CityName</th>
 			<td>Cyty/Place Name</td>
 			<td>varchar(250)</td>
 		</tr>
 		<tr>
-			<th>Type</th>
+			<th scope="row">Type</th>
 			<td>Type. B=Borough; C=City; D=CDP; O=Comunidad; T=Town; V=Village; X=Other Types</td>
 			<td>char(1)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="CongressDistrict">CongressDistrict Table</a></h3>
 
-<table>
+<h3 id="CongressDistrict">CongressDistrict Table</h3>
+<table summary="Congress District - Geography">
+	<caption>Congress District</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>CountyCode</th>
+			<th scope="row">CountyCode</th>
 			<td>County Code - Primary Key</td>
 			<td>smallint</td>
 		</tr>
 		<tr>
-			<th>StateCode</th>
+			<th scope="row">StateCode</th>
 			<td>State Code - Primary Key</td>
 			<td>smallint</td>
 		</tr>
 		<tr>
-			<th>District</th>
+			<th scope="row">District</th>
 			<td>Congressional District - Primary Key</td>
 			<td>smallint</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="County">County Table</a></h3>
 
-<table>
+<h3 id="County">County Table</h3>
+<table summary="County - Geography">
+	<caption>County</caption>
 	<thead>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>CountyCode</th>
+			<th scope="row">CountyCode</th>
 			<td>County Code - Primary Key</td>
 			<td>smallint</td>
 		</tr>
 		<tr>
-			<th>CountyName</th>
+			<th scope="row">CountyName</th>
 			<td>County Name</td>
 			<td>varchar(250)</td>
 		</tr>
 	</tbody>
 </table>
-<h3><a id="State">State Table</a></h3>
 
-<table>
+<h3 id="State">State Table</h3>
+<table summary="State - Geography">
+	<caption>State</caption>
 	<tbody>
 		<tr>
-			<th>Column Name</th>
-			<th>Column Description</th>
-			<th>Data Type</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
+			<th scope="col">Data Type</th>
 		</tr>
 		<tr>
-			<th>StateCode</th>
+			<th scope="row">StateCode</th>
 			<td>State Code - Primary Key</td>
 			<td>smallint</td>
 		</tr>
 		<tr>
-			<th>StateName</th>
+			<th scope="row">StateName</th>
 			<td>State Name</td>
 			<td>varchar(200)</td>
 		</tr>
