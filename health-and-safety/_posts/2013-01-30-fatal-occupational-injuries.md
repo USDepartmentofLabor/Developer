@@ -98,8 +98,8 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 </table>
 
 <h3 id="FI_CATEGORY">FI_CATEGORY Table</h3>
-<table summary="Occupational - Fatal Occupational Injuriesl">
-	<caption>Occupational</caption>
+<table summary="Category - Fatal Occupational Injuriesl">
+	<caption>Category</caption>
 	<thead>
 		<tr>
 			<th scope="col">Column Name</th>
@@ -127,8 +127,8 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 </table>
 
 <h3 id="FI_CATEGORY2">FI_CATEGORY2 Table</h3>
-<table summary="Category - Fatal Occupational Injuriesl">
-	<caption>Category </caption>
+<table summary="Category2 - Fatal Occupational Injuriesl">
+	<caption>Category2 </caption>
 	<thead>
 		<tr>
 			<th scope="col">Column Name</th>
@@ -369,9 +369,6 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	<caption>GQT Char Ownership</caption>
 	<tbody>
 		<tr>
-			<th scope="row">&nbsp;</th>
-		</tr>
-		<tr>
 			<th scope="col">Column Name</th>
 			<th scope="col">Column Description</th>
 			<th scope="col">Data Type</th>
@@ -505,7 +502,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 		<tr>
 			<th scope="col">Column Name</th>
 			<th scope="col">Column Description</th>
-			<th scope="col>Data Type</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>

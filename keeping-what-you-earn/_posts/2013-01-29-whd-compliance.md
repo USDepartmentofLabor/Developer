@@ -23,7 +23,7 @@ http://api.dol.gov/V1/Compliance/WHD
 - [retail table](#retail)
 
 <h3 id="full">full Table</h3>
-<table summary="Full - WHD compliance">
+<table summary="Full - WHD compliance - contains all concluded WHD compliance actions since FY 2008">
 	<caption>Full</caption>
 	<thead>
 		<tr>
@@ -141,7 +141,7 @@ http://api.dol.gov/V1/Compliance/WHD
 	<caption>Food Service</caption>
 	<thead>
 		<tr>
-			<th scope="cowl>Column Name</th>
+			<th scope="col">Column Name</th>
 			<th scope="col">Column Description</th>
 			<th scope="col">Data Type</th>
 		</tr>
@@ -365,7 +365,7 @@ http://api.dol.gov/V1/Compliance/WHD
 </table>
 
 <h3 id="retail">retail Table</h3>
-<table summary="Retail - WHD compliance">
+<table summary="Retail - WHD compliance - contains all concluded WHD compliance actions since FY 2008">
 	<caption>Retail</caption>
 	<thead>
 		<tr>

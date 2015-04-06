@@ -11,10 +11,10 @@ http://api.dol.gov/V1/Statistics/OES2010
 
 <p>The Occupational Employment Statistics (OES) program conducts a semi-annual mail survey designed to produce estimates of employment and wages for specific occupations. The OES program collects data on wage and salary workers in nonfarm establishments in order to produce employment and wage estimates for about 800 occupations. Data from self-employed persons are not collected and are not included in the estimates. The OES program produces these occupational estimates by geographic area and by industry. Estimates based on geographic areas are available at the National, State, Metropolitan, and Nonmetropolitan Area levels. The Bureau of Labor Statistics produces occupational employment and wage estimates for over 450 industry classifications at the national level. The industry classifications correspond to the sector, 3-, 4-, and 5-digit North American Industry Classification System (NAICS) industrial groups. More information and details about the data provided can be found at <a href="http://www.bls.gov/oes">http://www.bls.gov/oes</a></p>
 
-<h3>Summary Data Available</h3>
+<h2>Summary Data Available</h2>
 <p>Cross-industry estimates are available by Nation, State, and metropolitan area for about 800 occupations. Industry specific estimates are available at the National level for over 450 industries.</p>
 
-<h3>Data Characteristics</h3>
+<h2>Data Characteristics</h2>
 <ul>
 	<li>Annual wage estimates are rounded to the nearest dollar and are stored with no decimal place.</li>
 	<li>Hourly wage estimates are rounded to the nearest cent and are stored with two decimal places.</li>

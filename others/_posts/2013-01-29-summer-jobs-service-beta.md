@@ -15,24 +15,24 @@ http://api.dol.gov/V1/SummerJobs
 <p>For employers committed to hiring, "tagging" job listings in the JobPosting schema ensures that those listings will be discoverable through the Summer Jobs Plus Bank.</p>
 <p>Read our <a href="http://www.dol.gov/summerjobs/Employers.htm">guide for tagging job posts for the Summer Jobs Plus search</a>.</p>
 
-<h3>Service Operations Details</h3>
+<h2>Service Operations Details</h2>
 <p>The Summer Jobs Plus API is supported using Service Operations. Service Operations provide users the ability to call other services, perform specific tasks, or retrieve data that is not found in the standard API datasets. To use the Summer Jobs Plus API the Operation name and parameters need to be supplied using the data services format. For summer jobs query and skip parameter are required.<br />
 Each request to the DOL API also requires the standard authorization header.  <a href="http://developer.dol.gov/req-auth.htm">View the authorization specification here.</a> ​</p>
 <p><b>Summer Jobs Signature</b><br />
 getJobsListing(string query, string employmentType, string region, string locality, string zip, int skipCount)</p>
 
-<h4><u>Parameter Encoding</u></h4>
-<p><b>Strings</b></p>
+<h3>Parameter Encoding</h3>
+<h4>Strings</h4>
 <p>Each String typed parameter must be surrounded in quotes in order to work correctly. These quotes are then Url encoded and passed to the Service Operation.</p>
 <p>' = %27</p>
 <p>For example: 'Nurse' Becomes %27Nurse%27</p>
-<p><b>Int</b></p>
+<h4>Int</h4>
 <p>Each integer typed parameter must be entered without quotes in order to work correctly.</p>
-<p><b>Null Parameter</b></p>
+<h4>Null Parameter</h4>
 <p>Each parameter that is assigned null should be left blank</p>
 <p>For example: ?region=&amp;locality=</p>
 
-<h4>Service Operation Examples</h4>
+<h3>Service Operation Examples</h3>
 
 <p>The following queries are examples of requests that can be made to the API to call the Summer Jobs API. Each SDK will require different usages of these forms. <span style="COLOR: #f00">The Summer Jobs API requires either the query parameter to be filled out or, either the region or locality field to be filed out.</span></p>
 

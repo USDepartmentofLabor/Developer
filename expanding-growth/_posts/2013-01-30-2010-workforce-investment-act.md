@@ -31,7 +31,7 @@ http://api.dol.gov/V1/Statistics/WIA
 - [lookup codes](#lookup)
 
 <h3 id="workforceInvestmentAct">workforceInvestmentAct Table</h3>
-<table summary="Workforce Investment Act">
+<table summary="Workforce Investment Act - 2010 Workforce Investment Act">
 	<caption>Workforce Investment Act</caption>
 	<thead>
 		<tr>
@@ -150,7 +150,7 @@ http://api.dol.gov/V1/Statistics/WIA
 </table>
 
 <h3 id="workforceInvestmentActUi">workforceInvestmentActUi Table</h3>
-<table summary="UI - Workforce Investment Act">
+<table summary="UI - Workforce Investment Act - 2010 Workforce Investment Act">
 	<caption>UI</caption>
 	<thead>
 		<tr>
@@ -244,7 +244,7 @@ http://api.dol.gov/V1/Statistics/WIA
 </table>
 
 <h3 id="workforceInvestmentActWages">workforceInvestmentActWages Table</h3>
-<table summary="Wages - Workforce Investment Act">
+<table summary="Wages - Workforce Investment Act - 2010 Workforce Investment Act">
 	<caption>Wages</caption>
 	<thead>
 		<tr>

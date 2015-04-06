@@ -17,7 +17,7 @@ http://api.dol.gov/V1/Mining/Violation
 ## Dataset Tables  
 
 <h3>MSHA_violations</h3>
-<table summary="Mine Violationl">
+<table summary="Mine Violationl contains violations issued from 1/1/1978 to 1/1/2000 as result of MSHA inspections">
 	<caption>Mine Violation</caption>
 	<thead>
 		<tr>

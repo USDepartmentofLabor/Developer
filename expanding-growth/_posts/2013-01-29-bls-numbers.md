@@ -433,7 +433,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 	<caption>Average Hourly Earnings One Month Net Change</caption>
 	<thead>
 		<tr>
-			<th scope="colw">Column Name</th>
+			<th scope="col">Column Name</th>
 			<th scope="col">Column Description</th>
 			<th scope="col">Data Type</th>
 		</tr>
@@ -644,7 +644,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 	<thead>
 		<tr>
 			<th scope="col">Column Name</th>
-			<th scope="crol">Column Description</th>
+			<th scope="col">Column Description</th>
 			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
@@ -680,7 +680,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 		<tr>
 			<th scope="col">Column Name</th>
 			<th scope="col">Column Description</th>
-			<th scope="colw">Data Type</th>
+			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -748,8 +748,8 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 	<caption>Payroll Employment One Month Change</caption>
 	<thead>
 		<tr>
-			<th scope="colw">Column Name</th>
-			<th scope="col>Column Description</th>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Description</th>
 			<th scope="col">Data Type</th>
 		</tr>
 	</thead>
@@ -818,7 +818,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 	<caption>Producer Price Index 12 Month Change</caption>
 	<thead>
 		<tr>
-			<th scope="colw">Column Name</th>
+			<th scope="col">Column Name</th>
 			<th scope="col">Column Description</th>
 			<th scope="col">Data Type</th>
 		</tr>

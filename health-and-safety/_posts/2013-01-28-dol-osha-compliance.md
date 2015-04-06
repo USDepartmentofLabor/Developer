@@ -24,8 +24,8 @@ http://api.dol.gov/V1/Compliance/OSHA
 - [occupationcode](#occupationcode)
 - [substancecode](#substancecode)
 
-<h3>full Table</H3>
-<table summary="Full - OSHA Compliance">
+<h3 id="full">full Table</H3>
+<table summary="Full - consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually">
 	<caption>Full</caption>
 	<thead>
 		<tr>
@@ -108,7 +108,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a id="foodservice">foodService Table</a></h3>
+<h3 id="foodservice">foodService Table</h3>
 <table summary="Food Service - OSHA Compliance">
 	<caption>Food Service</caption>
 	<thead>
@@ -192,7 +192,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a id="hospitality">hospitality Table</a></h3>
+<h3 id="hospitality">hospitality Table</h3>
 <table summary="Hospitality - OSHA Compliance">
 	<caption>Hospitality</caption>
 	<thead>
@@ -276,8 +276,8 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a id="retail">retail Table</a></h3>
-<table summary="Retail - OSHA Compliance">
+<h3 id="retail">retail Table</h3>
+<table summary="Retail - consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually">
 	<caption>Retail</caption>
 	<thead>
 		<tr>
@@ -360,7 +360,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a id="occupationcode">occupationCode Table</a></h3>
+<h3 id="occupationcode">occupationCode Table</h3>
 <table summary="Occupation Code - OSHA Compliance">
 	<caption>Occupation Code</caption>
 	<thead>
@@ -389,7 +389,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</tbody>
 </table>
 
-<h3><a id="substancecode">substanceCode Table</a></h3>
+<h3 id="substancecode">substanceCode Table</h3>
 <table summary="Substance Code - OSHA Compliance">
 	<caption>Substance Code</caption>
 	<thead>

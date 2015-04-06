@@ -18,14 +18,14 @@ http://api.dol.gov/V1/Statistics/PWSD
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Public%20Workforce%20System%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
 
-## Dataset Tables  
+## Dataset Tables
 
 - [esFinal](#esFinal)
 - [model](#model)
 - [recessionPeriods](#recessionPeriods)
 
 <h3 id="esFinal">esFinal</h3>
-<table summary="Employment services">
+<table summary="Employment Services - Public Workforce System Dataset (PWSD)">
 	<caption>Employment Service Final</caption>
 	<thead>
 		<tr>
@@ -79,7 +79,7 @@ http://api.dol.gov/V1/Statistics/PWSD
 </table>
 
 <h3 id="model">Model</h3>
-<table summary="model">
+<table summary="model - Public Workforce System Dataset (PWSD)">
 	<caption>Model</caption>
 	<thead>
 		<tr>
@@ -1138,7 +1138,7 @@ http://api.dol.gov/V1/Statistics/PWSD
 </table>
 
 <h3 id="recessionPeriods">recessionPeriods</h3>
-<table summary="Recession Periods">
+<table summary="Recession Periods - Public Workforce System Dataset (PWSD)">
 	<caption>Recession periods</caption>
 	<thead>
 		<tr>

@@ -15,10 +15,10 @@ http://api.dol.gov/V1/Compliance/MineInspection
 <a href ="http://api.dol.gov/V1/Compliance/MineInspection/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Mine%20Inspections%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
-## Dataset Tables  
+## Dataset Tables
 
 <h3>mineInspections</h3>
-<table summary="Mine Inspections">
+<table summary="Mine Inspections - lists every mine inspection conducted by MSHA dating back to 1/1/1978">
 	<caption>Mine Inspections</caption>
 	<thead>
 		<tr>
