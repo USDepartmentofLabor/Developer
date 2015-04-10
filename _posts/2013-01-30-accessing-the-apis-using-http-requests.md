@@ -284,12 +284,12 @@ created: 1359565589
         <p>$filter</p>
         <h3>Comparison Keywords</h3>
 		<ul>
-			<p>eq – Equal to</li>
-			<p>ne – Not Equal to</li>
-			<p>gt – Greater than</li>
-			<p>lt – Less than</li>
-			<p>ge – Greater than or equal to</li>
-			<p>le – Less than or equal to</li>
+			<p>eq &ndash; Equal to</li>
+			<p>ne &ndash; Not Equal to</li>
+			<p>gt &ndash; Greater than</li>
+			<p>lt &ndash; Less than</li>
+			<p>ge &ndash; Greater than or equal to</li>
+			<p>le &ndash; Less than or equal to</li>
 		</ul>	
         <h3>Example URL</h3>
         <p>Read records from the AgencyForms table in FORMS dataset, returning only the records where the AgencyId is equal to 'MSHA'.</p>
@@ -337,12 +337,12 @@ created: 1359565589
 		</ul>	
         <h3>Comparison Keywords</h3>
 		<ul>
-			<li>eq – Equal to</li>
-			<li>ne – Not Equal to</li>
-			<li>gt – Greater than</li>
-			<li>lt – Less than</li>
-			<li>ge – Greater than or equal to</li>
-			<li>le – Less than or equal to</li>
+			<li>eq &ndash; Equal to</li>
+			<li>ne &ndash; Not Equal to</li>
+			<li>gt &ndash; Greater than</li>
+			<li>lt &ndash; Less than</li>
+			<li>ge &ndash; Greater than or equal to</li>
+			<li>le &ndash; Less than or equal to</li>
 		</ul>	
         <h3>Example URL</h3>
         <p>Read records from the AgencyForms table in FORMS dataset where the AgencyId is equal to MSHA and the Title is equal to 'Legal Identity Report'.</p>

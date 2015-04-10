@@ -1,10 +1,10 @@
 .post_title_dataset {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: normal;
+    font-size: 2.5rem;
     color: black;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .menu_title_dataset {
@@ -23,7 +23,9 @@
     margin-top: 20px;
 }
 
-.post_content_dataset a:hover {
+.post_content_dataset li a:hover, .post_content_dataset li a:focus,.post_content_dataset li a:active,
+.post_content_dataset a:hover, .post_content_dataset a:focus,.post_content_dataset a:active
+{
     text-decoration: underline;
 }
 .post_content_dataset,
@@ -37,7 +39,7 @@
 .post_content_dataset h2, {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 2em;
     color: black;
 }
 
@@ -67,10 +69,11 @@
 .post_content_dataset h3 a:hover {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: normal;
+    font-size: 1.5em;
     color: black;
     text-decoration: none;
+    margin: 0;
 
 }
 
@@ -86,6 +89,22 @@
 .post_content_dataset thead tr {
     background-color: #D9D9D9;
 }
+
+table caption {
+    text-align: left;
+    font-size: 1.3333em;
+    margin: .5rem 0;
+    font-weight: normal;
+}
+th, td {
+    vertical-align: top;
+}
+table, th, td {
+    border: 1px solid #3d3d3d;
+}
+table {
+    border-collapse: collapse;
+}​
 
 .accordion .accordion-navigation > a, .accordion dd > a  {
     background-color: white;
@@ -111,7 +130,13 @@
 
 .content a:hover {
     color: #0078a0 !important;
-    text-decoration: underline !important;
+}
+
+.content a:hover, .content a:focus, .content a:active {
+    text-decoration: underline;
+}
+.content a:focus, .content a:active {
+    font-weight: bold;
 }
 
 .content a:active,
@@ -120,6 +145,7 @@
     color: #black;
     font-weight: bold;
 }
+
 
 article {
     min-height: 700px;

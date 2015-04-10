@@ -354,7 +354,10 @@ developer.dol.gov
 
 .dol_sub p,
 .dol_sub p a,
-.dol_sub p a:link
+.dol_sub p a:link,
+.dol_sub_code p,
+.dol_sub_code p a,
+.dol_sub_code p a:link
 {
     font-family: 'Open Sans', sans-serif;
     font-weight:400;
@@ -364,7 +367,7 @@ developer.dol.gov
     margin: 5px 0;
 }
 
-.dol_sub h3 {
+.dol_sub_code h2, .dol_sub h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 26px;
@@ -373,21 +376,27 @@ developer.dol.gov
     padding: 0;
 }
 
+
 .dol_sub h2 a:hover,
 .dol_sub h2 a:active,
 .dol_sub p a:hover,
 .dol_sub p a:active,
+.dol_sub_code h2 a:hover,
+.dol_sub_code h2 a:active,
+.dol_sub_code p a:hover,
+.dol_sub_code p a:active,
+
 .details a:hover
 {
     text-decoration: underline;
 }
 
-.dol_sub {
+.dol_sub, .dol_sub_code {
     text-align: center;
     padding: 25px 0;
 }
 
-.dol_sub h1 {
+.dol_sub h1, .dol_sub_code h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
     font-weight: bolder;
@@ -466,6 +475,8 @@ developer.dol.gov
     color: black;
 }
 
+
+
 .top-bar-section ul li.active > a {
     background: #0A4366 !important;
     color: black;
@@ -476,6 +487,11 @@ developer.dol.gov
     color: black;
 }
 
+.top-bar-section li a:hover, .top-bar-section li a:focus, .top-bar-section li a:active {
+    background: #0A4366  !important;
+    color: #fff;
+}
+
 .top-bar-section .has-dropdown > a:after {
     border-color: #000000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
     color: black;
@@ -483,6 +499,11 @@ developer.dol.gov
 
 .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
     color: black; }
+
+
+.accordion li.accordion-navigation a:hover, .accordion li.accordion-navigation a:focus, .accordion li.accordion-navigation a:active {
+    background: #e3e3e3;
+}
 
 .details
 {

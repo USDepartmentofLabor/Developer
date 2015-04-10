@@ -11,7 +11,7 @@ input[type="search"] {
 	margin-left: -0.625em;
 }
 /* start skip nav */
-.hide a, .hide a:hover, .hide a:visited, .search label, span.hide,  p.hide {
+.hide a, .hide a:hover, .hide a:visited, .skip a, .skip a:hover, .skip a:visited, .search label, span.hide,  p.hide {
 	display: block;
 	position: absolute;
 	left: -10000px;
@@ -23,7 +23,7 @@ input[type="search"] {
 	border-bottom: 1px solid #000;
 	color: #fff;
 }
-.hide a:active, .hide a:focus {
+.hide a:active, .hide a:focus, .skip a:active, .skip a:focus {
 	background: #000;
 	position: static;
 	width: auto;
