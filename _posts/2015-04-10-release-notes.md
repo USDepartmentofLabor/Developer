@@ -44,3 +44,7 @@ Website Release Notes
 * Keyboard-friendly link focus highlighting
 * Added this changelog
 
+
+###2.1.1 - April 13, 2015
+* Removed duplicate dataset
+* Minor accessibility fixes
