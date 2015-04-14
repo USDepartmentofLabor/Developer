@@ -48,3 +48,6 @@ Website Release Notes
 ###2.1.1 - April 13, 2015
 * Removed duplicate dataset
 * Minor accessibility fixes
+
+###2.1.2 - April 14, 2015
+* Fixed missing link for .Net SDK & Sample
