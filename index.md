@@ -24,13 +24,12 @@ Keep up to date on the latest economic indicators from the Department of Labor u
 
 {% capture cpi %}
 
-# VETS-100
-
-"Covered Veterans" in employment since  
-2008. This data is a must for anyone  
-interested in the number of veterans  
-employed with companies having contracts  
-with the Federal government.
+# FEEDBACK
+If you have an idea for an app that would  
+help you and the public access certain  
+types of information, but don’t see a  
+dataset that you’re looking for, let us  
+know. 
 
 {% endcapture %}
 

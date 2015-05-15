@@ -215,16 +215,16 @@ developer.dol.gov
 
 .image_box {
     padding: 75px 0;
-    height: 450px;
+    height: 500px;
 }
 .cpi_background {
-    background: url("../img/cpi_back.jpg") no-repeat center center;
+    background: url("../img/Highlight_Data.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/cpi_back.jpg', sizingMethod='scale');
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../img/cpi_back.jpg,sizingMethod=scale)";
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Highlight_Data.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../img/Highlight_Data.jpg,sizingMethod=scale)";
     color: white;
     text-align: center;
 }

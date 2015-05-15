@@ -51,3 +51,6 @@ Website Release Notes
 
 ###2.1.2 - April 14, 2015
 * Fixed missing link for .Net SDK & Sample
+
+###2.1.3 - May 15, 2015
+* Added May Data Highlight
