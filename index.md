@@ -24,7 +24,7 @@ Keep up to date on the latest economic indicators from the Department of Labor u
 
 {% capture cpi %}
 
-# FEEDBACK
+# Tell Us What Data You Want
 If you have an idea for an app that would  
 help you and the public access certain  
 types of information, but don’t see a  
