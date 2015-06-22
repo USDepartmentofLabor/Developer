@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer Jobs Service Beta
+title: Summer Jobs Service Beta - United States Department of Labor Developer Portal
 created: 1359481108
 description: The Summer Jobs Plus Bank is a new search tool designed to help connect job seekers with employers.
 ---
@@ -47,41 +47,74 @@ getJobsListing(string query, string employmentType, string region, string locali
 
 <h3>getJobsListing Operation</h3>
 <p>- <strong>Returns</strong> a json, xml, or atom formatted string.</p>
-<table summary="List of Service Operations - Summer Jobs Service Beta">
-	<caption>List of Service Operations</caption>
-	<tbody>
-		<tr>
-			<th scope="col">Parameter Name</th>
-			<th scope="col">Parameter Description</th>
-			<th scope="col">Data Type</th>
-		</tr>
-		<tr>
-			<th scope="row">format</th>
-			<td>The format that the results string will be returned. <a href="#formatcodes">See below for list</a></td>
-			<td>String</td>
-		</tr>
-		<tr>
-			<th scope="row">query</th>
-			<td>The keywords that will be used to find matching job listings. This is required if region or locality are not provided.</td>
-			<td>String(Required)</td>
-		</tr>
-		<tr>
-			<th scope="row">region</th>
-			<td>The state name or abbreviation used to filter jobs listings. This is required if query or locality are not provided.</td>
-			<td>String</td>
-		</tr>
-		<tr>
-			<th scope="row">locality</th>
-			<td>The city name used to filter job listings. This is required if query or region are not provided.</td>
-			<td>String</td>
-		</tr>
-		<tr>
-			<th scope="row">skipCount</th>
-			<td>The number of records to skip ahead from the first record. Valid range of 1-99.</td>
-			<td>int (Required)</td>
-		</tr>
-	</tbody>
-</table>
+
+<div class="dsktp_tbl">
+	<table summary="List of Service Operations - Summer Jobs Service Beta">
+		<caption>List of Service Operations</caption>
+		<tbody>
+			<tr>
+				<th scope="col">Parameter Name</th>
+				<th scope="col">Parameter Description</th>
+				<th scope="col">Data Type</th>
+			</tr>
+			<tr>
+				<th scope="row">format</th>
+				<td>The format that the results string will be returned. <a href="#formatcodes">See below for list of format codes.</a></td>
+				<td>String</td>
+			</tr>
+			<tr>
+				<th scope="row">query</th>
+				<td>The keywords that will be used to find matching job listings. This is required if region or locality are not provided.</td>
+				<td>String(Required)</td>
+			</tr>
+			<tr>
+				<th scope="row">region</th>
+				<td>The state name or abbreviation used to filter jobs listings. This is required if query or locality are not provided.</td>
+				<td>String</td>
+			</tr>
+			<tr>
+				<th scope="row">locality</th>
+				<td>The city name used to filter job listings. This is required if query or region are not provided.</td>
+				<td>String</td>
+			</tr>
+			<tr>
+				<th scope="row">skipCount</th>
+				<td>The number of records to skip ahead from the first record. Valid range of 1-99.</td>
+				<td>int (Required)</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="mbl_tbl">
+	<h3>List of Service Operations</h3>
+	<h4>Summer Jobs Service Beta</h4>
+	<div class="odd_row">
+		<p class="mbl-strng">Column Name: format</p>
+		<p><span class="mbl-strng">Column Description:</span> The format that the results string will be returned. <a href="#formatcodes">See below for list of format codes.</a></p>
+		<p><span class="mbl-strng">Data Type:</span> String</p>		
+	</div>
+	<div class="even_row">
+		<p class="mbl-strng">Column Name: query</p>
+		<p><span class="mbl-strng">Column Description:</span> The keywords that will be used to find matching job listings. This is required if region or locality are not provided.</p>
+		<p><span class="mbl-strng">Data Type:</span> String(Required)</p>		
+	</div>
+	<div class="odd_row">
+		<p class="mbl-strng">Column Name: region</p>
+		<p><span class="mbl-strng">Column Description:</span> The state name or abbreviation used to filter jobs listings. This is required if query or locality are not provided.</p>
+		<p><span class="mbl-strng">Data Type:</span> String</p>		
+	</div>
+	<div class="even_row">
+		<p class="mbl-strng">Column Name: locality</p>
+		<p><span class="mbl-strng">Column Description:</span> The city name used to filter job listings. This is required if query or region are not provided.</p>
+		<p><span class="mbl-strng">Data Type:</span> String</p>		
+	</div>
+	<div class="odd_row">
+		<p class="mbl-strng">Column Name: skipCount</p>
+		<p><span class="mbl-strng">Column Description:</span> The number of records to skip ahead from the first record. Valid range of 1-99.</p>
+		<p><span class="mbl-strng">Data Type:</span> int (Required)</p>		
+	</div>
+</div>
 
 <h3>Lookup Codes</h3>
 <p id="formatcodes">Format Codes:</p>
