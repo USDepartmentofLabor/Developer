@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wage and Hour Publications System - United States Department of Labor Developer Portal
+title: Wage and Hour Publications System
 created: 1380292809
 description: This dataset provides information regarding all of the publicly available and currently active publications.
 ---

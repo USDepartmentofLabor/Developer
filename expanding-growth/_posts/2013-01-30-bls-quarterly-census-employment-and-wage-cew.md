@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quarterly Census Employment and Wage (CEW) - United States Department of Labor Developer Portal
+title: Quarterly Census Employment and Wage (CEW)
 created: 1359578858
 description: The Quarterly Census of Employment and Wages (QCEW) program publishes a quarterly count of employment and wages reported by employers covering 98 percent of U.S. jobs, available at the county, MSA, state and national levels by industry.
 ---

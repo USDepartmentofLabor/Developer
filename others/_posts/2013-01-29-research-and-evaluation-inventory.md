@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Research And Evaluation Inventory - United States Department of Labor Developer Portal
+title: Research And Evaluation Inventory
 created: 1359480254
 description: This inventory is the first phase in the development of a single repository of all completed and planned research and evaluation projects that have or will be conducted by DOL in the upcoming calendar year.
 ---

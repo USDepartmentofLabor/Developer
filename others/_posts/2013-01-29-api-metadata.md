@@ -1,6 +1,6 @@
 ---
 layout: post
-title: API Metadata - United States Department of Labor Developer Portal
+title: API Metadata
 created: 1359471075
 description: The API Metadata provides a list of available datasets that the Department of Labor supplies as a service.
 ---

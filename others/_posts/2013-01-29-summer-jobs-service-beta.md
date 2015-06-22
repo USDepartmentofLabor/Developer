@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer Jobs Service Beta - United States Department of Labor Developer Portal
+title: Summer Jobs Service Beta
 created: 1359481108
 description: The Summer Jobs Plus Bank is a new search tool designed to help connect job seekers with employers.
 ---

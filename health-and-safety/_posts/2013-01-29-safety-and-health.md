@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Safety and Health - United States Department of Labor Developer Portal
+title: Safety and Health
 created: 1359491704
 description: Data related to safety and health in the workplace.
 ---

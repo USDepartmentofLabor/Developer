@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OUI Inital Claims - United States Department of Labor Developer Portal
+title: OUI Inital Claims
 created: 1359571923
 description: OUI Initial claims dataset contains the non-seasonally and seasonally adjusted Unemployment Insurance Initial Claims time-series data at the National level.
 ---

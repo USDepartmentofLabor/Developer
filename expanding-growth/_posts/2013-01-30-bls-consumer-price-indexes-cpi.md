@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Consumer Price Indexes (CPI) - United States Department of Labor Developer Portal
+title: Consumer Price Indexes (CPI)
 created: 1359576522
 description: The Consumer Price Indexes (CPI) program produces monthly data on changes in the prices paid by urban consumers for a representative basket of goods and services.
 ---

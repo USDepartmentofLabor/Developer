@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DOL OSHA Compliance - United States Department of Labor Developer Portal
+title: DOL OSHA Compliance
 created: 1359572131
 description: This Dataset provides summaries of fatalities and catastrophes resulting in the hospitalization of three or more workers.
 ---

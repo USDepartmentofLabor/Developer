@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OSHA Enforcement - United States Department of Labor Developer Portal
+title: OSHA Enforcement
 created: 1359641735
 description: The dataset consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to - www.osha.gov
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Geography - United States Department of Labor Developer Portal
+title: Geography
 created: 1359478230
 description: Find here a list of States, Counties, Cities and, Congressional Districts.
 ---

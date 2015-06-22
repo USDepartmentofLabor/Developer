@@ -159,3 +159,27 @@ table {
 article {
     min-height: 700px;
 }
+
+/*  css for mobile-friendly tables */
+.mbl_tbl table { margin-bottom: 2em; border: 0;}
+.mbl_tbl th { font-weight: normal;}
+
+.mbl_tbl { margin: 1.5em 1em 1em 1em;}
+.mbl_tbl p { margin: 0; padding-bottom: .5em;}
+.mbl-strng { font-weight: bold;}
+.even_row, .odd_row { width: 100%; padding: 1em;}
+.odd_row { background: #e3e3e3;}
+hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
+.error_note { color: #900;}
+
+@media screen and (max-width: 700px) { 
+	#wrap { width: 85%;}
+	.dsktp_tbl { display: none;}
+	.mbl_tbl { display: block;}
+}	
+
+@media screen and (min-width: 705px) { 
+	#wrap { width: 75%;}
+	dsktp_tbl { display: block; width:95%;}
+	.mbl_tbl { display: none;}
+}

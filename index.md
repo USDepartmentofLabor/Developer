@@ -1,5 +1,5 @@
 ---
-title: Developer Portal - United States Department of Labor
+title: Developer.dol.gov
 layout: default
 ---
 

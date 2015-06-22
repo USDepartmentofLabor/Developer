@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BLS Numbers - United States Department of Labor Developer Portal
+title: BLS Numbers
 created: 1359483400
 description: This Dataset contains historic data (last 10 years) for the most common economic indicators.
 ---

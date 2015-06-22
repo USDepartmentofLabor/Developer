@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Current Population Survey (CPS) - United States Department of Labor Developer Portal
+title: Current Population Survey (CPS)
 created: 1359579396
 description: The Current Population Survey (CPS) is a monthly survey of households conducted by the Bureau of Census for the Bureau of Labor Statistics.
 ---

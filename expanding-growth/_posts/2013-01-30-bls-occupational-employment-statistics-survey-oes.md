@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Occupational Employment Statistics Survey (OES) - United States Department of Labor Developer Portal
+title: Occupational Employment Statistics Survey (OES)
 created: 1359578884
 description: The Occupational Employment Statistics (OES) program produces employment and wage estimates for over 800 occupations.
 ---

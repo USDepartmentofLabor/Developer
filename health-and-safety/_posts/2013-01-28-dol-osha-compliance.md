@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OSHA Compliance - United States Department of Labor Developer Portal
+title: OSHA Compliance
 created: 1359406750
 description: The dataset consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually.
 ---

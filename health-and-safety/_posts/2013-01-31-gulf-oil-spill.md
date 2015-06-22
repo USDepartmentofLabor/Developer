@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gulf Oil Spill - United States Department of Labor Developer Portal
+title: Gulf Oil Spill
 created: 1359646744
 description: Following its sampling plan, OSHA industrial hygienists are monitoring workers engaged in the oil spill clean up in the Gulf of Mexico for exposure to hazardous chemicals and conditions.
 ---
