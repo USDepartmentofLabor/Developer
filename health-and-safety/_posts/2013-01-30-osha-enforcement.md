@@ -18,16 +18,35 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 
 ## Dataset Tables
 
-- [osha_accident](#osha_accident)
-- [osha_accident_abstract](#osha_accident_abstract)
-- [osha_accident_injury](#osha_accident_injury)
-- [osha_inspection](#osha_inspection)
-- [osha_optional_info](#osha_optional_info)
-- [osha_related_activity](#osha_related_activity)
-- [osha_strategic_codes](#osha_strategic_codes)
-- [osha_violation](#osha_violation)
-- [osha_violation_event](#osha_violation_event)
-- [osha_violation_gen_duty_std](#osha_violation_gen_duty_std)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#osha_accident">osha_accident</a></li>
+		<li><a href="#osha_accident_abstract">osha_accident_abstract</a></li>
+		<li><a href="#osha_accident_injury">osha_accident_injury</a></li>
+		<li><a href="#osha_inspection">osha_inspection</a></li>
+		<li><a href="#osha_optional_info">osha_optional_info</a></li>
+		<li><a href="#osha_related_activity">osha_related_activity</a></li>
+		<li><a href="#osha_strategic_codes">osha_strategic_codes</a></li>
+		<li><a href="#osha_violation">osha_violation</a></li>
+		<li><a href="#osha_violation_event">osha_violation_event</a></li>
+		<li><a href="#osha_violation_gen_duty_std">osha_violation_gen_duty_std</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#osha_accident_mbl">osha_accident</a></li>
+		<li><a href="#osha_accident_abstract_mbl">osha_accident_abstract</a></li>
+		<li><a href="#osha_accident_injury_mbl">osha_accident_injury</a></li>
+		<li><a href="#osha_inspection_mbl">osha_inspection</a></li>
+		<li><a href="#osha_optional_info_mbl">osha_optional_info</a></li>
+		<li><a href="#osha_related_activity_mbl">osha_related_activity</a></li>
+		<li><a href="#osha_strategic_codes_mbl">osha_strategic_codes</a></li>
+		<li><a href="#osha_violation_mbl">osha_violation</a></li>
+		<li><a href="#osha_violation_event_mbl">osha_violation_event</a></li>
+		<li><a href="#osha_violation_gen_duty_std_mbl">osha_violation_gen_duty_std</a></li>
+	</ul>
+</div>
   
 <div class="dsktp_tbl">
 	<h3 id="osha_accident">osha_accident Table</h3>
@@ -469,7 +488,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tbody>
 	</table>
 
-	<h3 id="osha_optional_info">osha_optional_info Table</h3>
+	<h3 id="osha_optional_info_mbl">osha_optional_info Table</h3>
 	<p>The following table provides additional, optional information associated with an OSHA inspection. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<table summary="OSHA Optional Information - OSHA Enforcement">
 		<caption>OSHA Optional Information</caption>

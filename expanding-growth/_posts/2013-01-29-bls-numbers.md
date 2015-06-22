@@ -15,32 +15,35 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Numbers" class="button radius button_dataset">Explore This Data</a>
 
 ## Dataset Tables  
-- [averageHourlyEarnings](#averageHourlyEarnings)
-- [consumerPriceIndex](#consumerPriceIndex)
-- [employmentCostIndex](#employmentCostIndex)
-- [exportPriceIndex](#exportPriceIndex)
-- [importPriceIndex](#importPriceIndex)
-- [payrollEmployment](#payrollEmployment)
-- [producerPriceIndex](#producerPriceIndex)
-- [productivity](#productivity)
-- [unemploymentRate](#unemploymentRate)
-- [averageHourlyEarnings12MonthChange](#averageHourlyEarnings12MonthChange)
-- [averageHourlyEarnings1MonthChange](#averageHourlyEarnings1MonthChange)
-- [averageHourlyEarnings1MonthNetChange](#averageHourlyEarnings1MonthNetChange)
-- [consumerPriceIndex12MonthChange](#consumerPriceIndex12MonthChange)
-- [consumerPriceIndex1MonthChange](#consumerPriceIndex1MonthChange)
-- [exportPriceIndex12MonthChange](#exportPriceIndex12MonthChange)
-- [exportPriceIndex1MonthChange](#exportPriceIndex1MonthChange)
-- [importPriceIndex12MonthChange](#importPriceIndex12MonthChange)
-- [importPriceIndex1MonthChange](#importPriceIndex1MonthChange)
-- [payrollEmployment12MonthChange](#payrollEmployment12MonthChange)
-- [payrollEmployment12MonthNetChange](#payrollEmployment12MonthNetChange)
-- [payrollEmployment1MonthChange](#payrollEmployment1MonthChange)
-- [payrollEmployment1MonthNetChange](#payrollEmployment1MonthNetChange)
-- [producerPriceIndex12MonthChange](#producerPriceIndex12MonthChange)
-- [producerPriceIndex1MonthChange](#producerPriceIndex1MonthChange)
-- [unemploymentRate12MonthChange](#unemploymentRate12MonthChange)
-- [unemploymentRate1MonthChange](#unemploymentRate1MonthChange)
+
+<ul>
+	<li><a href="#averageHourlyEarnings">averageHourlyEarnings</a></li>
+	<li><a href="#consumerPriceIndex">consumerPriceIndex</a></li>
+	<li><a href="#employmentCostIndex">employmentCostIndex</a></li>
+	<li><a href="#exportPriceIndex">exportPriceIndex</a></li>
+	<li><a href="#importPriceIndex">importPriceIndex</a></li>
+	<li><a href="#payrollEmployment">payrollEmployment</a></li>
+	<li><a href="#producerPriceIndex">producerPriceIndex</a></li>
+	<li><a href="#productivity">productivity</a></li>
+	<li><a href="#unemploymentRate">unemploymentRate</a></li>
+	<li><a href="#averageHourlyEarnings12MonthChange">averageHourlyEarnings12MonthChange</a></li>
+	<li><a href="#averageHourlyEarnings1MonthChange">averageHourlyEarnings1MonthChange</a></li>
+	<li><a href="#averageHourlyEarnings1MonthNetChange">averageHourlyEarnings1MonthNetChange</a></li>
+	<li><a href="#consumerPriceIndex12MonthChange">consumerPriceIndex12MonthChange</a></li>
+	<li><a href="#consumerPriceIndex1MonthChange">consumerPriceIndex1MonthChange</a></li>
+	<li><a href="#exportPriceIndex12MonthChange">exportPriceIndex12MonthChange</a></li>
+	<li><a href="#exportPriceIndex1MonthChange">exportPriceIndex1MonthChange</a></li>
+	<li><a href="#importPriceIndex12MonthChange">importPriceIndex12MonthChange</a></li>
+	<li><a href="#importPriceIndex1MonthChange">importPriceIndex1MonthChange</a></li>
+	<li><a href="#payrollEmployment12MonthChange">payrollEmployment12MonthChange</a></li>
+	<li><a href="#payrollEmployment12MonthNetChange">payrollEmployment12MonthNetChange</a></li>
+	<li><a href="#payrollEmployment1MonthChange">payrollEmployment1MonthChange</a></li>
+	<li><a href="#payrollEmployment1MonthNetChange">payrollEmployment1MonthNetChange</a></li>
+	<li><a href="#producerPriceIndex12MonthChange">producerPriceIndex12MonthChange</a></li>
+	<li><a href="#producerPriceIndex1MonthChange">producerPriceIndex1MonthChange</a></li>
+	<li><a href="#unemploymentRate12MonthChange">unemploymentRate12MonthChange</a></li>
+	<li><a href="#unemploymentRate1MonthChange">unemploymentRate1MonthChange</a></li>
+</ul>
 
 <h3 id="averageHourlyEarnings">averageHourlyEarnings Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>

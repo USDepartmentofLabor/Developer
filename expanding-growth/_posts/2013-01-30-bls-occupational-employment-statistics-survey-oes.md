@@ -20,19 +20,41 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 
 ## Dataset Tables  
 
-- [OE_AREA](#OE_AREA)
-- [OE_AREATYPE](#OE_AREATYPE)
-- [OE_DATA_PUB](#OE_DATA_PUB)
-- [OE_DATATYPE](#OE_DATATYPE)
-- [OE_FOOTNOTE](#OE_FOOTNOTE)
-- [OE_INDUSTRY](#OE_INDUSTRY)
-- [OE_OCCUGROUP](#OE_OCCUGROUP)
-- [OE_OCCUPATION](#OE_OCCUPATION)
-- [OE_RELEASE](#OE_RELEASE)
-- [OE_SEASONAL](#OE_SEASONAL)
-- [OE_SECTOR](#OE_SECTOR)
-- [OE_SERIES](#OE_SERIES)
-- [OE_STATEMSA](#OE_STATEMSA)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#OE_AREA">OE_AREA</a></li>
+		<li><a href="#OE_AREATYPE">OE_AREATYPE</a></li>
+		<li><a href="#OE_DATA_PUB">OE_DATA_PUB</a></li>
+		<li><a href="#OE_DATATYPE">OE_DATATYPE</a></li>
+		<li><a href="#OE_FOOTNOTE">OE_FOOTNOTE</a></li>
+		<li><a href="#OE_INDUSTRY">OE_INDUSTRY</a></li>
+		<li><a href="#OE_OCCUGROUP">OE_OCCUGROUP</a></li>
+		<li><a href="#OE_OCCUPATION">OE_OCCUPATION</a></li>
+		<li><a href="#OE_RELEASE">OE_RELEASE</a></li>
+		<li><a href="#OE_SEASONAL">OE_SEASONAL</a></li>
+		<li><a href="#OE_SECTOR">OE_SECTOR</a></li>
+		<li><a href="#OE_SERIES">OE_SERIES</a></li>
+		<li><a href="#OE_STATEMSA">OE_STATEMSA</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#OE_AREA_mbl">OE_AREA</a></li>
+		<li><a href="#OE_AREATYPE_mbl">OE_AREATYPE</a></li>
+		<li><a href="#OE_DATA_PUB_mbl">OE_DATA_PUB</a></li>
+		<li><a href="#OE_DATATYPE_mbl">OE_DATATYPE</a></li>
+		<li><a href="#OE_FOOTNOTE_mbl">OE_FOOTNOTE</a></li>
+		<li><a href="#OE_INDUSTRY_mbl">OE_INDUSTRY</a></li>
+		<li><a href="#OE_OCCUGROUP_mbl">OE_OCCUGROUP</a></li>
+		<li><a href="#OE_OCCUPATION_mbl">OE_OCCUPATION</a></li>
+		<li><a href="#OE_RELEASE_mbl">OE_RELEASE</a></li>
+		<li><a href="#OE_SEASONAL_mbl">OE_SEASONAL</a></li>
+		<li><a href="#OE_SECTOR_mbl">OE_SECTOR</a></li>
+		<li><a href="#OE_SERIES_mbl">OE_SERIES</a></li>
+		<li><a href="#OE_STATEMSA_mbl">OE_STATEMSA</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="OE_AREA">OE_AREA</h3>
@@ -457,295 +479,294 @@ http://api.dol.gov/V1/Statistics/OES/$metadata
 		</tbody>
 	</table>
 </div>
-
 <div class="mbl_tbl">
-	<h3 id="OE_AREA">OE_AREA</h3>
-	<h4>Area - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: AREA_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (7)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: AREATYPE_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Type Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: AREA_NAME</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
-	</div>
+<h3 id="OE_AREA_mbl">OE_AREA</h3>
+<h4>Area - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: AREA_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Area Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (7)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: AREATYPE_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Area Type Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: AREA_NAME</p>
+        <p><span class="mbl-strng">Column Description:</span> Area Name</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
+</div>
+	
+<hr />
+<h3 id="OE_AREATYPE_mbl">OE_AREATYPE</h3>
+<h4>Area Type - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: AREATYPE_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Area Type Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: AREATYPE_NAME</p>
+        <p><span class="mbl-strng">Column Description:</span> Area Type Description</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
+</div>
 
-	<hr />
-	<h3 id="OE_AREATYPE">OE_AREATYPE</h3>
-	<h4>Area Type - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: AREATYPE_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Type Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: AREATYPE_NAME</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Type Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
-	</div>
+<hr />
+<h3 id="OE_DATA_PUB_mbl">OE_DATA_PUB</h3>
+<h4>Data Pub - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: SERIES_ID</p>
+        <p><span class="mbl-strng">Column Description:</span> Series Identifier Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (30)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: YEAR</p>
+        <p><span class="mbl-strng">Column Description:</span> Data Observation Year</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (4)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: PERIOD</p>
+        <p><span class="mbl-strng">Column Description:</span> Data Observation Period (Month, Quarter, Semi-Annual, Annual)</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (3)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: VALUE</p>
+        <p><span class="mbl-strng">Column Description:</span> Data Observation/Estimate</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (12)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: FOOTNOTE_CODES</p>
+        <p><span class="mbl-strng">Column Description:</span> Footnote Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (10)</p>		
+</div>
 
-	<hr />
-	<h3 id="OE_DATA_PUB">OE_DATA_PUB</h3>
-	<h4>Data Pub - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: SERIES_ID</p>
-		<p><span class="mbl-strng">Column Description:</span> Series Identifier Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (30)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: YEAR</p>
-		<p><span class="mbl-strng">Column Description:</span> Data Observation Year</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (4)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: PERIOD</p>
-		<p><span class="mbl-strng">Column Description:</span> Data Observation Period (Month, Quarter, Semi-Annual, Annual)</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (3)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: VALUE</p>
-		<p><span class="mbl-strng">Column Description:</span> Data Observation/Estimate</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (12)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: FOOTNOTE_CODES</p>
-		<p><span class="mbl-strng">Column Description:</span> Footnote Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (10)</p>		
-	</div>
+<hr />
+<h3 id="OE_DATATYPE_mbl">OE_DATATYPE</h3>
+<h4>Data Type - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: DATATYPE_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Data Type Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (2)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: DATATYPE_NAME</p>
+        <p><span class="mbl-strng">Column Description:</span> Data Type Code Description</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Footnote Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
+</div>
 
-	<hr />
-	<h3 id="OE_DATATYPE">OE_DATATYPE</h3>
-	<h4>Data Type - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: DATATYPE_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Data Type Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (2)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: DATATYPE_NAME</p>
-		<p><span class="mbl-strng">Column Description:</span> Data Type Code Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Footnote Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
-	</div>
+<hr />
+<h3 id="OE_FOOTNOTE_mbl">OE_FOOTNOTE</h3>
+<h4>Footnote - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Footnote Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: FOOTNOTE_TEXT</p>
+        <p><span class="mbl-strng">Column Description:</span> Footnote Code Description</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (300)</p>		
+</div>
 
-	<hr />
-	<h3 id="OE_FOOTNOTE">OE_FOOTNOTE</h3>
-	<h4>Footnote - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Footnote Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: FOOTNOTE_TEXT</p>
-		<p><span class="mbl-strng">Column Description:</span> Footnote Code Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (300)</p>		
-	</div>
+<hr />
+<h3 id="OE_INDUSTRY_mbl">OE_INDUSTRY</h3>
+<h4>Industry - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Industry Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: INDUSTRY_NAME</p>
+        <p><span class="mbl-strng">Column Description:</span> Industry Code Description</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: DISPLAY_LEVEL</p>
+        <p><span class="mbl-strng">Column Description:</span> Display Indent Level For Query Tool</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (2)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: SELECTABLE</p>
+        <p><span class="mbl-strng">Column Description:</span> Code To Allow/Disallow Query Tool Selection</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: SORT_SEQUENCE</p>
+        <p><span class="mbl-strng">Column Description:</span> Data Query Tool Widget Sorting</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (5)</p>		
+</div>
 
-	<hr />
-	<h3 id="OE_INDUSTRY">OE_INDUSTRY</h3>
-	<h4>Industry - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: INDUSTRY_NAME</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry Code Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: DISPLAY_LEVEL</p>
-		<p><span class="mbl-strng">Column Description:</span> Display Indent Level For Query Tool</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (2)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: SELECTABLE</p>
-		<p><span class="mbl-strng">Column Description:</span> Code To Allow/Disallow Query Tool Selection</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: SORT_SEQUENCE</p>
-		<p><span class="mbl-strng">Column Description:</span> Data Query Tool Widget Sorting</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (5)</p>		
-	</div>
+<hr />
+<h3 id="OE_OCCUGROUP_mbl">OE_OCCUGROUP</h3>
+<h4>Occupation Group - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: OCCUGROUP_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Occupation Group Code 2 Digit Level</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: OCCUGROUP_NAME</p>
+        <p><span class="mbl-strng">Column Description:</span> Occupation Group Code Description</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
+</div>
 
-	<hr />
-	<h3 id="OE_OCCUGROUP">OE_OCCUGROUP</h3>
-	<h4>Occupation Group - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: OCCUGROUP_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Group Code 2 Digit Level</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: OCCUGROUP_NAME</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Group Code Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
-	</div>
+<hr />
+<h3 id="OE_OCCUPATION_mbl">OE_OCCUPATION</h3>
+<h4>Occupation - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: OCCUPATION_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Occupation Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: OCCUPATION_NAME</p>
+        <p><span class="mbl-strng">Column Description:</span> Occupation Code Description</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: DISPLAY_LEVEL</p>
+        <p><span class="mbl-strng">Column Description:</span> Display Indent Level For Query Tool</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (2)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: SELECTABLE</p>
+        <p><span class="mbl-strng">Column Description:</span> Code To Allow/Disallow Query Tool Selection</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: SORT_SEQUENCE</p>
+        <p><span class="mbl-strng">Column Description:</span> Data Query Tool Widget Sorting</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (5)</p>		
+</div>
 
-	<hr />
-	<h3 id="OE_OCCUPATION">OE_OCCUPATION</h3>
-	<h4>Occupation - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: OCCUPATION_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: OCCUPATION_NAME</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Code Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: DISPLAY_LEVEL</p>
-		<p><span class="mbl-strng">Column Description:</span> Display Indent Level For Query Tool</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (2)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: SELECTABLE</p>
-		<p><span class="mbl-strng">Column Description:</span> Code To Allow/Disallow Query Tool Selection</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: SORT_SEQUENCE</p>
-		<p><span class="mbl-strng">Column Description:</span> Data Query Tool Widget Sorting</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (5)</p>		
-	</div>
+<hr />
+<h3 id="OE_RELEASE_mbl">OE_RELEASE</h3>
+<h4>Release - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: RELEASE_DATE</p>
+        <p><span class="mbl-strng">Column Description:</span> Data Reference Period</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (7)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: DESCRIPTION</p>
+        <p><span class="mbl-strng">Column Description:</span> Data Reference Period Description</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (50)</p>		
+</div>
 
-	<hr />
-	<h3 id="OE_RELEASE">OE_RELEASE</h3>
-	<h4>Release - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: RELEASE_DATE</p>
-		<p><span class="mbl-strng">Column Description:</span> Data Reference Period</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (7)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: DESCRIPTION</p>
-		<p><span class="mbl-strng">Column Description:</span> Data Reference Period Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (50)</p>		
-	</div>
+<hr />
+<h3 id="OE_SEASONAL_mbl">OE_SEASONAL</h3>
+<h4>Seasonal - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: SEASONAL</p>
+        <p><span class="mbl-strng">Column Description:</span> Seasonal Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: SEASONAL_TEXT</p>
+        <p><span class="mbl-strng">Column Description:</span> Seasonal Code Description</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (30)</p>		
+</div>
 
-	<hr />
-	<h3 id="OE_SEASONAL">OE_SEASONAL</h3>
-	<h4>Seasonal - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: SEASONAL</p>
-		<p><span class="mbl-strng">Column Description:</span> Seasonal Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: SEASONAL_TEXT</p>
-		<p><span class="mbl-strng">Column Description:</span> Seasonal Code Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (30)</p>		
-	</div>
+<hr />
+<h3 id="OE_SECTOR_mbl">OE_SECTOR</h3>
+<h4>Sector - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: SECTOR_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Industry Sector Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: SECTOR_NAME</p>
+        <p><span class="mbl-strng">Column Description:</span> Industry Sector Description</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
 
-	<hr />
-	<h3 id="OE_SECTOR">OE_SECTOR</h3>
-	<h4>Sector - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: SECTOR_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry Sector Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: SECTOR_NAME</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry Sector Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
+<hr />
+<h3 id="OE_SERIES_mbl">OE_SERIES</h3>
+<h4>Series - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: SERIES_ID</p>
+        <p><span class="mbl-strng">Column Description:</span> Series Identifier Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (30)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: SEASONAL</p>
+        <p><span class="mbl-strng">Column Description:</span> Seasonal Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: AREATYPE_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Area Type Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: AREA_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Area Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (7)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Industry Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: OCCUPATION_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Occupation Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: DATATYPE_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> Data Type Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (2)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: FOOTNOTE_CODES</p>
+        <p><span class="mbl-strng">Column Description:</span> Footnote Codes</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (10)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: BEGIN_YEAR</p>
+        <p><span class="mbl-strng">Column Description:</span> Begin Year Of Series</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (4)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: BEGIN_PERIOD</p>
+        <p><span class="mbl-strng">Column Description:</span> Begin Period Of Series</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (3)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: END_YEAR</p>
+        <p><span class="mbl-strng">Column Description:</span> End Year Of Series</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (4)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: END_PERIOD</p>
+        <p><span class="mbl-strng">Column Description:</span> End Period Of Series</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (3)</p>		
+</div>
 
-	<hr />
-	<h3 id="OE_SERIES">OE_SERIES</h3>
-	<h4>Series - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: SERIES_ID</p>
-		<p><span class="mbl-strng">Column Description:</span> Series Identifier Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (30)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: SEASONAL</p>
-		<p><span class="mbl-strng">Column Description:</span> Seasonal Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: AREATYPE_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Type Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: AREA_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (7)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: OCCUPATION_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (6)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: DATATYPE_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Data Type Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (2)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: FOOTNOTE_CODES</p>
-		<p><span class="mbl-strng">Column Description:</span> Footnote Codes</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (10)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: BEGIN_YEAR</p>
-		<p><span class="mbl-strng">Column Description:</span> Begin Year Of Series</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (4)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: BEGIN_PERIOD</p>
-		<p><span class="mbl-strng">Column Description:</span> Begin Period Of Series</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (3)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: END_YEAR</p>
-		<p><span class="mbl-strng">Column Description:</span> End Year Of Series</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (4)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: END_PERIOD</p>
-		<p><span class="mbl-strng">Column Description:</span> End Period Of Series</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (3)</p>		
-	</div>
-
-	<hr />
-	<h3 id="OE_STATEMSA">OE_STATEMSA</h3>
-	<h4>State MSA - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: STATE_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> State Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (2)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: MSA_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> MSA Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (7)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: MSA_NAME</p>
-		<p><span class="mbl-strng">Column Description:</span> MSA Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
-	</div>
+<hr />
+<h3 id="OE_STATEMSA_mbl">OE_STATEMSA</h3>
+<h4>State MSA - Occupational Employment Statistics (OES)</h4>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: STATE_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> State Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (2)</p>		
+</div>
+<div class="even_row">
+        <p class="mbl-strng">Column Name: MSA_CODE</p>
+        <p><span class="mbl-strng">Column Description:</span> MSA Code</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (7)</p>		
+</div>
+<div class="odd_row">
+        <p class="mbl-strng">Column Name: MSA_NAME</p>
+        <p><span class="mbl-strng">Column Description:</span> MSA Name</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
+</div>
 </div>

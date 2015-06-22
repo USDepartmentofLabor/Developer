@@ -15,8 +15,20 @@ http://api.dol.gov/V1/Safety/GulfOilSpill
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Gulf%20Oil%20Spill" class="button radius button_dataset">Explore This Data</a>
 
 ## Dataset Tables 
-- [OSHA_Direct_Read_Sampling](#OSHA_Direct_Read_Sampling)
-- [OSHA_NOISE_REPORT](#OSHA_NOISE_REPORT) 
+
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#OSHA_Direct_Read_Sampling">OSHA_Direct_Read_Sampling</a></li>
+		<li><a href="#OSHA_NOISE_REPORT">OSHA_NOISE_REPORT</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#OSHA_Direct_Read_Sampling_mbl">OSHA_Direct_Read_Sampling</a></li>
+		<li><a href="#OSHA_NOISE_REPORT_mbl">OSHA_NOISE_REPORT</a></li>
+	</ul>
+</div>
  
 <div class="dsktp_tbl">
 	<h3 id="OSHA_Direct_Read_Sampling">OSHA_Direct_Read_Sampling Table</h3>
@@ -174,7 +186,7 @@ http://api.dol.gov/V1/Safety/GulfOilSpill
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="OSHA_Direct_Read_Sampling">OSHA_Direct_Read_Sampling Table</h3>
+	<h3 id="OSHA_Direct_Read_Sampling_mbl">OSHA_Direct_Read_Sampling Table</h3>
 	<h4>OSHA Direct Read Sampling</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: ESTAB_STATE</p>
@@ -228,7 +240,7 @@ http://api.dol.gov/V1/Safety/GulfOilSpill
 	</div>
 
 	<hr />
-	<h3 id="OSHA_NOISE_REPOR">OSHA_NOISE_REPORT Table</h3>
+	<h3 id="OSHA_NOISE_REPOR_mbl">OSHA_NOISE_REPORT Table</h3>
 	<h4>OSHA Noise Report</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: ESTABLISHMENT_STATE</p>

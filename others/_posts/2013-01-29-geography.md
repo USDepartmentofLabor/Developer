@@ -16,10 +16,23 @@ http://api.dol.gov/V1/Geography
 
 ## Dataset Tables
 
-- [City](#City)
-- [CongressDistrict](#CongressDistrict)
-- [County](#County)
-- [State](#State)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#City">City</a></li>
+		<li><a href="#CongressDistrict">CongressDistrict</a></li>
+		<li><a href="#County">County</a></li>
+		<li><a href="#State">State</a></li>
+	</ul>
+</div>
+
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#City_mbl">City</a></li>
+		<li><a href="#CongressDistrict_mbl">CongressDistrict</a></li>
+		<li><a href="#County_mbl">County</a></li>
+		<li><a href="#State_mbl">State</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="City">City Table</h3>
@@ -140,7 +153,7 @@ http://api.dol.gov/V1/Geography
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="City">City Table</h3>
+	<h3 id="City_mbl">City Table</h3>
 	<h4>List of States, Counties, and Cities</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CityCode</p>
@@ -169,7 +182,7 @@ http://api.dol.gov/V1/Geography
 	</div>
 
 	<hr />
-	<h3 id="CongressDistrict">CongressDistrict Table</h3>
+	<h3 id="CongressDistrict_mbl">CongressDistrict Table</h3>
 	<h4>List of Congressional Districts</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CountyCode</p>
@@ -188,7 +201,7 @@ http://api.dol.gov/V1/Geography
 	</div>
 
 	<hr />
-	<h3 id="County">County Table</h3>
+	<h3 id="County_mbl">County Table</h3>
 	<h4>List of Counties</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CountyCode</p>
@@ -202,7 +215,7 @@ http://api.dol.gov/V1/Geography
 	</div>
 
 	<hr />
-	<h3 id="State">State Table</h3>
+	<h3 id="State_mbl">State Table</h3>
 	<h4>List of States</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: StateCode</p>

@@ -25,10 +25,23 @@ http://api.dol.gov/V1/Statistics/WIA
 
 ## Dataset Tables
 
-- [workforceInvestmentAct](#workforceInvestmentAct)
-- [workforceInvestmentActUi](#workforceInvestmentActUi)
-- [workforceInvestmentActWages](#workforceInvestmentActWages)
-- [lookup codes](#lookup)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#workforceInvestmentAct">workforceInvestmentAct</a></li>
+		<li><a href="#workforceInvestmentActUi">workforceInvestmentActUi</a></li>
+		<li><a href="#workforceInvestmentActWages">workforceInvestmentActWages</a></li>
+		<li><a href="#lookup">lookup codes</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#workforceInvestmentAct_mbl">workforceInvestmentAct</a></li>
+		<li><a href="#workforceInvestmentActUi_mbl">workforceInvestmentActUi</a></li>
+		<li><a href="#workforceInvestmentActWages_mbl">workforceInvestmentActWages</a></li>
+		<li><a href="#lookup_mbl">lookup codes</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="workforceInvestmentAct">workforceInvestmentAct Table</h3>
@@ -285,7 +298,7 @@ http://api.dol.gov/V1/Statistics/WIA
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="workforceInvestmentAct">workforceInvestmentAct Table</h3>
+	<h3 id="workforceInvestmentAct_mbl">workforceInvestmentAct Table</h3>
 	<h4>Workforce Investment Act - 2010 Workforce Investment Act</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>
@@ -394,7 +407,7 @@ http://api.dol.gov/V1/Statistics/WIA
 	</div>
 
 	<hr />
-	<h3 id="workforceInvestmentActUi">workforceInvestmentActUi Table</h3>
+	<h3 id="workforceInvestmentActUi_mbl">workforceInvestmentActUi Table</h3>
 	<h4>UI - 2010 Workforce Investment Act</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>
@@ -478,7 +491,7 @@ http://api.dol.gov/V1/Statistics/WIA
 	</div>
 
 	<hr />
-	<h3 id="workforceInvestmentActWages">workforceInvestmentActWages Table</h3>
+	<h3 id="workforceInvestmentActWages_mbl">workforceInvestmentActWages Table</h3>
 	<h4>Wages - Workforce Investment Act - 2010 Workforce Investment Act</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: idIndividual</p>
@@ -507,7 +520,7 @@ http://api.dol.gov/V1/Statistics/WIA
 	</div>
 </div>
 
-<h3 id="lookup">Lookup Codes</h3>
+<h3 id="lookup_mbl">Lookup Codes</h3>
 <h4>Industry Codes:</h4>
 <ul>
 	<li>1 = Manufacturing</li>

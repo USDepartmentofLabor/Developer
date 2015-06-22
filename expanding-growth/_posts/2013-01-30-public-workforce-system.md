@@ -20,9 +20,21 @@ http://api.dol.gov/V1/Statistics/PWSD
 
 ## Dataset Tables
 
-- [esFinal](#esFinal)
-- [model](#model)
-- [recessionPeriods](#recessionPeriods)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#esFinal">esFinal</a></li>
+		<li><a href="#model">model</a></li>
+		<li><a href="#recessionPeriods">recessionPeriods</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#esFinal_mbl">esFinal</a></li>
+		<li><a href="#model_mbl">model</a></li>
+		<li><a href="#recessionPeriods_mbl">recessionPeriods</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="esFinal">esFinal</h3>
@@ -1179,7 +1191,7 @@ http://api.dol.gov/V1/Statistics/PWSD
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="esFinal">esFinal</h3>
+	<h3 id="esFinal_mbl">esFinal</h3>
 	<h4>Employment Services - Public Workforce System Dataset (PWSD)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>
@@ -1223,7 +1235,7 @@ http://api.dol.gov/V1/Statistics/PWSD
 	</div>
 
 	<hr />
-	<h3 id="model">Model</h3>
+	<h3 id="model_mbl">Model</h3>
 	<h4>Model - Public Workforce System Dataset (PWSD)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>
@@ -2272,7 +2284,7 @@ http://api.dol.gov/V1/Statistics/PWSD
 	</div>
 
 	<hr />
-	<h3 id="recessionPeriods">recessionPeriods</h3>
+	<h3 id="recessionPeriods_mbl">recessionPeriods</h3>
 	<h4>Recession Periods - Public Workforce System Dataset (PWSD)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>

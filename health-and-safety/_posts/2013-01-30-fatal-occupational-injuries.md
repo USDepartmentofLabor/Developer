@@ -16,23 +16,49 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 
 ## Dataset Tables
 
-- [FI_AREA](#FI_AREA)
-- [FI_CASE](#FI_CASE)
-- [FI_CATEGORY](#FI_CATEGORY)
-- [FI_CATEGORY2](#FI_CATEGORY2)  
-- [FI_DATA_PUB](#FI_DATA_PUB)
-- [FI_DATA_TYPE](#FI_DATA_TYPE)
-- [FI_EVENT](#FI_EVENT)
-- [FI_FOOTNOTE](#FI_FOOTNOTE)
-- [FI_GQT_CASE](#FI_GQT_CASE)
-- [FI_GQT_CHAR](#FI_GQT_CHAR)
-- [FI_GQT_CHAR_OWNERSHIP](#FI_GQT_CHAR_OWNERSHIP)
-- [FI_GQT_OWNERSHIP](#FI_GQT_OWNERSHIP)
-- [FI_GQT_STATE](#FI_GQT_STATE)
-- [FI_GQT_STATE_OWNERSHIP](#FI_GQT_STATE_OWNERSHIP)
-- [FI_INDUSTRY](#FI_INDUSTRY)
-- [FI_SERIES](#FI_SERIES)
-- [FI_SUPERSECTOR](#FI_SUPERSECTOR)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#FI_AREA">FI_AREA</a></li>
+		<li><a href="#FI_CASE">FI_CASE</a></li>
+		<li><a href="#FI_CATEGORY">FI_CATEGORY</a></li>
+		<li><a href="#FI_CATEGORY2">FI_CATEGORY2</a></li>
+		<li><a href="#FI_DATA_PUB">FI_DATA_PUB</a></li>
+		<li><a href="#FI_DATA_TYPE">FI_DATA_TYPE</a></li>
+		<li><a href="#FI_EVENT">FI_EVENT</a></li>
+		<li><a href="#FI_FOOTNOTE">FI_FOOTNOTE</a></li>
+		<li><a href="#FI_GQT_CASE">FI_GQT_CASE</a></li>
+		<li><a href="#FI_GQT_CHAR">FI_GQT_CHAR</a></li>
+		<li><a href="#FI_GQT_CHAR_OWNERSHIP">FI_GQT_CHAR_OWNERSHIP</a></li>
+		<li><a href="#FI_GQT_OWNERSHIP">FI_GQT_OWNERSHIP</a></li>
+		<li><a href="#FI_GQT_STATE">FI_GQT_STATE</a></li>
+		<li><a href="#FI_GQT_STATE_OWNERSHIP">FI_GQT_STATE_OWNERSHIP</a></li>
+		<li><a href="#FI_INDUSTRY">FI_INDUSTRY</a></li>
+		<li><a href="#FI_SERIES">FI_SERIES</a></li>
+		<li><a href="#FI_SUPERSECTOR">FI_SUPERSECTOR</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#FI_AREA_mbl">FI_AREA</a></li>
+		<li><a href="#FI_CASE_mbl">FI_CASE</a></li>
+		<li><a href="#FI_CATEGORY_mbl">FI_CATEGORY</a></li>
+		<li><a href="#FI_CATEGORY2_mbl">FI_CATEGORY2</a></li>
+		<li><a href="#FI_DATA_PUB_mbl">FI_DATA_PUB</a></li>
+		<li><a href="#FI_DATA_TYPE_mbl">FI_DATA_TYPE</a></li>
+		<li><a href="#FI_EVENT_mbl">FI_EVENT</a></li>
+		<li><a href="#FI_FOOTNOTE_mbl">FI_FOOTNOTE</a></li>
+		<li><a href="#FI_GQT_CASE_mbl">FI_GQT_CASE</a></li>
+		<li><a href="#FI_GQT_CHAR_mbl">FI_GQT_CHAR</a></li>
+		<li><a href="#FI_GQT_CHAR_OWNERSHIP_mbl">FI_GQT_CHAR_OWNERSHIP</a></li>
+		<li><a href="#FI_GQT_OWNERSHIP_mbl">FI_GQT_OWNERSHIP</a></li>
+		<li><a href="#FI_GQT_STATE_mbl">FI_GQT_STATE</a></li>
+		<li><a href="#FI_GQT_STATE_OWNERSHIP_mbl">FI_GQT_STATE_OWNERSHIP</a></li>
+		<li><a href="#FI_INDUSTRY_mbl">FI_INDUSTRY</a></li>
+		<li><a href="#FI_SERIES_mbl">FI_SERIES</a></li>
+		<li><a href="#FI_SUPERSECTOR_mbl">FI_SUPERSECTOR</a></li>
+	</ul>
+</div>
   
 <div class="dsktp_tbl">
 	<h3 id="FI_AREA">FI_AREA Table</h3>
@@ -660,7 +686,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="FI_AREA">FI_AREA Table</h3>
+	<h3 id="FI_AREA_mbl>FI_AREA Table</h3>
 	<h4>Area - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -691,7 +717,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 
 <div class="mbl_tbl">
 	<hr />
-	<h3 id="FI_CASE">FI_CASE Table</h3>
+	<h3 id="FI_CASE_mbl">FI_CASE Table</h3>
 	<h4>Case - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CASE_TYPE</p>
@@ -724,7 +750,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_CATEGORY2">FI_CATEGORY2 Table</h3>
+	<h3 id="FI_CATEGORY2_mbl">FI_CATEGORY2 Table</h3>
 	<h4>Category2 - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CATEGORY_CODE</p>
@@ -738,7 +764,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_DATA_PUB">FI_DATA_PUB Table</h3>
+	<h3 id="FI_DATA_PUB_mbl">FI_DATA_PUB Table</h3>
 	<h4>Data Pub - Fatal Occupational Injuries"</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -767,7 +793,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_DATA_TYPE">FI_DATA_TYPE Table</h3>
+	<h3 id="FI_DATA_TYPE_mbl">FI_DATA_TYPE Table</h3>
 	<h4>Data Type - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: DATATYPE_CODE</p>
@@ -781,7 +807,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_EVENT">FI_EVENT Table</h3>
+	<h3 id="FI_EVENT_mbl">FI_EVENT Table</h3>
 	<h4>Event - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: EVENT_CODE</p>
@@ -810,7 +836,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_FOOTNOTE">FI_FOOTNOTE Table</h3>
+	<h3 id="FI_FOOTNOTE_mbl">FI_FOOTNOTE Table</h3>
 	<h4>Footnote - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -824,7 +850,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_CASE">FI_GQT_CASE Table</h3>
+	<h3 id="FI_GQT_CASE_mbl">FI_GQT_CASE Table</h3>
 	<h4>GQT Case - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: GQT_CASE_COMPONENT</p>
@@ -873,7 +899,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_CHAR">FI_GQT_CHAR Table</h3>
+	<h3 id="FI_GQT_CHAR_mbl">FI_GQT_CHAR Table</h3>
 	<h4>GQT Char - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: GQT_REPORT_ID</p>
@@ -892,7 +918,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_CHAR_OWNERSHIP">FI_GQT_CHAR_OWNERSHIP Table</h3>
+	<h3 id="FI_GQT_CHAR_OWNERSHIP_mbl">FI_GQT_CHAR_OWNERSHIP Table</h3>
 	<h4>GQT Char Ownership - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: GQT_CASE_CODE</p>
@@ -916,7 +942,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_OWNERSHIP">FI_GQT_OWNERSHIP Table</h3>
+	<h3 id="FI_GQT_OWNERSHIP_mbl">FI_GQT_OWNERSHIP Table</h3>
 	<h4>GQT Ownership - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OWNERSHIP_CODE</p>
@@ -935,7 +961,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_STATE">FI_GQT_STATE Table</h3>
+	<h3 id="FI_GQT_STATE_mbl">FI_GQT_STATE Table</h3>
 	<h4>GQT State - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: STATE_CODE</p>
@@ -954,7 +980,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_STATE_OWNERSHIP">FI_GQT_STATE_OWNERSHIP Table</h3>
+	<h3 id="FI_GQT_STATE_OWNERSHIP_mbl">FI_GQT_STATE_OWNERSHIP Table</h3>
 	<h4>GQT State Ownership - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: YEAR</p>
@@ -983,7 +1009,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_INDUSTRY">FI_INDUSTRY Table</h3>
+	<h3 id="FI_INDUSTRY_mbl">FI_INDUSTRY Table</h3>
 	<h4>Industry - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
@@ -1012,7 +1038,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_SERIES">FI_SERIES Table</h3>
+	<h3 id="FI_SERIES_mbl">FI_SERIES Table</h3>
 	<h4>Series - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -1086,7 +1112,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_SUPERSECTOR">FI_SUPERSECTOR Table</h3>
+	<h3 id="FI_SUPERSECTOR_mbl">FI_SUPERSECTOR Table</h3>
 	<h4>Super Sector - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SUPERSECTOR_CODE</p>

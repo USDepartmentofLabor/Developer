@@ -20,25 +20,53 @@ http://api.dol.gov/V1/Statistics/CPS
 
 ## Dataset Tables  
 
-- [LE_AGES](#LE_AGES)
-- [LE_BORN](#LE_BORN)
-- [LE_CLASS](#LE_CLASS)
-- [LE_DATA_PUB](#LE_DATA_PUB)
-- [LE_EARN](#LE_EARN)
-- [LE_EDUCATION](#LE_EDUCATION)
-- [LE_FIPS](#LE_FIPS)
-- [LE_FOOTNOTE](#LE_FOOTNOTE)
-- [LE_INDY](#LE_INDY)
-- [LE_LFST](#LE_LFST)
-- [LE_OCCUPATION](#LE_OCCUPATION)
-- [LE_ORIG](#LE_ORIG)
-- [LE_PCTS](#LE_PCTS)
-- [LE_RACE](#LE_RACE)
-- [LE_SEASONAL](#LE_SEASONAL)
-- [LE_SERIES](#LE_SERIES)
-- [LE_SEXS](#LE_SEXS)
-- [LE_TDATA](#LE_TDATA)
-- [LE_UNIN](#LE_UNIN)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#LE_AGES">LE_AGES</a></li>
+		<li><a href="#LE_BORN">LE_BORN</a></li>
+		<li><a href="#LE_CLASS">LE_CLASS</a></li>
+		<li><a href="#LE_DATA_PUB">LE_DATA_PUB</a></li>
+		<li><a href="#LE_EARN">LE_EARN</a></li>
+		<li><a href="#LE_EDUCATION">LE_EDUCATION</a></li>
+		<li><a href="#LE_FIPS">LE_FIPS</a></li>
+		<li><a href="#LE_FOOTNOTE">LE_FOOTNOTE</a></li>
+		<li><a href="#LE_INDY">LE_INDY</a></li>
+		<li><a href="#LE_LFST">LE_LFST</a></li>
+		<li><a href="#LE_OCCUPATION">LE_OCCUPATION</a></li>
+		<li><a href="#LE_ORIG">LE_ORIG</a></li>
+		<li><a href="#LE_PCTS">LE_PCTS</a></li>
+		<li><a href="#LE_RACE">LE_RACE</a></li>
+		<li><a href="#LE_SEASONAL">LE_SEASONAL</a></li>
+		<li><a href="#LE_SERIES">LE_SERIES</a></li>
+		<li><a href="#LE_SEXS">LE_SEXS</a></li>
+		<li><a href="#LE_TDATA">LE_TDATA</a></li>
+		<li><a href="#LE_UNIN">LE_UNIN</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#LE_AGES_mbl">LE_AGES</a></li>
+		<li><a href="#LE_BORN_mbl">LE_BORN</a></li>
+		<li><a href="#LE_CLASS_mbl">LE_CLASS</a></li>
+		<li><a href="#LE_DATA_PUB_mbl">LE_DATA_PUB</a></li>
+		<li><a href="#LE_EARN_mbl">LE_EARN</a></li>
+		<li><a href="#LE_EDUCATION_mbl">LE_EDUCATION</a></li>
+		<li><a href="#LE_FIPS_mbl">LE_FIPS</a></li>
+		<li><a href="#LE_FOOTNOTE_mbl">LE_FOOTNOTE</a></li>
+		<li><a href="#LE_INDY_mbl">LE_INDY</a></li>
+		<li><a href="#LE_LFST_mbl">LE_LFST</a></li>
+		<li><a href="#LE_OCCUPATION_mbl">LE_OCCUPATION</a></li>
+		<li><a href="#LE_ORIG_mbl">LE_ORIG</a></li>
+		<li><a href="#LE_PCTS_mbl">LE_PCTS</a></li>
+		<li><a href="#LE_RACE_mbl">LE_RACE</a></li>
+		<li><a href="#LE_SEASONAL_mbl">LE_SEASONAL</a></li>
+		<li><a href="#LE_SERIES_mbl">LE_SERIES</a></li>
+		<li><a href="#LE_SEXS_mbl">LE_SEXS</a></li>
+		<li><a href="#LE_TDATA_mbl">LE_TDATA</a></li>
+		<li><a href="#LE_UNIN_mbl">LE_UNIN</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="LE_AGES">LE_AGES</a></h3>
@@ -649,7 +677,7 @@ http://api.dol.gov/V1/Statistics/CPS
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="LE_AGES">LE_AGES</h3>
+	<h3 id="LE_AGES_mbl">LE_AGES</h3>
 	<h4>Ages - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AGES_CODE</p>
@@ -663,7 +691,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_BORN">LE_BORN</h3>
+	<h3 id="LE_BORN_mbl">LE_BORN</h3>
 	<h4>Born - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: BORN_CODE</p>
@@ -692,7 +720,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_CLASS">LE_CLASS</h3>
+	<h3 id="LE_CLASS_mbl">LE_CLASS</h3>
 	<h4>Class - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CLASS_CODE</p>
@@ -721,7 +749,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_DATA_PUB">LE_DATA_PUB</h3>
+	<h3 id="LE_DATA_PUB_mbl">LE_DATA_PUB</h3>
 	<h4>Data Pub - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -750,7 +778,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_EARN">LE_EARN</h3>
+	<h3 id="LE_EARN_mbl">LE_EARN</h3>
 	<h4>Earn - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: EARN_CODE</p>
@@ -764,7 +792,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_EDUCATION">LE_EDUCATION</h3>
+	<h3 id="LE_EDUCATION_mbl">LE_EDUCATION</h3>
 	<h4>Education - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: EDUCATION_CODE</p>
@@ -778,7 +806,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_FIPS">LE_FIPS</h3>
+	<h3 id="LE_FIPS_mbl">LE_FIPS</h3>
 	<h4>FIPS - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FIPS_CODE</p>
@@ -792,7 +820,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_FOOTNOTE">LE_FOOTNOTE</h3>
+	<h3 id="LE_FOOTNOTE_mbl">LE_FOOTNOTE</h3>
 	<h4>Footnote - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -806,7 +834,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_INDY">LE_INDY</h3>
+	<h3 id="LE_INDY_mbl">LE_INDY</h3>
 	<h4>Indy - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: INDY_CODE</p>
@@ -820,7 +848,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_LFST">LE_LFST</h3>
+	<h3 id="LE_LFST_mbl">LE_LFST</h3>
 	<h4>Labor Force Status - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: LFST_CODE</p>
@@ -834,7 +862,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_OCCUPATION">LE_OCCUPATION</h3>
+	<h3 id="LE_OCCUPATION_mbl">LE_OCCUPATION</h3>
 	<h4>Occupation - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OCCUPATION_CODE</p>
@@ -848,7 +876,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_ORIG">LE_ORIG</h3>
+	<h3 id="LE_ORIG_mbl">LE_ORIG</h3>
 	<h4>Origin - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: ORIG_CODE</p>
@@ -862,7 +890,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_PCTS">LE_PCTS</h3>
+	<h3 id="LE_PCTS_mbl">LE_PCTS</h3>
 	<h4>Percents - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: PCTS_CODE</p>
@@ -876,7 +904,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_RACE">LE_RACE</h3>
+	<h3 id="LE_RACE_mbl">LE_RACE</h3>
 	<h4>Race - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: RACE_CODE</p>
@@ -890,7 +918,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_SEASONAL">LE_SEASONAL</h3>
+	<h3 id="LE_SEASONAL_mbl">LE_SEASONAL</h3>
 	<h4>Seasonal - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SEASONAL</p>
@@ -904,7 +932,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_SERIES">LE_SERIES</h3>
+	<h3 id="LE_SERIES_mbl">LE_SERIES</h3>
 	<h4>Series - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -1023,7 +1051,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_SEXS">LE_SEXS</h3>
+	<h3 id="LE_SEXS_mbl">LE_SEXS</h3>
 	<h4>Sexes - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SEXS_CODE</p>
@@ -1037,7 +1065,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_TDATA">LE_TDATA</h3>
+	<h3 id="LE_TDATA_mbl">LE_TDATA</h3>
 	<h4>Type of Data - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TDATA_CODE</p>
@@ -1051,7 +1079,7 @@ http://api.dol.gov/V1/Statistics/CPS
 	</div>
 
 	<hr />
-	<h3 id="LE_UNIN">LE_UNIN</h3>
+	<h3 id="LE_UNIN_mbl">LE_UNIN</h3>
 	<h4>Union - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: UNIN_CODE</p>

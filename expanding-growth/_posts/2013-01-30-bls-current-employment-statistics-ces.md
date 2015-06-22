@@ -20,13 +20,29 @@ http://api.dol.gov/V1/Statistics/CES
 
 ## Dataset Tables 
  
-- [CE_DATA_PUB](#CE_DATA_PUB)
-- [CE_DATATYYPE](#CE_DATATYYPE)
-- [CE_FOOTNOTE](#CE_FOOTNOTE)
-- [CE_INDUSTRY](#CE_INDUSTRY)
-- [CE_SEASONAL](#CE_SEASONAL)
-- [CE_SERIES](#CE_SERIES)
-- [CE_SUPERSECTOR](#CE_SUPERSECTOR)
+<div class="dsktp_tbl"> 
+	<ul>
+		<li><a href="#CE_DATA_PUB">CE_DATA_PUB</a></li>
+		<li><a href="#CE_DATATYYPE">CE_DATATYYPE</a></li>
+		<li><a href="#CE_FOOTNOTE">CE_FOOTNOTE</a></li>
+		<li><a href="#CE_INDUSTRY">CE_INDUSTRY</a></li>
+		<li><a href="#CE_SEASONAL">CE_SEASONAL</a></li>
+		<li><a href="#CE_SERIES">CE_SERIES</a></li>
+		<li><a href="#CE_SUPERSECTOR">CE_SUPERSECTOR</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#CE_DATA_PUB_mbl">CE_DATA_PUB</a></li>
+		<li><a href="#CE_DATATYYPE_mbl">CE_DATATYYPE</a></li>
+		<li><a href="#CE_FOOTNOTE_mbl">CE_FOOTNOTE</a></li>
+		<li><a href="#CE_INDUSTRY_mbl">CE_INDUSTRY</a></li>
+		<li><a href="#CE_SEASONAL_mbl">CE_SEASONAL</a></li>
+		<li><a href="#CE_SERIES_mbl">CE_SERIES</a></li>
+		<li><a href="#CE_SUPERSECTOR_mbl">CE_SUPERSECTOR</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="CE_DATA_PUB">CU_DATA_PUB Table</h3>
@@ -279,7 +295,7 @@ http://api.dol.gov/V1/Statistics/CES
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="CU_DATA_PUB">CU_DATA_PUB Table</h3>
+	<h3 id="CU_DATA_PUB_mbl">CU_DATA_PUB Table</h3>
 	<h4>Data Pub - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -308,7 +324,7 @@ http://api.dol.gov/V1/Statistics/CES
 	</div>
 
 	<hr />
-	<h3 id="CE_DATATYYPE">CE_DATATYYPE Table</h3>
+	<h3 id="CE_DATATYYPE_mbl">CE_DATATYYPE Table</h3>
 	<h4>Data Type - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: DATA_TYPE_CODE</p>
@@ -322,7 +338,7 @@ http://api.dol.gov/V1/Statistics/CES
 	</div>
 
 	<hr />
-	<h3 id="CE_FOOTNOTE">CE_FOOTNOTE Table</h3>
+	<h3 id="CE_FOOTNOTE_mbl">CE_FOOTNOTE Table</h3>
 	<h4>Footnote - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -336,7 +352,7 @@ http://api.dol.gov/V1/Statistics/CES
 	</div>
 
 	<hr />
-	<h3 id="CE_INDUSTRY">CE_INDUSTRY Table</h3>
+	<h3 id="CE_INDUSTRY_mbl">CE_INDUSTRY Table</h3>
 	<h4>Industry - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
@@ -375,7 +391,7 @@ http://api.dol.gov/V1/Statistics/CES
 	</div>
 
 	<hr />
-	<h3 id-"CE_SEASONAL">CE_SEASONAL Table</h3>
+	<h3 id-"CE_SEASONAL_mbl">CE_SEASONAL Table</h3>
 	<h4>Seasonal - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SEASONAL</p>
@@ -389,7 +405,7 @@ http://api.dol.gov/V1/Statistics/CES
 	</div>
 
 	<hr />
-	<h3 id="CE_SERIES">CE_SERIES Table</h3>
+	<h3 id="CE_SERIES_mbl">CE_SERIES Table</h3>
 	<h4>Series - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -443,7 +459,7 @@ http://api.dol.gov/V1/Statistics/CES
 	</div>
 
 	<hr />
-	<h3 id="CE_SUPERSECTOR">CE_SUPERSECTOR Table</h3>
+	<h3 id="CE_SUPERSECTOR_mbl">CE_SUPERSECTOR Table</h3>
 	<h4>Supersector - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SUPERSECTOR_CODE</p>

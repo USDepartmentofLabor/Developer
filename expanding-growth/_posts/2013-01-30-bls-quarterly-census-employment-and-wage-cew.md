@@ -20,15 +20,33 @@ http://api.dol.gov/V1/Statistics/CEW
 
 ## Dataset Tables  
 
-- [EN_AREA](#EN_AREA)
-- [EN_DATA_PUB](#EN_DATA_PUB)
-- [EN_FOOTNOTE](#EN_FOOTNOTE)
-- [EN_INDUSTRY](#EN_INDUSTRY)
-- [EN_LQAREA](#EN_LQAREA)
-- [EN_OWNER](#EN_OWNER)
-- [EN_SERIES](#EN_SERIES)
-- [EN_STATE](#EN_STATE)
-- [EN_TYPE](#EN_TYPE)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#EN_AREA">EN_AREA</a></li>
+		<li><a href="#EN_DATA_PUB">EN_DATA_PUB</a></li>
+		<li><a href="#EN_FOOTNOTE">EN_FOOTNOTE</a></li>
+		<li><a href="#EN_INDUSTRY">EN_INDUSTRY</a></li>
+		<li><a href="#EN_LQAREA">EN_LQAREA</a></li>
+		<li><a href="#EN_OWNER">EN_OWNER</a></li>
+		<li><a href="#EN_SERIES">EN_SERIES</a></li>
+		<li><a href="#EN_STATE">EN_STATE</a></li>
+		<li><a href="#EN_TYPE">EN_TYPE</a></li>
+	</ul>
+</div>
+
+<div class="mblp_tbl">
+	<ul>
+		<li><a href="#EN_AREA_mbl">EN_AREA</a></li>
+		<li><a href="#EN_DATA_PUB_mbl">EN_DATA_PUB</a></li>
+		<li><a href="#EN_FOOTNOTE_mbl">EN_FOOTNOTE</a></li>
+		<li><a href="#EN_INDUSTRY_mbl">EN_INDUSTRY</a></li>
+		<li><a href="#EN_LQAREA_mbl">EN_LQAREA</a></li>
+		<li><a href="#EN_OWNER_mbl">EN_OWNER</a></li>
+		<li><a href="#EN_SERIES_mbl">EN_SERIES</a></li>
+		<li><a href="#EN_STATE_mbl">EN_STATE</a></li>
+		<li><a href="#EN_TYPE_mbl">EN_TYPE</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="EN_AREA">EN_AREA</h3>
@@ -404,7 +422,7 @@ http://api.dol.gov/V1/Statistics/CEW
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="EN_AREA">EN_AREA</h3>
+	<h3 id="EN_AREA_mbl">EN_AREA</h3>
 	<h4>Area - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -433,7 +451,7 @@ http://api.dol.gov/V1/Statistics/CEW
 	</div>
 
 	<hr />
-	<h3 id="EN_DATA_PUB">EN_DATA_PUB</h3>
+	<h3 id="EN_DATA_PUB_mbl">EN_DATA_PUB</h3>
 	<h4>Data Pub - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -462,7 +480,7 @@ http://api.dol.gov/V1/Statistics/CEW
 	</div>
 
 	<hr />
-	<h3 id="EN_FOOTNOTE">EN_FOOTNOTE</h3>
+	<h3 id="EN_FOOTNOTE_mbl">EN_FOOTNOTE</h3>
 	<h4>Footnote - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -476,7 +494,7 @@ http://api.dol.gov/V1/Statistics/CEW
 	</div>
 
 	<hr />
-	<h3 id="EN_INDUSTRY">EN_INDUSTRY</h3>
+	<h3 id="EN_INDUSTRY_mbl">EN_INDUSTRY</h3>
 	<h4>Industry - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
@@ -505,7 +523,7 @@ http://api.dol.gov/V1/Statistics/CEW
 	</div>
 
 	<hr />
-	<h3 id="EN_LQAREA">EN_LQAREA</h3>
+	<h3 id="EN_LQAREA_mbl">EN_LQAREA</h3>
 	<h4>Location Quotient Area - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -534,7 +552,7 @@ http://api.dol.gov/V1/Statistics/CEW
 	</div>
 
 	<hr />
-	<h3 id="EN_OWNER">EN_OWNER</h3>
+	<h3 id="EN_OWNER_mbl">EN_OWNER</h3>
 	<h4>Owner - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OWNER_CODE</p>
@@ -563,7 +581,7 @@ http://api.dol.gov/V1/Statistics/CEW
 	</div>
 
 	<hr />
-	<h3 id="EN_SERIES">EN_SERIES</h3>
+	<h3 id="EN_SERIES_mbl">EN_SERIES</h3>
 	<h4>Series - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -627,7 +645,7 @@ http://api.dol.gov/V1/Statistics/CEW
 	</div>
 
 	<hr />
-	<h3 id="EN_STATE">EN_STATE</h3>
+	<h3 id="EN_STATE_mbl">EN_STATE</h3>
 	<h4>State - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: STATE_CODE</p>
@@ -656,7 +674,7 @@ http://api.dol.gov/V1/Statistics/CEW
 	</div>
 
 	<hr />
-	<h3 id="EN_TYPE">EN_TYPE</h3>
+	<h3 id="EN_TYPE_mbl">EN_TYPE</h3>
 	<h4>Type - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TYPE_CODE</p>

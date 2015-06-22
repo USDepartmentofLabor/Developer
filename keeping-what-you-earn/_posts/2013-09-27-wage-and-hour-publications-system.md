@@ -15,8 +15,19 @@ http://api.dol.gov/V1/WHPS
 
 ## Dataset Tables  
 
-- [PublicationsView](#publicationsview)
-- [DocumentsView](#documentsview)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#publicationsview">PublicationsView</a></li>
+		<li><a href="#documentsview">DocumentsView</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#publicationsview_mbl">PublicationsView</a></li>
+		<li><a href="#documentsview_mbl">DocumentsView</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="publicationsview">PublicationsView Table</h3>
@@ -160,7 +171,7 @@ http://api.dol.gov/V1/WHPS
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="publicationsview">PublicationsView Table</h3>
+	<h3 id="publicationsview_mbl">PublicationsView Table</h3>
 	<h4>Documents View - Wage and Hour Publications System (WHPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: PublicationId</p>
@@ -259,7 +270,7 @@ http://api.dol.gov/V1/WHPS
 	</div>
 
 	<hr />
-	<h3 id="documentsview">DocumentsView Table</h3>
+	<h3 id="documentsview_mbl">DocumentsView Table</h3>
 	<h4>Documents View - Wage and Hour Publications System (WHPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: DocumentId</p>

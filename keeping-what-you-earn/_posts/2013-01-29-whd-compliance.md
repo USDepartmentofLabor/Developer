@@ -17,10 +17,23 @@ http://api.dol.gov/V1/Compliance/WHD
 
 ## Dataset Tables 
 
-- [full table](#full)
-- [foodservice table](#foodservice)
-- [hospitality table](#hospitality)
-- [retail table](#retail)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#full">full table</a></li>
+		<li><a href="#foodservice">foodservice table</a></li>
+		<li><a href="#hospitality">hospitality table</a></li>
+		<li><a href="#retail">retail table</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#full_mbl">full table</a></li>
+		<li><a href="#foodservice_mbl">foodservice table</a></li>
+		<li><a href="#hospitality_mbl">hospitality table</a></li>
+		<li><a href="#retail_mbl">retail table</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="full">full Table</h3>
@@ -481,7 +494,7 @@ http://api.dol.gov/V1/Compliance/WHD
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="full">full Table</h3>
+	<h3 id="full_mbl">full Table</h3>
 	<h4>Full - WHD compliance - contains all concluded WHD compliance actions since FY 2008</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: trade_nm</p>
@@ -585,7 +598,7 @@ http://api.dol.gov/V1/Compliance/WHD
 	</div>
 
 	<hr />
-	<h3 id="foodService">foodService Table</h3>
+	<h3 id="foodService_mbl">foodService Table</h3>
 	<h4>Food Service - WHD compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: trade_nm</p>
@@ -689,7 +702,7 @@ http://api.dol.gov/V1/Compliance/WHD
 	</div>
 
 	<hr />
-	<h3 id="hospitality">hospitality Table</h3>
+	<h3 id="hospitality_mbl">hospitality Table</h3>
 	<h4>Hospitality - WHD compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: trade_nm</p>
@@ -793,7 +806,7 @@ http://api.dol.gov/V1/Compliance/WHD
 	</div>
 
 	<hr />
-	<h3 id="retail">retail Table</h3>
+	<h3 id="retail_mbl">retail Table</h3>
 	<h4>Retail - WHD compliance - contains all concluded WHD compliance actions since FY 2008</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: trade_nm</p>

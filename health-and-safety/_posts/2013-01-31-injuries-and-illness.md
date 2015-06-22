@@ -16,19 +16,41 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 
 ## Dataset Tables
   
-- [II_AREA](#II_AREA)
-- [II_CASE_TYPE](#II_CASE_TYPE)
-- [II_DATA_PUB](#II_DATA_PUB)
-- [II_DATA_TYPE](#II_DATA_TYPE)
-- [II_FOOTNOTE](#II_FOOTNOTE)
-- [II_GQT_CASE](#II_GQT_CASE)
-- [II_GQT_CHAR](#II_GQT_CHAR)
-- [II_GQT_OWNERSHIP](#II_GQT_OWNERSHIP)
-- [II_GQT_STATE](#II_GQT_STATE)
-- [II_GQT_STATE_OWNERSHIP](#II_GQT_STATE_OWNERSHIP)
-- [II_INDUSTRY](#II_INDUSTRY)
-- [II_SERIES](#II_SERIES)
-- [II_SUPERSECTOR](#II_SUPERSECTOR)
+<div class="dsktp_tbl">
+<ul>
+<li><a href="#II_AREA">II_AREA</a></li>
+<li><a href="#II_CASE_TYPE">II_CASE_TYPE</a></li>
+<li><a href="#II_DATA_PUB">II_DATA_PUB</a></li>
+<li><a href="#II_DATA_TYPE">II_DATA_TYPE</a></li>
+<li><a href="#II_FOOTNOTE">II_FOOTNOTE</a></li>
+<li><a href="#II_GQT_CASE">II_GQT_CASE</a></li>
+<li><a href="#II_GQT_CHAR">II_GQT_CHAR</a></li>
+<li><a href="#II_GQT_OWNERSHIP">II_GQT_OWNERSHIP</a></li>
+<li><a href="#II_GQT_STATE">II_GQT_STATE</a></li>
+<li><a href="#II_GQT_STATE_OWNERSHIP">II_GQT_STATE_OWNERSHIP</a></li>
+<li><a href="#II_INDUSTRY">II_INDUSTRY</a></li>
+<li><a href="#II_SERIES">II_SERIES</a></li>
+<li><a href="#II_SUPERSECTOR">II_SUPERSECTOR</a></li>
+</ul>
+</div>
+
+<div class="mbl_tbl">
+<ul>
+<li><a href="#II_AREA_mbl">II_AREA</a></li>
+<li><a href="#II_CASE_TYPE_mbl">II_CASE_TYPE</a></li>
+<li><a href="#II_DATA_PUB_mbl">II_DATA_PUB</a></li>
+<li><a href="#II_DATA_TYPE_mbl">II_DATA_TYPE</a></li>
+<li><a href="#II_FOOTNOTE_mbl">II_FOOTNOTE</a></li>
+<li><a href="#II_GQT_CASE_mbl">II_GQT_CASE</a></li>
+<li><a href="#II_GQT_CHAR_mbl">II_GQT_CHAR</a></li>
+<li><a href="#II_GQT_OWNERSHIP_mbl">II_GQT_OWNERSHIP</a></li>
+<li><a href="#II_GQT_STATE_mbl">II_GQT_STATE</a></li>
+<li><a href="#II_GQT_STATE_OWNERSHIP_mbl">II_GQT_STATE_OWNERSHIP</a></li>
+<li><a href="#II_INDUSTRY_mbl">II_INDUSTRY</a></li>
+<li><a href="#II_SERIES_mbl">II_SERIES</a></li>
+<li><a href="#II_SUPERSECTOR_mbl">II_SUPERSECTOR</a></li>
+</ul>
+</div>
   
 <div class="dsktp_tbl">
 	<h3 id="II_AREA">II_AREA Table</h3>
@@ -520,7 +542,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="II_AREA">II_AREA Table</h3>
+	<h3 id="II_AREA_mbl">II_AREA Table</h3>
 	<h4>Area - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -549,7 +571,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_CASE_TYPE">II_CASE_TYPE Table</h3>
+	<h3 id="II_CASE_TYPE_mbl">II_CASE_TYPE Table</h3>
 	<h4>Case Type - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CASE_TYPE_CODE</p>
@@ -563,7 +585,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_DATA_PUB">II_DATA_PUB Table</h3>
+	<h3 id="II_DATA_PUB_mbl">II_DATA_PUB Table</h3>
 	<h4>Data Pub - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -592,7 +614,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_DATA_TYPE">II_DATA_TYPE Table</h3>
+	<h3 id="II_DATA_TYPE_mbl">II_DATA_TYPE Table</h3>
 	<h4>Data Type - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: DATA_TYPE_CODE</p>
@@ -620,7 +642,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_GQT_CASE">II_GQT_CASE Table</h3>
+	<h3 id="II_GQT_CASE_mbl">II_GQT_CASE Table</h3>
 	<h4>GQT Case - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: GQT_CASE_COMPONENT</p>
@@ -669,7 +691,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_GQT_CHAR">II_GQT_CHAR Table</h3>
+	<h3 id="II_GQT_CHAR_mbl">II_GQT_CHAR Table</h3>
 	<h4>GQT Character - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: GQT_REPORT_ID</p>
@@ -688,7 +710,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_GQT_OWNERSHIP">II_GQT_OWNERSHIP Table</h3>
+	<h3 id="II_GQT_OWNERSHIP_mbl">II_GQT_OWNERSHIP Table</h3>
 	<h4>GQT Ownership - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OWNERSHIP_CODE</p>
@@ -707,7 +729,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_GQT_STATE">II_GQT_STATE Table</h3>
+	<h3 id="II_GQT_STATE_mbl">II_GQT_STATE Table</h3>
 	<h4>GQT State - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: STATE_CODE</p>
@@ -726,7 +748,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_GQT_STATE_OWNERSHIP">II_GQT_STATE_OWNERSHIP Table</h3>
+	<h3 id="II_GQT_STATE_OWNERSHIP_mbl">II_GQT_STATE_OWNERSHIP Table</h3>
 	<h4>GQT State Ownership - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: YEAR</p>
@@ -755,7 +777,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_INDUSTRY">II_INDUSTRY Table</h3>
+	<h3 id="II_INDUSTRY_mbl">II_INDUSTRY Table</h3>
 	<h4>Industry - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SUPERSECTOR_CODE</p>
@@ -789,7 +811,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_SERIES">II_SERIES Table</h3>
+	<h3 id="II_SERIES_mbl">II_SERIES Table</h3>
 	<h4>Series - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -848,7 +870,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_SUPERSECTOR">II_SUPERSECTOR Table</h3>
+	<h3 id="II_SUPERSECTOR_mbl">II_SUPERSECTOR Table</h3>
 	<h4>Supersector - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SUPERSECTOR_CODE</p>

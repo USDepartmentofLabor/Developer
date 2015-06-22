@@ -28,22 +28,47 @@ http://api.dol.gov/V1/Statistics/OES2010
 
 ## Dataset Tables
   
-- [area](#area)
-- [area_definitions](#area_definitions)
-- [areatype](#areatype)
-- [data](#data)
-- [datatype](#datatype)
-- [footnote](#footnote)
-- [industry](#industry)
-- [industry_titles](#industry_titles)
-- [occugroup](#occugroup)
-- [occupation](#occupation)
-- [occupation_definitions](#occupation_definitions)
-- [release](#release)
-- [seasonal](#seasonal)
-- [sector](#sector)
-- [series](#series)
-- [statemsa](#statemsa)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#area">area</a></li>
+		<li><a href="#area_definitions">area_definitions</a></li>
+		<li><a href="#areatype">areatype</a></li>
+		<li><a href="#data">data</a></li>
+		<li><a href="#datatype">datatype</a></li>
+		<li><a href="#footnote">footnote</a></li>
+		<li><a href="#industry">industry</a></li>
+		<li><a href="#industry_titles">industry_titles</a></li>
+		<li><a href="#occugroup">occugroup</a></li>
+		<li><a href="#occupation">occupation</a></li>
+		<li><a href="#occupation_definitions">occupation_definitions</a></li>
+		<li><a href="#release">release</a></li>
+		<li><a href="#seasonal">seasonal</a></li>
+		<li><a href="#sector">sector</a></li>
+		<li><a href="#series">series</a></li>
+		<li><a href="#statemsa">statemsa</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#area_mbl">area</a></li>
+		<li><a href="#area_definitions_mbl">area_definitions</a></li>
+		<li><a href="#areatype_mbl">areatype</a></li>
+		<li><a href="#data_mbl>data</a></li>
+		<li><a href="#datatype_mbl">datatype</a></li>
+		<li><a href="#footnote_mbl">footnote</a></li>
+		<li><a href="#industry_mbl">industry</a></li>
+		<li><a href="#industry_titles_mbl">industry_titles</a></li>
+		<li><a href="#occugroup_mbl">occugroup</a></li>
+		<li><a href="#occupation_mbl">occupation</a></li>
+		<li><a href="#occupation_definitions_mbl">occupation_definitions</a></li>
+		<li><a href="#release_mbl">release</a></li>
+		<li><a href="#seasonal_mbl">seasonal</a></li>
+		<li><a href="#sector_mbl">sector</a></li>
+		<li><a href="#series_mbl">series</a></li>
+		<li><a href="#statemsa_mbl">statemsa</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="area">area Table</h3>
@@ -560,7 +585,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="area">area Table</h3>
+	<h3 id="area_mbl">area Table</h3>
 	<h4>Area Codes and Area Names - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: area_code</p>
@@ -579,7 +604,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="area_definitions">area_definitions Table</h3>
+	<h3 id="area_definitions_mbl">area_definitions Table</h3>
 	<h4>States, Counties, and Metropolitan Specific Areas - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FIPS</p>
@@ -633,7 +658,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="areatype">areatype Table</h3>
+	<h3 id="areatype_mbl">areatype Table</h3>
 	<h4>Area Types - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: areatype_code</p>
@@ -647,7 +672,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id+"data">data Table</h3>
+	<h3 id+"data_mbl">data Table</h3>
 	<h4>Current Estimates - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: series_id</p>
@@ -676,7 +701,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="datatype">datatype Table</h3>
+	<h3 id="datatype_mbl">datatype Table</h3>
 	<h4>Data Types - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: datatype_code</p>
@@ -695,7 +720,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="footnote">footnote Table</h3>
+	<h3 id="footnote_mbl">footnote Table</h3>
 	<h4>Footnotes and Explanation - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: footnote_code</p>
@@ -709,7 +734,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="industry">industry Table</h3>
+	<h3 id="industry_mbl">industry Table</h3>
 	<h4>Industry Codes and Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: industry_code</p>
@@ -738,7 +763,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="industry_titles">industry_titles Table</h3>
+	<h3 id="industry_titles_mbl>industry_titles Table</h3>
 	<h4>Industry Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: Industry_Code</p>
@@ -752,7 +777,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="occugroup">occugroup Table</h3>
+	<h3 id="occugroup_mbl">occugroup Table</h3>
 	<h4>Major Occupation Groups Codes and Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: occugroup_code</p>
@@ -766,7 +791,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="occupation">occupation Table</h3>
+	<h3 id="occupation_mbl">occupation Table</h3>
 	<h4>Detail Occupation Codes and Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: occupation_code</p>
@@ -795,7 +820,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="occupation_definitions">occupation_definitions Table</h3>
+	<h3 id="occupation_definitions_mbl">occupation_definitions Table</h3>
 	<h4>Occupation Definitions - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OCC_CODE</p>
@@ -814,7 +839,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="release">release Table</h3>
+	<h3 id="release_mbl">release Table</h3>
 	<h4>Reference Date - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: release_date</p>
@@ -828,7 +853,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="seasonal">seasonal Table</h3>
+	<h3 id="seasonal_mbl">seasonal Table</h3>
 	<h4>Seasonal Adjustment Indicator - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: seasonal</p>
@@ -842,7 +867,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="sector">sector Table</h3>
+	<h3 id="sector_mbl">sector Table</h3>
 	<h4>Industry Sector Codes  and Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: sector_code</p>
@@ -856,7 +881,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="series">series Table</h3>
+	<h3 id="series_mbl">series Table</h3>
 	<h4>All Series Codes with Start and End Dates - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: series_id</p>
@@ -964,7 +989,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 
 <div class="mbl_tbl">
 	<hr />
-	<h3 id="statemsa">statemsa Table</h3>
+	<h3 id="statemsa_mbl">statemsa Table</h3>
 	<h4>States and Areas - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: state_code</p>

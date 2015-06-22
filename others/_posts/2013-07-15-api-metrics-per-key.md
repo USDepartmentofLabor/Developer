@@ -19,21 +19,45 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 
 ## Dataset Tables
 
-- [NumberOfRequestsPerKeys](#NumberOfRequestsPerKeys)
-- [NumberOfRequestsPerDayByKeys](#NumberOfRequestsPerDayByKeys)
-- [NumberOfRequestsPerMonthByKeys](#NumberOfRequestsPerMonthByKeys)
-- [NumberOfRequestsPerYearByKeys](#NumberOfRequestsPerYearByKeys)
-- [NumberOfRequestsPerYearByWeeks](#NumberOfRequestsPerYearByWeeks)
-- [TopDatasetsPerKeys](#TopDatasetsPerKeys)
-- [TopDatasetsPerYearPerKeys](#TopDatasetsPerYearPerKeys)
-- [TopDatasetsPerMonthPerKeys](#TopDatasetsPerMonthPerKeys)
-- [TopDatasetsPerWeekPerKeys](#TopDatasetsPerWeekPerKeys)
-- [TopDatasetsPerDayPerKeys](#TopDatasetsPerDayPerKeys)
-- [TopDataTablesPerKeys](#TopDataTablesPerKeys)
-- [TopDataTablesPerKeyDays](#TopDataTablesPerKeyDays)
-- [TopDataTablesPerKeyMonths](#TopDataTablesPerKeyMonths)
-- [TopDataTablesPerKeyWeeks](#TopDataTablesPerKeyWeeks)
-- [TopDataTablesPerKeyYears](#TopDataTablesPerKeyYears)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#NumberOfRequestsPerKeys">NumberOfRequestsPerKeys</a></li>
+		<li><a href="#NumberOfRequestsPerDayByKeys">NumberOfRequestsPerDayByKeys</a></li>
+		<li><a href="#NumberOfRequestsPerMonthByKeys">NumberOfRequestsPerMonthByKeys</a></li>
+		<li><a href="#NumberOfRequestsPerYearByKeys">NumberOfRequestsPerYearByKeys</a></li>
+		<li><a href="#NumberOfRequestsPerYearByWeeks">NumberOfRequestsPerYearByWeeks</a></li>
+		<li><a href="#TopDatasetsPerKeys">TopDatasetsPerKeys</a></li>
+		<li><a href="#TopDatasetsPerYearPerKeys">TopDatasetsPerYearPerKeys</a></li>
+		<li><a href="#TopDatasetsPerMonthPerKeys">TopDatasetsPerMonthPerKeys</a></li>
+		<li><a href="#TopDatasetsPerWeekPerKeys">TopDatasetsPerWeekPerKeys</a></li>
+		<li><a href="#TopDatasetsPerDayPerKeys">TopDatasetsPerDayPerKeys</a></li>
+		<li><a href="#TopDataTablesPerKeys">TopDataTablesPerKeys</a></li>
+		<li><a href="#TopDataTablesPerKeyDays">TopDataTablesPerKeyDays</a></li>
+		<li><a href="#TopDataTablesPerKeyMonths">TopDataTablesPerKeyMonths</a></li>
+		<li><a href="#TopDataTablesPerKeyWeeks">TopDataTablesPerKeyWeeks</a></li>
+		<li><a href="#TopDataTablesPerKeyYears">TopDataTablesPerKeyYears</a></li>
+	</ul>
+</div>
+
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#NumberOfRequestsPerKeys_mbl">NumberOfRequestsPerKeys</a></li>
+		<li><a href="#NumberOfRequestsPerDayByKeys_mbl">NumberOfRequestsPerDayByKeys</a></li>
+		<li><a href="#NumberOfRequestsPerMonthByKeys_mbl">NumberOfRequestsPerMonthByKeys</a></li>
+		<li><a href="#NumberOfRequestsPerYearByKeys_mbl">NumberOfRequestsPerYearByKeys</a></li>
+		<li><a href="#NumberOfRequestsPerYearByWeeks_mbl">NumberOfRequestsPerYearByWeeks</a></li>
+		<li><a href="#TopDatasetsPerKeys_mbl">TopDatasetsPerKeys</a></li>
+		<li><a href="#TopDatasetsPerYearPerKeys_mbl">TopDatasetsPerYearPerKeys</a></li>
+		<li><a href="#TopDatasetsPerMonthPerKeys_mbl">TopDatasetsPerMonthPerKeys</a></li>
+		<li><a href="#TopDatasetsPerWeekPerKeys_mbl">TopDatasetsPerWeekPerKeys</a></li>
+		<li><a href="#TopDatasetsPerDayPerKeys_mbl">TopDatasetsPerDayPerKeys</a></li>
+		<li><a href="#TopDataTablesPerKeys_mbl">TopDataTablesPerKeys</a></li>
+		<li><a href="#TopDataTablesPerKeyDays_mbl">TopDataTablesPerKeyDays</a></li>
+		<li><a href="#TopDataTablesPerKeyMonths_mbl">TopDataTablesPerKeyMonths</a></li>
+		<li><a href="#TopDataTablesPerKeyWeeks_mbl">TopDataTablesPerKeyWeeks</a></li>
+		<li><a href="#TopDataTablesPerKeyYears_mbl">TopDataTablesPerKeyYears</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="NumberOfRequestsPerKeys">NumberOfRequestsPerKeys</h3>
@@ -473,7 +497,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="NumberOfRequestsPerKeys">NumberOfRequestsPerKeys</h3>
+	<h3 id="NumberOfRequestsPerKeys_mbl">NumberOfRequestsPerKeys</h3>
 	<h4>Number of Requests Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -487,7 +511,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="NumberOfRequestsPerDayByKeys">NumberOfRequestsPerDayByKeys</h3>
+	<h3 id="NumberOfRequestsPerDayByKeys_mbl">NumberOfRequestsPerDayByKeys</h3>
 	<h4>Number of Requests Per Day By Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -506,7 +530,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="NumberOfRequestsPerMonthByKeys">NumberOfRequestsPerMonthByKeys</h3>
+	<h3 id="NumberOfRequestsPerMonthByKeys_mbl">NumberOfRequestsPerMonthByKeys</h3>
 	<h4>Number of Requests Per Month By Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -525,7 +549,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="NumberOfRequestsPerYearByKeys">NumberOfRequestsPerYearByKeys</h3>
+	<h3 id="NumberOfRequestsPerYearByKeys_mbl">NumberOfRequestsPerYearByKeys</h3>
 	<h4>Number of Requests Per Year By Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -544,7 +568,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="NumberOfRequestsPerYearByWeeks">NumberOfRequestsPerYearByWeeks</h3>
+	<h3 id="NumberOfRequestsPerYearByWeeks_mbl">NumberOfRequestsPerYearByWeeks</h3>
 	<h4>Number of Requests Per Year By Weeks </h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -568,7 +592,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="TopDatasetsPerKeys">TopDatasetsPerKeys</h3>
+	<h3 id="TopDatasetsPerKeys_mbl">TopDatasetsPerKeys</h3>
 	<h4>Top Datasets Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -587,7 +611,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="TopDatasetsPerYearPerKeys">TopDatasetsPerYearPerKeys</h3>
+	<h3 id="TopDatasetsPerYearPerKeys_mbl">TopDatasetsPerYearPerKeys</h3>
 	<h4>Top Datasets Per Year Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -606,7 +630,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="TopDatasetsPerMonthPerKeys">TopDatasetsPerMonthPerKeys</h3>
+	<h3 id="TopDatasetsPerMonthPerKeys_mbl">TopDatasetsPerMonthPerKeys</h3>
 	<h4>Top Datasets Per Month Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -625,7 +649,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="TopDatasetsPerWeekPerKeys">TopDatasetsPerWeekPerKeys</h3>
+	<h3 id="TopDatasetsPerWeekPerKeys_mbl">TopDatasetsPerWeekPerKeys</h3>
 	<h4>Top Datasets Per Week Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -644,7 +668,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="TopDatasetsPerDayPerKeys">TopDatasetsPerDayPerKeys</h3>
+	<h3 id="TopDatasetsPerDayPerKeys_mbl">TopDatasetsPerDayPerKeys</h3>
 	<h4>Top Datasets Per Day Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -663,7 +687,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="TopDataTablesPerKeys">TopDataTablesPerKeys</h3>
+	<h3 id="TopDataTablesPerKeys_mbl">TopDataTablesPerKeys</h3>
 	<h4>Top Data Tables Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -682,7 +706,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="TopDataTablesPerKeyDays">TopDataTablesPerKeyDays</h3>
+	<h3 id="TopDataTablesPerKeyDays_mbl">TopDataTablesPerKeyDays</h3>
 	<h4>Top Data Tables Per Key Days</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -701,7 +725,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="TopDataTablesPerKeyMonths">TopDataTablesPerKeyMonths</h3>
+	<h3 id="TopDataTablesPerKeyMonths_mbl">TopDataTablesPerKeyMonths</h3>
 	<h4>Top Data Tables Per Key Months</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -720,7 +744,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="TopDataTablesPerKeyWeeks">TopDataTablesPerKeyWeeks</h3>
+	<h3 id="TopDataTablesPerKeyWeeks_mbl">TopDataTablesPerKeyWeeks</h3>
 	<h4>Top Data Tables Per Key Weeks</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -739,7 +763,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</div>
 
 	<hr />
-	<h3 id="TopDataTablesPerKeyYears">TopDataTablesPerKeyYears</h3>
+	<h3 id="TopDataTablesPerKeyYears_mbl">TopDataTablesPerKeyYears</h3>
 	<h4>Top Data Tables Per Key Years</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>

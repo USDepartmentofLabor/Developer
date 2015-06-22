@@ -17,12 +17,27 @@ http://api.dol.gov/V1/Compliance/OSHA
 
 ## Dataset Tables  
 
-- [full](#full)
-- [foodservice](#foodservice)
-- [hospitality](#hospitality)
-- [retail](#retail)
-- [occupationcode](#occupationcode)
-- [substancecode](#substancecode)
+<div class="dsktp_tbl">
+	<ul>
+		<li><a href="#full">full</a></li>
+		<li><a href="#foodservice">foodservice</a></li>
+		<li><a href="#hospitality">hospitality</a></li>
+		<li><a href="#retail">retail</a></li>
+		<li><a href="#occupationcode">occupationcode</a></li>
+		<li><a href="#substancecode">substancecode</a></li>
+	</ul>
+</div>
+
+<div class="mbl_tbl">
+	<ul>
+		<li><a href="#full_mbl">full</a></li>
+		<li><a href="#foodservice_mbl">foodservice</a></li>
+		<li><a href="#hospitality_mbl">hospitality</a></li>
+		<li><a href="#retail_mbl">retail</a></li>
+		<li><a href="#occupationcode_mbl">occupationcode</a></li>
+		<li><a href="#substancecode_mbl">substancecode</a></li>
+	</ul>
+</div>
 
 <div class="dsktp_tbl">
 	<h3 id="full">full Table</H3>
@@ -421,7 +436,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="full">full Table</h3>
+	<h3 id="full_mbl">full Table</h3>
 	<h4>Full - Consists of Inspection Case Ddetail for Approximately 100,000 OSHA Inspections Conducted Annually</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: activity_nr</p>
@@ -495,7 +510,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</div>
 
 	<hr />
-	<h3 id="foodService">foodService Table</h3>
+	<h3 id="foodService_mbl">foodService Table</h3>
 	<h4>Food Service - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: activity_nr</p>
@@ -569,7 +584,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</div>
 
 	<hr />
-	<h3 id="hospitality">hospitality Table</h3>
+	<h3 id="hospitality_mbl">hospitality Table</h3>
 	<h4>Hospitality - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: activity_nr</p>
@@ -643,7 +658,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</div>
 
 	<hr />
-	<h3 id="retail">retail Table</h3>
+	<h3 id="retail_mbl">retail Table</h3>
 	<h4>Retail - Consists of Inspection Case Detail for Approximately 100,000 OSHA Inspections Conducted Annually"</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: activity_nr</p>
@@ -717,7 +732,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</div>
 
 	<hr />
-	<h3 id="occupationCode">occupationCode Table</h3>
+	<h3 id="occupationCode_mbl">occupationCode Table</h3>
 	<h4>Occupation Code - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: occupation_code</p>
@@ -736,7 +751,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</div>
 
 	<hr />
-	<h3 id="substanceCode">substanceCode Table</h3>
+	<h3 id="substanceCode_mbl">substanceCode Table</h3>
 	<h4>Substance Code - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: substance_code</p>
