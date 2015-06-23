@@ -686,7 +686,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="FI_AREA_mbl>FI_AREA Table</h3>
+	<h3 id="FI_AREA_mbl">FI_AREA Table</h3>
 	<h4>Area - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -731,7 +731,7 @@ http://api.dol.gov/V1/Safety/FatalOccupationalInjuries
 	</div>
 
 	<hr />
-	<h3 id="FI_CATEGORY">FI_CATEGORY Table</h3>
+	<h3 id="FI_CATEGORY_mbl">FI_CATEGORY Table</h3>
 	<h4>Category - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CASE_CODE</p>

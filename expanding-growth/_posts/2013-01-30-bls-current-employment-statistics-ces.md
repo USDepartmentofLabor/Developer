@@ -295,7 +295,7 @@ http://api.dol.gov/V1/Statistics/CES
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="CU_DATA_PUB_mbl">CU_DATA_PUB Table</h3>
+	<h3 id="CE_DATA_PUB_mbl">CE_DATA_PUB Table</h3>
 	<h4>Data Pub - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -391,7 +391,7 @@ http://api.dol.gov/V1/Statistics/CES
 	</div>
 
 	<hr />
-	<h3 id-"CE_SEASONAL_mbl">CE_SEASONAL Table</h3>
+	<h3 id="CE_SEASONAL_mbl">CE_SEASONAL Table</h3>
 	<h4>Seasonal - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SEASONAL</p>

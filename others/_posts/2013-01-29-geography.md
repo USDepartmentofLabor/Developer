@@ -25,7 +25,7 @@ http://api.dol.gov/V1/Geography
 	</ul>
 </div>
 
-<div class="dsktp_tbl">
+<div class="mbl_tbl">
 	<ul>
 		<li><a href="#City_mbl">City</a></li>
 		<li><a href="#CongressDistrict_mbl">CongressDistrict</a></li>

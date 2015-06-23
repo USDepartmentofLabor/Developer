@@ -628,7 +628,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr />
-	<h3 id="II_FOOTNOTE">II_FOOTNOTE Table</h3>
+	<h3 id="II_FOOTNOTE_mbl">II_FOOTNOTE Table</h3>
 	<h4>Footnote - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>

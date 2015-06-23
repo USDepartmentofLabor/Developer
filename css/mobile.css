@@ -1,0 +1,73 @@
+.mobile_site {
+    border-top: solid #FFFFFF .25em;
+    border-right: solid #FFFFFF .25em;
+    border-bottom: solid #FFFFFF .25em;
+    border-left: solid #FFFFFF .25em;
+    min-height: 9em;
+}
+
+.mobile_site:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+
+}
+
+.keys_mob h1,
+.datasets_mob h1,
+.sdks_mob h1,
+.beg_mob h1,
+.highlight_mob h1,
+.app_mob h1
+{
+
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.highlight_mob h1,
+.app_mob h1 {
+    text-align: left;
+}
+
+.app_mob {
+    background: #7D7E80;
+}
+
+.keys_mob {
+    background: #732123;
+}
+.datasets_mob {
+    background: #7B3B77;
+    
+}
+.datasets_mob h1 {
+    text-align: center;
+}
+
+.sdks_mob {
+    background: #2D3E50;
+    
+}
+
+.highlight_mob {
+    background: #434343;
+}
+
+.highlight_mob p,
+.app_mob p {
+    font-size: small;
+    color: white;
+}
+
+.pad_mob {
+    padding: .5em;
+    display: inline-block;
+    vertical-align: middle;
+}

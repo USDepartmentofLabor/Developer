@@ -1,3 +1,80 @@
+<div class="show-for-small-only">
+    <div class="row">
+        <a href="beginner/">
+            <div class="small-6 columns how_background beg_mob mobile_site">
+                <div class="pad_mob">
+                    <img src="{{ site.baseurl }}/img/begin_speedometer.png" alt="Speedometer: Beginner">
+
+                    <h1>Beginner</h1>
+                </div>
+            </div>
+        </a>
+        <a href="experienced/">
+            <div class="small-6 columns how_experienced beg_mob mobile_site">
+                <div class="pad_mob">
+                    <img src="{{ site.baseurl }}/img/exp_speedometer.png" alt="Speedometer: Experienced">
+
+                    <h1>Experienced</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="https://devtools.dol.gov/developer">
+            <div class="small-4 columns keys_mob mobile_site">
+                <div class="pad_mob">
+                    <img src="{{ site.baseurl }}/img/Key.png" alt="Key Logo">
+
+                    <h1>Keys</h1>
+                </div>
+            </div>
+        </a>
+        <a href="dataset/">
+            <div class="small-4 columns datasets_mob mobile_site">
+                <div class="pad_mob">
+                    <img src="{{ site.baseurl }}/img/graph.png" alt="Graph Logo">
+
+                    <h1>Datasets</h1>
+                </div>
+            </div>
+        </a>
+        <a href="sdk/">
+            <div class="small-4 columns sdks_mob mobile_site">
+                <div class="pad_mob">
+                    <img src="{{ site.baseurl }}/img/sdk.png" alt="Gear Logo">
+
+                    <h1>SDKs</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="highlights/2015/tell-us-what-data-you-want/">
+            <div class="small-12 columns highlight_mob mobile_site">
+                <div class="pad_mob">
+                    <div class="small-9 columns">
+                        {{ cpi | markdownify }}
+                    </div>
+                    <div class="small-3 columns">
+                        <img src="{{ site.baseurl }}/img/Data.png" alt="Box of Data">
+                    </div>
+
+                </div>
+            </div>
+        </a>
+    </div>
+    <a id="appLink" href="javascript:">
+        <div class="row">
+            <div class="small-12 columns app_mob mobile_site">
+                <div class="pad_mob">
+                    {{ stats | markdownify }}
+                </div>
+            </div>
+        </div>
+    </a>
+
+</div>
+<div class="show-for-medium-up">
 <div class="valign_parent" id="maincontent">
     <div id="choose" class="hometext">
         {{ choose | markdownify}}
@@ -67,4 +144,5 @@
         </div>
     </div>
     <div class="row"><br /></div>
+</div>
 </div>

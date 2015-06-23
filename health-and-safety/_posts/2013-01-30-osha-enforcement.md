@@ -488,7 +488,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 		</tbody>
 	</table>
 
-	<h3 id="osha_optional_info_mbl">osha_optional_info Table</h3>
+	<h3 id="osha_optional_info">osha_optional_info Table</h3>
 	<p>The following table provides additional, optional information associated with an OSHA inspection. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<table summary="OSHA Optional Information - OSHA Enforcement">
 		<caption>OSHA Optional Information</caption>
@@ -880,7 +880,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="osha_accident">osha_accident Table</h3>
+	<h3 id="osha_accident_mbl">osha_accident Table</h3>
 	<p>The following table contains OSHA accident information including date, time, description, and other associated accident fields.</p>
 	<h4>OSHA Accident - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -965,7 +965,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 	
 	<hr/>
-	<h3 id="osha_accident_abstract">osha_accident_abstract Table</h3>
+	<h3 id="osha_accident_abstract_mbl">osha_accident_abstract Table</h3>
 	<p>The following table contains information about OSHA accident abstracts. The information in the table originates from form OSHA-170 and is linked to OSHA accident reports found in the osha_accident table.</p>
 	<h4>OSHA Accident Abstract - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -990,7 +990,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 	
 	<hr/>
-	<h3 id="osha_accident_injury">osha_accident_injury Table</h3>
+	<h3 id="osha_accident_injury_mbl">osha_accident_injury Table</h3>
 	<p>The following table contains information about injuries associated with OSHA accident reports. It includes information such as the Degree of Injury and the Cause of Injury and is linked to OSHA accident reports found in the osha_acident table.</p>
 	<h4>OSHA Accident Injury - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1100,7 +1100,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 	
 	<hr/>
-	<h3 id="osha_inspection">osha_inspection Table</h3>
+	<h3 id="osha_inspection_mbl">osha_inspection Table</h3>
 	<p>The following table highlights OSHA inspections conducted by OSHA compliance safety and health officers under the Occupational Safety and Health Act of 1970 (the Act) to determine whether employers are complying with standards issued by the agency for safe and healthful workplaces. OSHA publishes information on its inspection and citation activity on the Internet under the provisions of the Electronic Freedom of Information Act. Data for a given inspection will be present if data exists for the inspection and the inspection is indicated as being closed.</p>
 	<h4>OSHA Inspection - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1280,7 +1280,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 	
 	<hr/>
-	<h3 id="osha_optional_info">osha_optional_info Table</h3>
+	<h3 id="osha_optional_info_mbl">osha_optional_info Table</h3>
 	<p>The following table provides additional, optional information associated with an OSHA inspection. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Optional Information - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1315,7 +1315,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 	
 	<hr/>
-	<h3 id="osha_related_activity">osha_related_activity Table</h3>
+	<h3 id="osha_related_activity_mbl">osha_related_activity Table</h3>
 	<p>The following table provides information about activity related to an OSHA inspection. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Related Activity - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1350,7 +1350,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 	
 	<hr/>
-	<h3 id="osha_strategic_codes">osha_strategic_codes Table</h3>
+	<h3 id="osha_strategic_codes_mbl">osha_strategic_codes Table</h3>
 	<p>The following table provides information about strategic codes tied to OSHA inspections, including NEP (National Emphasis Program), LEP (Local Emphasis Program), and Strategic Plan Code. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Strategic Codes - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1375,7 +1375,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 	
 	<hr/>
-	<h3 id="osha_violation">osha_violation Table</h3>
+	<h3 id="osha_violation_mbl">osha_violation Table</h3>
 	<p>The following table contains information about OSHA violations that are in violation of the Act, Executive Order 12196, or 29 CFR Part 1960. OSHA publishes information on its inspection and citation activity on the Internet under the provisions of the Electronic Freedom of Information Act. Data for a given citation may not be available for 5 days following receipt by the employer for Federal inspections or for 30 days following receipt by the employer for State inspections. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Violation - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1525,7 +1525,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 	
 	<hr/>
-	<h3 id="osha_violation_event">osha_violation_event Table</h3>
+	<h3 id="osha_violation_event_mbl">osha_violation_event Table</h3>
 	<p>The following table provides information about OSHA violation events, including the event and penalty information. The information is linked to OSHA violation reports found in the osha_violation table and inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Violation Event - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1580,7 +1580,7 @@ http://api.dol.gov/V1/Safety/InjuriesAndIllness
 	</div>
 
 	<hr/>
-	<h3 id="osha_violation_gen_duty_std">osha_violation_gen_duty_std Table</h3>
+	<h3 id="osha_violation_gen_duty_std_mbl">osha_violation_gen_duty_std Table</h3>
 	<p>The following table provides information associated with general duty standards cited during OSHA inspections. The information is linked to OSHA violation reports found in the osha_violation table and inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Violation General Duty Standards - OSHA Enforcement</h4>
 	<div class="odd_row">

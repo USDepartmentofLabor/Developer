@@ -510,7 +510,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</div>
 
 	<hr />
-	<h3 id="foodService_mbl">foodService Table</h3>
+	<h3 id="foodservice_mbl">foodService Table</h3>
 	<h4>Food Service - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: activity_nr</p>
@@ -732,7 +732,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</div>
 
 	<hr />
-	<h3 id="occupationCode_mbl">occupationCode Table</h3>
+	<h3 id="occupationcode_mbl">occupationCode Table</h3>
 	<h4>Occupation Code - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: occupation_code</p>
@@ -751,7 +751,7 @@ http://api.dol.gov/V1/Compliance/OSHA
 	</div>
 
 	<hr />
-	<h3 id="substanceCode_mbl">substanceCode Table</h3>
+	<h3 id="substancecode_mbl">substanceCode Table</h3>
 	<h4>Substance Code - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: substance_code</p>

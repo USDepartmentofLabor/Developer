@@ -19,19 +19,19 @@ http://api.dol.gov/V1/Compliance/WHD
 
 <div class="dsktp_tbl">
 	<ul>
-		<li><a href="#full">full table</a></li>
-		<li><a href="#foodservice">foodservice table</a></li>
-		<li><a href="#hospitality">hospitality table</a></li>
-		<li><a href="#retail">retail table</a></li>
+		<li><a href="#full">full</a></li>
+		<li><a href="#foodservice">foodservice</a></li>
+		<li><a href="#hospitality">hospitality</a></li>
+		<li><a href="#retail">retail</a></li>
 	</ul>
 </div>
 
 <div class="mbl_tbl">
 	<ul>
-		<li><a href="#full_mbl">full table</a></li>
-		<li><a href="#foodservice_mbl">foodservice table</a></li>
-		<li><a href="#hospitality_mbl">hospitality table</a></li>
-		<li><a href="#retail_mbl">retail table</a></li>
+		<li><a href="#full_mbl">full</a></li>
+		<li><a href="#foodservice_mbl">foodservice</a></li>
+		<li><a href="#hospitality_mbl">hospitality</a></li>
+		<li><a href="#retail_mbl">retail</a></li>
 	</ul>
 </div>
 
@@ -598,7 +598,7 @@ http://api.dol.gov/V1/Compliance/WHD
 	</div>
 
 	<hr />
-	<h3 id="foodService_mbl">foodService Table</h3>
+	<h3 id="foodservice_mbl">foodService Table</h3>
 	<h4>Food Service - WHD compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: trade_nm</p>

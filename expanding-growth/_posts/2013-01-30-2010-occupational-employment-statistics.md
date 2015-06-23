@@ -54,7 +54,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 		<li><a href="#area_mbl">area</a></li>
 		<li><a href="#area_definitions_mbl">area_definitions</a></li>
 		<li><a href="#areatype_mbl">areatype</a></li>
-		<li><a href="#data_mbl>data</a></li>
+		<li><a href="#data_mbl">data</a></li>
 		<li><a href="#datatype_mbl">datatype</a></li>
 		<li><a href="#footnote_mbl">footnote</a></li>
 		<li><a href="#industry_mbl">industry</a></li>
@@ -672,7 +672,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id+"data_mbl">data Table</h3>
+	<h3 id="data_mbl">data Table</h3>
 	<h4>Current Estimates - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: series_id</p>
@@ -763,7 +763,7 @@ http://api.dol.gov/V1/Statistics/OES2010
 	</div>
 
 	<hr />
-	<h3 id="industry_titles_mbl>industry_titles Table</h3>
+	<h3 id="industry_titles_mbl">industry_titles Table</h3>
 	<h4>Industry Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: Industry_Code</p>

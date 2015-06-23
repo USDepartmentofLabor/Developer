@@ -39,7 +39,7 @@ http://api.dol.gov/V1/ApiMetrics/PerKey
 	</ul>
 </div>
 
-<div class="dsktp_tbl">
+<div class="mbl_tbl">
 	<ul>
 		<li><a href="#NumberOfRequestsPerKeys_mbl">NumberOfRequestsPerKeys</a></li>
 		<li><a href="#NumberOfRequestsPerDayByKeys_mbl">NumberOfRequestsPerDayByKeys</a></li>
