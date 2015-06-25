@@ -40,6 +40,7 @@
     font-weight: normal;
     font-size: 16px;
     color: black;
+    margin: 0 .5em;
 }
 
 .post_content_dataset h2, {
@@ -188,7 +189,7 @@ article {
 .mbl_tbl th { font-weight: normal;}
 
 .mbl_tbl { 
-    margin: 1.5em 1em 1em 1em;
+    margin: 1.5em .25em 1em .25em;
     word-wrap: break-word;
     -ms-word-break: break-all;
 

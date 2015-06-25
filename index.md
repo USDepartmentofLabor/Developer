@@ -24,12 +24,13 @@ Keep up to date on the latest economic indicators from the Department of Labor u
 
 {% capture cpi %}
 
-# Tell Us What Data You Want
-If you have an idea for an app that would
-help you and the public access certain
-types of information, but don’t see a
-dataset that you’re looking for, let us
-know. 
+# Safety and Transparency - Through Data
+The OSHA datasets include details on the
+roughly 90,000 OSHA inspections conducted
+every year, and covers more than four decades.
+The new API that is being released to support
+these new datasets represents the next stage
+in DOL’s open data efforts. 
 
 {% endcapture %}
 

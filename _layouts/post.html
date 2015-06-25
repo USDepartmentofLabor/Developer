@@ -72,7 +72,7 @@ layout: default
 </div>
 </div>
 
-        <div class="large-8 columns post" id="maincontent" data-equalizer-watch>
+        <div class="small-12 large-8 columns post" id="maincontent" data-equalizer-watch>
 
             <header class="post-header">
                 <div class="show-for-small-only">
@@ -81,7 +81,7 @@ layout: default
                      {% if page.categories contains 'health-and-safety' %}health_background
                      {% elsif page.categories contains 'keeping-what-you-earn' %}keep_background
                      {% elsif page.categories contains 'expanding-growth' %}expand_background
-                     {% elsif page.categories contains 'others' %}others_background
+                     {% else %}others_background
                      {% endif %}
                      dataset_mob_head mobile_header">
                             <div class="row">
