@@ -115,7 +115,6 @@ table {
     border-collapse: collapse;
 }
 
-​
 .accordion .accordion-navigation > a, .accordion dd > a {
     background-color: white;
     border-bottom: solid;
@@ -131,28 +130,52 @@ table {
     border-left-width: 10px;
 }
 
-.content a {
+.accordion .accordion-navigation.active-a2 > a, .accordion dd.active > a {
+    border-left: none; 
+    background-color: white;
+}
+
+.accordion .accordion-navigation.active-hs > a, .accordion dd.active > a {
+    border-left: none;
+    background-color: #994140;
+}
+.accordion .accordion-navigation.active-k > a, .accordion dd.active > a {
+    border-left: none;
+    background-color: #77AF42;
+}
+.accordion .accordion-navigation.active-e > a, .accordion dd.active > a {
+    border-left: none;
+    background-color: #48869F;
+}
+
+.accordion .accordion-navigation.active-o > a, .accordion dd.active > a {
+    border-left: none;
+    background-color: #8D5095;
+}
+
+
+.cmenu a {
     font-size: 14px;
     color: black;
 }
 
-.content
-.content a:hover {
+.cmenu,
+.cmenu a:hover {
     color: #0078a0 !important;
 }
 
-.content a:hover, .content a:focus, .content a:active {
+.cmenu a:hover, .cmenu a:focus, .cmenu a:active {
     text-decoration: underline;
 }
 
-.content a:focus, .content a:active {
+.cmenu a:focus, .cmenu a:active {
     font-weight: bold;
 }
 
-.content a:active,
+.cmenu a:active,
 .current_item,
 .current_item a {
-    color: #black;
+    color: black;
     font-weight: bold;
 }
 
@@ -164,7 +187,22 @@ article {
 .mbl_tbl table { margin-bottom: 2em; border: 0;}
 .mbl_tbl th { font-weight: normal;}
 
-.mbl_tbl { margin: 1.5em 1em 1em 1em;}
+.mbl_tbl { 
+    margin: 1.5em 1em 1em 1em;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+
+    /* Be VERY careful with this, breaks normal words wh_erever 
+    word-break: break-all;*/
+
+    /* Non standard for webkit */
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+
+}
 .mbl_tbl p { margin: 0; padding-bottom: .5em;}
 .mbl-strng { font-weight: bold;}
 .even_row, .odd_row { width: 100%; padding: 1em;}
@@ -180,6 +218,6 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
 
 @media screen and (min-width: 705px) { 
 	#wrap { width: 75%;}
-	dsktp_tbl { display: block; width:95%;}
+	.dsktp_tbl { display: block; width:95%;}
 	.mbl_tbl { display: none;}
 }

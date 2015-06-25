@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<div class="row" data-equalizer>
+    <div class="row" data-equalizer>
+        <div class="show-for-medium-up">
     <div class="large-4 columns" data-equalizer-watch>
         <div class="row">
             {% if page.categories contains 'health-and-safety' %}
@@ -27,7 +28,7 @@ layout: default
             <li class="accordion-navigation {% if page.categories contains 'health-and-safety' %}active{% endif %}">
                 <a href="#healthsafe">Health & Safety</a>
 
-                <div id="healthsafe" class="content {% if page.categories contains 'health-and-safety' %}active{% endif %}">
+                <div id="healthsafe" class="content cmenu {% if page.categories contains 'health-and-safety' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.health-and-safety %}
                             <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
@@ -38,7 +39,7 @@ layout: default
             </li>
             <li class="accordion-navigation {% if page.categories contains 'keeping-what-you-earn' %}active{% endif %}">
                 <a href="#keeping">Keeping What You Earn</a>
-                <div id="keeping" class="content {% if page.categories contains 'keeping-what-you-earn' %}active{% endif %}">
+                <div id="keeping" class="content cmenu {% if page.categories contains 'keeping-what-you-earn' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.keeping-what-you-earn %}
                         <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
@@ -48,7 +49,7 @@ layout: default
             </li>
             <li class="accordion-navigation {% if page.categories contains 'expanding-growth' %}active{% endif %}">
                 <a href="#expanding">Expanding Growth<br />Opportunities & Learning</a>
-                <div id="expanding" class="content {% if page.categories contains 'expanding-growth' %}active{% endif %}">
+                <div id="expanding" class="content cmenu {% if page.categories contains 'expanding-growth' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.expanding-growth %}
                         <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
@@ -58,7 +59,7 @@ layout: default
             </li>
             <li class="accordion-navigation {% if page.categories contains 'others' %}active{% endif %}">
                 <a href="#others">Other Datasets</a>
-                <div id="others" class="content {% if page.categories contains 'others' %}active{% endif %}">
+                <div id="others" class="content cmenu {% if page.categories contains 'others' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.others %}
                         <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
@@ -69,20 +70,45 @@ layout: default
             </ul>
         </div>
 </div>
-    
+</div>
 
-    <div class="large-8 columns post" id="maincontent" data-equalizer-watch>
+        <div class="large-8 columns post" id="maincontent" data-equalizer-watch>
 
-        <header class="post-header">
-            <h1 class="post_title_dataset">{{ page.title }}</h1>
+            <header class="post-header">
+                <div class="show-for-small-only">
+                    <div class="row">
+                        <div class="small-12 columns
+                     {% if page.categories contains 'health-and-safety' %}health_background
+                     {% elsif page.categories contains 'keeping-what-you-earn' %}keep_background
+                     {% elsif page.categories contains 'expanding-growth' %}expand_background
+                     {% elsif page.categories contains 'others' %}others_background
+                     {% endif %}
+                     dataset_mob_head mobile_header">
+                            <div class="row">
+                                <a href="/dataset/">
+                                    <div class="small-1 columns datasets_back">
+                                        <h1>&lt;</h1>
+                                    </div>
+                                </a>
 
-            <p class="post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        </header>
+                                <div class="small-10 columns end">
+                                    <h1>{{ page.title }}</h1>
+                                </div>
+                            </div>
 
-        <article class="post_content_dataset">
-            {{ content | markdownify }}
-        </article>
+                        </div>
 
+                    </div>
+                </div>
+                <h1 class="post_title_dataset show-for-medium-up">{{ page.title }}</h1>
+
+                <p class="post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            </header>
+
+            <article class="post_content_dataset">
+                {{ content | markdownify }}
+            </article>
+
+        </div>
     </div>
 
-</div>

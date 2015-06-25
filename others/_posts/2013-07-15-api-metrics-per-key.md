@@ -5,9 +5,9 @@ created: 1373908167
 description: Find here a list of DOL API Metric queries.  For these queries,a specially-configured filter method is REQUIRED.
 ---
 
-```
-http://api.dol.gov/V1/ApiMetrics/PerKey
-```
+<div class="force_wrap apiurl">
+<p>http://api.dol.gov/V1/ApiMetrics/PerKey</p>
+</div>
 
 <p>Find here a list of DOL API Metric queries.&nbsp; For these queries,a specially-configured $filter method is <strong>REQUIRED</strong>. For example, you would add the following to your URL:</p>
 

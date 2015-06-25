@@ -5,9 +5,9 @@ created: 1359574573
 description: The evaluation employs administrative data from 12 states, covering approximately 160,000 WIA participants and nearly 3 million comparison group members.
 ---
 
-```
-http://api.dol.gov/V1/Statistics/WIA
-```
+<div class="force_wrap apiurl">
+<p>http://api.dol.gov/V1/Statistics/WIA</p>
+</div>
 
 <p>The evaluation employs administrative data from 12 states, covering approximately 160,000 WIA participants and nearly 3 million comparison group members. Focusing on participants who entered WIA programs between July 2003 and June 2005, the evaluation considers the impact for all those in the program, the impact for those receiving only Core or Intensive Services, and the incremental impact of Training Services. This dataset contains all of the information used to conduct the non-experimental evaluation estimates for the</p>
 

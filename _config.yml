@@ -14,5 +14,6 @@ baseurl: ""
 url: "http://developer.dol.gov"
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
+highlighter: pygments
 permalink: /:categories/:title

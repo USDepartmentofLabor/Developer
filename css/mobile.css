@@ -3,17 +3,27 @@
     border-right: solid #FFFFFF .25em;
     border-bottom: solid #FFFFFF .25em;
     border-left: solid #FFFFFF .25em;
-    min-height: 9em;
 }
-
-.mobile_site:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    margin-right: -0.25em; /* Adjusts for spacing */
+.mobile_header {
+    border-top: solid #FFFFFF .25em;
+    background-clip: content-box !important;
 
 }
+
+.mobile_sub {
+    border-top: solid #DCDCDC .125em;
+    border-right: none;
+    border-bottom: solid #DCDCDC .125em;
+    border-left: none;
+}
+
+.mobile_sub_l3 {
+    border-top: solid #DCDCDC .125em;
+    border-right: solid #DCDCDC .125em;
+    border-bottom: solid #DCDCDC .125em;
+    border-left: solid #DCDCDC .125em;
+}
+
 
 .keys_mob h1,
 .datasets_mob h1,
@@ -29,6 +39,14 @@
     text-transform: uppercase;
     font-size: medium;
     font-weight: normal;
+}
+
+.beg_mob h2 {
+    color: black;
+    text-transform: none;
+    font-size: medium;
+    font-weight: normal;
+    text-align: center;
 }
 
 .highlight_mob h1,
@@ -48,7 +66,26 @@
     
 }
 .datasets_mob h1 {
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: normal;
+}
+
+
+.healthsafe_mob {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: white;
+}
+
+.healthsafe_mob h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: white;
+    font-size: medium;
 }
 
 .sdks_mob {
@@ -68,6 +105,64 @@
 
 .pad_mob {
     padding: .5em;
-    display: inline-block;
-    vertical-align: middle;
+}
+
+.no-margin {
+    margin-left: 0;
+}
+
+.health_background {
+    background-color: #994140;
+    
+}
+
+.keep_background {
+    background-color: #77AF42;
+
+}
+
+.expand_background {
+    background-color: #48869F;
+}
+
+.others_background {
+    background-color: #8D5095;
+}
+
+.dataset_mob_head h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.datasets_back h1
+{
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+
+.force_wrap {
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+
+    /* Be VERY careful with this, breaks normal words wh_erever 
+    word-break: break-all;*/
+
+    /* Non standard for webkit */
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.apiurl p {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    border-style: solid;
+    border-width: thin;
+    font-weight: bold;
+    background-color: #cdcdcd;
 }

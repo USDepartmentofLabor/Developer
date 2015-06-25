@@ -5,9 +5,9 @@ created: 1359481108
 description: The Summer Jobs Plus Bank is a new search tool designed to help connect job seekers with employers.
 ---
 
-```
-http://api.dol.gov/V1/SummerJobs
-```
+<div class="force_wrap apiurl">
+<p>http://api.dol.gov/V1/SummerJobs</p>
+</div>
 
 <p>The Summer Jobs Plus Bank is a new search tool designed to help connect job seekers with employers. Summer Jobs Plus allows sites to search job postings using a widget that provides a single window into the myriad job boards, social&nbsp;media platforms, and corporate employment sites that are currently spread across the Internet.</p>
 <p>The search widget is powered by a new open Web standard, the JobPosting schema, designed by a voluntary network of job search and technology companies and supported by schema.org—a collaboration among Bing, Google, and Yahoo to make structured data on the Web easier to find.</p>
@@ -36,10 +36,10 @@ getJobsListing(string query, string employmentType, string region, string locali
 
 <p>The following queries are examples of requests that can be made to the API to call the Summer Jobs API. Each SDK will require different usages of these forms. <span style="COLOR: #f00">The Summer Jobs API requires either the query parameter to be filled out or, either the region or locality field to be filed out.</span></p>
 
-- http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27json%27&amp;query=%27Nurse%27&amp;region=&amp;locality=&amp;skipCount=1
-- http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27xml%27&amp;query=&amp;region=%27FL%27&amp;locality=&amp;skipCount=99
-- http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27xml%27&amp;query=&amp;region=&amp;locality=%27Tampa%27&amp;skipCount=99
-- http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27atom%27&amp;query=%27Nurse%27&amp;region=%27New York%27&amp;locality=%27New York%27&amp;skipCount=1
+- ```http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27json%27&amp;query=%27Nurse%27&amp;region=&amp;locality=&amp;skipCount=1```
+- ```http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27xml%27&amp;query=&amp;region=%27FL%27&amp;locality=&amp;skipCount=99```
+- ```http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27xml%27&amp;query=&amp;region=&amp;locality=%27Tampa%27&amp;skipCount=99```
+- ```http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27atom%27&amp;query=%27Nurse%27&amp;region=%27New York%27&amp;locality=%27New York%27&amp;skipCount=1```
 
 <a href ="http://api.dol.gov/V1/SummerJobs/$metadata" class="button radius button_dataset">Browse Metadata</a>
 

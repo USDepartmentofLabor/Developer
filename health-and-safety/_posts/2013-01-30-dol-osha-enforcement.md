@@ -1,15 +1,15 @@
 ---
 layout: post
-title: OSHA Enforcement
+title: DOL OSHA Enforcement
 created: 1359641735
 description: The dataset consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to - www.osha.gov
 ---
 
-#OSHA Endforcement
+#OSHA Enforcement
 
-```
-http://api.dol.gov/V1/Safety/InjuriesAndIllness
-```
+<div class="force_wrap apiurl">
+<p>http://api.dol.gov/V1/Safety/InjuriesAndIllness</p>
+</div>
 
 <p>The dataset consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to: <a herf="http://www.osha.gov">www.osha.gov</a></p>
 

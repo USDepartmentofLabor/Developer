@@ -5,9 +5,9 @@ created: 1359491704
 description: Data related to safety and health in the workplace.
 ---
 
-```
-http://api.dol.gov/V1/SafetyHealth
-```
+<div class="force_wrap apiurl">
+<p>http://api.dol.gov/V1/SafetyHealth</p>
+</div>
 
 <p>Data related to safety and health in the workplace.</p>
 

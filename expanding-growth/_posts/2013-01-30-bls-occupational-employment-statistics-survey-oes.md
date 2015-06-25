@@ -5,9 +5,9 @@ created: 1359578884
 description: The Occupational Employment Statistics (OES) program produces employment and wage estimates for over 800 occupations.
 ---
 
-```
-http://api.dol.gov/V1/Statistics/OES/$metadata
-```
+<div class="force_wrap apiurl">
+<p>http://api.dol.gov/V1/Statistics/OES/$metadata</p>
+</div>
 
 <p>The Occupational Employment Statistics (OES) program produces employment and wage estimates for over 800 occupations. These are estimates of the number of people employed in certain occupations, and estimates of the wages paid to them. Self-employed persons are not included in the estimates. These estimates are available for the nation as a whole, for individual States, and for metropolitan and nonmetropolitan areas; national occupational estimates for specific industries are also available.</p>
 

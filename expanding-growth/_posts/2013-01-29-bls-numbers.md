@@ -5,9 +5,9 @@ created: 1359483400
 description: This Dataset contains historic data (last 10 years) for the most common economic indicators.
 ---
 
-```
-http://api.dol.gov/V1/statistics/BLS_Numbers
-```
+<div class="force_wrap apiurl">
+<p>http://api.dol.gov/V1/statistics/BLS_Numbers</p>
+</div>
 
 <p>This Dataset contains historic data (last 10 years) for the most common economic indicators. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://bls.gov&amp;exitTitle=BLS&amp;fedpage=yes">http://bls.gov</a></p>
 
@@ -413,7 +413,7 @@ http://api.dol.gov/V1/statistics/BLS_Numbers
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: value</p>
 		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
+		<p><span class="mbl-strng">Data Type:</span> numeric(8,0)</p>
 	</div>
 	<div class="even_row">
 		<p class="mbl-strng">Column Name: type</p>

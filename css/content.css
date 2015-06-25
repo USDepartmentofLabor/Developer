@@ -173,6 +173,8 @@ developer.dol.gov
     font-size: 36px;
     font-weight: bold;
     color: white;
+    text-transform: uppercase;
+    
 }
 
 #stats table {
@@ -296,7 +298,7 @@ developer.dol.gov
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
-    text-transform: uppercase;
+
 }
 
 .how_experienced {
@@ -308,7 +310,7 @@ developer.dol.gov
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
-    text-transform: uppercase;
+
     
 }
 

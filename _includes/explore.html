@@ -1,3 +1,79 @@
+<div class="show-for-small-only">
+    <div class="row">
+        <div class="small-12 columns datasets_mob mobile_header">
+            <h1>Datasets</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 columns healthsafe_mob">
+            <ul class="accordion no-margin" data-accordion>
+                <li class="accordion-navigation active-hs">
+                    <a href="#health">
+                        <div class="row">
+                        <div class="small-3 columns"><img src="/img/healthSafety.png"></div>
+                        <div class="small-9 columns"><h2>Health & Safety</h2></div>
+                        </div>
+                    </a>
+                    <div id="health" class="content">
+                        <ul>
+                            {% for item in site.categories.health-and-safety %}
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+
+                            {% endfor %}
+                    </ul>
+                    </div>
+                </li>
+                <li class="accordion-navigation active-k">
+                    <a href="#keep">
+                        <div class="row">
+                            <div class="small-3 columns"><img src="/img/bank_white.png"></div>
+                            <div class="small-9 columns"><h2>Keeping What You Earn</h2></div>
+                        </div>
+                    </a>
+                    <div id="keep" class="content">
+                        <ul>
+                            {% for item in site.categories.keeping-what-you-earn %}
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </li>
+                <li class="accordion-navigation active-e">
+                    <a href="#expand">
+                        <div class="row">
+                            <div class="small-3 columns"><img src="/img/growth.png"></div>
+                            <div class="small-9 columns"><h2>Expanding Growth</h2></div>
+                        </div>
+                    </a>
+                    <div id="expand" class="content">
+                        <ul>
+                            {% for item in site.categories.expanding-growth %}
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </li>
+                <li class="accordion-navigation active-o">
+                    <a href="#other">
+                        <div class="row">
+                            <div class="small-3 columns"><img src="/img/other.png"></div>
+                            <div class="small-9 columns"><h2>Other</h2></div>
+                        </div>
+                    </a>
+                    <div id="other" class="content">
+                        <ul>
+                        {% for item in site.categories.others %}
+                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="show-for-medium-up">
 <div class="dol_sub" id="maincontent">
     <div class="row">
         <div class="small-6 small-centered columns"><h1>Explore Our Data</h1><br/></div>
@@ -26,3 +102,4 @@
         </div>
     </div>
 </div>
+    </div>

@@ -5,9 +5,9 @@ created: 1359495133
 description: The Basic Mine Information dataset lists basic information on all Coal and Metal/Non-Metal mines under MSHA's jurisdiction since 1/1/1970.
 ---
 
-```
-http://api.dol.gov/V1/Mining/BasicMineInfo
-```
+<div class="force_wrap apiurl">
+<p>http://api.dol.gov/V1/Mining/BasicMineInfo</p>
+</div>
 
 <p>The Basic Mine Info dataset lists basic information on all Coal and Metal/Non-Metal mines under MSHA's jurisdiction since 1/1/1970. It includes such information as the current status of each mine (Active, Abandoned, NonProducing, etc.), the current owner and operating company, commodity codes and physical attributes of the mine.</p>
 

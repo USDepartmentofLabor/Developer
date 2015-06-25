@@ -5,9 +5,9 @@ created: 1380292809
 description: This dataset provides information regarding all of the publicly available and currently active publications.
 ---
 
-```
-http://api.dol.gov/V1/WHPS
-```
+<div class="force_wrap apiurl">
+<p>http://api.dol.gov/V1/WHPS</p>
+</div>
 
 <p>This dataset provides information regarding all of the publicly available and currently active publications.</p>
 

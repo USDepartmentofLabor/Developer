@@ -5,9 +5,9 @@ created: 1359478230
 description: Find here a list of States, Counties, Cities and, Congressional Districts.
 ---
 
-```
-http://api.dol.gov/V1/Geography
-```
+<div class="force_wrap apiurl">
+<p>http://api.dol.gov/V1/Geography</p>
+</div>
 
 <p>Find here a list of States, Counties, Cities and, Congressional Districts. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.census.gov/geo/www/cd110th/tables110.html&amp;exitTitle=U.S.%20Census%20Bureau&amp;fedpage=yes">http://www.census.gov/geo/www/cd110th/tables110.html</a></p>
 
