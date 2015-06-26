@@ -59,3 +59,6 @@ Website Release Notes
 * **Mobile site!**  The site is now responsive with a new mobile-friendly design on small screens.
 * Added June/July Data Highlight
 * Introducing the OSHA Enforcement dataset, compatible with Quarry, the new dol API 2.0
+
+###2.2.1 - June 26, 2015
+* Added instructions for accessing Quarry API - data.dol.gov
