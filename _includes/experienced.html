@@ -63,6 +63,35 @@
             </ul>
         </div>
     </div>
+    <div class="row" data-equalizer>
+        <a href="dataset/">
+            <div class="small-6 columns datasets_mob mobile_site" data-equalizer-watch>
+                <div class="pad_mob">
+                    <img src="{{ site.baseurl }}/img/graph.png" alt="Graph Logo">
+
+                    <h1>Datasets</h1>
+                </div>
+            </div>
+        </a>
+        <a href="sdk/">
+            <div class="small-6 columns sdks_mob mobile_site" data-equalizer-watch>
+                <div class="pad_mob">
+                    <img src="{{ site.baseurl }}/img/sdk.png" alt="Gear Logo">
+
+                    <h1>SDKs</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+    <a id="appLink" href="javascript:">
+        <div class="row">
+            <div class="small-12 columns app_mob mobile_site">
+                <div class="pad_mob">
+                    {{ stats | markdownify }}
+                </div>
+            </div>
+        </div>
+    </a>
 </div>
 
 <div class="show-for-medium-up">

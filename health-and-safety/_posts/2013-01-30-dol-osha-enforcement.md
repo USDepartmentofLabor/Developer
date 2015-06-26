@@ -7,10 +7,6 @@ description: The dataset consists of inspection case detail for approximately 10
 
 #OSHA Enforcement
 
-<div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Safety/InjuriesAndIllness</p>
-</div>
-
 <p>The dataset consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to: <a herf="http://www.osha.gov">www.osha.gov</a></p>
 
 <!--a href ="http://api.dol.gov/V1/Safety/abc/$metadata" class="button radius button_dataset">Browse Metadata</a>
@@ -50,6 +46,9 @@ description: The dataset consists of inspection case detail for approximately 10
   
 <div class="dsktp_tbl">
 	<h3 id="osha_accident">osha_accident Table</h3>
+	<div class="force_wrap apiurl">
+    <p>https://data.dol.gov/get/accident</p>
+    </div>
 	<p>The following table contains OSHA accident information including date, time, description, and other associated accident fields.</p>
 	<table summary="OSHA Accident - OSHA Enforcement">
 		<caption>OSHA Accident</caption>
@@ -144,6 +143,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	</table>
 
 	<h3 id="osha_accident_abstract">osha_accident_abstract Table</h3>
+	<div class="force_wrap apiurl">
+        <p>https://data.dol.gov/get/accident_abstract</p>
+        </div>
 	<p>The following table contains information about OSHA accident abstracts. The information in the table originates from form OSHA-170 and is linked to OSHA accident reports found in the osha_accident table.</p>
 	<table summary="OSHA Accident Abstract - OSHA Enforcement">
 		<caption>OSHA Accident Abstract</caption>
@@ -179,6 +181,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	</table>
 
 	<h3 id="osha_accident_injury">osha_accident_injury Table</h3>
+	<div class="force_wrap apiurl">
+            <p>https://data.dol.gov/get/accident_injury</p>
+            </div>
 	<p>The following table contains information about injuries associated with OSHA accident reports. It includes information such as the Degree of Injury and the Cause of Injury and is linked to OSHA accident reports found in the osha_acident table.</p>
 	<table summary="OSHA Accident Injury - OSHA Enforcement">
 		<caption>OSHA Accident Injury</caption>
@@ -299,6 +304,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	</table>
 
 	<h3 id="osha_inspection">osha_inspection Table</h3>
+	<div class="force_wrap apiurl">
+            <p>https://data.dol.gov/get/inspection</p>
+            </div>
 	<p>The following table highlights OSHA inspections conducted by OSHA compliance safety and health officers under the Occupational Safety and Health Act of 1970 (the Act) to determine whether employers are complying with standards issued by the agency for safe and healthful workplaces. OSHA publishes information on its inspection and citation activity on the Internet under the provisions of the Electronic Freedom of Information Act. Data for a given inspection will be present if data exists for the inspection and the inspection is indicated as being closed.</p>
 	<table summary="OSHA Inspection - OSHA Enforcement">
 		<caption>OSHA Inspection</caption>
@@ -489,6 +497,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	</table>
 
 	<h3 id="osha_optional_info">osha_optional_info Table</h3>
+	<div class="force_wrap apiurl">
+            <p>https://data.dol.gov/get/optional_info</p>
+            </div>
 	<p>The following table provides additional, optional information associated with an OSHA inspection. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<table summary="OSHA Optional Information - OSHA Enforcement">
 		<caption>OSHA Optional Information</caption>
@@ -534,6 +545,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	</table>
 
 	<h3 id="osha_related_activity">osha_related_activity Table</h3>
+	<div class="force_wrap apiurl">
+            <p>https://data.dol.gov/get/related_activity</p>
+            </div>
 	<p>The following table provides information about activity related to an OSHA inspection. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<table summary="OSHA Related Activity - OSHA Enforcement">
 		<caption>OSHA Related Activity</caption>
@@ -579,6 +593,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	</table>
 
 	<h3 id="osha_strategic_codes">osha_strategic_codes Table</h3>
+	<div class="force_wrap apiurl">
+            <p>https://data.dol.gov/get/strategic_codes</p>
+            </div>
 	<p>The following table provides information about strategic codes tied to OSHA inspections, including NEP (National Emphasis Program), LEP (Local Emphasis Program), and Strategic Plan Code. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<table summary="OSHA Strategic Codes - OSHA Enforcement">
 		<caption>OSHA Strategic Codes</caption>
@@ -614,6 +631,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	</table>
 
 	<h3 id="osha_violation">osha_violation Table</h3>
+	<div class="force_wrap apiurl">
+            <p>https://data.dol.gov/get/violation</p>
+            </div>
 	<p>The following table contains information about OSHA violations that are in violation of the Act, Executive Order 12196, or 29 CFR Part 1960. OSHA publishes information on its inspection and citation activity on the Internet under the provisions of the Electronic Freedom of Information Act. Data for a given citation may not be available for 5 days following receipt by the employer for Federal inspections or for 30 days following receipt by the employer for State inspections. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<table summary="OSHA Violation - OSHA Enforcement">
 		<caption>OSHA Violation</caption>
@@ -774,6 +794,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	</table>
 
 	<h3 id="osha_violation_event">osha_violation_event Table</h3>
+	<div class="force_wrap apiurl">
+                <p>https://data.dol.gov/get/violation_event</p>
+                </div>
 	<p>The following table provides information about OSHA violation events, including the event and penalty information. The information is linked to OSHA violation reports found in the osha_violation table and inspection reports found in the osha_inspection table.</p>
 	<table summary="OSHA Violation Event - OSHA Enforcement">
 		<caption>OSHA Violation Event</caption>
@@ -839,6 +862,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	</table>
 
 	<h3 id="osha_violation_gen_duty_std">osha_violation_gen_duty_std Table</h3>
+	<div class="force_wrap apiurl">
+                <p>https://data.dol.gov/get/violation_gen_duty_std</p>
+    </div>
 	<p>The following table provides information associated with general duty standards cited during OSHA inspections. The information is linked to OSHA violation reports found in the osha_violation table and inspection reports found in the osha_inspection table.</p>
 	<table summary="OSHA Violation General Duty Standards  - OSHA Enforcement">
 		<caption>OSHA Violation General Duty Standards</caption>
@@ -881,6 +907,9 @@ description: The dataset consists of inspection case detail for approximately 10
 
 <div class="mbl_tbl">
 	<h3 id="osha_accident_mbl">osha_accident Table</h3>
+	<div class="force_wrap apiurl">
+                            <p>https://data.dol.gov/get/accident</p>
+                </div>
 	<p>The following table contains OSHA accident information including date, time, description, and other associated accident fields.</p>
 	<h4>OSHA Accident - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -966,6 +995,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	
 	<hr/>
 	<h3 id="osha_accident_abstract_mbl">osha_accident_abstract Table</h3>
+	<div class="force_wrap apiurl">
+                            <p>https://data.dol.gov/get/accident_abstract</p>
+                </div>
 	<p>The following table contains information about OSHA accident abstracts. The information in the table originates from form OSHA-170 and is linked to OSHA accident reports found in the osha_accident table.</p>
 	<h4>OSHA Accident Abstract - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -991,6 +1023,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	
 	<hr/>
 	<h3 id="osha_accident_injury_mbl">osha_accident_injury Table</h3>
+	<div class="force_wrap apiurl">
+                        <p>https://data.dol.gov/get/accident_injury</p>
+            </div>
 	<p>The following table contains information about injuries associated with OSHA accident reports. It includes information such as the Degree of Injury and the Cause of Injury and is linked to OSHA accident reports found in the osha_acident table.</p>
 	<h4>OSHA Accident Injury - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1101,6 +1136,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	
 	<hr/>
 	<h3 id="osha_inspection_mbl">osha_inspection Table</h3>
+	<div class="force_wrap apiurl">
+                        <p>https://data.dol.gov/get/inspection</p>
+            </div>
 	<p>The following table highlights OSHA inspections conducted by OSHA compliance safety and health officers under the Occupational Safety and Health Act of 1970 (the Act) to determine whether employers are complying with standards issued by the agency for safe and healthful workplaces. OSHA publishes information on its inspection and citation activity on the Internet under the provisions of the Electronic Freedom of Information Act. Data for a given inspection will be present if data exists for the inspection and the inspection is indicated as being closed.</p>
 	<h4>OSHA Inspection - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1281,6 +1319,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	
 	<hr/>
 	<h3 id="osha_optional_info_mbl">osha_optional_info Table</h3>
+	<div class="force_wrap apiurl">
+                        <p>https://data.dol.gov/get/optional_info</p>
+            </div>
 	<p>The following table provides additional, optional information associated with an OSHA inspection. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Optional Information - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1316,6 +1357,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	
 	<hr/>
 	<h3 id="osha_related_activity_mbl">osha_related_activity Table</h3>
+	<div class="force_wrap apiurl">
+                        <p>https://data.dol.gov/get/related_activity</p>
+            </div>
 	<p>The following table provides information about activity related to an OSHA inspection. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Related Activity - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1351,6 +1395,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	
 	<hr/>
 	<h3 id="osha_strategic_codes_mbl">osha_strategic_codes Table</h3>
+	<div class="force_wrap apiurl">
+                        <p>https://data.dol.gov/get/strategic_codes</p>
+            </div>
 	<p>The following table provides information about strategic codes tied to OSHA inspections, including NEP (National Emphasis Program), LEP (Local Emphasis Program), and Strategic Plan Code. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Strategic Codes - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1376,6 +1423,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	
 	<hr/>
 	<h3 id="osha_violation_mbl">osha_violation Table</h3>
+		<div class="force_wrap apiurl">
+                    <p>https://data.dol.gov/get/violation</p>
+        </div>
 	<p>The following table contains information about OSHA violations that are in violation of the Act, Executive Order 12196, or 29 CFR Part 1960. OSHA publishes information on its inspection and citation activity on the Internet under the provisions of the Electronic Freedom of Information Act. Data for a given citation may not be available for 5 days following receipt by the employer for Federal inspections or for 30 days following receipt by the employer for State inspections. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Violation - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1526,6 +1576,9 @@ description: The dataset consists of inspection case detail for approximately 10
 	
 	<hr/>
 	<h3 id="osha_violation_event_mbl">osha_violation_event Table</h3>
+		<div class="force_wrap apiurl">
+                    <p>https://data.dol.gov/get/violation_event</p>
+        </div>
 	<p>The following table provides information about OSHA violation events, including the event and penalty information. The information is linked to OSHA violation reports found in the osha_violation table and inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Violation Event - OSHA Enforcement</h4>
 	<div class="odd_row">
@@ -1581,6 +1634,9 @@ description: The dataset consists of inspection case detail for approximately 10
 
 	<hr/>
 	<h3 id="osha_violation_gen_duty_std_mbl">osha_violation_gen_duty_std Table</h3>
+		<div class="force_wrap apiurl">
+                    <p>https://data.dol.gov/get/violation_gen_duty_std</p>
+        </div>
 	<p>The following table provides information associated with general duty standards cited during OSHA inspections. The information is linked to OSHA violation reports found in the osha_violation table and inspection reports found in the osha_inspection table.</p>
 	<h4>OSHA Violation General Duty Standards - OSHA Enforcement</h4>
 	<div class="odd_row">

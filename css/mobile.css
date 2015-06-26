@@ -165,4 +165,9 @@
     border-width: thin;
     font-weight: bold;
     background-color: #cdcdcd;
+    padding: 0 .5em;
+}
+
+.content ul  {
+    list-style-type: none
 }
