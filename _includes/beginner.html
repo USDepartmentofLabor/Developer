@@ -22,9 +22,7 @@
 
                     <div id="panel2a" class="content">
                         <ul>
-                            <li>Visit <a
-                                    href="https://devtools.dol.gov/developer">https://devtools.dol.gov/developer</a>
-                            </li>
+                            <li>Visit <a href="https://devtools.dol.gov/developer">https://devtools.dol.gov/developer</a></li>
                             <li>Click the Register link.</li>
                             <li>Fill in the registration form and submit it.</li>
                             <li>A confirmation email will be sent to the address you provided during registration.</li>
@@ -53,32 +51,30 @@
                         <h3>API.DOL.GOV</h3>
 
                         <p>The API is exposed as an <a href="http://www.odata.org/">OData</a> producer, with the
-                            addition
-                            of request authorizations. We are providing SDK's for some platforms that abstract the OData
+                            addition of request authorizations. We are providing SDK's for some platforms that abstract the OData
                             and request signing process and provides you with an easy to use method call. Please
                             visit the <a href="{{ site.baseurl }}/sdk/">SDKs Page</a> to learn more about the DOL Data
                             SDKs.</p>
 
                         <p><strong>Example</strong> Assume that you want to read data from the agencies table found in
-                            the
-                            dataset named DOLAgency. The request URL is:</p>
+                            the dataset named DOLAgency. The request URL is:</p>
 
                         <div class="force_wrap apiurl"><p>http://api.dol.gov/V1/DOLAgency/Agencies</p></div>
 
                         <p>Your API Key (Token) is d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
 
-                        <div class="guide_note"><strong>note:</strong> This token is only an example. It is not usable.
-                        </div>
+                        <div class="guide_note"><strong>note:</strong> This token is only an example. It is not usable.s</div>
 
                         <p>Your direct link to Agency data using the input above is:</p>
 
-                        <div class="force_wrap apiurl"><p>
-                            http://api.dol.gov/V1/DOLAgency/Agencies/?KEY=d9c6c290-da4c-424e-a378-fb4bd027b58z</p></div>
+                        <div class="force_wrap apiurl">
+                            <p>http://api.dol.gov/V1/DOLAgency/Agencies/?KEY=d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
+                        </div>
 
                         <h3>DATA.DOL.GOV</h3>
-                        <p>The API is exposed as a <a
-                                href="https://en.wikipedia.org/wiki/Representational_state_transfer">RESTful
-                            interface</a>.
+
+                        <p>The API is exposed as a <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">
+                            RESTful interface</a>.
 
                             We require you to authenticate by placing your token in the header. We are providing SDK's
                             for some
@@ -113,7 +109,7 @@
                             send an "Accept" header with "application/json."</p>
                         <br />
                         <p>Data.dol.gov sends responses by default in JSON format.  To customize the return format, simply add /format/xml or
-                            /format/json to the request URL. For example:
+                            /format/json to the request URL. For example:</p>
                         <div class="force_wrap apiurl"><p>https://data.dol.gov/get/inspection/format/xml</p></div>
                     </div>
                 </li>
@@ -121,10 +117,12 @@
                     <a href="#panel6a"><h2>Next Steps</h2></a>
 
                     <div id="panel6a" class="content">
-                        <p>Following the steps above will return the first 100 records.  To retrieve more or to be more selective in the data that is returned, <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/">read on about accessing the API using HTTP requests</a>.</p>
-                        <p>&nbsp;</p>
+                        <p>Following the steps above will return the first 100 records.  To retrieve more or to be more selective
+                            in the data that is returned, <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/">read 
+                                on about accessing the API using HTTP requests</a>.</p>
 
-                        <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/" class="button radius button_wide">How to Customize Your Request</a>
+                        <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/" class="button radius button_wide">How
+                            to Customize Your Request</a>
                     </div>
                 </li>
 

@@ -83,12 +83,12 @@
     margin: 0;
 
 }
-
+/*
 .post_content_dataset tr th:nth-of-type(3),
 .post_content_dataset tr td:nth-of-type(2) {
     white-space: nowrap !important;
 }
-
+*/
 .post_content_dataset tr:nth-child(even) {
     background-color: #F3F3F3;
 }
