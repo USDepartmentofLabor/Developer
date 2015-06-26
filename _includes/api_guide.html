@@ -1,10 +1,10 @@
 <ul class="tabs" data-tab>
-    <li class="tab-title"><a href="#apiv1">api.dol.gov</a></li>
-    <li class="tab-title"><a href="#apiv2">data.dol.gov</a></li>
+    <li class="tab-title tab-title-documentation active"><a href="#apiv1"><h2>api.dol.gov</h2></a></li>
+    <li class="tab-title tab-title-feature"><a href="#apiv2"><h2>data.dol.gov</h2></a></li>
 </ul>
 
 <div class="tabs-content">
-    <div class="content" id="apiv1">
+    <div class="content active panel documentation radius force_wrap" id="apiv1">
 
         {{ anchors | markdownify }}
 
@@ -430,12 +430,11 @@
         </div>
     </div>
 
-    <div class="content" id="apiv2">
-        <h1>DATA.DOL.GOV - Reference</h1>
+    <div class="content panel feature radius force_wrap" id="apiv2">
 
         <h2>Use Your Quarry API Key (<span style="color:red;">Required</span>)</h2>
 
-        <div class="panel callout radius">
+        <div class="panel requirement radius">
             <p>If you have an APIv1 Key, you may also use it for Quarry/APIV2</p>
         </div>
         <p>Register at <a href="https://devtools.dol.gov/developer/Account/Register">https://devtools.dol.gov/developer/Account/Register</a>

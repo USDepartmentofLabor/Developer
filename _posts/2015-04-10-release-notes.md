@@ -60,5 +60,7 @@ Website Release Notes
 * Added June/July Data Highlight
 * Introducing the OSHA Enforcement dataset, compatible with Quarry, the new dol API 2.0
 
-###2.2.1 - June 26, 2015
+###2.2.1 - June 29, 2015
 * Added instructions for accessing Quarry API - data.dol.gov
+* Made the mobile back button larger on the datasets pages
+* Expanded the Beginner/Experienced pages on Mobile

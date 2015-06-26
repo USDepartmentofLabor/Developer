@@ -142,6 +142,7 @@
     font-size: large;
     color: white;
     font-weight: bold;
+    text-align: center;
 }
 
 .force_wrap {
@@ -166,6 +167,8 @@
     font-weight: bold;
     background-color: #cdcdcd;
     padding: 0 .5em;
+    margin-top: .25em;
+    margin-bottom: .25 em;
 }
 
 .content ul  {

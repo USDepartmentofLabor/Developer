@@ -49,15 +49,99 @@
                 </li>
                 <li class="accordion-navigation active-a2">
                     <a href="#panel4a"><h2>Accessing the API</h2></a>
+
                     <div id="panel4a" class="content">
-                        <p>The API is exposed as an <a href="http://www.odata.org/">OData</a> producer, with the addition of request authorizations. We are providing SDK's for some platforms that abstract the OData and request signing process and provides you with an easy to use method call. Please visit the <a href="{{ site.baseurl }}/sdk/">SDKs Page</a> to learn more about the DOL Data SDKs.</p>
-                        <p><strong>Example</strong> Assume that you want to read data from the Agencies table found in the dataset named DOLAgency. The request URL is:
+                        <ul class="accordion" data-accordion>
+                            <li class="accordion-navigation active-a2">
+                                <a href="#apiv1_access"><h3>API.DOL.GOV</h3></a>
 
-                            ```http://api.dol.gov/V1/DOLAgency/Agencies```.</p>
+                                <div id="apiv1_access" class="content"><p>The API is exposed as an <a href="http://www.odata.org/">OData</a> producer, with the
+                                    addition of request authorizations. We are providing SDK's for some platforms that abstract the OData
+                                    and request signing process and provides you with an easy to use method call. Please
+                                    visit the <a href="{{ site.baseurl }}/sdk/">SDKs Page</a> to learn more about the DOL Data
+                                    SDKs.</p>
 
-                        <p>Your API Key (Token) is d9c6c290-da4c-424e-a378-fb4bd027b58b</p>
-                        <div class="guide_note"><strong>note:</strong> This token is only an example. It is not usable.</div>
-                        <p>Your direct link to Agency data using the input above is:</p>
+                                    <p><strong>Example</strong> Assume that you want to read data from the agencies table found in
+                                        the dataset named DOLAgency. The request URL is:</p>
+
+                                    <div class="force_wrap apiurl"><p>http://api.dol.gov/V1/DOLAgency/Agencies</p></div>
+
+                                    <p>Your API Key (Token) is d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
+
+                                    <div class="guide_note"><strong>note:</strong> This token is only an example. It is not usable.s</div>
+
+                                    <p>Your direct link to Agency data using the input above is:</p>
+
+                                    <div class="force_wrap apiurl">
+                                        <p>http://api.dol.gov/V1/DOLAgency/Agencies/?KEY=d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
+                                    </div></div></li>
+                            <li class="accordion-navigation active-a2">
+
+                                <a href="#apiv2_access"><h3>DATA.DOL.GOV</h3></a>
+
+                                <div id="apiv2_access" class="content"><p>The API is exposed as a <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">
+                                    RESTful interface</a>.
+
+                                    We require you to authenticate by placing your token in the header. We are providing SDK's
+                                    for some
+                                    platforms in order to provide you with an easy to use method call. Please visit the
+                                    <a href="{{ site.baseurl }}/sdk/">SDKs Page</a> to learn more about the DOL Data SDKs.
+
+                                </p>
+
+                                    <p><strong>Example</strong> Assume that you want to read data from the
+                                        <a href="{{ site.baseurl }}/health-and-safety/dol-osha-enforcement/#osha_inspection">incidents
+                                            table</a> found in the
+                                        <a href="{{ site.baseurl }}/health-and-safety/dol-osha-enforcement/">OSHA Enforcement
+                                            dataset</a>.
+                                        The request URL is:</p>
+
+                                    <div class="force_wrap apiurl"><p>https://data.dol.gov/get/inspection</p></div>
+
+                                    <p>Your API Key (Token) is d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
+
+                                    <p>Your authentication header would contain the key/value of:</p>
+
+                                    <div class="force_wrap apiurl"><p>X-API-KEY: d9c6c290-da4c-424e-a378-fb4bd027b58z</p></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="accordion-navigation active-a2">
+                    <a href="#panel5a"><h2>Result Format</h2></a>
+
+                    <div id="panel5a" class="content">
+                        <ul class="accordion" data-accordion>
+                            <li class="accordion-navigation active-a2">
+                                <a href="#apiv1_result"><h3>API.DOL.GOV</h3></a>
+
+                                <div id="apiv1_result" class="content">
+                                    <p>By default, the DOL V1 (api.dol.gov) API's responses are in XML format.  To receive the data in JSON,
+                                        send an "Accept" header with "application/json."</p>
+                                </div></li>
+                            <li class="accordion-navigation active-a2">
+
+                                <a href="#apiv2_access"><h3>DATA.DOL.GOV</h3></a>
+
+                                <div id="apiv2_access" class="content">
+                                    <p>Data.dol.gov sends responses by default in JSON format.  To customize the return format, simply add /format/xml or
+                                        /format/json to the request URL. For example:</p>
+                                    <div class="force_wrap apiurl"><p>https://data.dol.gov/get/inspection/format/xml</p></div>
+                                </div></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="accordion-navigation active-a2">
+                    <a href="#panel6a"><h2>Next Steps</h2></a>
+
+                    <div id="panel6a" class="content">
+                        <p>Following the steps above will return the first 100 records.  To retrieve more or to be more selective
+                            in the data that is returned, <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/">read
+                                on about accessing the API using HTTP requests</a>.</p>
+
+                        <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/" class="button radius button_wide">How
+                            to Customize Your Request</a>
                     </div>
                 </li>
             </ul>

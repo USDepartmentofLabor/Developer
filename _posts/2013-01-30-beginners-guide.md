@@ -87,11 +87,12 @@ created: 1359565402
 <br />
 
 <h2 class="subtitle">Result Format</h2>
+<h3>API.DOL.GOV</h3>
 <p>By default, the DOL V1 (api.dol.gov) API's responses are in XML format.  To receive the data in JSON,
  send an "Accept" header with "application/json."</p>
 
  <br />
-
+<h3>DATA.DOL.GOV</h3>
 <p>Data.dol.gov sends responses by default in JSON format.  To customize the return format, simply add /format/xml or 
 /format/json to the request URL. For example:</p>
 <div class="force_wrap apiurl"><p>https://data.dol.gov/get/inspection/format/xml</p></div>

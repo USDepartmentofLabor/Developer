@@ -222,3 +222,52 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
 	.dsktp_tbl { display: block; width:95%;}
 	.mbl_tbl { display: none;}
 }
+
+.panel.callout{
+    background-color: #E9F3E6;
+}
+.panel.feature{
+    background-color: #E4F2FD;
+}
+.panel.requirement{
+    background-color: #FFF2E1;
+}
+.panel.documentation{
+    background-color: #EEEEEE;
+}
+
+
+.tabs-content{
+    border-top:solid black 5px;
+}
+.tabs li.active a, .tabs .tab-title.active a {
+    background-color: #E9F3E6;
+    color: #222222;
+}
+.tabs li.active a, .tabs .tab-title-feature.active a {
+    background-color: #E4F2FD;
+    color: #222222;
+}
+.tabs li.active a, .tabs .tab-title-requirement.active a {
+    background-color: #FFF2E1;
+    color: #222222;
+}
+.tabs li.active a, .tabs .tab-title-documentation.active a {
+    background-color: #EEEEEE;
+    color: #222222;
+}
+
+.tabs li a, .tabs .tab-title a {
+    background-color: white;
+    color: #222222;
+}
+
+.tab-title h2,
+.tab-title-requirement h2,
+.tab-title-feature h2,
+.tab-title-documentation h2 {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    
+}
