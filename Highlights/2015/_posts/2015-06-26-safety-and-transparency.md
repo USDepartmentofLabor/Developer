@@ -7,7 +7,7 @@ construction company renovating homes in your neighborhood.
  
 But how can you tell if the businesses you patronize are keeping its workers safe? Developers and others can check
 out the Labor Department’s Application Programming Interface for its [online enforcement database](/health-and-safety/dol-osha-enforcement/),
-included in the recent launch of [DOL’s next-generation API](http://usdepartmentoflabor.gihub.io/Quarry).
+included in the recent launch of [DOL’s next-generation API](http://usdepartmentoflabor.github.io/Quarry/).
 In these datasets, you can find enforcement data collected by the [Occupational Safety and Health Administration](http://osha.gov).
  
 ##The Data
@@ -26,7 +26,7 @@ the job. With DOL’s new API, apps can easily be created around the data.
 
 The new API that is being released to support these new datasets represents the next stage in DOL’s open data efforts.
 This new system will expand opportunities for everyone using our data. In the coming months, we’ll be rolling out
-frequent and regular enhancements. This product, which we’re naming “[Quarry](http://usdepartmentoflabor.gihub.io/Quarry),”
+frequent and regular enhancements. This product, which we’re naming “[Quarry](http://usdepartmentoflabor.github.io/Quarry/),”
 is being released as an open source
 project, which will enable other agencies to deploy a free, secure and supported solution to roll out a centralized API,
 a “one stop shop” for the agency’s data.
