@@ -64,3 +64,5 @@ Website Release Notes
 * Added instructions for accessing Quarry API - data.dol.gov
 * Made the mobile back button larger on the datasets pages
 * Expanded the Beginner/Experienced pages on Mobile
+* Minor Accessibility, Usability & Cosmetic fixes
+* Link to Quarry - featured app for July
