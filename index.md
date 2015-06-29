@@ -37,20 +37,20 @@ in DOL’s open data efforts.
 
 {% capture grab1 %}
 
-[![Quarry SDK]({{ site.baseurl }}/img/settings.png)]({{ site.baseurl }}/sdk/)
+[![API SDKs]({{ site.baseurl }}/img/settings.png)]({{ site.baseurl }}/sdk/)
 
 {% endcapture %}
 
 {% capture grab2 %}
 
-[![Quarry Mobile]({{ site.baseurl }}/img/phone.png)]({{ site.baseurl }}/apps/)
+[![API Mobile]({{ site.baseurl }}/img/phone.png)]({{ site.baseurl }}/apps/)
   
 
 {% endcapture %}
 
 {% capture grab3 %}
 
-[![Quarry Web and Desktop]({{ site.baseurl }}/img/display.png)]({{ site.baseurl }}/apps/)
+[![API Web and Desktop]({{ site.baseurl }}/img/display.png)]({{ site.baseurl }}/apps/)
  
 
 {% endcapture %}

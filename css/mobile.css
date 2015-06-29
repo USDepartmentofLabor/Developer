@@ -11,9 +11,9 @@
 }
 
 .mobile_sub {
-    border-top: solid #DCDCDC .125em;
+    border-top: none;
     border-right: none;
-    border-bottom: solid #DCDCDC .125em;
+    border-bottom: none;
     border-left: none;
 }
 
@@ -51,6 +51,8 @@
     font-weight: normal;
     text-align: center;
 }
+
+
 
 .highlight_mob h1,
 .highlight_mob h2,
