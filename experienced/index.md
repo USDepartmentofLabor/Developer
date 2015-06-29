@@ -5,9 +5,9 @@ layout: default
 
 {% capture stats %}
 
-# Labor Stats
+# Quarry
 
-Keep up to date on the latest economic indicators from the Department of Labor using our Employment Training Administration & Business Labor Statistics datasets.
+Use the same technology that runs DOL's next generation API. Turn your databases into a single API with Quarry.
 
 {% endcapture %}
 
