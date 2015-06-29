@@ -228,12 +228,23 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
 }
 .panel.feature{
     background-color: #E4F2FD;
+    padding: 1em;
 }
 .panel.requirement{
     background-color: #FFF2E1;
 }
 .panel.documentation{
     background-color: #EEEEEE;
+    padding: 1em;
+}
+.panel.documentation p,
+.panel.feature p {
+    margin: 0;
+}
+
+.panel.documentation h2,
+.panel.feature h2 {
+    margin: .5em 0;
 }
 
 

@@ -16,7 +16,7 @@ layout: default
 
 {% capture stats %}
 
-# Quarry
+## Quarry
 
 Use the same technology that runs DOL's next generation API. Turn your databases into a single API with Quarry.
 
@@ -24,7 +24,7 @@ Use the same technology that runs DOL's next generation API. Turn your databases
 
 {% capture cpi %}
 
-# Safety and Transparency - Through Data
+## Safety and Transparency - Through Data
 The OSHA datasets include details on the
 roughly 90,000 OSHA inspections conducted
 every year, and covers more than four decades.
@@ -37,20 +37,20 @@ in DOL’s open data efforts.
 
 {% capture grab1 %}
 
-[![Settings gear icon]({{ site.baseurl }}/img/settings.png)]({{ site.baseurl }}/sdk/)
+[![Quarry SDK]({{ site.baseurl }}/img/settings.png)]({{ site.baseurl }}/sdk/)
 
 {% endcapture %}
 
 {% capture grab2 %}
 
-[![Mobile phone icon]({{ site.baseurl }}/img/phone.png)]({{ site.baseurl }}/apps/)
+[![Quarry Mobile]({{ site.baseurl }}/img/phone.png)]({{ site.baseurl }}/apps/)
   
 
 {% endcapture %}
 
 {% capture grab3 %}
 
-[![Computer Display Icon]({{ site.baseurl }}/img/display.png)]({{ site.baseurl }}/apps/)
+[![Quarry Web and Desktop]({{ site.baseurl }}/img/display.png)]({{ site.baseurl }}/apps/)
  
 
 {% endcapture %}

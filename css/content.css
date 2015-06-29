@@ -161,7 +161,7 @@ developer.dol.gov
     
 }
 
-.stats_dol h1 {
+.stats_dol h2 {
     font-size: 36px;
     font-weight: bold;
     color: black;
@@ -237,7 +237,7 @@ developer.dol.gov
     margin-left: 20px;
 }
 
-.cpi_background h1 {
+.cpi_background h2 {
     text-align: left;
     color: white;
     font-weight:bold;
@@ -261,11 +261,12 @@ developer.dol.gov
     
 }
 
-#grab h1 {
+#grab h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight:bold;
     font-size: 30px;
     color: black;
+    margin-top:  1em;
     
 }
 

@@ -30,7 +30,10 @@
 .sdks_mob h1,
 .beg_mob h1,
 .highlight_mob h1,
-.app_mob h1
+.highlight_mob h2,
+.app_mob h1,
+.app_mob h2
+
 {
 
     font-family: 'Open Sans', sans-serif;
@@ -50,7 +53,9 @@
 }
 
 .highlight_mob h1,
-.app_mob h1 {
+.highlight_mob h2,
+.app_mob h1,
+.app_mob h2 {
     text-align: left;
 }
 
@@ -60,9 +65,11 @@
 
 .keys_mob {
     background: #732123;
+    text-align: center;
 }
 .datasets_mob {
     background: #7B3B77;
+    text-align: center;
     
 }
 .datasets_mob h1 {
@@ -90,6 +97,7 @@
 
 .sdks_mob {
     background: #2D3E50;
+    text-align: center;
     
 }
 
@@ -165,7 +173,7 @@
     border-style: solid;
     border-width: thin;
     font-weight: bold;
-    background-color: #cdcdcd;
+    background-color: #e1e1e1;
     padding: 0 .5em;
     margin-top: .25em;
     margin-bottom: .25 em;
