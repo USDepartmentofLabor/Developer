@@ -10,6 +10,10 @@
 
 }
 
+.bgclip {
+    padding: 0 .75em;
+}
+
 .mobile_sub {
     border-top: none;
     border-right: none;
@@ -25,14 +29,12 @@
 }
 
 
-.keys_mob h1,
-.datasets_mob h1,
-.sdks_mob h1,
 .beg_mob h1,
 .highlight_mob h1,
 .highlight_mob h2,
 .app_mob h1,
-.app_mob h2
+.app_mob h2,
+.datasets_mob h1
 
 {
 
@@ -40,15 +42,28 @@
     text-align: center;
     color: white;
     text-transform: uppercase;
-    font-size: medium;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.keys_mob h1,
+.datasets_mob h1,
+.sdks_mob h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.0em;
     font-weight: normal;
 }
 
+
 .beg_mob h2 {
+    font-family: 'Open Sans', sans-serif;
     color: black;
     text-transform: none;
-    font-size: medium;
-    font-weight: normal;
+    font-size: 1em;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -74,14 +89,7 @@
     text-align: center;
     
 }
-.datasets_mob h1 {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-size: medium;
-    font-weight: normal;
-}
+
 
 
 .healthsafe_mob {
