@@ -131,6 +131,14 @@ table {
     border-left-width: 10px;
 }
 
+.accordion .accordion-navigation.active-hs > a:hover, .accordion .accordion-navigation.active-hs > a:focus, .accordion dd > a:hover ,
+.accordion .accordion-navigation.active-k > a:hover, .accordion .accordion-navigation.active-k > a:focus, .accordion dd.active > a:hover,
+.accordion .accordion-navigation.active-e > a:hover, .accordion .accordion-navigation.active-e > a:focus, .accordion dd.active > a:hover ,
+.accordion .accordion-navigation.active-o > a:hover, .accordion .accordion-navigation.active-o > a:focus, .accordion dd.active > a:hover  {
+    background-color: #3d3d3d !important; 
+}
+
+
 .accordion .accordion-navigation.active-a2 > a, .accordion dd.active > a {
     border-left: none; 
     background-color: white;
@@ -139,6 +147,7 @@ table {
 .accordion .accordion-navigation.active-hs > a, .accordion dd.active > a {
     border-left: none;
     background-color: #994140;
+    
 }
 .accordion .accordion-navigation.active-k > a, .accordion dd.active > a {
     border-left: none;

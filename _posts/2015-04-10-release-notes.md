@@ -66,3 +66,9 @@ Website Release Notes
 * Expanded the Beginner/Experienced pages on Mobile
 * Minor Accessibility, Usability & Cosmetic fixes
 * Link to Quarry - featured app for July
+
+###2.2.2 - July 30, 2015
+* Added hidden text for screenreaders for mobile site where necessary
+* Fixed color-contrast accessibility issues on mobile dataset menu
+* Fixed alignment and left-right scrolling on some mobile pages
+* Minor Accessibility, Usability & Cosmetic fixes

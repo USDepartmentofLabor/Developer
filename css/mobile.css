@@ -195,8 +195,7 @@
     font-weight: bold;
     background-color: #e1e1e1;
     padding: 0 .5em;
-    margin-top: .25em;
-    margin-bottom: .25 em;
+    margin: .75em 0;
 }
 
 .content ul  {
