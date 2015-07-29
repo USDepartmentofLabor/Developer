@@ -28,13 +28,11 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		<li><a href="#OE_DATATYPE">OE_DATATYPE</a></li>
 		<li><a href="#OE_FOOTNOTE">OE_FOOTNOTE</a></li>
 		<li><a href="#OE_INDUSTRY">OE_INDUSTRY</a></li>
-		<li><a href="#OE_OCCUGROUP">OE_OCCUGROUP</a></li>
 		<li><a href="#OE_OCCUPATION">OE_OCCUPATION</a></li>
 		<li><a href="#OE_RELEASE">OE_RELEASE</a></li>
 		<li><a href="#OE_SEASONAL">OE_SEASONAL</a></li>
 		<li><a href="#OE_SECTOR">OE_SECTOR</a></li>
 		<li><a href="#OE_SERIES">OE_SERIES</a></li>
-		<li><a href="#OE_STATEMSA">OE_STATEMSA</a></li>
 	</ul>
 </div>
 
@@ -46,13 +44,11 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		<li><a href="#OE_DATATYPE_mbl">OE_DATATYPE</a></li>
 		<li><a href="#OE_FOOTNOTE_mbl">OE_FOOTNOTE</a></li>
 		<li><a href="#OE_INDUSTRY_mbl">OE_INDUSTRY</a></li>
-		<li><a href="#OE_OCCUGROUP_mbl">OE_OCCUGROUP</a></li>
 		<li><a href="#OE_OCCUPATION_mbl">OE_OCCUPATION</a></li>
 		<li><a href="#OE_RELEASE_mbl">OE_RELEASE</a></li>
 		<li><a href="#OE_SEASONAL_mbl">OE_SEASONAL</a></li>
 		<li><a href="#OE_SECTOR_mbl">OE_SECTOR</a></li>
 		<li><a href="#OE_SERIES_mbl">OE_SERIES</a></li>
-		<li><a href="#OE_STATEMSA_mbl">OE_STATEMSA</a></li>
 	</ul>
 </div>
 
@@ -240,7 +236,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 			</tr>
 		</tbody>
 	</table>
-
+<!--
 	<h3 id="OE_OCCUGROUP">OE_OCCUGROUP</h3>
 	<table summary="OCCU Group - Occupational Employment Statistics (OES)">
 		<caption>Occupation Group</caption>
@@ -264,7 +260,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 			</tr>
 		</tbody>
 	</table>
-
+-->
 	<h3 id="OE_OCCUPATION">OE_OCCUPATION</h3>
 	<table summary="Occupation - Occupational Employment Statistics (OES)">
 		<caption>Occupation</caption>
@@ -449,7 +445,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 			</tr>
 		</tbody>
 	</table>
-
+<!--
 	<h3 id="OE_STATEMSA">OE_STATEMSA</h3>
 	<table summary="State MSA - Occupational Employment Statistics (OES)">
 		<caption>State MSA</caption>
@@ -479,7 +475,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 </div>
-
+-->
 <div class="mbl_tbl">
 	<h3 id="OE_AREA_mbl">OE_AREA</h3>
 	<h4>Area - Occupational Employment Statistics (OES)</h4>
@@ -605,6 +601,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 
 	<hr />
+<!--
 	<h3 id="OE_OCCUGROUP_mbl">OE_OCCUGROUP</h3>
 	<h4>Occupation Group - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
@@ -617,7 +614,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		<p><span class="mbl-strng">Column Description:</span> Occupation Group Code Description</p>
 		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
 	</div>
-
+-->
 	<hr />
 	<h3 id="OE_OCCUPATION_mbl">OE_OCCUPATION</h3>
 	<h4>Occupation - Occupational Employment Statistics (OES)</h4>
@@ -753,6 +750,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 
 	<hr />
+<!--
 	<h3 id="OE_STATEMSA_mbl">OE_STATEMSA</h3>
 	<h4>State MSA - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
@@ -770,4 +768,5 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		<p><span class="mbl-strng">Column Description:</span> MSA Name</p>
 		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
 	</div>
+-->
 </div>

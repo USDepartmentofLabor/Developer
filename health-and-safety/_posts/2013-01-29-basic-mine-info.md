@@ -21,7 +21,7 @@ description: The Basic Mine Information dataset lists basic information on all C
 ## Dataset Tables  
 
 <div class="dsktp_tbl">
-	<h3>addressOfRecord</h3>
+	<h3>MSHA_addressOfRecord</h3>
 	<table summary="Address of record - Basic Mine Information">
 		<caption>Address of record</caption>
 		<thead>
@@ -142,7 +142,7 @@ description: The Basic Mine Information dataset lists basic information on all C
 </div>
 
 <div class="mbl_tbl">
-	<h3>addressOfRecord</h3>
+	<h3>MSHA_addressOfRecord</h3>
 	<h4>Address of record - Basic Mine Information</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>

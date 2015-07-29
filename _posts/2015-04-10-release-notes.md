@@ -71,4 +71,5 @@ Website Release Notes
 * Added hidden text for screenreaders for mobile site where necessary
 * Fixed color-contrast accessibility issues on mobile dataset menu
 * Fixed alignment and left-right scrolling on some mobile pages
+* Fixed apiv1 dataset names appearing in all caps instead of mixed-case
 * Minor Accessibility, Usability & Cosmetic fixes

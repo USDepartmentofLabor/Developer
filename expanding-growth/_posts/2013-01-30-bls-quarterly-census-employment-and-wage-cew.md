@@ -23,12 +23,10 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 <div class="dsktp_tbl">
 	<ul>
 		<li><a href="#EN_AREA">EN_AREA</a></li>
-		<li><a href="#EN_DATA_PUB">EN_DATA_PUB</a></li>
 		<li><a href="#EN_FOOTNOTE">EN_FOOTNOTE</a></li>
 		<li><a href="#EN_INDUSTRY">EN_INDUSTRY</a></li>
 		<li><a href="#EN_LQAREA">EN_LQAREA</a></li>
 		<li><a href="#EN_OWNER">EN_OWNER</a></li>
-		<li><a href="#EN_SERIES">EN_SERIES</a></li>
 		<li><a href="#EN_STATE">EN_STATE</a></li>
 		<li><a href="#EN_TYPE">EN_TYPE</a></li>
 	</ul>
@@ -37,12 +35,10 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 <div class="mblp_tbl">
 	<ul>
 		<li><a href="#EN_AREA_mbl">EN_AREA</a></li>
-		<li><a href="#EN_DATA_PUB_mbl">EN_DATA_PUB</a></li>
 		<li><a href="#EN_FOOTNOTE_mbl">EN_FOOTNOTE</a></li>
 		<li><a href="#EN_INDUSTRY_mbl">EN_INDUSTRY</a></li>
 		<li><a href="#EN_LQAREA_mbl">EN_LQAREA</a></li>
 		<li><a href="#EN_OWNER_mbl">EN_OWNER</a></li>
-		<li><a href="#EN_SERIES_mbl">EN_SERIES</a></li>
 		<li><a href="#EN_STATE_mbl">EN_STATE</a></li>
 		<li><a href="#EN_TYPE_mbl">EN_TYPE</a></li>
 	</ul>
@@ -87,7 +83,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 			</tr>
 		</tbody>
 	</table>
-
+<!--
 	<h3 id="EN_DATA_PUB">EN_DATA_PUB</h3>
 	<table summary="Data Pub - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Data Pub</caption>
@@ -126,7 +122,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 			</tr>
 		</tbody>
 	</table>
-
+-->
 	<h3 id="EN_FOOTNOTE">EN_FOOTNOTE</h3>
 	<table summary="Footnote - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Footnote</caption>
@@ -267,7 +263,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 			</tr>
 		</tbody>
 	</table>
-
+<!--
 	<h3 id="EN_SERIES">EN_SERIES</h3>
 	<table summary="Series - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Series</caption>
@@ -341,7 +337,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 			</tr>
 		</tbody>
 	</table>
-
+-->
 	<h3 id="EN_STATE">EN_STATE</h3>
 	<table summary="State - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>State</caption>
@@ -451,6 +447,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 	</div>
 
 	<hr />
+<!--
 	<h3 id="EN_DATA_PUB_mbl">EN_DATA_PUB</h3>
 	<h4>Data Pub - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
@@ -480,6 +477,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 	</div>
 
 	<hr />
+-->
 	<h3 id="EN_FOOTNOTE_mbl">EN_FOOTNOTE</h3>
 	<h4>Footnote - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
@@ -581,6 +579,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 	</div>
 
 	<hr />
+<!--
 	<h3 id="EN_SERIES_mbl">EN_SERIES</h3>
 	<h4>Series - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
@@ -645,6 +644,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 	</div>
 
 	<hr />
+-->
 	<h3 id="EN_STATE_mbl">EN_STATE</h3>
 	<h4>State - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">

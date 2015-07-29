@@ -18,19 +18,19 @@ description: Data related to safety and health in the workplace.
 
 <div class="dsktp_tbl">
 	<ul>
-		<li><a href="#ChemicalExposureInspection">ChemicalExposureInspection</a></li>
+		<li><a href="#ChemicalExposureInspections">ChemicalExposureInspections</a></li>
 		<li><a href="#EstablishmentSpecificInjuryIllnessRates">EstablishmentSpecificInjuryIllnessRates</a></li>
 	</ul>
 </div>
 
 <div class="mbl_tbl">
 	<ul>
-		<li><a href="#ChemicalExposureInspection_mbl">ChemicalExposureInspection</a></li>
+		<li><a href="#ChemicalExposureInspections_mbl">ChemicalExposureInspections</a></li>
 		<li><a href="#EstablishmentSpecificInjuryIllnessRates_mbl">EstablishmentSpecificInjuryIllnessRates</a></li>
 	</ul>
 </div>
   
-<h3 id="ChemicalExposureInspection">ChemicalExposureInspection Table</h3>
+<h3 id="ChemicalExposureInspections">ChemicalExposureInspections Table</h3>
 <p>OSHA takes industrial hygiene samples as part of its compliance monitoring program. The following sampling results represent personal, area, and bulk samples for various airborne contaminants. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Labor-Force-Employment-and-Earnings/OSHA-Chemical-Exposure-Health-Data/zyuw-7agv&amp;exitTitle=OSHA Chemical Exposure Health Data&amp;fedpage=yes">http://explore.data.gov/Agriculture/Migrant-and-Seasonal-Agricultural-Protection-Act-M/bsvf-3e67</a></p>
 
 <div class="dsktp_tbl">
@@ -174,7 +174,7 @@ description: Data related to safety and health in the workplace.
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="ChemicalExposureInspection_mbl">Chemical Exposure Inspection</h3>
+	<h3 id="ChemicalExposureInspections_mbl">Chemical Exposure Inspection</h3>
 	<h4>Chemical Exposure Inspection -Safety and Health</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: inspection_number</p>

@@ -34,7 +34,6 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		<li><a href="#FI_GQT_STATE_OWNERSHIP">FI_GQT_STATE_OWNERSHIP</a></li>
 		<li><a href="#FI_INDUSTRY">FI_INDUSTRY</a></li>
 		<li><a href="#FI_SERIES">FI_SERIES</a></li>
-		<li><a href="#FI_SUPERSECTOR">FI_SUPERSECTOR</a></li>
 	</ul>
 </div>
 
@@ -56,7 +55,6 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		<li><a href="#FI_GQT_STATE_OWNERSHIP_mbl">FI_GQT_STATE_OWNERSHIP</a></li>
 		<li><a href="#FI_INDUSTRY_mbl">FI_INDUSTRY</a></li>
 		<li><a href="#FI_SERIES_mbl">FI_SERIES</a></li>
-		<li><a href="#FI_SUPERSECTOR_mbl">FI_SUPERSECTOR</a></li>
 	</ul>
 </div>
   
@@ -644,7 +642,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 			</tr>
 		</tbody>
 	</table>
-
+<!--
 	<h3 id="FI_SUPERSECTOR">FI_SUPERSECTOR Table</h3>
 	<table summary="Super Sector - Fatal Occupational Injuries">
 		<caption>Supersector</caption>
@@ -683,6 +681,8 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 			</tr>
 		</tbody>
 	</table>
+	-->
+	
 </div>
 
 <div class="mbl_tbl">
@@ -1112,6 +1112,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
+	<!--
 	<h3 id="FI_SUPERSECTOR_mbl">FI_SUPERSECTOR Table</h3>
 	<h4>Super Sector - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
@@ -1139,4 +1140,5 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		<p><span class="mbl-strng">Column Description:</span> Order in which variables are displayed.</p>
 		<p><span class="mbl-strng">Data Type:</span> Varchar (5)</p>		
 	</div>
+	-->
 </div>
