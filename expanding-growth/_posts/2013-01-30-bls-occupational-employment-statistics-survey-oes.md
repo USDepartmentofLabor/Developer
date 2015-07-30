@@ -474,8 +474,9 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 			</tr>
 		</tbody>
 	</table>
+	-->
 </div>
--->
+
 <div class="mbl_tbl">
 	<h3 id="OE_AREA_mbl">OE_AREA</h3>
 	<h4>Area - Occupational Employment Statistics (OES)</h4>
@@ -599,9 +600,9 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		<p><span class="mbl-strng">Column Description:</span> Data Query Tool Widget Sorting</p>
 		<p><span class="mbl-strng">Data Type:</span> varchar (5)</p>		
 	</div>
-
-	<hr />
 <!--
+	<hr />
+
 	<h3 id="OE_OCCUGROUP_mbl">OE_OCCUGROUP</h3>
 	<h4>Occupation Group - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
@@ -748,9 +749,9 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		<p><span class="mbl-strng">Column Description:</span> End Period Of Series</p>
 		<p><span class="mbl-strng">Data Type:</span> varchar (3)</p>		
 	</div>
-
-	<hr />
 <!--
+	<hr />
+
 	<h3 id="OE_STATEMSA_mbl">OE_STATEMSA</h3>
 	<h4>State MSA - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
