@@ -47,7 +47,7 @@ http://api.dol.gov/V1/Statistics/CPI
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="CU_AREA">CU_AREA Table</h3>
+	<h3 id="CU_AREA" tabindex="-1">CU_AREA Table</h3>
 	<table summary="Area - Consumer Price Indexes (CPI)">
 		<caption>Area</caption>
 		<thead>
@@ -86,7 +86,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tbody>
 	</table>
 
-	<h3 id="CU_BASE">CU_BASE Table</h3>
+	<h3 id="CU_BASE" tabindex="-1">CU_BASE Table</h3>
 	<table summary="Base - Consumer Price Indexes (CPI)">
 		<caption>Base</caption>
 		<thead>
@@ -110,7 +110,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tbody>
 	</table>
 
-	<h3 id="CU_DATA_PUB">CU_DATA_PUB Table</h3>
+	<h3 id="CU_DATA_PUB" tabindex="-1">CU_DATA_PUB Table</h3>
 	<table summary="Data Pub - Consumer Price Indexes (CPI)">
 		<caption>Data Pub</caption>
 		<thead>
@@ -149,7 +149,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tbody>
 	</table>
 
-	<h3 id="CU_FOOTNOTE">CU_FOOTNOTE Table</h3>
+	<h3 id="CU_FOOTNOTE" tabindex="-1">CU_FOOTNOTE Table</h3>
 	<table summary="Footnote - Consumer Price Indexes (CPI)">
 		<caption>Footnote</caption>
 		<thead>
@@ -173,7 +173,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tbody>
 	</table>
 
-	<h3 id="CU_ITEM">CU_ITEM Table</h3>
+	<h3 id="CU_ITEM" tabindex="-1">CU_ITEM Table</h3>
 	<table summary="Item - Consumer Price Indexes (CPI)">
 		<caption>Item</caption>
 		<thead>
@@ -212,7 +212,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tbody>
 	</table>
 
-	<h3 id="CU_PERIODICITY">CU_PERIODICITY Table</h3>
+	<h3 id="CU_PERIODICITY" tabindex="-1">CU_PERIODICITY Table</h3>
 	<table summary="Periodicity - Consumer Price Indexes (CPI)">
 		<caption>Periodicity</caption>
 		<thead>
@@ -236,7 +236,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tbody>
 	</table>
 
-	<h3 id="CU_SEASONAL">CU_SEASONAL Table</h3>
+	<h3 id="CU_SEASONAL" tabindex="-1">CU_SEASONAL Table</h3>
 	<table summary="Seasonal - Consumer Price Indexes (CPI)">
 		<caption>Seasonal</caption>
 		<thead>
@@ -260,7 +260,7 @@ http://api.dol.gov/V1/Statistics/CPI
 		</tbody>
 	</table>
 
-	<h3 id="CU_SERIES">CU_SERIES Table</h3>
+	<h3 id="CU_SERIES" tabindex="-1">CU_SERIES Table</h3>
 	<table summary="Series - Consumer Price Indexes (CPI)">
 		<caption>Series</caption>
 		<thead>
@@ -336,7 +336,7 @@ http://api.dol.gov/V1/Statistics/CPI
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="CU_AREA_mbl">CU_AREA Table</h3>
+	<h3 id="CU_AREA_mbl" tabindex="-1">CU_AREA Table</h3>
 	<h4>Area - Consumer Price Indexes (CPI)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -365,7 +365,7 @@ http://api.dol.gov/V1/Statistics/CPI
 	</div>
 
 	<hr />
-	<h3 id="CU_BASE_mbl">CU_BASE Table</h3>
+	<h3 id="CU_BASE_mbl" tabindex="-1">CU_BASE Table</h3>
 	<h4>Base - Consumer Price Indexes (CPI)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: BASE_CODE</p>
@@ -379,7 +379,7 @@ http://api.dol.gov/V1/Statistics/CPI
 	</div>
 
 	<hr />
-	<h3 id="CU_DATA_PUB_mbl">CU_DATA_PUB Table</h3>
+	<h3 id="CU_DATA_PUB_mbl" tabindex="-1">CU_DATA_PUB Table</h3>
 	<h4>Data Pub - Consumer Price Indexes (CPI)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -408,7 +408,7 @@ http://api.dol.gov/V1/Statistics/CPI
 	</div>
 
 	<hr />
-	<h3 id="CU_FOOTNOTE_mbl">CU_FOOTNOTE Table</h3>
+	<h3 id="CU_FOOTNOTE_mbl" tabindex="-1">CU_FOOTNOTE Table</h3>
 	<h4>Footnote - Consumer Price Indexes (CPI)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -422,7 +422,7 @@ http://api.dol.gov/V1/Statistics/CPI
 	</div>
 
 	<hr />
-	<h3 id="CU_ITEM_mbl">CU_ITEM Table</h3>
+	<h3 id="CU_ITEM_mbl" tabindex="-1">CU_ITEM Table</h3>
 	<h4>Item - Consumer Price Indexes (CPI)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: ITEM_CODE</p>
@@ -451,7 +451,7 @@ http://api.dol.gov/V1/Statistics/CPI
 	</div>
 
 	<hr />
-	<h3 id="CU_PERIODICITY_mbl">CU_PERIODICITY Table</h3>
+	<h3 id="CU_PERIODICITY_mbl" tabindex="-1">CU_PERIODICITY Table</h3>
 	<h4>Periodicity - Consumer Price Indexes (CPI)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: PERIODICITY_CODE</p>
@@ -465,7 +465,7 @@ http://api.dol.gov/V1/Statistics/CPI
 	</div>
 
 	<hr />
-	<h3 id="CU_SEASONAL_mbl">CU_SEASONAL Table</h3>
+	<h3 id="CU_SEASONAL_mbl" tabindex="-1">CU_SEASONAL Table</h3>
 	<h4>Seasonal - Consumer Price Indexes (CPI)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SEASONAL</p>
@@ -479,7 +479,7 @@ http://api.dol.gov/V1/Statistics/CPI
 	</div>
 
 	<hr />
-	<h3 id="CU_SERIES_mbl">CU_SERIES Table</h3>
+	<h3 id="CU_SERIES_mbl" tabindex="-1">CU_SERIES Table</h3>
 	<h4>Series - Consumer Price Indexes (CPI)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>

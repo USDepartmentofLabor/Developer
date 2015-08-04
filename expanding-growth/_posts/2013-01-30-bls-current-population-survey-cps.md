@@ -69,7 +69,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="LE_AGES">LE_AGES</a></h3>
+	<h3 id="LE_AGES" tabindex="-1">LE_AGES</a></h3>
 	<table summary="Ages - Current Population Survey (CPS)">
 		<caption>Ages</caption>
 		<thead>
@@ -93,7 +93,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_BORN">LE_BORN</a></h3>
+	<h3 id="LE_BORN" tabindex="-1">LE_BORN</a></h3>
 	<table summary="Born - Current Population Survey (CPS)">
 		<caption>Born</caption>
 		<thead>
@@ -132,7 +132,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_CLASS">LE_CLASS</a></h3>
+	<h3 id="LE_CLASS" tabindex="-1">LE_CLASS</a></h3>
 	<table summary="Class - Current Population Survey (CPS)">
 		<caption>Class</caption>
 		<thead>
@@ -171,7 +171,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_DATA_PUB">LE_DATA_PUB</a></h3>
+	<h3 id="LE_DATA_PUB" tabindex="-1">LE_DATA_PUB</a></h3>
 	<table summary="Data Pub - Current Population Survey (CPS)">
 		<caption>Data Pub</caption>
 		<thead>
@@ -210,7 +210,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_EARN">LE_EARN</a></h3>
+	<h3 id="LE_EARN" tabindex="-1">LE_EARN</a></h3>
 	<table summary="Earn - Current Population Survey (CPS)">
 		<caption>Earn</caption>
 		<thead>
@@ -234,7 +234,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_EDUCATION">LE_EDUCATION</a></h3>
+	<h3 id="LE_EDUCATION" tabindex="-1">LE_EDUCATION</a></h3>
 	<table summary="Education - Current Population Survey (CPS)">
 		<caption>Education</caption>
 		<thead>
@@ -258,7 +258,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_FIPS">LE_FIPS</a></h3>
+	<h3 id="LE_FIPS" tabindex="-1">LE_FIPS</a></h3>
 	<table summary="FIPS - Current Population Survey (CPS)">
 		<caption>FIPS</caption>
 		<thead>
@@ -282,7 +282,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_FOOTNOTE">LE_FOOTNOTE</a></h3>
+	<h3 id="LE_FOOTNOTE" tabindex="-1">LE_FOOTNOTE</a></h3>
 	<table summary="Footnote - Current Population Survey (CPS)">
 		<caption>Footnote</caption>
 		<thead>
@@ -306,7 +306,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_INDY">LE_INDY</a></h3>
+	<h3 id="LE_INDY" tabindex="-1">LE_INDY</a></h3>
 	<table summary="Indy - Current Population Survey (CPS)">
 		<caption>Indy</caption>
 		<thead>
@@ -330,7 +330,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_LFST">LE_LFST</a></h3>
+	<h3 id="LE_LFST" tabindex="-1">LE_LFST</a></h3>
 	<table summary="Labor Force Status - Current Population Survey (CPS)">
 		<caption>Labor Force Status</caption>
 		<thead>
@@ -354,7 +354,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_OCCUPATION">LE_OCCUPATION</a></h3>
+	<h3 id="LE_OCCUPATION" tabindex="-1">LE_OCCUPATION</a></h3>
 	<table summary="Occupation - Current Population Survey (CPS)">
 		<caption>Occupation</caption>
 		<thead>
@@ -378,7 +378,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_ORIG">LE_ORIG</a></h3>
+	<h3 id="LE_ORIG" tabindex="-1">LE_ORIG</a></h3>
 	<table summary="Origin - Current Population Survey (CPS)">
 		<caption>Origin</caption>
 		<thead>
@@ -402,7 +402,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_PCTS">LE_PCTS</a></h3>
+	<h3 id="LE_PCTS" tabindex="-1">LE_PCTS</a></h3>
 	<table summary="Percents - Current Population Survey (CPS)">
 		<caption>Percents</caption>
 		<thead>
@@ -426,7 +426,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_RACE">LE_RACE</a></h3>
+	<h3 id="LE_RACE" tabindex="-1">LE_RACE</a></h3>
 	<table summary="Race - Current Population Survey (CPS)">
 		<caption>Race</caption>
 		<thead>
@@ -450,7 +450,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_SEASONAL">LE_SEASONAL</a></h3>
+	<h3 id="LE_SEASONAL" tabindex="-1">LE_SEASONAL</a></h3>
 	<table summary="Seasonal - Current Population Survey (CPS)">
 		<caption>Seasonal</caption>
 		<thead>
@@ -474,7 +474,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_SERIES">LE_SERIES</a></h3>
+	<h3 id="LE_SERIES" tabindex="-1">LE_SERIES</a></h3>
 	<table summary="Series - Current Population Survey (CPS)">
 		<caption>Series</caption>
 		<thead>
@@ -603,7 +603,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_SEXS">LE_SEXS</a></h3>
+	<h3 id="LE_SEXS" tabindex="-1">LE_SEXS</a></h3>
 	<table summary="Sexes - Current Population Survey (CPS)">
 		<caption>Sexes</caption>
 		<thead>
@@ -627,7 +627,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_TDATA">LE_TDATA</a></h3>
+	<h3 id="LE_TDATA" tabindex="-1">LE_TDATA</a></h3>
 	<table summary="Type of Data - Current Population Survey (CPS)">
 		<caption>Type of Data</caption>
 		<thead>
@@ -651,7 +651,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 		</tbody>
 	</table>
 
-	<h3 id="LE_UNIN">LE_UNIN</a></h3>
+	<h3 id="LE_UNIN" tabindex="-1">LE_UNIN</a></h3>
 	<table summary="Union - Current Population Survey (CPS)">
 		<caption>Union</caption>
 		<thead>
@@ -677,7 +677,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="LE_AGES_mbl">LE_AGES</h3>
+	<h3 id="LE_AGES_mbl" tabindex="-1">LE_AGES</h3>
 	<h4>Ages - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AGES_CODE</p>
@@ -691,7 +691,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_BORN_mbl">LE_BORN</h3>
+	<h3 id="LE_BORN_mbl" tabindex="-1">LE_BORN</h3>
 	<h4>Born - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: BORN_CODE</p>
@@ -720,7 +720,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_CLASS_mbl">LE_CLASS</h3>
+	<h3 id="LE_CLASS_mbl" tabindex="-1">LE_CLASS</h3>
 	<h4>Class - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CLASS_CODE</p>
@@ -749,7 +749,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_DATA_PUB_mbl">LE_DATA_PUB</h3>
+	<h3 id="LE_DATA_PUB_mbl" tabindex="-1">LE_DATA_PUB</h3>
 	<h4>Data Pub - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -778,7 +778,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_EARN_mbl">LE_EARN</h3>
+	<h3 id="LE_EARN_mbl" tabindex="-1">LE_EARN</h3>
 	<h4>Earn - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: EARN_CODE</p>
@@ -792,7 +792,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_EDUCATION_mbl">LE_EDUCATION</h3>
+	<h3 id="LE_EDUCATION_mbl" tabindex="-1">LE_EDUCATION</h3>
 	<h4>Education - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: EDUCATION_CODE</p>
@@ -806,7 +806,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_FIPS_mbl">LE_FIPS</h3>
+	<h3 id="LE_FIPS_mbl" tabindex="-1">LE_FIPS</h3>
 	<h4>FIPS - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FIPS_CODE</p>
@@ -820,7 +820,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_FOOTNOTE_mbl">LE_FOOTNOTE</h3>
+	<h3 id="LE_FOOTNOTE_mbl" tabindex="-1">LE_FOOTNOTE</h3>
 	<h4>Footnote - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -834,7 +834,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_INDY_mbl">LE_INDY</h3>
+	<h3 id="LE_INDY_mbl" tabindex="-1">LE_INDY</h3>
 	<h4>Indy - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: INDY_CODE</p>
@@ -848,7 +848,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_LFST_mbl">LE_LFST</h3>
+	<h3 id="LE_LFST_mbl" tabindex="-1">LE_LFST</h3>
 	<h4>Labor Force Status - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: LFST_CODE</p>
@@ -862,7 +862,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_OCCUPATION_mbl">LE_OCCUPATION</h3>
+	<h3 id="LE_OCCUPATION_mbl" tabindex="-1">LE_OCCUPATION</h3>
 	<h4>Occupation - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OCCUPATION_CODE</p>
@@ -876,7 +876,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_ORIG_mbl">LE_ORIG</h3>
+	<h3 id="LE_ORIG_mbl" tabindex="-1">LE_ORIG</h3>
 	<h4>Origin - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: ORIG_CODE</p>
@@ -890,7 +890,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_PCTS_mbl">LE_PCTS</h3>
+	<h3 id="LE_PCTS_mbl" tabindex="-1">LE_PCTS</h3>
 	<h4>Percents - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: PCTS_CODE</p>
@@ -904,7 +904,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_RACE_mbl">LE_RACE</h3>
+	<h3 id="LE_RACE_mbl" tabindex="-1">LE_RACE</h3>
 	<h4>Race - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: RACE_CODE</p>
@@ -918,7 +918,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_SEASONAL_mbl">LE_SEASONAL</h3>
+	<h3 id="LE_SEASONAL_mbl" tabindex="-1">LE_SEASONAL</h3>
 	<h4>Seasonal - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SEASONAL</p>
@@ -932,7 +932,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_SERIES_mbl">LE_SERIES</h3>
+	<h3 id="LE_SERIES_mbl" tabindex="-1">LE_SERIES</h3>
 	<h4>Series - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -1051,7 +1051,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_SEXS_mbl">LE_SEXS</h3>
+	<h3 id="LE_SEXS_mbl" tabindex="-1">LE_SEXS</h3>
 	<h4>Sexes - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SEXS_CODE</p>
@@ -1065,7 +1065,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_TDATA_mbl">LE_TDATA</h3>
+	<h3 id="LE_TDATA_mbl" tabindex="-1">LE_TDATA</h3>
 	<h4>Type of Data - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TDATA_CODE</p>
@@ -1079,7 +1079,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 	</div>
 
 	<hr />
-	<h3 id="LE_UNIN_mbl">LE_UNIN</h3>
+	<h3 id="LE_UNIN_mbl" tabindex="-1">LE_UNIN</h3>
 	<h4>Union - Current Population Survey (CPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: UNIN_CODE</p>

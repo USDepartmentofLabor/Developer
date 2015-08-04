@@ -30,7 +30,7 @@ description: Data related to safety and health in the workplace.
 	</ul>
 </div>
   
-<h3 id="ChemicalExposureInspections">ChemicalExposureInspections Table</h3>
+<h3 id="ChemicalExposureInspections" tabindex="-1">ChemicalExposureInspections Table</h3>
 <p>OSHA takes industrial hygiene samples as part of its compliance monitoring program. The following sampling results represent personal, area, and bulk samples for various airborne contaminants. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Labor-Force-Employment-and-Earnings/OSHA-Chemical-Exposure-Health-Data/zyuw-7agv&amp;exitTitle=OSHA Chemical Exposure Health Data&amp;fedpage=yes">http://explore.data.gov/Agriculture/Migrant-and-Seasonal-Agricultural-Protection-Act-M/bsvf-3e67</a></p>
 
 <div class="dsktp_tbl">
@@ -174,7 +174,7 @@ description: Data related to safety and health in the workplace.
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="ChemicalExposureInspections_mbl">Chemical Exposure Inspection</h3>
+	<h3 id="ChemicalExposureInspections_mbl" tabindex="-1">Chemical Exposure Inspection</h3>
 	<h4>Chemical Exposure Inspection -Safety and Health</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: inspection_number</p>
@@ -303,7 +303,7 @@ description: Data related to safety and health in the workplace.
 	</div>
 </div>
 
-<h3 id="EstablishmentSpecificInjuryIllnessRates">EstablishmentSpecificInjuryIllnessRates Table</h3>
+<h3 id="EstablishmentSpecificInjuryIllnessRates" tabindex="-1">EstablishmentSpecificInjuryIllnessRates Table</h3>
 <p>Each year the Occupational Safety and Health Administration (OSHA) collects work-related injury and illness data from employers within specific industry and employment size specifications. This data collection is called the OSHA Data Initiative or ODI. The data provided is used by OSHA to calculate establishment specific injury and illness incidence rates. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Labor-Force-Employment-and-Earnings/OSHA-Data-Initiative-Establishment-Specific-Injury/i4a7-82ev&amp;exitTitle=Establishment%20Specific%20Injury%20and%20Illness%20Rates&amp;fedpage=yes">http://explore.data.gov/Labor-Force-Employment-and-Earnings/OSHA-Data-Initiative-Establishment-Specific-Injury/i4a7-82ev</a></p>
 
 <div class="dsktp_tbl">
@@ -368,7 +368,7 @@ description: Data related to safety and health in the workplace.
 
 <div class="mbl_tbl">
 	<hr />
-	<h3 id="EstablishmentSpecificInjuryIllnessRates_mbl">Establishment Specific Injury Illness Rates</h3>
+	<h3 id="EstablishmentSpecificInjuryIllnessRates_mbl" tabindex="-1">Establishment Specific Injury Illness Rates</h3>
 	<h4>Establishment Specific Injury Illness Rates - Safety and Health</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: ROWID</p>

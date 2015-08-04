@@ -53,7 +53,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 </div>
   
 <div class="dsktp_tbl">
-	<h3 id="II_AREA">II_AREA Table</h3>
+	<h3 id="II_AREA" tabindex="-1">II_AREA Table</h3>
 	<table summary="Area - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>Area</caption>
 		<thead>
@@ -92,7 +92,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_CASE_TYPE">II_CASE_TYPE Table</h3>
+	<h3 id="II_CASE_TYPE" tabindex="-1">II_CASE_TYPE Table</h3>
 	<table summary="Case Type - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>Case Type</caption>
 		<thead>
@@ -116,7 +116,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_DATA_PUB">II_DATA_PUB Table</h3>
+	<h3 id="II_DATA_PUB" tabindex="-1">II_DATA_PUB Table</h3>
 	<table summary="Data Pub - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>Data Pub</caption>
 		<thead>
@@ -155,7 +155,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_DATA_TYPE">II_DATA_TYPE Table</h3>
+	<h3 id="II_DATA_TYPE" tabindex="-1">II_DATA_TYPE Table</h3>
 	<table summary="Data Type - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>Data Type</caption>
 		<thead>
@@ -179,7 +179,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_FOOTNOTE">II_FOOTNOTE Table</h3>
+	<h3 id="II_FOOTNOTE" tabindex="-1">II_FOOTNOTE Table</h3>
 	<table summary="Footnote -Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>Footnote</caption>
 		<thead>
@@ -203,7 +203,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_GQT_CASE">II_GQT_CASE Table</h3>
+	<h3 id="II_GQT_CASE" tabindex="-1">II_GQT_CASE Table</h3>
 	<table summary="GQT Case - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>GQT Case</caption>
 		<thead>
@@ -262,7 +262,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_GQT_CHAR">II_GQT_CHAR Table</h3>
+	<h3 id="II_GQT_CHAR" tabindex="-1">II_GQT_CHAR Table</h3>
 	<table summary="GQT Character - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>GQT Character</caption>
 		<thead>
@@ -291,7 +291,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_GQT_OWNERSHIP">II_GQT_OWNERSHIP Table</h3>
+	<h3 id="II_GQT_OWNERSHIP" tabindex="-1">II_GQT_OWNERSHIP Table</h3>
 	<table summary="GQT Ownership - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>GQT Ownership</caption>
 		<thead>
@@ -320,7 +320,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_GQT_STATE">II_GQT_STATE Table</h3>
+	<h3 id="II_GQT_STATE" tabindex="-1">II_GQT_STATE Table</h3>
 	<table summary="GQT State - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>GQT State</caption>
 		<thead>
@@ -349,7 +349,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_GQT_STATE_OWNERSHIP">II_GQT_STATE_OWNERSHIP Table</h3>
+	<h3 id="II_GQT_STATE_OWNERSHIP" tabindex="-1">II_GQT_STATE_OWNERSHIP Table</h3>
 	<table summary="GQT State Ownership - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>GQT State Ownership</caption>
 		<thead>
@@ -388,7 +388,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_INDUSTRY">II_INDUSTRY Table</h3>
+	<h3 id="II_INDUSTRY" tabindex="-1">II_INDUSTRY Table</h3>
 	<table summary="Industry - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>Industry</caption>
 		<thead>
@@ -432,7 +432,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_SERIES">II_SERIES Table</h3>
+	<h3 id="II_SERIES" tabindex="-1">II_SERIES Table</h3>
 	<table summary="Series - Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>Series</caption>
 		<thead>
@@ -501,7 +501,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_SUPERSECTOR">II_SUPERSECTOR Table</h3>
+	<h3 id="II_SUPERSECTOR" tabindex="-1">II_SUPERSECTOR Table</h3>
 	<table summary="Super Sector -Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>Supersector</caption>
 		<thead>
@@ -542,7 +542,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="II_AREA_mbl">II_AREA Table</h3>
+	<h3 id="II_AREA_mbl" tabindex="-1">II_AREA Table</h3>
 	<h4>Area - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -571,7 +571,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_CASE_TYPE_mbl">II_CASE_TYPE Table</h3>
+	<h3 id="II_CASE_TYPE_mbl" tabindex="-1">II_CASE_TYPE Table</h3>
 	<h4>Case Type - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CASE_TYPE_CODE</p>
@@ -585,7 +585,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_DATA_PUB_mbl">II_DATA_PUB Table</h3>
+	<h3 id="II_DATA_PUB_mbl" tabindex="-1">II_DATA_PUB Table</h3>
 	<h4>Data Pub - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -614,7 +614,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_DATA_TYPE_mbl">II_DATA_TYPE Table</h3>
+	<h3 id="II_DATA_TYPE_mbl" tabindex="-1">II_DATA_TYPE Table</h3>
 	<h4>Data Type - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: DATA_TYPE_CODE</p>
@@ -628,7 +628,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_FOOTNOTE_mbl">II_FOOTNOTE Table</h3>
+	<h3 id="II_FOOTNOTE_mbl" tabindex="-1">II_FOOTNOTE Table</h3>
 	<h4>Footnote - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -642,7 +642,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_GQT_CASE_mbl">II_GQT_CASE Table</h3>
+	<h3 id="II_GQT_CASE_mbl" tabindex="-1">II_GQT_CASE Table</h3>
 	<h4>GQT Case - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: GQT_CASE_COMPONENT</p>
@@ -691,7 +691,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_GQT_CHAR_mbl">II_GQT_CHAR Table</h3>
+	<h3 id="II_GQT_CHAR_mbl" tabindex="-1">II_GQT_CHAR Table</h3>
 	<h4>GQT Character - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: GQT_REPORT_ID</p>
@@ -710,7 +710,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_GQT_OWNERSHIP_mbl">II_GQT_OWNERSHIP Table</h3>
+	<h3 id="II_GQT_OWNERSHIP_mbl" tabindex="-1">II_GQT_OWNERSHIP Table</h3>
 	<h4>GQT Ownership - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OWNERSHIP_CODE</p>
@@ -729,7 +729,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_GQT_STATE_mbl">II_GQT_STATE Table</h3>
+	<h3 id="II_GQT_STATE_mbl" tabindex="-1">II_GQT_STATE Table</h3>
 	<h4>GQT State - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: STATE_CODE</p>
@@ -748,7 +748,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_GQT_STATE_OWNERSHIP_mbl">II_GQT_STATE_OWNERSHIP Table</h3>
+	<h3 id="II_GQT_STATE_OWNERSHIP_mbl" tabindex="-1">II_GQT_STATE_OWNERSHIP Table</h3>
 	<h4>GQT State Ownership - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: YEAR</p>
@@ -777,7 +777,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_INDUSTRY_mbl">II_INDUSTRY Table</h3>
+	<h3 id="II_INDUSTRY_mbl" tabindex="-1">II_INDUSTRY Table</h3>
 	<h4>Industry - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SUPERSECTOR_CODE</p>
@@ -811,7 +811,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_SERIES_mbl">II_SERIES Table</h3>
+	<h3 id="II_SERIES_mbl" tabindex="-1">II_SERIES Table</h3>
 	<h4>Series - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -870,7 +870,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 	</div>
 
 	<hr />
-	<h3 id="II_SUPERSECTOR_mbl">II_SUPERSECTOR Table</h3>
+	<h3 id="II_SUPERSECTOR_mbl" tabindex="-1">II_SUPERSECTOR Table</h3>
 	<h4>Supersector - Injuries, Illnesses, and Fatalities (IIF)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SUPERSECTOR_CODE</p>

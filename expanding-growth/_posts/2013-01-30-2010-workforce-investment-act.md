@@ -44,7 +44,7 @@ description: The evaluation employs administrative data from 12 states, covering
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="workforceInvestmentAct">workforceInvestmentAct Table</h3>
+	<h3 id="workforceInvestmentAct" tabindex="-1">workforceInvestmentAct Table</h3>
 	<table summary="Workforce Investment Act - 2010 Workforce Investment Act">
 		<caption>Workforce Investment Act</caption>
 		<thead>
@@ -163,7 +163,7 @@ description: The evaluation employs administrative data from 12 states, covering
 		</tbody>
 	</table>
 
-	<h3 id="workforceInvestmentActUi">workforceInvestmentActUi Table</h3>
+	<h3 id="workforceInvestmentActUi" tabindex="-1">workforceInvestmentActUi Table</h3>
 	<table summary="UI - Workforce Investment Act - 2010 Workforce Investment Act">
 		<caption>UI</caption>
 		<thead>
@@ -257,7 +257,7 @@ description: The evaluation employs administrative data from 12 states, covering
 		</tbody>
 	</table>
 
-	<h3 id="workforceInvestmentActWages">workforceInvestmentActWages Table</h3>
+	<h3 id="workforceInvestmentActWages" tabindex="-1">workforceInvestmentActWages Table</h3>
 	<table summary="Wages - Workforce Investment Act - 2010 Workforce Investment Act">
 		<caption>Wages</caption>
 		<thead>
@@ -298,7 +298,7 @@ description: The evaluation employs administrative data from 12 states, covering
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="workforceInvestmentAct_mbl">workforceInvestmentAct Table</h3>
+	<h3 id="workforceInvestmentAct_mbl" tabindex="-1">workforceInvestmentAct Table</h3>
 	<h4>Workforce Investment Act - 2010 Workforce Investment Act</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>
@@ -407,7 +407,7 @@ description: The evaluation employs administrative data from 12 states, covering
 	</div>
 
 	<hr />
-	<h3 id="workforceInvestmentActUi_mbl">workforceInvestmentActUi Table</h3>
+	<h3 id="workforceInvestmentActUi_mbl" tabindex="-1">workforceInvestmentActUi Table</h3>
 	<h4>UI - 2010 Workforce Investment Act</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>
@@ -491,7 +491,7 @@ description: The evaluation employs administrative data from 12 states, covering
 	</div>
 
 	<hr />
-	<h3 id="workforceInvestmentActWages_mbl">workforceInvestmentActWages Table</h3>
+	<h3 id="workforceInvestmentActWages_mbl" tabindex="-1">workforceInvestmentActWages Table</h3>
 	<h4>Wages - Workforce Investment Act - 2010 Workforce Investment Act</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: idIndividual</p>
@@ -520,7 +520,7 @@ description: The evaluation employs administrative data from 12 states, covering
 	</div>
 </div>
 
-<h3 id="lookup_mbl">Lookup Codes</h3>
+<h3 id="lookup_mbl" tabindex="-1">Lookup Codes</h3>
 <h4>Industry Codes:</h4>
 <ul>
 	<li>1 = Manufacturing</li>

@@ -40,7 +40,7 @@ description: The dataset consists of inspection case detail for approximately 10
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="full">full Table</H3>
+	<h3 id="full" tabindex="-1">full Table</H3>
 	<table summary="Full - consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually">
 		<caption>Full</caption>
 		<thead>
@@ -124,7 +124,7 @@ description: The dataset consists of inspection case detail for approximately 10
 		</tbody>
 	</table>
 
-	<h3 id="foodservice">foodService Table</h3>
+	<h3 id="foodservice" tabindex="-1">foodService Table</h3>
 	<table summary="Food Service - OSHA Compliance">
 		<caption>Food Service</caption>
 		<thead>
@@ -208,7 +208,7 @@ description: The dataset consists of inspection case detail for approximately 10
 		</tbody>
 	</table>
 
-	<h3 id="hospitality">hospitality Table</h3>
+	<h3 id="hospitality" tabindex="-1">hospitality Table</h3>
 	<table summary="Hospitality - OSHA Compliance">
 		<caption>Hospitality</caption>
 		<thead>
@@ -292,7 +292,7 @@ description: The dataset consists of inspection case detail for approximately 10
 		</tbody>
 	</table>
 
-	<h3 id="retail">retail Table</h3>
+	<h3 id="retail" tabindex="-1">retail Table</h3>
 	<table summary="Retail - consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually">
 		<caption>Retail</caption>
 		<thead>
@@ -376,7 +376,7 @@ description: The dataset consists of inspection case detail for approximately 10
 		</tbody>
 	</table>
 
-	<h3 id="occupationcode">occupationCode Table</h3>
+	<h3 id="occupationcode" tabindex="-1">occupationCode Table</h3>
 	<table summary="Occupation Code - OSHA Compliance">
 		<caption>Occupation Code</caption>
 		<thead>
@@ -405,7 +405,7 @@ description: The dataset consists of inspection case detail for approximately 10
 		</tbody>
 	</table>
 
-	<h3 id="substancecode">substanceCode Table</h3>
+	<h3 id="substancecode" tabindex="-1">substanceCode Table</h3>
 	<table summary="Substance Code - OSHA Compliance">
 		<caption>Substance Code</caption>
 		<thead>
@@ -436,7 +436,7 @@ description: The dataset consists of inspection case detail for approximately 10
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="full_mbl">full Table</h3>
+	<h3 id="full_mbl" tabindex="-1">full Table</h3>
 	<h4>Full - Consists of Inspection Case Ddetail for Approximately 100,000 OSHA Inspections Conducted Annually</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: activity_nr</p>
@@ -510,7 +510,7 @@ description: The dataset consists of inspection case detail for approximately 10
 	</div>
 
 	<hr />
-	<h3 id="foodservice_mbl">foodService Table</h3>
+	<h3 id="foodservice_mbl" tabindex="-1">foodService Table</h3>
 	<h4>Food Service - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: activity_nr</p>
@@ -584,7 +584,7 @@ description: The dataset consists of inspection case detail for approximately 10
 	</div>
 
 	<hr />
-	<h3 id="hospitality_mbl">hospitality Table</h3>
+	<h3 id="hospitality_mbl" tabindex="-1">hospitality Table</h3>
 	<h4>Hospitality - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: activity_nr</p>
@@ -658,7 +658,7 @@ description: The dataset consists of inspection case detail for approximately 10
 	</div>
 
 	<hr />
-	<h3 id="retail_mbl">retail Table</h3>
+	<h3 id="retail_mbl" tabindex="-1">retail Table</h3>
 	<h4>Retail - Consists of Inspection Case Detail for Approximately 100,000 OSHA Inspections Conducted Annually"</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: activity_nr</p>
@@ -732,7 +732,7 @@ description: The dataset consists of inspection case detail for approximately 10
 	</div>
 
 	<hr />
-	<h3 id="occupationcode_mbl">occupationCode Table</h3>
+	<h3 id="occupationcode_mbl" tabindex="-1">occupationCode Table</h3>
 	<h4>Occupation Code - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: occupation_code</p>
@@ -751,7 +751,7 @@ description: The dataset consists of inspection case detail for approximately 10
 	</div>
 
 	<hr />
-	<h3 id="substancecode_mbl">substanceCode Table</h3>
+	<h3 id="substancecode_mbl" tabindex="-1">substanceCode Table</h3>
 	<h4>Substance Code - OSHA Compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: substance_code</p>

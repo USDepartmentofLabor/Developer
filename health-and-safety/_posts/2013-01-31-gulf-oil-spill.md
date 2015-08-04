@@ -31,7 +31,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 </div>
  
 <div class="dsktp_tbl">
-	<h3 id="OSHA_Direct_Read_Sampling">OSHA_Direct_Read_Sampling Table</h3>
+	<h3 id="OSHA_Direct_Read_Sampling" tabindex="-1">OSHA_Direct_Read_Sampling Table</h3>
 	<table summary="OSHA Direct Read Sampling - Gulf Oil Spill">
 		<caption>OSHA Direct Read Sampling</caption>
 		<thead>
@@ -95,7 +95,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 		</tbody>
 	</table>
 
-	<h3 id="OSHA_NOISE_REPORT">OSHA_NOISE_REPORT Table</h3>
+	<h3 id="OSHA_NOISE_REPORT" tabindex="-1">OSHA_NOISE_REPORT Table</h3>
 	<table summary="Noise Report - Gulf Oil Spill">
 		<caption>Noise Report</caption>
 		<thead>
@@ -186,7 +186,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="OSHA_Direct_Read_Sampling_mbl">OSHA_Direct_Read_Sampling Table</h3>
+	<h3 id="OSHA_Direct_Read_Sampling_mbl" tabindex="-1">OSHA_Direct_Read_Sampling Table</h3>
 	<h4>OSHA Direct Read Sampling</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: ESTAB_STATE</p>
@@ -240,7 +240,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 	</div>
 
 	<hr />
-	<h3 id="OSHA_NOISE_REPORT_mbl">OSHA_NOISE_REPORT Table</h3>
+	<h3 id="OSHA_NOISE_REPORT_mbl" tabindex="-1">OSHA_NOISE_REPORT Table</h3>
 	<h4>OSHA Noise Report</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: ESTABLISHMENT_STATE</p>

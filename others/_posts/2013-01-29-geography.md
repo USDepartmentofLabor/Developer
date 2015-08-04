@@ -35,7 +35,7 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="City">City Table</h3>
+	<h3 id="City" tabindex="-1">City Table</h3>
 	<table summary="City - Geography - list of States, Counties, and Cities">
 		<caption>City</caption>
 		<thead>
@@ -74,7 +74,7 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 		</tbody>
 	</table>
 
-	<h3 id="CongressDistrict">Congress District Table</h3>
+	<h3 id="CongressDistrict" tabindex="-1">Congress District Table</h3>
 	<table summary="Congress District - Geography - list of Congressional Districts">
 		<caption>Congress District</caption>
 		<thead>
@@ -103,7 +103,7 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 		</tbody>
 	</table>
 
-	<h3 id="County">County Table</h3>
+	<h3 id="County" tabindex="-1">County Table</h3>
 	<table summary="County - Geography - list of Counties">
 		<caption>County</caption>
 		<thead>
@@ -127,7 +127,7 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 		</tbody>
 	</table>
 
-	<h3 id="State">State Table</h3>
+	<h3 id="State" tabindex="-1">State Table</h3>
 	<table summary="State - Geography - list of States">
 		<caption>State</caption>
 		<thead>
@@ -153,7 +153,7 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="City_mbl">City Table</h3>
+	<h3 id="City_mbl" tabindex="-1">City Table</h3>
 	<h4>List of States, Counties, and Cities</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CityCode</p>
@@ -182,7 +182,7 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 	</div>
 
 	<hr />
-	<h3 id="CongressDistrict_mbl">CongressDistrict Table</h3>
+	<h3 id="CongressDistrict_mbl" tabindex="-1">CongressDistrict Table</h3>
 	<h4>List of Congressional Districts</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CountyCode</p>
@@ -201,7 +201,7 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 	</div>
 
 	<hr />
-	<h3 id="County_mbl">County Table</h3>
+	<h3 id="County_mbl" tabindex="-1">County Table</h3>
 	<h4>List of Counties</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CountyCode</p>
@@ -215,7 +215,7 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 	</div>
 
 	<hr />
-	<h3 id="State_mbl">State Table</h3>
+	<h3 id="State_mbl" tabindex="-1">State Table</h3>
 	<h4>List of States</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: StateCode</p>

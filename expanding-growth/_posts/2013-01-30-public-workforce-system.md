@@ -37,7 +37,7 @@ description: The PWSD is a dataset that can be used to answer questions about va
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="esFinal">esFinal</h3>
+	<h3 id="esFinal" tabindex="-1">esFinal</h3>
 	<table summary="Employment Services - Public Workforce System Dataset (PWSD)">
 		<caption>Employment Service</caption>
 		<thead>
@@ -91,7 +91,7 @@ description: The PWSD is a dataset that can be used to answer questions about va
 		</tbody>
 	</table>
 
-	<h3 id="model">Model</h3>
+	<h3 id="model" tabindex="-1">Model</h3>
 	<table summary="model - Public Workforce System Dataset (PWSD)">
 		<caption>Model</caption>
 		<thead>
@@ -1150,7 +1150,7 @@ description: The PWSD is a dataset that can be used to answer questions about va
 		</tbody>
 	</table>
 
-	<h3 id="recessionPeriods">recessionPeriods</h3>
+	<h3 id="recessionPeriods" tabindex="-1">recessionPeriods</h3>
 	<table summary="Recession Periods - Public Workforce System Dataset (PWSD)">
 		<caption>Recession Periods</caption>
 		<thead>
@@ -1191,7 +1191,7 @@ description: The PWSD is a dataset that can be used to answer questions about va
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="esFinal_mbl">esFinal</h3>
+	<h3 id="esFinal_mbl" tabindex="-1">esFinal</h3>
 	<h4>Employment Services - Public Workforce System Dataset (PWSD)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>
@@ -1235,7 +1235,7 @@ description: The PWSD is a dataset that can be used to answer questions about va
 	</div>
 
 	<hr />
-	<h3 id="model_mbl">Model</h3>
+	<h3 id="model_mbl" tabindex="-1">Model</h3>
 	<h4>Model - Public Workforce System Dataset (PWSD)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>
@@ -2284,7 +2284,7 @@ description: The PWSD is a dataset that can be used to answer questions about va
 	</div>
 
 	<hr />
-	<h3 id="recessionPeriods_mbl">recessionPeriods</h3>
+	<h3 id="recessionPeriods_mbl" tabindex="-1">recessionPeriods</h3>
 	<h4>Recession Periods - Public Workforce System Dataset (PWSD)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: id</p>

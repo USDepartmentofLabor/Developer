@@ -45,7 +45,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<li><a href="#unemploymentRate1MonthChange">unemploymentRate1MonthChange</a></li>
 </ul>
 
-<h3 id="averageHourlyEarnings">averageHourlyEarnings Table</h3>
+<h3 id="averageHourlyEarnings" tabindex="-1">averageHourlyEarnings Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
 <div class="dsktp_tbl">
@@ -108,7 +108,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="consumerPriceIndex">consumerPriceIndex Table</h3>
+<h3 id="consumerPriceIndex" tabindex="-1">consumerPriceIndex Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">
@@ -171,7 +171,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="employmentCostIndex">employmentCostIndex Table</h3>
+<h3 id="employmentCostIndex" tabindex="-1">employmentCostIndex Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CIS1010000000000Q&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CIS1010000000000Q</a></p>
 
 <div class="dsktp_tbl">
@@ -234,7 +234,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="exportPriceIndex">exportPriceIndex Table</h3>
+<h3 id="exportPriceIndex" tabindex="-1">exportPriceIndex Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -297,7 +297,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="importPriceIndex">importPriceIndex Table</h3>
+<h3 id="importPriceIndex" tabindex="-1">importPriceIndex Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">
@@ -360,7 +360,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="payrollEmployment">payrollEmployment Table</h3>
+<h3 id="payrollEmployment" tabindex="-1">payrollEmployment Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -423,7 +423,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="producerPriceIndex">producerPriceIndex Table</h3>
+<h3 id="producerPriceIndex" tabindex="-1">producerPriceIndex Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">
@@ -486,7 +486,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="productivity">productivity Table</h3>
+<h3 id="productivity" tabindex="-1">productivity Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/PRS85006092&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/PRS85006092</a></p>
 
 <div class="dsktp_tbl">	
@@ -549,7 +549,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="unemploymentRate">unemploymentRate Table</h3>
+<h3 id="unemploymentRate" tabindex="-1">unemploymentRate Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
 
 <div class="dsktp_tbl">	
@@ -612,7 +612,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="averageHourlyEarnings12MonthChange">averageHourlyEarnings12MonthChange Table</h3>
+<h3 id="averageHourlyEarnings12MonthChange" tabindex="-1">averageHourlyEarnings12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
 <div class="dsktp_tbl">
@@ -675,7 +675,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="averageHourlyEarnings1MonthChange">averageHourlyEarnings1MonthChange Table</h3>
+<h3 id="averageHourlyEarnings1MonthChange" tabindex="-1">averageHourlyEarnings1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -738,7 +738,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="averageHourlyEarnings1MonthNetChange">averageHourlyEarnings1MonthNetChange Table</h3>
+<h3 id="averageHourlyEarnings1MonthNetChange" tabindex="-1">averageHourlyEarnings1MonthNetChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -801,7 +801,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="consumerPriceIndex12MonthChange">consumerPriceIndex12MonthChange Table</h3>
+<h3 id="consumerPriceIndex12MonthChange" tabindex="-1">consumerPriceIndex12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">
@@ -864,7 +864,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="consumerPriceIndex1MonthChange">consumerPriceIndex1MonthChange Table</h3>
+<h3 id="consumerPriceIndex1MonthChange" tabindex="-1">consumerPriceIndex1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -927,7 +927,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="exportPriceIndex12MonthChange">exportPriceIndex12MonthChange Table</h3>
+<h3 id="exportPriceIndex12MonthChange" tabindex="-1">exportPriceIndex12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -990,7 +990,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="exportPriceIndex1MonthChange">exportPriceIndex1MonthChange Table</h3>
+<h3 id="exportPriceIndex1MonthChange" tabindex="-1">exportPriceIndex1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -1053,7 +1053,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="importPriceIndex12MonthChange">importPriceIndex12MonthChange Table</h3>
+<h3 id="importPriceIndex12MonthChange" tabindex="-1">importPriceIndex12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -1116,7 +1116,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="importPriceIndex1MonthChange">importPriceIndex1MonthChange Table</h3>
+<h3 id="importPriceIndex1MonthChange" tabindex="-1">importPriceIndex1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -1179,7 +1179,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="payrollEmployment12MonthChange">payrollEmployment12MonthChange Table</h3>
+<h3 id="payrollEmployment12MonthChange" tabindex="-1">payrollEmployment12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -1242,7 +1242,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="payrollEmployment12MonthNetChange">payrollEmployment12MonthNetChange Table</h3>
+<h3 id="payrollEmployment12MonthNetChange" tabindex="-1">payrollEmployment12MonthNetChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -1305,7 +1305,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="payrollEmployment1MonthChange">payrollEmployment1MonthChange Table</h3>
+<h3 id="payrollEmployment1MonthChange" tabindex="-1">payrollEmployment1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
 <div class="dsktp_tbl">
@@ -1368,7 +1368,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="payrollEmployment1MonthNetChange">payrollEmployment1MonthNetChange Table</h3>
+<h3 id="payrollEmployment1MonthNetChange" tabindex="-1">payrollEmployment1MonthNetChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -1431,7 +1431,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="producerPriceIndex12MonthChange">producerPriceIndex12MonthChange Table</h3>
+<h3 id="producerPriceIndex12MonthChange" tabindex="-1">producerPriceIndex12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -1494,7 +1494,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="producerPriceIndex1MonthChange">producerPriceIndex1MonthChange Table</h3>
+<h3 id="producerPriceIndex1MonthChange" tabindex="-1">producerPriceIndex1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth</a></p>
 
 <div class="dsktp_tbl">	
@@ -1557,7 +1557,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="unemploymentRate12MonthChange">unemploymentRate12MonthChange Table</h3>
+<h3 id="unemploymentRate12MonthChange" tabindex="-1">unemploymentRate12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
 
 <div class="dsktp_tbl">	
@@ -1620,7 +1620,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 	<hr />
 </div>
 
-<h3 id="unemploymentRate1MonthChange">unemploymentRate1MonthChange Table</h3>
+<h3 id="unemploymentRate1MonthChange" tabindex="-1">unemploymentRate1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
 
 <div class="dsktp_tbl">	

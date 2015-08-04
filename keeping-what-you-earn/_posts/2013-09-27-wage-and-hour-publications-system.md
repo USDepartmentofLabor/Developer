@@ -30,7 +30,7 @@ description: This dataset provides information regarding all of the publicly ava
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="publicationsview">PublicationsView Table</h3>
+	<h3 id="publicationsview" tabindex="-1">PublicationsView Table</h3>
 	<table summary="Publications View - Wage and Hour Publications System (WHPS)">
 		<caption>Publications View</caption>
 		<thead>
@@ -130,7 +130,7 @@ description: This dataset provides information regarding all of the publicly ava
 		</tbody>
 	</table>
 
-	<h3 id="documentsview">DocumentsView Table</h3>
+	<h3 id="documentsview" tabindex="-1">DocumentsView Table</h3>
 	<table summary="Documents View - Wage and Hour Publications System (WHPS)">
 		<caption>Documents View</caption>
 		<thead>
@@ -171,7 +171,7 @@ description: This dataset provides information regarding all of the publicly ava
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="publicationsview_mbl">PublicationsView Table</h3>
+	<h3 id="publicationsview_mbl" tabindex="-1">PublicationsView Table</h3>
 	<h4>Documents View - Wage and Hour Publications System (WHPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: PublicationId</p>
@@ -270,7 +270,7 @@ description: This dataset provides information regarding all of the publicly ava
 	</div>
 
 	<hr />
-	<h3 id="documentsview_mbl">DocumentsView Table</h3>
+	<h3 id="documentsview_mbl" tabindex="-1">DocumentsView Table</h3>
 	<h4>Documents View - Wage and Hour Publications System (WHPS)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: DocumentId</p>

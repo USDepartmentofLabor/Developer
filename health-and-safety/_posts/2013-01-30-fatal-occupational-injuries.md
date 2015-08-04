@@ -59,7 +59,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 </div>
   
 <div class="dsktp_tbl">
-	<h3 id="FI_AREA">FI_AREA Table</h3>
+	<h3 id="FI_AREA" tabindex="-1">FI_AREA Table</h3>
 	<table summary="Area - Fatal Occupational Injuries">
 		<caption>Area</caption>
 		<thead>
@@ -98,7 +98,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_CASE">FI_CASE Table</h3>
+	<h3 id="FI_CASE" tabindex="-1">FI_CASE Table</h3>
 	<table summary="Case - Fatal Occupational Injuries">
 		<caption>Case</caption>
 		<thead>
@@ -122,7 +122,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_CATEGORY">FI_CATEGORY Table</h3>
+	<h3 id="FI_CATEGORY" tabindex="-1">FI_CATEGORY Table</h3>
 	<table summary="Category - Fatal Occupational Injuries">
 		<caption>Category</caption>
 		<thead>
@@ -151,7 +151,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_CATEGORY2">FI_CATEGORY2 Table</h3>
+	<h3 id="FI_CATEGORY2" tabindex="-1">FI_CATEGORY2 Table</h3>
 	<table summary="Category2 - Fatal Occupational Injuries">
 		<caption>Category2 </caption>
 		<thead>
@@ -175,7 +175,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_DATA_PUB">FI_DATA_PUB Table</h3>
+	<h3 id="FI_DATA_PUB" tabindex="-1">FI_DATA_PUB Table</h3>
 	<table summary="Data Pub  - Fatal Occupational Injuries">
 		<caption>Data Pub</caption>
 		<thead>
@@ -214,7 +214,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_DATA_TYPE">FI_DATA_TYPE Table</h3>
+	<h3 id="FI_DATA_TYPE" tabindex="-1">FI_DATA_TYPE Table</h3>
 	<table summary="Data Type - Fatal Occupational Injuries">
 		<caption>Data Type</caption>
 		<thead>
@@ -238,7 +238,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_EVENT">FI_EVENT Table</h3>
+	<h3 id="FI_EVENT" tabindex="-1">FI_EVENT Table</h3>
 	<table summary="Event - Fatal Occupational Injuries">
 		<caption>Event</caption>
 		<thead>
@@ -277,7 +277,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_FOOTNOTE">FI_FOOTNOTE Table</h3>
+	<h3 id="FI_FOOTNOTE" tabindex="-1">FI_FOOTNOTE Table</h3>
 	<table summary="Footnote - Fatal Occupational Injuries">
 		<caption>Footnote</caption>
 		<thead>
@@ -301,7 +301,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_GQT_CASE">FI_GQT_CASE Table</h3>
+	<h3 id="FI_GQT_CASE" tabindex="-1">FI_GQT_CASE Table</h3>
 	<table summary="GQT Case - Fatal Occupational Injuries">
 		<caption>GQT Case</caption>
 		<thead>
@@ -360,7 +360,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_GQT_CHAR">FI_GQT_CHAR Table</h3>
+	<h3 id="FI_GQT_CHAR" tabindex="-1">FI_GQT_CHAR Table</h3>
 	<table summary="GQT Char - Fatal Occupational Injuries">
 		<caption>GQT Char</caption>
 		<thead>
@@ -389,7 +389,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_GQT_CHAR_OWNERSHIP">FI_GQT_CHAR_OWNERSHIP Table</h3>
+	<h3 id="FI_GQT_CHAR_OWNERSHIP" tabindex="-1">FI_GQT_CHAR_OWNERSHIP Table</h3>
 	<table summary="GQT Char Ownership - Fatal Occupational Injuries">
 		<caption>GQT Char Ownership</caption>
 		<tbody>
@@ -423,7 +423,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_GQT_OWNERSHIP">FI_GQT_OWNERSHIP Table</h3>
+	<h3 id="FI_GQT_OWNERSHIP" tabindex="-1">FI_GQT_OWNERSHIP Table</h3>
 	<table summary="GQT Ownership - Fatal Occupational Injuries">
 		<caption>GQT Ownership</caption>
 		<thead>
@@ -452,7 +452,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_GQT_STATE">FI_GQT_STATE Table</h3>
+	<h3 id="FI_GQT_STATE" tabindex="-1">FI_GQT_STATE Table</h3>
 	<table summary="GQT State - Fatal Occupational Injuries">
 		<caption>GQT State</caption>
 		<thead>
@@ -481,7 +481,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_GQT_STATE_OWNERSHIP">FI_GQT_STATE_OWNERSHIP Table</h3>
+	<h3 id="FI_GQT_STATE_OWNERSHIP" tabindex="-1">FI_GQT_STATE_OWNERSHIP Table</h3>
 	<table summary="GQT State Ownership - Fatal Occupational Injuries">
 		<caption>GQT State Ownership</caption>
 		<thead>
@@ -520,7 +520,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_INDUSTRY">FI_INDUSTRY Table</h3>
+	<h3 id="FI_INDUSTRY" tabindex="-1">FI_INDUSTRY Table</h3>
 	<table summary="Industry - Fatal Occupational Injuries">
 		<caption>Industry</caption>
 		<thead>
@@ -559,7 +559,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_SERIES">FI_SERIES Table</h3>
+	<h3 id="FI_SERIES" tabindex="-1">FI_SERIES Table</h3>
 	<table summary="Series - Fatal Occupational Injuries">
 		<caption>Series</caption>
 		<thead>
@@ -643,7 +643,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 <!--
-	<h3 id="FI_SUPERSECTOR">FI_SUPERSECTOR Table</h3>
+	<h3 id="FI_SUPERSECTOR" tabindex="-1">FI_SUPERSECTOR Table</h3>
 	<table summary="Super Sector - Fatal Occupational Injuries">
 		<caption>Supersector</caption>
 		<thead>
@@ -686,7 +686,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="FI_AREA_mbl">FI_AREA Table</h3>
+	<h3 id="FI_AREA_mbl" tabindex="-1">FI_AREA Table</h3>
 	<h4>Area - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -717,7 +717,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 
 <div class="mbl_tbl">
 	<hr />
-	<h3 id="FI_CASE_mbl">FI_CASE Table</h3>
+	<h3 id="FI_CASE_mbl" tabindex="-1">FI_CASE Table</h3>
 	<h4>Case - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CASE_TYPE</p>
@@ -731,7 +731,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_CATEGORY_mbl">FI_CATEGORY Table</h3>
+	<h3 id="FI_CATEGORY_mbl" tabindex="-1">FI_CATEGORY Table</h3>
 	<h4>Category - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CASE_CODE</p>
@@ -750,7 +750,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_CATEGORY2_mbl">FI_CATEGORY2 Table</h3>
+	<h3 id="FI_CATEGORY2_mbl" tabindex="-1">FI_CATEGORY2 Table</h3>
 	<h4>Category2 - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: CATEGORY_CODE</p>
@@ -764,7 +764,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_DATA_PUB_mbl">FI_DATA_PUB Table</h3>
+	<h3 id="FI_DATA_PUB_mbl" tabindex="-1">FI_DATA_PUB Table</h3>
 	<h4>Data Pub - Fatal Occupational Injuries"</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -793,7 +793,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_DATA_TYPE_mbl">FI_DATA_TYPE Table</h3>
+	<h3 id="FI_DATA_TYPE_mbl" tabindex="-1">FI_DATA_TYPE Table</h3>
 	<h4>Data Type - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: DATATYPE_CODE</p>
@@ -807,7 +807,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_EVENT_mbl">FI_EVENT Table</h3>
+	<h3 id="FI_EVENT_mbl" tabindex="-1">FI_EVENT Table</h3>
 	<h4>Event - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: EVENT_CODE</p>
@@ -836,7 +836,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_FOOTNOTE_mbl">FI_FOOTNOTE Table</h3>
+	<h3 id="FI_FOOTNOTE_mbl" tabindex="-1">FI_FOOTNOTE Table</h3>
 	<h4>Footnote - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -850,7 +850,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_CASE_mbl">FI_GQT_CASE Table</h3>
+	<h3 id="FI_GQT_CASE_mbl" tabindex="-1">FI_GQT_CASE Table</h3>
 	<h4>GQT Case - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: GQT_CASE_COMPONENT</p>
@@ -899,7 +899,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_CHAR_mbl">FI_GQT_CHAR Table</h3>
+	<h3 id="FI_GQT_CHAR_mbl" tabindex="-1">FI_GQT_CHAR Table</h3>
 	<h4>GQT Char - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: GQT_REPORT_ID</p>
@@ -918,7 +918,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_CHAR_OWNERSHIP_mbl">FI_GQT_CHAR_OWNERSHIP Table</h3>
+	<h3 id="FI_GQT_CHAR_OWNERSHIP_mbl" tabindex="-1">FI_GQT_CHAR_OWNERSHIP Table</h3>
 	<h4>GQT Char Ownership - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: GQT_CASE_CODE</p>
@@ -942,7 +942,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_OWNERSHIP_mbl">FI_GQT_OWNERSHIP Table</h3>
+	<h3 id="FI_GQT_OWNERSHIP_mbl" tabindex="-1">FI_GQT_OWNERSHIP Table</h3>
 	<h4>GQT Ownership - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OWNERSHIP_CODE</p>
@@ -961,7 +961,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_STATE_mbl">FI_GQT_STATE Table</h3>
+	<h3 id="FI_GQT_STATE_mbl" tabindex="-1">FI_GQT_STATE Table</h3>
 	<h4>GQT State - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: STATE_CODE</p>
@@ -980,7 +980,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_GQT_STATE_OWNERSHIP_mbl">FI_GQT_STATE_OWNERSHIP Table</h3>
+	<h3 id="FI_GQT_STATE_OWNERSHIP_mbl" tabindex="-1">FI_GQT_STATE_OWNERSHIP Table</h3>
 	<h4>GQT State Ownership - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: YEAR</p>
@@ -1009,7 +1009,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_INDUSTRY_mbl">FI_INDUSTRY Table</h3>
+	<h3 id="FI_INDUSTRY_mbl" tabindex="-1">FI_INDUSTRY Table</h3>
 	<h4>Industry - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
@@ -1038,7 +1038,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</div>
 
 	<hr />
-	<h3 id="FI_SERIES_mbl">FI_SERIES Table</h3>
+	<h3 id="FI_SERIES_mbl" tabindex="-1">FI_SERIES Table</h3>
 	<h4>Series - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -1113,7 +1113,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 
 	<hr />
 	<!--
-	<h3 id="FI_SUPERSECTOR_mbl">FI_SUPERSECTOR Table</h3>
+	<h3 id="FI_SUPERSECTOR_mbl" tabindex="-1">FI_SUPERSECTOR Table</h3>
 	<h4>Super Sector - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SUPERSECTOR_CODE</p>

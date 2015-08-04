@@ -53,7 +53,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="OE_AREA">OE_AREA</h3>
+	<h3 id="OE_AREA" tabindex="-1">OE_AREA</h3>
 	<table summary="Area - Occupational Employment Statistics (OES)">
 		<caption>Area</caption>
 		<thead>
@@ -82,7 +82,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 
-	<h3 id="OE_AREATYPE">OE_AREATYPE</h3>
+	<h3 id="OE_AREATYPE" tabindex="-1">OE_AREATYPE</h3>
 	<table summary="Area Type - Occupational Employment Statistics (OES)">
 		<caption>Area Type</caption>
 		<thead>
@@ -106,7 +106,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 
-	<h3 id="OE_DATA_PUB">OE_DATA_PUB</h3>
+	<h3 id="OE_DATA_PUB" tabindex="-1">OE_DATA_PUB</h3>
 	<table summary="Data Pub - Occupational Employment Statistics (OES)">
 		<caption>Data Pub</caption>
 		<thead>
@@ -145,7 +145,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 
-	<h3 id="OE_DATATYPE">OE_DATATYPE</h3>
+	<h3 id="OE_DATATYPE" tabindex="-1">OE_DATATYPE</h3>
 	<table summary="Data Type - Occupational Employment Statistics (OES)">
 		<caption>Data Type</caption>
 		<thead>
@@ -174,7 +174,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 
-	<h3 id="OE_FOOTNOTE">OE_FOOTNOTE</h3>
+	<h3 id="OE_FOOTNOTE" tabindex="-1">OE_FOOTNOTE</h3>
 	<table summary="Footnote - Occupational Employment Statistics (OES)">
 		<caption>Footnote</caption>
 		<thead>
@@ -198,7 +198,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 
-	<h3 id="OE_INDUSTRY">OE_INDUSTRY</h3>
+	<h3 id="OE_INDUSTRY" tabindex="-1">OE_INDUSTRY</h3>
 	<table summary="Industry - Occupational Employment Statistics (OES)">
 		<caption>Industry</caption>
 		<thead>
@@ -237,7 +237,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 <!--
-	<h3 id="OE_OCCUGROUP">OE_OCCUGROUP</h3>
+	<h3 id="OE_OCCUGROUP" tabindex="-1">OE_OCCUGROUP</h3>
 	<table summary="OCCU Group - Occupational Employment Statistics (OES)">
 		<caption>Occupation Group</caption>
 		<thead>
@@ -261,7 +261,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 -->
-	<h3 id="OE_OCCUPATION">OE_OCCUPATION</h3>
+	<h3 id="OE_OCCUPATION" tabindex="-1">OE_OCCUPATION</h3>
 	<table summary="Occupation - Occupational Employment Statistics (OES)">
 		<caption>Occupation</caption>
 		<thead>
@@ -300,7 +300,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 
-	<h3 id="OE_RELEASE">OE_RELEASE</h3>
+	<h3 id="OE_RELEASE" tabindex="-1">OE_RELEASE</h3>
 	<table summary="Release - Occupational Employment Statistics (OES)">
 		<caption>Release</caption>
 		<thead>
@@ -324,7 +324,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 
-	<h3 id="OE_SEASONAL">OE_SEASONAL</h3>
+	<h3 id="OE_SEASONAL" tabindex="-1">OE_SEASONAL</h3>
 	<table summary="Seasonal - Occupational Employment Statistics (OES)">
 		<caption>Seasonal</caption>
 		<thead>
@@ -348,7 +348,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 
-	<h3 id="OE_SECTOR">OE_SECTOR</h3>
+	<h3 id="OE_SECTOR" tabindex="-1">OE_SECTOR</h3>
 	<table summary="Sector - Occupational Employment Statistics (OES)">
 		<caption>Sector</caption>
 		<thead>
@@ -372,7 +372,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 
-	<h3 id="OE_SERIES">OE_SERIES</h3>
+	<h3 id="OE_SERIES" tabindex="-1">OE_SERIES</h3>
 	<table summary="Series - Occupational Employment Statistics (OES)">
 		<caption>Series</caption>
 		<thead>
@@ -446,7 +446,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		</tbody>
 	</table>
 <!--
-	<h3 id="OE_STATEMSA">OE_STATEMSA</h3>
+	<h3 id="OE_STATEMSA" tabindex="-1">OE_STATEMSA</h3>
 	<table summary="State MSA - Occupational Employment Statistics (OES)">
 		<caption>State MSA</caption>
 		<thead>
@@ -474,11 +474,11 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 			</tr>
 		</tbody>
 	</table>
-	-->
+-->
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="OE_AREA_mbl">OE_AREA</h3>
+	<h3 id="OE_AREA_mbl" tabindex="-1">OE_AREA</h3>
 	<h4>Area - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -497,7 +497,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 	
 	<hr />
-	<h3 id="OE_AREATYPE_mbl">OE_AREATYPE</h3>
+	<h3 id="OE_AREATYPE_mbl" tabindex="-1">OE_AREATYPE</h3>
 	<h4>Area Type - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREATYPE_CODE</p>
@@ -511,7 +511,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 
 	<hr />
-	<h3 id="OE_DATA_PUB_mbl">OE_DATA_PUB</h3>
+	<h3 id="OE_DATA_PUB_mbl" tabindex="-1">OE_DATA_PUB</h3>
 	<h4>Data Pub - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -540,7 +540,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 
 	<hr />
-	<h3 id="OE_DATATYPE_mbl">OE_DATATYPE</h3>
+	<h3 id="OE_DATATYPE_mbl" tabindex="-1">OE_DATATYPE</h3>
 	<h4>Data Type - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: DATATYPE_CODE</p>
@@ -559,7 +559,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 
 	<hr />
-	<h3 id="OE_FOOTNOTE_mbl">OE_FOOTNOTE</h3>
+	<h3 id="OE_FOOTNOTE_mbl" tabindex="-1">OE_FOOTNOTE</h3>
 	<h4>Footnote - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -573,7 +573,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 
 	<hr />
-	<h3 id="OE_INDUSTRY_mbl">OE_INDUSTRY</h3>
+	<h3 id="OE_INDUSTRY_mbl" tabindex="-1">OE_INDUSTRY</h3>
 	<h4>Industry - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
@@ -600,10 +600,10 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		<p><span class="mbl-strng">Column Description:</span> Data Query Tool Widget Sorting</p>
 		<p><span class="mbl-strng">Data Type:</span> varchar (5)</p>		
 	</div>
+
 <!--
 	<hr />
-
-	<h3 id="OE_OCCUGROUP_mbl">OE_OCCUGROUP</h3>
+	<h3 id="OE_OCCUGROUP_mbl" tabindex="-1">OE_OCCUGROUP</h3>
 	<h4>Occupation Group - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OCCUGROUP_CODE</p>
@@ -617,7 +617,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 -->
 	<hr />
-	<h3 id="OE_OCCUPATION_mbl">OE_OCCUPATION</h3>
+	<h3 id="OE_OCCUPATION_mbl" tabindex="-1">OE_OCCUPATION</h3>
 	<h4>Occupation - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OCCUPATION_CODE</p>
@@ -646,7 +646,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 
 	<hr />
-	<h3 id="OE_RELEASE_mbl">OE_RELEASE</h3>
+	<h3 id="OE_RELEASE_mbl" tabindex="-1">OE_RELEASE</h3>
 	<h4>Release - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: RELEASE_DATE</p>
@@ -660,7 +660,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 
 	<hr />
-	<h3 id="OE_SEASONAL_mbl">OE_SEASONAL</h3>
+	<h3 id="OE_SEASONAL_mbl" tabindex="-1">OE_SEASONAL</h3>
 	<h4>Seasonal - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SEASONAL</p>
@@ -674,7 +674,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 	</div>
 
 	<hr />
-	<h3 id="OE_SECTOR_mbl">OE_SECTOR</h3>
+	<h3 id="OE_SECTOR_mbl" tabindex="-1">OE_SECTOR</h3>
 	<h4>Sector - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SECTOR_CODE</p>
@@ -687,7 +687,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
 
 	<hr />
-	<h3 id="OE_SERIES_mbl">OE_SERIES</h3>
+	<h3 id="OE_SERIES_mbl" tabindex="-1">OE_SERIES</h3>
 	<h4>Series - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -749,10 +749,10 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 		<p><span class="mbl-strng">Column Description:</span> End Period Of Series</p>
 		<p><span class="mbl-strng">Data Type:</span> varchar (3)</p>		
 	</div>
+
 <!--
 	<hr />
-
-	<h3 id="OE_STATEMSA_mbl">OE_STATEMSA</h3>
+	<h3 id="OE_STATEMSA_mbl" tabindex="-1">OE_STATEMSA</h3>
 	<h4>State MSA - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: STATE_CODE</p>

@@ -45,7 +45,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="CE_DATA_PUB">CU_DATA_PUB Table</h3>
+	<h3 id="CE_DATA_PUB" tabindex="-1">CU_DATA_PUB Table</h3>
 	<table summary="Data Pub - Current Employment Statistics (CES)">
 		<caption>Data Pub</caption>
 		<thead>
@@ -84,7 +84,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 		</tbody>
 	</table>
 
-	<h3 id="CE_DATATYYPE">CE_DATATYYPE Table</h3>
+	<h3 id="CE_DATATYYPE" tabindex="-1">CE_DATATYYPE Table</h3>
 	<table summary="Data Type - Current Employment Statistics (CES)">
 		<caption>Data Type</caption>
 		<thead>
@@ -108,7 +108,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 		</tbody>
 	</table>
 
-	<h3 id="CE_FOOTNOTE">CE_FOOTNOTE Table</h3>
+	<h3 id="CE_FOOTNOTE" tabindex="-1">CE_FOOTNOTE Table</h3>
 	<table summary="Footnote - Current Employment Statistics (CES)">
 		<caption>Footnote</caption>
 		<thead>
@@ -132,7 +132,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 		</tbody>
 	</table>
 
-	<h3 id="CE_INDUSTRY">CE_INDUSTRY Table</h3>
+	<h3 id="CE_INDUSTRY" tabindex="-1">CE_INDUSTRY Table</h3>
 	<table summary="Industry - Current Employment Statistics (CES)">
 		<caption>Industry</caption>
 		<thead>
@@ -181,7 +181,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 		</tbody>
 	</table>
 
-	<h3 id="CE_SEASONAL">CE_SEASONAL Table</h3>
+	<h3 id="CE_SEASONAL" tabindex="-1">CE_SEASONAL Table</h3>
 	<table summary="Seasonal - Current Employment Statistics (CES)">
 		<caption>Seasonal</caption>
 		<thead>
@@ -205,7 +205,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 		</tbody>
 	</table>
 
-	<h3 id="CE_SERIES">CE_SERIES Table</h3>
+	<h3 id="CE_SERIES" tabindex="-1">CE_SERIES Table</h3>
 	<table summary="Series - Current Employment Statistics (CES)">
 		<caption>Series</caption>
 		<thead>
@@ -269,7 +269,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 		</tbody>
 	</table>
 
-	<h3 id="CE_SUPERSECTOR">CE_SUPERSECTOR Table</h3>
+	<h3 id="CE_SUPERSECTOR" tabindex="-1">CE_SUPERSECTOR Table</h3>
 	<table summary="Super sector - Current Employment Statistics (CES)">
 		<caption>Supersector</caption>
 		<thead>
@@ -295,7 +295,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="CE_DATA_PUB_mbl">CE_DATA_PUB Table</h3>
+	<h3 id="CE_DATA_PUB_mbl" tabindex="-1">CE_DATA_PUB Table</h3>
 	<h4>Data Pub - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -324,7 +324,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 	</div>
 
 	<hr />
-	<h3 id="CE_DATATYYPE_mbl">CE_DATATYYPE Table</h3>
+	<h3 id="CE_DATATYYPE_mbl" tabindex="-1">CE_DATATYYPE Table</h3>
 	<h4>Data Type - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: DATA_TYPE_CODE</p>
@@ -338,7 +338,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 	</div>
 
 	<hr />
-	<h3 id="CE_FOOTNOTE_mbl">CE_FOOTNOTE Table</h3>
+	<h3 id="CE_FOOTNOTE_mbl" tabindex="-1">CE_FOOTNOTE Table</h3>
 	<h4>Footnote - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -352,7 +352,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 	</div>
 
 	<hr />
-	<h3 id="CE_INDUSTRY_mbl">CE_INDUSTRY Table</h3>
+	<h3 id="CE_INDUSTRY_mbl" tabindex="-1">CE_INDUSTRY Table</h3>
 	<h4>Industry - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
@@ -391,7 +391,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 	</div>
 
 	<hr />
-	<h3 id="CE_SEASONAL_mbl">CE_SEASONAL Table</h3>
+	<h3 id="CE_SEASONAL_mbl" tabindex="-1">CE_SEASONAL Table</h3>
 	<h4>Seasonal - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SEASONAL</p>
@@ -405,7 +405,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 	</div>
 
 	<hr />
-	<h3 id="CE_SERIES_mbl">CE_SERIES Table</h3>
+	<h3 id="CE_SERIES_mbl" tabindex="-1">CE_SERIES Table</h3>
 	<h4>Series - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -459,7 +459,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 	</div>
 
 	<hr />
-	<h3 id="CE_SUPERSECTOR_mbl">CE_SUPERSECTOR Table</h3>
+	<h3 id="CE_SUPERSECTOR_mbl" tabindex="-1">CE_SUPERSECTOR Table</h3>
 	<h4>Supersector - Current Employment Statistics (CES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SUPERSECTOR_CODE</p>

@@ -71,7 +71,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="area">area Table</h3>
+	<h3 id="area" tabindex="-1">area Table</h3>
 	<table summary="Area Codes and Area Names - Occupational Employment Statistics (OES)">
 		<caption>Area Codes and Area Names</caption>
 		<thead>
@@ -100,7 +100,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="area_definitions">area_definitions Table</h3>
+	<h3 id="area_definitions" tabindex="-1">area_definitions Table</h3>
 	<table summary="States, Counties, and Metropolitan Specific Areas - Occupational Employment Statistics (OES)">
 		<caption>States, Counties, and Metropolitan Specific Areas</caption>
 		<thead>
@@ -164,7 +164,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="areatype">areatype Table</h3>
+	<h3 id="areatype" tabindex="-1">areatype Table</h3>
 	<table summary="Area Types - Occupational Employment Statistics (OES)">
 		<caption>Area Types</caption>
 		<thead>
@@ -188,7 +188,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="data">data Table</h3>
+	<h3 id="data" tabindex="-1">data Table</h3>
 	<table summary="Current Estimates - Occupational Employment Statistics (OES)">
 		<caption>Current Estimates</caption>
 		<thead>
@@ -227,7 +227,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="datatype">datatype Table</h3>
+	<h3 id="datatype" tabindex="-1">datatype Table</h3>
 	<table summary="Data Types - Occupational Employment Statistics (OES)">
 		<caption>Data Types</caption>
 		<thead>
@@ -256,7 +256,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="footnote">footnote Table</h3>
+	<h3 id="footnote" tabindex="-1">footnote Table</h3>
 	<table summary="Footnotes and Explanation - Occupational Employment Statistics (OES)">
 		<caption>Footnotes and Explanation</caption>
 		<thead>
@@ -280,7 +280,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="industry">industry Table</h3>
+	<h3 id="industry" tabindex="-1">industry Table</h3>
 	<table summary="Industry Codes and Titles - Occupational Employment Statistics (OES)">
 		<caption>Industry Codes and Titles</caption>
 		<thead>
@@ -319,7 +319,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="industry_titles">industry_titles Table</h3>
+	<h3 id="industry_titles" tabindex="-1">industry_titles Table</h3>
 	<table summary="Industry Titles - Occupational Employment Statistics (OES)">
 		<caption>Industry Titles</caption>
 		<thead>
@@ -343,7 +343,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="occugroup">occugroup Table</h3>
+	<h3 id="occugroup" tabindex="-1">occugroup Table</h3>
 	<table summary="Major Occupation Groups codes and Titles - Occupational Employment Statistics (OES)">
 		<caption>Major Occupation Groups Codes and Titles</caption>
 		<thead>
@@ -367,7 +367,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="occupation">occupation Table</h3>
+	<h3 id="occupation" tabindex="-1">occupation Table</h3>
 	<table summary="Detail Occupation Codes and Titles - Occupational Employment Statistics (OES)">
 		<caption>Detail Occupation Codes and Titles</caption>
 		<thead>
@@ -406,7 +406,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="occupation_definitions">occupation_definitions Table</h3>
+	<h3 id="occupation_definitions" tabindex="-1">occupation_definitions Table</h3>
 	<table summary="Occupation Definitions - Occupational Employment Statistics (OES)">
 		<caption>Occupation Definitions</caption>
 		<thead>
@@ -437,7 +437,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="release">release Table</h3>
+	<h3 id="release" tabindex="-1">release Table</h3>
 	<table summary="Reference Date - Occupational Employment Statistics (OES)">
 		<caption>Reference Date</caption>
 		<thead>
@@ -461,7 +461,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="seasonal">Seasonal Table</h3>
+	<h3 id="seasonal" tabindex="-1">Seasonal Table</h3>
 	<table summary="Seasonal Adjustment Indicator - Occupational Employment Statistics (OES)">
 		<caption>Seasonal Adjustment Indicator</caption>
 		<thead>
@@ -485,7 +485,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="sector">sector Table</h3>
+	<h3 id="sector" tabindex="-1">sector Table</h3>
 	<table summary="Industry Sector Codes  and Titles - Occupational Employment Statistics (OES)">
 		<caption>Industry Sector Codes  and Titles</caption>
 		<thead>
@@ -509,7 +509,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 		</tbody>
 	</table>
 
-	<h3 id="series">series Table</h3>
+	<h3 id="series" tabindex="-1">series Table</h3>
 	<table summary="All Series Codes with Start and End Dates - Occupational Employment Statistics (OES)">
 		<caption>All Series Codes with Start and End Dates</caption>
 		<thead>
@@ -585,7 +585,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="area_mbl">area Table</h3>
+	<h3 id="area_mbl" tabindex="-1">area Table</h3>
 	<h4>Area Codes and Area Names - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: area_code</p>
@@ -604,7 +604,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="area_definitions_mbl">area_definitions Table</h3>
+	<h3 id="area_definitions_mbl" tabindex="-1">area_definitions Table</h3>
 	<h4>States, Counties, and Metropolitan Specific Areas - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FIPS</p>
@@ -658,7 +658,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="areatype_mbl">areatype Table</h3>
+	<h3 id="areatype_mbl" tabindex="-1">areatype Table</h3>
 	<h4>Area Types - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: areatype_code</p>
@@ -672,7 +672,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="data_mbl">data Table</h3>
+	<h3 id="data_mbl" tabindex="-1">data Table</h3>
 	<h4>Current Estimates - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: series_id</p>
@@ -701,7 +701,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="datatype_mbl">datatype Table</h3>
+	<h3 id="datatype_mbl" tabindex="-1">datatype Table</h3>
 	<h4>Data Types - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: datatype_code</p>
@@ -720,7 +720,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="footnote_mbl">footnote Table</h3>
+	<h3 id="footnote_mbl" tabindex="-1">footnote Table</h3>
 	<h4>Footnotes and Explanation - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: footnote_code</p>
@@ -734,7 +734,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="industry_mbl">industry Table</h3>
+	<h3 id="industry_mbl" tabindex="-1">industry Table</h3>
 	<h4>Industry Codes and Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: industry_code</p>
@@ -763,7 +763,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="industry_titles_mbl">industry_titles Table</h3>
+	<h3 id="industry_titles_mbl" tabindex="-1">industry_titles Table</h3>
 	<h4>Industry Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: Industry_Code</p>
@@ -777,7 +777,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="occugroup_mbl">occugroup Table</h3>
+	<h3 id="occugroup_mbl" tabindex="-1">occugroup Table</h3>
 	<h4>Major Occupation Groups Codes and Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: occugroup_code</p>
@@ -791,7 +791,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="occupation_mbl">occupation Table</h3>
+	<h3 id="occupation_mbl" tabindex="-1">occupation Table</h3>
 	<h4>Detail Occupation Codes and Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: occupation_code</p>
@@ -820,7 +820,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="occupation_definitions_mbl">occupation_definitions Table</h3>
+	<h3 id="occupation_definitions_mbl" tabindex="-1">occupation_definitions Table</h3>
 	<h4>Occupation Definitions - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OCC_CODE</p>
@@ -839,7 +839,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="release_mbl">release Table</h3>
+	<h3 id="release_mbl" tabindex="-1">release Table</h3>
 	<h4>Reference Date - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: release_date</p>
@@ -853,7 +853,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="seasonal_mbl">seasonal Table</h3>
+	<h3 id="seasonal_mbl" tabindex="-1">seasonal Table</h3>
 	<h4>Seasonal Adjustment Indicator - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: seasonal</p>
@@ -867,7 +867,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="sector_mbl">sector Table</h3>
+	<h3 id="sector_mbl" tabindex="-1">sector Table</h3>
 	<h4>Industry Sector Codes  and Titles - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: sector_code</p>
@@ -881,7 +881,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</div>
 
 	<hr />
-	<h3 id="series_mbl">series Table</h3>
+	<h3 id="series_mbl" tabindex="-1">series Table</h3>
 	<h4>All Series Codes with Start and End Dates - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: series_id</p>
@@ -957,7 +957,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 </ul>
 
 <div class="dsktp_tbl">
-	<h3 id="statemsa">statemsa Table</h3>
+	<h3 id="statemsa" tabindex="-1">statemsa Table</h3>
 	<table summary="States and Areas - Occupational Employment Statistics (OES)">
 		<caption>States and Areas</caption>
 		<thead>
@@ -989,7 +989,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 
 <div class="mbl_tbl">
 	<hr />
-	<h3 id="statemsa_mbl">statemsa Table</h3>
+	<h3 id="statemsa_mbl" tabindex="-1">statemsa Table</h3>
 	<h4>States and Areas - Occupational Employment Statistics (OES)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: state_code</p>

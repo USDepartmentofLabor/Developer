@@ -45,7 +45,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="EN_AREA">EN_AREA</h3>
+	<h3 id="EN_AREA" tabindex="-1">EN_AREA</h3>
 	<table summary="Area - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Area</caption>
 		<thead>
@@ -84,7 +84,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 		</tbody>
 	</table>
 <!--
-	<h3 id="EN_DATA_PUB">EN_DATA_PUB</h3>
+	<h3 id="EN_DATA_PUB" tabindex="-1">EN_DATA_PUB</h3>
 	<table summary="Data Pub - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Data Pub</caption>
 		<thead>
@@ -123,7 +123,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 		</tbody>
 	</table>
 -->
-	<h3 id="EN_FOOTNOTE">EN_FOOTNOTE</h3>
+	<h3 id="EN_FOOTNOTE" tabindex="-1">EN_FOOTNOTE</h3>
 	<table summary="Footnote - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Footnote</caption>
 		<thead>
@@ -147,7 +147,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 		</tbody>
 	</table>
 
-	<h3 id="EN_INDUSTRY">EN_INDUSTRY</h3>
+	<h3 id="EN_INDUSTRY" tabindex="-1">EN_INDUSTRY</h3>
 	<table summary="Industry - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Industry</caption>
 		<thead>
@@ -186,7 +186,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 		</tbody>
 	</table>
 
-	<h3 id="EN_LQAREA">EN_LQAREA</h3>
+	<h3 id="EN_LQAREA" tabindex="-1">EN_LQAREA</h3>
 	<table summary="Location Quotient  Area - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Location Quotient  Area</caption>
 		<thead>
@@ -225,7 +225,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 		</tbody>
 	</table>
 
-	<h3 id="EN_OWNER">EN_OWNER</h3>
+	<h3 id="EN_OWNER" tabindex="-1">EN_OWNER</h3>
 	<table summary="Owner - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Owner</caption>
 		<thead>
@@ -264,7 +264,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 		</tbody>
 	</table>
 <!--
-	<h3 id="EN_SERIES">EN_SERIES</h3>
+	<h3 id="EN_SERIES" tabindex="-1">EN_SERIES</h3>
 	<table summary="Series - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Series</caption>
 		<thead>
@@ -338,7 +338,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 		</tbody>
 	</table>
 -->
-	<h3 id="EN_STATE">EN_STATE</h3>
+	<h3 id="EN_STATE" tabindex="-1">EN_STATE</h3>
 	<table summary="State - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>State</caption>
 		<thead>
@@ -377,7 +377,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 		</tbody>
 	</table>
 
-	<h3 id="EN_TYPE">EN_TYPE</h3>
+	<h3 id="EN_TYPE" tabindex="-1">EN_TYPE</h3>
 	<table summary="Type - Quarterly Census of Employment and Wages (QCEW)">
 		<caption>Type</caption>
 		<thead>
@@ -418,7 +418,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="EN_AREA_mbl">EN_AREA</h3>
+	<h3 id="EN_AREA_mbl" tabindex="-1">EN_AREA</h3>
 	<h4>Area - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -448,7 +448,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 
 	<hr />
 <!--
-	<h3 id="EN_DATA_PUB_mbl">EN_DATA_PUB</h3>
+	<h3 id="EN_DATA_PUB_mbl" tabindex="-1">EN_DATA_PUB</h3>
 	<h4>Data Pub - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -478,7 +478,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 
 	<hr />
 -->
-	<h3 id="EN_FOOTNOTE_mbl">EN_FOOTNOTE</h3>
+	<h3 id="EN_FOOTNOTE_mbl" tabindex="-1">EN_FOOTNOTE</h3>
 	<h4>Footnote - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: FOOTNOTE_CODE</p>
@@ -492,7 +492,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 	</div>
 
 	<hr />
-	<h3 id="EN_INDUSTRY_mbl">EN_INDUSTRY</h3>
+	<h3 id="EN_INDUSTRY_mbl" tabindex="-1">EN_INDUSTRY</h3>
 	<h4>Industry - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: INDUSTRY_CODE</p>
@@ -521,7 +521,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 	</div>
 
 	<hr />
-	<h3 id="EN_LQAREA_mbl">EN_LQAREA</h3>
+	<h3 id="EN_LQAREA_mbl" tabindex="-1">EN_LQAREA</h3>
 	<h4>Location Quotient Area - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: AREA_CODE</p>
@@ -550,7 +550,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 	</div>
 
 	<hr />
-	<h3 id="EN_OWNER_mbl">EN_OWNER</h3>
+	<h3 id="EN_OWNER_mbl" tabindex="-1">EN_OWNER</h3>
 	<h4>Owner - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: OWNER_CODE</p>
@@ -580,7 +580,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 
 	<hr />
 <!--
-	<h3 id="EN_SERIES_mbl">EN_SERIES</h3>
+	<h3 id="EN_SERIES_mbl" tabindex="-1">EN_SERIES</h3>
 	<h4>Series - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: SERIES_ID</p>
@@ -645,7 +645,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 
 	<hr />
 -->
-	<h3 id="EN_STATE_mbl">EN_STATE</h3>
+	<h3 id="EN_STATE_mbl" tabindex="-1">EN_STATE</h3>
 	<h4>State - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: STATE_CODE</p>
@@ -674,7 +674,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 	</div>
 
 	<hr />
-	<h3 id="EN_TYPE_mbl">EN_TYPE</h3>
+	<h3 id="EN_TYPE_mbl" tabindex="-1">EN_TYPE</h3>
 	<h4>Type - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TYPE_CODE</p>

@@ -36,7 +36,7 @@ description: The dataset contains all concluded WHD compliance actions since FY 
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="full">full Table</h3>
+	<h3 id="full" tabindex="-1">full Table</h3>
 	<table summary="Full - WHD compliance - contains all concluded WHD compliance actions since FY 2008">
 		<caption>Full</caption>
 		<thead>
@@ -150,7 +150,7 @@ description: The dataset contains all concluded WHD compliance actions since FY 
 		</tbody>
 	</table>
 
-	<h3 id="foodservice">foodService Table</h3>
+	<h3 id="foodservice" tabindex="-1">foodService Table</h3>
 	<table summary="Food Service - WHD compliance">
 		<caption>Food Service</caption>
 		<thead>
@@ -264,7 +264,7 @@ description: The dataset contains all concluded WHD compliance actions since FY 
 		</tbody>
 	</table>
 
-	<h3 id="hospitality">hospitality Table</h3>
+	<h3 id="hospitality" tabindex="-1">hospitality Table</h3>
 	<table summary="Hospitality - WHD compliance">
 		<caption>Hospitality</caption>
 		<thead>
@@ -378,7 +378,7 @@ description: The dataset contains all concluded WHD compliance actions since FY 
 		</tbody>
 	</table>
 
-	<h3 id="retail">retail Table</h3>
+	<h3 id="retail" tabindex="-1">retail Table</h3>
 	<table summary="Retail - WHD compliance - contains all concluded WHD compliance actions since FY 2008">
 		<caption>Retail</caption>
 		<thead>
@@ -494,7 +494,7 @@ description: The dataset contains all concluded WHD compliance actions since FY 
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="full_mbl">full Table</h3>
+	<h3 id="full_mbl" tabindex="-1">full Table</h3>
 	<h4>Full - WHD compliance - contains all concluded WHD compliance actions since FY 2008</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: trade_nm</p>
@@ -598,7 +598,7 @@ description: The dataset contains all concluded WHD compliance actions since FY 
 	</div>
 
 	<hr />
-	<h3 id="foodservice_mbl">foodService Table</h3>
+	<h3 id="foodservice_mbl" tabindex="-1">foodService Table</h3>
 	<h4>Food Service - WHD compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: trade_nm</p>
@@ -702,7 +702,7 @@ description: The dataset contains all concluded WHD compliance actions since FY 
 	</div>
 
 	<hr />
-	<h3 id="hospitality_mbl">hospitality Table</h3>
+	<h3 id="hospitality_mbl" tabindex="-1">hospitality Table</h3>
 	<h4>Hospitality - WHD compliance</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: trade_nm</p>
@@ -806,7 +806,7 @@ description: The dataset contains all concluded WHD compliance actions since FY 
 	</div>
 
 	<hr />
-	<h3 id="retail_mbl">retail Table</h3>
+	<h3 id="retail_mbl" tabindex="-1">retail Table</h3>
 	<h4>Retail - WHD compliance - contains all concluded WHD compliance actions since FY 2008</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: trade_nm</p>

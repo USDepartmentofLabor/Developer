@@ -60,7 +60,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 </div>
 
 <div class="dsktp_tbl">
-	<h3 id="NumberOfRequestsPerKeys">NumberOfRequestsPerKeys</h3>
+	<h3 id="NumberOfRequestsPerKeys" tabindex="-1">NumberOfRequestsPerKeys</h3>
 	<table summary="Number of Requests Per Keys - API Metrics (per key)">
 		<caption>Number of Requests Per Keys</caption>
 		<thead>
@@ -84,7 +84,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="NumberOfRequestsPerDayByKeys">NumberOfRequestsPerDayByKeys</h3>
+	<h3 id="NumberOfRequestsPerDayByKeys" tabindex="-1">NumberOfRequestsPerDayByKeys</h3>
 	<table summary="Number of Requests Per Day By Keys - API Metrics (per key)">
 		<caption>Number of Requests Per Day By Keys</caption>
 		<thead>
@@ -113,7 +113,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="NumberOfRequestsPerMonthByKeys">NumberOfRequestsPerMonthByKeys</h3>
+	<h3 id="NumberOfRequestsPerMonthByKeys" tabindex="-1">NumberOfRequestsPerMonthByKeys</h3>
 	<table summary="Number of Requests Per Month By Keys - API Metrics (per key)">
 		<caption>Number of Requests Per Month By Keys</caption>
 		<thead>
@@ -142,7 +142,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="NumberOfRequestsPerYearByKeys">NumberOfRequestsPerYearByKeys</h3>
+	<h3 id="NumberOfRequestsPerYearByKeys" tabindex="-1">NumberOfRequestsPerYearByKeys</h3>
 	<table summary="Number of Requests Per Year By Keys - API Metrics (per key)">
 		<caption>Number of Requests Per Year By Keys</caption>
 		<thead>
@@ -171,7 +171,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="NumberOfRequestsPerYearByWeeks">NumberOfRequestsPerYearByWeeks</h3>
+	<h3 id="NumberOfRequestsPerYearByWeeks" tabindex="-1">NumberOfRequestsPerYearByWeeks</h3>
 	<table summary="Number of Requests Per Year By Weeks - API Metrics (per key)">
 		<caption>Number of Requests Per Year By Weeks</caption>
 		<thead>
@@ -205,7 +205,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="TopDatasetsPerKeys">TopDatasetsPerKeys</h3>
+	<h3 id="TopDatasetsPerKeys" tabindex="-1">TopDatasetsPerKeys</h3>
 	<table summary="Top Datasets Per Keys - API Metrics (per key)">
 		<caption>Top Datasets Per Keys</caption>
 		<thead>
@@ -234,7 +234,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="TopDatasetsPerYearPerKeys">TopDatasetsPerYearPerKeys</h3>
+	<h3 id="TopDatasetsPerYearPerKeys" tabindex="-1">TopDatasetsPerYearPerKeys</h3>
 	<table summary="Top Datasets Per Year Per Keys - API Metrics (per key)">
 		<caption>Top Datasets Per Year Per Keys</caption>
 		<thead>
@@ -263,7 +263,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="TopDatasetsPerMonthPerKeys">TopDatasetsPerMonthPerKeys</h3>
+	<h3 id="TopDatasetsPerMonthPerKeys" tabindex="-1">TopDatasetsPerMonthPerKeys</h3>
 	<table summary="Top Datasets Per Month Per Keys - API Metrics (per key)">
 		<caption>Top Datasets Per Month Per Keys</caption>
 		<thead>
@@ -292,7 +292,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="TopDatasetsPerWeekPerKeys">TopDatasetsPerWeekPerKeys</h3>
+	<h3 id="TopDatasetsPerWeekPerKeys" tabindex="-1">TopDatasetsPerWeekPerKeys</h3>
 	<table summary="Top Datasets Per Week Per Keys - API Metrics (per key)">
 		<caption>Top Datasets Per Week Per Keys</caption>
 		<thead>
@@ -321,7 +321,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="TopDatasetsPerDayPerKeys">TopDatasetsPerDayPerKeys</h3>
+	<h3 id="TopDatasetsPerDayPerKeys" tabindex="-1">TopDatasetsPerDayPerKeys</h3>
 	<table summary="Top Datasets Per Day Per Keys - API Metrics (per key)">
 		<caption>Top Datasets Per Day Per Keys</caption>
 		<thead>
@@ -350,7 +350,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="TopDataTablesPerKeys">TopDataTablesPerKeys</h3>
+	<h3 id="TopDataTablesPerKeys" tabindex="-1">TopDataTablesPerKeys</h3>
 	<table summary="Top Data Tables Per Keys - API Metrics (per key)">
 		<caption>Top Data Tables Per Keys</caption>
 		<thead>
@@ -379,7 +379,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="TopDataTablesPerKeyDays">TopDataTablesPerKeyDays</h3>
+	<h3 id="TopDataTablesPerKeyDays" tabindex="-1">TopDataTablesPerKeyDays</h3>
 	<table summary="Top Data Tables Per Key Days - API Metrics (per key)">
 		<caption>Top Data Tables Per Key Days</caption>
 		<thead>
@@ -408,7 +408,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="TopDataTablesPerKeyMonths">TopDataTablesPerKeyMonths</h3>
+	<h3 id="TopDataTablesPerKeyMonths" tabindex="-1">TopDataTablesPerKeyMonths</h3>
 	<table summary="Top Data Tables Per Key Months - API Metrics (per key)">
 		<caption>Top Data Tables Per Key Months</caption>
 		<thead>
@@ -437,7 +437,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="TopDataTablesPerKeyWeeks">TopDataTablesPerKeyWeeks</h3>
+	<h3 id="TopDataTablesPerKeyWeeks" tabindex="-1">TopDataTablesPerKeyWeeks</h3>
 	<table summary="Top Data Tables Per Key Weeks - API Metrics (per key)">
 		<caption>Top Data Tables Per Key Weeks</caption>
 		<thead>
@@ -466,7 +466,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</tbody>
 	</table>
 
-	<h3 id="TopDataTablesPerKeyYears">TopDataTablesPerKeyYears</h3>
+	<h3 id="TopDataTablesPerKeyYears" tabindex="-1">TopDataTablesPerKeyYears</h3>
 	<table summary="Top Data Tables Per Key Years - API Metrics (per key)">
 		<caption>Top Data Tables Per Key Years</caption>
 		<thead>
@@ -497,7 +497,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 </div>
 
 <div class="mbl_tbl">
-	<h3 id="NumberOfRequestsPerKeys_mbl">NumberOfRequestsPerKeys</h3>
+	<h3 id="NumberOfRequestsPerKeys_mbl" tabindex="-1">NumberOfRequestsPerKeys</h3>
 	<h4>Number of Requests Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -511,7 +511,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="NumberOfRequestsPerDayByKeys_mbl">NumberOfRequestsPerDayByKeys</h3>
+	<h3 id="NumberOfRequestsPerDayByKeys_mbl" tabindex="-1">NumberOfRequestsPerDayByKeys</h3>
 	<h4>Number of Requests Per Day By Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -530,7 +530,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="NumberOfRequestsPerMonthByKeys_mbl">NumberOfRequestsPerMonthByKeys</h3>
+	<h3 id="NumberOfRequestsPerMonthByKeys_mbl" tabindex="-1">NumberOfRequestsPerMonthByKeys</h3>
 	<h4>Number of Requests Per Month By Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -549,7 +549,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="NumberOfRequestsPerYearByKeys_mbl">NumberOfRequestsPerYearByKeys</h3>
+	<h3 id="NumberOfRequestsPerYearByKeys_mbl" tabindex="-1">NumberOfRequestsPerYearByKeys</h3>
 	<h4>Number of Requests Per Year By Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -568,7 +568,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="NumberOfRequestsPerYearByWeeks_mbl">NumberOfRequestsPerYearByWeeks</h3>
+	<h3 id="NumberOfRequestsPerYearByWeeks_mbl" tabindex="-1">NumberOfRequestsPerYearByWeeks</h3>
 	<h4>Number of Requests Per Year By Weeks </h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -592,7 +592,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="TopDatasetsPerKeys_mbl">TopDatasetsPerKeys</h3>
+	<h3 id="TopDatasetsPerKeys_mbl" tabindex="-1">TopDatasetsPerKeys</h3>
 	<h4>Top Datasets Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -611,7 +611,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="TopDatasetsPerYearPerKeys_mbl">TopDatasetsPerYearPerKeys</h3>
+	<h3 id="TopDatasetsPerYearPerKeys_mbl" tabindex="-1">TopDatasetsPerYearPerKeys</h3>
 	<h4>Top Datasets Per Year Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -630,7 +630,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="TopDatasetsPerMonthPerKeys_mbl">TopDatasetsPerMonthPerKeys</h3>
+	<h3 id="TopDatasetsPerMonthPerKeys_mbl" tabindex="-1">TopDatasetsPerMonthPerKeys</h3>
 	<h4>Top Datasets Per Month Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -649,7 +649,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="TopDatasetsPerWeekPerKeys_mbl">TopDatasetsPerWeekPerKeys</h3>
+	<h3 id="TopDatasetsPerWeekPerKeys_mbl" tabindex="-1">TopDatasetsPerWeekPerKeys</h3>
 	<h4>Top Datasets Per Week Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -668,7 +668,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="TopDatasetsPerDayPerKeys_mbl">TopDatasetsPerDayPerKeys</h3>
+	<h3 id="TopDatasetsPerDayPerKeys_mbl" tabindex="-1">TopDatasetsPerDayPerKeys</h3>
 	<h4>Top Datasets Per Day Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -687,7 +687,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="TopDataTablesPerKeys_mbl">TopDataTablesPerKeys</h3>
+	<h3 id="TopDataTablesPerKeys_mbl" tabindex="-1">TopDataTablesPerKeys</h3>
 	<h4>Top Data Tables Per Keys</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -706,7 +706,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="TopDataTablesPerKeyDays_mbl">TopDataTablesPerKeyDays</h3>
+	<h3 id="TopDataTablesPerKeyDays_mbl" tabindex="-1">TopDataTablesPerKeyDays</h3>
 	<h4>Top Data Tables Per Key Days</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -725,7 +725,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="TopDataTablesPerKeyMonths_mbl">TopDataTablesPerKeyMonths</h3>
+	<h3 id="TopDataTablesPerKeyMonths_mbl" tabindex="-1">TopDataTablesPerKeyMonths</h3>
 	<h4>Top Data Tables Per Key Months</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -744,7 +744,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="TopDataTablesPerKeyWeeks_mbl">TopDataTablesPerKeyWeeks</h3>
+	<h3 id="TopDataTablesPerKeyWeeks_mbl" tabindex="-1">TopDataTablesPerKeyWeeks</h3>
 	<h4>Top Data Tables Per Key Weeks</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
@@ -763,7 +763,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 	</div>
 
 	<hr />
-	<h3 id="TopDataTablesPerKeyYears_mbl">TopDataTablesPerKeyYears</h3>
+	<h3 id="TopDataTablesPerKeyYears_mbl" tabindex="-1">TopDataTablesPerKeyYears</h3>
 	<h4>Top Data Tables Per Key Years</h4>
 	<div class="odd_row">
 		<p class="mbl-strng">Column Name: TOKEN</p>
