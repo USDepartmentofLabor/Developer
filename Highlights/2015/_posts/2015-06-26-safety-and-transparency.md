@@ -36,7 +36,7 @@ It’s government transparency at its best.
 And that’s not all you’ll find in the API. It will soon carry data from the department’s other enforcement agencies:
 the [Employee Benefits Security Administration](http://dol.gov/ebsa),
 [Office of Federal Contract Compliance Programs](http://dol.gov/ofccp),
-[Mine Safety and Health Administration](http://msha.gov), and [Wage and Hour Division](http://dol.gov/whd).
+[Mine Safety and Health Administration](http://www.msha.gov), and [Wage and Hour Division](http://dol.gov/whd).
 
 
 

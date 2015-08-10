@@ -36,10 +36,12 @@ getJobsListing(string query, string employmentType, string region, string locali
 
 <p>The following queries are examples of requests that can be made to the API to call the Summer Jobs API. Each SDK will require different usages of these forms. <span style="COLOR: #f00">The Summer Jobs API requires either the query parameter to be filled out or, either the region or locality field to be filed out.</span></p>
 
-- ```http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27json%27&amp;query=%27Nurse%27&amp;region=&amp;locality=&amp;skipCount=1```
-- ```http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27xml%27&amp;query=&amp;region=%27FL%27&amp;locality=&amp;skipCount=99```
-- ```http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27xml%27&amp;query=&amp;region=&amp;locality=%27Tampa%27&amp;skipCount=99```
-- ```http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27atom%27&amp;query=%27Nurse%27&amp;region=%27New York%27&amp;locality=%27New York%27&amp;skipCount=1```
+<ul class="force_wrap apiurl">
+	<li><p>http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27json%27&amp;query=%27Nurse%27&amp;region=&amp;locality=&amp;skipCount=1</p></li>
+	<li><p>http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27xml%27&amp;query=&amp;region=%27FL%27&amp;locality=&amp;skipCount=99</p></li>
+	<li><p>http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27xml%27&amp;query=&amp;region=&amp;locality=%27Tampa%27&amp;skipCount=99</p></li>
+	<li><p>http://api.dol.gov/V1/SummerJobs/getJobsListing?format=%27atom%27&amp;query=%27Nurse%27&amp;region=%27New York%27&amp;locality=%27New York%27&amp;skipCount=1</p></li>
+</ul>
 
 <a href ="http://api.dol.gov/V1/SummerJobs/$metadata" class="button radius button_dataset">Browse Metadata</a>
 

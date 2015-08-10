@@ -32,7 +32,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 	</ul>
 </div>
 
-<div class="mblp_tbl">
+<div class="mbl_tbl">
 	<ul>
 		<li><a href="#EN_AREA_mbl">EN_AREA</a></li>
 		<li><a href="#EN_FOOTNOTE_mbl">EN_FOOTNOTE</a></li>
@@ -83,6 +83,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 			</tr>
 		</tbody>
 	</table>
+
 <!--
 	<h3 id="EN_DATA_PUB" tabindex="-1">EN_DATA_PUB</h3>
 	<table summary="Data Pub - Quarterly Census of Employment and Wages (QCEW)">
@@ -263,6 +264,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 			</tr>
 		</tbody>
 	</table>
+
 <!--
 	<h3 id="EN_SERIES" tabindex="-1">EN_SERIES</h3>
 	<table summary="Series - Quarterly Census of Employment and Wages (QCEW)">
@@ -446,8 +448,8 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 		<p><span class="mbl-strng">Data Type:</span> varchar (5)</p>		
 	</div>
 
-	<hr />
 <!--
+	<hr />
 	<h3 id="EN_DATA_PUB_mbl" tabindex="-1">EN_DATA_PUB</h3>
 	<h4>Data Pub - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">
@@ -578,8 +580,8 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 		<p><span class="mbl-strng">Data Type:</span> varchar (5)</p>		
 	</div>
 
-	<hr />
 <!--
+	<hr />
 	<h3 id="EN_SERIES_mbl" tabindex="-1">EN_SERIES</h3>
 	<h4>Series - Quarterly Census of Employment and Wages (QCEW)</h4>
 	<div class="odd_row">

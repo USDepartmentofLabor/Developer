@@ -73,3 +73,7 @@ Website Release Notes
 * Fixed alignment and left-right scrolling on some mobile pages
 * Fixed apiv1 dataset names appearing in all caps instead of mixed-case
 * Minor Accessibility, Usability & Cosmetic fixes
+
+###2.2.3 - August 10, 2015
+* Fixed skip-nav for compatibility with Chrome
+* Minor Accessibility, Usability & Cosmetic fixes

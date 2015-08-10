@@ -520,7 +520,13 @@ description: The evaluation employs administrative data from 12 states, covering
 	</div>
 </div>
 
-<h3 id="lookup_mbl" tabindex="-1">Lookup Codes</h3>
+<div class="dsktp_tbl">
+	<h3 id="lookup" tabindex="-1">Lookup Codes</h3>
+</div>
+<div class="mbl_tbl">
+	<h3 id="lookup_mbl" tabindex="-1">Lookup Codes</h3>
+</div>
+
 <h4>Industry Codes:</h4>
 <ul>
 	<li>1 = Manufacturing</li>

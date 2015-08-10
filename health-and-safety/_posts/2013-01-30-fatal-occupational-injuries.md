@@ -1111,8 +1111,8 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		<p><span class="mbl-strng">Data Type:</span> Varchar(3)</p>		
 	</div>
 
-	<hr />
 	<!--
+	<hr />
 	<h3 id="FI_SUPERSECTOR_mbl" tabindex="-1">FI_SUPERSECTOR Table</h3>
 	<h4>Super Sector - Fatal Occupational Injuries</h4>
 	<div class="odd_row">
