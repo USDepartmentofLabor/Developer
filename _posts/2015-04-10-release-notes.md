@@ -81,3 +81,7 @@ Website Release Notes
 ###2.2.4 - September 29, 2015
 * ILAB Child Labor - Sweat and Toil App/dataset highlight
 * Changed "report a bug" link to point to developer.dol.gov repo on github
+
+
+###2.2.5 - September 29, 2015
+* Updated mobile highlight section on home page to ILAB Child labor.
