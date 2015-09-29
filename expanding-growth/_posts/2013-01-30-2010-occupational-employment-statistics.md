@@ -3,6 +3,7 @@ layout: post
 title: 2010 Occupational Employment Statistics
 created: 1359577855
 description: The Occupational Employment Statistics (OES) program conducts a semi-annual mail survey designed to produce estimates of employment and wages for specific occupations.
+categories: [expanding-growth ,dataset]
 ---
 
 <div class="force_wrap apiurl">

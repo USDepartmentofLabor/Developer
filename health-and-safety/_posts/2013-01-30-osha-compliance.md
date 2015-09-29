@@ -3,6 +3,7 @@ layout: post
 title: DOL OSHA Compliance
 created: 1359572131
 description: This Dataset provides summaries of fatalities and catastrophes resulting in the hospitalization of three or more workers.
+categories: [health-and-safety, dataset]
 ---
 
 <div class="force_wrap apiurl">

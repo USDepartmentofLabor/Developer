@@ -3,6 +3,7 @@ layout: post
 title: Current Employment Statistics (CES)
 created: 1359575092
 description: Each month the Current Employment Statistics (CES) program surveys about 141,000 businesses and government agencies, representing approximately 486,000 individual worksites, in order to provide detailed industry data on employment, hours, and earnings of workers on nonfarm payrolls.
+categories: [expanding-growth ,dataset]
 ---
 
 <div class="force_wrap apiurl">
