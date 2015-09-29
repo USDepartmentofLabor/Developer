@@ -77,3 +77,7 @@ Website Release Notes
 ###2.2.3 - August 10, 2015
 * Fixed skip-nav for compatibility with Chrome
 * Minor Accessibility, Usability & Cosmetic fixes
+
+###2.2.4 - September 29, 2015
+* ILAB Child Labor - Sweat and Toil App/dataset highlight
+* Changed "report a bug" link to point to developer.dol.gov repo on github
