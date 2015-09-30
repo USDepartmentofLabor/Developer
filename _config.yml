@@ -17,3 +17,5 @@ url: "http://developer.dol.gov"
 markdown: kramdown
 highlighter: pygments
 permalink: /:categories/:title
+gems:
+  - jekyll-redirect-from
