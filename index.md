@@ -24,13 +24,13 @@ Use the same technology that runs DOL's next generation API. Turn your databases
 
 {% capture cpi %}
 
-## Safety and Transparency - Through Data
-The OSHA datasets include details on the
-roughly 90,000 OSHA inspections conducted
-every year, and covers more than four decades.
-The new API that is being released to support
-these new datasets represents the next stage
-in DOL’s open data efforts. 
+##Ending Child Labor in the Digital Age
+
+The ILAB datasets are a comprehensive resource
+documenting child labor and forced labor worldwide.
+Now these data and the code for our new Sweat & Toil
+app are available for you to use in your own applications,
+data visualizations and mashups.
 
 {% endcapture %}
 
