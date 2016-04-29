@@ -5,9 +5,12 @@ created: 1359641735
 description: The dataset consists of inspection case detail for approximately 90,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to - www.osha.gov
 ---
 
-#OSHA Enforcement
+#OSHA Enforcement 
 
-<p>The dataset consists of inspection case detail for approximately 90,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to: <a href="http://www.osha.gov">www.osha.gov</a></p>
+<p>The dataset consists of inspection case detail for approximately 90,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to: <a href="http://www.osha.gov">www.osha.gov</a>.</p>
+
+<p> OSHA's metric codes can be <a href=" http://enforcedata.dol.gov/views/dd_display.php" target="_blank">Viewed</a> or <a href="{{ site.baseurl }}/docs/IMISCodes.xlsx" target="_blank">Downloaded</a>.
+</p>
 
 <!--a href ="http://api.dol.gov/V1/Safety/abc/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=xyz" class="button radius button_dataset">Explore This Data</a-->
@@ -307,6 +310,8 @@ description: The dataset consists of inspection case detail for approximately 90
 	<div class="force_wrap apiurl">
          <p>https://data.dol.gov/get/inspection</p>
     </div>
+    	<div class="force_wrap apiurl">
+         <p>http://enforcedata.dol.gov/views/dd_display.php</p></div>
 	<p>The following table highlights OSHA inspections conducted by OSHA compliance safety and health officers under the Occupational Safety and Health Act of 1970 (the Act) to determine whether employers are complying with standards issued by the agency for safe and healthful workplaces. OSHA publishes information on its inspection and citation activity on the Internet under the provisions of the Electronic Freedom of Information Act. Data for a given inspection will be present if data exists for the inspection and the inspection is indicated as being closed.</p>
 	<table summary="OSHA Inspection - OSHA Enforcement">
 		<caption>inspection</caption>
