@@ -22,3 +22,5 @@ developerportalqa_deploy.yml
 
 # sftp configuration file
 sftp-config.json
+.bundle/
+
