@@ -2,7 +2,7 @@
 layout: post
 title: ILAB - Child Labor
 ---
-##The Power of Open Data: Ending Child Labor in the Digital Age
+## The Power of Open Data: Ending Child Labor in the Digital Age
 
 Thirteen-year-old Qusai was about to enter the sixth grade when the conflict in his hometown of Homs, Syria, 
 caused him to drop out of school, flee with his family to Jordan, and spend his days sifting through scrap 
@@ -21,11 +21,11 @@ flagship reports that raise awareness about child labor and forced labor, *Findi
 *List of Goods Produced by Child Labor or Forced Labor*; and *List of Products Produced by Forced or Indentured 
 Child Labor*. ILAB also has just released a new mobile app called
 **[Sweat & Toil](https://itunes.apple.com/us/app/sweat-toil-child-labor-forced/id1018240593?ls=1&mt=8)** to make over 1,000 pages of data 
-on these problems more accessible.  Now ILAB is making the [source data](/others/sweat-and-toil/) open and available 
+on these problems more accessible.  Now ILAB is making the [source data](/others/sweat-and-toil) open and available 
 to everyone. What can you do to help [#EndChildLabor](http://www.dol.gov/EndChildLabor)? 
 
 
-##The Data
+## The Data
 
 The ILAB datasets contain summaries of countries’ efforts to eliminate child labor; statistics on child labor; 
 information on goods produced with child labor or forced labor; information on laws countries have adopted and 
@@ -39,7 +39,7 @@ of the actions it is already taking to address child labor and forced labor. But
 Transformative change can come from anywhere. We’re excited to see how you will make a difference.
 
 
-##The API & The App
+## The API & The App
 
 Through its API, the Labor Department is opening the gates to ILAB’s massive reservoir of data on child and forced 
 labor. Code from the Sweat & Toil app is also [open source](https://github.com/USDepartmentofLabor/Child-Labor), 
