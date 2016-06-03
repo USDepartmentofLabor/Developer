@@ -7,7 +7,7 @@
 
 # Site settings
 title: United States Department of Labor Developer Portal
-email: neyman.neil.e@dol.gov
+email: pulsier.michael@dol.gov
 description: > # this means to ignore newlines until "baseurl:"
   Department of Labor Developer API Site
 baseurl: ""
