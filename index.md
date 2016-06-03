@@ -24,7 +24,7 @@ Use the same technology that runs DOL's next generation API. Turn your databases
 
 {% capture cpi %}
 
-##Ending Child Labor in the Digital Age
+## Ending Child Labor in the Digital Age
 
 The ILAB datasets are a comprehensive resource
 documenting child labor and forced labor worldwide.
