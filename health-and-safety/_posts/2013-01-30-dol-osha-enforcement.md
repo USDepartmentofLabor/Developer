@@ -5,7 +5,7 @@ created: 1359641735
 description: The dataset consists of inspection case detail for approximately 90,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to - www.osha.gov
 ---
 
-#OSHA Enforcement 
+# OSHA Enforcement 
 
 <p>The dataset consists of inspection case detail for approximately 90,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to: <a href="http://www.osha.gov">www.osha.gov</a>.</p>
 
@@ -14,6 +14,8 @@ description: The dataset consists of inspection case detail for approximately 90
 
 <!--a href ="http://api.dol.gov/V1/Safety/abc/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=xyz" class="button radius button_dataset">Explore This Data</a-->
+<br>
+<p>The following datasets use offset for pagination so you can gather more than the limit of 200 records. For more detailed information <a href="/accessing-the-apis-using-http-requests#offset-page">read about the how to use our <strong>offset</strong> under the "<strong>data.dol.gov</strong>" tab</a>.</p>
 
 ## Dataset Tables
 
