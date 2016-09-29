@@ -170,7 +170,7 @@ Forced Labor Reports page</a>.
         </tbody>
     </table>
 
-    <h3 id="advancement_level" tabindex="-1">Advancement Level Table</h3>
+    <h3 id="advancement_level" tabindex="-1">Advancement Levels Table</h3>
     <div class="force_wrap apiurl">
         <p>https://data.dol.gov/get/SweatToilAll_AdvancementLevels</p>
     </div>
@@ -191,14 +191,14 @@ Forced Labor Reports page</a>.
             <td>int</td>
         </tr>
         <tr>
-            <th scope="row">advancement_name</th>
+            <th scope="row">name</th>
             <td>Advancement level (e.g. Significant, Moderate, Minimal, or No Advancement, etc.)</td>
             <td>varchar</td>
         </tr>
         </tbody>
     </table>
 
-    <h3 id="assesments" tabindex="-1">Assessments Table</h3>
+    <h3 id="assessments" tabindex="-1">Assessments Table</h3>
     <div class="force_wrap apiurl">
         <p>https://data.dol.gov/get/SweatToilAll_Assessments</p>
     </div>
@@ -228,6 +228,11 @@ Forced Labor Reports page</a>.
             <th scope="row">country_name</th>
             <td>Country name</td>
             <td>varchar</td>
+        </tr>
+        <tr>
+            <th scope="row">year</th>
+            <td>Year</td>
+            <td>int</td>
         </tr>
         <tr>
             <th scope="row">advancement_level_id</th>
@@ -888,7 +893,7 @@ Forced Labor Reports page</a>.
         <p><span class="mbl-strng">Data Type:</span> int</p>
     </div>
     <div class="even_row">
-        <p class="mbl-strng">Column Name: advancement_name</p>
+        <p class="mbl-strng">Column Name: name</p>
         <p><span class="mbl-strng">Column Description:</span> Advancement level (Significant, Moderate, Minimal, or No Advancement, etc.)</p>
         <p><span class="mbl-strng">Data Type:</span> varchar</p>
     </div>
@@ -915,8 +920,13 @@ Forced Labor Reports page</a>.
         <p><span class="mbl-strng">Column Description:</span> Country name</p>
         <p><span class="mbl-strng">Data Type:</span> varchar</p>
     </div>
+	<div class="even_row">
+        <p class="mbl-strng">Column Name: year</p>
+        <p><span class="mbl-strng">Column Description:</span> Year</p>
+        <p><span class="mbl-strng">Data Type:</span> int</p>
+	</div>
     <div class="even_row">
-        <p class="mbl-strng">Column Name: advancement_id</p>
+        <p class="mbl-strng">Column Name: advancement_level_id</p>
         <p><span class="mbl-strng">Column Description:</span> Advancement level identifier</p>
         <p><span class="mbl-strng">Data Type:</span> int</p>
     </div>
@@ -1228,11 +1238,16 @@ Forced Labor Reports page</a>.
         <p><span class="mbl-strng">Data Type:</span> int</p>
     </div>
     <div class="odd_row">
+        <p class="mbl-strng">Column Name: country</p>
+        <p><span class="mbl-strng">Column Description:</span> Country name</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar</p>
+    </div>
+    <div class="even_row">
         <p class="mbl-strng">Column Name: area</p>
         <p><span class="mbl-strng">Column Description:</span> Suggested action area</p>
         <p><span class="mbl-strng">Data Type:</span> varchar</p>
     </div>
-    <div class="even_row">
+    <div class="odd_row">
         <p class="mbl-strng">Column Name: action</p>
         <p><span class="mbl-strng">Column Description:</span> Suggested action</p>
         <p><span class="mbl-strng">Data Type:</span> text</p>

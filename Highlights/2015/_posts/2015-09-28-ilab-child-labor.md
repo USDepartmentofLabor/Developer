@@ -52,4 +52,6 @@ make more data readily available and useful to the public.
 
   
 
-<a href="{{ site.baseurl  }}/others/sweat-and-toil" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data</a>
+<a href="{{ site.baseurl  }}/others/sweat-and-toil" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data (2014)</a>
+<br>
+<a href="{{ site.baseurl  }}/others/sweat-and-toil-all" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data (2015)</a>
