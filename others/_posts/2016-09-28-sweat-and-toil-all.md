@@ -842,10 +842,16 @@ Forced Labor Reports page</a>.
         <p><span class="mbl-strng">Data Type:</span> int</p>
     </div>
     <div class="even_row">
+        <p class="mbl-strng">Column Name: region</p>
+        <p><span class="mbl-strng">Column Description:</span> Region name</p>
+        <p><span class="mbl-strng">Data Type:</span> varchar</p>
+    </div>
+    <div class="even_row">
         <p class="mbl-strng">Column Name: num_territories</p>
         <p><span class="mbl-strng">Number of territories within country</p>
         <p><span class="mbl-strng">Data Type:</span> int</p>
     </div>
+
 
 	<hr />
     <h3 id="territory_mbl" tabindex="-1">Territories Table</h3>
@@ -870,7 +876,7 @@ Forced Labor Reports page</a>.
     </div>
     <div class="even_row">
         <p class="mbl-strng">Column Name: country_id</p>
-        <p><span class="mbl-strng">Country identifier</p>
+        <p><span class="mbl-strng">Column Description:</span> Country identifier</p>
         <p><span class="mbl-strng">Data Type:</span> int</p>
     </div>
     <div class="odd_row">
@@ -925,17 +931,17 @@ Forced Labor Reports page</a>.
         <p><span class="mbl-strng">Column Description:</span> Year</p>
         <p><span class="mbl-strng">Data Type:</span> int</p>
 	</div>
-    <div class="even_row">
+    <div class="odd_row">
         <p class="mbl-strng">Column Name: advancement_level_id</p>
         <p><span class="mbl-strng">Column Description:</span> Advancement level identifier</p>
         <p><span class="mbl-strng">Data Type:</span> int</p>
     </div>
-    <div class="odd_row">
+    <div class="even_row">
         <p class="mbl-strng">Column Name: advancement_level</p>
         <p><span class="mbl-strng">Column Description:</span> Advancement level</p>
         <p><span class="mbl-strng">Data Type:</span> varchar</p>
     </div>
-    <div class="even_row">
+    <div class="odd_row">
         <p class="mbl-strng">Column Name: description</p>
         <p><span class="mbl-strng">Column Description:</span> Country assessment summary description</p>
         <p><span class="mbl-strng">Data Type:</span> text</p>
