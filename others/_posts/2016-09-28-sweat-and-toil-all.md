@@ -846,7 +846,7 @@ Forced Labor Reports page</a>.
         <p><span class="mbl-strng">Column Description:</span> Region name</p>
         <p><span class="mbl-strng">Data Type:</span> varchar</p>
     </div>
-    <div class="even_row">
+    <div class="odd_row">
         <p class="mbl-strng">Column Name: num_territories</p>
         <p><span class="mbl-strng">Number of territories within country</p>
         <p><span class="mbl-strng">Data Type:</span> int</p>
