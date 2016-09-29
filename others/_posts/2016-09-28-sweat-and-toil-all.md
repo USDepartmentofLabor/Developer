@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Sweat & Toil
-description: These datasets contain information on child labor and forced labor worldwide from ILAB’s three flagship reports and its Sweat and Toil app. There are 11 tables that contain data from the 2014 reporting cycle. 
+description: These datasets contain information on child labor and forced labor worldwide from ILAB’s three flagship reports and its Sweat and Toil app. There are 14 tables that contain data from the 2015 reporting cycle. 
 redirect_from: "/child-labor/"
 ---
 
 These datasets contain information on child labor and forced labor worldwide from ILAB’s three flagship 
 reports: <i>Findings on the Worst Forms of Child Labor</i>; <i>List of Goods Produced by Child Labor or Forced Labor</i>
-; and <i>List of Products Produced by Forced or Indentured Child Labor</i>. There are 11 tables that contain data 
-from the 2014 reporting cycle. This information is also available in ILAB’s new app, Sweat & Toil: Child Labor, 
+; and <i>List of Products Produced by Forced or Indentured Child Labor</i>. There are 14 tables that contain data 
+from the 2015 reporting cycle. This information is also available in ILAB’s new app, Sweat & Toil: Child Labor, 
 Forced Labor, and Human Trafficking Around the World. For more information, see ILAB’s <a href="http://www.dol.gov/ilab/reports/child-labor/">International Child Labor and 
 Forced Labor Reports page</a>.
 
