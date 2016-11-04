@@ -43,14 +43,14 @@ data visualizations and mashups.
 
 {% capture grab2 %}
 
-[![API Mobile]({{ site.baseurl }}/img/phone.png)]({{ site.baseurl }}/apps/)
+[![API Mobile]({{ site.baseurl }}/img/phone.png)]({{ site.baseurl }}/apps/#mobile-app)
   
 
 {% endcapture %}
 
 {% capture grab3 %}
 
-[![API Web and Desktop]({{ site.baseurl }}/img/display.png)]({{ site.baseurl }}/apps/)
+[![API Web and Desktop]({{ site.baseurl }}/img/display.png)]({{ site.baseurl }}/apps/#web-app)
  
 
 {% endcapture %}
