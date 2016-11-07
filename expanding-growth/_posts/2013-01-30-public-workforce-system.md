@@ -11,7 +11,7 @@ description: The PWSD is a dataset that can be used to answer questions about va
 
 <p>The PWSD is a dataset that can be used to answer questions about various public workforce system programs and how these programs fit in with the overall public workforce system and the economy. It was designed primarily to be used as a tool to understand what has been occurring in the Wagner-Peyser program and contains data from quarter 1 of 1995 through quarter 4 of 2008. Also, it was designed to understand the relationship and flow of participants as they go through the public workforce system. The PWSD can be used to analyze these programs both individually and in combination. The PWSD contains economic variables, Unemployment Insurance System data, and data on programs funded by the Workforce Investment Act and Employment Service. Economic variables included are labor force, employment, unemployment, unemployment rate, and gross domestic product data.</p>
 
-<p>This complete dataset can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Labor-Force-Employment-and-Earnings/Public-Workforce-System-Dataset-PWSD-/zrnt-3pme&amp;exitTitle=Public Workforce System Dataset&amp;fedpage=yes">http://explore.data.gov/Labor-Force-Employment-and-Earnings/Public-Workforce-System-Dataset-PWSD-/zrnt-3pme</a></p>
+<p>This complete dataset can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://catalog.data.gov/dataset/public-workforce-system-dataset-pwsd&amp;exitTitle=Public Workforce System Dataset&amp;fedpage=yes">http://catalog.data.gov/dataset/public-workforce-system-dataset-pwsd</a></p>
 
 
 <a href ="http://api.dol.gov/V1/Statistics/PWSD/$metadata" class="button radius button_dataset">Browse Metadata</a>
