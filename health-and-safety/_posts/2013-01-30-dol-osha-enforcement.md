@@ -9,7 +9,7 @@ description: The dataset consists of inspection case detail for approximately 90
 
 <p>The dataset consists of inspection case detail for approximately 90,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to: <a href="http://www.osha.gov">www.osha.gov</a>.</p>
 
-<p> OSHA's metric codes can be <a href=" http://enforcedata.dol.gov/views/dd_display.php" target="_blank">Viewed</a> or <a href="{{ site.baseurl }}/docs/IMISCodes.xlsx" target="_blank">Downloaded</a>.
+<p> OSHA's metric codes can be <a href=" http://enforcedata.dol.gov/views/data_catalogs.php" target="_blank">Viewed (Please find "OSHA Enforcement Data" link to locate information)</a> or <a href="{{ site.baseurl }}/docs/IMISCodes.xlsx" target="_blank">Downloaded</a>.
 </p>
 
 <!--a href ="http://api.dol.gov/V1/Safety/abc/$metadata" class="button radius button_dataset">Browse Metadata</a>

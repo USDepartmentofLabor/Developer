@@ -9,7 +9,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 <p>http://api.dol.gov/V1/statistics/BLS_Numbers</p>
 </div>
 
-<p>This Dataset contains historic data (last 10 years) for the most common economic indicators. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://bls.gov&amp;exitTitle=BLS&amp;fedpage=yes">http://bls.gov</a></p>
+<p>This Dataset contains historic data (last 10 years) for the most common economic indicators. More information and details about the data provided can be found for <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/#prices&amp;exitTitle=BLS Consumer Price Index Information&amp;fedpage=yes">Consumer Price Index Information</a> and <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/#employment&amp;exitTitle=BLS Employment Salary Information&amp;fedpage=yes">Employment Salary Information</a></p>
 
 <a href ="http://api.dol.gov/V1/statistics/BLS_Numbers/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Numbers" class="button radius button_dataset">Explore This Data</a>
