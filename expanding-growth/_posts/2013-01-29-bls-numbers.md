@@ -424,7 +424,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 </div>
 
 <h3 id="producerPriceIndex" tabindex="-1">producerPriceIndex Table</h3>
-<p>More information and details about the data provided can be found at <a href="http://www.bls.gov/data/&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/</a></p>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/</a></p>
 
 <div class="dsktp_tbl">
 	<table summary="Producer Price Index - BLS Numbers">
