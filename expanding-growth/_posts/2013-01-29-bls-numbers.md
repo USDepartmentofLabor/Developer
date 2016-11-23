@@ -424,7 +424,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 </div>
 
 <h3 id="producerPriceIndex" tabindex="-1">producerPriceIndex Table</h3>
-<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth</a></p>
+<p>More information and details about the data provided can be found at <a href="http://www.bls.gov/data/#employment&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/#employment</a></p>
 
 <div class="dsktp_tbl">
 	<table summary="Producer Price Index - BLS Numbers">
@@ -1432,7 +1432,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 </div>
 
 <h3 id="producerPriceIndex12MonthChange" tabindex="-1">producerPriceIndex12MonthChange Table</h3>
-<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth</a></p>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/#employment&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/#employment</a></p>
 
 <div class="dsktp_tbl">	
 	<table summary="Producer Price Index 12 Month Change - BLS Numbers">
@@ -1495,7 +1495,7 @@ description: This Dataset contains historic data (last 10 years) for the most co
 </div>
 
 <h3 id="producerPriceIndex1MonthChange" tabindex="-1">producerPriceIndex1MonthChange Table</h3>
-<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/WPSSOP3000?output_view=pct_1mth</a></p>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/#employment&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/#employment</a></p>
 
 <div class="dsktp_tbl">	
 	<table summary="Producer Price Index One Month Change - BLS Numbers">
