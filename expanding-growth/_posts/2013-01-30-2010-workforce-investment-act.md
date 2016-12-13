@@ -16,7 +16,7 @@ description: The evaluation employs administrative data from 12 states, covering
 	<li>The Unemployment Insurance and Employment Service Client comparison group.</li>
 </ol>
 
-<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Labor-Force-Employment-and-Earnings/Workforce-Investment-Act-WIA-Net-Impact-Evaluation/m6mr-quje&amp;exitTitle=Workforce Investment Act&amp;fedpage=yes">http://explore.data.gov/Labor-Force-Employment-and-Earnings/Workforce-Investment-Act-WIA-Net-Impact-Evaluation/m6mr-quje</a></p>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://catalog.data.gov/dataset/workforce-investment-act-wia-net-impact-evaluation-dataset&amp;exitTitle=Workforce Investment Act&amp;fedpage=yes">http://catalog.data.gov/dataset/workforce-investment-act-wia-net-impact-evaluation-dataset</a></p>
 
 
 <a href ="http://api.dol.gov/V1/Statistics/WIA/$metadata" class="button radius button_dataset">Browse Metadata</a>

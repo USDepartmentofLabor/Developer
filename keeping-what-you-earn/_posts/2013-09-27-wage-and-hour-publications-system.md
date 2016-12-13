@@ -9,10 +9,6 @@ description: This dataset provides information regarding all of the publicly ava
 <p>http://api.dol.gov/V1/WHPS</p>
 </div>
 
-<p>This dataset provides information regarding all of the publicly available and currently active publications.</p>
-
-<a href ="http://api.dol.gov/V1/WHPS/$metadata" class="button radius button_dataset">Browse Metadata</a>
-
 ## Dataset Tables  
 
 <div class="dsktp_tbl">
