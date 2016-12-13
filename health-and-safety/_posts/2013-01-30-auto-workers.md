@@ -3,6 +3,7 @@ layout: post
 title: Auto Workers
 created: 1359571721
 description: This dataset tells you Auto Companies which are closed or repurposed in the last couple of decades.
+categories: [health-and-safety, dataset]
 ---
 
 <div class="force_wrap apiurl">

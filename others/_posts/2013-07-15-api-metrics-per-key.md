@@ -3,6 +3,7 @@ layout: post
 title: API Metrics (per key)
 created: 1373908167
 description: Find here a list of DOL API Metric queries.  For these queries,a specially-configured filter method is REQUIRED.
+categories: [others ,dataset]
 ---
 
 <div class="force_wrap apiurl">

@@ -3,6 +3,7 @@ layout: post
 title: BLS Numbers
 created: 1359483400
 description: This Dataset contains historic data (last 10 years) for the most common economic indicators.
+categories: [expanding-growth ,dataset]
 ---
 
 <div class="force_wrap apiurl">

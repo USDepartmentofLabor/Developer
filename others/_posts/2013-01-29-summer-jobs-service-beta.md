@@ -3,6 +3,7 @@ layout: post
 title: Summer Jobs Service Beta
 created: 1359481108
 description: The Summer Jobs Plus Bank is a new search tool designed to help connect job seekers with employers.
+categories: [others ,dataset]
 ---
 
 <div class="force_wrap apiurl">

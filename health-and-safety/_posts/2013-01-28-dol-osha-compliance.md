@@ -3,6 +3,7 @@ layout: post
 title: OSHA Compliance
 created: 1359406750
 description: The dataset consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually.
+categories: [health-and-safety, dataset]
 ---
 
 <div class="force_wrap apiurl">

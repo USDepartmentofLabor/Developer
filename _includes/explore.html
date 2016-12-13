@@ -68,6 +68,21 @@
                     </ul>
                     </div>
                 </li>
+				<li class="accordion-navigation active-o">
+                    <a href="#all">
+                        <div class="row">
+                            <div class="small-3 columns"><img src="/img/list.png" alt="All Datasets"></div>
+                            <div class="small-9 columns"><h2>All</h2></div>
+                        </div>
+                    </a>
+                    <div id="all" class="content">
+                        <ul>
+                        {% for item in site.categories.dataset %}
+                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -99,6 +114,11 @@
             <a href="{{ site.baseurl }}/others/"><img src="{{ site.baseurl }}/img/purpleQs.png" alt="Other Datasets"></a>
 
             <h2><a href="{{ site.baseurl }}/others/">Other</a></h2>
+        </div>
+        <div class="small-3 columns">
+            <a href="{{ site.baseurl }}/dataset/all.html"><img src="{{ site.baseurl }}/img/list.png" alt="All Datasets"></a>
+
+            <h2><a href="{{ site.baseurl }}/dataset/all.html">All</a></h2>
         </div>
     </div>
 </div>

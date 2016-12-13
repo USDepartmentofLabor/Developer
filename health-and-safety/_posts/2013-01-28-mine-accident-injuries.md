@@ -3,6 +3,7 @@ layout: post
 title: Mine Accident Injuries
 created: 1359406519
 description: This dataset contains information on all accidents, injuries and illnesses reported by mine operators and contractors beginning with 1983.
+categories: [health-and-safety, dataset]
 ---
 
 <div class="force_wrap apiurl">

@@ -3,6 +3,7 @@ layout: post
 title: Fatal Occupational Injuries
 created: 1359579027
 description: Allows users to search nonfatal and fatal data for the nation and for States from the most current Survey of Occupational Injuries and Illnesses and the Census of Fatal Occupational Injuries programs.
+categories: [health-and-safety, dataset]
 ---
 
 <div class="force_wrap apiurl">

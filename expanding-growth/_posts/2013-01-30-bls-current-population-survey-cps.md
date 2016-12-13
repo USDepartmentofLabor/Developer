@@ -3,6 +3,7 @@ layout: post
 title: Current Population Survey (CPS)
 created: 1359579396
 description: The Current Population Survey (CPS) is a monthly survey of households conducted by the Bureau of Census for the Bureau of Labor Statistics.
+categories: [expanding-growth ,dataset]
 ---
 
 <div class="force_wrap apiurl">
