@@ -16,7 +16,6 @@ description: This Dataset provides summaries of fatalities and catastrophes resu
 
 ## Dataset Tables  
 
-<div class="dsktp_tbl">
 	<h3>OSHA_Fatalities</h3>
 	<table summary="OSHA Fatalities - OSHA Compliance">
 		<caption>OSHA Fatalities</caption>
@@ -86,4 +85,3 @@ description: This Dataset provides summaries of fatalities and catastrophes resu
 			</tr>
 		</tbody>
 	</table>
-</div>
