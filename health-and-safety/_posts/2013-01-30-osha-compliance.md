@@ -18,7 +18,7 @@ description: This Dataset provides summaries of fatalities and catastrophes resu
 
 <div>
 	<h3>OSHA_Fatalities</h3>
-	<table summary="OSHA Fatalities - OSHA Compliance">
+	<table class="accessible responsive" summary="OSHA Fatalities - OSHA Compliance">
 		<caption>OSHA Fatalities</caption>
 		<thead>
 			<tr>
