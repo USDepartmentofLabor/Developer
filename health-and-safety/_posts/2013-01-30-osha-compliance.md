@@ -14,8 +14,9 @@ description: This Dataset provides summaries of fatalities and catastrophes resu
 <a href ="http://api.dol.gov/V1/Safety/Fatalities/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=OSHA%20Fatalities%20Dataset" class="button radius button_dataset">Explore This Data</a>
 
-<h2>Dataset Tables</h2> 
+## Dataset Tables  
 
+<div>
 	<h3>OSHA_Fatalities</h3>
 	<table summary="OSHA Fatalities - OSHA Compliance">
 		<caption>OSHA Fatalities</caption>
@@ -85,3 +86,4 @@ description: This Dataset provides summaries of fatalities and catastrophes resu
 			</tr>
 		</tbody>
 	</table>
+</div>
