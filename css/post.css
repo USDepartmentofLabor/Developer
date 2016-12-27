@@ -328,6 +328,10 @@ thead th { color:#505050;}
 .responsive tbody td:nth-of-type(2) {
 	padding-left:1.5em;
 }
+tbody th:nth-of-type(1) { 
+	hyphens: auto;
+	overflow-wrap: break-word;
+}
 .accessible .small { display:none;}
 table { margin-bottom: 2em;}
 
