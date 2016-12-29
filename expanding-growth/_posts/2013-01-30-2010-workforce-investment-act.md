@@ -25,7 +25,7 @@ description: The evaluation employs administrative data from 12 states, covering
 
 ## Dataset Tables
 
-<div class="dsktp_tbl">
+<div>
 	<ul>
 		<li><a href="#workforceInvestmentAct">workforceInvestmentAct</a></li>
 		<li><a href="#workforceInvestmentActUi">workforceInvestmentActUi</a></li>
@@ -34,546 +34,686 @@ description: The evaluation employs administrative data from 12 states, covering
 	</ul>
 </div>
 
-<div class="mbl_tbl">
-	<ul>
-		<li><a href="#workforceInvestmentAct_mbl">workforceInvestmentAct</a></li>
-		<li><a href="#workforceInvestmentActUi_mbl">workforceInvestmentActUi</a></li>
-		<li><a href="#workforceInvestmentActWages_mbl">workforceInvestmentActWages</a></li>
-		<li><a href="#lookup_mbl">lookup codes</a></li>
-	</ul>
-</div>
-
-<div class="dsktp_tbl">
+<div>
 	<h3 id="workforceInvestmentAct" tabindex="-1">workforceInvestmentAct Table</h3>
-	<table summary="Workforce Investment Act - 2010 Workforce Investment Act">
+	<table class="accessible responsive" summary="Workforce Investment Act - 2010 Workforce Investment Act">
 		<caption>Workforce Investment Act</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">id</th>
-				<td>Id - Primary Key</td>
-				<td>bigint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					id
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					bigint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">idIndividual</th>
-				<td>Individual Identifier</td>
-				<td>bigint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					idIndividual
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					bigint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Individual Identifier
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateOfProgramParticipationYear</th>
-				<td>Date of Program Participation: year</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateOfProgramParticipationYear
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date of Program Participation: year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateOfProgramParticipationMonth</th>
-				<td>Date of Program Participation: month</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateOfProgramParticipationMonth
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date of Program Participation: month
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateOfExitYear</th>
-				<td>Date of Exit: year</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateOfExitYear
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date of Exit: year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateOfExitMonth</th>
-				<td>Date of Exit: month</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateOfExitMonth
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date of Exit: month
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">adultLocalFormula</th>
-				<td>Adult (local formula)</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					adultLocalFormula
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Adult (local formula)
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dislocatedWorkerLocalFormula</th>
-				<td>Dislocated Worker (local formula)</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dislocatedWorkerLocalFormula
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Dislocated Worker (local formula)
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateOfFirstIntensiveServiceYear</th>
-				<td>Date of First Intensive Service: year</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateOfFirstIntensiveServiceYear
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date of First Intensive Service: year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateOfFirstIntensiveServiceMonth</th>
-				<td>Date of First Intensive Service: month</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateOfFirstIntensiveServiceMonth
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date of First Intensive Service: month
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateEnteredTrainingYear</th>
-				<td>Date Entered Training: year</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateEnteredTrainingYear
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date Entered Training: year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateEnteredTrainingMonth</th>
-				<td>Date Entered Training: month</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateEnteredTrainingMonth
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date Entered Training: month
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateOfActualQualifyingDislocationYear</th>
-				<td>Date of Actual Qualifying Dislocation: year</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateOfActualQualifyingDislocationYear
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date of Actual Qualifying Dislocation: year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateOfActualQualifyingDislocationMonth</th>
-				<td>Date of Actual Qualifying Dislocation: month</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateOfActualQualifyingDislocationMonth
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date of Actual Qualifying Dislocation: month
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ageAtEvent</th>
-				<td>Age at event</td>
-				<td>decimal(10,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ageAtEvent
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					decimal(10,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Age at event
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">gender</th>
-				<td>Gender</td>
-				<td>varchar(100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					gender
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Gender
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">race</th>
-				<td>Race</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					race
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Race
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ethnicityHispanicLatino</th>
-				<td>Ethnicity Hispanic/Latino</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ethnicityHispanicLatino
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Ethnicity Hispanic/Latino
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">numOfYearsOfEducation</th>
-				<td>Number of years of education</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					numOfYearsOfEducation
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of years of education
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">individualWithDisability</th>
-				<td>Individual with a Disability</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					individualWithDisability
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Individual with a Disability
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">eligibleVeteranStatus</th>
-				<td>Eligible Veteran Status</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					eligibleVeteranStatus
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Eligible Veteran Status
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="workforceInvestmentActUi" tabindex="-1">workforceInvestmentActUi Table</h3>
-	<table summary="UI - Workforce Investment Act - 2010 Workforce Investment Act">
+	<table class="accessible responsive" summary="UI - Workforce Investment Act - 2010 Workforce Investment Act">
 		<caption>UI</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">id</th>
-				<td>Id - Primary Key</td>
-				<td>bigint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					id
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					bigint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">idIndividual</th>
-				<td>Individual Identifier</td>
-				<td>bigint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					idIndividual
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					bigint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Individual Identifier
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateFiledUiClaimYear</th>
-				<td>Date filed UI claim: year</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateFiledUiClaimYear
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date filed UI claim: year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">dateFiledUiClaimMonth</th>
-				<td>Date filed UI claim: month</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					dateFiledUiClaimMonth
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date filed UI claim: month
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">lastDateOfPaymentsYear</th>
-				<td>Last Date of Payments: year</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					lastDateOfPaymentsYear
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Last Date of Payments: year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">lastDateOfPaymentsMonth</th>
-				<td>Last Date of Payments: month</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					lastDateOfPaymentsMonth
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Last Date of Payments: month
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">endDateOfPriorJobYear</th>
-				<td>End Date of Prior Job: year</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					endDateOfPriorJobYear
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					End Date of Prior Job: year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">endDateOfPriorJobMonth</th>
-				<td>End Date of Prior Job: month</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					endDateOfPriorJobMonth
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					End Date of Prior Job: month
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">sumOfPaymentsUnderClaim</th>
-				<td>Sum of Payments Under Claim</td>
-				<td>bigint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					sumOfPaymentsUnderClaim
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					bigint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Sum of Payments Under Claim
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ageAtEvent</th>
-				<td>Age at event</td>
-				<td>decimal(10,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ageAtEvent
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					decimal(10,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Age at event
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">gender</th>
-				<td>Gender</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					gender
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Gender
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">race</th>
-				<td>Race</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					race
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Race
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ethnicityHispanicLatino</th>
-				<td>Ethnicity Hispanic/Latino</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ethnicityHispanicLatino
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Ethnicity Hispanic/Latino
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">numOfYearsOfEducation</th>
-				<td>Number of years of education</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					numOfYearsOfEducation
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of years of education
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">individualWithDisability</th>
-				<td>Individual with a Disability</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					individualWithDisability
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Individual with a Disability
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">eligibleVeteranStatus</th>
-				<td>Eligible Veteran Status</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					eligibleVeteranStatus
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Eligible Veteran Status
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="workforceInvestmentActWages" tabindex="-1">workforceInvestmentActWages Table</h3>
-	<table summary="Wages - Workforce Investment Act - 2010 Workforce Investment Act">
+	<table class="accessible responsive" summary="Wages - Workforce Investment Act - 2010 Workforce Investment Act">
 		<caption>Wages</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">idIndividual</th>
-				<td>Individual Identifier - Primary Key</td>
-				<td>bigint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					idIndividual
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					bigint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Individual Identifier - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">quarter</th>
-				<td>Quarter - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					quarter
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Quarter - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">wageAmount</th>
-				<td>Wage Amount</td>
-				<td>double</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					wageAmount
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					double
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Wage Amount
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">industry</th>
-				<td>Industry</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					industry
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Industry
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
 
-<div class="mbl_tbl">
-	<h3 id="workforceInvestmentAct_mbl" tabindex="-1">workforceInvestmentAct Table</h3>
-	<h4>Workforce Investment Act - 2010 Workforce Investment Act</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: id</p>
-		<p><span class="mbl-strng">Column Description:</span> Id - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> bigint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: idIndividual</p>
-		<p><span class="mbl-strng">Column Description:</span> Individual Identifier</p>
-		<p><span class="mbl-strng">Data Type:</span> bigint</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: dateOfProgramParticipationYear</p>
-		<p><span class="mbl-strng">Column Description:</span> Date of Program Participation: year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: dateOfProgramParticipationMonth</p>
-		<p><span class="mbl-strng">Column Description:</span> Date of Program Participation: month</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: dateOfExitYear</p>
-		<p><span class="mbl-strng">Column Description:</span> Date of Exit: year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: dateOfExitMonth</p>
-		<p><span class="mbl-strng">Column Description:</span> Date of Exit: month</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: adultLocalFormula</p>
-		<p><span class="mbl-strng">Column Description:</span> Adult (local formula)</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: dislocatedWorkerLocalFormula</p>
-		<p><span class="mbl-strng">Column Description:</span> Dislocated Worker (local formula)</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: dateOfFirstIntensiveServiceYear</p>
-		<p><span class="mbl-strng">Column Description:</span> Date of First Intensive Service: year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: dateOfFirstIntensiveServiceMonth</p>
-		<p><span class="mbl-strng">Column Description:</span> Date of First Intensive Service: month</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: dateEnteredTrainingYear</p>
-		<p><span class="mbl-strng">Column Description:</span> Date Entered Training: year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: dateEnteredTrainingMonth</p>
-		<p><span class="mbl-strng">Column Description:</span> Date Entered Training: month</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: dateOfActualQualifyingDislocationYear</p>
-		<p><span class="mbl-strng">Column Description:</span> Date of Actual Qualifying Dislocation: year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: dateOfActualQualifyingDislocationMonth</p>
-		<p><span class="mbl-strng">Column Description:</span> Date of Actual Qualifying Dislocation: month</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: ageAtEvent</p>
-		<p><span class="mbl-strng">Column Description:</span> Age at event</p>
-		<p><span class="mbl-strng">Data Type:</span> decimal(10,3)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: gender</p>
-		<p><span class="mbl-strng">Column Description:</span> Gender</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(100)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: race</p>
-		<p><span class="mbl-strng">Column Description:</span> Race</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ethnicityHispanicLatino</p>
-		<p><span class="mbl-strng">Column Description:</span> Ethnicity Hispanic/Latino</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: numOfYearsOfEducation</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of years of education</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: individualWithDisability</p>
-		<p><span class="mbl-strng">Column Description:</span> Individual with a Disability</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: eligibleVeteranStatus</p>
-		<p><span class="mbl-strng">Column Description:</span> Eligible Veteran Status</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-
-	<hr />
-	<h3 id="workforceInvestmentActUi_mbl" tabindex="-1">workforceInvestmentActUi Table</h3>
-	<h4>UI - 2010 Workforce Investment Act</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: id</p>
-		<p><span class="mbl-strng">Column Description:</span> Id - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> bigint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: idIndividual</p>
-		<p><span class="mbl-strng">Column Description:</span> Individual Identifier</p>
-		<p><span class="mbl-strng">Data Type:</span> bigint</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: dateFiledUiClaimYear</p>
-		<p><span class="mbl-strng">Column Description:</span> Date filed UI claim: year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: dateFiledUiClaimMonth</p>
-		<p><span class="mbl-strng">Column Description:</span> Date filed UI claim: month</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: lastDateOfPaymentsYear</p>
-		<p><span class="mbl-strng">Column Description:</span> Last Date of Payments: year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: lastDateOfPaymentsMonth</p>
-		<p><span class="mbl-strng">Column Description:</span> Last Date of Payments: month</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: endDateOfPriorJobYear</p>
-		<p><span class="mbl-strng">Column Description:</span> End Date of Prior Job: year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: endDateOfPriorJobMonth</p>
-		<p><span class="mbl-strng">Column Description:</span> End Date of Prior Job: month 	</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: sumOfPaymentsUnderClaim</p>
-		<p><span class="mbl-strng">Column Description:</span> Sum of Payments Under Claim 	</p>
-		<p><span class="mbl-strng">Data Type:</span> bigint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ageAtEvent</p>
-		<p><span class="mbl-strng">Column Description:</span> Age at event</p>
-		<p><span class="mbl-strng">Data Type:</span> decimal(10,3)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: gender</p>
-		<p><span class="mbl-strng">Column Description:</span> Gender</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: race</p>
-		<p><span class="mbl-strng">Column Description:</span> Race</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: ethnicityHispanicLatino</p>
-		<p><span class="mbl-strng">Column Description:</span> Ethnicity Hispanic/Latino</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: numOfYearsOfEducation</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of years of education</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: individualWithDisability</p>
-		<p><span class="mbl-strng">Column Description:</span> Individual with a Disability</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: eligibleVeteranStatus</p>
-		<p><span class="mbl-strng">Column Description:</span> Eligible Veteran Status</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-
-	<hr />
-	<h3 id="workforceInvestmentActWages_mbl" tabindex="-1">workforceInvestmentActWages Table</h3>
-	<h4>Wages - Workforce Investment Act - 2010 Workforce Investment Act</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: idIndividual</p>
-		<p><span class="mbl-strng">Column Description:</span> Individual Identifier - Primary Key 	</p>
-		<p><span class="mbl-strng">Data Type:</span> bigint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: quarter</p>
-		<p><span class="mbl-strng">Column Description:</span> Quarter - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: wageAmount</p>
-		<p><span class="mbl-strng">Column Description:</span> Wage Amount</p>
-		<p><span class="mbl-strng">Data Type:</span> double</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: industry</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-</div>
-
-<div class="dsktp_tbl">
 	<h3 id="lookup" tabindex="-1">Lookup Codes</h3>
+	<h4>Industry Codes:</h4>
+	<ul>
+		<li>1 = Manufacturing</li>
+		<li>2 = Services</li>
+		<li>3 = Trade</li>
+		<li>4 = Construction</li>
+		<li>5 = Other</li>
+		<li>6 = Missing</li>
+	</ul>
+
+	<h4>Adult Codes:</h4>
+	<ul>
+		<li>0 = No</li>
+		<li>1 = Yes</li>
+		<li>Dislocated Work Local Codes:</li>
+		<li>0 = No</li>
+		<li>1 = Yes</li>
+	</ul>
+
+	<h4>Gender Codes:</h4>
+	<ul>
+		<li>1 = Male</li>
+		<li>2 = Female</li>
+	</ul>
+
+	<h4>Race Codes:</h4>
+	<ul>
+		<li>1 = White only</li>
+		<li>2 = Black (including black and any other racial category)</li>
+		<li>3 = Other (any other specified racial category)</li>
+		<li>4 = No racial category identified</li>
+	</ul>
+
+	<h4>Hispanic Codes:</h4>
+	<ul>
+		<li>0 = No</li>
+		<li>1 = Yes</li>
+	</ul>
+
+	<h4>Disable Codes:</h4>
+	<ul>
+		<li>0 = No</li>
+		<li>1 = Yes</li>
+	</ul>
+
+	<h4>Veteran Status Codes:</h4>
+	<ul>
+		<li>0 = No</li>
+		<li>1 = Yes</li>
+	</ul>
 </div>
-<div class="mbl_tbl">
-	<h3 id="lookup_mbl" tabindex="-1">Lookup Codes</h3>
-</div>
-
-<h4>Industry Codes:</h4>
-<ul>
-	<li>1 = Manufacturing</li>
-	<li>2 = Services</li>
-	<li>3 = Trade</li>
-	<li>4 = Construction</li>
-	<li>5 = Other</li>
-	<li>6 = Missing</li>
-</ul>
-
-<h4>Adult Codes:</h4>
-<ul>
-	<li>0 = No</li>
-	<li>1 = Yes</li>
-	<li>Dislocated Work Local Codes:</li>
-	<li>0 = No</li>
-	<li>1 = Yes</li>
-</ul>
-
-<h4>Gender Codes:</h4>
-<ul>
-	<li>1 = Male</li>
-	<li>2 = Female</li>
-</ul>
-
-<h4>Race Codes:</h4>
-<ul>
-	<li>1 = White only</li>
-	<li>2 = Black (including black and any other racial category)</li>
-	<li>3 = Other (any other specified racial category)</li>
-	<li>4 = No racial category identified</li>
-</ul>
-
-<h4>Hispanic Codes:</h4>
-<ul>
-	<li>0 = No</li>
-	<li>1 = Yes</li>
-</ul>
-
-<h4>Disable Codes:</h4>
-<ul>
-	<li>0 = No</li>
-	<li>1 = Yes</li>
-</ul>
-
-<h4>Veteran Status Codes:</h4>
-<ul>
-	<li>0 = No</li>
-	<li>1 = Yes</li>
-</ul>

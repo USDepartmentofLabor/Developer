@@ -28,7 +28,7 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 
 ## Dataset Tables
   
-<div class="dsktp_tbl">
+<div>
 	<ul>
 		<li><a href="#area">area</a></li>
 		<li><a href="#area_definitions">area_definitions</a></li>
@@ -49,900 +49,1056 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	</ul>
 </div>
 
-<div class="mbl_tbl">
-	<ul>
-		<li><a href="#area_mbl">area</a></li>
-		<li><a href="#area_definitions_mbl">area_definitions</a></li>
-		<li><a href="#areatype_mbl">areatype</a></li>
-		<li><a href="#data_mbl">data</a></li>
-		<li><a href="#datatype_mbl">datatype</a></li>
-		<li><a href="#footnote_mbl">footnote</a></li>
-		<li><a href="#industry_mbl">industry</a></li>
-		<li><a href="#industry_titles_mbl">industry_titles</a></li>
-		<li><a href="#occugroup_mbl">occugroup</a></li>
-		<li><a href="#occupation_mbl">occupation</a></li>
-		<li><a href="#occupation_definitions_mbl">occupation_definitions</a></li>
-		<li><a href="#release_mbl">release</a></li>
-		<li><a href="#seasonal_mbl">seasonal</a></li>
-		<li><a href="#sector_mbl">sector</a></li>
-		<li><a href="#series_mbl">series</a></li>
-		<li><a href="#statemsa_mbl">statemsa</a></li>
-	</ul>
-</div>
-
-<div class="dsktp_tbl">
+<div>
 	<h3 id="area" tabindex="-1">area Table</h3>
-	<table summary="Area Codes and Area Names - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Area Codes and Area Names - Occupational Employment Statistics (OES)">
 		<caption>Area Codes and Area Names</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">area_code</th>
-				<td>Area Code - Primary Key</td>
-				<td>varchar(7)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					area_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(7)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Area Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">areatype_code</th>
-				<td>Area Type Code</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					areatype_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Area Type Code
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">area_name</th>
-				<td>Area Name</td>
-				<td>varchar(100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					area_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Area Name
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="area_definitions" tabindex="-1">area_definitions Table</h3>
-	<table summary="States, Counties, and Metropolitan Specific Areas - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="States, Counties, and Metropolitan Specific Areas - Occupational Employment Statistics (OES)">
 		<caption>States, Counties, and Metropolitan Specific Areas</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">FIPS</th>
-				<td>FIPS - Primary Key</td>
-				<td>varchar(10)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					FIPS
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(10)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					FIPS - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">State</th>
-				<td>State Name</td>
-				<td>varchar(100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					State
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					State Name
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">MSA_code</th>
-				<td>Metropolitan Specific Area Code - Primary Key</td>
-				<td>varchar(20)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					MSA_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(20)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Metropolitan Specific Area Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">MSA_name</th>
-				<td>Metropolitan Specific Area Name</td>
-				<td>varchar(255)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					MSA_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(255)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Metropolitan Specific Area Name
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Aggregate_MSA_code</th>
-				<td>Aggregate Metropolitan Specific Area Code</td>
-				<td>varchar(20)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Aggregate_MSA_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(20)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Aggregate Metropolitan Specific Area Code
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Aggregate_MSA_name</th>
-				<td>Aggregate Metropolitan Specific Area Name</td>
-				<td>varchar(255)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Aggregate_MSA_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(255)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Aggregate Metropolitan Specific Area Name
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">County_code</th>
-				<td>County Code - Primary Key</td>
-				<td>varchar(20)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					County_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(20)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					County Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Township_code</th>
-				<td>Township Code - Primary Key</td>
-				<td>varchar(20)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Township_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(20)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Township Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">County_name</th>
-				<td>County Name</td>
-				<td>varchar(255)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					County_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(255)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					County Name
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Township_name</th>
-				<td>Township Name</td>
-				<td>varchar(255)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Township_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(255)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Township Name
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="areatype" tabindex="-1">areatype Table</h3>
-	<table summary="Area Types - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Area Types - Occupational Employment Statistics (OES)">
 		<caption>Area Types</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">areatype_code</th>
-				<td>Area Type Code - Primary Key</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					areatype_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Area Type Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">areatype_name</th>
-				<td>Area Type Name</td>
-				<td>varchar(100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					areatype_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Area Type Name
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="data" tabindex="-1">data Table</h3>
-	<table summary="Current Estimates - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Current Estimates - Occupational Employment Statistics (OES)">
 		<caption>Current Estimates</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">series_id</th>
-				<td>Serie ID - Primary Key</td>
-				<td>varchar(30)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					series_id
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(30)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Serie ID - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>varchar(4)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(4)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Primary Key</td>
-				<td>varchar(3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value of the Estimate</td>
-				<td>varchar(12)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(12)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value of the Estimate
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">footnote_codes</th>
-				<td>Unique Code used to identify a specific footnote</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					footnote_codes
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Unique Code used to identify a specific footnote
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="datatype" tabindex="-1">datatype Table</h3>
-	<table summary="Data Types - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Data Types - Occupational Employment Statistics (OES)">
 		<caption>Data Types</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">datatype_code</th>
-				<td>Datatype Code - Primary Key</td>
-				<td>varchar(2)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					datatype_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(2)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Datatype Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">datatype_name</th>
-				<td>Datatype Name</td>
-				<td>varchar(100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					datatype_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Datatype Name
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">footnote_code</th>
-				<td>Unique Code used to identify a specific footnote</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					footnote_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Unique Code used to identify a specific footnote
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="footnote" tabindex="-1">footnote Table</h3>
-	<table summary="Footnotes and Explanation - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Footnotes and Explanation - Occupational Employment Statistics (OES)">
 		<caption>Footnotes and Explanation</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">footnote_code</th>
-				<td>Footnote Code - Primary Key</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					footnote_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Footnote Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">footnote_text</th>
-				<td>Footnote Text</td>
-				<td>varchar(250)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					footnote_text
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(250)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Footnote Text
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="industry" tabindex="-1">industry Table</h3>
-	<table summary="Industry Codes and Titles - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Industry Codes and Titles - Occupational Employment Statistics (OES)">
 		<caption>Industry Codes and Titles</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">industry_code</th>
-				<td>Industry Code - Primary Key</td>
-				<td>varchar(6)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					industry_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(6)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Industry Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">industry_name</th>
-				<td>Industry Name</td>
-				<td>varchar(100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					industry_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Industry Name
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">display_level</th>
-				<td>Display Level</td>
-				<td>varchar(2)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					display_level
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(2)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Display Level
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">selectable</th>
-				<td>Selectable</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					selectable
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Selectable
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">sort_sequence</th>
-				<td>Sort Sequence</td>
-				<td>varchar(5)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					sort_sequence
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(5)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Sort Sequence
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="industry_titles" tabindex="-1">industry_titles Table</h3>
-	<table summary="Industry Titles - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Industry Titles - Occupational Employment Statistics (OES)">
 		<caption>Industry Titles</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">Industry_Code</th>
-				<td>Industry Code - Primary Key</td>
-				<td>varchar(6)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Industry_Code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(6)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Industry Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Industry_Title</th>
-				<td>Industry Title</td>
-				<td>varchar(255)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Industry_Title
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(255)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Industry Title
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="occugroup" tabindex="-1">occugroup Table</h3>
-	<table summary="Major Occupation Groups codes and Titles - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Major Occupation Groups codes and Titles - Occupational Employment Statistics (OES)">
 		<caption>Major Occupation Groups Codes and Titles</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">occugroup_code</th>
-				<td>Occupation Group Code - Primary Key</td>
-				<td>varchar(6)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					occugroup_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(6)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Occupation Group Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">occugroup_name</th>
-				<td>Occupation Group Name</td>
-				<td>varchar(100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					occugroup_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Occupation Group Name
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="occupation" tabindex="-1">occupation Table</h3>
-	<table summary="Detail Occupation Codes and Titles - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Detail Occupation Codes and Titles - Occupational Employment Statistics (OES)">
 		<caption>Detail Occupation Codes and Titles</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">occupation_code</th>
-				<td>Occupation Code - Primary Key</td>
-				<td>varchar(6)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					occupation_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(6)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Occupation Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">occupation_name</th>
-				<td>Occupation Name</td>
-				<td>varchar(100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					occupation_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Occupation Name
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">display_level</th>
-				<td>Display Level</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					display_level
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Display Level
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">selectable</th>
-				<td>Selectable</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					selectable
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Selectable
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">sort_sequence</th>
-				<td>Sort Sequence</td>
-				<td>varchar(5)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					sort_sequence
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(5)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Sort Sequence
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="occupation_definitions" tabindex="-1">occupation_definitions Table</h3>
-	<table summary="Occupation Definitions - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Occupation Definitions - Occupational Employment Statistics (OES)">
 		<caption>Occupation Definitions</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
-			</tr>
-			<tr>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">OCC_CODE</th>
-				<td>Occupation Code - Primary Key</td>
-				<td>varchar(10)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					OCC_CODE
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(10)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Occupation Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">OCC_TITL</th>
-				<td>Occupation Name</td>
-				<td>varchar(255)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					OCC_TITL
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(255)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Occupation Name
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">DEF</th>
-				<td>Definition</td>
-				<td>varchar(max)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DEF
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(max)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Definition
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="release" tabindex="-1">release Table</h3>
-	<table summary="Reference Date - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Reference Date - Occupational Employment Statistics (OES)">
 		<caption>Reference Date</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">release_date</th>
-				<td>Release Date - Primary Key</td>
-				<td>varchar(7)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					release_date
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(7)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Release Date - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">description</th>
-				<td>Release Description</td>
-				<td>varchar(50)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					description
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(50)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Release Description
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="seasonal" tabindex="-1">Seasonal Table</h3>
-	<table summary="Seasonal Adjustment Indicator - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Seasonal Adjustment Indicator - Occupational Employment Statistics (OES)">
 		<caption>Seasonal Adjustment Indicator</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">seasonal</th>
-				<td>Seasonal Code - Primary Key</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					seasonal
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Seasonal Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">seasonal_text</th>
-				<td>Seasonal Description</td>
-				<td>varchar(30)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					seasonal_text
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(30)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Seasonal Description
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="sector" tabindex="-1">sector Table</h3>
-	<table summary="Industry Sector Codes  and Titles - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="Industry Sector Codes  and Titles - Occupational Employment Statistics (OES)">
 		<caption>Industry Sector Codes  and Titles</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">sector_code</th>
-				<td>Sector Code - Primary Key</td>
-				<td>varchar(6)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					sector_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(6)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Sector Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">sector_name</th>
-				<td>Sector Name</td>
-				<td>varchar(100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					sector_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Sector Name
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="series" tabindex="-1">series Table</h3>
-	<table summary="All Series Codes with Start and End Dates - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="All Series Codes with Start and End Dates - Occupational Employment Statistics (OES)">
 		<caption>All Series Codes with Start and End Dates</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">series_id</th>
-				<td>Series ID - Primary Key</td>
-				<td>varchar(30)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					series_id
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(30)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Series ID - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">seasonal</th>
-				<td>Seasonal</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					seasonal
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Seasonal
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">areatype_code</th>
-				<td>Area Type Code</td>
-				<td>varchar(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					areatype_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Area Type Code
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">area_code</th>
-				<td>Area Code</td>
-				<td>varchar(7)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					area_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(7)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Area Code
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">industry_code</th>
-				<td>Industry Code</td>
-				<td>varchar(6)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					industry_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(6)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Industry Code
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">occupation_code</th>
-				<td>Occupation Code</td>
-				<td>varchar(6)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					occupation_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(6)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Occupation Code
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">datatype_code</th>
-				<td>Datatype Code</td>
-				<td>varchar(2)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					datatype_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(2)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Datatype Code
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">footnote_codes</th>
-				<td>Footnote Code</td>
-				<td>varchar(10)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					footnote_codes
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(10)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Footnote Code
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">begin_year</th>
-				<td>Begin Year</td>
-				<td>varchar(4)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					begin_year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(4)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Begin Year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">begin_period</th>
-				<td>Begin Period</td>
-				<td>varchar(3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					begin_period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Begin Period
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">end_year</th>
-				<td>End Year</td>
-				<td>varchar(4)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					end_year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(4)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					End Year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">end_period</th>
-				<td>End Period</td>
-				<td>varchar(3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					end_period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					End Period
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h3 id="area_mbl" tabindex="-1">area Table</h3>
-	<h4>Area Codes and Area Names - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: area_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(7)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: areatype_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Type Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: area_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(100)</p>		
-	</div>
-
-	<hr />
-	<h3 id="area_definitions_mbl" tabindex="-1">area_definitions Table</h3>
-	<h4>States, Counties, and Metropolitan Specific Areas - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: FIPS</p>
-		<p><span class="mbl-strng">Column Description:</span> FIPS - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(10)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: State</p>
-		<p><span class="mbl-strng">Column Description:</span> State Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(100)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: MSA_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Metropolitan Specific Area Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(20)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: MSA_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Metropolitan Specific Area Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(255)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Aggregate_MSA_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Aggregate Metropolitan Specific Area Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(20)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: Aggregate_MSA_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Aggregate Metropolitan Specific Area Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(255)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: County_code</p>
-		<p><span class="mbl-strng">Column Description:</span> County Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(20)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: Township_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Township Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(20)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: County_name</p>
-		<p><span class="mbl-strng">Column Description:</span> County Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(255)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: Township_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Township Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(255)</p>		
-	</div>
-
-	<hr />
-	<h3 id="areatype_mbl" tabindex="-1">areatype Table</h3>
-	<h4>Area Types - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: areatype_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Type Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: areatype_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Type Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(100)</p>		
-	</div>
-
-	<hr />
-	<h3 id="data_mbl" tabindex="-1">data Table</h3>
-	<h4>Current Estimates - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: series_id</p>
-		<p><span class="mbl-strng">Column Description:</span> Serie ID - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(30)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(4)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(3)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value of the Estimate</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(12)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: footnote_codes</p>
-		<p><span class="mbl-strng">Column Description:</span> Unique Code used to identify a specific footnote</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-
-	<hr />
-	<h3 id="datatype_mbl" tabindex="-1">datatype Table</h3>
-	<h4>Data Types - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: datatype_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Datatype Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(2)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: datatype_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Datatype Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(100)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: footnote_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Unique Code used to identify a specific footnote</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-
-	<hr />
-	<h3 id="footnote_mbl" tabindex="-1">footnote Table</h3>
-	<h4>Footnotes and Explanation - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: footnote_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Footnote Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: footnote_text</p>
-		<p><span class="mbl-strng">Column Description:</span> Footnote Text</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(250) </p>		
-	</div>
-
-	<hr />
-	<h3 id="industry_mbl" tabindex="-1">industry Table</h3>
-	<h4>Industry Codes and Titles - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: industry_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: industry_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(100)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: display_level</p>
-		<p><span class="mbl-strng">Column Description:</span> Display Level</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(2)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: selectable</p>
-		<p><span class="mbl-strng">Column Description:</span> Selectable</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: sort_sequence</p>
-		<p><span class="mbl-strng">Column Description:</span> Sort Sequence</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(5)</p>		
-	</div>
-
-	<hr />
-	<h3 id="industry_titles_mbl" tabindex="-1">industry_titles Table</h3>
-	<h4>Industry Titles - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Industry_Code</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: Industry_Title</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry Title</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(255)</p>		
-	</div>
-
-	<hr />
-	<h3 id="occugroup_mbl" tabindex="-1">occugroup Table</h3>
-	<h4>Major Occupation Groups Codes and Titles - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: occugroup_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Group Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: occugroup_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Group Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(100)</p>		
-	</div>
-
-	<hr />
-	<h3 id="occupation_mbl" tabindex="-1">occupation Table</h3>
-	<h4>Detail Occupation Codes and Titles - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: occupation_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: occupation_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(100)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: display_level</p>
-		<p><span class="mbl-strng">Column Description:</span> Display Level</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: selectable</p>
-		<p><span class="mbl-strng">Column Description:</span> Selectable</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: sort_sequence</p>
-		<p><span class="mbl-strng">Column Description:</span> Sort Sequence</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(5)</p>		
-	</div>
-
-	<hr />
-	<h3 id="occupation_definitions_mbl" tabindex="-1">occupation_definitions Table</h3>
-	<h4>Occupation Definitions - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: OCC_CODE</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(10)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: OCC_TITL</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(255)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: DEF</p>
-		<p><span class="mbl-strng">Column Description:</span> Definition</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(max)</p>		
-	</div>
-
-	<hr />
-	<h3 id="release_mbl" tabindex="-1">release Table</h3>
-	<h4>Reference Date - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: release_date</p>
-		<p><span class="mbl-strng">Column Description:</span> Release Date - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(7)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: description</p>
-		<p><span class="mbl-strng">Column Description:</span> Release Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(50)</p>		
-	</div>
-
-	<hr />
-	<h3 id="seasonal_mbl" tabindex="-1">seasonal Table</h3>
-	<h4>Seasonal Adjustment Indicator - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: seasonal</p>
-		<p><span class="mbl-strng">Column Description:</span> Seasonal Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: seasonal_text</p>
-		<p><span class="mbl-strng">Column Description:</span> Seasonal Description</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(30)</p>		
-	</div>
-
-	<hr />
-	<h3 id="sector_mbl" tabindex="-1">sector Table</h3>
-	<h4>Industry Sector Codes  and Titles - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: sector_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Sector Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: sector_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Sector Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(100)</p>		
-	</div>
-
-	<hr />
-	<h3 id="series_mbl" tabindex="-1">series Table</h3>
-	<h4>All Series Codes with Start and End Dates - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: series_id</p>
-		<p><span class="mbl-strng">Column Description:</span> Series ID - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(30)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: seasonal</p>
-		<p><span class="mbl-strng">Column Description:</span> Seasonal</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: areatype_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Type Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(1)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: area_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Area Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(7)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: industry_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Industry Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(6)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: occupation_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Occupation Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(6)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: datatype_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Datatype Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(2)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: footnote_codes</p>
-		<p><span class="mbl-strng">Column Description:</span> Footnote Code</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(10)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: begin_year</p>
-		<p><span class="mbl-strng">Column Description:</span> Begin Year</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(4)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: begin_period</p>
-		<p><span class="mbl-strng">Column Description:</span> Begin Period</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(3)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: end_year</p>
-		<p><span class="mbl-strng">Column Description:</span> End Year</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(4)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: end_period</p>
-		<p><span class="mbl-strng">Column Description:</span> End Period</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(3)</p>		
-	</div>
 </div>
 
 <h3>The series_id (OEUM000040000000000000001) can be broken out into:</h3>
@@ -956,54 +1112,60 @@ description: The Occupational Employment Statistics (OES) program conducts a sem
 	<li>datatype_code = 01</li>
 </ul>
 
-<div class="dsktp_tbl">
+<div>
 	<h3 id="statemsa" tabindex="-1">statemsa Table</h3>
-	<table summary="States and Areas - Occupational Employment Statistics (OES)">
+	<table class="accessible responsive" summary="States and Areas - Occupational Employment Statistics (OES)">
 		<caption>States and Areas</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">state_code</th>
-				<td>State Code - Primary Key</td>
-				<td>varchar(2)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					state_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(2)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					State Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">msa_code</th>
-				<td>Metropolitan Specific Area Code - Primary Key</td>
-				<td>varchar(7)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					msa_code
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(7)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Metropolitan Specific Area Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">msa_name</th>
-				<td>Metropolitan Specific Area Name</td>
-				<td>varchar(100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					msa_name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Metropolitan Specific Area Name
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<hr />
-	<h3 id="statemsa_mbl" tabindex="-1">statemsa Table</h3>
-	<h4>States and Areas - Occupational Employment Statistics (OES)</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: state_code</p>
-		<p><span class="mbl-strng">Column Description:</span> State Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(2)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: msa_code</p>
-		<p><span class="mbl-strng">Column Description:</span> Metropolitan Specific Area Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(7)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: msa_name</p>
-		<p><span class="mbl-strng">Column Description:</span> Metropolitan Specific Area Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(100)</p>		
-	</div>
 </div>
