@@ -18,7 +18,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 
 <div> 
     <h3>Gulf_Oil_Spill</h3>
-	<table class="accessible responsive" summary=Gulf Oil Spill" - Gulf Oil Spill ">
+	<table class="accessible responsive" summary=Gulf Oil Spill" - Gulf Oil Spill">
 		<caption>Gulf Oil Spill</caption>
 		<thead>
 			<tr>
@@ -33,7 +33,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 					<span class="small">Column Name</span>
-					ESTAB_STATE
+					 ESTAB_STATE
 				</th>
 			    <td>
 					<span class="small">Data Type</span>
@@ -47,7 +47,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 					<span class="small">Column Name</span>
-					ESTAB_SITE_NAME
+					 ESTAB_SITE_NAME
 				</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -61,7 +61,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 					<span class="small">Column Name</span>
-					ESTAB_SITE_NAME_OTHER
+					 ESTAB_SITE_NAME_OTHER
 				</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -187,7 +187,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				ESTABLISHMENT_STATE
+				 ESTABLISHMENT_STATE
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -201,7 +201,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				ESTABLISHMENT_NAME
+				 ESTABLISHMENT_NAME
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -209,13 +209,13 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				Establishment Name
+				 Establishment Name
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				SAMPLING_DATE
+				 SAMPLING_DATE
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -229,7 +229,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				SAMPLING_NO
+				 SAMPLING_NO
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -237,7 +237,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				Sampling Number
+				 Sampling Number
 			</td>
 			</tr>
 			<tr>
@@ -257,7 +257,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				EMPLOYEE_OCCUPATION_SPECIFY
+				 EMPLOYEE_OCCUPATION_SPECIFY
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -284,7 +284,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				SAMPLE_TYPE
+				 SAMPLE_TYPE
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -292,13 +292,13 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 				</td>
 				<td>
 				<span class="small">Column Description</span>
-				Sample Type
+				 Sample Type
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				TOTAL_TIME
+				 TOTAL_TIME
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -312,7 +312,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				EXPOSURE_LEVEL
+				 EXPOSURE_LEVEL
 			</th>
 				<td>Double
 				<span class="small">Data Type</span>
@@ -325,7 +325,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				PEL
+				 PEL
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -339,7 +339,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				OSHA_HC_LAVG
+				 OSHA_HC_LAVG
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -381,7 +381,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				OSHA_PEL_TWA
+				 OSHA_PEL_TWA
 			</th>
 				<td>
 				<span class="small">Data Type</span>
