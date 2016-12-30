@@ -464,7 +464,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			</tr>
 			<tr>
 				<th scope="row">
-				<span class="small"Column Name></span>
+				<span class="small">Column Name</span>
 				LATEST_TERM_DUE_TIME
 			</th>
 				<td>
@@ -472,31 +472,31 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 				 varchar (8)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				Time by which the conditions cited on the citation/order are to be abated.
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				TERMINATION_DT
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 varchar (50)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				Date on which the citation/order was terminated. May not contain data (null values) if citation has not yet been terminated.
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				TERMINATION_TIME
 			</th>
 				<td>
-				span class="small"Data Type</span>
+				<span class="small">Data Type</span>
 				 varchar (10)
 				<td>
 				span class="small">Column Description</span>
@@ -506,43 +506,43 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				TERMINATION_TYPE
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 varchar (40)
 			</td>
 				<td>
-				span class="small">Column Descrpition</span>
+				<span class="small">Column Descrpition</span>
 			    Code identifying the type of termination: Issued, ReplacedByOrder or Terminated.
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				ACATE_DT
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 varchar(50)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 			    Date on which the citation/order was vacated. May not contain data (null values) if the violation was not vacated. 
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				>span class="small">Column Name</span>
 				VACATE_TIME
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 varchar (10)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				Time of day (24 hour) at which the citation/order was vacated. May not contain data (null values) if the violation was not vacated.
 			</td>
 			</tr>
@@ -552,21 +552,21 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 				INITIAL_VIOL_NO
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 varchar(60)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				This is the preceding citation record when there is a need to relate a citation to a previous one. For example this would apply when an order follows a citation. This relationship is needed to calculate the good faith reduction penalty points. May not contain data (null values).
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				REPLACED_BY_ORDER_NO
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				varchar (60)
 			</td>
 				<td>
@@ -576,29 +576,29 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				LIKELIHOOD
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				,span class="small">Data Type</span>
 				 varchar(40)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 			    This is a measure of the seriousness of the violation being cited as measured by the likelihood of the occurrence of an accident: Highly, NoLikelihood, Occurred, Reasonably or Unlikely. May not contain data (null values) if situation does not apply.
 				</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				INJ_ILLNESS
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 varchar(40)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				Value assigned to a violation for gravity of injury. Measure of seriousness of violation being cited as measured by severity of the injury or illness to persons if accident were to occur due to the conditions of the violation: Fatal, LostDays, NoLostDays or Permanent.
 			</td>
 			</tr>
@@ -608,21 +608,21 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			    NO_AFFECTED
 			   </th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 bigint 
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 		       This is a measure of the number of persons affected or potentially affected by the conditions at the Mine due to the violation. Can be zero.
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				NEGLIGENCE
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 			      varchar(40)
 				<td>
 				span class="small">Column Description</span>
@@ -632,21 +632,21 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 			     WRITTEN_NOTICE
 			    </th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 			     varchar(3)	
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				Indicates if this citation is a result of a Miner or Agent notice of complaint to MSHA (written notice 103(g)):  ('Y'  or 'N'). May not contain data (null values).
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				ENFORCEMENT_AREA
 			</th>
 				<td>
@@ -654,21 +654,21 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 				 varchar (40)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				Specifies the enforcement areas affected by the violating condition or practice constitute a health hazard, safety hazard, both or other type of hazard. May not contain data (null values).
 				</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				SPECIAL_ASSESS
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 varchar (3)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				Specifies whether this citation has been designated for Special Assessment based on Special Assessment Review (Y or N).
 			</td>
 			</tr>
@@ -678,11 +678,11 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 				PRIMARY_OR_MILL
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				   varchar (40)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				A code indicating if the Violation was observed in the Primary Mine location or in an associated Mill (Metal/Non-Metal only). May not contain data (null values).
 			</td>
 			</tr>
