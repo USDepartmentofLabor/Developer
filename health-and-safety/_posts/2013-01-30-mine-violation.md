@@ -87,7 +87,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				  VIOLATION_NO
+				 VIOLATION_NO
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -101,7 +101,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				 CONTROLLER_ID
+				CONTROLLER_ID
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -143,7 +143,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				  VIOLATOR_NAME
+				 VIOLATOR_NAME
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -157,7 +157,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				  VIOLATOR_TYPE_CD
+				 VIOLATOR_TYPE_CD
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -241,7 +241,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-			      VIOLATION_ISSUE_DT
+			     VIOLATION_ISSUE_DT
 		</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -367,7 +367,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				  PART_SECTION
+				 PART_SECTION
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -381,7 +381,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				  SECTION_OF_ACT_1
+				 SECTION_OF_ACT_1
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -423,7 +423,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				  ORIG_TERM_DUE_DT
+				 ORIG_TERM_DUE_DT
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -521,7 +521,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-			      ACATE_DT
+			     ACATE_DT
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -535,7 +535,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				  VACATE_TIME
+				 VACATE_TIME
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -549,7 +549,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				 INITIAL_VIOL_NO
+				INITIAL_VIOL_NO
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -604,7 +604,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 			     NO_AFFECTED
 			   </th>
 				<td>
@@ -625,7 +625,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 				<span class="small">Data Type</span>
 			      varchar(40)
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				Codes representing the degree of negligence that the Inspector assigned to the violator due to the violation: HighNegligence, LowNegligence, ModNegligence, NoNegligence or Reckless.  A high degree of negligence is assigned when the operator was in a position to be aware of the condition that contributed to a dangerous situation and there were no mitigating circumstances, or if there are unique aggravating circumstances associated with the violation, such as repeated past violations of the same standard at the mine.
 			 </td>
 			</td>
@@ -633,7 +633,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-			      WRITTEN_NOTICE
+			     WRITTEN_NOTICE
 			    </th>
 				<td>
 				<span class="small">Data Type</span>
@@ -674,7 +674,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
+				<span class="small">Column Name</span>
 				 PRIMARY_OR_MILL
 			</th>
 				<td>
