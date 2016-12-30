@@ -31,11 +31,11 @@ This dataset contains the annual summation of employee hours and coal production
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				id
+				 id
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				bigint
+				 bigint
 			</td>
 				<td>
 				<span class="small">Column Description</span>
@@ -45,7 +45,7 @@ This dataset contains the annual summation of employee hours and coal production
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				 mineID
+				  mineID
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -59,7 +59,7 @@ This dataset contains the annual summation of employee hours and coal production
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				mineName
+				 mineName
 			</th>
 				<td>
 				<span class="small">Data Type</span>
@@ -101,11 +101,11 @@ This dataset contains the annual summation of employee hours and coal production
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				subUnit
+				 subUnit
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				 varchar (150)
+				  varchar (150)
 			</td>
 				<td>
 				<span class="small">Column Description</span>
@@ -123,77 +123,77 @@ This dataset contains the annual summation of employee hours and coal production
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				Mine Calendar Year
+				 Mine Calendar Year
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				annualHours
+				 annualHours
 			</th>
 				<td>
 				<span class="small">Data Type</span>
 				 int 
 			</td>
 				<td>
-				span class="small">Column Description</span>
-				Miner Annual Hour
+				<span class="small">Column Description</span>
+				 Miner Annual Hour
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
-				annualCostProduction
+				<span class="small">Column Name</span>
+				 annualCostProduction
 			</th>
 				<td>
-				span class="small">Data Type</span>
-				bigint
+				<span class="small">Data Type</span>
+				 bigint
 			</td>
 				<td>
-				span class="small">Column Description</span>
-				Annual Cost Production
+				<span class="small">Column Description</span>
+				 Annual Cost Production
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
-				averageEmployeeCount
+				<span class="small">Column Name</span>
+				 averageEmployeeCount
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 int
 			</td>
 				<td>
-				span class="small">Column Description</span>
-				Average Employee Count
+				<span class="small">Column Description</span>
+				 Average Employee Count
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
-				averageEmployeeHours
+				<span class="small">Column Name</span>
+				 averageEmployeeHours
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 int
 			</td>
 				<td>
-				span class="small">Column Description</span>
-				 Average Employee Hours
+				<span class="small">Column Description</span>
+				  Average Employee Hours
 			</td>
 			</tr>
 			<tr>
 				<th scope="row">
-				span class="small">Column Name</span>
-				coalMetalInd
+				<span class="small">Column Name</span>
+				  coalMetalInd
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 varchar (3)
 			</td>
 				<td>
-				span class="small">Column Description</span>
-				Coal Metal Indicator
+				<span class="small">Column Description</span>
+				 Coal Metal Indicator
 			</td>
 			</tr>
 		</tbody>
