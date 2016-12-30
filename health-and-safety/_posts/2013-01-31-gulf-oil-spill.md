@@ -18,7 +18,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 
 <div> 
     <h3>Gulf_Oil_Spill</h3>
-	<table class="accessible responsive" summary="Gulf Oil Spill - Gulf Oil Spill">
+	<table class="accessible responsive" summary="Gulf Oil Spill -Gulf Oil Spill">
 		<caption>Gulf Oil Spill</caption>
 		<thead>
 			<tr>
