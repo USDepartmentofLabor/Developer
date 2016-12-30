@@ -18,7 +18,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 
 <div> 
     <h3>Gulf_Oil_Spill</h3>
-	<table class="accessible responsive" summary="Gulf Oil Spill -Gulf Oil Spill">
+	<table class="accessible responsive" summary="Gulf Oil Spill - Gulf Oil Spill">
 		<caption>Gulf Oil Spill</caption>
 		<thead>
 			<tr>
@@ -173,9 +173,9 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 		</tbody>
 	</table>
 
-	<h3 id="OSHA_NOISE_REPORT" tabindex="-1">OSHA_NOISE_REPORT Table</h3>
-	<table summary="Noise Report - Gulf Oil Spill">
-		<caption>Noise Report</caption>
+	<h3 id="OSHA_NOISE_REPORT"</h3>
+	<table class="accessible responsive" summary="OSHA_NOISE_REPORT Table - OSHA_NOISE_REPORT Table">
+	 <caption>Noise Report</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
