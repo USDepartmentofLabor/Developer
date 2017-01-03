@@ -756,7 +756,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 				<th scope="col">Data Type</th>
 				<th scope="col">Column Description</th>
 			</tr>
-		</tbody>
+		</thead>
 		<tbody>
 			<tr>
 				<th scope="row">

@@ -505,7 +505,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				Varchar(1)The code identifies the type of case for which data are available. Choose total recordable cases (all, poisoning, skin disease, hearing loss, respiratory illeness, or all other) or involving days away from work, days of job transfer and restriction, or all three. See list at ftp://ftp.bls.gov/pub/time.series/ii/ii.case_type.
+				The code identifies the type of case for which data are available. Choose total recordable cases (all, poisoning, skin disease, hearing loss, respiratory illeness, or all other) or involving days away from work, days of job transfer and restriction, or all three. See list at ftp://ftp.bls.gov/pub/time.series/ii/ii.case_type.
 			</td>
 			</tr>
 			<tr>
@@ -669,7 +669,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				Varchar(1)
+				
 			</td>
 				<td>
 				<span class="small">Column Description</span>
@@ -683,7 +683,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-		         Unique code used to identify the state or area associated with the observation.
+		         Varchar(3)
 			</td>
 				<td>
 				<span class="small">Column Description</span>
@@ -697,7 +697,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-			   State or area name associated with the observation.
+			    Varchar(50)
 			</td>
 				<td>
 				<span class="small">Column Description</span>
@@ -711,7 +711,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				Varchar (5)Order in which variables are displayed.
+				Varchar (5)
 			</td>
 				<td>
 				<span class="small">Column Description</span>
@@ -767,7 +767,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				Varchar (100)Describes the industry for which data are observed. See list at ftp://ftp.bls.gov/pub/time.series/ii/ii.industry. See industry definition below.
+				Varchar (100)
 			</td>
 				<td>
 				<span class="small">Column Description</span>
@@ -785,7 +785,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				Varchar (2)A hierarchy of various levels. A proprietary nesting scheme.
+				A hierarchy of various levels. A proprietary nesting scheme.
 			</td>
 			</tr>
 			<tr>
@@ -1024,7 +1024,6 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 				<td>
 				<span class="small">Column Description</span>
 				Name identifying the type of supersector (Cobstruction, Education &amp; Health Services, Financial Activities, Information, Leisure &amp; Hospitality, Manufacturing, Natural Resources &amp; Mining, Trade Transportation &amp; Utilities, or Professional &amp; Business Services). Definition of supersector is provided below.
-			</td>
 			</td>
 			</tr>
 			<tr>
