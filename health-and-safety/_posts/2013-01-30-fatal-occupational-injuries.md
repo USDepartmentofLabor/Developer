@@ -750,7 +750,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	<h3 id="FI_GQT_CHAR_OWNERSHIP">FI_GQT_CHAR_OWNERSHIP Table</h3>
 	<table class "accessible responsive" summary="GQT Char Ownership - Fatal Occupational Injuries">
 		<caption>GQT Char Ownership</caption>
-		<tbody>
+		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
 				<th scope="col">Data Type</th>
@@ -881,7 +881,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 	</table>
 
 	<h3 id="FI_GQT_STATE">FI_GQT_STATE Table</h3>
-	<tableclass="accessible responsive"  summary="GQT State - Fatal Occupational Injuries">
+	<table class="accessible responsive"  summary="GQT State - Fatal Occupational Injuries">
 		<caption>GQT State</caption>
 		<thead>
 			<tr>
