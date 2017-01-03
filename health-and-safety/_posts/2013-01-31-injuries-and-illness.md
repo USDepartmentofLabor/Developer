@@ -445,11 +445,11 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-			    Whether CASE_CODE is displayed or not.
+			     Int 64
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				
+				Whether CASE_CODE is displayed or not.
 			</td>
 			</tr>
 			<tr>
@@ -987,7 +987,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 		</tbody>
 	</table>
 
-	<h3 id="II_SUPERSECTOR" tabindex="-1">II_SUPERSECTOR Table</h3>
+	<h3 id="II_SUPERSECTOR">II_SUPERSECTOR Table</h3>
 	<table class="accessible responsive" summary="Super Sector -Injuries, Illnesses, and Fatalities (IIF)">
 		<caption>Supersector</caption>
 		<thead>
