@@ -650,7 +650,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 				 ENFORCEMENT_AREA
 			</th>
 				<td>
-				span class="small">Data Type</span>
+				<span class="small">Data Type</span>
 				 varchar (40)
 			</td>
 				<td>

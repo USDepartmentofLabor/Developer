@@ -16,12 +16,17 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 
 ## Dataset Tables 
 
+<div>
+	<ul>
+		<li><a href="#OSHA_Direct_Read_Sampling">OSHA_Direct_Read_Sampling</a></li>
+		<li><a href="#OSHA_NOISE_REPORT">OSHA_NOISE_REPORT</a></li>
+	</ul>
+</div>
+
 <div> 
-    <h3>Gulf_Oil_Spill</h3>
+    <h3 id="OSHA_Direct_Read_Sampling">OSHA_Direct_Read_Sampling Table</h3>
 	<table class="accessible responsive" summary="Gulf Oil Spill - Gulf Oil Spill">
 		<caption>Gulf Oil Spill</caption>
-		<thead>
-			<tr>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
@@ -173,7 +178,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 		</tbody>
 	</table>
 
-	<h3 id="OSHA_NOISE_REPORT"</h3>
+	<h3 id="OSHA_NOISE_REPORT">OSHA_NOISE_REPORT Table</h3>
 	<table class="accessible responsive" summary="OSHA_NOISE_REPORT Table - OSHA_NOISE_REPORT Table">
 	 <caption>Noise Report</caption>
 		<thead>
