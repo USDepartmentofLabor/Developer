@@ -19,7 +19,7 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 
 ## Dataset Tables
 
-<div class="dsktp_tbl">
+<div>
 	<ul>
 		<li><a href="#NumberOfRequestsPerKeys">NumberOfRequestsPerKeys</a></li>
 		<li><a href="#NumberOfRequestsPerDayByKeys">NumberOfRequestsPerDayByKeys</a></li>
@@ -38,175 +38,289 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		<li><a href="#TopDataTablesPerKeyYears">TopDataTablesPerKeyYears</a></li>
 	</ul>
 </div>
-
-<div class="mbl_tbl">
-	<ul>
-		<li><a href="#NumberOfRequestsPerKeys_mbl">NumberOfRequestsPerKeys</a></li>
-		<li><a href="#NumberOfRequestsPerDayByKeys_mbl">NumberOfRequestsPerDayByKeys</a></li>
-		<li><a href="#NumberOfRequestsPerMonthByKeys_mbl">NumberOfRequestsPerMonthByKeys</a></li>
-		<li><a href="#NumberOfRequestsPerYearByKeys_mbl">NumberOfRequestsPerYearByKeys</a></li>
-		<li><a href="#NumberOfRequestsPerYearByWeeks_mbl">NumberOfRequestsPerYearByWeeks</a></li>
-		<li><a href="#TopDatasetsPerKeys_mbl">TopDatasetsPerKeys</a></li>
-		<li><a href="#TopDatasetsPerYearPerKeys_mbl">TopDatasetsPerYearPerKeys</a></li>
-		<li><a href="#TopDatasetsPerMonthPerKeys_mbl">TopDatasetsPerMonthPerKeys</a></li>
-		<li><a href="#TopDatasetsPerWeekPerKeys_mbl">TopDatasetsPerWeekPerKeys</a></li>
-		<li><a href="#TopDatasetsPerDayPerKeys_mbl">TopDatasetsPerDayPerKeys</a></li>
-		<li><a href="#TopDataTablesPerKeys_mbl">TopDataTablesPerKeys</a></li>
-		<li><a href="#TopDataTablesPerKeyDays_mbl">TopDataTablesPerKeyDays</a></li>
-		<li><a href="#TopDataTablesPerKeyMonths_mbl">TopDataTablesPerKeyMonths</a></li>
-		<li><a href="#TopDataTablesPerKeyWeeks_mbl">TopDataTablesPerKeyWeeks</a></li>
-		<li><a href="#TopDataTablesPerKeyYears_mbl">TopDataTablesPerKeyYears</a></li>
-	</ul>
-</div>
-
-<div class="dsktp_tbl">
+<div>
 	<h3 id="NumberOfRequestsPerKeys" tabindex="-1">NumberOfRequestsPerKeys</h3>
-	<table summary="Number of Requests Per Keys - API Metrics (per key)">
+	<table class="accessible responsive" summary="Number of Requests Per Keys - API Metrics (per key)">
 		<caption>Number of Requests Per Keys</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">RequestCount</th>
-				<td>Number of Requests</td>
-				<td>Integer</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					RequestCount
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					Integer
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="NumberOfRequestsPerDayByKeys" tabindex="-1">NumberOfRequestsPerDayByKeys</h3>
-	<table summary="Number of Requests Per Day By Keys - API Metrics (per key)">
+	<table class="accessible responsive" summary="Number of Requests Per Day By Keys - API Metrics (per key)">
 		<caption>Number of Requests Per Day By Keys</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">RequestDate</th>
-				<td>Date</td>
-				<td>DateTime</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					RequestDate
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					DateTime
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">RequestCount</th>
-				<td>Number of Requests</td>
-				<td>Integer</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					RequestCount
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					Integer
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="NumberOfRequestsPerMonthByKeys" tabindex="-1">NumberOfRequestsPerMonthByKeys</h3>
-	<table summary="Number of Requests Per Month By Keys - API Metrics (per key)">
+	<table class="accessible responsive" summary="Number of Requests Per Month By Keys - API Metrics (per key)">
 		<caption>Number of Requests Per Month By Keys</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">RequestDate</th>
-				<td>Date</td>
-				<td>DateTime</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					RequestDate
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					DateTime
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Date
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">RequestCount</th>
-				<td>Number of Requests</td>
-				<td>Integer</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					RequestCount
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					Integer
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="NumberOfRequestsPerYearByKeys" tabindex="-1">NumberOfRequestsPerYearByKeys</h3>
-	<table summary="Number of Requests Per Year By Keys - API Metrics (per key)">
+	<table class="accessible responsive" summary="Number of Requests Per Year By Keys - API Metrics (per key)">
 		<caption>Number of Requests Per Year By Keys</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">RequestYear</th>
-				<td>Year</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					RequestYear
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">RequestCount</th>
-				<td>Number of Requests</td>
-				<td>Integer</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					RequestCount
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					Integer
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="NumberOfRequestsPerYearByWeeks" tabindex="-1">NumberOfRequestsPerYearByWeeks</h3>
-	<table summary="Number of Requests Per Year By Weeks - API Metrics (per key)">
+	<table class="accessible responsive" summary="Number of Requests Per Year By Weeks - API Metrics (per key)">
 		<caption>Number of Requests Per Year By Weeks</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">RequestWeek</th>
-				<td>Week in the year</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					RequestWeek
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Week in the year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">RequestYear</th>
-				<td>Year</td>
-				<td>int</td>
+				<th scope="row">
+					
+					RequestYear
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">RequestCount</th>
-				<td>Number of Requests</td>
-				<td>Integer</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					RequestCount
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					Integer
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="TopDatasetsPerKeys" tabindex="-1">TopDatasetsPerKeys</h3>
-	<table summary="Top Datasets Per Keys - API Metrics (per key)">
+	<table class="accessible responsive" summary="Top Datasets Per Keys - API Metrics (per key)">
 		<caption>Top Datasets Per Keys</caption>
 		<thead>
 			<tr>
@@ -217,567 +331,551 @@ description: Find here a list of DOL API Metric queries.  For these queries,a sp
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					API Key
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					GUID
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ShortCall</th>
-				<td>Dataset path</td>
-				<td>string</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ShortCall
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					string
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Dataset path
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Calls</th>
-				<td>Number of requests</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Calls
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="TopDatasetsPerYearPerKeys" tabindex="-1">TopDatasetsPerYearPerKeys</h3>
-	<table summary="Top Datasets Per Year Per Keys - API Metrics (per key)">
+	<table class="accessible responsive" summary="Top Datasets Per Year Per Keys - API Metrics (per key)">
 		<caption>Top Datasets Per Year Per Keys</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ShortCall</th>
-				<td>Dataset path</td>
-				<td>string</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ShortCall
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					string
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Dataset path
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Calls</th>
-				<td>Number of requests</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Calls
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="TopDatasetsPerMonthPerKeys" tabindex="-1">TopDatasetsPerMonthPerKeys</h3>
-	<table summary="Top Datasets Per Month Per Keys - API Metrics (per key)">
+	<table class="accessible responsive" summary="Top Datasets Per Month Per Keys - API Metrics (per key)">
 		<caption>Top Datasets Per Month Per Keys</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ShortCall</th>
-				<td>Dataset path</td>
-				<td>string</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ShortCall
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					string
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Dataset path
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Calls</th>
-				<td>Number of requests</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Calls
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="TopDatasetsPerWeekPerKeys" tabindex="-1">TopDatasetsPerWeekPerKeys</h3>
-	<table summary="Top Datasets Per Week Per Keys - API Metrics (per key)">
+	<table class="accessible responsive" summary="Top Datasets Per Week Per Keys - API Metrics (per key)">
 		<caption>Top Datasets Per Week Per Keys</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ShortCall</th>
-				<td>Dataset path</td>
-				<td>string</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ShortCall
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					string
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Dataset path
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Calls</th>
-				<td>Number of requests</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Calls
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="TopDatasetsPerDayPerKeys" tabindex="-1">TopDatasetsPerDayPerKeys</h3>
-	<table summary="Top Datasets Per Day Per Keys - API Metrics (per key)">
+	<table class="accessible responsive" summary="Top Datasets Per Day Per Keys - API Metrics (per key)">
 		<caption>Top Datasets Per Day Per Keys</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ShortCall</th>
-				<td>Dataset path</td>
-				<td>string</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ShortCall
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					string
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Dataset path
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Calls</th>
-				<td>Number of requests</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Calls
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="TopDataTablesPerKeys" tabindex="-1">TopDataTablesPerKeys</h3>
-	<table summary="Top Data Tables Per Keys - API Metrics (per key)">
+	<table class="accessible responsive" summary="Top Data Tables Per Keys - API Metrics (per key)">
 		<caption>Top Data Tables Per Keys</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ShortCall</th>
-				<td>Data table path</td>
-				<td>string</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ShortCall
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					string
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Data table path
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Calls</th>
-				<td>Number of requests</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Calls
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="TopDataTablesPerKeyDays" tabindex="-1">TopDataTablesPerKeyDays</h3>
-	<table summary="Top Data Tables Per Key Days - API Metrics (per key)">
+	<table class="accessible responsive" summary="Top Data Tables Per Key Days - API Metrics (per key)">
 		<caption>Top Data Tables Per Key Days</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ShortCall</th>
-				<td>Data table path</td>
-				<td>string</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ShortCall
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					string
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Data table path
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Calls</th>
-				<td>Number of requests</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Calls
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="TopDataTablesPerKeyMonths" tabindex="-1">TopDataTablesPerKeyMonths</h3>
-	<table summary="Top Data Tables Per Key Months - API Metrics (per key)">
+	<table class="accessible responsive" summary="Top Data Tables Per Key Months - API Metrics (per key)">
 		<caption>Top Data Tables Per Key Months</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ShortCall</th>
-				<td>Data table path</td>
-				<td>string</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ShortCall
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					string
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Data table path
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Calls</th>
-				<td>Number of requests</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Calls
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="TopDataTablesPerKeyWeeks" tabindex="-1">TopDataTablesPerKeyWeeks</h3>
-	<table summary="Top Data Tables Per Key Weeks - API Metrics (per key)">
+	<table class="accessible responsive" summary="Top Data Tables Per Key Weeks - API Metrics (per key)">
 		<caption>Top Data Tables Per Key Weeks</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ShortCall</th>
-				<td>Data table path</td>
-				<td>string</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ShortCall
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					string
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Data table path
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Calls</th>
-				<td>Number of requests</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Calls
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="TopDataTablesPerKeyYears" tabindex="-1">TopDataTablesPerKeyYears</h3>
-	<table summary="Top Data Tables Per Key Years - API Metrics (per key)">
+	<table class="accessible responsive" summary="Top Data Tables Per Key Years - API Metrics (per key)">
 		<caption>Top Data Tables Per Key Years</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">TOKEN</th>
-				<td>API Key</td>
-				<td>GUID</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					TOKEN
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					GUID
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					API Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">ShortCall</th>
-				<td>Data table path</td>
-				<td>string</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ShortCall
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					string
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Data table path
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Calls</th>
-				<td>Number of requests</td>
-				<td>int</td>
+				<th scope="row">	
+					<span class="small">Column Name</span>
+					Calls
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of requests
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h3 id="NumberOfRequestsPerKeys_mbl" tabindex="-1">NumberOfRequestsPerKeys</h3>
-	<h4>Number of Requests Per Keys</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: RequestCount</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of Requests</p>
-		<p><span class="mbl-strng">Data Type:</span> Integer</p>		
-	</div>
-
-	<hr />
-	<h3 id="NumberOfRequestsPerDayByKeys_mbl" tabindex="-1">NumberOfRequestsPerDayByKeys</h3>
-	<h4>Number of Requests Per Day By Keys</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: RequestDate</p>
-		<p><span class="mbl-strng">Column Description:</span> Date</p>
-		<p><span class="mbl-strng">Data Type:</span> DateTime</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: RequestCount</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of Requests 	</p>
-		<p><span class="mbl-strng">Data Type:</span> Integer</p>		
-	</div>
-
-	<hr />
-	<h3 id="NumberOfRequestsPerMonthByKeys_mbl" tabindex="-1">NumberOfRequestsPerMonthByKeys</h3>
-	<h4>Number of Requests Per Month By Keys</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: RequestDate</p>
-		<p><span class="mbl-strng">Column Description:</span> Date</p>
-		<p><span class="mbl-strng">Data Type:</span> DateTime</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: RequestCount</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of Requests 	</p>
-		<p><span class="mbl-strng">Data Type:</span> Integer</p>		
-	</div>
-
-	<hr />
-	<h3 id="NumberOfRequestsPerYearByKeys_mbl" tabindex="-1">NumberOfRequestsPerYearByKeys</h3>
-	<h4>Number of Requests Per Year By Keys</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: RequestYear</p>
-		<p><span class="mbl-strng">Column Description:</span> Year</p>
-		<p><span class="mbl-strng">Data Type:</span> DateTime</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: RequestCount</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of Requests 	</p>
-		<p><span class="mbl-strng">Data Type:</span> Integer</p>		
-	</div>
-
-	<hr />
-	<h3 id="NumberOfRequestsPerYearByWeeks_mbl" tabindex="-1">NumberOfRequestsPerYearByWeeks</h3>
-	<h4>Number of Requests Per Year By Weeks </h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: RequestWeek</p>
-		<p><span class="mbl-strng">Column Description:</span> Week in the year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: RequestYear</p>
-		<p><span class="mbl-strng">Column Description:</span> Year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: RequestCount</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of Requests</p>
-		<p><span class="mbl-strng">Data Type:</span> Integer</p>		
-	</div>
-
-	<hr />
-	<h3 id="TopDatasetsPerKeys_mbl" tabindex="-1">TopDatasetsPerKeys</h3>
-	<h4>Top Datasets Per Keys</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ShortCall</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset path</p>
-		<p><span class="mbl-strng">Data Type:</span> string</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Calls</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of requests</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-
-	<hr />
-	<h3 id="TopDatasetsPerYearPerKeys_mbl" tabindex="-1">TopDatasetsPerYearPerKeys</h3>
-	<h4>Top Datasets Per Year Per Keys</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ShortCall</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset path</p>
-		<p><span class="mbl-strng">Data Type:</span> string</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Calls</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of requests</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-
-	<hr />
-	<h3 id="TopDatasetsPerMonthPerKeys_mbl" tabindex="-1">TopDatasetsPerMonthPerKeys</h3>
-	<h4>Top Datasets Per Month Per Keys</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ShortCall</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset path</p>
-		<p><span class="mbl-strng">Data Type:</span> string</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Calls</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of requests</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-
-	<hr />
-	<h3 id="TopDatasetsPerWeekPerKeys_mbl" tabindex="-1">TopDatasetsPerWeekPerKeys</h3>
-	<h4>Top Datasets Per Week Per Keys</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ShortCall</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset path</p>
-		<p><span class="mbl-strng">Data Type:</span> string</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Calls</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of requests</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-
-	<hr />
-	<h3 id="TopDatasetsPerDayPerKeys_mbl" tabindex="-1">TopDatasetsPerDayPerKeys</h3>
-	<h4>Top Datasets Per Day Per Keys</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ShortCall</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset path</p>
-		<p><span class="mbl-strng">Data Type:</span> string</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Calls</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of requests</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-
-	<hr />
-	<h3 id="TopDataTablesPerKeys_mbl" tabindex="-1">TopDataTablesPerKeys</h3>
-	<h4>Top Data Tables Per Keys</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ShortCall</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset path</p>
-		<p><span class="mbl-strng">Data Type:</span> string</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Calls</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of requests</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-
-	<hr />
-	<h3 id="TopDataTablesPerKeyDays_mbl" tabindex="-1">TopDataTablesPerKeyDays</h3>
-	<h4>Top Data Tables Per Key Days</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ShortCall</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset path</p>
-		<p><span class="mbl-strng">Data Type:</span> string</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Calls</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of requests</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-
-	<hr />
-	<h3 id="TopDataTablesPerKeyMonths_mbl" tabindex="-1">TopDataTablesPerKeyMonths</h3>
-	<h4>Top Data Tables Per Key Months</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ShortCall</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset path</p>
-		<p><span class="mbl-strng">Data Type:</span> string</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Calls</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of requests</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-
-	<hr />
-	<h3 id="TopDataTablesPerKeyWeeks_mbl" tabindex="-1">TopDataTablesPerKeyWeeks</h3>
-	<h4>Top Data Tables Per Key Weeks</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ShortCall</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset path</p>
-		<p><span class="mbl-strng">Data Type:</span> string</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Calls</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of requests</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-
-	<hr />
-	<h3 id="TopDataTablesPerKeyYears_mbl" tabindex="-1">TopDataTablesPerKeyYears</h3>
-	<h4>Top Data Tables Per Key Years</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: TOKEN</p>
-		<p><span class="mbl-strng">Column Description:</span> API Key</p>
-		<p><span class="mbl-strng">Data Type:</span> GUID</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: ShortCall</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset path</p>
-		<p><span class="mbl-strng">Data Type:</span> string</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Calls</p>
-		<p><span class="mbl-strng">Column Description:</span> Number of requests</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
 </div>
