@@ -73,7 +73,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 			<tr>
 				<th scope="row">
 					<span class="small">Column Name</span>
-					GES_TEXT
+					AGES_TEXT
 				</th>
 				<td>
 					<span class="small">Data Type</span>
