@@ -232,7 +232,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 
 	<h3 id="FI_CATEGORY2">FI_CATEGORY2 Table</h3>
 	<table class="accessible responsive" summary="Category2 - Fatal Occupational Injuries">
-		<caption>Category2 </caption>
+		<caption>Category2</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
