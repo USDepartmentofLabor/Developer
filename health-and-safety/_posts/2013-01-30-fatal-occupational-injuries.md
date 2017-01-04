@@ -250,8 +250,9 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 				<span class="small">Data Type</span>
 				Varchar(3)
 			</td>
+			     <td>
 			     <span class="small">Column Description</span>
-				<td>The code identifies the category of the observation. Choose combination of Case Code and all ownership, age group, event/exposure, gender, nature, occupations, part, race, primary source of injury, secondary source of injury, worker status (wage/salary or self-employed), worker activity, or worker location (See list at ftp://ftp.bls.gov/pub/time.series/fi/fi.category2). Definitions for event/exposure, nature, occupation, part, primary source of injury, secondary source of injury, worker activity, and worker location are provided below.
+				The code identifies the category of the observation. Choose combination of Case Code and all ownership, age group, event/exposure, gender, nature, occupations, part, race, primary source of injury, secondary source of injury, worker status (wage/salary or self-employed), worker activity, or worker location (See list at ftp://ftp.bls.gov/pub/time.series/fi/fi.category2). Definitions for event/exposure, nature, occupation, part, primary source of injury, secondary source of injury, worker activity, and worker location are provided below.
 			</td>
 				
 			</tr>
@@ -1108,8 +1109,9 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 				<span class="small">Data Type</span>
 				Varchar (5)
 			</td>
+			<td>
 			<span class="small">Column Description</span>
-				<td>Order in which variables are displayed.
+			Order in which variables are displayed.
 			</td>
 				
 			</tr>
