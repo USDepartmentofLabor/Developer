@@ -332,8 +332,15 @@ tbody th:nth-of-type(1) {
 	hyphens: auto;
 	overflow-wrap: break-word;
 }
+tbody th:nth-of-type(1) {
+	hyphens: auto;
+	overflow-wrap: break-word;
+}
 .accessible .small { display:none;}
 table { margin-bottom: 2em;}
+@media screen and (min-width: 48.5em) {
+	table{ min-width: 40em;}
+}
 
 /*  #Mobile (0-767)
 ================================================== */
@@ -383,5 +390,9 @@ table { margin-bottom: 2em;}
 		border-bottom: solid 2px #3d3d3d;
 		margin-bottom: 1em;
 		padding-left:.25em;
+	}
+	.responsive caption, .responsive h3 {
+		hyphens: auto;
+		overflow-wrap: break-word;
 	}
 }
