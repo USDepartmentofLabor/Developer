@@ -17,7 +17,7 @@ description: This dataset tells you Auto Companies which are closed or repurpose
 ## Dataset Tables  
 
 <div>
-	<h3>CAR_ClosedRepurposed</h3>
+	<h3 id="CAR_ClosedRepurposed">CAR_ClosedRepurposed Table</h3>
 	<table class="accessible responsive" summary="Car Closed Repurposed - Auto Workers">
 		<caption>Car Closed Repurposed</caption>
 		<thead>
