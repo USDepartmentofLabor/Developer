@@ -30,7 +30,7 @@ description: Following its sampling plan, OSHA industrial hygienists are monitor
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Data type</th>
+				<th scope="col">Data Type</th>
 				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
