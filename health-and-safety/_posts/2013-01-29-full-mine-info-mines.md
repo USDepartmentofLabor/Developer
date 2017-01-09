@@ -18,7 +18,7 @@ description: The Full Mine Information dataset lists all Coal and Metal/Non-Meta
 
 <div>
 	<h3 id="MSHA_mines">MSHA_mines</h3>
-	<tableclass="accessible responsive" Summary="MSHA Mines - Full Mine Information">
+	<table class="accessible responsive" Summary="MSHA Mines - Full Mine Information">
 		<caption>MSHA Mines</caption>
 		<thead>
 			<tr>
@@ -33,7 +33,7 @@ description: The Full Mine Information dataset lists all Coal and Metal/Non-Meta
 				<th scope="row">
 				<span class="small">Column Name</span>
 				id
-				</th>
+			</th>
 				<td>
 				<span class="small">Data Type</span>
 				bigint
