@@ -446,8 +446,6 @@ description: This dataset tells you Auto Companies which are closed or repurpose
 				<span class="small">Column Description</span>
 				Success In Restoring Job Base 5 is very successful and 1 is not at all successful
 			</td>
-				
-			</td>
 			</tr>
 		</tbody>
 	</table>
