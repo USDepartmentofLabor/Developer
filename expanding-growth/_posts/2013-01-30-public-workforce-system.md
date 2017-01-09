@@ -3106,7 +3106,7 @@ description: The PWSD is a dataset that can be used to answer questions about va
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="col">
+				<th scope="row">
 					<span class="small">Column Name</span>
 					id
 				</th>
