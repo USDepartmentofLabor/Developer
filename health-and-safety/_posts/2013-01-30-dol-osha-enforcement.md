@@ -19,7 +19,7 @@ description: The dataset consists of inspection case detail for approximately 90
 
 ## Dataset Tables
 
-<div class>
+<div>
 	<ul>
 		<li><a href="#osha_accident">accident</a></li>
 		<li><a href="#osha_accident_abstract">accident_abstract</a></li>
@@ -34,7 +34,7 @@ description: The dataset consists of inspection case detail for approximately 90
 	</ul>
 </div>
 
-    <div>
+<div>
 	<h3 id="osha_accident">Accident Table</h3>
 	<div class="force_wrap apiurl">
 		<p>https://data.dol.gov/get/accident</p>
