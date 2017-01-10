@@ -6,7 +6,7 @@ description: The Consumer Price Indexes (CPI) program produces monthly data on c
 ---
 
 <div class="force_wrap apiurl">
-http://api.dol.gov/V1/Statistics/CPI
+<p>http://api.dol.gov/V1/Statistics/CPI</p>
 </div>
 
 <p>The Consumer Price Indexes (CPI) program produces monthly data on changes in the prices paid by urban consumers for a representative basket of goods and services.</p>
