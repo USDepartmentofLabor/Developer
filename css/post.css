@@ -5,6 +5,7 @@
     font-size: 2.5rem;
     color: black;
     margin-top: 1.25rem;
+    margin-left:.5em;
 }
 
 .menu_title_dataset {
@@ -394,5 +395,8 @@ table { margin-bottom: 2em;}
 	.responsive caption, .responsive h3 {
 		hyphens: auto;
 		overflow-wrap: break-word;
+	}
+	.post_title_dataset {
+	    font-size: 2rem;
 	}
 }
