@@ -108,9 +108,9 @@ th, td {
     vertical-align: top;
 }
 
-table, th, td {
-    border: 1px solid #3d3d3d;
-}
+//table, th, td {
+    //border: 1px solid #3d3d3d;
+//}
 
 table {
     border-collapse: collapse;
