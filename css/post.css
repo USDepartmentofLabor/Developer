@@ -349,8 +349,9 @@ table { margin-bottom: 2em;}
 	.post_content_dataset tr:nth-child(2n) { background: #fff;}
 	.responsive thead { display:none;}
 	table.responsive , .responsive th, .responsive td {
-		border-top: 0px transparent solid;
-		border-bottom:  0px transparent solid;
+//		border-top: 0px transparent solid;
+//		border-bottom:  0px transparent solid;
+		border:  0px transparent solid;	
 	}
 	table.responsive tr {
 		display:flex;
