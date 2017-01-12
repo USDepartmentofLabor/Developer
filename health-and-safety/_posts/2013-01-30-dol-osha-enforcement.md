@@ -656,7 +656,7 @@ description: The dataset consists of inspection case detail for approximately 90
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				timestamp without time zone Date the load was completed (yyyymmdd hhmmss)
+				timestamp without time zone 
 			</td>
 				<td>
 				<span class="small">Column Description</span>
@@ -1902,14 +1902,14 @@ description: The dataset consists of inspection case detail for approximately 90
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				numeric(9,0)
+				activity_nr
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				activity_nr
+				numeric(9,0)
 			</td>
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				Identifies the associated inspection
 			</td>
 			</tr>
