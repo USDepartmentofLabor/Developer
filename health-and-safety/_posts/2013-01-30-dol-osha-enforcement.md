@@ -407,7 +407,7 @@ description: The dataset consists of inspection case detail for approximately 90
 				numeric(2,0) 
 			</td>
 				<td>
-				<span class="small">Column Name</span>
+				<span class="small">Column Description</span>
 				 Age of the injured person
 			</td>
 			</tr>
@@ -477,7 +477,7 @@ description: The dataset consists of inspection case detail for approximately 90
 				 numeric(2,0) 
 			</td>
 				<td>
-				<span class="small">Column Name</span>
+				<span class="small">Column Description</span>
 				 Event type code - code table FT
 			</td>
 			</tr>
@@ -722,7 +722,7 @@ description: The dataset consists of inspection case detail for approximately 90
 				char(1)
 			</td>
 				<td>
-				<span class="small">Column Name</span>
+				<span class="small">Column Description</span>
 				 Flag used to identify a State
 			</td>
 			</tr>
@@ -736,7 +736,7 @@ description: The dataset consists of inspection case detail for approximately 90
 				varchar(300)
 			</td>
 				<td>
-				<span class="small">Column Name</span>
+				<span class="small">Column Description</span>
 				Establishment being inspected
 			</td>
 			</tr>
@@ -980,7 +980,7 @@ description: The dataset consists of inspection case detail for approximately 90
 			</tr>
 			<tr>
 				<th scope="row">
-				
+				<span class="small">Column Name</span>
 				health_manuf
 			</th>
 				<td>
@@ -1082,7 +1082,7 @@ description: The dataset consists of inspection case detail for approximately 90
 				mail_zip
 			</th>
 				<td>
-				<span class="small">Column Data Type</span>
+				<span class="small">Data Type</span>
 				(varchar15)
 			</td>
 				<td>
