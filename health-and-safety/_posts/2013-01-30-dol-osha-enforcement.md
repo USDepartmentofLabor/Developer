@@ -72,11 +72,11 @@ description: The dataset consists of inspection case detail for approximately 90
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				Identifies the OSHA federal or state reporting jurisdiction
+				char(7)
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				char(7)
+				Identifies the OSHA federal or state reporting jurisdiction 
 			</td>
 			</tr>
 			<tr>
@@ -86,11 +86,11 @@ description: The dataset consists of inspection case detail for approximately 90
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				Date of accident (yyyymmdd hhmmss)
+				timestamp without time zone
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				timestamp without time zone
+				Date of accident (yyyymmdd hhmmss) 
 			</td>
 			</tr>
 			<tr>
@@ -268,11 +268,11 @@ description: The dataset consists of inspection case detail for approximately 90
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				Date the load was completed (yyyymmdd hhmmss) 
+				timestamp without time zone 
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				timestamp without time zone
+				Date the load was completed (yyyymmdd hhmmss) 
 			</td>
 			</tr>
 		</tbody>
@@ -343,11 +343,11 @@ description: The dataset consists of inspection case detail for approximately 90
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				Date the load was completed (yyyymmdd hhmmss)
+				 timestamp without time zone
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				timestamp without time zone  
+				Date the load was completed (yyyymmdd hhmmss)   
 			</td>
 			</tr>
 		</tbody>
