@@ -63,7 +63,7 @@ This dataset contains the annual summation of employee hours and coal production
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-			    varchar (150
+			    varchar (150)
 			</td>
 				<td>
 				<span class="small">Column Description</span>

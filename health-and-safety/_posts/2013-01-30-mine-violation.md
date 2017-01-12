@@ -499,7 +499,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 				<span class="small">Data Type</span>
 				 varchar (10)
 				<td>
-				span class="small">Column Description</span>
+				<span class="small">Column Description</span>
 				 Time of day (24 hour) at which the citation/order was terminated. May not contain data (null values) if citation has not yet been terminated.
 			</td>
 			</td>

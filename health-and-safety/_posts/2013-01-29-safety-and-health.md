@@ -419,7 +419,7 @@ description: Data related to safety and health in the workplace.
 <p>Each year the Occupational Safety and Health Administration (OSHA) collects work-related injury and illness data from employers within specific industry and employment size specifications. This data collection is called the OSHA Data Initiative or ODI. The data provided is used by OSHA to calculate establishment specific injury and illness incidence rates. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Labor-Force-Employment-and-Earnings/OSHA-Data-Initiative-Establishment-Specific-Injury/i4a7-82ev&amp;exitTitle=Establishment%20Specific%20Injury%20and%20Illness%20Rates&amp;fedpage=yes">http://explore.data.gov/Labor-Force-Employment-and-Earnings/OSHA-Data-Initiative-Establishment-Specific-Injury/i4a7-82ev</a></p>
 
 <div>
-    <h3 id="Establishment Specific Injury Illness Rates - Safety and Health">Establishment Specific Injury Illness Rates - Safety and Health Table</h3>
+    <h3 id="EstablishmentSpecificInjuryIllnessRates">Establishment Specific Injury Illness Rates - Safety and Health Table</h3>
 	<table class="accessible responsive"  summary="Establishment Specific Injury Illness Rates - Safety and Health">
 		<caption>Establishment Specific Injury Illness Rates</caption>
 		<thead>
