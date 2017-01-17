@@ -9,7 +9,7 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 <p>http://api.dol.gov/V1/Geography</p>
 </div>
 
-<p>Find here a list of States, Counties, Cities and, Congressional Districts.</p>
+<p>Find here a list of States, Counties, Cities and, Congressional Districts. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.census.gov/geo/reference/ansi.html&amp;exitTitle=Geography&20-&20American&20National&20Standards&20Institute&20-ANSI&20Codes&amp;fedpage=yes">http://www.census.gov/geo/reference/ansi.html</a></p>
 
 <a href ="http://api.dol.gov/V1/Geography/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Geography" class="button radius button_dataset">Explore This Data</a>
