@@ -329,6 +329,7 @@ thead th { color:#505050;}
 tbody th:nth-of-type(1) { 
 	hyphens: auto;
 	overflow-wrap: break-word;
+	font-weight: bold;
 }
 tbody th:nth-of-type(1) {
 	hyphens: auto;

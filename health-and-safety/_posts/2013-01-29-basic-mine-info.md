@@ -12,7 +12,7 @@ description: The Basic Mine Information dataset lists basic information on all C
 <p>The Basic Mine Info dataset lists basic information on all Coal and Metal/Non-Metal mines under MSHA's jurisdiction since 1/1/1970. It includes such information as the current status of each mine (Active, Abandoned, NonProducing, etc.), the current owner and operating company, commodity codes and physical attributes of the mine.</p>
 
 <p>Note: This dataset used to be "Address of record". The name was changed due to content organization so did the location.</p>
-<p>This complete dataset can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://explore.data.gov/Energy-and-Utilities/Mine-Address-of-Record-Data-Set/329k-nck6&amp;exitTitle=Mine%20Address%20of%20Record&amp;fedpage=yes"> http://explore.data.gov/Energy-and-Utilities/Mine-Address-of-Record-Data-Set/329k-nck6 </a></p>
+<p>This complete dataset can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://catalog.data.gov/dataset/basic-mine-information-mine-address-of-record&amp;exitTitle=Mine%20Address%20of%20Record&amp;fedpage=yes">https://catalog.data.gov/dataset/basic-mine-information-mine-address-of-record</a></p>
 
 <a href ="http://api.dol.gov/V1/Mining/BasicMineInfo/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Basic%20Mine%20Info%20Dataset" class="button radius button_dataset">Explore This Data</a>
