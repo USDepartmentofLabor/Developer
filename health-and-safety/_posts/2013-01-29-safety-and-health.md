@@ -22,7 +22,7 @@ description: Data related to safety and health in the workplace.
 </ul>
   
 <h3 id="ChemicalExposureInspections" tabindex="-1">ChemicalExposureInspections Table</h3>
-<p>OSHA takes industrial hygiene samples as part of its compliance monitoring program. The following sampling results represent personal, area, and bulk samples for various airborne contaminants.More information and details about the data provided can be found at <a href="https://catalog.data.gov/dataset/safety-health-chemical-exposure-inspection&amp;exitTitle=OSHA Chemical Exposure Health Data&amp;fedpage=yes">https://catalog.data.gov/dataset/safety-health-chemical-exposure-inspection</a></p>
+<p>OSHA takes industrial hygiene samples as part of its compliance monitoring program. The following sampling results represent personal, area, and bulk samples for various airborne contaminants.More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://catalog.data.gov/dataset/safety-health-chemical-exposure-inspection&amp;exitTitle=OSHA Chemical Exposure Health Data&amp;fedpage=yes">https://catalog.data.gov/dataset/safety-health-chemical-exposure-inspection</a></p>
 
 <div>
     <h3 id="ChemicalExposureInspections">ChemicalExposureInspectionsTable</h3>
