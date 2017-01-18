@@ -16,143 +16,186 @@ This dataset contains the annual summation of employee hours and coal production
 
 ## Dataset Tables  
 
-<div class="dsktp_tbl">
-	<h3>MSHA_employmentProduction</h3> 
-	<table summary="MSHA Employment Production">
-		<caption>MSHA Employment Production</caption>
+<div> 
+	<h3>MSHA_employmentProduction</h3>
+	<table class="accessible responsive" summary="MSHA_employmentProduction">
+	 <caption>MSHA Employment Production</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">id</th>
-				<td>Record ID - Primary Key</td>
-				<td>bigint</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 id
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Record ID - Primary Key
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">mineId</th>
-				<td>Mine ID</td>
-				<td>bigint</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				  mineID
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Mine ID
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">mineName</th>
-				<td>Mine Name</td>
-				<td>varchar (150)</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 mineName
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+			    varchar (150)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Mine Name
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">state</th>
-				<td>State where mine is</td>
-				<td>varchar (150)</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 state
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (150)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 State where mine is
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">subUnitCode</th>
-				<td>Sub Unit code of the mine</td>
-				<td>int</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 subUnitCode
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				int
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Sub Unit code of the mine
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">subUnit</th>
-				<td>Sub Unit of the mine</td>
-				<td>varchar (150)</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 subUnit
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				  varchar (150)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Sub Unit of the mine
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">calendarYear</th>
-				<td>Mine Calendar Year</td>
-				<td>int</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				calendarYear
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				int
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Mine Calendar Year
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">annualHours</th>
-				<td>Miner Annual Hour</td>
-				<td>int</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 annualHours
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 int 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Miner Annual Hour
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">annualCostProduction</th>
-				<td>Annual Cost Production</td>
-				<td>bigint</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 annualCostProduction
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Annual Cost Production
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">averageEmployeeCount</th>
-				<td>Average Employee Count</td>
-				<td>int</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 averageEmployeeCount
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 int
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Average Employee Count
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">averageEmployeeHours</th>
-				<td>Average Employee Hours</td>
-				<td>int</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 averageEmployeeHours
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 int
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				  Average Employee Hours
+			</td>
 			</tr>
 			<tr>
-				<th scope="row">coalMetalInd</th>
-				<td>Coal Metal Indicator</td>
-				<td>varchar (3)</td>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				  coalMetalInd
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (3)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Coal Metal Indicator
+			</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h3>MSHA_employmentProduction</h3>
-	<h4>MSHA Employment Production</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: id</p>
-		<p><span class="mbl-strng">Column Description:</span> Record ID - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> bigint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: mineId</p>
-		<p><span class="mbl-strng">Column Description:</span> Mine ID</p>
-		<p><span class="mbl-strng">Data Type:</span> bigint</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: mineName</p>
-		<p><span class="mbl-strng">Column Description:</span> Mine Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (150)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: state</p>
-		<p><span class="mbl-strng">Column Description:</span> State where mine is</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (150)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: subUnitCode</p>
-		<p><span class="mbl-strng">Column Description:</span> Sub Unit code of the mine</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: subUnit</p>
-		<p><span class="mbl-strng">Column Description:</span> Sub Unit of the mine</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (150)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: calendarYear</p>
-		<p><span class="mbl-strng">Column Description:</span> Mine Calendar Year</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: annualHours</p>
-		<p><span class="mbl-strng">Column Description:</span> Miner Annual Hour 	</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: annualCostProduction</p>
-		<p><span class="mbl-strng">Column Description:</span> Annual Cost Production</p>
-		<p><span class="mbl-strng">Data Type:</span> bigint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: averageEmployeeCount</p>
-		<p><span class="mbl-strng">Column Description:</span> Average Employee Count</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: averageEmployeeHours</p>
-		<p><span class="mbl-strng">Column Description:</span> Average Employee Hours</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: coalMetalInd</p>
-		<p><span class="mbl-strng">Column Description:</span> Coal Metal Indicator</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (3)</p>		
-	</div>
 </div>

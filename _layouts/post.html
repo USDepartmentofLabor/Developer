@@ -7,7 +7,7 @@ layout: default
         <div class="row">
             {% if page.categories contains 'health-and-safety' %}
             <div class="large-3 columns"><img src="{{ site.baseurl }}/img/health.png" class="menu_title_dataset_img" alt="Health Icon"></div>
-            
+
             <div class="large-9 columns"><h1 class="menu_title_dataset">DOL HEALTH & SAFETY DATASETS</h1></div>
             {% elsif page.categories contains 'keeping-what-you-earn' %}
             <div class="large-3 columns"><img src="{{ site.baseurl }}/img/bank.png" class="menu_title_dataset_img" alt="Bank Icon"></div>
@@ -32,7 +32,7 @@ layout: default
                     <ul>
                         {% for item in site.categories.health-and-safety %}
                             <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
-                            
+
                         {% endfor %}
                     </ul>
                 </div>
@@ -100,7 +100,7 @@ layout: default
 
                     </div>
                 </div>
-                <h1 class="post_title_dataset show-for-medium-up">{{ page.title }}</h1>
+                <h1 class="post_title_dataset">{{ page.title }}</h1>
 
                 <p class="post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             </header>
