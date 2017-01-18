@@ -9,14 +9,14 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 <p>http://api.dol.gov/V1/Geography</p>
 </div>
 
-<p>Find here a list of States, Counties, Cities and, Congressional Districts.</p>
+<p>Find here a list of States, Counties, Cities and, Congressional Districts. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.census.gov/geo/reference/ansi.html&amp;exitTitle=Geography&20-&20American&20National&20Standards&20Institute&20-ANSI&20Codes&amp;fedpage=yes">http://www.census.gov/geo/reference/ansi.html</a></p>
 
 <a href ="http://api.dol.gov/V1/Geography/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=Geography" class="button radius button_dataset">Explore This Data</a>
 
 ## Dataset Tables
 
-<div class="dsktp_tbl">
+<div>
 	<ul>
 		<li><a href="#City">City</a></li>
 		<li><a href="#CongressDistrict">CongressDistrict</a></li>
@@ -25,206 +25,228 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 	</ul>
 </div>
 
-<div class="mbl_tbl">
-	<ul>
-		<li><a href="#City_mbl">City</a></li>
-		<li><a href="#CongressDistrict_mbl">CongressDistrict</a></li>
-		<li><a href="#County_mbl">County</a></li>
-		<li><a href="#State_mbl">State</a></li>
-	</ul>
-</div>
-
-<div class="dsktp_tbl">
+<div>
 	<h3 id="City" tabindex="-1">City Table</h3>
-	<table summary="City - Geography - list of States, Counties, and Cities">
+	<table class="accessible responsive" summary="City - Geography - list of States, Counties, and Cities">
 		<caption>City</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">CityCode</th>
-				<td>City Code - Primary Key</td>
-				<td>bigint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CityCode
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					bigint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					City Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">CountyCode</th>
-				<td>County Code - Primary Key</td>
-				<td>smallint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CountyCode
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					smallint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					County Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">StateCode</th>
-				<td>State Code - Primary Key</td>
-				<td>smallint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					StateCode
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					smallint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					State Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">CityName</th>
-				<td>Cyty/Place Name</td>
-				<td>varchar(250)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CityName
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(250)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Cyty/Place Name
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Type</th>
-				<td>Type. B=Borough; C=City; D=CDP; O=Comunidad; T=Town; V=Village; X=Other Types</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type. B=Borough; C=City; D=CDP; O=Comunidad; T=Town; V=Village; X=Other Types
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="CongressDistrict" tabindex="-1">Congress District Table</h3>
-	<table summary="Congress District - Geography - list of Congressional Districts">
+	<table class="accessible responsive" summary="Congress District - Geography - list of Congressional Districts">
 		<caption>Congress District</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">CountyCode</th>
-				<td>County Code - Primary Key</td>
-				<td>smallint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CountyCode
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					smallint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					County Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">StateCode</th>
-				<td>State Code - Primary Key</td>
-				<td>smallint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					StateCode
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					smallint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					State Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">District</th>
-				<td>Congressional District - Primary Key</td>
-				<td>smallint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					District
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					smallint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Congressional District - Primary Key
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="County" tabindex="-1">County Table</h3>
-	<table summary="County - Geography - list of Counties">
+	<table class="accessible responsive" summary="County - Geography - list of Counties">
 		<caption>County</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">CountyCode</th>
-				<td>County Code - Primary Key</td>
-				<td>smallint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CountyCode
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					smallint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					County Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">CountyName</th>
-				<td>County Name</td>
-				<td>varchar(250)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CountyName
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(250)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					County Name
+				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<h3 id="State" tabindex="-1">State Table</h3>
-	<table summary="State - Geography - list of States">
+	<table class="accessible responsive" summary="State - Geography - list of States">
 		<caption>State</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">StateCode</th>
-				<td>State Code - Primary Key</td>
-				<td>smallint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					StateCode
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					smallint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					State Code - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">StateName</th>
-				<td>State Name</td>
-				<td>varchar(200)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					StateName
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(200)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					State Name
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h3 id="City_mbl" tabindex="-1">City Table</h3>
-	<h4>List of States, Counties, and Cities</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: CityCode</p>
-		<p><span class="mbl-strng">Column Description:</span> City Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> bigint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: CountyCode</p>
-		<p><span class="mbl-strng">Column Description:</span> County Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> smallint</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: StateCode</p>
-		<p><span class="mbl-strng">Column Description:</span> State Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> smallint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: CityName</p>
-		<p><span class="mbl-strng">Column Description:</span> Cyty/Place Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(250)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: Type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type. B=Borough; C=City; D=CDP; O=Comunidad; T=Town; V=Village; X=Other Types</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>		
-	</div>
-
-	<hr />
-	<h3 id="CongressDistrict_mbl" tabindex="-1">CongressDistrict Table</h3>
-	<h4>List of Congressional Districts</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: CountyCode</p>
-		<p><span class="mbl-strng">Column Description:</span> County Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> smallint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: StateCode</p>
-		<p><span class="mbl-strng">Column Description:</span> State Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> smallint</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: District</p>
-		<p><span class="mbl-strng">Column Description:</span> Congressional District - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> smallint</p>		
-	</div>
-
-	<hr />
-	<h3 id="County_mbl" tabindex="-1">County Table</h3>
-	<h4>List of Counties</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: CountyCode</p>
-		<p><span class="mbl-strng">Column Description:</span> County Code - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> smallint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: CountyName</p>
-		<p><span class="mbl-strng">Column Description:</span> County Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(250)</p>		
-	</div>
-
-	<hr />
-	<h3 id="State_mbl" tabindex="-1">State Table</h3>
-	<h4>List of States</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: StateCode</p>
-		<p><span class="mbl-strng">Column Description:</span> State Code - Primary Key 	</p>
-		<p><span class="mbl-strng">Data Type:</span> smallint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: StateName</p>
-		<p><span class="mbl-strng">Column Description:</span> State Name</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(200)</p>		
-	</div>
 </div>

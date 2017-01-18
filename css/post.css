@@ -5,6 +5,7 @@
     font-size: 2.5rem;
     color: black;
     margin-top: 1.25rem;
+    margin-left:.5em;
 }
 
 .menu_title_dataset {
@@ -105,10 +106,7 @@ table caption {
 
 th, td {
     vertical-align: top;
-}
-
-table, th, td {
-    border: 1px solid #3d3d3d;
+	color: #3d3d3d;
 }
 
 table {
@@ -289,4 +287,115 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
     font-size: large;
     font-weight: bold;
     
+}
+
+
+//	New CSS below to allow the dataset tables to be the only source of information.
+
+table, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
+
+/* #Standard
+================================================== */
+
+table { border-collapse: collapse;}
+table, th, td {
+	border-top: 2px solid #3d3d3d;
+	border-bottom: 2px solid #3d3d3d;
+}
+th, td {
+	padding-right: 0;
+	padding-left: 0;
+	border-right:0;
+}
+.comparison-table td:first-child, th:first-child { border-left: 2px solid #3d3d3d;}
+th:last-child, td:last-child { border-right: 2px solid #3d3d3d;}
+td, th {
+	text-align:left;
+	font-weight:normal;
+	font-size:1em;
+	padding:.5em;
+	box-sizing:border-box;
+}
+th {
+	text-align: left;
+	font-weight:normal;
+}
+thead th { color:#505050;}
+.responsive th:nth-of-type(1) { width:25%;}
+.responsive thead th:nth-of-type(3),
+.responsive tbody td:nth-of-type(2) {
+	padding-left:1.5em;
+}
+tbody th:nth-of-type(1) { 
+	hyphens: auto;
+	overflow-wrap: break-word;
+	font-weight: bold;
+}
+tbody th:nth-of-type(1) {
+	hyphens: auto;
+	overflow-wrap: break-word;
+}
+.accessible .small { display:none;}
+table { margin-bottom: 2em;}
+@media screen and (min-width: 48.5em) {
+	table{ min-width: 40em;}
+}
+
+/*  #Mobile (0-767)
+================================================== */
+@media screen and (max-device-width: 35em), screen and (max-width: 35em) {
+	.post_content_dataset tr:nth-child(2n) { background: #fff;}
+	.responsive thead { display:none;}
+	table.responsive , .responsive th, .responsive td {
+//		border-top: 0px transparent solid;
+//		border-bottom:  0px transparent solid;
+		border:  0px transparent solid;	
+	}
+	table.responsive tr {
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.responsive td, .responsive th {
+		display:block;
+		flex-basis:100%;
+		text-align:left;
+		font-weight:normal;
+		font-size:1em;
+		padding:.5em;
+		box-sizing:border-box;
+		min-width: 5.5em;
+	}
+	.responsive tbody td:nth-of-type(2) { padding-left:.5em;}
+	.accessible .small {
+		display:block;
+		font-size:.7250em;
+		color:#505050;
+		clear:both;
+		width:65%;
+		font-weight: bold;
+	}
+	.responsive th:nth-of-type(1) {
+		border-top: solid 2px #3d3d3d;
+		border-left: solid 2px #3d3d3d;
+		border-right: solid 2px #3d3d3d;
+		padding-left:.5em;
+		flex-wrap:wrap;
+	}
+	.responsive td:nth-of-type(1), .responsive td:nth-of-type(2) {
+		border-right: solid 2px #3d3d3d;
+		border-left: solid 2px #3d3d3d;
+		flex-wrap:wrap;
+	}
+	.responsive td:nth-of-type(2) {
+		border-bottom: solid 2px #3d3d3d;
+		margin-bottom: 1em;
+		padding-left:.25em;
+	}
+	.responsive caption, .responsive h3 {
+		hyphens: auto;
+		overflow-wrap: break-word;
+	}
+	.post_title_dataset {
+	    font-size: 2rem;
+	}
 }

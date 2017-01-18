@@ -15,73 +15,88 @@ description: The API Metadata provides a list of available datasets that the Dep
 
 ## Dataset Tables  
 
-<div class="dsktp_tbl">
+<div>
 	<h3>APIMetadata</h3>
-	<table summary="Lists datasets' narrative, path, and documentation location information for available sources.">
+	<table class="accessible responsive" summary="Lists datasets' narrative, path, and documentation location information for available sources.">
 		<caption>Lists datasets' narrative, path, and documentation location information for available sources.</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">id</th>
-				<td>Record Id. - Primary Key</td>
-				<td>smallint</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					id
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					smallint
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Record Id. - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">name</th>
-				<td>Dataset name.</td>
-				<td>varchar (100)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar (100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Dataset name.
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">description</th>
-				<td>Dataset description.</td>
-				<td>varchar (500)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					description
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar (500)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Dataset description.
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">datasetPath</th>
-				<td>The datasets base path.</td>
-				<td>varchar (150)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					datasetPath
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar (150)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					The datasets base path.
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">documentationPath</th>
-				<td>Path to the corresponding dataset documentation.</td>
-				<td>varchar (150)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					documentationPath
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar (150)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Path to the corresponding dataset documentation.
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h3>APIMetadata</h3>
-	<h4>Lists datasets' narrative, path, and documentation location information for available sources.</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: id</p>
-		<p><span class="mbl-strng">Column Description:</span> Record Id. - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> smallint</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: name</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset name.</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (100)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: description</p>
-		<p><span class="mbl-strng">Column Description:</span> Dataset description.</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (500)</p>		
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: datasetPath</p>
-		<p><span class="mbl-strng">Column Description:</span> The datasets base path.</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (150)</p>		
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: documentationPath</p>
-		<p><span class="mbl-strng">Column Description:</span> Path to the corresponding dataset documentation</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar (150)</p>		
-	</div>
 </div>

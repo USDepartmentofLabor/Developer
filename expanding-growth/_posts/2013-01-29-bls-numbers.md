@@ -48,1636 +48,1923 @@ description: This Dataset contains historic data (last 10 years) for the most co
 <h3 id="averageHourlyEarnings" tabindex="-1">averageHourlyEarnings Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
-<div class="dsktp_tbl">
-	<table summary="Average Hourly Earnings - BLS Numbers">
+<div>
+	<table class="accessible responsive" summary="Average Hourly Earnings - BLS Numbers">
 		<caption>Average Hourly Earnings</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Average Hourly Earnings - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="consumerPriceIndex" tabindex="-1">consumerPriceIndex Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
 
-<div class="dsktp_tbl">
-	<table summary="Consumer Price Index - BLS Numbers">
+<div>
+	<table class="accessible responsive" summary="Consumer Price Index - BLS Numbers">
 		<caption>Consumer Price Index</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Consumer Price Index - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="employmentCostIndex" tabindex="-1">employmentCostIndex Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CIS1010000000000Q&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CIS1010000000000Q</a></p>
 
-<div class="dsktp_tbl">
-	<table summary="Employment Cost Index - BLS Numbers">
+<div>
+	<table class="accessible responsive" summary="Employment Cost Index - BLS Numbers">
 		<caption>Employment Cost Index</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Quarters - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Quarters - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Employment Cost Index - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="exportPriceIndex" tabindex="-1">exportPriceIndex Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Export Price Index - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Export Price Index - BLS Numbers">
 		<caption>Export Price Index</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Export Price Index - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="importPriceIndex" tabindex="-1">importPriceIndex Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
 
-<div class="dsktp_tbl">
-	<table summary="Import Price Index - BLS Numbers">
+<div>
+	<table class="accessible responsive" summary="Import Price Index - BLS Numbers">
 		<caption>Import Price Index</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Import Price Index - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="payrollEmployment" tabindex="-1">payrollEmployment Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Payroll Employment - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Payroll Employment - BLS Numbers">
 		<caption>Payroll Employment</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,0)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,0)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Payroll Employment - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,0)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="producerPriceIndex" tabindex="-1">producerPriceIndex Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/</a></p>
 
-<div class="dsktp_tbl">
-	<table summary="Producer Price Index - BLS Numbers">
+<div>
+	<table class="accessible responsive" summary="Producer Price Index - BLS Numbers">
 		<caption>Producer Price Index</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Producer Price Index - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="productivity" tabindex="-1">productivity Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/PRS85006092&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/PRS85006092</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Productivity - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Productivity - BLS Numbers">
 		<caption>Productivity</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - (A)Annual and (Q)Quarters - Primary Key</td>
-				<td>varchar(5)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(5)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - (A)Annual and (Q)Quarters - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Productivity - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - (A)Annual and (Q)Quarters - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> varchar(5)</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="unemploymentRate" tabindex="-1">unemploymentRate Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Unemployment Rate - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Unemployment Rate - BLS Numbers">
 		<caption>Unemployment Rate</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Unemployment Rate - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="averageHourlyEarnings12MonthChange" tabindex="-1">averageHourlyEarnings12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
-<div class="dsktp_tbl">
-	<table summary="Average Hourly Earnings 12 Month Change - BLS Numbers">
+<div>
+	<table class="accessible responsive" summary="Average Hourly Earnings 12 Month Change - BLS Numbers">
 		<caption>Average Hourly Earnings 12 Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Average Hourly Earnings 12 Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="averageHourlyEarnings1MonthChange" tabindex="-1">averageHourlyEarnings1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Average Hourly Earnings One Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Average Hourly Earnings One Month Change - BLS Numbers">
 		<caption>Average Hourly Earnings One Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Average Hourly Earnings One Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="averageHourlyEarnings1MonthNetChange" tabindex="-1">averageHourlyEarnings1MonthNetChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Average Hourly Earnings One Month Net Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Average Hourly Earnings One Month Net Change - BLS Numbers">
 		<caption>Average Hourly Earnings One Month Net Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Average Hourly Earnings One Month Net Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="consumerPriceIndex12MonthChange" tabindex="-1">consumerPriceIndex12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
 
-<div class="dsktp_tbl">
-	<table summary="Consumer Price Index 12 Month Change - BLS Numbers">
+<div>
+	<table class="accessible responsive" summary="Consumer Price Index 12 Month Change - BLS Numbers">
 		<caption>Consumer Price Index 12 Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Consumer Price Index 12 Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="consumerPriceIndex1MonthChange" tabindex="-1">consumerPriceIndex1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Consumer Price Index One Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Consumer Price Index One Month Change - BLS Numbers">
 		<caption>Consumer Price Index One Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Consumer Price Index One Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="exportPriceIndex12MonthChange" tabindex="-1">exportPriceIndex12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Export Price Index 12 Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Export Price Index 12 Month Change - BLS Numbers">
 		<caption>Export Price Index 12 Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Export Price Index 12 Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="exportPriceIndex1MonthChange" tabindex="-1">exportPriceIndex1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Export Price Index One Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Export Price Index One Month Change - BLS Numbers">
 		<caption>Export Price Index One Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Export Price Index One Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="importPriceIndex12MonthChange" tabindex="-1">importPriceIndex12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Import Price Index 12 Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Import Price Index 12 Month Change - BLS Numbers">
 		<caption>Import Price Index 12 Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Import Price Index 12 Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="importPriceIndex1MonthChange" tabindex="-1">importPriceIndex1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Import Price Index One Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Import Price Index One Month Change - BLS Numbers">
 		<caption>Import Price Index One Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Import Price Index One Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="payrollEmployment12MonthChange" tabindex="-1">payrollEmployment12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Payroll Employment 12 Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Payroll Employment 12 Month Change - BLS Numbers">
 		<caption>Payroll Employment 12 Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Payroll Employment 12 Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="payrollEmployment12MonthNetChange" tabindex="-1">payrollEmployment12MonthNetChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Payroll Employment 12 Month Net Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Payroll Employment 12 Month Net Change - BLS Numbers">
 		<caption>Payroll Employment 12 Month Net Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Payroll Employment 12 Month Net Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="payrollEmployment1MonthChange" tabindex="-1">payrollEmployment1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
-<div class="dsktp_tbl">
-	<table summary="Payroll Employment One Month Change - BLS Numbers">
+<div>
+	<table class="accessible responsive" summary="Payroll Employment One Month Change - BLS Numbers">
 		<caption>Payroll Employment One Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Payroll Employment One Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="payrollEmployment1MonthNetChange" tabindex="-1">payrollEmployment1MonthNetChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Payroll Employment One Month Net Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Payroll Employment One Month Net Change - BLS Numbers">
 		<caption>Payroll Employment One Month Net Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value (in thousands)</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value (in thousands)
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Payroll Employment One Month Net Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="producerPriceIndex12MonthChange" tabindex="-1">producerPriceIndex12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Producer Price Index 12 Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Producer Price Index 12 Month Change - BLS Numbers">
 		<caption>Producer Price Index 12 Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Producer Price Index 12 Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="producerPriceIndex1MonthChange" tabindex="-1">producerPriceIndex1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Producer Price Index One Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Producer Price Index One Month Change - BLS Numbers">
 		<caption>Producer Price Index One Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Producer Price Index One Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="unemploymentRate12MonthChange" tabindex="-1">unemploymentRate12MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Unemployment Rate 12 Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Unemployment Rate 12 Month Change - BLS Numbers">
 		<caption>Unemployment Rate 12 Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Unemployment Rate 12 Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
-	<hr />
 </div>
 
 <h3 id="unemploymentRate1MonthChange" tabindex="-1">unemploymentRate1MonthChange Table</h3>
 <p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
 
-<div class="dsktp_tbl">	
-	<table summary="Unemployment Rate One Month Change - BLS Numbers">
+<div>	
+	<table class="accessible responsive" summary="Unemployment Rate One Month Change - BLS Numbers">
 		<caption>Unemployment Rate One Month Change</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
-				<th scope="col">Column Description</th>
 				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">year</th>
-				<td>Year - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">period</th>
-				<td>Period - Months - Primary Key</td>
-				<td>int</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">value</th>
-				<td>Value</td>
-				<td>numeric(8,3)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">type</th>
-				<td>Type - Preliminary(p), Revised(r), Final(F)</td>
-				<td>char(1)</td>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
 			</tr>
 		</tbody>
 	</table>
-</div>
-
-<div class="mbl_tbl">
-	<h4>Unemployment Rate One Month Change - BLS Numbers</h4>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: year</p>
-		<p><span class="mbl-strng">Column Description:</span> Year - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: period</p>
-		<p><span class="mbl-strng">Column Description:</span> Period - Months - Primary Key</p>
-		<p><span class="mbl-strng">Data Type:</span> int</p>
-	</div>
-	<div class="odd_row">
-		<p class="mbl-strng">Column Name: value</p>
-		<p><span class="mbl-strng">Column Description:</span> Value</p>
-		<p><span class="mbl-strng">Data Type:</span> numeric(8,3)</p>
-	</div>
-	<div class="even_row">
-		<p class="mbl-strng">Column Name: type</p>
-		<p><span class="mbl-strng">Column Description:</span> Type - Preliminary(p), Revised(r), Final(F)</p>
-		<p><span class="mbl-strng">Data Type:</span> char(1)</p>
-	</div>
 </div>
