@@ -331,10 +331,10 @@ tbody th:nth-of-type(1) {
 	overflow-wrap: break-word;
 	font-weight: bold;
 }
-tbody th:nth-of-type(1) {
-	hyphens: auto;
-	overflow-wrap: break-word;
-}
+//tbody th:nth-of-type(1) {
+//	hyphens: auto;
+//	overflow-wrap: break-word;
+//}
 .accessible .small { display:none;}
 table { margin-bottom: 2em;}
 @media screen and (min-width: 48.5em) {
@@ -380,6 +380,9 @@ table { margin-bottom: 2em;}
 		border-right: solid 2px #3d3d3d;
 		padding-left:.5em;
 		flex-wrap:wrap;
+	}
+	.responsive tbody th:nth-of-type(1) {
+		font-weight: normal;
 	}
 	.responsive td:nth-of-type(1), .responsive td:nth-of-type(2) {
 		border-right: solid 2px #3d3d3d;
