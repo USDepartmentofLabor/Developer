@@ -25,7 +25,6 @@ description: Data related to safety and health in the workplace.
 <p>OSHA takes industrial hygiene samples as part of its compliance monitoring program. The following sampling results represent personal, area, and bulk samples for various airborne contaminants.More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://catalog.data.gov/dataset/safety-health-chemical-exposure-inspection&amp;exitTitle=OSHA Chemical Exposure Health Data&amp;fedpage=yes">https://catalog.data.gov/dataset/safety-health-chemical-exposure-inspection</a></p>
 
 <div>
-    <h3 id="ChemicalExposureInspections">ChemicalExposureInspectionsTable</h3>
 	<table class="accessible responsive" summary="Chemical Exposure Inspection - Safety & Health">
 		<caption>Chemical Exposure Inspection</caption>
 		<thead>
@@ -415,11 +414,10 @@ description: Data related to safety and health in the workplace.
 	</table>
 </div>
 
-
+<h3 id="EstablishmentSpecificInjuryIllnessRates">Establishment Specific Injury Illness Rates - Safety and Health Table</h3>
 <p>Each year the Occupational Safety and Health Administration (OSHA) collects work-related injury and illness data from employers within specific industry and employment size specifications. This data collection is called the OSHA Data Initiative or ODI. The data provided is used by OSHA to calculate establishment specific injury and illness incidence rates. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://catalog.data.gov/dataset/safety-health-establishment-specific-injury-illness-rates&amp;exitTitle=Establishment%20Specific%20Injury%20and%20Illness%20Rates&amp;fedpage=yes">https://catalog.data.gov/dataset/safety-health-establishment-specific-injury-illness-rates</a></p>
 
 <div>
-    <h3 id="EstablishmentSpecificInjuryIllnessRates">Establishment Specific Injury Illness Rates - Safety and Health Table</h3>
 	<table class="accessible responsive"  summary="Establishment Specific Injury Illness Rates - Safety and Health">
 		<caption>Establishment Specific Injury Illness Rates</caption>
 		<thead>
