@@ -382,19 +382,32 @@ developer.dol.gov
     padding: 0;
 }
 
+.dol_sub h2 a,
+.dol_sub p a,
+.dol_sub_code h2 a,
+.dol_sub_code p a,
+.details a
+{
+    text-decoration: underline;
+}
 
 .dol_sub h2 a:hover,
 .dol_sub h2 a:active,
+.dol_sub h2 a:focus,
 .dol_sub p a:hover,
 .dol_sub p a:active,
+.dol_sub p a:focus,
 .dol_sub_code h2 a:hover,
 .dol_sub_code h2 a:active,
+.dol_sub_code h2 a:focus,
 .dol_sub_code p a:hover,
 .dol_sub_code p a:active,
-
-.details a:hover
+.dol_sub_code p a:focus,
+.details a:hover,
+.details a:active,
+.details a:focus
 {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .dol_sub, .dol_sub_code {
