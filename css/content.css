@@ -104,6 +104,10 @@ developer.dol.gov
     margin: .75em .75em .75em 0;
 }
 
+.button_dataset a {
+    text-decoration: none;
+}
+
 .button_wide {
     background-color: black;
     opacity: 1;
