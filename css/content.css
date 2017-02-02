@@ -428,7 +428,7 @@ developer.dol.gov
     text-transform: uppercase;
 }
 
-.dol_sub li li
+.dol_sub ul ul
 {
     list-style-type: disc;
 }
