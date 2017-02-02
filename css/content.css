@@ -428,6 +428,13 @@ developer.dol.gov
     text-transform: uppercase;
 }
 
+.dol_sub li li
+{
+    text-align: left;
+    list-style-type: disc;
+    color: #000;
+}
+
  .howdiv h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
