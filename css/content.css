@@ -430,8 +430,11 @@ developer.dol.gov
 
 .dol_sub li li
 {
-    text-align: left;
     list-style-type: disc;
+}
+.dol_sub li li a
+{
+    text-align: left;
     color: #000;
 }
 
