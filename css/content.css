@@ -428,15 +428,15 @@ developer.dol.gov
     text-transform: uppercase;
 }
 
-.dol_sub ul ul
+.dol_sub ul ul, .dol_sub_code ul ul
 {
     list-style-type: disc;
 }
-.dol_sub li li
+.dol_sub li li, .dol_sub_code li li
 {
     text-align: left;
 }
-.dol_sub li li a
+.dol_sub li li a, .dol_sub_code li li a
 {
     color: #000;
 }
