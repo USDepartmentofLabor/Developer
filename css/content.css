@@ -428,6 +428,19 @@ developer.dol.gov
     text-transform: uppercase;
 }
 
+.dol_sub ul ul, .dsk-lst ul, .mbl-lst ul
+{
+    list-style-type: disc;
+}
+.dol_sub li li, .dsk-lst li li, .mbl-lst li li
+{
+    text-align: left;
+}
+.dol_sub li li a, .dsk-lst li li a, .mbl-lst li li a
+{
+    color: #000;
+}
+
  .howdiv h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
