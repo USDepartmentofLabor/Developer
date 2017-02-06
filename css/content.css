@@ -446,7 +446,7 @@ developer.dol.gov
 .mbl-lst li a:hover, .mbl-lst li a:active, .mbl-lst li a:focus
 {
     color: #000;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
  .howdiv h2 {
