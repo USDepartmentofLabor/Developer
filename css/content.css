@@ -432,11 +432,11 @@ developer.dol.gov
 {
     list-style-type: disc;
 }
-.dol_sub li li, .dsk-lst li li, .mbl-lst li li
+.dol_sub li li, .dsk-lst li, .mbl-lst li
 {
     text-align: left;
 }
-.dol_sub li li a, .dsk-lst li li a, .mbl-lst li li a
+.dol_sub li li a, .dsk-lst li a, .mbl-lst li a
 {
     color: #000;
 }
