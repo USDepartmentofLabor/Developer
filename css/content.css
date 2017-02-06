@@ -548,6 +548,9 @@ developer.dol.gov
 .accordion li.accordion-navigation a:hover, .accordion li.accordion-navigation a:focus, .accordion li.accordion-navigation a:active {
     background: #e3e3e3;
 }
+.accordion li.accordion-navigation a {
+    list-style-type: none;
+}
 
 .details
 {
