@@ -28,6 +28,7 @@
 .small-3 h2 a,
 .small-3 p a,
 .small-block-grid-4 li a {
+  color: #000;
 	text-decoration: underline;
 }
 .post_content_dataset li a:hover, .post_content_dataset li a:focus,.post_content_dataset li a:active,
