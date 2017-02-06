@@ -553,7 +553,7 @@ developer.dol.gov
     list-style-type: none;
 }
 
-.dol_sub ul ul, .dsk-lst ul, .mbl-lst ul
+.dol_sub ul ul, .dsk-lst ul, .accordion li.mbl-lst ul
 {
     list-style-type: disc;
 }
