@@ -427,21 +427,24 @@ developer.dol.gov
     color: black;
     text-transform: uppercase;
 }
-
+/*
 .dol_sub ul ul, .dsk-lst ul, .mbl-lst ul
 {
     list-style-type: disc;
 }
+*/
 .dol_sub li li, .dsk-lst li, .mbl-lst li
 {
     text-align: left;
 }
-.dol_sub li li a
+.dol_sub li li a, .dsk-lst li a, .mbl-lst li a
 {
     color: #000;
     text-decoration: underline;
 }
 .dol_sub li li a:hover, .dol_sub li li a:active, .dol_sub li li a:focus,
+.dsk-lst li a:hover, .dsk-lst li a:active, .dsk-lst li a:focus,
+.mbl-lst li a:hover, .mbl-lst li a:active, .mbl-lst li a:focus
 {
     color: #000;
     text-decoration: none;
@@ -549,16 +552,10 @@ developer.dol.gov
 .accordion li.accordion-navigation li {
     list-style-type: none;
 }
-.dsk-lst li a, .mbl-lst li a
+
+.dol_sub ul ul, .dsk-lst ul, .mbl-lst ul
 {
-    color: #000;
-    text-decoration: underline;
-}
-.dsk-lst li a:hover, .dsk-lst li a:active, .dsk-lst li a:focus,
-.mbl-lst li a:hover, .mbl-lst li a:active, .mbl-lst li a:focus
-{
-    color: #000;
-    text-decoration: none;
+    list-style-type: disc;
 }
 
 .details
