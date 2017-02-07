@@ -552,6 +552,9 @@ developer.dol.gov
 .accordion li.accordion-navigation li {
     list-style-type: none;
 }
+.accordion ul.mbl-lst li {
+    list-style-type: initial;
+  }
 
 .details
 {
