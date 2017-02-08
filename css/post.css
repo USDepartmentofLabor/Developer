@@ -32,6 +32,9 @@
 	text-decoration: underline;
 }
 
+.post_content_dataset .button_dataset a, .post_content_dataset .button_wide a {
+  color: #fff;
+}
 .post_content_dataset li a:hover, .post_content_dataset li a:focus,.post_content_dataset li a:active,
 .post_content_dataset a:hover, .post_content_dataset a:focus, .post_content_dataset a:active,
 .post_content_dataset h2 a:hover, .post_content_dataset h2 a:focus, .post_content_dataset h2 a:active,
@@ -282,11 +285,6 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
     font-weight: bold;
     
 }
-
-.button_dataset p a, .button_wide p a {
-  color: #fff;
-}
-
 
 //	New CSS below to allow the dataset tables to be the only source of information.
 
