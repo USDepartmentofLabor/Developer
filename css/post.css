@@ -53,7 +53,7 @@
     margin: 0 .5em;
 }
 .post_content_dataset p {
-    margin: 0 .5em 1 .5em;
+    margin: 0 .5em 1em .5em;
 }
 .post_content_dataset h2, .post_content_dataset h2 a {
     font-family: 'Open Sans', sans-serif;
@@ -81,7 +81,7 @@
     font-size: 1.5em;
     color: black;
     text-decoration: none;
-    margin: 0;
+    margin: 0 .25em .5em .25em;
 
 }
 /*
