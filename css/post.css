@@ -283,7 +283,7 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
     
 }
 
-.button_dataset a, .button_wide a {
+.button_dataset p a, .button_wide p a {
   color: #fff;
 }
 
