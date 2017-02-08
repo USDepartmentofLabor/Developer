@@ -52,10 +52,12 @@
     color: black;
     margin: 0 .5em;
 }
-
+.post_content_dataset p {
+    margin: 0 .5em 1 .5em;
+}
 .post_content_dataset h2, .post_content_dataset h2 a {
     font-family: 'Open Sans', sans-serif;
-/*    font-weight: bold; */
+    margin-left: .25em;
     font-size: 1.25em;
     color: black;
 }
