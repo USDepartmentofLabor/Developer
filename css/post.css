@@ -28,7 +28,7 @@
 .small-3 h2 a,
 .small-3 p a,
 .small-block-grid-4 li a {
-  color: #000;
+/*  color: #000;    */
 	text-decoration: underline;
 }
 
@@ -94,9 +94,7 @@
 .post_content_dataset thead tr {
     background-color: #D9D9D9;
 }
-.button_dataset a, .button_wide a {
-  color: #fff;
-}
+
 table caption {
     text-align: left;
     font-size: 1.3333em;
