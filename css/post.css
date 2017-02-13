@@ -32,7 +32,7 @@
 	text-decoration: underline;
 }
 
-.post_content_dataset .button_dataset a, .post_content_dataset .button_wide a {
+.button_dataset a, .button_wide a {
   color: #fff;
 }
 .post_content_dataset li a:hover, .post_content_dataset li a:focus,.post_content_dataset li a:active,
