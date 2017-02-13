@@ -5,7 +5,7 @@
     font-size: 2.5rem;
     color: black;
     margin-top: 1.25rem;
-    margin-left:.5em;
+    margin-left: .333em;
 }
 
 .menu_title_dataset {
@@ -28,10 +28,13 @@
 .small-3 h2 a,
 .small-3 p a,
 .small-block-grid-4 li a {
-  color: #000;
 	text-decoration: underline;
 }
-
+.small-3 h2 a,
+.small-3 p a,
+.small-block-grid-4 li a {
+    color: #000;
+}
 .post_content_dataset li a:hover, .post_content_dataset li a:focus,.post_content_dataset li a:active,
 .post_content_dataset a:hover, .post_content_dataset a:focus, .post_content_dataset a:active,
 .post_content_dataset h2 a:hover, .post_content_dataset h2 a:focus, .post_content_dataset h2 a:active,
@@ -48,9 +51,6 @@
     font-size: 16px;
     color: black;
     margin: 0 .5em;
-}
-.post_content_dataset p {
-    margin: 0 .5em 1em .5em;
 }
 .post_content_dataset h2, .post_content_dataset h2 a {
     font-family: 'Open Sans', sans-serif;
@@ -78,7 +78,7 @@
     font-size: 1.5em;
     color: black;
     text-decoration: none;
-    margin: 0 .5em .5em .5em;
+    margin: 0 .5em .5em .333em;
 
 }
 /*
@@ -94,9 +94,7 @@
 .post_content_dataset thead tr {
     background-color: #D9D9D9;
 }
-.button_dataset a, .button_wide a {
-  color: #fff;
-}
+
 table caption {
     text-align: left;
     font-size: 1.3333em;
@@ -241,16 +239,15 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
     background-color: #EEEEEE;
     padding: 1em;
 }
-.panel.documentation p,
-.panel.feature p {
-    margin: 0;
-}
 
 .panel.documentation h2,
 .panel.feature h2 {
-    margin: .5em 0;
+    margin: .5em;
 }
 
+.post_content_dataset p, .panel.documentation p, .panel.feature p {
+    margin: 0 .5em 1em .5em;
+}
 
 .tabs-content{
     border-top:solid black 5px;
@@ -294,7 +291,7 @@ table, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inher
 /* #Standard
 ================================================== */
 
-table { border-collapse: collapse;}
+table { border-collapse: collapse; margin-left: .75em;}
 table, th, td {
 	border-top: 2px solid #3d3d3d;
 	border-bottom: 2px solid #3d3d3d;
