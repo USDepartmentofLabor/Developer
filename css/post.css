@@ -52,9 +52,6 @@
     color: black;
     margin: 0 .5em;
 }
-.post_content_dataset p. .documentation p {
-    margin: 0 .5em 1em .5em;
-}
 .post_content_dataset h2, .post_content_dataset h2 a {
     font-family: 'Open Sans', sans-serif;
     margin-left: .5em;
@@ -252,6 +249,9 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
     margin: .5em 0;
 }
 
+.post_content_dataset p, .documentation p {
+    margin: 0 .5em 1em .5em;
+}
 
 .tabs-content{
     border-top:solid black 5px;
