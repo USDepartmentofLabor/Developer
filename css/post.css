@@ -32,9 +32,6 @@
 	text-decoration: underline;
 }
 
-.button_dataset a, .button_wide a {
-  color: #fff;
-}
 .post_content_dataset li a:hover, .post_content_dataset li a:focus,.post_content_dataset li a:active,
 .post_content_dataset a:hover, .post_content_dataset a:focus, .post_content_dataset a:active,
 .post_content_dataset h2 a:hover, .post_content_dataset h2 a:focus, .post_content_dataset h2 a:active,
@@ -97,7 +94,9 @@
 .post_content_dataset thead tr {
     background-color: #D9D9D9;
 }
-
+.button_dataset a, .button_wide a {
+  color: #fff;
+}
 table caption {
     text-align: left;
     font-size: 1.3333em;
