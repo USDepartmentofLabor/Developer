@@ -52,7 +52,7 @@
     color: black;
     margin: 0 .5em;
 }
-.post_content_dataset p {
+.post_content_dataset p. .documentation p {
     margin: 0 .5em 1em .5em;
 }
 .post_content_dataset h2, .post_content_dataset h2 a {
