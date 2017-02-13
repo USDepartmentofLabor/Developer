@@ -239,7 +239,7 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
     background-color: #EEEEEE;
     padding: 1em;
 }
-.panel.documentation p,
+
 .panel.feature p {
     margin: 0;
 }
@@ -249,7 +249,7 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
     margin: .5em 0;
 }
 
-.post_content_dataset p, .documentation p {
+.post_content_dataset p, .panel.documentation p {
     margin: 0 .5em 1em .5em;
 }
 
