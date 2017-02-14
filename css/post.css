@@ -246,7 +246,7 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
 }
 
 .post_content_dataset p, .panel.documentation p, .panel.feature p {
-    margin: 0 .5em 1em .75em;
+    margin: 0 .5em 1em .5em;
 }
 
 .tabs-content{
