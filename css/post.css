@@ -78,7 +78,7 @@
     font-size: 1.5em;
     color: black;
     text-decoration: none;
-    margin: 0 .5em .5em .25em;
+    margin: 0 .5em .5em .333em;
 
 }
 /*
@@ -246,7 +246,7 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
 }
 
 .post_content_dataset p, .panel.documentation p, .panel.feature p {
-    margin: 0 .5em 1em .5em;
+    margin: 0 .5em 1em .75em;
 }
 
 .tabs-content{
@@ -291,7 +291,7 @@ table, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inher
 /* #Standard
 ================================================== */
 
-table { border-collapse: collapse; margin-left: .5em;}
+table { border-collapse: collapse; margin-left: .75em;}
 table, th, td {
 	border-top: 2px solid #3d3d3d;
 	border-bottom: 2px solid #3d3d3d;
