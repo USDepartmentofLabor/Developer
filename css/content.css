@@ -557,6 +557,7 @@ developer.dol.gov
   }
 .accordion li.accordion-navigation a {
     text-decoration: underline;
+    color: #000;
 }
 .details
 {
