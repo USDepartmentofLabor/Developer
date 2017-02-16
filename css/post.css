@@ -164,15 +164,15 @@ table {
     color: black;
     text-decoration:underline;
 }
-
+/*
 .cmenu,
 .cmenu a:hover {
     color: #0078a0 !important;
 }
-
+*/
 .cmenu a:hover, .cmenu a:focus, .cmenu a:active {
     text-decoration:none;
-    font-weight: bold;
+/*    font-weight: bold;    */
 }
 
 .cmenu a:active,
