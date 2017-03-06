@@ -120,6 +120,9 @@ developer.dol.gov
     background-color: #333333;
 }
 
+.button_tran, .button_dol, .button_dataset, .button_tran_left, .button_ls, .button_wide {
+    text-align: left;
+}
 
 .cb2 {
     position:relative; right: 00px;
