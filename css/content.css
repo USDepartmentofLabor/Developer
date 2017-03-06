@@ -44,72 +44,63 @@ developer.dol.gov
 }
 
 .button_tran {
-    background-color: black;
     opacity: .8;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
     margin: 0 20px;
     width: 200px;
-    padding: 15px 0;
 }
 
 .button_tran_left {
-    background-color: black;
     opacity: .8;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
     width: 200px;
     float: left;
     margin-left: 20px;
 }
 
 .button_dol {
-    background-color: black;
     opacity: 1;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
-
-    width: 150px;
-    padding: 15px 0;
+    width: 220px;
 }
 
 .button_dol_left {
-    background-color: black;
     opacity: 1;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
     text-align: left;
     width: 150px;
-    padding: 15px 0;
 }
 
 .button_ls {
-    background-color: black;
     opacity: 1;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
-
-    width: 100px;
+     width: 100px;
     padding: 15px 0;
 }
 
 .button_dataset {
-    background-color: black;
     opacity: 1;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
-
-    width: 150px;
+    width: 225px;
     padding: 15px 0;
     margin: .75em .75em .75em 0;
 }
 
+.button a {
+    text-decoration: none;
+}
+
 .button_wide {
-    background-color: black;
     opacity: 1;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
     padding: 15px 15px;
+    width: 375px;
+}
+
+.button_tran, .button_tran_left, .button_tran_left, .button_dol, .button_dol_left, .button_ls, .button_dataset, .button_wide {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 1em;
+    font-size: 1.125em;
+    border: #fff solid 3px;
+    letter-spacing: 1.5px;
+}
+.small-12.button_tran, .small-12.button_tran_left, .small-12.button_tran_left, .small-12.button_dol, .small-12.button_dol_left, .small-12.button_ls, .small-12.button_dataset, .small-12.button_wide {
+    text-align: left;
 }
 
 #choose .button:hover, #stats .button:hover, #grab .button:hover,.button_tran:hover, .button_dol:hover,
@@ -385,19 +376,32 @@ developer.dol.gov
     padding: 0;
 }
 
+.dol_sub h2 a,
+.dol_sub p a,
+.dol_sub_code h2 a,
+.dol_sub_code p a,
+.details a
+{
+    text-decoration: underline;
+}
 
 .dol_sub h2 a:hover,
 .dol_sub h2 a:active,
+.dol_sub h2 a:focus,
 .dol_sub p a:hover,
 .dol_sub p a:active,
+.dol_sub p a:focus,
 .dol_sub_code h2 a:hover,
 .dol_sub_code h2 a:active,
+.dol_sub_code h2 a:focus,
 .dol_sub_code p a:hover,
 .dol_sub_code p a:active,
-
-.details a:hover
+.dol_sub_code p a:focus,
+.details a:hover,
+.details a:active,
+.details a:focus
 {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .dol_sub, .dol_sub_code {
@@ -412,6 +416,28 @@ developer.dol.gov
     text-align: center;
     color: black;
     text-transform: uppercase;
+}
+
+.dol_sub ul ul, .dsk-lst ul, .mbl-lst ul
+{
+    list-style-type: disc;
+}
+
+.dol_sub li li, .dsk-lst li, .mbl-lst li
+{
+    text-align: left;
+}
+.dol_sub li li a, .dsk-lst li a, .mbl-lst li a
+{
+    color: #000;
+    text-decoration: underline;
+}
+.dol_sub li li a:hover, .dol_sub li li a:active, .dol_sub li li a:focus,
+.dsk-lst li a:hover, .dsk-lst li a:active, .dsk-lst li a:focus,
+.mbl-lst li a:hover, .mbl-lst li a:active, .mbl-lst li a:focus
+{
+    color: #000;
+    text-decoration: none;
 }
 
  .howdiv h2 {
@@ -511,9 +537,18 @@ developer.dol.gov
 
 
 .accordion li.accordion-navigation a:hover, .accordion li.accordion-navigation a:focus, .accordion li.accordion-navigation a:active {
-    background: #e3e3e3;
+    text-decoration: none;
 }
-
+.accordion li.accordion-navigation li {
+    list-style-type: none;
+}
+.accordion ul.mbl-lst li {
+    list-style-type: initial;
+  }
+.accordion li.accordion-navigation a {
+    text-decoration: underline;
+    color: #000;
+}
 .details
 {
 
