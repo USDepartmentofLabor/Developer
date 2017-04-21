@@ -189,12 +189,15 @@
 
 .apiurl p {
     font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-    border-style: solid;
-    border-width: thin;
     font-weight: bold;
     background-color: #e1e1e1;
-    padding: 0 .5em;
     margin: .75em .5em;
+    padding: .5em 1em;
+    border: #3d3d3d solid 1px;
+    border-radius: 8px;
+}
+#injuries-and-illness, #msha-employment-production, #mine-violation {
+    margin-left: -1em;
 }
 /*
 .content ul  {
