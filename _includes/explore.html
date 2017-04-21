@@ -26,13 +26,13 @@
                 <li class="accordion-navigation active-k">
                     <a href="#keep">
                         <div class="row">
-                            <div class="small-3 columns"><img src="/img/bank_white.png" alt="Keeping what you Earn Datasets"></div>
-                            <div class="small-9 columns"><h2>Keeping What You Earn</h2></div>
+                            <div class="small-3 columns"><img src="/img/bank_white.png" alt="Wage And Hour Division"></div>
+                            <div class="small-9 columns"><h2>Wage &amp; Hour Division</h2></div>
                         </div>
                     </a>
                     <div id="keep" class="content">
                         <ul>
-                            {% for item in site.categories.keeping-what-you-earn %}
+                            {% for item in site.categories.wage-and-hour-division %}
                             <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
                             {% endfor %}
                         </ul>
@@ -86,9 +86,9 @@
             <h2><a href="{{ site.baseurl }}/health-and-safety/">Health & Safety</a></h2>
         </div>
         <div class="small-3 columns">
-            <a href="{{ site.baseurl }}/keeping-what-you-earn/"><img src="{{ site.baseurl }}/img/bank.png" alt="Keeping what you Earn Datasets"></a>
+            <a href="{{ site.baseurl }}/wage-and-hour-division/"><img src="{{ site.baseurl }}/img/bank.png" alt="Wage And Hour Division"></a>
 
-            <h2><a href="{{ site.baseurl }}/keeping-what-you-earn/">Keeping What You Earn</a></h2>
+            <h2><a href="{{ site.baseurl }}/wage-and-hour-division/">Wage & Hour Division Data</a></h2>
         </div>
         <div class="small-3 columns">
             <a href="{{ site.baseurl }}/expanding-growth/"><img src="{{ site.baseurl }}/img/charticon.png" alt="Expanding Growth Datasets"></a>
