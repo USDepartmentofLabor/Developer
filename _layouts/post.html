@@ -9,10 +9,10 @@ layout: default
             <div class="large-3 columns"><img src="{{ site.baseurl }}/img/health.png" class="menu_title_dataset_img" alt="Health Icon"></div>
 
             <div class="large-9 columns"><h1 class="menu_title_dataset">DOL HEALTH & SAFETY DATASETS</h1></div>
-            {% elsif page.categories contains 'keeping-what-you-earn' %}
+            {% elsif page.categories contains 'wage-and-hour-division' %}
             <div class="large-3 columns"><img src="{{ site.baseurl }}/img/bank.png" class="menu_title_dataset_img" alt="Bank Icon"></div>
 
-            <div class="large-9 columns"><h1 class="menu_title_dataset">KEEPING WHAT YOU EARN</h1></div>
+            <div class="large-9 columns"><h1 class="menu_title_dataset">Wage &amp; Hour Division</h1></div>
             {% elsif page.categories contains 'expanding-growth' %}
             <div class="large-3 columns"><img src="{{ site.baseurl }}/img/charticon.png" class="menu_title_dataset_img" alt="Chart Icon"></div>
 
@@ -37,11 +37,11 @@ layout: default
                     </ul>
                 </div>
             </li>
-            <li class="accordion-navigation {% if page.categories contains 'keeping-what-you-earn' %}active{% endif %}">
-                <a href="#keeping">Keeping What You Earn</a>
-                <div id="keeping" class="content cmenu {% if page.categories contains 'keeping-what-you-earn' %}active{% endif %}">
+            <li class="accordion-navigation {% if page.categories contains 'wage-and-hour-division' %}active{% endif %}">
+                <a href="#wagehour">Wage &amp; Hour Division</a>
+                <div id="wagehour" class="content cmenu {% if page.categories contains 'wage-and-hour-division' %}active{% endif %}">
                     <ul>
-                        {% for item in site.categories.keeping-what-you-earn %}
+                        {% for item in site.categories.wage-and-hour-division %}
                         <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
                         {% endfor %}
                     </ul>
@@ -79,7 +79,7 @@ layout: default
                     <div class="row">
                         <div class="small-12 columns
                      {% if page.categories contains 'health-and-safety' %}health_background
-                     {% elsif page.categories contains 'keeping-what-you-earn' %}keep_background
+                     {% elsif page.categories contains 'wage-and-hour-division' %}keep_background
                      {% elsif page.categories contains 'expanding-growth' %}expand_background
                      {% else %}others_background
                      {% endif %}
