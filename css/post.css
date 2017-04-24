@@ -5,7 +5,7 @@
     font-size: 2.5rem;
     color: black;
     margin-top: 1.25rem;
-    margin-left:.5em;
+    margin-left: .333em;
 }
 
 .menu_title_dataset {
@@ -23,16 +23,25 @@
     width: 60px;
     margin-top: 20px;
 }
-
-.post_content_dataset li a:hover, .post_content_dataset li a:focus,
-.post_content_dataset li a:active,
-.post_content_dataset a:hover, .post_content_dataset a:focus,
+.post_content_dataset li a,
+.post_content_dataset a,
+.small-3 h2 a,
+.small-3 p a,
+.small-block-grid-4 li a {
+	text-decoration: underline;
+}
+.small-3 h2 a,
+.small-3 p a,
+.small-block-grid-4 li a {
+    color: #000;
+}
+.post_content_dataset li a:hover, .post_content_dataset li a:focus,.post_content_dataset li a:active,
+.post_content_dataset a:hover, .post_content_dataset a:focus, .post_content_dataset a:active,
+.post_content_dataset h2 a:hover, .post_content_dataset h2 a:focus, .post_content_dataset h2 a:active,
 .small-3 h2 a:hover, .small-3 h2 a:focus, .small-3 h2 a:active,
 .small-3 p a:hover, .small-3 p a:focus, .small-3 p a:active,
-.small-block-grid-4 li a:hover, .small-block-grid-4 li a:focus,
-.small-block-grid-4 li a:active,
-.post_content_dataset a:active {
-    text-decoration: underline;
+.small-block-grid-4 li a:hover, .small-block-grid-4 li a:focus,.small-block-grid-4 li a:active {
+    text-decoration: none;
 }
 
 .post_content_dataset,
@@ -43,18 +52,12 @@
     color: black;
     margin: 0 .5em;
 }
-
-.post_content_dataset h2, {
+.post_content_dataset h2, .post_content_dataset h2 a {
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 2em;
+    margin-left: 0;
+    font-size: 1.25em;
     color: black;
-}
-
-.post_content_dataset h2 a {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 28px;
+    display: table-cell; 
 }
 
 .anchorlinks h2 a,
@@ -68,10 +71,6 @@
 
 }
 
-.post_content_dataset h2 a:hover {
-    text-decoration: none;
-}
-
 .post_content_dataset h3,
 .post_content_dataset h3 a,
 .post_content_dataset h3 a:hover {
@@ -80,7 +79,7 @@
     font-size: 1.5em;
     color: black;
     text-decoration: none;
-    margin: 0;
+    margin: 0 .5em .5em .333em;
 
 }
 /*
@@ -160,23 +159,14 @@ table {
     background-color: #8D5095;
 }
 
-
 .cmenu a {
     font-size: 14px;
     color: black;
-}
-
-.cmenu,
-.cmenu a:hover {
-    color: #0078a0 !important;
+    text-decoration:underline;
 }
 
 .cmenu a:hover, .cmenu a:focus, .cmenu a:active {
-    text-decoration: underline;
-}
-
-.cmenu a:focus, .cmenu a:active {
-    font-weight: bold;
+    text-decoration:none;
 }
 
 .cmenu a:active,
@@ -221,8 +211,14 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
 	#wrap { width: 85%;}
 	.dsktp_tbl { display: none;}
 	.mbl_tbl { display: block;}
-    .button_wide { width: 100%; text-align: left;}
-}	
+   .button_tran, .button_dol, .button_dataset, .button_tran_left, .button_ls, .button_wide {
+        text-align: left;
+    }
+    .button_wide {
+        width: 100%;
+	text-align: left;
+    }
+}
 
 @media screen and (min-width: 705px) { 
 	#wrap { width: 75%;}
@@ -244,16 +240,15 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
     background-color: #EEEEEE;
     padding: 1em;
 }
-.panel.documentation p,
-.panel.feature p {
-    margin: 0;
-}
 
 .panel.documentation h2,
 .panel.feature h2 {
-    margin: .5em 0;
+    margin: .5em;
 }
 
+.post_content_dataset p, .panel.documentation p, .panel.feature p {
+    margin: 0 .5em 1em .5em;
+}
 
 .tabs-content{
     border-top:solid black 5px;
@@ -290,7 +285,6 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
     
 }
 
-
 //	New CSS below to allow the dataset tables to be the only source of information.
 
 table, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
@@ -298,7 +292,7 @@ table, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inher
 /* #Standard
 ================================================== */
 
-table { border-collapse: collapse;}
+table { border-collapse: collapse; margin-left: .75em;}
 table, th, td {
 	border-top: 2px solid #3d3d3d;
 	border-bottom: 2px solid #3d3d3d;
@@ -336,6 +330,11 @@ tbody th:nth-of-type(1) {
 table { margin-bottom: 2em;}
 @media screen and (min-width: 48.5em) {
 	table{ min-width: 40em;}
+}
+
+
+.post_content_dataset p {
+    margin-left: 0 !important;
 }
 
 /*  #Mobile (0-767)
