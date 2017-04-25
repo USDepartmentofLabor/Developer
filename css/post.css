@@ -35,6 +35,7 @@
 .small-block-grid-4 li a {
     color: #000;
 }
+.post_content_dataset a.button_wide, .post_content_dataset li h2 a.tab-title,
 .post_content_dataset li a:hover, .post_content_dataset li a:focus,.post_content_dataset li a:active,
 .post_content_dataset a:hover, .post_content_dataset a:focus, .post_content_dataset a:active,
 .post_content_dataset h2 a:hover, .post_content_dataset h2 a:focus, .post_content_dataset h2 a:active,
@@ -70,7 +71,14 @@
     text-decoration: none;
 
 }
-
+.panel.documentation h2 {
+    font-size: 1.75em;
+    margin: .5em;
+}
+.panel.documentation h3 {
+    font-size: 1.25em;
+    margin: .5em .125em;
+}
 .post_content_dataset h3,
 .post_content_dataset h3 a,
 .post_content_dataset h3 a:hover {
@@ -273,6 +281,7 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
 .tabs li a, .tabs .tab-title a {
     background-color: white;
     color: #222222;
+    text-decoration: none;
 }
 
 .tab-title h2,
@@ -336,6 +345,9 @@ table { margin-bottom: 2em;}
 .post_content_dataset p {
     margin-left: 0 !important;
 }
+h1.post_title_dataset {
+    margin-left: 0.125em;
+} 
 
 /*  #Mobile (0-767)
 ================================================== */
