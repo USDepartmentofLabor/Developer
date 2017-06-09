@@ -16,6 +16,6 @@ url: "http://developer.dol.gov"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:title
+permalink: /:categories/:title/
 gems:
   - jekyll-redirect-from
