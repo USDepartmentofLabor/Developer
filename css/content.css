@@ -546,8 +546,14 @@ developer.dol.gov
     color: black;
 }
 
+
+
 .guide_note, .guide_note p {
-    color: #666666;
-    font-size: 12px;
+    color: #3d3d3d;
+    font-size: 1em;
     margin-bottom: 1.25rem;
+    margin-left: .5em .25em;
+    padding: .5em 1em;
+    border: #3d3d3d solid 1px;
+    border-radius: 8px;
 }
