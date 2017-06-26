@@ -382,6 +382,14 @@ developer.dol.gov
     padding: 0;
 }
 
+.dol_sub h2 a,
+.dol_sub p a,
+.dol_sub_code h2 a,
+.dol_sub_code p a,
+.details a
+{
+    text-decoration: underline;
+}
 
 .dol_sub h2 a:hover,
 .dol_sub h2 a:active,
@@ -394,7 +402,7 @@ developer.dol.gov
 
 .details a:hover
 {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .dol_sub, .dol_sub_code {
