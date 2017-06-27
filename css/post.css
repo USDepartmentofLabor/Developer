@@ -36,6 +36,7 @@
 .small-3 h2 a:hover, .small-3 h2 a:focus, .small-3 h2 a:active,
 .small-3 p a:hover, .small-3 p a:focus, .small-3 p a:active,
 .small-block-grid-4 li a:hover, .small-block-grid-4 li a:focus,.small-block-grid-4 li a:active,
+.how_box_experienced a:hover, .how_box_experienced a:focus, .how_box_experienced a:active, 
 .post_content_dataset a.button_wide, .post_content_dataset a.button_dataset, .post_content_dataset li h2 a.tab-title {
     text-decoration: none;
 }
