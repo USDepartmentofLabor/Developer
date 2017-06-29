@@ -14,30 +14,30 @@ Forced Labor Reports page</a>.
 <h2>Dataset Tables</h2>
 <div>
     <ul>
-        <li><a href="#region">SweatToilAll_Regions</a></li>
-        <li><a href="#country">SweatToilAll_Countries</a></li>
-        <li><a href="#territory">SweatToilAll_Territories</a></li>
-        <li><a href="#advancement_level">SweatToilAll_AdvancementLevels</a></li>
-        <li><a href="#assessments">SweatToilAll_Assessments</a></li>
-        <li><a href="#sector">SweatToilAll_Sectors</a></li>
-        <li><a href="#good">SweatToilAll_Goods</a></li>
-        <li><a href="#country_goods">SweatToilAll_CountryGoods</a></li>
-        <li><a href="#country_statistics">SweatToilAll_Statistics</a></li>
-        <li><a href="#conventions">SweatToilAll_Conventions</a></li>
-        <li><a href="#suggested_actions">SweatToilAll_SuggestedActions</a></li>
-        <li><a href="#legal_standards">SweatToilAll_LegalStandards</a></li>
-        <li><a href="#enforcements">SweatToilAll_Enforcements</a></li>
-        <li><a href="#mechanisms">SweatToil_Mechanisms</a></li>
+        <li><a href="#region">SweatToilAllRegions</a></li>
+        <li><a href="#country">SweatToilAllCountries</a></li>
+        <li><a href="#territory">SweatToilAllTerritories</a></li>
+        <li><a href="#advancement_level">SweatToilAllAdvancementLevels</a></li>
+        <li><a href="#assessments">SweatToilAllAssessments</a></li>
+        <li><a href="#sector">SweatToilAllSectors</a></li>
+        <li><a href="#good">SweatToilAllGoods</a></li>
+        <li><a href="#country_goods">SweatToilAllCountryGoods</a></li>
+        <li><a href="#country_statistics">SweatToilAllStatistics</a></li>
+        <li><a href="#conventions">SweatToilAllConventions</a></li>
+        <li><a href="#suggested_actions">SweatToilAllSuggestedActions</a></li>
+        <li><a href="#legal_standards">SweatToilAllLegalStandards</a></li>
+        <li><a href="#enforcements">SweatToilAllEnforcements</a></li>
+        <li><a href="#mechanisms">SweatToilMechanisms</a></li>
     </ul>
 </div>
 
 <div>
     <h3 id="region" tabindex="-1">Regions Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_Regions</p>
+        <p>https://data.dol.gov/get/SweatToilAllRegions</p>
     </div>
     <table class="accessible responsive" summary="ILAB - regions">
-        <caption>SweatToilAll_Regions</caption>
+        <caption>SweatToilAllRegions</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
@@ -79,10 +79,10 @@ Forced Labor Reports page</a>.
 
     <h3 id="country" tabindex="-1">Countries Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_Countries</p>
+        <p>https://data.dol.gov/get/SweatToilAllCountries</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Countries">
-        <caption>SweatToilAll_Countries</caption>
+        <caption>SweatToilAllCountries</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
@@ -167,10 +167,10 @@ Forced Labor Reports page</a>.
 
     <h3 id="territory" tabindex="-1">Territories Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_Territories</p>
+        <p>https://data.dol.gov/get/SweatToilAllTerritories</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Territories">
-        <caption>SweatToilAll_Territories</caption>
+        <caption>SweatToilAllTerritories</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
@@ -255,10 +255,10 @@ Forced Labor Reports page</a>.
 
     <h3 id="advancement_level" tabindex="-1">Advancement Levels Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_AdvancementLevels</p>
+        <p>https://data.dol.gov/get/SweatToilAllAdvancementLevels</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Advancement Levels">
-        <caption>SweatToilAll_AdvancementLevels</caption>
+        <caption>SweatToilAllAdvancementLevels</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
@@ -300,10 +300,10 @@ Forced Labor Reports page</a>.
 
     <h3 id="assessments" tabindex="-1">Assessments Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_Assessments</p>
+        <p>https://data.dol.gov/get/SweatToilAllAssessments</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Assessments">
-        <caption>SweatToilAll_Assessments</caption>
+        <caption>SweatToilAllAssessments</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
@@ -415,10 +415,10 @@ Forced Labor Reports page</a>.
 
     <h3 id="sector" tabindex="-1">Sectors Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_Sectors</p>
+        <p>https://data.dol.gov/get/SweatToilAllSectors</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Sector">
-        <caption>SweatToilAll_Sectors</caption>
+        <caption>SweatToilAllSectors</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
@@ -460,10 +460,10 @@ Forced Labor Reports page</a>.
 
     <h3 id="good" tabindex="-1">Goods Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_Goods</p>
+        <p>https://data.dol.gov/get/SweatToilAllGoods</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Goods">
-        <caption>SweatToilAll_Goods</caption>
+        <caption>SweatToilAllGoods</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
@@ -533,10 +533,10 @@ Forced Labor Reports page</a>.
 
     <h3 id="country_goods" tabindex="-1">Country Goods Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_CountryGoods</p>
+        <p>https://data.dol.gov/get/SweatToilAllCountryGoods</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Country Goods">
-        <caption>SweatToilAll_CountryGoods</caption>
+        <caption>SweatToilAllCountryGoods</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
@@ -690,10 +690,10 @@ Forced Labor Reports page</a>.
 
 	<h3 id="country_statistics" >Statistics Table</h3>
 	<div class="force_wrap apiurl">
-    <p>https://data.dol.gov/SweatToilAll_Statistics</p>
+    <p>https://data.dol.gov/SweatToilAllStatistics</p>
     </div>
 	<table class="accessible responsive" summary="ILAB - Statistics">
-		<caption>SweatToilAll_Statistics</caption>
+		<caption>SweatToilAllStatistics</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>
@@ -931,10 +931,10 @@ Forced Labor Reports page</a>.
     
     <h3 id="conventions" >Conventions Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/SweatToilAll_Conventions</p>
+        <p>https://data.dol.gov/SweatToilAllConventions</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Country Master Data">
-        <caption>SweatToilAll_Conventions</caption>
+        <caption>SweatToilAllConventions</caption>
         <thead>
 			<tr>
 				<th scope="col">Column Name</th>
@@ -1102,10 +1102,10 @@ Forced Labor Reports page</a>.
 
     <h3 id="suggested_actions" tabindex="-1">Suggested Actions Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_SuggestedActions</p>
+        <p>https://data.dol.gov/get/SweatToilAllSuggestedActions</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Suggested Actions">
-        <caption>SweatToilAll_SuggestedActions</caption>
+        <caption>SweatToilAllSuggestedActions</caption>
         <thead>
 			<tr>
 				<th scope="col">Column Name</th>
@@ -1217,10 +1217,10 @@ Forced Labor Reports page</a>.
 
   <h3 id="legal_standards" tabindex="-1">Legal Standards Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_LegalStandards</p>
+        <p>https://data.dol.gov/get/SweatToilAllLegalStandards</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Legal Standards">
-        <caption>SweatToilAll_LegalStandards</caption>
+        <caption>SweatToilAllLegalStandards</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
@@ -1360,10 +1360,10 @@ Forced Labor Reports page</a>.
 
   <h3 id="enforcements" tabindex="-1">Enforcements Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToilAll_Enforcements</p>
+        <p>https://data.dol.gov/get/SweatToilAllEnforcements</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Enforcements">
-        <caption>SweatToilAll_Enforcements</caption>
+        <caption>SweatToilAllEnforcements</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
@@ -1489,10 +1489,10 @@ Forced Labor Reports page</a>.
 
   <h3 id="mechanisms" tabindex="-1">Mechanisms Table</h3>
     <div class="force_wrap apiurl">
-        <p>https://data.dol.gov/get/SweatToil_Mechanisms</p>
+        <p>https://data.dol.gov/get/SweatToilMechanisms</p>
     </div>
     <table class="accessible responsive" summary="ILAB - Mechanisms">
-        <caption>SweatToil_Mechanisms</caption>
+        <caption>SweatToilMechanisms</caption>
         <thead>
         <tr>
             <th scope="col">Column Name</th>
