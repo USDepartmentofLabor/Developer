@@ -68,8 +68,7 @@ developer.dol.gov
     opacity: 1;
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
-
-    width: 150px;
+    width: 200px;
     padding: 15px 0;
 }
 
@@ -79,7 +78,7 @@ developer.dol.gov
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
     text-align: left;
-    width: 150px;
+    width: 200px;
     padding: 15px 0;
 }
 
@@ -103,15 +102,34 @@ developer.dol.gov
     padding: 15px 0;
     margin: .75em .75em .75em 0;
 }
-
-.button_wide {
-    background-color: black;
-    opacity: 1;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
-    padding: 15px 15px;
+.button a {
+    text-decoration: none;
 }
 
+.button_wide {
+    opacity: 1;
+    padding: 15px 15px;
+    width: 375px;
+}
+
+.button_tran, .button_tran_left, .button_dol, .button_dol_left, .button_ls, .button_dataset, .button_wide {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 1em;
+    font-size: 1.125em;
+    border: #fff solid 3px;
+    letter-spacing: 1.5px;
+}
+
+
+.button_ls, .button_dataset, .button_wide {
+    border: none;
+}
+
+.small-12.button_tran, .small-12.button_tran_left, .small-12.button_tran_left, .small-12.button_dol, .small-12.button_dol_left, .small-12.button_ls, .small-12.button_dataset, .small-12.button_wide {
+    text-align: left;
+}
 #choose .button:hover, #stats .button:hover, #grab .button:hover,.button_tran:hover, .button_dol:hover,
 .button_dataset:hover,
 .button_tran_left:hover,
