@@ -437,6 +437,26 @@ developer.dol.gov
     text-transform: uppercase;
 }
 
+.dol_sub_code li, .dol_sub li {
+    text-align: left;
+}
+.dol_sub_code li a, .dol_sub li a, #apiv1 li a {
+    color: #000;
+    text-decoration: underline;
+}
+#apiv1 li, .dol_sub li {
+    list-style: disc;
+}
+#apiv1 li {
+    margin-left: .25em
+}
+.dol_sub img {
+    margin: 0 4.5em;
+}
+.app-img {
+    margin-left: -1em;
+}
+
  .howdiv h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
