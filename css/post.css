@@ -5,7 +5,7 @@
     font-size: 2.5rem;
     color: black;
     margin-top: 1.25rem;
-    margin-left:.5em;
+    margin-left:0;
 }
 
 .menu_title_dataset {
@@ -90,12 +90,7 @@
     margin: 0;
 
 }
-/*
-.post_content_dataset tr th:nth-of-type(3),
-.post_content_dataset tr td:nth-of-type(2) {
-    white-space: nowrap !important;
-}
-*/
+
 .post_content_dataset tr:nth-child(even) {
     background-color: #F3F3F3;
 }
@@ -230,6 +225,7 @@ hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
 	.mbl_tbl { display: block;}
     .button_dataset, .button_dol, .button_wide { width: 100%; text-align: left;}
     .post_content_dataset {  margin: 1em;}
+    .post_title_dataset { margin-left: .5em; }
 }	
 
 @media screen and (min-width: 705px) { 
