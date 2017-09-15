@@ -21,7 +21,7 @@ flagship reports that raise awareness about child labor and forced labor, *Findi
 *List of Goods Produced by Child Labor or Forced Labor*; and *List of Products Produced by Forced or Indentured 
 Child Labor*. ILAB also has just released a new mobile app called
 **[Sweat & Toil](https://itunes.apple.com/us/app/sweat-toil-child-labor-forced/id1018240593?ls=1&mt=8)** to make over 1,000 pages of data 
-on these problems more accessible.  Now ILAB is making the [source data](/others/sweat-and-toil) open and available 
+on these problems more accessible.  Now ILAB is making the [source data](/others/sweat-and-toil-all) open and available 
 to everyone. What can you do to help [#EndChildLabor](http://www.dol.gov/EndChildLabor)? 
 
 
@@ -48,11 +48,4 @@ our needs. By making this information on child labor and forced labor available 
 fulfilling the promise of the Obama administration’s [Open Government Initiative](http://whitehouse.gov/open) to 
 make more data readily available and useful to the public.  
 
-
-
-  
-
-<a href="{{ site.baseurl  }}/others/sweat-and-toil" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data (2014)</a>
-<br>
-<a href="{{ site.baseurl  }}/others/sweat-and-toil-all" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data (2015)</a>
-<a href="{{ site.baseurl  }}/others/sweat-and-toil-all" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data (2016)</a>
+<a href="{{ site.baseurl  }}/others/sweat-and-toil-all" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data </a>
