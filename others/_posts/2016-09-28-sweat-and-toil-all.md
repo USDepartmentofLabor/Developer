@@ -634,6 +634,20 @@ Forced Labor Reports page</a>.
       <tr>
         <th scope="row">
           <span class="small">Column Name</span>
+          regionname
+        </th>
+        <td>
+          <span class="small">Data Type</span>
+          varchar
+        </td>
+        <td>
+          <span class="small">Column Description</span>
+          Region name
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <span class="small">Column Name</span>
           child_labor
         </th>
         <td>
