@@ -10,8 +10,8 @@ on the street to survive. While in school, Qusai had dreamed of being an enginee
 “We work because we need to, we need the money.... Where do we get rent from if we do not work?”
 
 
-Around the world, 168 million children like Qusai are involved in child labor, working instead of learning.
-At least 21 million children and adults are in forced labor. Finding a solution to these problems continues
+Around the world, 152 million children like Qusai are involved in child labor, working instead of learning.
+Approximately 25 million children and adults are in forced labor. Finding a solution to these problems continues
 to be one of the world’s most pressing challenges. Overcoming this challenge will require new ideas,
 new ways of thinking, and innovative solutions. 
 
@@ -48,10 +48,4 @@ our needs. By making this information on child labor and forced labor available 
 fulfilling the promise of the Obama administration’s [Open Government Initiative](http://whitehouse.gov/open) to 
 make more data readily available and useful to the public.  
 
-
-
-  
-
-<a href="{{ site.baseurl  }}/others/sweat-and-toil" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data (2014)</a>
-<br>
-<a href="{{ site.baseurl  }}/others/sweat-and-toil-all" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data (2015)</a>
+<a href="{{ site.baseurl  }}/others/sweat-and-toil" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data </a>
