@@ -5,10 +5,6 @@ created: 1380292809
 description: This dataset provides information regarding all of the publicly available and currently active publications.
 ---
 
-<div class="force_wrap apiurl">
-<p>https://data.dol.gov/get/publications_view</p>
-</div>
-
 ## Dataset Tables  
 
 <div>
@@ -20,6 +16,9 @@ description: This dataset provides information regarding all of the publicly ava
 
 <div>
 	<h3 id="publicationsview" tabindex="-1">PublicationsView Table</h3>
+	<div class="force_wrap apiurl">
+<p>https://data.dol.gov/get/publications_view</p>
+</div>
 	<table class="accessible responsive" summary="Publications View - Wage and Hour Publications System (WHPS)">
 		<caption>Publications View</caption>
 		<thead>
@@ -300,9 +299,6 @@ description: This dataset provides information regarding all of the publicly ava
 	</table>
 
 	<h3 id="documentsview" tabindex="-1">DocumentsView Table</h3>
-	<div class="force_wrap apiurl">
-  <p>https://data.dol.gov/get/documents_view</p>
-   </div>
 	<table class="accessible responsive" summary="Documents View - Wage and Hour Publications System (WHPS)">
 		<caption>Documents View</caption>
 		<thead>
