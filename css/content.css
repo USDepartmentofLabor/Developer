@@ -1,3 +1,4 @@
+
 /*
 developer.dol.gov
 */
@@ -495,4 +496,9 @@ margin-left: .5em .25em;
 padding: .5em 1em;
 border: #3d3d3d solid 1px;
 border-radius: 8px;
+}
+.alert-box {
+font-size: 1.25em;
+color: #000;
+font-weight: bold;
 }
