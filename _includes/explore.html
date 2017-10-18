@@ -3,6 +3,9 @@
         <div class="small-12 columns datasets_mob mobile_header">
             <h1>Datasets</h1>
         </div>
+        <div class="alert-box small-9-text-center">
+            The new API will be coming soon.
+        </div>
     </div>
     <div class="row">
         <div class="small-12 columns healthsafe_mob">
@@ -78,9 +81,11 @@
     <div class="row">
         <div class="small-6 small-centered columns"><h1>Explore Our Data</h1><br/></div>
     </div>
+    {% if isIncludeAlert %}
     <div class="alert-box small-9-text-center">
-            The new API will be coming soon.
-        </div>
+        The new API will be coming soon.
+    </div>
+    {% endif %}
     <div class="row">
         <div class="small-3 columns">
 
