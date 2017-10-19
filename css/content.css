@@ -498,7 +498,11 @@ border: #3d3d3d solid 1px;
 border-radius: 8px;
 }
 .alert-box {
-font-size: 1.25em;
+font-size: 1.125em;
 color: #000;
 font-weight: bold;
+margin-bottom: 0;
+}
+.small-text-center {
+	padding-top: -1em;
 }
