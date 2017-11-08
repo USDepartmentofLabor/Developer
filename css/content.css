@@ -1,3 +1,4 @@
+
 /*
 developer.dol.gov
 */
@@ -394,7 +395,7 @@ height: 400px;
 }
 .how_box_beginner {
 padding: 10px 10px;
-height: 375px;
+height: 430px;
 }
 .custom-alert-box {
 font-family: 'Open Sans', sans-serif;
@@ -495,4 +496,13 @@ margin-left: .5em .25em;
 padding: .5em 1em;
 border: #3d3d3d solid 1px;
 border-radius: 8px;
+}
+.alert-box {
+font-size: 1.125em;
+color: #000;
+font-weight: bold;
+margin-bottom: 0;
+}
+.small-text-center {
+	padding-top: -1em;
 }
