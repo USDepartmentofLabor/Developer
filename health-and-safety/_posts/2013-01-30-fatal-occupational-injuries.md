@@ -23,7 +23,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		<li><a href="#FI_CATEGORY">FI_CATEGORY</a></li>
 		<li><a href="#FI_CATEGORY2">FI_CATEGORY2</a></li>
 		<li><a href="#FI_DATA_PUB">FI_DATA_PUB</a></li>
-		<li><a href="#FI_DATA_TYPE">FI_DATA_TYPE</a></li>
+		<li><a href="#FI_DATATYPE">FI_DATATYPE</a></li>
 		<li><a href="#FI_EVENT">FI_EVENT</a></li>
 		<li><a href="#FI_FOOTNOTE">FI_FOOTNOTE</a></li>
 		<li><a href="#FI_GQT_CASE">FI_GQT_CASE</a></li>
@@ -363,7 +363,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 		</tbody>
 	</table>
 
-	<h3 id="FI_DATA_TYPE">FI_DATA_TYPE Table</h3>
+	<h3 id="FI_DATATYPE">FI_DATATYPE Table</h3>
 	<table class="accessible responsive" summary="Data Type - Fatal Occupational Injuries">
 		<caption>Data Type</caption>
 		<thead>
