@@ -2,6 +2,7 @@
 layout: post
 title: Wage and Hour Publications System
 created: 1380292809
+version: V2
 description: This dataset provides information regarding all of the publicly available and currently active publications.
 ---
 
@@ -301,6 +302,9 @@ description: This dataset provides information regarding all of the publicly ava
 	<h3 id="documentsview" tabindex="-1">DocumentsView Table</h3>
 	<table class="accessible responsive" summary="Documents View - Wage and Hour Publications System (WHPS)">
 		<caption>Documents View</caption>
+		<div class="force_wrap apiurl">
+<p>https://data.dol.gov/get/documents_view</p>
+</div>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>

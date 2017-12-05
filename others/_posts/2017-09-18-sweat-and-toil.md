@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sweat & Toil
+version: V2
 description: These datasets contain information on child labor and forced labor worldwide from ILAB’s three flagship reports and its Sweat and Toil app. There are 14 tables that contain data from the 2015 reporting cycle. 
 redirect_from: "/child-labor/"
 ---
