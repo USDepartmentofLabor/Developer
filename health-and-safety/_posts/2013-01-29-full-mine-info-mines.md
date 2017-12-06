@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Full Mine Information Mines (V1)
+title: Full Mine Information Mines
 created: 1359495618
 version: V1
 description: The Full Mine Information dataset lists all Coal and Metal/Non-Metal mines under MSHA's jurisdiction since 1/1/1970.
