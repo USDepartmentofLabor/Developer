@@ -100,7 +100,7 @@ layout: default
 
                     </div>
                 </div>
-                <h1 class="post_title_dataset">{{ page.title }} <span class="version_badge">{{page.version}}</span> </h1>
+                <h1 class="post_title_dataset">{{ page.title }} {% if page.version %} <span class="version_badge">{{page.version}}</span>{% endif %} </h1>
 
                 <p class="post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             </header>
