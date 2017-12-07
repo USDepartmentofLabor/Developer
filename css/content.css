@@ -496,30 +496,31 @@ padding: .5em 1em;
 border: #3d3d3d solid 1px;
 border-radius: 8px;
 }
-.version_badge {
-font-size: 1.5rem;
+.version_badge, .version_badges, .version_badge_small {
 vertical-align: text-top;
 background-color: #e1e1e1;
 color: black;
 font-weight: bold;
 display: inline-block;
-padding-left: .5em;
-padding-right: .5em;
-margin-top: .5em;
+margin-top: .25em;
 text-align: center;
 border-radius: 25%;
 border: 1px solid #3d3d3d;
 }
-.version_badge_small {
+.version_badge, .version_badges { 
+font-size: 1.5rem;
+padding: .25em;
+margin-top: 0;
+}
+.version_badge_small { 
 font-size: 0.75rem;
-vertical-align: text-top;
-background-color: #e1e1e1;
-color: black;
-font-weight: bold;
-display: inline-block;
 padding-left: .5em;
 padding-right: .5em;
-text-align: center;
-border-radius: 25%;
-border: 1px solid #3d3d3d;
+}
+.version_badges { 
+margin-top: .333em;
+}
+.version_badge { 
+padding: 0 .25em;
+margin-top: .5em;
 }
