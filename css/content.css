@@ -513,9 +513,10 @@ padding: .25em;
 margin-top: 0;
 }
 .version_badge_small { 
-font-size: 0.75rem;
+font-size: 0.625rem;
 padding-left: .5em;
 padding-right: .5em;
+margin-top: .125em;
 }
 .version_badges { 
 margin-top: .333em;
