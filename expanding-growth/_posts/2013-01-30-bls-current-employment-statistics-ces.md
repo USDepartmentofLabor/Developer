@@ -2,6 +2,7 @@
 layout: post
 title: Current Employment Statistics (CES)
 created: 1359575092
+version: V1
 description: Each month the Current Employment Statistics (CES) program surveys about 141,000 businesses and government agencies, representing approximately 486,000 individual worksites, in order to provide detailed industry data on employment, hours, and earnings of workers on nonfarm payrolls.
 ---
 
@@ -23,7 +24,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 <div>
 	<ul>
 		<li><a href="#CE_DATA_PUB">CE_DATA_PUB</a></li>
-		<li><a href="#CE_DATATYYPE">CE_DATATYYPE</a></li>
+		<li><a href="#CE_DATATYPE">CE_DATATYPE</a></li>
 		<li><a href="#CE_FOOTNOTE">CE_FOOTNOTE</a></li>
 		<li><a href="#CE_INDUSTRY">CE_INDUSTRY</a></li>
 		<li><a href="#CE_SEASONAL">CE_SEASONAL</a></li>
@@ -33,7 +34,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 </div>
 
 <div>
-	<h3 id="CE_DATA_PUB" tabindex="-1">CU_DATA_PUB Table</h3>
+	<h3 id="CE_DATA_PUB" tabindex="-1">CE_DATA_PUB Table</h3>
 	<table class="accessible responsive" summary="Data Pub - Current Employment Statistics (CES)">
 		<caption>Data Pub</caption>
 		<thead>
@@ -117,7 +118,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 		</tbody>
 	</table>
 
-	<h3 id="CE_DATATYYPE" tabindex="-1">CE_DATATYYPE Table</h3>
+	<h3 id="CE_DATATYPE" tabindex="-1">CE_DATATYPE Table</h3>
 	<table class="accessible responsive" summary="Data Type - Current Employment Statistics (CES)">
 		<caption>Data Type</caption>
 		<thead>

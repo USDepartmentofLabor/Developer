@@ -2,6 +2,7 @@
 layout: post
 title: Public Workforce System
 created: 1359580002
+version: V1
 description: The PWSD is a dataset that can be used to answer questions about various public workforce system programs and how these programs fit in with the overall public workforce system and the economy.
 ---
 
@@ -155,9 +156,9 @@ description: The PWSD is a dataset that can be used to answer questions about va
 		</tbody>
 	</table>
 
-	<h3 id="model" tabindex="-1">Model</h3>
+	<h3 id="model" tabindex="-1">model</h3>
 	<table class="accessible responsive" summary="model - Public Workforce System Dataset (PWSD)">
-		<caption>Model</caption>
+		<caption>model</caption>
 		<thead>
 			<tr>
 				<th scope="col">Column Name</th>

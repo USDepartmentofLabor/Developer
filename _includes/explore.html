@@ -17,7 +17,7 @@
                     <div id="health" class="content">
                         <ul>
                             {% for item in site.categories.health-and-safety %}
-                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }} <span class="version_badge_small">{{item.version}}</span></a></li>
 
                             {% endfor %}
                     </ul>
@@ -33,7 +33,7 @@
                     <div id="keep" class="content">
                         <ul>
                             {% for item in site.categories.wage-and-hour-division %}
-                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title}} <span class="version_badge_small">{{item.version}}</span></a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -48,7 +48,7 @@
                     <div id="expand" class="content">
                         <ul>
                             {% for item in site.categories.expanding-growth %}
-                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }} <span class="version_badge_small">{{item.version}}</span></a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -63,7 +63,7 @@
                     <div id="other" class="content">
                         <ul>
                         {% for item in site.categories.others %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }} <span class="version_badge_small">{{item.version}}</span></a></li>
                         {% endfor %}
                     </ul>
                     </div>

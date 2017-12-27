@@ -2,6 +2,7 @@
 layout: post
 title: API Metrics (per key)
 created: 1373908167
+version: V1
 description: Find here a list of DOL API Metric queries.  For these queries,a specially-configured filter method is REQUIRED.
 ---
 

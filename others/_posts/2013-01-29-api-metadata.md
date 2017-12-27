@@ -2,6 +2,7 @@
 layout: post
 title: API Metadata
 created: 1359471075
+version: V1
 description: The API Metadata provides a list of available datasets that the Department of Labor supplies as a service.
 ---
 
@@ -16,7 +17,7 @@ description: The API Metadata provides a list of available datasets that the Dep
 ## Dataset Tables  
 
 <div>
-	<h3>APIMetadata</h3>
+	<h3>APIMetadatas</h3>
 	<table class="accessible responsive" summary="Lists datasets' narrative, path, and documentation location information for available sources.">
 		<caption>Lists datasets' narrative, path, and documentation location information for available sources.</caption>
 		<thead>

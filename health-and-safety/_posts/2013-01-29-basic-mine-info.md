@@ -2,6 +2,7 @@
 layout: post
 title: Basic Mine Information
 created: 1359495133
+version: V1
 description: The Basic Mine Information dataset lists basic information on all Coal and Metal/Non-Metal mines under MSHA's jurisdiction since 1/1/1970.
 ---
 

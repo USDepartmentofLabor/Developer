@@ -31,7 +31,7 @@ layout: default
                 <div id="healthsafe" class="content cmenu {% if page.categories contains 'health-and-safety' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.health-and-safety %}
-                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }} <span class="version_badge_small">{{item.version}}</span></a></li>
 
                         {% endfor %}
                     </ul>
@@ -42,7 +42,7 @@ layout: default
                 <div id="wagehour" class="content cmenu {% if page.categories contains 'wage-and-hour-division' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.wage-and-hour-division %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }} <span class="version_badge_small">{{item.version}}</span></a></li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -52,7 +52,7 @@ layout: default
                 <div id="expanding" class="content cmenu {% if page.categories contains 'expanding-growth' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.expanding-growth %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }} <span class="version_badge_small">{{item.version}}</span></a></li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -62,7 +62,7 @@ layout: default
                 <div id="others" class="content cmenu {% if page.categories contains 'others' %}active{% endif %}">
                     <ul>
                         {% for item in site.categories.others %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }} <span class="version_badge_small">{{item.version}}</span></a></li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -100,7 +100,7 @@ layout: default
 
                     </div>
                 </div>
-                <h1 class="post_title_dataset">{{ page.title }}</h1>
+                <h1 class="post_title_dataset">{{ page.title }} {% if page.version %} <span class="version_badge">{{page.version}}</span>{% endif %} </h1>
 
                 <p class="post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             </header>

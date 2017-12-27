@@ -1,16 +1,11 @@
 <p>To use the API you must register at <a
         href="https://devtools.dol.gov/developer">https://devtools.dol.gov/developer</a> and request an API key for each
     application that will access the API. Registration and API keys are free.</p>
-<div class="guide_note">
-    <strong>note:</strong> A separate API key is not necessary for each application, but if you reuse your key across
-    multiple apps, <a href="http://developer.dol.gov/others/api-metrics-per-key">your apps' metrics</a> will be combined
-    and of little value.
-</div>
 
 <h2>Registration process</h2>
 <ul>
     <li>Visit <a href="https://devtools.dol.gov/developer">https://devtools.dol.gov/developer</a></li>
-    <li>Click the Register link.</li>
+    <li>Click the Register here.</li>
     <li>Fill in the registration form and submit it.</li>
     <li>A confirmation email will be sent to the address you provided during registration.</li>
     <li>Click on the link in the email to activate your developer account.</li>
@@ -26,14 +21,16 @@
     <li>The token value will be auto-generated and added to your tokens list.</li>
 </ul>
 
+<div class="guide_note large-8 medium-8"><strong>Note:</strong> Once the API key (token) is generated, it takes some time to activate (~few hours).</div>
+
 <ul class="tabs" data-tab>
-    <li class="tab-title tab-title-documentation active"><a href="#apiv1"><h2>api.dol.gov</h2></a></li>
-    <li class="tab-title tab-title-feature"><a href="#apiv2"><h2>data.dol.gov</h2></a></li>
+    <li class="tab-title tab-title-documentation active"><a href="#apiv1"><h2>api.dol.gov (V1)</h2></a></li>
+    <li class="tab-title tab-title-feature"><a href="#apiv2"><h2>data.dol.gov (V2)</h2></a></li>
 </ul>
 
 <div class="tabs-content">
     <div class="content active panel documentation radius force_wrap" id="apiv1">
-        <h2 id="accessing" class="anchor">Accessing the API</h2>
+        <h2 id="accessing" class="anchor">How to Access API <span class="version_badges">V1</span></h2>
 
         <p>The API is exposed as an <a href="http://www.odata.org/">OData</a> producer, with the
             addition
@@ -69,7 +66,7 @@
     </div>
 
     <div class="content panel feature radius force_wrap" id="apiv2">
-        <h2>Accessing the API</h2>
+        <h2>How to Access API <span class="version_badges">V2</span></h2>
 
 
         <p>The API is exposed as a <a
@@ -104,9 +101,6 @@
 
         <div class="force_wrap apiurl"><p>https://data.dol.gov/get/inspection/format/xml</p></div>
     </div>
-    <h2 class="subtitle">Next Steps</h2>
-
-    <p>Following the steps above will return the first 100 records. To retrieve more or to be more selective in the data that is returned, <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests">read on about accessing the API using HTTP requests</a>.</p>
 
     <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests" class="button radius button_wide">How to Customize Your Request</a>
 

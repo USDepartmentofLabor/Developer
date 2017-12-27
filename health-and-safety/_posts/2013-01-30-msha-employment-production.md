@@ -2,6 +2,7 @@
 layout: post
 title: MSHA Employment Production
 created: 1359570826
+version: V1
 description: This dataset contains the annual summation of employee hours and coal production reported by mine operators where the average quarterly employment is greater than zero with grouping by calendar year, subunit code and mine ID beginning with 1983.
 ---
 
