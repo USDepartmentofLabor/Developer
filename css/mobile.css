@@ -1,0 +1,203 @@
+.mobile_site {
+    border-top: solid #FFFFFF .25em;
+    border-right: solid #FFFFFF .25em;
+    border-bottom: solid #FFFFFF .25em;
+    border-left: solid #FFFFFF .25em;
+}
+.mobile_header {
+    border-top: solid #FFFFFF .25em;
+    background-clip: content-box !important;
+
+}
+
+.bgclip {
+    padding: 0 .75em;
+}
+
+.mobile_sub {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.mobile_sub_l3 {
+    border-top: solid #DCDCDC .125em;
+    border-right: solid #DCDCDC .125em;
+    border-bottom: solid #DCDCDC .125em;
+    border-left: solid #DCDCDC .125em;
+}
+
+
+.beg_mob h1,
+.highlight_mob h1,
+.highlight_mob h2,
+.app_mob h1,
+.app_mob h2,
+.datasets_mob h1,
+.keys_mob h1,
+.sdks_mob h1
+
+{
+
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.keys_mob h2,
+.datasets_mob h2,
+.sdks_mob h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    font-weight: normal;
+}
+
+
+.beg_mob h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-transform: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+.highlight_mob h1,
+.highlight_mob h2,
+.app_mob h1,
+.app_mob h2 {
+    text-align: left;
+}
+
+.app_mob {
+    background: #7D7E80;
+}
+
+.keys_mob {
+    background: #732123;
+    text-align: center;
+    padding-top: 1em;
+}
+.datasets_mob {
+    background: #7B3B77;
+    text-align: center;
+    padding-top: .5em;
+    
+}
+
+
+
+.healthsafe_mob {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: white;
+}
+
+
+.healthsafe_mob h2 {
+    padding: .5em 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.sdks_mob {
+    background: #2D3E50;
+    text-align: center;
+    
+}
+
+.highlight_mob {
+    background: #434343;
+}
+
+.highlight_mob p,
+.app_mob p {
+    font-size: small;
+    color: white;
+}
+
+.pad_mob {
+    padding: .5em;
+}
+
+.no-margin {
+    margin-left: 0;
+}
+
+.health_background {
+    background-color: #994140;
+    
+}
+
+.keep_background {
+    background-color: #77AF42;
+
+}
+
+.expand_background {
+    background-color: #48869F;
+}
+
+.others_background {
+    background-color: #8D5095;
+}
+
+.dataset_mob_head h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+
+.datasets_back
+{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.force_wrap {
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+
+    /* Be VERY careful with this, breaks normal words wh_erever 
+    word-break: break-all;*/
+
+    /* Non standard for webkit */
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.apiurl p {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    font-weight: bold;
+    background-color: #e1e1e1;
+    margin: .75em .5em;
+    padding: .5em 1em;
+    border: #3d3d3d solid 1px;
+    border-radius: 8px;
+}
+
+.content ul  {
+    list-style-type: none
+}

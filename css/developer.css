@@ -1,0 +1,19 @@
+/* This File contains the Stylesheet overrides.
+   It is only to be used for devloper.dol.gov.
+   If you are overriding any Styles in dol-styles.css,
+   check with Shirly Teo.
+
+   Make syle changes here instead of the jekyll-theme-slate.scss.
+
+ BEGIN jekyll-theme-slate styles/css Overides */
+
+body { /* jekyll-theme-slate  lines 46-54 */
+  background: white !important;
+}
+
+form { /* jekyll-theme-slate  lines 7-25 */
+  padding: 0 !important;
+  margin: 0 0 1rem !important;
+}
+
+/*  END jekyll-theme-slate styles/css Overides */
