@@ -3,6 +3,12 @@
         <div class="small-12 columns datasets_mob mobile_header">
             <h1>Datasets</h1>
         </div>
+    </div> <br>
+    <div class="row">
+
+        <div class="alert-box small-text-center">
+            The new API will be coming soon.
+        </div>
     </div>
     <div class="row">
         <div class="small-12 columns healthsafe_mob">
@@ -17,7 +23,7 @@
                     <div id="health" class="content">
                         <ul>
                             {% for item in site.categories.health-and-safety %}
-                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }} <span class="version_badge_small">{{item.version}}</span></a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
 
                             {% endfor %}
                     </ul>
@@ -33,7 +39,7 @@
                     <div id="keep" class="content">
                         <ul>
                             {% for item in site.categories.wage-and-hour-division %}
-                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title}} <span class="version_badge_small">{{item.version}}</span></a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -48,7 +54,7 @@
                     <div id="expand" class="content">
                         <ul>
                             {% for item in site.categories.expanding-growth %}
-                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }} <span class="version_badge_small">{{item.version}}</span></a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -63,7 +69,7 @@
                     <div id="other" class="content">
                         <ul>
                         {% for item in site.categories.others %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }} <span class="version_badge_small">{{item.version}}</span></a></li>
+                        <li><a href="{{ site.baseurl }}{{ item.url }}" {% if item.title == page.title %}class="current_item"{% endif %}>{{ item.title }}</a></li>
                         {% endfor %}
                     </ul>
                     </div>
@@ -78,6 +84,11 @@
     <div class="row">
         <div class="small-6 small-centered columns"><h1>Explore Our Data</h1><br/></div>
     </div>
+    {% if isIncludeAlert %}
+    <div class="alert-box small-9-text-center">
+        The new API will be coming soon.
+    </div> <br>
+    {% endif %}
     <div class="row">
         <div class="small-3 columns">
 
