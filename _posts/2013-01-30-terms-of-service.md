@@ -6,7 +6,7 @@ created: 1359564807
 
 <h2>DOL API ToS</h2>
 <div class= "alert-box small-text-centre">
-                    The new API will be coming soon.
+                     New API v3 will be coming soon.
                 </div>
 <p>The U.S. Department of Labor ("DOL") offers some of its public data in machine readable format via an Application Programming Interface ("API"). This service is offered subject to your acceptance of the terms and conditions contained herein as well as any relevant sections of the dol.gov <a href="http://www.dol.gov/dol/disclaim.htm">Website Policies</a>  and <a href="http://www.dol.gov/dol/privacynotice.htm">Privacy Policy</a> (collectively, the "Agreements"). </p>
 
