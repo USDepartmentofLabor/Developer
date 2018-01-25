@@ -615,3 +615,6 @@ hr {
 .small-text-center {
 		padding-top: -1em;
 }
+.glbl-msg {
+	border: solid 3px #fff;
+}
