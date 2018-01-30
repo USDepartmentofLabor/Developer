@@ -7,7 +7,7 @@ description: This dataset contains information on all accidents, injuries and il
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Safety/Accidents</p>
+<p>https://api.dol.gov/V1/Safety/Accidents</p>
 </div>
 
 <p>This dataset contains information on all accidents, injuries and illnesses reported by mine operators and contractors beginning with 1983. The data in the table is obtained from the Mine Accident, Injury and Illness Report form (MSHA Form 7000-1). Document number is the unique key for this data. It provides information about the accident/injury/illness such as type, mine location, lost days and the degree of injury.</p>
