@@ -7,7 +7,7 @@ description: The API Metadata provides a list of available datasets that the Dep
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/APIMetadata</p>
+<p>https://api.dol.gov/V1/APIMetadata</p>
 </div>
 
 <p>The API Metadata provides a list of available datasets that the Department of Labor supplies as a service.</p>

@@ -7,7 +7,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Statistics/CEW</p>
+<p>https://api.dol.gov/V1/Statistics/CEW</p>
 </div>
 
 <p>The Quarterly Census of Employment and Wages (QCEW) program publishes a quarterly count of employment and wages reported by employers covering 98 percent of U.S. jobs, available at the county, MSA, state and national levels by industry.</p>

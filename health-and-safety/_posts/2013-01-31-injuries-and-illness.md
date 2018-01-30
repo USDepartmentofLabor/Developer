@@ -7,7 +7,7 @@ description: The Injuries, Illnesses, and Fatalities (IIF) program provides annu
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Safety/InjuriesAndIllness</p>
+<p>https://api.dol.gov/V1/Safety/InjuriesAndIllness</p>
 </div>
 
 <p>The Injuries, Illnesses, and Fatalities (IIF) program provides annual information on the rate and number of work related injuries, illnesses, and fatal injuries, and how these statistics vary by incident, industry, geography, occupation, and other characteristics. More information and details about the data provided can be found at <a href="http://www.bls.gov/data/#injuries">http://www.bls.gov/data/#injuries</a>.</p>

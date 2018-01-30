@@ -7,7 +7,7 @@ description: The Full Mine Information dataset lists all Coal and Metal/Non-Meta
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Mining/FullMineInfo/</p>
+<p>https://api.dol.gov/V1/Mining/FullMineInfo/</p>
 </div>
 
 <p>The Full Mine Info dataset lists all Coal and Metal/Non-Metal mines under MSHA's jurisdiction since 1/1/1970. It includes such information as the current status of each mine (Active, Abandoned, NonProducing, etc.), the current owner and operating company, commodity codes and physical attributes of the mine. Mine ID is the unique key for this data.</p>

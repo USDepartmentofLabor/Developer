@@ -7,7 +7,7 @@ description: This dataset tells you Auto Companies which are closed or repurpose
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/AutoWorkers</p>
+<p>https://api.dol.gov/V1/AutoWorkers</p>
 </div>
 
 <p>This dataset tells you Auto Companies which are closed or repurposed in the last couple of decades. It also shows you how successful or bad the closure process or the repurpose process is and in which state and city these companies found.</p>

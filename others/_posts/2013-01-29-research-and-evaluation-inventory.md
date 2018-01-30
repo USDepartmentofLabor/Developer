@@ -7,7 +7,7 @@ description: This inventory is the first phase in the development of a single re
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Statistics/REI</p>
+<p>https://api.dol.gov/V1/Statistics/REI</p>
 </div>
 
 <p>This inventory is the first phase in the development of a single repository of all completed and planned research and evaluation projects that have or will be conducted by DOL in the upcoming calendar year. This data set includes: a title and description of each project; the date the project began; the date the project was published with a link to completed research and evaluation project outcomes as these become available; and, information on Contract or Grant resources, if applicable. The database will be updated on a monthly basis to add more agency information and to links to completed projects.</p>

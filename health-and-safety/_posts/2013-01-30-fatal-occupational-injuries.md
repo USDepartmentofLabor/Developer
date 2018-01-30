@@ -7,7 +7,7 @@ description: Allows users to search nonfatal and fatal data for the nation and f
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Safety/FatalOccupationalInjuries</p>
+<p>https://api.dol.gov/V1/Safety/FatalOccupationalInjuries</p>
 </div>
 
 <p>Allows users to search nonfatal and fatal data for the nation and for States from the most current Survey of Occupational Injuries and Illnesses and the Census of Fatal Occupational Injuries programs. Users can search by industry, demographic characteristics, and case characteristics. Historical data for years prior to the current year. More information and details about the data provided can be found at <a href="http://www.bls.gov/data/#injuries">http://www.bls.gov/data/#injuries</a>.</p>

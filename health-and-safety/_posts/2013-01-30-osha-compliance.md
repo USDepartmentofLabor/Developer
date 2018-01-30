@@ -7,7 +7,7 @@ description: This Dataset provides summaries of fatalities and catastrophes resu
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Safety/Fatalities</p>
+<p>https://api.dol.gov/V1/Safety/Fatalities</p>
 </div>
 
 <p>This dataset provides summaries of fatalities and catastrophes resulting in the hospitalization of three or more workers. Employers must report these incidents to OSHA within eight hours. The summaries include only preliminary information, as reported to OSHA Area Offices or to States which operate OSHA-approved State Plans. OSHA investigates all work-related fatalities and catastrophes. Once an OSHA investigation is complete, the summary report will be updated with a webpage link to the corresponding inspection, which will list citation information. More information can be found at <a href="http://www.osha.gov/dep/fatcat/dep_fatcat.html">http://www.osha.gov/dep/fatcat/dep_fatcat.html</a></p>

@@ -7,7 +7,7 @@ description: This dataset contains violations issued from 1/1/1978 to 1/1/2000 a
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Mining/Violation</p>
+<p>https://api.dol.gov/V1/Mining/Violation</p>
 </div>
 
 <p>This dataset contains violations issued from 1/1/1978 to 1/1/2000 as a result of MSHA inspections. Each inspection results in a unique Event Number that can be associated with many violations and is a direct link to the Inspections Data Set. The violator name at the time of the violation, the actual date the violation occurred and the date the violation was issued are in this file. This table contains details about the specific citation/order/safeguard issued, such as Section of the Act, relevant dates and the conditions or practices which caused and constituted a violation or an imminent danger. The data is captured from (MSHA form 7000-3).</p>
