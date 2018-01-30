@@ -452,7 +452,7 @@ Author     : Neil Neyman <neyman.neil.e@dol.gov>
 
 .how_box_beginner {
 		padding: 10px 10px;
-		height: 375px;
+		height: 430px;
 }
 
 .custom-alert-box {
@@ -605,4 +605,16 @@ hr {
 .version_badge { 
 		padding: 0 .25em;
 		margin-top: .5em;
+}
+.alert-box {
+		font-size: 1.125em;
+		color: #000;
+		font-weight: bold;
+		margin-bottom: 0;
+}
+.small-text-center {
+		padding-top: -1em;
+}
+.glbl-msg {
+	border: solid 3px #fff;
 }
