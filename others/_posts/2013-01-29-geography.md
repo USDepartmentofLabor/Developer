@@ -7,7 +7,7 @@ description: Find here a list of States, Counties, Cities and, Congressional Dis
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Geography</p>
+<p>https://api.dol.gov/V1/Geography</p>
 </div>
 
 <p>Find here a list of States, Counties, Cities and, Congressional Districts. More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.census.gov/geo/reference/ansi.html&amp;exitTitle=Geography&20-&20American&20National&20Standards&20Institute&20-ANSI&20Codes&amp;fedpage=yes">http://www.census.gov/geo/reference/ansi.html</a></p>

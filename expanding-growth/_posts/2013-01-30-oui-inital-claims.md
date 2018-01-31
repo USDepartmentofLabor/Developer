@@ -7,7 +7,7 @@ description: OUI Initial claims dataset contains the non-seasonally and seasonal
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Statistics/OUI_InitialClaims</p>
+<p>https://api.dol.gov/V1/Statistics/OUI_InitialClaims</p>
 </div>
 
 <p>OUI Initial claims dataset contains the non-seasonally and seasonally adjusted Unemployment Insurance Initial Claims time-series data at the National level.</p>

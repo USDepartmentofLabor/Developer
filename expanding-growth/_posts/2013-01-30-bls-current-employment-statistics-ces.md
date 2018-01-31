@@ -7,7 +7,7 @@ description: Each month the Current Employment Statistics (CES) program surveys 
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Statistics/CES</p>
+<p>https://api.dol.gov/V1/Statistics/CES</p>
 </div>
 
 <p>Each month the Current Employment Statistics (CES) program surveys about 141,000 businesses and government agencies, representing approximately 486,000 individual worksites, in order to provide detailed industry data on employment, hours, and earnings of workers on nonfarm payrolls.</p>

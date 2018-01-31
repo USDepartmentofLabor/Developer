@@ -7,7 +7,7 @@ description: The dataset consists of inspection case detail for approximately 10
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/Compliance/OSHA</p>
+<p>https://api.dol.gov/V1/Compliance/OSHA</p>
 </div>
 
 <p>The dataset consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards.More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.osha.gov&amp;exitTitle=Occupational Safety and Health Administration&amp;fedpage=yes">http://www.osha.gov</a></p>

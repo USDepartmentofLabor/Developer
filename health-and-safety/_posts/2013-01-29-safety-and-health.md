@@ -7,7 +7,7 @@ description: Data related to safety and health in the workplace.
 ---
 
 <div class="force_wrap apiurl">
-<p>http://api.dol.gov/V1/SafetyHealth</p>
+<p>https://api.dol.gov/V1/SafetyHealth</p>
 </div>
 
 <p>Data related to safety and health in the workplace.</p>
