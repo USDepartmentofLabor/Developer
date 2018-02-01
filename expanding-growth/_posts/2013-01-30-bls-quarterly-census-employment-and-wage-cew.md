@@ -12,7 +12,7 @@ description: The Quarterly Census of Employment and Wages (QCEW) program publish
 
 <p>The Quarterly Census of Employment and Wages (QCEW) program publishes a quarterly count of employment and wages reported by employers covering 98 percent of U.S. jobs, available at the county, MSA, state and national levels by industry.</p>
 
-<p>More information and details about the data provided can be found at <a href="https://www.bls.gov/cew/">http://www.bls.gov/cew</a></p>
+<p>More information and details about the data provided can be found at <a href="https://www.bls.gov/cew/">https://www.bls.gov/cew</a></p>
 
 <a href ="http://api.dol.gov/V1/Statistics/CEW/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Quarterly%20Census%20Employment%20and%20Wage%20(CEW)" class="button radius button_dataset">Explore This Data</a>
