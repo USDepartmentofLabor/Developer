@@ -10,8 +10,8 @@ description: The dataset consists of inspection case detail for approximately 10
 <p>https://api.dol.gov/V1/Compliance/OSHA</p>
 </div>
 
-<p>The dataset consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards.More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.osha.gov&amp;exitTitle=Occupational Safety and Health Administration&amp;fedpage=yes">http://www.osha.gov</a></p>
-<p>This complete dataset can be found on the DOL Data Enforcement application at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://enforcedata.dol.gov&amp;exitTitle=Enforcement&amp;fedpage=yes">http://enforcedata.dol.gov</a></p>
+<p>The dataset consists of inspection case detail for approximately 100,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards.More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.osha.gov&amp;exitTitle=Occupational Safety and Health Administration&amp;fedpage=yes">https://www.osha.gov</a></p>
+<p>This complete dataset can be found on the DOL Data Enforcement application at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://enforcedata.dol.gov&amp;exitTitle=Enforcement&amp;fedpage=yes">https://enforcedata.dol.gov</a></p>
 
 <a href ="http://api.dol.gov/V1/Compliance/OSHA/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Compliance-OSHA" class="button radius button_dataset">Explore This Data</a>

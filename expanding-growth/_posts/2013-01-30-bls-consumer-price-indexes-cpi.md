@@ -12,7 +12,7 @@ description: The Consumer Price Indexes (CPI) program produces monthly data on c
 
 <p>The Consumer Price Indexes (CPI) program produces monthly data on changes in the prices paid by urban consumers for a representative basket of goods and services.</p>
 
-<p>More information and details about the data provided can be found at <a href="http://www.bls.gov/cpi">http://www.bls.gov/cpi</a></p>
+<p>More information and details about the data provided can be found at <a href="https://www.bls.gov/cpi">https://www.bls.gov/cpi</a></p>
 
 
 <a href ="http://api.dol.gov/V1/Statistics/CPI/$metadata" class="button radius button_dataset">Browse Metadata</a>

@@ -12,7 +12,7 @@ description: The Occupational Employment Statistics (OES) program produces emplo
 
 <p>The Occupational Employment Statistics (OES) program produces employment and wage estimates for over 800 occupations. These are estimates of the number of people employed in certain occupations, and estimates of the wages paid to them. Self-employed persons are not included in the estimates. These estimates are available for the nation as a whole, for individual States, and for metropolitan and nonmetropolitan areas; national occupational estimates for specific industries are also available.</p>
 
-<p>More information and details about the data provided can be found at <a href="http://www.bls.gov/oes">http://www.bls.gov/oes</a></p>
+<p>More information and details about the data provided can be found at <a href="https://www.bls.gov/oes/">https://www.bls.gov/oes/</a></p>
 
 
 <a href ="http://api.dol.gov/V1/Statistics/OES/$metadata" class="button radius button_dataset">Browse Metadata</a>

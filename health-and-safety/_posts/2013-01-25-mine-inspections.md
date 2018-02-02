@@ -11,7 +11,7 @@ description: The Mine Inspections dataset lists every mine inspection conducted 
 </div>
 
 <p>The Mine Inspections dataset lists every mine inspection conducted by MSHA dating back to 1/1/1978. The data includes the name of the mine inspected, MSHA's internal inspection number (event number), the type of inspection and the start and end dates of the inspection. Event Number is the unique key for this dataset. It also includes the Mine ID associated with the inspections which can be used to relate it to the Mines Data Set.</p>
-<p>This complete dataset can be found at https://explore.data.gov/Energy-and-Utilities/Mine-Inspections/wt25-mkey</p>
+<p>This complete dataset can be found at <a href ="https://explore.data.gov/Energy-and-Utilities/Mine-Inspections/wt25-mkey">https://explore.data.gov/Energy-and-Utilities/Mine-Inspections/wt25-mkey</a></p>
 
 <a href ="http://api.dol.gov/V1/Compliance/MineInspection/$metadata" class="button radius button_dataset">Browse Metadata</a>
 <a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Mine%20Inspections%20Dataset" class="button radius button_dataset">Explore This Data</a>
