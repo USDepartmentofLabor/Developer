@@ -16,7 +16,7 @@ to be one of the world’s most pressing challenges. Overcoming this challenge w
 new ways of thinking, and innovative solutions. 
 
 
-The Labor Department’s [Bureau of International Labor Affairs (ILAB)](https://www.dol.gov/ilab/) publishes three
+The Labor Department’s [Bureau of International Labor Affairs (ILAB)](https://www.dol.gov/agencies/ilab) publishes three
 flagship reports that raise awareness about child labor and forced labor, *Findings on the Worst Forms of Child Labor*; 
 *List of Goods Produced by Child Labor or Forced Labor*; and *List of Products Produced by Forced or Indentured 
 Child Labor*. ILAB also has just released a new mobile app called
