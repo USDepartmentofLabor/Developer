@@ -12,7 +12,7 @@ description: The Current Population Survey (CPS) is a monthly survey of househol
 
 <p>The Current Population Survey (CPS) is a monthly survey of households conducted by the Bureau of Census for the Bureau of Labor Statistics. It provides a comprehensive body of data on the <a href="https://www.bls.gov/cps/lfcharacteristics.htm#laborforce">labor force</a>, <a href="https://www.bls.gov/cps/lfcharacteristics.htm#emp">employment</a>, <a href="https://www.bls.gov/cps/lfcharacteristics.htm#unemp">unemployment</a>, persons <a href="https://www.bls.gov/cps/lfcharacteristics.htm#nlf">not in the labor force</a>, <a href="https://www.bls.gov/cps/lfcharacteristics.htm#hours">hours of work</a>, <a href="https://www.bls.gov/cps/earnings.htm">earnings</a>, and other <a href="https://www.bls.gov/cps/demographics.htm">demographic</a> and <a href="https://www.bls.gov/cps/lfcharacteristics.htm">labor force characteristics</a>.</p>
 
-<p>More information and details about the data provided can be found at <a href="https://www.bls.gov/cps">https://www.bls.gov/cps</a></p>
+<p>More information and details about the data provided can be found at <a href="https://www.bls.gov/cps/">https://www.bls.gov/cps/</a></p>
 
 
 <a href ="https://api.dol.gov/V1/Statistics/CPS/$metadata" class="button radius button_dataset">Browse Metadata</a>

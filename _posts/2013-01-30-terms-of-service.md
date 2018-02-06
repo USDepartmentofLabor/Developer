@@ -8,7 +8,7 @@ created: 1359564807
 <div class= "alert-box small-text-centre">
   New API (v3) coming Summer 2018.
 </div>
-<p>The U.S. Department of Labor ("DOL") offers some of its public data in machine readable format via an Application Programming Interface ("API"). This service is offered subject to your acceptance of the terms and conditions contained herein as well as any relevant sections of the dol.gov <a href="https://www.dol.gov/dol/disclaim.htm">Website Policies</a>  and <a href="https://www.dol.gov/dol/privacynotice.htm">Privacy Policy</a> (collectively, the "Agreements"). </p>
+<p>The U.S. Department of Labor ("DOL") offers some of its public data in machine readable format via an Application Programming Interface ("API"). This service is offered subject to your acceptance of the terms and conditions contained herein as well as any relevant sections of the dol.gov <a href="https://www.dol.gov/general/disclaim">Website Policies</a>  and <a href="https://www.dol.gov/general/privacynotice">Privacy Policy</a> (collectively, the "Agreements"). </p>
 
 <h3>Scope</h3>
 <p>All of the content, documentation, code and related materials made available to you through the API is subject to these terms. Access to or use of the API or its content constitutes acceptance to this Agreement.</p>

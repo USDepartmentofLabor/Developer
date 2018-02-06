@@ -16,7 +16,7 @@ to be one of the world’s most pressing challenges. Overcoming this challenge w
 new ways of thinking, and innovative solutions. 
 
 
-The Labor Department’s [Bureau of International Labor Affairs (ILAB)](http://www.dol.gov/ilab/) publishes three
+The Labor Department’s [Bureau of International Labor Affairs (ILAB)](https://www.dol.gov/agencies/ilab) publishes three
 flagship reports that raise awareness about child labor and forced labor, *Findings on the Worst Forms of Child Labor*; 
 *List of Goods Produced by Child Labor or Forced Labor*; and *List of Products Produced by Forced or Indentured 
 Child Labor*. ILAB also has just released a new mobile app called
@@ -45,7 +45,7 @@ Through its API, the Labor Department is opening the gates to ILAB’s massive r
 labor. Code from the Sweat & Toil app is also [open source](https://github.com/USDepartmentofLabor/Child-Labor), 
 enabling developers to understand how we use the API for 
 our needs. By making this information on child labor and forced labor available and sharing our code, ILAB is 
-fulfilling the promise of the Obama administration’s [Open Government Initiative](http://whitehouse.gov/open) to 
+fulfilling the promise of the Obama administration’s [Open Government Initiative](https://obamawhitehouse.archives.gov/open) to 
 make more data readily available and useful to the public.  
 
 <a href="{{ site.baseurl  }}/others/sweat-and-toil/" style="margin-top: 2em;" class="button radius button_wide">View ILAB’s child labor and forced labor data </a>
