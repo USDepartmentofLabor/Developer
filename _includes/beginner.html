@@ -1,216 +1,216 @@
 <div id="maincontent" tabindex="-1">
-<div class="show-for-small-only">
-    <div class="row">
-        <div class="small-12 columns how_background beg_mob mobile_site">
-            <h1>Beginner's Guide</h1>
-        </div>
-    </div>
-    <div class="alert-box small-9-text-centre">
-        New API (v3) coming Summer 2018.
-    </div>
-    <div class="row">
-        <div class="small-12 columns beg_mob mobile_sub">
-            <ul class="accordion" data-accordion>
-                <li class="accordion-navigation active-a2">
-                    <a href="#panel1a"><h2>What is an API?</h2></a>
-
-                    <div id="panel1a" class="content">
-                        In computer programming, an application programming interface (API)
-                        is a set of routines, protocols, and tools for building software applications.
-                        An API expresses a software component in terms of its operations, inputs,
-                        outputs, and underlying types
-                    </div>
-                </li>
-                <li class="accordion-navigation active-a2">
-                    <a href="#panel2a"><h2>Registration Process</h2></a>
-
-                    <div id="panel2a" class="content">
-                        <ul>
-                            <li>Visit <a href="https://devtools.dol.gov/developer">https://devtools.dol.gov/developer</a></li>
-                            <li>Click the Register link.</li>
-                            <li>Fill in the registration form and submit it.</li>
-                            <li>A confirmation email will be sent to the address you provided during registration.</li>
-                            <li>Click on the link in the email to activate your developer account.</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="accordion-navigation active-a2">
-                    <a href="#panel3a"><h2>API Key (Token) Creation Process</h2></a>
-
-                    <div id="panel3a" class="content">
-                        <ul>
-                            <li>Visit <a href="https://devtools.dol.gov/developer">https://devtools.dol.gov/developer</a></li>
-                            <li>Go to the login page and enter your username and password</li>
-                            <li>Click on the My Tokens link</li>
-                            <li>Click "Create New Token"</li>
-                            <li>Provide a Shared Secret, Application Name, and a Description</li>
-                            <li>The token value will be auto-generated and added to your tokens list.</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="accordion-navigation active-a2">
-                    <a href="#panel4a"><h2>Accessing the API</h2></a>
-
-                    <div id="panel4a" class="content">
-                        <ul class="accordion" data-accordion>
-                            <li class="accordion-navigation active-a2">
-                        <a href="#apiv1_access"><h3>API.DOL.GOV</h3></a>
-
-                        <div id="apiv1_access" class="content"><p>The API is exposed as an <a href="http://www.odata.org/">OData</a> producer, with the
-                            addition of request authorizations. We are providing SDK's for some platforms that abstract the OData
-                            and request signing process and provides you with an easy to use method call. Please
-                            visit the <a href="{{ site.baseurl }}/sdk/">SDKs Page</a> to learn more about the DOL Data
-                            SDKs.</p>
-
-                        <p><strong>Example</strong> Assume that you want to read data from the agencies table found in
-                            the dataset named DOLAgency. The request URL is:</p>
-
-                        <div class="force_wrap apiurl"><p>http://api.dol.gov/V1/DOLAgency/Agencies</p></div>
-
-                        <p>Your API Key (Token) is d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
-
-                        <div class="guide_note"><strong>note:</strong> This token is only an example. It is not usable.s</div>
-
-                        <p>Your direct link to Agency data using the input above is:</p>
-
-                        <div class="force_wrap apiurl">
-                            <p>http://api.dol.gov/V1/DOLAgency/Agencies/?KEY=d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
-                        </div></div></li>
-                            <li class="accordion-navigation active-a2">
-                                
-                        <a href="#apiv2_access"><h3>DATA.DOL.GOV</h3></a>
-
-                        <div id="apiv2_access" class="content"><p>The API is exposed as a <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">
-                            RESTful interface</a>.
-
-                            We require you to authenticate by placing your token in the header. We are providing SDK's
-                            for some
-                            platforms in order to provide you with an easy to use method call. Please visit the
-                            <a href="{{ site.baseurl }}/sdk/">SDKs Page</a> to learn more about the DOL Data SDKs.
-
-                        </p>
-
-                        <p><strong>Example</strong> Assume that you want to read data from the
-                            <a href="{{ site.baseurl }}/health-and-safety/dol-osha-enforcement/#osha_inspection">incidents
-                                table</a> found in the
-                            <a href="{{ site.baseurl }}/health-and-safety/dol-osha-enforcement/">OSHA Enforcement
-                                dataset</a>.
-                            The request URL is:</p>
-
-                        <div class="force_wrap apiurl"><p>https://data.dol.gov/get/inspection</p></div>
-
-                        <p>Your API Key (Token) is d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
-
-                        <p>Your authentication header would contain the key/value of:</p>
-
-                        <div class="force_wrap apiurl"><p>X-API-KEY: d9c6c290-da4c-424e-a378-fb4bd027b58z</p></div></div>
-                            </li>
-                        </ul>
-                    </div>
-
-                </li>
-                <li class="accordion-navigation active-a2">
-                    <a href="#panel5a"><h2>Result Format</h2></a>
-
-                    <div id="panel5a" class="content">
-                        <ul class="accordion" data-accordion>
-                            <li class="accordion-navigation active-a2">
-                                <a href="#apiv1_result"><h3>API.DOL.GOV</h3></a>
-
-                                <div id="apiv1_result" class="content">
-                        <p>By default, the DOL V1 (api.dol.gov) API's responses are in XML format.  To receive the data in JSON,
-                            send an "Accept" header with "application/json."</p>
-                        </div></li>
-                            <li class="accordion-navigation active-a2">
-
-                                <a href="#apiv2_access"><h3>DATA.DOL.GOV</h3></a>
-
-                                <div id="apiv2_access" class="content">
-                        <p>Data.dol.gov sends responses by default in JSON format.  To customize the return format, simply add /format/xml or
-                            /format/json to the request URL. For example:</p>
-                        <div class="force_wrap apiurl"><p>https://data.dol.gov/get/inspection/format/xml</p></div>
-                            </div></li>
-                            </ul>
-                    </div>
-                </li>
-                <li class="accordion-navigation active-a2">
-                    <a href="#panel6a"><h2>Next Steps</h2></a>
-
-                    <div id="panel6a" class="content">
-                        <p>Following the steps above will return the first 100 records.  To retrieve more or to be more selective
-                            in the data that is returned, <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/">read 
-                                on about accessing the API using HTTP requests</a>.</p>
-
-                        <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/" class="button radius button_wide">How
-                            to Customize Your Request</a>
-                    </div>
-                </li>
-
-            </ul>
-
-
-        </div>
-
-    </div>
-    
-    <div class="row" data-equalizer>
-        <div class="small-12 columns bgclip">
-        <a href="/dataset/">
-            <div class="small-6 columns datasets_mob mobile_site" data-equalizer-watch>
-                <div class="pad_mob">
-                    <img src="{{ site.baseurl }}/img/graph.png" alt="Graph Logo">
-
-                    <h2>Datasets</h2>
-                </div>
-            </div>
-        </a>
-        <a href="/sdk/">
-            <div class="small-6 columns sdks_mob mobile_site" data-equalizer-watch>
-                <div class="pad_mob">
-                    <img src="{{ site.baseurl }}/img/sdk.png" alt="Gear Logo">
-
-                    <h2>SDKs</h2>
-                </div>
-            </div>
-        </a>
-        </div>
-    </div>
-    <a id="appLink" href="https://github.com/USDepartmentofLabor/Quarry">
+    <div class="show-for-small-only">
         <div class="row">
-            <div class="small-12 columns bgclip">
-            <div class="small-12 columns app_mob mobile_site">
-                <div class="pad_mob">
-                    {{ stats | markdownify }}
-                </div>
-            </div>
+            <div class="small-12 columns how_background beg_mob mobile_site">
+                <h1>Beginner's Guide</h1>
             </div>
         </div>
-    </a>
-
-</div>
-<div class="show-for-medium-up">
-    <div class="how_background how_box_beginner">
-        <div class="row">
-            <div class="small-6 small-centered columns"><h1>BEGINNER'S GUIDE</h1></div>
-        </div>
-        <div class="alert-box small-9-text-centre glbl-msg">
+        <div class="alert-box small-9-text-centre">
             New API (v3) coming Summer 2018.
         </div>
-        <div class="row" data-equalizer>
-            <div class="small-6 columns howdiv_c" data-equalizer-watch>
-                <img src="{{ site.baseurl }}/img/begin_speedometer.png" alt="API Beginner">
-            </div>
-            <div class="small-5 small-offset-1 columns howdiv" data-equalizer-watch>
-                {{ how2 | markdownify }}
-                <a href="{{ site.baseurl }}/beginners-guide/" class="button radius button_dol">Learn More</a>
+        <div class="row">
+            <div class="small-12 columns beg_mob mobile_sub">
+                <ul class="accordion" data-accordion>
+                    <li class="accordion-navigation active-a2">
+                        <a href="#panel1a"><h2>What is an API?</h2></a>
+
+                        <div id="panel1a" class="content">
+                            In computer programming, an application programming interface (API)
+                            is a set of routines, protocols, and tools for building software applications.
+                            An API expresses a software component in terms of its operations, inputs,
+                            outputs, and underlying types
+                        </div>
+                    </li>
+                    <li class="accordion-navigation active-a2">
+                        <a href="#panel2a"><h2>Registration Process</h2></a>
+
+                        <div id="panel2a" class="content">
+                            <ul>
+                                <li>Visit <a href="https://devtools.dol.gov/developer">https://devtools.dol.gov/developer</a></li>
+                                <li>Click the Register link.</li>
+                                <li>Fill in the registration form and submit it.</li>
+                                <li>A confirmation email will be sent to the address you provided during registration.</li>
+                                <li>Click on the link in the email to activate your developer account.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation active-a2">
+                        <a href="#panel3a"><h2>API Key (Token) Creation Process</h2></a>
+
+                        <div id="panel3a" class="content">
+                            <ul>
+                                <li>Visit <a href="https://devtools.dol.gov/developer">https://devtools.dol.gov/developer</a></li>
+                                <li>Go to the login page and enter your username and password</li>
+                                <li>Click on the My Tokens link</li>
+                                <li>Click "Create New Token"</li>
+                                <li>Provide a Shared Secret, Application Name, and a Description</li>
+                                <li>The token value will be auto-generated and added to your tokens list.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation active-a2">
+                        <a href="#panel4a"><h2>Accessing the API</h2></a>
+
+                        <div id="panel4a" class="content">
+                            <ul class="accordion" data-accordion>
+                                <li class="accordion-navigation active-a2">
+                            <a href="#apiv1_access"><h3>API.DOL.GOV</h3></a>
+
+                            <div id="apiv1_access" class="content"><p>The API is exposed as an <a href="http://www.odata.org/">OData</a> producer, with the
+                                addition of request authorizations. We are providing SDK's for some platforms that abstract the OData
+                                and request signing process and provides you with an easy to use method call. Please
+                                visit the <a href="{{ site.baseurl }}/sdk/">SDKs Page</a> to learn more about the DOL Data
+                                SDKs.</p>
+
+                            <p><strong>Example</strong> Assume that you want to read data from the agencies table found in
+                                the dataset named DOLAgency. The request URL is:</p>
+
+                            <div class="force_wrap apiurl"><p>http://api.dol.gov/V1/DOLAgency/Agencies</p></div>
+
+                            <p>Your API Key (Token) is d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
+
+                            <div class="guide_note"><strong>note:</strong> This token is only an example. It is not usable.s</div>
+
+                            <p>Your direct link to Agency data using the input above is:</p>
+
+                            <div class="force_wrap apiurl">
+                                <p>http://api.dol.gov/V1/DOLAgency/Agencies/?KEY=d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
+                            </div></div></li>
+                                <li class="accordion-navigation active-a2">
+                                    
+                            <a href="#apiv2_access"><h3>DATA.DOL.GOV</h3></a>
+
+                            <div id="apiv2_access" class="content"><p>The API is exposed as a <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">
+                                RESTful interface</a>.
+
+                                We require you to authenticate by placing your token in the header. We are providing SDK's
+                                for some
+                                platforms in order to provide you with an easy to use method call. Please visit the
+                                <a href="{{ site.baseurl }}/sdk/">SDKs Page</a> to learn more about the DOL Data SDKs.
+
+                            </p>
+
+                            <p><strong>Example</strong> Assume that you want to read data from the
+                                <a href="{{ site.baseurl }}/health-and-safety/dol-osha-enforcement/#osha_inspection">incidents
+                                    table</a> found in the
+                                <a href="{{ site.baseurl }}/health-and-safety/dol-osha-enforcement/">OSHA Enforcement
+                                    dataset</a>.
+                                The request URL is:</p>
+
+                            <div class="force_wrap apiurl"><p>https://data.dol.gov/get/inspection</p></div>
+
+                            <p>Your API Key (Token) is d9c6c290-da4c-424e-a378-fb4bd027b58z</p>
+
+                            <p>Your authentication header would contain the key/value of:</p>
+
+                            <div class="force_wrap apiurl"><p>X-API-KEY: d9c6c290-da4c-424e-a378-fb4bd027b58z</p></div></div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="accordion-navigation active-a2">
+                        <a href="#panel5a"><h2>Result Format</h2></a>
+
+                        <div id="panel5a" class="content">
+                            <ul class="accordion" data-accordion>
+                                <li class="accordion-navigation active-a2">
+                                    <a href="#apiv1_result"><h3>API.DOL.GOV</h3></a>
+
+                                    <div id="apiv1_result" class="content">
+                            <p>By default, the DOL V1 (api.dol.gov) API's responses are in XML format.  To receive the data in JSON,
+                                send an "Accept" header with "application/json."</p>
+                            </div></li>
+                                <li class="accordion-navigation active-a2">
+
+                                    <a href="#apiv2_access"><h3>DATA.DOL.GOV</h3></a>
+
+                                    <div id="apiv2_access" class="content">
+                            <p>Data.dol.gov sends responses by default in JSON format.  To customize the return format, simply add /format/xml or
+                                /format/json to the request URL. For example:</p>
+                            <div class="force_wrap apiurl"><p>https://data.dol.gov/get/inspection/format/xml</p></div>
+                                </div></li>
+                                </ul>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation active-a2">
+                        <a href="#panel6a"><h2>Next Steps</h2></a>
+
+                        <div id="panel6a" class="content">
+                            <p>Following the steps above will return the first 100 records.  To retrieve more or to be more selective
+                                in the data that is returned, <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/">read 
+                                    on about accessing the API using HTTP requests</a>.</p>
+
+                            <a href="{{ site.baseurl }}/accessing-the-apis-using-http-requests/" class="button radius button_wide">How
+                                to Customize Your Request</a>
+                        </div>
+                    </li>
+
+                </ul>
+
 
             </div>
+
         </div>
+        
+        <div class="row" data-equalizer>
+            <div class="small-12 columns bgclip">
+                <a href="/dataset/">
+                    <div class="small-6 columns datasets_mob mobile_site" data-equalizer-watch>
+                        <div class="pad_mob">
+                            <img src="{{ site.baseurl }}/img/graph.png" alt="Graph Logo">
+
+                            <h2>Datasets</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="/sdk/">
+                    <div class="small-6 columns sdks_mob mobile_site" data-equalizer-watch>
+                        <div class="pad_mob">
+                            <img src="{{ site.baseurl }}/img/sdk.png" alt="Gear Logo">
+
+                            <h2>SDKs</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a id="appLink" href="https://github.com/USDepartmentofLabor/Quarry">
+            <div class="row">
+                <div class="small-12 columns bgclip">
+                <div class="small-12 columns app_mob mobile_site">
+                    <div class="pad_mob">
+                        {{ stats | markdownify }}
+                    </div>
+                </div>
+                </div>
+            </div>
+        </a>
+
     </div>
-    {% include explore.html %}
-    <hr>
-    {% include grab.html %}
-    <hr>
-    {% include apps.html %}
-</div>
+    <div class="row show-for-medium-up">
+        <div class="how_background how_box_beginner">
+            <div class="row">
+                <div class="small-6 small-centered columns"><h1>BEGINNER'S GUIDE</h1></div>
+            </div>
+            <div class="alert-box small-9-text-centre glbl-msg">
+                New API (v3) coming Summer 2018.
+            </div>
+            <div class="row" data-equalizer>
+                <div class="small-6 columns howdiv_c" data-equalizer-watch>
+                    <img src="{{ site.baseurl }}/img/begin_speedometer.png" alt="API Beginner">
+                </div>
+                <div class="small-5 small-offset-1 columns howdiv" data-equalizer-watch>
+                    {{ how2 | markdownify }}
+                    <a href="{{ site.baseurl }}/beginners-guide/" class="button radius button_dol">Learn More</a>
+
+                </div>
+            </div>
+        </div>
+        {% include explore.html %}
+        <hr>
+        {% include grab.html %}
+        <hr>
+        {% include apps.html %}
+    </div>
 </div>
