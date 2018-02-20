@@ -15,4 +15,6 @@ function getAppStoreLink() {
         return 'https://github.com/USDepartmentofLabor?query=stats';
     }
 }
-
+// Don't force https when serving the website locally
+if (!(window.location.host.startsWith("localhost")) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
