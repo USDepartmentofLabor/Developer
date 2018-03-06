@@ -1211,15 +1211,15 @@ description: The dataset consists of inspection case detail for approximately 90
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				opt_type
+				load_dt
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				varchar(1)
+				timestamp without time zone
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				Identifies the optional information type (only N type included)
+				Date the load was completed (yyyymmdd hhmmss)
 			</td>
 			</tr>
 			<tr>
@@ -1239,20 +1239,6 @@ description: The dataset consists of inspection case detail for approximately 90
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				opt_value
-			</th>
-				<td>
-				<span class="small">Data Type</span>
-				varchar(50)
-			</td>
-				<td>
-				<span class="small">Column Description</span>
-				Optional information value
-			</td>
-			</tr>
-			<tr>
-				<th scope="row">
-				<span class="small">Column Name</span>
 				opt_info_id
 			</th>
 				<td>
@@ -1267,15 +1253,29 @@ description: The dataset consists of inspection case detail for approximately 90
 			<tr>
 				<th scope="row">
 				<span class="small">Column Name</span>
-				load_dt
+				opt_type
 			</th>
 				<td>
 				<span class="small">Data Type</span>
-				timestamp without time zone
+				varchar(1)
 			</td>
 				<td>
 				<span class="small">Column Description</span>
-				Date the load was completed (yyyymmdd hhmmss)
+				Optional information value
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				opt_value
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Optional information value
 			</td>
 			</tr>
 		</tbody>
