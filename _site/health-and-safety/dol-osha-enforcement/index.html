@@ -1,0 +1,2562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>DOL OSHA Enforcement - United States Department of Labor Developer Portal</title>
+    <meta name="description" content="The dataset consists of inspection case detail for approximately 90,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to - www.osha.gov">
+    
+    
+    
+
+    <link rel="canonical" href="http://localhost:4000/health-and-safety/dol-osha-enforcement/">
+          <!-- css -->
+      <link rel="stylesheet" href="/css/foundation.css" />
+      <link rel="stylesheet" href="/css/dol-style.css" />
+      <link rel="stylesheet" href="/css/content.css" />
+      <link rel="stylesheet" href="/css/post.css" />
+      <link rel="stylesheet" href="/css/mobile.css" />
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
+    <script id="_fed_an_ua_tag" src="/js/federated-analytics-developer.js?agency=DOL&amp;subagency=DEVELOPER"></script>      
+      <script src="/js/modernizr.js"></script>
+      <script src="/js/safari_pushwoosh.js"></script> 
+      <script src="/js/developer_scripts.js"></script>
+      <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+      <![endif]-->
+
+    <script type="text/javascript">
+
+        //<![CDATA[
+
+        var usasearch_config = { siteHandle:"developer.dol.gov" };
+
+
+
+        var script = document.createElement("script");
+
+        script.type = "text/javascript";
+
+        script.src = "//search.usa.gov/javascripts/remote.loader.js";
+
+        document.getElementsByTagName("head")[0].appendChild(script);
+
+
+
+        //]]>
+
+    </script>
+
+    
+</head>
+
+
+  <body> 
+  <div class="skip"> <a href="#maincontent">Skip to Main Content</a> </div>
+    
+    <header class="site-header">
+
+<div class="wrapper">
+
+<!--Start Banner -->
+<a id="top"></a>
+<div class="row top-header" role="banner">
+      <div class="large-6 columns"> <a href="/"> <span class="show-for-medium-up brand"></span>
+        <h1 class="header-logo-type">DEVELOPER PORTAL<br/>
+            UNITED STATES DEPARTMENT OF LABOR</h1>
+        </a> </div>
+      <div class="large-2 columns">
+        <div class="social-block right hide-for-small"> <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+        <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+        <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+        <a href="https://www.dol.gov/rss" class="sm-rss">RSS</a>
+        <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email">Email</a> </div>
+      </div>
+      <div class="large-4 columns">
+        <div id="searchbox" class="hide-for-small-only">
+            <!--<form accept-charset="UTF-8" action="http://search.usa.gov/search" id="search_form" method="get">
+                <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/></div>
+                <div class="small-10 columns">
+                    <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+                    <label for="query">Enter Search Term(s):</label>
+                    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text"/>
+                </div>
+                <div class="small-2 columns"><input name="commit" type="submit" value="Search"/>
+                </div>
+            </form></-->
+          <form action="//search.usa.gov/search" method="get" class="usagov" role="search">
+            <div class="small-10 columns">
+                <label for="query"><span class="hide">Search</span></label>
+                <input autocomplete="off" type="text" id="query" name="query" placeholder="Enter Search Terms" class="usagov-search-autocomplete" required="required" >
+            </div>
+            <div class="small-2 columns">
+                <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+
+              <input type="image"  src="/img/icon-search.png" alt="Search" class="usagov-submit">
+                <!--
+                <input type="image"  src="/img/beta_ribbon.png"  vspace="4"  alt="Search DOL" class="usagov-submit">
+                -->
+            </div>
+          </form>
+        </div>
+      </div>
+</div>
+    <div class="row">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="/beginner/">USE OUR API</a></li>
+                    <li><a href="/dataset/">EXPLORE OUR DATA</a></li>
+                    <li><a href="/sdk/">GRAB OUR CODE</a></li>
+                    <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">ASK QUESTIONS</a></li>
+                    <li><a href="https://github.com/USDepartmentofLabor/Developer/issues/new">REPORT BUGS</a></li>
+                </ul>
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li><a href="https://devtools.dol.gov/developer">API KEYS</a></li>
+                </ul>
+            </section>
+        </nav>
+
+
+
+</div>
+
+
+    </div>
+</header>
+
+
+    <div class="row">
+      
+            <div class="row" data-equalizer>
+        <div class="show-for-medium-up">
+    <div class="large-4 columns" data-equalizer-watch>
+        <div class="row">
+            
+            <div class="large-3 columns"><img src="/img/health.png" class="menu_title_dataset_img" alt="Health Icon"></div>
+
+            <div class="large-9 columns"><h1 class="menu_title_dataset">DOL HEALTH & SAFETY DATASETS</h1></div>
+            
+        </div>
+        <div class="row">
+            <ul class="accordion" data-accordion>
+            <li class="accordion-navigation active">
+                <a href="#healthsafe">Health & Safety</a>
+
+                <div id="healthsafe" class="content cmenu active">
+                    <ul>
+                        
+                            <li><a href="/health-and-safety/injuries-and-illness/" >Injuries And Illness <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/gulf-oil-spill/" >Gulf Oil Spill <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/osha-compliance/" >DOL OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/msha-employment-production/" >MSHA Employment Production <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-violation/" >Mine Violation <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/fatal-occupational-injuries/" >Fatal Occupational Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-enforcement/" class="current_item">DOL OSHA Enforcement <span class="version_badge_small">V2</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/auto-workers/" >Auto Workers <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/safety-and-health/" >Safety and Health <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/full-mine-info-mines/" >Full Mine Information Mines <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/basic-mine-info/" >Basic Mine Information <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-accident-injuries/" >Mine Accident Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-compliance/" >OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-inspections/" >Mine Inspections <span class="version_badge_small">V1</span></a></li>
+
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#wagehour">Wage &amp; Hour Division</a>
+                <div id="wagehour" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/wage-and-hour-division/flc/" >Farm Labor Contractor and Farm Labor Contractor Employee <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/wage-and-hour-publications-system/" >Wage and Hour Publications System <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/whd-compliance/" >WHD Compliance <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#expanding">Expanding Growth<br />Opportunities & Learning</a>
+                <div id="expanding" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/expanding-growth/public-workforce-system/" >Public Workforce System <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/oui-inital-claims/" >OUI Initial Claims <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/ipia/" >IPIA <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-quarterly-census-employment-and-wage-cew/" >Quarterly Census Employment and Wage (CEW) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-occupational-employment-statistics-survey-oes/" >Occupational Employment Statistics Survey (OES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-population-survey-cps/" >Current Population Survey (CPS) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-employment-statistics-ces/" >Current Employment Statistics (CES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-consumer-price-indexes-cpi/" >Consumer Price Indexes (CPI) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-workforce-investment-act/" >2010 Workforce Investment Act <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-occupational-employment-statistics/" >2010 Occupational Employment Statistics <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-numbers/" >BLS Numbers <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#others">Other Datasets</a>
+                <div id="others" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/others/sweat-and-toil/" >Sweat & Toil <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets4212/" >VETS4212 <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets100/" >VETS100 <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metrics-per-key/" >API Metrics (per key) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/research-and-evaluation-inventory/" >Research And Evaluation Inventory <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/geography/" >Geography <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/form/" >Form <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/faq/" >Frequently Asked Questions (FAQ) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metadata/" >API Metadata <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/agency/" >Agency <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            </ul>
+        </div>
+</div>
+</div>
+
+        <div class="small-12 large-8 columns post" id="maincontent" tabindex="-1" data-equalizer-watch>
+
+            <header class="post-header">
+                <div class="show-for-small-only">
+                    <div class="row">
+                        <div class="small-12 columns
+                     health_background
+                     
+                     dataset_mob_head mobile_header">
+                            <div class="row">
+                                <a href="/dataset/">
+                                    <div class="small-3 columns datasets_back">
+                                        &lt; <span class="hide">Return to Datasets Menu</span>
+                                    </div>
+                                </a>
+
+                                <div class="small-9 columns ">
+                                    <h1>DOL OSHA Enforcement</h1>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <h1 class="post_title_dataset">DOL OSHA Enforcement  <span class="version_badge">V2</span> </h1>
+                <div class= "alert-box small-9-text-centre">
+                     New API (v3) coming Summer 2018.
+                </div>
+
+                <p class="post-meta"></p>
+            </header>
+
+            <article class="post_content_dataset">
+                <h1 id="osha-enforcement">OSHA Enforcement</h1>
+
+<p>The dataset consists of inspection case detail for approximately 90,000 OSHA inspections conducted annually. The dataset includes information regarding the impetus for conducting the inspection, and details on citations and penalty assessments resulting from violations of OSHA standards. Additionally, accident investigation information is provided, including textual descriptions of the accident, and details regarding the injuries and fatalities which occurred. For more information refer to: <a href="https://www.osha.gov/">www.osha.gov</a>.</p>
+
+<p>View OSHA's metric codes on the <a href="https://enforcedata.dol.gov/views/data_catalogs.php" target="_blank">'Data Enforcement' page under 'OSHA Enforcement Data'</a> or <a href="/docs/IMISCodes.xlsx" target="_blank">Downloaded</a>.
+</p>
+
+<!--a href ="http://api.dol.gov/V1/Safety/abc/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href ="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=xyz" class="button radius button_dataset">Explore This Data</a-->
+<p><br /></p>
+<p>The following datasets use offset for pagination so you can gather more than the limit of 200 records. For more detailed information <a href="/accessing-the-apis-using-http-requests#offset-page/">read about the how to use our <strong>offset</strong> under the "<strong>data.dol.gov</strong>" tab</a>.</p>
+
+<h2 id="dataset-tables">Dataset Tables</h2>
+
+<div>
+	<ul>
+		<li><a href="#osha_accident">accident</a></li>
+		<li><a href="#osha_accident_abstract">accident_abstract</a></li>
+		<li><a href="#osha_accident_injury">accident_injury</a></li>
+		<li><a href="#osha_inspection">inspection</a></li>
+		<li><a href="#osha_optional_info">optional_info</a></li>
+		<li><a href="#osha_related_activity">related_activity</a></li>
+		<li><a href="#osha_strategic_codes">strategic_codes</a></li>
+		<li><a href="#osha_violation">violation</a></li>
+		<li><a href="#osha_violation_event">violation_event</a></li>
+		<li><a href="#osha_violation_gen_duty_std">violation_gen_duty_std</a></li>
+	</ul>
+</div>
+
+<div>
+	<h3 id="osha_accident">Accident Table</h3>
+	<div class="force_wrap apiurl">
+		<p>https://data.dol.gov/get/accident</p>
+    </div>
+	<p>The following table contains OSHA accident information including date, time, description, and other associated accident fields.</p>
+	<table class="accessible responsive" summary="OSHA Accident - OSHA Enforcement">
+		<caption>accident</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				summary_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the accident OSHA-170 form
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				report_id
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				char(7)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the OSHA federal or state reporting jurisdiction 
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				event_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				timestamp without time zone
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date of accident (yyyymmdd hhmmss) 
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				event_time
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Time of accident (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				event_desc
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(200)
+			</td>
+				<td>
+				<span class="small">Column </span>
+				 Short description of event
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				event_keyword
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(200)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Contains comma separated keywords entered by ERG during the review process
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				const_end_use
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Construction - end-use (code table ENDU)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				build_stories
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				  numeric(4,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Construction - number of stories in building
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				nonbuild_ht
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric(4,0)
+			</td>
+				<td>
+				<span class="small">Column Name</span>
+				Construction - height in feet when not a building
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				project_cost
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(1) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Construction - project cost range (code table COST)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				project_type
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				  varchar(1)
+			</td>
+				<td>
+				<span class="small"> Column Description</span>
+				Construction - project type (code table PTYP)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				sic_list
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(40) 
+				</td>
+				<td>
+				<span class="small">Column Description</span>
+				Comma separated 4-digit SICs associated with related inspections
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				fatality
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				X=Fatality is associated with accident
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				state_flag
+			</th>
+				<td>
+				<span class="small">Data type</span>
+				numeric(1,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Flag used to identify a State
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				abstract_text
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Abstract text
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				load_dt
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				timestamp without time zone 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the load was completed (yyyymmdd hhmmss) 
+			</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="osha_accident_abstract">Accident Abstract Table</h3>
+	<div class="force_wrap apiurl">
+        <p>https://data.dol.gov/get/accident_abstract</p>
+    </div>
+	<p>The following table contains information about OSHA accident abstracts. The information in the table originates from form OSHA-170 and is linked to OSHA accident reports found in the osha_accident table.</p>
+	<table class="accessible responsive" summary="OSHA Accident Abstract - OSHA Enforcement">
+		<caption>accident_abstract</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				summary_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the accident OSHA-170 form
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				line_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(7,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Abstract line number - this is a sequence number which should only be used for ordering the lines
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				abstract_text
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Abstract text
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				load_dt
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 timestamp without time zone
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the load was completed (yyyymmdd hhmmss)   
+			</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="osha_accident_injury">Accident Injury Table</h3>
+	<div class="force_wrap apiurl">
+        <p>https://data.dol.gov/get/accident_injury</p>
+    </div>
+	<p>The following table contains information about injuries associated with OSHA accident reports. It includes information such as the Degree of Injury and the Cause of Injury and is linked to OSHA accident reports found in the osha_acident table.</p>
+	<table class="accessible responsive" summary="OSHA Accident Injury - OSHA Enforcement">
+		<caption>accident_injury</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				summary_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the accident OSHA-170 form
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				rel_insp_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Identifies the inspection associated with investigating a particular injury
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				age
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(2,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Age of the injured person
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				sex
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(1) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 M=Male or F=Female
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				nature_of_inj
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric(2,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Nature of injury code - code table IN
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				part_of_body
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric(2,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Part of body code - code table BD
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				src_of_injury
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric(2,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Source of injury code - code table SO
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				event_type
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric(2,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Event type code - code table FT
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 evn_factor
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(2,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Environmental factor code - code table EN
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hum_factor
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric(2,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Human factor code - code table HU
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				occ_code
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(3,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Occupation code - code table OCC
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				degree_of_inj
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric(1,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 1=Fatality or 2=Hospitalized injuries or 3=No Hospitalized injuries
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				task_assigned
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric(1,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 1=Task regularly assigned or 2=Task not regularly assigned
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hazsub
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(4)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Hazardous substance code
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				const_op
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(2,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Construction - operation code (code table OPER)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				const_op_cause
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(2,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Construction - cause of injury (code table OPER)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				fat_cause
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric(2,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Construction - cause of fatality (code table CAUS)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				fall_distance
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(4,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Construction - distance of fall (feet)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				fall_ht
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric(4,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Construction - height of person when fell (feet)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				injury_line_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 numeric 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Injury line number - is often referenced in the abstract text to refer to a particular person
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				load_dt
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				timestamp without time zone 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the load was completed (yyyymmdd hhmmss)
+			</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="osha_inspection">Inspection Table</h3>
+	<div class="force_wrap apiurl">
+         <p>https://data.dol.gov/get/inspection</p>
+    </div>
+    	<div class="force_wrap apiurl">
+         <p>http://enforcedata.dol.gov/views/dd_display.php</p></div>
+	<p>The following table highlights OSHA inspections conducted by OSHA compliance safety and health officers under the Occupational Safety and Health Act of 1970 (the Act) to determine whether employers are complying with standards issued by the agency for safe and healthful workplaces. OSHA publishes information on its inspection and citation activity on the Internet under the provisions of the Electronic Freedom of Information Act. Data for a given inspection will be present if data exists for the inspection and the inspection is indicated as being closed.</p>
+	<table class="accessible responsive" summary="OSHA Inspection - OSHA Enforcement">
+		<caption>inspection</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				activity_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+			      numeric(9,0)	
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Unique identifier for the inspection
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				reporting_id
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				char(7) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the OSHA federal or state reporting jurisdiction
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				state_flag
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				char(1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Flag used to identify a State
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				estab_name
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(300)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Establishment being inspected
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				site_address
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(300) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Street address of site inspected
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				site_city
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(180) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 City of site inspected
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				site_state
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(20) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				State postal abbreviation of site inspected
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				site_zip
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(40) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Postal zip code of site inspected
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				owner_type
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				text 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				A=Private or B=LocalGovt or C=StateGovt or D=Federal
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				owner_code
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(100)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Used for owner=D only
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				adv_notice
+			</th>
+				<td>
+				<span class="small">Data type</span>
+				 varchar(1000)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Y/N/blank
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				safety_hlth
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+			     varchar(100)	 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Safety/Health indicator (S=Safety or H=Health)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				sic_code
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(40)
+			</td>
+				<td>
+				<span class="small">Column Descripition</span>
+				 SIC code
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				naics_code
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(10) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Unique code number that is assigned to the NAICS
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				insp_type
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(10) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				A=Accident or B=Complaint or C=Referral or D=Monitoring or E=Variance or F=FollowUp or G=Unprog Rel or H=Planned or I=Prog Related or J=Unprog Other or K=Prog Other or L=Other-L
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				insp_scope
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(10)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				A=Complete or B=Partial or C=Records or D=NoInspection
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				why_no_insp
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				text 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				A=No Insp/Not Found or B=No Insp/Out of Business or C=No Insp/Process Inactive or D=No Insp/10 or Fewer Empe or E=No Insp/Denied Entry or F=No Insp/SIC not on PG or G=No Insp/Exempt Voluntary or H=No Insp/NonExempt Consult or I=No Insp/Other
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				union_status
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(10) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Indicates union representation during inspection (Yes=Y/U/A or No=N/B/blank)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				safety_manuf
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 text 
+			</td>
+				<td>
+				<span class="small">Column Name</span>
+				Safety planning guide manufacturing (X/blank)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				safety_const
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(10) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Safety planning guide construction (X/blank)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				safety_marit
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				text 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Safety planning guide maritime (X/blank)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				health_manuf
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				text 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Health planning guide manufacturing (X/blank)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				health_const
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(10)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Health planning guide construction (X/blank)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				health_marit
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				text
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Health planning guide maritime (X/blank)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				migrant
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(10)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Migrant labor inspection (X/blank)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				mail_street
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				text
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Mailing address street
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				mail_city
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				text
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Mailing address city
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				mail_state
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				text
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Mailing address state postal abbreviation
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				mail_zip
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				(varchar15)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Mailing address postal zip code
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				host_est_key
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Internal establishment key
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				open_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Indicates when the inspection was started (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				case_mod_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the inspection or associated violations were last affected by updating (yyyymmdd). Note: this field was only recently added to the database to facilitate the transfer process. Therefore. cases not affected by updating in April. 2004 or later will have zero in this field
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				close_conf_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Closing conference date (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				close_case_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Close date of inspection (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				ld_dt
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				timestamp without time zone
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Load Date Timestamp (yyyymmdd hhmmss)
+			</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="osha_optional_info">Optional Information Table</h3>
+	<div class="force_wrap apiurl">
+        <p>https://data.dol.gov/get/optional_info</p>
+    </div>
+	<p>The following table provides additional, optional information associated with an OSHA inspection. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
+	<table class="accessible responsive" summary="OSHA Optional Information - OSHA Enforcement">
+		<caption>optional_info</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				activity_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the parent inspection
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				opt_type
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the optional information type (only N type included)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				opt_id
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(2,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Optional information ID
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				opt_value
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Optional information value
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				opt_info_id
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Optional Information ID
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				load_dt
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				timestamp without time zone
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the load was completed (yyyymmdd hhmmss)
+			</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="osha_related_activity">Related Activity Table</h3>
+	<div class="force_wrap apiurl">
+        <p>https://data.dol.gov/get/related_activity</p>
+    </div>
+	<p>The following table provides information about activity related to an OSHA inspection. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
+	<table class="accessible responsive" summary="OSHA Related Activity - OSHA Enforcement">
+		<caption>related_activity</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				activity_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the parent inspection
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				rel_type
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				C=Complaint or I=Inspection or R=Referral or A=Accident
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				rel_act_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Activity number of the related activity
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				rel_safety
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(1) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				X=Yes or blank=No
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				rel_health
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 X=Yes or blank=No
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+			     load_dt
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				timestamp without time zone 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the load was completed (yyyymmdd hhmmss)
+			</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="osha_strategic_codes">Strategic Codes Table</h3>
+	<div class="force_wrap apiurl">
+        <p>https://data.dol.gov/get/strategic_codes</p>
+    </div>
+	<p>The following table provides information about strategic codes tied to OSHA inspections, including NEP (National Emphasis Program), LEP (Local Emphasis Program), and Strategic Plan Code. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
+	<table class="accessible responsive" summary="OSHA Strategic Codes - OSHA Enforcement">
+		<caption>strategic_codes</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				activity_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the parent inspection
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				prog_type
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(1) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				N=NEP (National Emphasis Program) or L=LEP (Local Emphasis Program) or S=Strategic Plan Code
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				prog_value
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Code value
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				load_dt
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				timestamp without time zone
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the load was completed (yyyymmdd hhmmss)
+			</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="osha_violation">Violation Table</h3>
+	<div class="force_wrap apiurl">
+        <p>https://data.dol.gov/get/violation</p>
+    </div>
+	<p>The following table contains information about OSHA violations that are in violation of the Act, Executive Order 12196, or 29 CFR Part 1960. OSHA publishes information on its inspection and citation activity on the Internet under the provisions of the Electronic Freedom of Information Act. Data for a given citation may not be available for 5 days following receipt by the employer for Federal inspections or for 30 days following receipt by the employer for State inspections. The information is linked to OSHA inspection reports found in the osha_inspection table.</p>
+	<table class="accessible responsive" summary="OSHA Violation - OSHA Enforcement">
+		<caption>violation</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				activity_nr
+				</th>
+			<td>
+			<span class="small">Data Type</span>
+				numeric(9,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the parent inspection
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				citation_id
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the citation number, item number, and item group of the issued citation
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				delete_flag
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				D=deleted
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				standard
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(100)
+			</td>
+				<td>
+				<span class="small">Column Description </span>
+				 OSHA standard violated
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				viol_type
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				S=Serious or W=Willful or R=Repeat or O=Other
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				issuance_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date of citation issuance (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				abate_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date by which the violation must be abated (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				abate_complete
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+			      varchar(25)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Q=Quick Fix or X=Abatement Completed or I=Corrected During Inspection or E=Not Completed - Employer out of business or W=Not Changed - Worksite changed or S=Not Completed - Solicitor advised or A=Not Completed - AD discretion
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				current_penalty
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(24,2)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Current penalty assessed (ZZZZZZ9.99)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				initial_penalty
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(24,2) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Initial penalty assessed (ZZZZZZ9.99)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				contest_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date contested (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				final_order_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date of final order (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				nr_instances
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(5,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Number of instances
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				nr_exposed
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(5,0) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Number of employees exposed
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				rec
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				A=Accident or C=Complaint or I=Imminent Danger or R=Referral or V=Variance
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				gravity
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Level of gravity for serious viol - 01-10 or blank
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				emphasis
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25) 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				X or blank
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hazcat
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				General industry standard hazard category
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				fta_insp_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 FTA inspection number
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				fta_issuance_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				FTA issuance date (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				fta_penalty
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(24,2)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 FTA penalty (ZZZZZZ9.99)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				fta_contest_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 date
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				FTA contest date (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				fta_final_order_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 FTA final order date (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hazsub1
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Hazardous substance code
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hazsub2
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Hazardous substance code
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hazsub3
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Hazardous substance code
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hazsub4
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Hazardous substance code
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hazsub5
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(25)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Hazardous substance code
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				load_dt
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				timestamp without time zone
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the load was completed (yyyymmdd hhmmss)
+			</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="osha_violation_event">Violation Event Table</h3>
+	<div class="force_wrap apiurl">
+        <p>https://data.dol.gov/get/violation_event</p>
+    </div>
+	<p>The following table provides information about OSHA violation events, including the event and penalty information. The information is linked to OSHA violation reports found in the osha_violation table and inspection reports found in the osha_inspection table.</p>
+	<table class="accessible responsive" summary="OSHA Violation Event - OSHA Enforcement">
+		<caption>violation_event</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				activity_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the associated inspection
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				citation_id
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(7)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the citation number, item number, and item group of the associated citation
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				pen_fta
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				P=Penalty or F=FTA
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hist_event
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Z=Issued or P=Petition to Mod Abatement or I=Informal Settlement or A=Amendment or W=Empr Withdrew or D=Govt Dismissed or L=State Settlement or Y=State Decision or F=Formal Settlement or J=ALJ Decision or R=Review Commission or 1=State Lower Court or 2=Appeals Court or 3=Supreme Court
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hist_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date of the event (yyyymmdd)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hist_penalty
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(10)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Amount assessed (ZZZZZZ9.99)
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hist_abate_date
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				date
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Abatement date (yyyymmdd) - when pen-fta=P
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hist_vtype
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Violation type - when pen-fta=P
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				hist_insp_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				FTA inspection number - when pen-fta=F
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				load_dt
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				timestamp without time zone
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the load was completed (yyyymmdd hhmmss)
+			</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="osha_violation_gen_duty_std">Violation General Duty Standards Table</h3>
+	<div class="force_wrap apiurl">
+        <p>https://data.dol.gov/get/violation_gen_duty_std</p>
+    </div>
+	<p>The following table provides information associated with general duty standards cited during OSHA inspections. The information is linked to OSHA violation reports found in the osha_violation table and inspection reports found in the osha_inspection table.</p>
+	<table class="accessible responsive" summary="OSHA Violation General Duty Standards  - OSHA Enforcement">
+		<caption>violation_gen_duty_std</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				activity_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				numeric(9,0)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the associated inspection
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				citation_id
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar(30)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the citation number, item number, and item group of the associated citation
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				line_nr
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				integer
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies the relative line in the citation text represented by Line-text
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				line_text
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Citation text line
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				load_dt
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				timestamp without time zone
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the load was completed (yyyymmdd hhmmss)
+			</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+            </article>
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <footer class="site-footer">
+
+<!-- Start Footer One -->
+<div role="contentinfo">
+<div class="row footer-one hide-for-small">
+  <div class="large-5 columns "> <a href="https://www.dol.gov/"> <img src="/img/dol-logo-white.png" alt="U.S.Department of Labor"/> <span class="header-logo-type-white">UNITED STATES <br>
+    DEPARTMENT OF LABOR </span> </a> </div>
+  <div class="large-3 columns">
+    <p class="footer-info1 a-bottom"><a href="https://www.dol.gov/general/contact">Contact Us </a></p>
+  </div>
+  <div class="large-4 columns">
+    <div class="social-block-btm mt">
+    <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+    <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+    <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+    <a href="https://plus.google.com/+USDOL/posts" class="sm-gplus">Google Plus</a>
+    <a href="https://www.dol.gov/rss" class="sm-rss-btm">RSS</a>
+    <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email-btm">Email</a>
+      </div>
+  </div>
+</div>
+<!-- End Footer One -->
+
+<!-- Start Footer Two -->
+<div class="row footer-two">
+  <div class="small-12 large-3 columns line-b-peach">
+    <p>200 Constitution Ave. NW<br>
+      Washington DC 20210<br>
+      <a href="tel:1-866-487-2365">1-866-4-USA-DOL</a><br>
+      <a href="tel:1-866-487-2365">1-866-487-2365</a><br>
+      <a href="https://www.dol.gov/general/contact-phonecallcenter">TTY</a><br>
+      <a href="https://www.dol.gov/">www.dol.gov </a> </p>
+  </div>
+  <div class="large-3 columns  line-b-peach hide-for-small">
+    <p><strong>ABOUT THE SITE</strong></p>
+    <ul role="navigation">
+      <li><a href="https://www.dol.gov/general/foia">Freedom of Information Act</a></li>
+      <li><a href="https://www.dol.gov/general/privacynotice">Privacy &amp; Security Statement</a></li>
+      <li><a href="https://www.dol.gov/general/disclaim">Disclaimers</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/website-policies">Important Web Site Notices</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/plug-ins">Plug-ins Used by DOL</a></li>
+      <li><a href="https://www.dol.gov/rss">RSS Feeds from DOL</a></li>
+      <li><a href=" https://www.dol.gov/general/aboutdol/accessibility">Accessibility Statement</a></li>
+    </ul>
+  </div>
+  <div class="large-3 columns end line-b-peach hide-for-small">
+    <p><strong>DEVELOPER</strong></p>
+    <ul role="navigation">
+        <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">Ask Questions</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/DOLAPI/issues/new">Report Bugs</a></li>
+        <li><a href="/terms-of-service/">Terms of Service</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/Developer/tree/gh-pages">Fork this site on Github</a></li>
+        <li><a href="/release-notes/">Changelog</a></li>
+      <!--<li><a href="http://www.dol.gov/dol/topic/Spanish-speakingTopic.htm">Espa&ntilde;ol</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/siteindex.htm">A to Z Index</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/organization.htm">Agencies</a></li>-->
+      <!--<li><a href="http://www.oig.dol.gov/">Office of Inspector General</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/contact-phonekeypersonnel.htm">Leadership Team</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/">Contact Us</a></li>-->
+      <!--<li><a href="https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167", onclick="window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167&pop=t', '', 'scrollbars=1,toolbar=0,menubar=0,resizable=1,width=800,height=384');return false;">Subscribe to the DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/_sec/newsletter/">Read The DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/easl/">Emergency Accountability Status Link</a></li>-->
+    </ul>
+  </div>
+  <!--<div class="large-3 columns">-->
+    <!--<p><strong>FEDERAL GOVERNMENT</strong></p>-->
+    <!--<ul role="navigation">-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.whitehouse.gov&exitTitle=www.whitehouse.gov&fedpage=yes">White House</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.healthcare.gov&exitTitle=www.healthcare.gov&fedpage=yes">Affordable Care Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/opa/disaster-recovery.htm">Disaster Recovery Assistance</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.usa.gov&exitTitle=www.usa.gov&fedpage=yes">USA.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.disability.gov&exitTitle=wwww.disability.gov&fedpage=yes">Disability.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/PlainWriting/">Plain Writing Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/recovery/">Recovery Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/oasam/programs/crc/NoFearResult.htm">No Fear Act</a></li>-->
+    <!--</ul>-->
+  <!--</div>-->
+</div>
+<!-- End Footer Two -->
+</div>
+
+</footer>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+
+  $(document).ready(function() {
+      //$('#appLink').attr('href',getAppStoreLink());
+  });
+</script>
+<!-- Never remove this: Resolved IE 8 issue on grids of the CSS Frameworks-->
+<script src="/js/rem.min.js" type="text/javascript"></script>
+<!-- Never remove above line -->
+
+
+
+  </body>
+
+</html>

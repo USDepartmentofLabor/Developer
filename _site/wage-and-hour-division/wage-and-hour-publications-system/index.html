@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Wage and Hour Publications System - United States Department of Labor Developer Portal</title>
+    <meta name="description" content="This dataset provides information regarding all of the publicly available and currently active publications.">
+    
+    
+    
+
+    <link rel="canonical" href="http://localhost:4000/wage-and-hour-division/wage-and-hour-publications-system/">
+          <!-- css -->
+      <link rel="stylesheet" href="/css/foundation.css" />
+      <link rel="stylesheet" href="/css/dol-style.css" />
+      <link rel="stylesheet" href="/css/content.css" />
+      <link rel="stylesheet" href="/css/post.css" />
+      <link rel="stylesheet" href="/css/mobile.css" />
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
+    <script id="_fed_an_ua_tag" src="/js/federated-analytics-developer.js?agency=DOL&amp;subagency=DEVELOPER"></script>      
+      <script src="/js/modernizr.js"></script>
+      <script src="/js/safari_pushwoosh.js"></script> 
+      <script src="/js/developer_scripts.js"></script>
+      <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+      <![endif]-->
+
+    <script type="text/javascript">
+
+        //<![CDATA[
+
+        var usasearch_config = { siteHandle:"developer.dol.gov" };
+
+
+
+        var script = document.createElement("script");
+
+        script.type = "text/javascript";
+
+        script.src = "//search.usa.gov/javascripts/remote.loader.js";
+
+        document.getElementsByTagName("head")[0].appendChild(script);
+
+
+
+        //]]>
+
+    </script>
+
+    
+</head>
+
+
+  <body> 
+  <div class="skip"> <a href="#maincontent">Skip to Main Content</a> </div>
+    
+    <header class="site-header">
+
+<div class="wrapper">
+
+<!--Start Banner -->
+<a id="top"></a>
+<div class="row top-header" role="banner">
+      <div class="large-6 columns"> <a href="/"> <span class="show-for-medium-up brand"></span>
+        <h1 class="header-logo-type">DEVELOPER PORTAL<br/>
+            UNITED STATES DEPARTMENT OF LABOR</h1>
+        </a> </div>
+      <div class="large-2 columns">
+        <div class="social-block right hide-for-small"> <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+        <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+        <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+        <a href="https://www.dol.gov/rss" class="sm-rss">RSS</a>
+        <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email">Email</a> </div>
+      </div>
+      <div class="large-4 columns">
+        <div id="searchbox" class="hide-for-small-only">
+            <!--<form accept-charset="UTF-8" action="http://search.usa.gov/search" id="search_form" method="get">
+                <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/></div>
+                <div class="small-10 columns">
+                    <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+                    <label for="query">Enter Search Term(s):</label>
+                    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text"/>
+                </div>
+                <div class="small-2 columns"><input name="commit" type="submit" value="Search"/>
+                </div>
+            </form></-->
+          <form action="//search.usa.gov/search" method="get" class="usagov" role="search">
+            <div class="small-10 columns">
+                <label for="query"><span class="hide">Search</span></label>
+                <input autocomplete="off" type="text" id="query" name="query" placeholder="Enter Search Terms" class="usagov-search-autocomplete" required="required" >
+            </div>
+            <div class="small-2 columns">
+                <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+
+              <input type="image"  src="/img/icon-search.png" alt="Search" class="usagov-submit">
+                <!--
+                <input type="image"  src="/img/beta_ribbon.png"  vspace="4"  alt="Search DOL" class="usagov-submit">
+                -->
+            </div>
+          </form>
+        </div>
+      </div>
+</div>
+    <div class="row">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="/beginner/">USE OUR API</a></li>
+                    <li><a href="/dataset/">EXPLORE OUR DATA</a></li>
+                    <li><a href="/sdk/">GRAB OUR CODE</a></li>
+                    <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">ASK QUESTIONS</a></li>
+                    <li><a href="https://github.com/USDepartmentofLabor/Developer/issues/new">REPORT BUGS</a></li>
+                </ul>
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li><a href="https://devtools.dol.gov/developer">API KEYS</a></li>
+                </ul>
+            </section>
+        </nav>
+
+
+
+</div>
+
+
+    </div>
+</header>
+
+
+    <div class="row">
+      
+            <div class="row" data-equalizer>
+        <div class="show-for-medium-up">
+    <div class="large-4 columns" data-equalizer-watch>
+        <div class="row">
+            
+            <div class="large-3 columns"><img src="/img/bank.png" class="menu_title_dataset_img" alt="Bank Icon"></div>
+
+            <div class="large-9 columns"><h1 class="menu_title_dataset">Wage &amp; Hour Division</h1></div>
+            
+        </div>
+        <div class="row">
+            <ul class="accordion" data-accordion>
+            <li class="accordion-navigation ">
+                <a href="#healthsafe">Health & Safety</a>
+
+                <div id="healthsafe" class="content cmenu ">
+                    <ul>
+                        
+                            <li><a href="/health-and-safety/injuries-and-illness/" >Injuries And Illness <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/gulf-oil-spill/" >Gulf Oil Spill <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/osha-compliance/" >DOL OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/msha-employment-production/" >MSHA Employment Production <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-violation/" >Mine Violation <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/fatal-occupational-injuries/" >Fatal Occupational Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-enforcement/" >DOL OSHA Enforcement <span class="version_badge_small">V2</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/auto-workers/" >Auto Workers <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/safety-and-health/" >Safety and Health <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/full-mine-info-mines/" >Full Mine Information Mines <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/basic-mine-info/" >Basic Mine Information <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-accident-injuries/" >Mine Accident Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-compliance/" >OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-inspections/" >Mine Inspections <span class="version_badge_small">V1</span></a></li>
+
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation active">
+                <a href="#wagehour">Wage &amp; Hour Division</a>
+                <div id="wagehour" class="content cmenu active">
+                    <ul>
+                        
+                        <li><a href="/wage-and-hour-division/flc/" >Farm Labor Contractor and Farm Labor Contractor Employee <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/wage-and-hour-publications-system/" class="current_item">Wage and Hour Publications System <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/whd-compliance/" >WHD Compliance <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#expanding">Expanding Growth<br />Opportunities & Learning</a>
+                <div id="expanding" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/expanding-growth/public-workforce-system/" >Public Workforce System <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/oui-inital-claims/" >OUI Initial Claims <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/ipia/" >IPIA <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-quarterly-census-employment-and-wage-cew/" >Quarterly Census Employment and Wage (CEW) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-occupational-employment-statistics-survey-oes/" >Occupational Employment Statistics Survey (OES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-population-survey-cps/" >Current Population Survey (CPS) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-employment-statistics-ces/" >Current Employment Statistics (CES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-consumer-price-indexes-cpi/" >Consumer Price Indexes (CPI) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-workforce-investment-act/" >2010 Workforce Investment Act <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-occupational-employment-statistics/" >2010 Occupational Employment Statistics <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-numbers/" >BLS Numbers <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#others">Other Datasets</a>
+                <div id="others" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/others/sweat-and-toil/" >Sweat & Toil <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets4212/" >VETS4212 <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets100/" >VETS100 <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metrics-per-key/" >API Metrics (per key) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/research-and-evaluation-inventory/" >Research And Evaluation Inventory <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/geography/" >Geography <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/form/" >Form <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/faq/" >Frequently Asked Questions (FAQ) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metadata/" >API Metadata <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/agency/" >Agency <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            </ul>
+        </div>
+</div>
+</div>
+
+        <div class="small-12 large-8 columns post" id="maincontent" tabindex="-1" data-equalizer-watch>
+
+            <header class="post-header">
+                <div class="show-for-small-only">
+                    <div class="row">
+                        <div class="small-12 columns
+                     keep_background
+                     
+                     dataset_mob_head mobile_header">
+                            <div class="row">
+                                <a href="/dataset/">
+                                    <div class="small-3 columns datasets_back">
+                                        &lt; <span class="hide">Return to Datasets Menu</span>
+                                    </div>
+                                </a>
+
+                                <div class="small-9 columns ">
+                                    <h1>Wage and Hour Publications System</h1>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <h1 class="post_title_dataset">Wage and Hour Publications System  <span class="version_badge">V2</span> </h1>
+                <div class= "alert-box small-9-text-centre">
+                     New API (v3) coming Summer 2018.
+                </div>
+
+                <p class="post-meta"></p>
+            </header>
+
+            <article class="post_content_dataset">
+                <h2 id="dataset-tables">Dataset Tables</h2>
+
+<div>
+	<ul>
+		<li><a href="#publicationsview">PublicationsView</a></li>
+		<li><a href="#documentsview">DocumentsView</a></li>
+	</ul>
+</div>
+
+<div>
+	<h3 id="publicationsview" tabindex="-1">PublicationsView Table</h3>
+	<div class="force_wrap apiurl">
+<p>https://data.dol.gov/get/publications_view</p>
+</div>
+	<table class="accessible responsive" summary="Publications View - Wage and Hour Publications System (WHPS)">
+		<caption>Publications View</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					PublicationId
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Unique publication id.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Recommended
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					bit
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					A publication can be marked and visible as recommended/featured on the ordering interface. 1 - recommended publication, 0 - none recommended publication.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					RecommendedImage
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					VarBinary(max)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					The image show to the publication it is recommended
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Title
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					NVarChar(500)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Publication's title
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					PubNumber
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					NVarChar(100)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					The publication number. (I am not sure what is the exact meaning of publication number in the real world.)
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HTMLLink
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					NVarChar(2000)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Contains a link the HTML version of the publication (if the publication has HTML version).
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocumentCounter
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					How many documents are connected to the publication
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocId01
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id of the first attached document. If no documents are attached all the DocId fields will be null. If two documents are attached the fields from DocId03 to DocId10 will be null.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocId02
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id of the first attached document. If no documents are attached all the DocId fields will be null. If two documents are attached the fields from DocId03 to DocId10 will be null.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocId03
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id of the first attached document. If no documents are attached all the DocId fields will be null. If two documents are attached the fields from DocId03 to DocId10 will be null.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocId04
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id of the first attached document. If no documents are attached all the DocId fields will be null. If two documents are attached the fields from DocId03 to DocId10 will be null.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocId05
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id of the first attached document. If no documents are attached all the DocId fields will be null. If two documents are attached the fields from DocId03 to DocId10 will be null.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocId06
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id of the first attached document. If no documents are attached all the DocId fields will be null. If two documents are attached the fields from DocId03 to DocId10 will be null.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocId07
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id of the first attached document. If no documents are attached all the DocId fields will be null. If two documents are attached the fields from DocId03 to DocId10 will be null.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocId08
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id of the first attached document. If no documents are attached all the DocId fields will be null. If two documents are attached the fields from DocId03 to DocId10 will be null.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocId09
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id of the first attached document. If no documents are attached all the DocId fields will be null. If two documents are attached the fields from DocId03 to DocId10 will be null.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocId10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Id of the first attached document. If no documents are attached all the DocId fields will be null. If two documents are attached the fields from DocId03 to DocId10 will be null.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Language
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					NVarChar(50)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Publication's language. When empty it is usually English.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					StockStatus
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					NVarChar(50)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Currently the possible values are: AVAILABLE; BACK_ORDERED; NOT_AVAILABLE; or OUT_OF_PRINT
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="documentsview" tabindex="-1">DocumentsView Table</h3>
+	<table class="accessible responsive" summary="Documents View - Wage and Hour Publications System (WHPS)">
+		<caption>Documents View</caption>
+		<div class="force_wrap apiurl">
+<p>https://data.dol.gov/get/documents_view</p>
+</div>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocumentId
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Unique document id.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					PublicationId
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Which publication this document is assigned to. This field is not unique!
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					DocumentType
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					NVarChar(50)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Document type. For example &lsquo;PDF&rsquo;
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					Name
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					NVarChar(200)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					The file name before it was uploaded into the table
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					FileData
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					VarBinary(max)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					The binary data of the file.
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+            </article>
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <footer class="site-footer">
+
+<!-- Start Footer One -->
+<div role="contentinfo">
+<div class="row footer-one hide-for-small">
+  <div class="large-5 columns "> <a href="https://www.dol.gov/"> <img src="/img/dol-logo-white.png" alt="U.S.Department of Labor"/> <span class="header-logo-type-white">UNITED STATES <br>
+    DEPARTMENT OF LABOR </span> </a> </div>
+  <div class="large-3 columns">
+    <p class="footer-info1 a-bottom"><a href="https://www.dol.gov/general/contact">Contact Us </a></p>
+  </div>
+  <div class="large-4 columns">
+    <div class="social-block-btm mt">
+    <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+    <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+    <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+    <a href="https://plus.google.com/+USDOL/posts" class="sm-gplus">Google Plus</a>
+    <a href="https://www.dol.gov/rss" class="sm-rss-btm">RSS</a>
+    <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email-btm">Email</a>
+      </div>
+  </div>
+</div>
+<!-- End Footer One -->
+
+<!-- Start Footer Two -->
+<div class="row footer-two">
+  <div class="small-12 large-3 columns line-b-peach">
+    <p>200 Constitution Ave. NW<br>
+      Washington DC 20210<br>
+      <a href="tel:1-866-487-2365">1-866-4-USA-DOL</a><br>
+      <a href="tel:1-866-487-2365">1-866-487-2365</a><br>
+      <a href="https://www.dol.gov/general/contact-phonecallcenter">TTY</a><br>
+      <a href="https://www.dol.gov/">www.dol.gov </a> </p>
+  </div>
+  <div class="large-3 columns  line-b-peach hide-for-small">
+    <p><strong>ABOUT THE SITE</strong></p>
+    <ul role="navigation">
+      <li><a href="https://www.dol.gov/general/foia">Freedom of Information Act</a></li>
+      <li><a href="https://www.dol.gov/general/privacynotice">Privacy &amp; Security Statement</a></li>
+      <li><a href="https://www.dol.gov/general/disclaim">Disclaimers</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/website-policies">Important Web Site Notices</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/plug-ins">Plug-ins Used by DOL</a></li>
+      <li><a href="https://www.dol.gov/rss">RSS Feeds from DOL</a></li>
+      <li><a href=" https://www.dol.gov/general/aboutdol/accessibility">Accessibility Statement</a></li>
+    </ul>
+  </div>
+  <div class="large-3 columns end line-b-peach hide-for-small">
+    <p><strong>DEVELOPER</strong></p>
+    <ul role="navigation">
+        <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">Ask Questions</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/DOLAPI/issues/new">Report Bugs</a></li>
+        <li><a href="/terms-of-service/">Terms of Service</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/Developer/tree/gh-pages">Fork this site on Github</a></li>
+        <li><a href="/release-notes/">Changelog</a></li>
+      <!--<li><a href="http://www.dol.gov/dol/topic/Spanish-speakingTopic.htm">Espa&ntilde;ol</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/siteindex.htm">A to Z Index</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/organization.htm">Agencies</a></li>-->
+      <!--<li><a href="http://www.oig.dol.gov/">Office of Inspector General</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/contact-phonekeypersonnel.htm">Leadership Team</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/">Contact Us</a></li>-->
+      <!--<li><a href="https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167", onclick="window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167&pop=t', '', 'scrollbars=1,toolbar=0,menubar=0,resizable=1,width=800,height=384');return false;">Subscribe to the DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/_sec/newsletter/">Read The DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/easl/">Emergency Accountability Status Link</a></li>-->
+    </ul>
+  </div>
+  <!--<div class="large-3 columns">-->
+    <!--<p><strong>FEDERAL GOVERNMENT</strong></p>-->
+    <!--<ul role="navigation">-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.whitehouse.gov&exitTitle=www.whitehouse.gov&fedpage=yes">White House</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.healthcare.gov&exitTitle=www.healthcare.gov&fedpage=yes">Affordable Care Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/opa/disaster-recovery.htm">Disaster Recovery Assistance</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.usa.gov&exitTitle=www.usa.gov&fedpage=yes">USA.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.disability.gov&exitTitle=wwww.disability.gov&fedpage=yes">Disability.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/PlainWriting/">Plain Writing Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/recovery/">Recovery Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/oasam/programs/crc/NoFearResult.htm">No Fear Act</a></li>-->
+    <!--</ul>-->
+  <!--</div>-->
+</div>
+<!-- End Footer Two -->
+</div>
+
+</footer>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+
+  $(document).ready(function() {
+      //$('#appLink').attr('href',getAppStoreLink());
+  });
+</script>
+<!-- Never remove this: Resolved IE 8 issue on grids of the CSS Frameworks-->
+<script src="/js/rem.min.js" type="text/javascript"></script>
+<!-- Never remove above line -->
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,408 @@
+.post_title_dataset {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: black;
+    margin-top: 1.25rem;
+    margin-left:0;
+}
+
+.menu_title_dataset {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    margin-top: 20px;
+
+}
+
+.menu_title_dataset_img {
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+}
+
+.post_content_dataset li a,
+.post_content_dataset a,
+.small-3 h2 a,
+.small-3 p a,
+.small-block-grid-4 li a{
+    text-decoration: underline;
+}
+.post_content_dataset li a:hover, .post_content_dataset li a:focus,.post_content_dataset li a:active,
+.post_content_dataset a:hover, .post_content_dataset a:focus, .post_content_dataset a:active,
+.small-3 h2 a:hover, .small-3 h2 a:focus, .small-3 h2 a:active,
+.small-3 p a:hover, .small-3 p a:focus, .small-3 p a:active,
+.small-block-grid-4 li a:hover, .small-block-grid-4 li a:focus,.small-block-grid-4 li a:active,
+.how_box_experienced a:hover, .how_box_experienced a:focus, .how_box_experienced a:active, 
+.post_content_dataset a.button_wide, .post_content_dataset a.button_dataset, .post_content_dataset li h2 a.tab-title {
+    text-decoration: none;
+}
+
+}
+.post_content_dataset,
+.post_content_dataset p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: black;
+    margin: 0 .5em;
+}
+
+.post_content_dataset h2, {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+
+.post_content_dataset h2 a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.anchorlinks h2 a,
+.anchorlinks h2 a:hover,
+.anchorlinks h3 a,
+.anchorlinks h3 a:hover,
+.anchorlinks a,
+.anchorlinks a:hover {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.post_content_dataset h2 a:hover {
+    text-decoration: none;
+}
+
+.post_content_dataset h3,
+.post_content_dataset h3 a,
+.post_content_dataset h3 a:hover {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+
+}
+
+.post_content_dataset tr:nth-child(even) {
+    background-color: #F3F3F3;
+}
+
+.post_content_dataset thead tr {
+    background-color: #D9D9D9;
+}
+
+table caption {
+    text-align: left;
+    font-size: 1.3333em;
+    margin: .5rem 0;
+    font-weight: normal;
+}
+
+th, td {
+    vertical-align: top;
+	color: #3d3d3d;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.accordion .accordion-navigation > a, .accordion dd > a {
+    background-color: white;
+    border-bottom: solid;
+    border-width: 1px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+    border-left: solid;
+    background-color: white;
+    border-left-color: darkred;
+    border-left-width: 10px;
+}
+
+.accordion .accordion-navigation.active-hs > a:hover, .accordion .accordion-navigation.active-hs > a:focus, .accordion dd > a:hover ,
+.accordion .accordion-navigation.active-k > a:hover, .accordion .accordion-navigation.active-k > a:focus, .accordion dd.active > a:hover,
+.accordion .accordion-navigation.active-e > a:hover, .accordion .accordion-navigation.active-e > a:focus, .accordion dd.active > a:hover ,
+.accordion .accordion-navigation.active-o > a:hover, .accordion .accordion-navigation.active-o > a:focus, .accordion dd.active > a:hover  {
+    background-color: #3d3d3d !important; 
+}
+
+
+.accordion .accordion-navigation.active-a2 > a, .accordion dd.active > a {
+    border-left: none; 
+    background-color: white;
+}
+
+.accordion .accordion-navigation.active-hs > a, .accordion dd.active > a {
+    border-left: none;
+    background-color: #994140;
+    
+}
+.accordion .accordion-navigation.active-k > a, .accordion dd.active > a {
+    border-left: none;
+    background-color: #77AF42;
+}
+.accordion .accordion-navigation.active-e > a, .accordion dd.active > a {
+    border-left: none;
+    background-color: #48869F;
+}
+
+.accordion .accordion-navigation.active-o > a, .accordion dd.active > a {
+    border-left: none;
+    background-color: #8D5095;
+}
+
+
+.cmenu a {
+    font-size: 14px;
+    color: black;
+}
+
+.cmenu,
+.cmenu a:hover {
+    color: #0078a0 !important;
+}
+
+.cmenu a:hover, .cmenu a:focus, .cmenu a:active {
+    text-decoration: underline;
+}
+
+.cmenu a:focus, .cmenu a:active {
+    font-weight: bold;
+}
+
+.cmenu a:active,
+.current_item,
+.current_item a {
+    color: black;
+    font-weight: bold;
+}
+
+article {
+    min-height: 700px;
+}
+
+/*  css for mobile-friendly tables */
+.mbl_tbl table { margin-bottom: 2em; border: 0;}
+.mbl_tbl th { font-weight: normal;}
+
+.mbl_tbl { 
+    margin: 1.5em .25em 1em .25em;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+
+    /* Be VERY careful with this, breaks normal words wh_erever 
+    word-break: break-all;*/
+
+    /* Non standard for webkit */
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+
+}
+.mbl_tbl p { margin: 0; padding-bottom: .5em;}
+.mbl-strng { font-weight: bold;}
+.even_row, .odd_row { width: 100%; padding: 1em;}
+.odd_row { background: #e3e3e3;}
+hr { border-top: 3px solid #3d3d3d; margin: 3em 0 2em 0;}
+.error_note { color: #900;}
+
+@media screen and (max-width: 700px) { 
+	#wrap { width: 85%;}
+	.dsktp_tbl { display: none;}
+	.mbl_tbl { display: block;}
+    .button_dataset, .button_dol, .button_wide { width: 100%; text-align: left;}
+    .post_content_dataset {  margin: 1em;}
+    .post_title_dataset { margin-left: .5em; }
+}	
+
+@media screen and (min-width: 705px) { 
+	#wrap { width: 75%;}
+	.dsktp_tbl { display: block; width:95%;}
+	.mbl_tbl { display: none;}
+}
+
+.panel.callout{
+    background-color: #E9F3E6;
+}
+.panel.feature{
+    background-color: #E4F2FD;
+    padding: 1em;
+}
+.panel.requirement{
+    background-color: #FFF2E1;
+}
+.panel.documentation{
+    background-color: #EEEEEE;
+    padding: 1em;
+}
+.panel.documentation p,
+.panel.feature p {
+    margin: 0;
+}
+
+.panel.documentation h2,
+.panel.feature h2 {
+    margin: .5em 0;
+}
+
+
+.tabs-content{
+    border-top:solid black 5px;
+}
+.panel.documentation p, .panel.feature p {
+    margin: .75em 0;
+}
+.tabs li.active a, .tabs .tab-title.active a {
+    background-color: #E9F3E6;
+    color: #222222;
+}
+.tabs li.active a, .tabs .tab-title-feature.active a {
+    background-color: #E4F2FD;
+    color: #222222;
+}
+.tabs li.active a, .tabs .tab-title-requirement.active a {
+    background-color: #FFF2E1;
+    color: #222222;
+}
+.tabs li.active a, .tabs .tab-title-documentation.active a {
+    background-color: #EEEEEE;
+    color: #222222;
+}
+
+.tabs li a, .tabs .tab-title a {
+    background-color: white;
+    color: #222222;
+}
+
+.tab-title h2,
+.tab-title-requirement h2,
+.tab-title-feature h2,
+.tab-title-documentation h2 {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+
+//	New CSS below to allow the dataset tables to be the only source of information.
+
+table, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
+
+/* #Standard
+================================================== */
+
+table { border-collapse: collapse;}
+table, th, td {
+	border-top: 2px solid #3d3d3d;
+	border-bottom: 2px solid #3d3d3d;
+}
+th, td {
+	padding-right: 0;
+	padding-left: 0;
+	border-right:0;
+}
+.comparison-table td:first-child, th:first-child { border-left: 2px solid #3d3d3d;}
+th:last-child, td:last-child { border-right: 2px solid #3d3d3d;}
+td, th {
+	text-align:left;
+	font-weight:normal;
+	font-size:1em;
+	padding:.5em;
+	box-sizing:border-box;
+}
+th {
+	text-align: left;
+	font-weight:normal;
+}
+thead th { color:#505050;}
+.responsive th:nth-of-type(1) { width:25%;}
+.responsive thead th:nth-of-type(3),
+.responsive tbody td:nth-of-type(2) {
+	padding-left:1.5em;
+}
+tbody th:nth-of-type(1) { 
+	hyphens: auto;
+	overflow-wrap: break-word;
+	font-weight: bold;
+}
+.accessible .small { display:none;}
+table { margin-bottom: 2em;}
+@media screen and (min-width: 48.5em) {
+	table{ min-width: 40em;}
+}
+
+/*  #Mobile (0-767)
+================================================== */
+@media screen and (max-device-width: 35em), screen and (max-width: 35em) {
+	.post_content_dataset tr:nth-child(2n) { background: #fff;}
+	.responsive thead { display:none;}
+	table.responsive , .responsive th, .responsive td {
+//		border-top: 0px transparent solid;
+//		border-bottom:  0px transparent solid;
+		border:  0px transparent solid;	
+	}
+	table.responsive tr {
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.responsive td, .responsive th {
+		display:block;
+		flex-basis:100%;
+		text-align:left;
+		font-weight:normal;
+		font-size:1em;
+		padding:.5em;
+		box-sizing:border-box;
+		min-width: 5.5em;
+	}
+	.responsive tbody td:nth-of-type(2) { padding-left:.5em;}
+	.accessible .small {
+		display:block;
+		font-size:.7250em;
+		color:#505050;
+		clear:both;
+		width:65%;
+		font-weight: bold;
+	}
+	.responsive th:nth-of-type(1) {
+		border-top: solid 2px #3d3d3d;
+		border-left: solid 2px #3d3d3d;
+		border-right: solid 2px #3d3d3d;
+		padding-left:.5em;
+		flex-wrap:wrap;
+	}
+	tbody th:nth-of-type(1) {
+		font-weight: normal;
+	}
+	.responsive td:nth-of-type(1), .responsive td:nth-of-type(2) {
+		border-right: solid 2px #3d3d3d;
+		border-left: solid 2px #3d3d3d;
+		flex-wrap:wrap;
+	}
+	.responsive td:nth-of-type(2) {
+		border-bottom: solid 2px #3d3d3d;
+		margin-bottom: 1em;
+		padding-left:.25em;
+	}
+	.responsive caption, .responsive h3 {
+		hyphens: auto;
+		overflow-wrap: break-word;
+	}
+	.post_title_dataset {
+	    font-size: 2rem;
+	}
+}

@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Accessing the APIs Using HTTP Requests - United States Department of Labor Developer Portal</title>
+    
+    <meta name="description" content="Department of Labor Developer API Site
+">
+    
+    
+    
+
+    <link rel="canonical" href="http://localhost:4000/accessing-the-apis-using-http-requests/">
+          <!-- css -->
+      <link rel="stylesheet" href="/css/foundation.css" />
+      <link rel="stylesheet" href="/css/dol-style.css" />
+      <link rel="stylesheet" href="/css/content.css" />
+      <link rel="stylesheet" href="/css/post.css" />
+      <link rel="stylesheet" href="/css/mobile.css" />
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
+    <script id="_fed_an_ua_tag" src="/js/federated-analytics-developer.js?agency=DOL&amp;subagency=DEVELOPER"></script>      
+      <script src="/js/modernizr.js"></script>
+      <script src="/js/safari_pushwoosh.js"></script> 
+      <script src="/js/developer_scripts.js"></script>
+      <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+      <![endif]-->
+
+    <script type="text/javascript">
+
+        //<![CDATA[
+
+        var usasearch_config = { siteHandle:"developer.dol.gov" };
+
+
+
+        var script = document.createElement("script");
+
+        script.type = "text/javascript";
+
+        script.src = "//search.usa.gov/javascripts/remote.loader.js";
+
+        document.getElementsByTagName("head")[0].appendChild(script);
+
+
+
+        //]]>
+
+    </script>
+
+    
+</head>
+
+
+  <body> 
+  <div class="skip"> <a href="#maincontent">Skip to Main Content</a> </div>
+    
+    <header class="site-header">
+
+<div class="wrapper">
+
+<!--Start Banner -->
+<a id="top"></a>
+<div class="row top-header" role="banner">
+      <div class="large-6 columns"> <a href="/"> <span class="show-for-medium-up brand"></span>
+        <h1 class="header-logo-type">DEVELOPER PORTAL<br/>
+            UNITED STATES DEPARTMENT OF LABOR</h1>
+        </a> </div>
+      <div class="large-2 columns">
+        <div class="social-block right hide-for-small"> <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+        <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+        <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+        <a href="https://www.dol.gov/rss" class="sm-rss">RSS</a>
+        <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email">Email</a> </div>
+      </div>
+      <div class="large-4 columns">
+        <div id="searchbox" class="hide-for-small-only">
+            <!--<form accept-charset="UTF-8" action="http://search.usa.gov/search" id="search_form" method="get">
+                <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/></div>
+                <div class="small-10 columns">
+                    <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+                    <label for="query">Enter Search Term(s):</label>
+                    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text"/>
+                </div>
+                <div class="small-2 columns"><input name="commit" type="submit" value="Search"/>
+                </div>
+            </form></-->
+          <form action="//search.usa.gov/search" method="get" class="usagov" role="search">
+            <div class="small-10 columns">
+                <label for="query"><span class="hide">Search</span></label>
+                <input autocomplete="off" type="text" id="query" name="query" placeholder="Enter Search Terms" class="usagov-search-autocomplete" required="required" >
+            </div>
+            <div class="small-2 columns">
+                <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+
+              <input type="image"  src="/img/icon-search.png" alt="Search" class="usagov-submit">
+                <!--
+                <input type="image"  src="/img/beta_ribbon.png"  vspace="4"  alt="Search DOL" class="usagov-submit">
+                -->
+            </div>
+          </form>
+        </div>
+      </div>
+</div>
+    <div class="row">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="/beginner/">USE OUR API</a></li>
+                    <li><a href="/dataset/">EXPLORE OUR DATA</a></li>
+                    <li><a href="/sdk/">GRAB OUR CODE</a></li>
+                    <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">ASK QUESTIONS</a></li>
+                    <li><a href="https://github.com/USDepartmentofLabor/Developer/issues/new">REPORT BUGS</a></li>
+                </ul>
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li><a href="https://devtools.dol.gov/developer">API KEYS</a></li>
+                </ul>
+            </section>
+        </nav>
+
+
+
+</div>
+
+
+    </div>
+</header>
+
+
+    <div class="row">
+      
+        <div class="post" id="maincontent"  tabindex="-1">
+
+    <header class="post-header">
+        <h1 class="post_title_dataset">Accessing the APIs Using HTTP Requests</h1>
+    </header>
+
+    <article class="post_content_dataset">
+        
+<div class="alert-box small-9-text-centre">
+     New API (v3) coming Summer 2018.
+</div>
+<ul class="tabs" data-tab="">
+    <li class="tab-title tab-title-documentation active"><a href="#apiv1"><h2>api.dol.gov (V1)</h2></a></li>
+    <li class="tab-title tab-title-feature"><a href="#apiv2"><h2>data.dol.gov (V2)</h2></a></li>
+</ul>
+
+<div class="tabs-content">
+    <div class="content active panel documentation radius force_wrap" id="apiv1">
+
+        
+<ul>
+  <li><a href="#requesting">Requesting Dataset Metadata</a></li>
+  <li><a href="#reading">Reading a table</a></li>
+  <li><a href="#limit">Limit the number of results returned</a></li>
+  <li><a href="#skip">Skip a Number of Results</a></li>
+  <li><a href="#pagination">Data Pagination by Combining Top and Skip</a></li>
+  <li><a href="#select">Selecting Specific Columns</a></li>
+  <li><a href="#sort">Sorting Data</a></li>
+  <li><a href="#filter_single">Filtering Data - Single Filter</a></li>
+  <li><a href="#filter_multi">Filtering Data - Multiple Filters</a></li>
+</ul>
+
+
+
+        <div class="post_content_dataset">
+            <h2 class="anchorlinks" id="requesting" tabindex="-1">Requesting Dataset Metadata</h2>
+
+            <h3>Authentication</h3>
+
+            <p>This method does not require authentication. An API key is <strong>not</strong> required.</p>
+
+            <h3>Arguments</h3>
+
+            <p>$metadata (required)</p>
+
+            <h3>Example URL</h3>
+
+            <p>Read the metadata for the FORMS dataset</p>
+            <pre><code>http://api.dol.gov/V1/FORMS/$metadata</code></pre>
+            <h3>HTTP Error Codes</h3>
+            <table summary="Requesting Dataset Metadata - Accessing the APIs Using HTTP Requests">
+                <caption>Requesting Dataset Metadata - HTTP Error Codes</caption>
+                <thead>
+                <tr>
+                    <th scope="col">Error Code</th>
+                    <th scope="col">Error Text</th>
+                    <th scope="col">Comments</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>404</td>
+                    <td>Resource not found</td>
+                    <td>The dataset name or table name is invalid</td>
+                </tr>
+                </tbody>
+            </table>
+            <h3>Comments</h3>
+            None
+        </div>
+        <hr />
+        <div class="post_content_dataset">
+            <div class="col12 pad1y">
+                <h2 class="anchorlinks" id="reading" tabindex="-1">Reading a table</h2>
+
+                <h3>Authentication</h3>
+
+                <p>This method does not require authentication.</p>
+
+                <h3>Arguments</h3>
+
+                <p>None</p>
+
+                <h3>Example URL</h3>
+
+                <p>Read Agencies table from the FORMS dataset</p>
+                <pre><code>http://api.dol.gov/V1/FORMS/Agencies</code></pre>
+                <h3>HTTP Error Codes</h3>
+                <table summary="Reading a table - Accessing the APIs Using HTTP Requests">
+                    <caption>Reading a Table - HTTP Error Codes</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Error Code</th>
+                        <th scope="col">Error Text</th>
+                        <th scope="col">Comments</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>404</td>
+                        <td>Resource not found</td>
+                        <td>The dataset name or table name is invalid</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h3>Comments</h3>
+                A maximum of 100 records will be returned
+            </div>
+        </div>
+        <hr />
+        <div class="post_content_dataset">
+            <div class="col12 pad2y">
+                <h2 class="anchorlinks" id="limit" tabindex="-1">Limit the number of results returned</h2>
+
+                <h3>Authentication</h3>
+
+                <p>This method does not require authentication.</p>
+
+                <h3>Arguments</h3>
+
+                <p>$top (required)</p>
+
+                <h3>Example URL</h3>
+
+                <p>Read the first 10 records of the Agencies table from the FORMS dataset</p>
+                <pre><code>http://api.dol.gov/V1/FORMS/Agencies?$top=10</code></pre>
+                <h3>HTTP Error Codes</h3>
+                <table summary="Limit the number of results returned - Accessing the APIs Using HTTP Requests">
+                    <caption>Limit the Number of Results Returned - HTTP Error Codes</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Error Code</th>
+                        <th scope="col">Error Text</th>
+                        <th scope="col">Comments</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>400</td>
+                        <td>Bad Request</td>
+                        <td>The query contains an error. Read returned value for specific error.</td>
+                    </tr>
+                    <tr>
+                        <td>404</td>
+                        <td>Resource not found</td>
+                        <td>The dataset name or table name is invalid</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h3>Comments</h3>
+                A maximum of 100 records will be returned
+            </div>
+        </div>
+        <hr />
+        <div class="post_content_dataset">
+            <div class="col12 pad1y">
+                <h2 class="anchorlinks" id="skip" tabindex="-1">Skip a Number of Results</h2>
+
+                <h3>Authentication</h3>
+
+                <p>This method does not require authentication</p>
+
+                <h3>Arguments</h3>
+
+                <p>$skip (required)</p>
+
+                <h3>Example URL</h3>
+
+                <p>Read the Agencies table from the FORMS dataset, skipping the first 5 results</p>
+                <pre><code>http://api.dol.gov/V1/FORMS/Agencies?$skip=5</code></pre>
+                <h3>HTTP Error Codes</h3>
+                <table summary="Skip a Number of Results - Accessing the APIs Using HTTP Requests">
+                    <caption>Skip a Number of Results - HTTP Error Codes</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Error Code</th>
+                        <th scope="col">Error Text</th>
+                        <th scope="col">Comments</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>400</td>
+                        <td>Bad Request</td>
+                        <td>The query contains an error. Read returned value for specific error.</td>
+                    </tr>
+                    <tr>
+                        <td>404</td>
+                        <td>Resource not found</td>
+                        <td>The dataset name or table name is invalid</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h3>Comments</h3>
+                A maximum of 100 records will be returned
+            </div>
+        </div>
+        <hr />
+        <div class="post_content_dataset">
+            <div class="col12 pad1y">
+                <h2 class="anchorlinks" id="pagination" tabindex="-1">Data Pagination by Combining Top and Skip</h2>
+
+                <h3>Authentication</h3>
+
+                <p>This method does not require authentication</p>
+
+                <h3>Arguments</h3>
+
+                <p>$top (required)</p>
+
+                <p>$skip (required)</p>
+
+                <h3>Example URL</h3>
+
+                <p>Read records 21-30 from the Agencies table in FORMS dataset</p>
+                <pre><code>http://api.dol.gov/V1/FORMS/Agencies?$skip=20&amp;$top=10</code></pre>
+                <h3>HTTP Error Codes</h3>
+                <table summary="Data Pagination by Combining Top and Skip - Accessing the APIs Using HTTP Requests">
+                    <caption>Data Pagination by Combining Top and Skip - HTTP Error Codes</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Error Code</th>
+                        <th scope="col">Error Text</th>
+                        <th scope="col">Comments</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>400</td>
+                        <td>Bad Request</td>
+                        <td>The query contains an error. Read returned value for specific error.</td>
+                    </tr>
+                    <tr>
+                        <td>404</td>
+                        <td>Resource not found</td>
+                        <td>The dataset name or table name is invalid</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h3>Comments</h3>
+                A maximum of 100 records will be returned
+            </div>
+        </div>
+        <hr />
+        <div class="post_content_dataset">
+            <div class="col12 pad1y">
+                <h2 class="anchorlinks" id="select" tabindex="-1">Selecting Specific Columns</h2>
+
+                <h3>Authentication</h3>
+
+                <p>This method does not require authentication</p>
+
+                <h3>Arguments</h3>
+
+                <p>$select</p>
+
+                <h3>Example URL</h3>
+
+                <p>Read records from the AgencyForms table in FORMS dataset, returning only the FormNumber and Title
+                    columns.</p>
+                <pre><code>http://api.dol.gov/V1/FORMS/AgencyForms?$select=FormNumber,Title</code></pre>
+                <h3>HTTP Error Codes</h3>
+                <table summary="Selecting Specific Columns - Accessing the APIs Using HTTP Requests">
+                    <caption>Selecting Specific Columns - HTTP Error Codes</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Error Code</th>
+                        <th scope="col">Error Text</th>
+                        <th scope="col">Comments</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>400</td>
+                        <td>Bad Request</td>
+                        <td>The query contains an error. Read returned value for specific error.</td>
+                    </tr>
+                    <tr>
+                        <td>404</td>
+                        <td>Resource not found</td>
+                        <td>The dataset name or table name is invalid</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h3>Comments</h3>
+                A maximum of 100 records will be returned
+            </div>
+        </div>
+        <hr />
+        <div class="post_content_dataset">
+            <div class="col12 pad1y">
+                <h2 class="anchorlinks" id="sort" tabindex="-1">Sorting Data</h2>
+
+                <h3>Authentication</h3>
+
+                <p>This method does not require authentication</p>
+
+                <h3>Arguments</h3>
+
+                <p>$orderby</p>
+
+                <h3>Example URLs</h3>
+
+                <p>Read records from the AgencyForms table in FORMS dataset, sorting by the FormNumber column.</p>
+                <pre><code>http://api.dol.gov/V1/FORMS/AgencyForms?$orderby=FormNumber</code></pre>
+                <p>To sort the column by desc order, add desc after the column name </p>
+                <pre><code>http://api.dol.gov/V1/FORMS/AgencyForms?$orderby=FormNumber desc</code></pre>
+                <h3>HTTP Error Codes</h3>
+                <table summary="Sorting Data - Accessing the APIs Using HTTP Requests">
+                    <caption>Sorting Data - HTTP Error Codes</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Error Code</th>
+                        <th scope="col">Error Text</th>
+                        <th scope="col">Comments</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>400</td>
+                        <td>Bad Request</td>
+                        <td>The query contains an error. Read returned value for specific error.</td>
+                    </tr>
+                    <tr>
+                        <td>404</td>
+                        <td>Resource not found</td>
+                        <td>The dataset name or table name is invalid</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h3>Comments</h3>
+                <ul>
+                    <li>Ascending is the default order.</li>
+                    <li>A maximum of 100 records will be returned</li>
+                    <li>More than one column can be specified. Separate column names with commas.</li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <div class="post_content_dataset">
+            <div class="col12 pad1y">
+                <h2 class="anchorlinks" id="filter_single" tabindex="-1">Filtering Data - Single Filter</h2>
+
+                <h3>Authentication</h3>
+
+                <p>This method does not require authentication</p>
+
+                <h3>Arguments</h3>
+
+                <p>$filter</p>
+
+                <h3>Comparison Keywords</h3>
+                <ul>
+                    <li>eq &ndash; Equal to</li>
+                    <li>ne &ndash; Not Equal to</li>
+                    <li>gt &ndash; Greater than</li>
+                    <li>lt &ndash; Less than</li>
+                    <li>ge &ndash; Greater than or equal to</li>
+                    <li>le &ndash; Less than or equal to</li>
+                </ul>
+                <h3>Example URL</h3>
+
+                <p>Read records from the AgencyForms table in FORMS dataset, returning only the records where the
+                    AgencyId is equal to 'MSHA'.</p>
+                <pre><code>http://api.dol.gov/V1/FORMS/AgencyForms?$filter=AgencyId eq 'MSHA'</code></pre>
+                <h3>Example Response</h3>
+
+                <p>[response]</p>
+
+                <h3>HTTP Error Codes</h3>
+                <table summary="Filtering Data - Single Filter - Accessing the APIs Using HTTP Requests">
+                    <caption>Filtering Data - Single Filter - HTTP Error Codes</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Error Code</th>
+                        <th scope="col">Error Text</th>
+                        <th scope="col">Comments</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>400</td>
+                        <td>Bad Request</td>
+                        <td>The query contains an error. Read returned value for specific error.</td>
+                    </tr>
+                    <tr>
+                        <td>404</td>
+                        <td>Resource not found</td>
+                        <td>The dataset name or table name is invalid</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h3>Comments</h3>
+                A maximum of 100 records will be returned
+            </div>
+        </div>
+        <hr />
+        <div class="post_content_dataset">
+            <div class="col12 pad1y">
+                <h2 class="anchorlinks" id="filter_multi" tabindex="-1">Filtering Data - Multiple Filters</h2>
+
+                <h3>Authentication</h3>
+                &lt;/p&gt;This method does not require authentication&lt;/p&gt;
+                <h3>Arguments</h3>
+                <ul>
+                    <li>$filter (required)</li>
+                    <li>and</li>
+                    <li>or</li>
+                </ul>
+                <h3>Comparison Keywords</h3>
+                <ul>
+                    <li>eq &ndash; Equal to</li>
+                    <li>ne &ndash; Not Equal to</li>
+                    <li>gt &ndash; Greater than</li>
+                    <li>lt &ndash; Less than</li>
+                    <li>ge &ndash; Greater than or equal to</li>
+                    <li>le &ndash; Less than or equal to</li>
+                </ul>
+                <h3>Example URL</h3>
+
+                <p>Read records from the AgencyForms table in FORMS dataset where the AgencyId is equal to MSHA and the
+                    Title is
+                    equal to 'Legal Identity Report'.</p>
+                <pre><code>http://api.dol.gov/V1/FORMS/AgencyForms?$filter=(AgencyId eq 'MSHA') and (Title eq 'Legal
+                    Identity Report')</code></pre>
+                <h3>HTTP Error Codes</h3>
+                <table summary="Filtering Data - Multiple Filters - Accessing the APIs Using HTTP Requests">
+                    <caption>Filtering Data - Multiple Filters - HTTP Error Codes</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Error Code</th>
+                        <th scope="col">Error Text</th>
+                        <th scope="col">Comments</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>400</td>
+                        <td>Bad Request</td>
+                        <td>The query contains an error. Read returned value for specific error.</td>
+                    </tr>
+                    <tr>
+                        <td>404</td>
+                        <td>Resource not found</td>
+                        <td>The dataset name or table name is invalid</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h3>Comments</h3>
+
+                <p>A maximum of 100 records will be returned</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content panel feature radius force_wrap" id="apiv2">
+
+        <h2>Use Your Quarry API Key (<span style="color:#990000;">Required</span>)</h2>
+
+        <div class="panel requirement radius">
+            <p>If you have an APIv1 Key, you may also use it for Quarry/APIV2</p>
+        </div>
+        <p>Register at <a href="https://devtools.dol.gov/developer/Account/Register">https://devtools.dol.gov/developer/Account/Register</a>
+            to get a QUARRY API key. The new API key will be emailed to you.</p>
+
+        <h2>Curl Generic Quarry Usage (<span style="color:#990000;">Strict Order</span>)</h2>
+
+        <div class="force_wrap apiurl">
+            <p>curl -H "X-API-KEY: <strong>YOUR_API_KEY</strong>"
+                https://data.dol.gov/get/ALIAS/filtername1/filtervalue1/filtername2/filtervalue2</p>
+        </div>
+        <br />
+
+        
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>YOUR_API_KEY</td>
+      <td>Your QUARRY API key</td>
+    </tr>
+    <tr>
+      <td>ALIAS</td>
+      <td>A valid alias data table name</td>
+    </tr>
+    <tr>
+      <td>filtername</td>
+      <td>A filter name that is part of a key/value pair</td>
+    </tr>
+    <tr>
+      <td>filtervalue</td>
+      <td>The value of the filter key/pair that can either set a fixed parameter or is a number</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+        <br />
+
+        <h2>Filtering Options</h2>
+
+        <h3>Format</h3>
+        <table summary="Return format">
+            <caption>Dataset will be in JSON or XML.</caption>
+            <thead>
+            <tr>
+                <th scope="col">Key/Value</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/format/json</p></span></td>
+                <td>JSON</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/format/xml</p></span></td>
+                <td>XML</td>
+            </tr>
+            <tr>
+                <td>Default</td>
+                <td>JSON</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+        <br />
+
+        <h3>Limit</h3>
+        <table summary="Limiting rows to return">
+            <caption>Number of rows to return. While the maximum allowed for APIv2 is 200, a value of 0
+                will return the limit set by the server which could differ.
+            </caption>
+            <thead>
+            <tr>
+                <th scope="col">Key/Value</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/limit/0</p></span></td>
+                <td>Return all allowable data.</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/limit/YOUR_NUMBER</p></span></td>
+                <td>Return desired number of rows.</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/limit/200</p></span></td>
+                <td>Quarry API return limit.</td>
+            </tr>
+            <tr>
+                <td>Default</td>
+                <td>Return all allowable data.</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+        <br /><a name="offset-page"></a>
+         <h3>Offset</h3>
+                    <table summary="Specifies the pagination in a request">
+		            <caption>Offset allows you to paginate a request and by using offset, you will be able to browse data in sets of up to 200 records at a time. Increasing the offset each time you request records will allow you to see additional records from the dataset you are viewing.</caption>
+		            <thead>
+		            <tr>
+		                <th scope="col">Key/Value</th>
+		                <th scope="col">Description</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+
+		            </tr>
+		            <tr>
+		                <td><span class="force_wrap apiurl"><p>/offset/YOUR_NUMBER</p></span></td>
+		                <td>Paginate the request starting at YOUR_NUMBER.</td>
+		            </tr>
+		            <tr>
+
+		            </tr>
+		            <tr>
+
+		            </tr>
+
+		            </tbody>
+		        </table>
+
+        <br />
+
+        <h3>Order</h3>
+        <table summary="Sorting Order">
+            <caption>Ascending or descending sorting order as determined by the targeted datasource
+            </caption>
+            <thead>
+            <tr>
+                <th scope="col">Key/Value</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/orderby/asc</p></span></td>
+                <td>Ascending order.</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/orderby/desc</p></span></td>
+                <td>Descending order.</td>
+            </tr>
+            <tr>
+                <td>Default</td>
+                <td>Ascending order.</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+        <br />
+
+        <h3>Columns</h3>
+        <table summary="Selecting columns to return">
+            <caption>Columns can be selected individually with the columns keyword.  Datasets will be sorted by the
+                first column field.
+            </caption>
+            <thead>
+            <tr>
+                <th scope="col">Segment</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>columns</p></span></td>
+                <td>Must be included for column filtering.</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>[</p></span></td>
+                <td>Begin columns option</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>:</p></span></td>
+                <td>The delimiter separating columns </td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>]</p></span></td>
+                <td>End column selection</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/columns/[first_column:second_column:third_column] </p></span></td>
+                <td>Example.</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+        <br />
+
+        <h3>Dates (yyyy-mm-dd)</h3>
+        <table summary="Selecting dates">
+            <caption>Searching by dates
+            </caption>
+            <thead>
+            <tr>
+                <th scope="col">Key/Value</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>date_column</p></span></td>
+                <td>Must be included to search dates.</td>
+            </tr>
+            <tr>
+                <td>(Column Name)</td>
+                <td>Specify the column name to search by-date</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>start_date</p></span></td>
+                <td>Start date will search from the start date to now.</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>end_date</p></span></td>
+                <td>The past up to the end date (200 maximum rows returned in reversed order from the end date)</td>
+            </tr>
+            <tr>
+                <td>Both start_date and end_date</td>
+                <td>Exact date range.</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/start_date/YYYY-MM-DD</p></span></td>
+                <td>Example (by start date)</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/end_date/YYYY-MM-DD</p></span></td>
+                <td>Example (by end date)</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/start_date/YYYY-MM-DD/end_date/YYYY-MM-DD</p></span></td>
+                <td>Example (by date range)</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+        <br />
+
+        <h3>Multi-Filtering</h3>
+        <table summary="Multi-filtering examples">
+            <caption>Examples
+            </caption>
+            <thead>
+            <tr>
+                <th scope="col">Example URL</th>
+                <th scope="col">Explanation</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>curl -H "X-API-KEY: YOUR_API_KEY"
+                    https://data.dol.gov/get/accident/format/xml/limit/10/orderby/desc/columns/[summary_nr:event_desc:event_time]</p></span></td>
+                <td>Select 10 rows from the <a href="/health-and-safety/dol-osha-enforcement#osha_accident/">OSHA accident table</a>.
+                    Result is in XML format, will include the 3 specified columns (summary_nr,event_desc,event_time) and will be sorted in
+                    descending order by the summary_nr column.</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>curl -k -H "X-API-KEY: YOUR_API_KEY"
+                    https://data.dol.gov/get/violation/limit/130/orderby/asc/columns/[issuance_date:citation_id:standard]/date_column/issuance_date/start_date/2010-03-15/end_date/2015-04-15</p></span></td>
+                <td>Select 130 rows from the <a href="/health-and-safety/dol-osha-enforcement#osha_violation/">OSHA Violation table</a>.
+                    Result is in JSON format, will include the 3 specified columns (issuance_date,citation_id,standard) and will be sorted in
+                    ascending order by the issuance_date column. Only returns results where issuance_date falls within
+                    the specified date range (2010-03-15 to 2015-04-15)</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+
+    </article>
+
+</div>
+
+
+    </div>
+
+    <footer class="site-footer">
+
+<!-- Start Footer One -->
+<div role="contentinfo">
+<div class="row footer-one hide-for-small">
+  <div class="large-5 columns "> <a href="https://www.dol.gov/"> <img src="/img/dol-logo-white.png" alt="U.S.Department of Labor"/> <span class="header-logo-type-white">UNITED STATES <br>
+    DEPARTMENT OF LABOR </span> </a> </div>
+  <div class="large-3 columns">
+    <p class="footer-info1 a-bottom"><a href="https://www.dol.gov/general/contact">Contact Us </a></p>
+  </div>
+  <div class="large-4 columns">
+    <div class="social-block-btm mt">
+    <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+    <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+    <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+    <a href="https://plus.google.com/+USDOL/posts" class="sm-gplus">Google Plus</a>
+    <a href="https://www.dol.gov/rss" class="sm-rss-btm">RSS</a>
+    <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email-btm">Email</a>
+      </div>
+  </div>
+</div>
+<!-- End Footer One -->
+
+<!-- Start Footer Two -->
+<div class="row footer-two">
+  <div class="small-12 large-3 columns line-b-peach">
+    <p>200 Constitution Ave. NW<br>
+      Washington DC 20210<br>
+      <a href="tel:1-866-487-2365">1-866-4-USA-DOL</a><br>
+      <a href="tel:1-866-487-2365">1-866-487-2365</a><br>
+      <a href="https://www.dol.gov/general/contact-phonecallcenter">TTY</a><br>
+      <a href="https://www.dol.gov/">www.dol.gov </a> </p>
+  </div>
+  <div class="large-3 columns  line-b-peach hide-for-small">
+    <p><strong>ABOUT THE SITE</strong></p>
+    <ul role="navigation">
+      <li><a href="https://www.dol.gov/general/foia">Freedom of Information Act</a></li>
+      <li><a href="https://www.dol.gov/general/privacynotice">Privacy &amp; Security Statement</a></li>
+      <li><a href="https://www.dol.gov/general/disclaim">Disclaimers</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/website-policies">Important Web Site Notices</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/plug-ins">Plug-ins Used by DOL</a></li>
+      <li><a href="https://www.dol.gov/rss">RSS Feeds from DOL</a></li>
+      <li><a href=" https://www.dol.gov/general/aboutdol/accessibility">Accessibility Statement</a></li>
+    </ul>
+  </div>
+  <div class="large-3 columns end line-b-peach hide-for-small">
+    <p><strong>DEVELOPER</strong></p>
+    <ul role="navigation">
+        <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">Ask Questions</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/DOLAPI/issues/new">Report Bugs</a></li>
+        <li><a href="/terms-of-service/">Terms of Service</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/Developer/tree/gh-pages">Fork this site on Github</a></li>
+        <li><a href="/release-notes/">Changelog</a></li>
+      <!--<li><a href="http://www.dol.gov/dol/topic/Spanish-speakingTopic.htm">Espa&ntilde;ol</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/siteindex.htm">A to Z Index</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/organization.htm">Agencies</a></li>-->
+      <!--<li><a href="http://www.oig.dol.gov/">Office of Inspector General</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/contact-phonekeypersonnel.htm">Leadership Team</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/">Contact Us</a></li>-->
+      <!--<li><a href="https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167", onclick="window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167&pop=t', '', 'scrollbars=1,toolbar=0,menubar=0,resizable=1,width=800,height=384');return false;">Subscribe to the DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/_sec/newsletter/">Read The DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/easl/">Emergency Accountability Status Link</a></li>-->
+    </ul>
+  </div>
+  <!--<div class="large-3 columns">-->
+    <!--<p><strong>FEDERAL GOVERNMENT</strong></p>-->
+    <!--<ul role="navigation">-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.whitehouse.gov&exitTitle=www.whitehouse.gov&fedpage=yes">White House</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.healthcare.gov&exitTitle=www.healthcare.gov&fedpage=yes">Affordable Care Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/opa/disaster-recovery.htm">Disaster Recovery Assistance</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.usa.gov&exitTitle=www.usa.gov&fedpage=yes">USA.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.disability.gov&exitTitle=wwww.disability.gov&fedpage=yes">Disability.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/PlainWriting/">Plain Writing Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/recovery/">Recovery Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/oasam/programs/crc/NoFearResult.htm">No Fear Act</a></li>-->
+    <!--</ul>-->
+  <!--</div>-->
+</div>
+<!-- End Footer Two -->
+</div>
+
+</footer>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+
+  $(document).ready(function() {
+      //$('#appLink').attr('href',getAppStoreLink());
+  });
+</script>
+<!-- Never remove this: Resolved IE 8 issue on grids of the CSS Frameworks-->
+<script src="/js/rem.min.js" type="text/javascript"></script>
+<!-- Never remove above line -->
+
+
+
+  </body>
+
+</html>

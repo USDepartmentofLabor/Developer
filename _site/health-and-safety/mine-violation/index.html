@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Mine Violation - United States Department of Labor Developer Portal</title>
+    <meta name="description" content="This dataset contains violations issued from 1/1/1978 to 1/1/2000 as a result of MSHA inspections.">
+    
+    
+    
+
+    <link rel="canonical" href="http://localhost:4000/health-and-safety/mine-violation/">
+          <!-- css -->
+      <link rel="stylesheet" href="/css/foundation.css" />
+      <link rel="stylesheet" href="/css/dol-style.css" />
+      <link rel="stylesheet" href="/css/content.css" />
+      <link rel="stylesheet" href="/css/post.css" />
+      <link rel="stylesheet" href="/css/mobile.css" />
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
+    <script id="_fed_an_ua_tag" src="/js/federated-analytics-developer.js?agency=DOL&amp;subagency=DEVELOPER"></script>      
+      <script src="/js/modernizr.js"></script>
+      <script src="/js/safari_pushwoosh.js"></script> 
+      <script src="/js/developer_scripts.js"></script>
+      <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+      <![endif]-->
+
+    <script type="text/javascript">
+
+        //<![CDATA[
+
+        var usasearch_config = { siteHandle:"developer.dol.gov" };
+
+
+
+        var script = document.createElement("script");
+
+        script.type = "text/javascript";
+
+        script.src = "//search.usa.gov/javascripts/remote.loader.js";
+
+        document.getElementsByTagName("head")[0].appendChild(script);
+
+
+
+        //]]>
+
+    </script>
+
+    
+</head>
+
+
+  <body> 
+  <div class="skip"> <a href="#maincontent">Skip to Main Content</a> </div>
+    
+    <header class="site-header">
+
+<div class="wrapper">
+
+<!--Start Banner -->
+<a id="top"></a>
+<div class="row top-header" role="banner">
+      <div class="large-6 columns"> <a href="/"> <span class="show-for-medium-up brand"></span>
+        <h1 class="header-logo-type">DEVELOPER PORTAL<br/>
+            UNITED STATES DEPARTMENT OF LABOR</h1>
+        </a> </div>
+      <div class="large-2 columns">
+        <div class="social-block right hide-for-small"> <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+        <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+        <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+        <a href="https://www.dol.gov/rss" class="sm-rss">RSS</a>
+        <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email">Email</a> </div>
+      </div>
+      <div class="large-4 columns">
+        <div id="searchbox" class="hide-for-small-only">
+            <!--<form accept-charset="UTF-8" action="http://search.usa.gov/search" id="search_form" method="get">
+                <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/></div>
+                <div class="small-10 columns">
+                    <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+                    <label for="query">Enter Search Term(s):</label>
+                    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text"/>
+                </div>
+                <div class="small-2 columns"><input name="commit" type="submit" value="Search"/>
+                </div>
+            </form></-->
+          <form action="//search.usa.gov/search" method="get" class="usagov" role="search">
+            <div class="small-10 columns">
+                <label for="query"><span class="hide">Search</span></label>
+                <input autocomplete="off" type="text" id="query" name="query" placeholder="Enter Search Terms" class="usagov-search-autocomplete" required="required" >
+            </div>
+            <div class="small-2 columns">
+                <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+
+              <input type="image"  src="/img/icon-search.png" alt="Search" class="usagov-submit">
+                <!--
+                <input type="image"  src="/img/beta_ribbon.png"  vspace="4"  alt="Search DOL" class="usagov-submit">
+                -->
+            </div>
+          </form>
+        </div>
+      </div>
+</div>
+    <div class="row">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="/beginner/">USE OUR API</a></li>
+                    <li><a href="/dataset/">EXPLORE OUR DATA</a></li>
+                    <li><a href="/sdk/">GRAB OUR CODE</a></li>
+                    <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">ASK QUESTIONS</a></li>
+                    <li><a href="https://github.com/USDepartmentofLabor/Developer/issues/new">REPORT BUGS</a></li>
+                </ul>
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li><a href="https://devtools.dol.gov/developer">API KEYS</a></li>
+                </ul>
+            </section>
+        </nav>
+
+
+
+</div>
+
+
+    </div>
+</header>
+
+
+    <div class="row">
+      
+            <div class="row" data-equalizer>
+        <div class="show-for-medium-up">
+    <div class="large-4 columns" data-equalizer-watch>
+        <div class="row">
+            
+            <div class="large-3 columns"><img src="/img/health.png" class="menu_title_dataset_img" alt="Health Icon"></div>
+
+            <div class="large-9 columns"><h1 class="menu_title_dataset">DOL HEALTH & SAFETY DATASETS</h1></div>
+            
+        </div>
+        <div class="row">
+            <ul class="accordion" data-accordion>
+            <li class="accordion-navigation active">
+                <a href="#healthsafe">Health & Safety</a>
+
+                <div id="healthsafe" class="content cmenu active">
+                    <ul>
+                        
+                            <li><a href="/health-and-safety/injuries-and-illness/" >Injuries And Illness <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/gulf-oil-spill/" >Gulf Oil Spill <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/osha-compliance/" >DOL OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/msha-employment-production/" >MSHA Employment Production <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-violation/" class="current_item">Mine Violation <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/fatal-occupational-injuries/" >Fatal Occupational Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-enforcement/" >DOL OSHA Enforcement <span class="version_badge_small">V2</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/auto-workers/" >Auto Workers <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/safety-and-health/" >Safety and Health <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/full-mine-info-mines/" >Full Mine Information Mines <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/basic-mine-info/" >Basic Mine Information <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-accident-injuries/" >Mine Accident Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-compliance/" >OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-inspections/" >Mine Inspections <span class="version_badge_small">V1</span></a></li>
+
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#wagehour">Wage &amp; Hour Division</a>
+                <div id="wagehour" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/wage-and-hour-division/flc/" >Farm Labor Contractor and Farm Labor Contractor Employee <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/wage-and-hour-publications-system/" >Wage and Hour Publications System <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/whd-compliance/" >WHD Compliance <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#expanding">Expanding Growth<br />Opportunities & Learning</a>
+                <div id="expanding" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/expanding-growth/public-workforce-system/" >Public Workforce System <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/oui-inital-claims/" >OUI Initial Claims <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/ipia/" >IPIA <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-quarterly-census-employment-and-wage-cew/" >Quarterly Census Employment and Wage (CEW) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-occupational-employment-statistics-survey-oes/" >Occupational Employment Statistics Survey (OES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-population-survey-cps/" >Current Population Survey (CPS) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-employment-statistics-ces/" >Current Employment Statistics (CES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-consumer-price-indexes-cpi/" >Consumer Price Indexes (CPI) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-workforce-investment-act/" >2010 Workforce Investment Act <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-occupational-employment-statistics/" >2010 Occupational Employment Statistics <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-numbers/" >BLS Numbers <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#others">Other Datasets</a>
+                <div id="others" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/others/sweat-and-toil/" >Sweat & Toil <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets4212/" >VETS4212 <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets100/" >VETS100 <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metrics-per-key/" >API Metrics (per key) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/research-and-evaluation-inventory/" >Research And Evaluation Inventory <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/geography/" >Geography <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/form/" >Form <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/faq/" >Frequently Asked Questions (FAQ) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metadata/" >API Metadata <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/agency/" >Agency <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            </ul>
+        </div>
+</div>
+</div>
+
+        <div class="small-12 large-8 columns post" id="maincontent" tabindex="-1" data-equalizer-watch>
+
+            <header class="post-header">
+                <div class="show-for-small-only">
+                    <div class="row">
+                        <div class="small-12 columns
+                     health_background
+                     
+                     dataset_mob_head mobile_header">
+                            <div class="row">
+                                <a href="/dataset/">
+                                    <div class="small-3 columns datasets_back">
+                                        &lt; <span class="hide">Return to Datasets Menu</span>
+                                    </div>
+                                </a>
+
+                                <div class="small-9 columns ">
+                                    <h1>Mine Violation</h1>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <h1 class="post_title_dataset">Mine Violation  <span class="version_badge">V1</span> </h1>
+                <div class= "alert-box small-9-text-centre">
+                     New API (v3) coming Summer 2018.
+                </div>
+
+                <p class="post-meta"></p>
+            </header>
+
+            <article class="post_content_dataset">
+                <div class="force_wrap apiurl">
+<p>https://api.dol.gov/V1/Mining/Violation</p>
+</div>
+
+<p>This dataset contains violations issued from 1/1/1978 to 1/1/2000 as a result of MSHA inspections. Each inspection results in a unique Event Number that can be associated with many violations and is a direct link to the Inspections Data Set. The violator name at the time of the violation, the actual date the violation occurred and the date the violation was issued are in this file. This table contains details about the specific citation/order/safeguard issued, such as Section of the Act, relevant dates and the conditions or practices which caused and constituted a violation or an imminent danger. The data is captured from (MSHA form 7000-3).</p>
+
+<p><a href="http://api.dol.gov/V1/Mining/Violation/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Violation%20Dataset" class="button radius button_dataset">Explore This Data</a></p>
+
+<h2 id="dataset-tables">Dataset Tables</h2>
+
+<div class="">
+	<h3>MSHA_violations</h3>
+	<table class="accessible responsive" summary="MSHA_violations">
+	<caption>Mine Violation</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				ID
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				bigint 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Primary key - Primary Key
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+			     EVENT_NO
+			  </th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (14)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 A preassigned number used to identify each inspection, investigation, audit, survey, etc.  Use to join to the Inspections table.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				INSPECTION_BEGIN_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			      Start date of the inspection (mm/dd/yyyy).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+			    INSPECTION_END_DT
+			   </th>
+				<td>
+				<span class="small">Data Type</span>
+			      varchar (50)
+			 </td>
+				<td>
+				<span class="small">Column Description</span>
+			     Inspection close out date (mm/dd/yyyy).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 VIOLATION_NO
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (60)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Citation/order number assigned to each citation written during an inspection.  This is a unique key to the file.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CONTROLLER_ID
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (14)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identification number assigned by MSHA Assessments for a Legal Entity acting as a controller of an operator at the time the violation was cited. May not contain data (null values) if this record pertains to a violation issued to a contractor.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 CONTROLLER_NAME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (144)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Name of the controller active at the time the violation was cited.  May not contain data (null values) if this record pertains to a violation issued to a contractor.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 VIOLATOR_ID
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (14)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Identification number assigned by MSHA for a Legal Entity acting as an operator at a mine at the time the violation was cited.  May not contain data (null values) if this record pertains to a violation issued to a contractor.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 VIOLATOR_NAME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (120)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Name of the operator active at the time the violation was cited.  May not contain data (null values) if this record pertains to a violation issued to a contractor.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 VIOLATOR_TYPE_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			     Each Violator record represents an entity (Operator, Contractor, Agent or Miner) that has one or more violations at a mine.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				  MINE_ID
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				  varchar (14)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Mine id of the mine where the violation was issued.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 MINE_NAME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (100)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Name of the mine where the violation was issued.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 MINE_TYPE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				  varchar (40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Mine type of the mine where the violation has been issued: Facility, Surface or Underground.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 COAL_METAL_IND
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				  varchar (3)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies if the record is for a Coal or Metal/Non-Metal mine
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 CONTRACTOR_ID
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (20)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Code identifying the contractor to whom the citation or order was issued.  May not contain data (null values) if the contractor was not cited.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+			     VIOLATION_ISSUE_DT
+		</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the citation or order was issued by the MSHA inspector.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 VIOLATION_OCCUR_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			     Actual date of occurrence of the violation.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				  CAL_YR
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Calendar year during which the citation/order was issued by the MSHA inspector.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 CAL_QTR
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Calendar Quarter of the date the citation or order was issued by the MSHA inspector
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 FISCAL_YR
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Fiscal Year of the date the citation or order was issued by the MSHA inspector.  MSHA's fiscal year begins October 1 and ends September 30
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 FISCAL_QTR
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Fiscal Quarter of the date the citation or order was issued by the MSHA inspector.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 IOLATION_ISSUE_TIME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (8)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Time (24 hour) the citation or order was issued by the MSHA inspector.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 SIG_SUB
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (3)  
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				An indicator as to whether or not the gravity is determined by the inspector to be significant and substantial.If this is 'Y', the inspector has indicated that based upon the particular facts surrounding the violation there exists a reasonable likelihood the hazard contributed to will result in an injury or illness of a reasonably serious nature.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 SECTION_OF_ACT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (20)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Section of the Act under which the citation/order was issued.  May not contain data (null values).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 PART_SECTION
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (40)
+			</td>
+				<td>
+				<span class="small">ColumnDescription</span>
+				 Code of Federal Regulations: Part/section of Title 30 CFR violated in format PPSSSSSXXXX where (P) Part, (S) Section and (X) Suffix. Four-digit section numbers are expanded to five within one leading zero.  May not contain data (null values).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 SECTION_OF_ACT_1
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Primary Section of Act which gives the MSHA Inspector the authority to take the action specified by this Issuance. More than one type of action may be cited.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 SECTION_OF_ACT_2
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Secondary Section of Act which gives the MSHA Inspector the authority to take the action specified by this Issuance at Metal/Non-Metal mines only. More than one type of action may be cited.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 CIT_ORD_SAFE
+			</th>
+				<td>
+				<span class="small">Data type</span>
+				varchar (40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Specifies the type of Citation: Citation, Order, Safeguard, Written Notice or Notice
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 ORIG_TERM_DUE_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Original date by which the cited condition was to be abated.  Original time by which the cited condition was to be abated.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 ORIG_TERM_DUE_TIME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (8)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Original time by which the cited condition was to be abated.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 LATEST_TERM_DUE_DT
+			</th>
+				<td>
+				<span class="small">Data type</span>
+				 varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date by which the conditions cited in the citation/order are to be abated. For Metal mines, this can be the termination due date to which the citation/order is extended.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 LATEST_TERM_DUE_TIME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (8)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Time by which the conditions cited on the citation/order are to be abated.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 TERMINATION_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date on which the citation/order was terminated. May not contain data (null values) if citation has not yet been terminated.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 TERMINATION_TIME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (10)
+				<td>
+				<span class="small">Column Description</span>
+				 Time of day (24 hour) at which the citation/order was terminated. May not contain data (null values) if citation has not yet been terminated.
+			</td>
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 TERMINATION_TYPE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (40)
+			</td>
+				<td>
+				<span class="small">Column Descrpition</span>
+			    Code identifying the type of termination: Issued, ReplacedByOrder or Terminated.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+			     ACATE_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			    Date on which the citation/order was vacated. May not contain data (null values) if the violation was not vacated. 
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 VACATE_TIME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (10)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Time of day (24 hour) at which the citation/order was vacated. May not contain data (null values) if the violation was not vacated.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				INITIAL_VIOL_NO
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(60)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				This is the preceding citation record when there is a need to relate a citation to a previous one. For example this would apply when an order follows a citation. This relationship is needed to calculate the good faith reduction penalty points. May not contain data (null values).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 REPLACED_BY_ORDER_NO
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (60)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Order number which replaced the original citation. May not contain data (null values) if situation does not apply.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 LIKELIHOOD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			    This is a measure of the seriousness of the violation being cited as measured by the likelihood of the occurrence of an accident: Highly, NoLikelihood, Occurred, Reasonably or Unlikely. May not contain data (null values) if situation does not apply.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 INJ_ILLNESS
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Value assigned to a violation for gravity of injury. Measure of seriousness of violation being cited as measured by severity of the injury or illness to persons if accident were to occur due to the conditions of the violation: Fatal, LostDays, NoLostDays or Permanent.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+			     NO_AFFECTED
+			   </th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint 
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+		       This is a measure of the number of persons affected or potentially affected by the conditions at the Mine due to the violation. Can be zero.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 NEGLIGENCE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+			      varchar(40)
+				<td>
+				<span class="small">Column Description</span>
+				Codes representing the degree of negligence that the Inspector assigned to the violator due to the violation: HighNegligence, LowNegligence, ModNegligence, NoNegligence or Reckless.  A high degree of negligence is assigned when the operator was in a position to be aware of the condition that contributed to a dangerous situation and there were no mitigating circumstances, or if there are unique aggravating circumstances associated with the violation, such as repeated past violations of the same standard at the mine.
+			 </td>
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+			     WRITTEN_NOTICE
+			    </th>
+				<td>
+				<span class="small">Data Type</span>
+			     varchar(3)	
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Indicates if this citation is a result of a Miner or Agent notice of complaint to MSHA (written notice 103(g)):  ('Y'  or 'N'). May not contain data (null values).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 ENFORCEMENT_AREA
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Specifies the enforcement areas affected by the violating condition or practice constitute a health hazard, safety hazard, both or other type of hazard. May not contain data (null values).
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 SPECIAL_ASSESS
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (3)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Specifies whether this citation has been designated for Special Assessment based on Special Assessment Review (Y or N).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 PRIMARY_OR_MILL
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				   varchar (40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				A code indicating if the Violation was observed in the Primary Mine location or in an associated Mill (Metal/Non-Metal only). May not contain data (null values).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 RIGHT_TO_CONF_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the operator was advised of his right to a conference (Metal/Non-Metal only). May not contain data (null values).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 ASMT_GENERATED_IND
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(3)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			    If the violator is an Operator or Contractor, the indicator is 'N'. If the violator is an Agent, the indicator is 'Y'. If the violator is a Miner, the indicator can be 'Y' or 'N'.  If none of the above, the indicator is '?'.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 FINAL_ORDER_ISSUE_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date that this assessment becomes a Final Order. This date is set when the Certified Return Receipt date (CRR) is set. Note that this can be a projected future date that is set as soon as the CRR is entered.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 PROPOSED_PENALTY
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			     The original dollar value of the proposed penalty prior to any modifications such as those possibly resulting from a decision on a contested case.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 AMOUNT_DUE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				The current dollar value of the proposed assessment, reflecting any modifications that have been made since it was originally assessed
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 AMOUNT_PAID
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				The total dollar value of all payments applied to this proposed assessment to date.
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				  BILL_PRINT_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Date the bill was printed. This date always represents the first time the bill was printed
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 LAST_ACTION_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar(60)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Last action taken against this violation such as 1stDemandPrinted, BillingReady, ApprovedforTreasury and Proposed.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				LAST_ACTION_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the last action taken against this violation
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				DOCKET_NO
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (40)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			     The Docket Number assigned by the Court to this group of Assessments being contested.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 DOCKET_STATUS_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				    varchar (10)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Denotes the current status of this docket: Approved (approved by the court) or Proposed (not yet been approved by the court).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CONTESTED_IND
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				  varchar (3)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			    Indicates if this violation has been assessed and is being contested (Y or N).
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				 CONTESTED_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			     Date of the most recent docket status for this violation.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+			      VIOLATOR_VIOLATION_CNT
+		</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+			    Total number of assessed violations for this violator at this time during the violation history period. Used in penalty calculation. Applies to an Operator or a Contractor. Calculation for VPID is Violator Violation Count / Violator Inspection Day Count.
+			</td>
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				  VIOLATOR_INSPECTION_DAY_CNT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				 bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				 Total number of inspections for this Operator at a mine during the violation history period. Used in penalty calculation. Does not apply to Contractor. Calculation for VPID is Violator Violation Count / Violator Inspection Day Count.
+			</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+            </article>
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <footer class="site-footer">
+
+<!-- Start Footer One -->
+<div role="contentinfo">
+<div class="row footer-one hide-for-small">
+  <div class="large-5 columns "> <a href="https://www.dol.gov/"> <img src="/img/dol-logo-white.png" alt="U.S.Department of Labor"/> <span class="header-logo-type-white">UNITED STATES <br>
+    DEPARTMENT OF LABOR </span> </a> </div>
+  <div class="large-3 columns">
+    <p class="footer-info1 a-bottom"><a href="https://www.dol.gov/general/contact">Contact Us </a></p>
+  </div>
+  <div class="large-4 columns">
+    <div class="social-block-btm mt">
+    <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+    <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+    <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+    <a href="https://plus.google.com/+USDOL/posts" class="sm-gplus">Google Plus</a>
+    <a href="https://www.dol.gov/rss" class="sm-rss-btm">RSS</a>
+    <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email-btm">Email</a>
+      </div>
+  </div>
+</div>
+<!-- End Footer One -->
+
+<!-- Start Footer Two -->
+<div class="row footer-two">
+  <div class="small-12 large-3 columns line-b-peach">
+    <p>200 Constitution Ave. NW<br>
+      Washington DC 20210<br>
+      <a href="tel:1-866-487-2365">1-866-4-USA-DOL</a><br>
+      <a href="tel:1-866-487-2365">1-866-487-2365</a><br>
+      <a href="https://www.dol.gov/general/contact-phonecallcenter">TTY</a><br>
+      <a href="https://www.dol.gov/">www.dol.gov </a> </p>
+  </div>
+  <div class="large-3 columns  line-b-peach hide-for-small">
+    <p><strong>ABOUT THE SITE</strong></p>
+    <ul role="navigation">
+      <li><a href="https://www.dol.gov/general/foia">Freedom of Information Act</a></li>
+      <li><a href="https://www.dol.gov/general/privacynotice">Privacy &amp; Security Statement</a></li>
+      <li><a href="https://www.dol.gov/general/disclaim">Disclaimers</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/website-policies">Important Web Site Notices</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/plug-ins">Plug-ins Used by DOL</a></li>
+      <li><a href="https://www.dol.gov/rss">RSS Feeds from DOL</a></li>
+      <li><a href=" https://www.dol.gov/general/aboutdol/accessibility">Accessibility Statement</a></li>
+    </ul>
+  </div>
+  <div class="large-3 columns end line-b-peach hide-for-small">
+    <p><strong>DEVELOPER</strong></p>
+    <ul role="navigation">
+        <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">Ask Questions</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/DOLAPI/issues/new">Report Bugs</a></li>
+        <li><a href="/terms-of-service/">Terms of Service</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/Developer/tree/gh-pages">Fork this site on Github</a></li>
+        <li><a href="/release-notes/">Changelog</a></li>
+      <!--<li><a href="http://www.dol.gov/dol/topic/Spanish-speakingTopic.htm">Espa&ntilde;ol</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/siteindex.htm">A to Z Index</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/organization.htm">Agencies</a></li>-->
+      <!--<li><a href="http://www.oig.dol.gov/">Office of Inspector General</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/contact-phonekeypersonnel.htm">Leadership Team</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/">Contact Us</a></li>-->
+      <!--<li><a href="https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167", onclick="window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167&pop=t', '', 'scrollbars=1,toolbar=0,menubar=0,resizable=1,width=800,height=384');return false;">Subscribe to the DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/_sec/newsletter/">Read The DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/easl/">Emergency Accountability Status Link</a></li>-->
+    </ul>
+  </div>
+  <!--<div class="large-3 columns">-->
+    <!--<p><strong>FEDERAL GOVERNMENT</strong></p>-->
+    <!--<ul role="navigation">-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.whitehouse.gov&exitTitle=www.whitehouse.gov&fedpage=yes">White House</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.healthcare.gov&exitTitle=www.healthcare.gov&fedpage=yes">Affordable Care Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/opa/disaster-recovery.htm">Disaster Recovery Assistance</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.usa.gov&exitTitle=www.usa.gov&fedpage=yes">USA.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.disability.gov&exitTitle=wwww.disability.gov&fedpage=yes">Disability.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/PlainWriting/">Plain Writing Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/recovery/">Recovery Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/oasam/programs/crc/NoFearResult.htm">No Fear Act</a></li>-->
+    <!--</ul>-->
+  <!--</div>-->
+</div>
+<!-- End Footer Two -->
+</div>
+
+</footer>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+
+  $(document).ready(function() {
+      //$('#appLink').attr('href',getAppStoreLink());
+  });
+</script>
+<!-- Never remove this: Resolved IE 8 issue on grids of the CSS Frameworks-->
+<script src="/js/rem.min.js" type="text/javascript"></script>
+<!-- Never remove above line -->
+
+
+
+  </body>
+
+</html>

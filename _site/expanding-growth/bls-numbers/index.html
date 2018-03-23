@@ -1,0 +1,2398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>BLS Numbers - United States Department of Labor Developer Portal</title>
+    <meta name="description" content="This Dataset contains historic data (last 10 years) for the most common economic indicators.">
+    
+    
+    
+
+    <link rel="canonical" href="http://localhost:4000/expanding-growth/bls-numbers/">
+          <!-- css -->
+      <link rel="stylesheet" href="/css/foundation.css" />
+      <link rel="stylesheet" href="/css/dol-style.css" />
+      <link rel="stylesheet" href="/css/content.css" />
+      <link rel="stylesheet" href="/css/post.css" />
+      <link rel="stylesheet" href="/css/mobile.css" />
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
+    <script id="_fed_an_ua_tag" src="/js/federated-analytics-developer.js?agency=DOL&amp;subagency=DEVELOPER"></script>      
+      <script src="/js/modernizr.js"></script>
+      <script src="/js/safari_pushwoosh.js"></script> 
+      <script src="/js/developer_scripts.js"></script>
+      <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+      <![endif]-->
+
+    <script type="text/javascript">
+
+        //<![CDATA[
+
+        var usasearch_config = { siteHandle:"developer.dol.gov" };
+
+
+
+        var script = document.createElement("script");
+
+        script.type = "text/javascript";
+
+        script.src = "//search.usa.gov/javascripts/remote.loader.js";
+
+        document.getElementsByTagName("head")[0].appendChild(script);
+
+
+
+        //]]>
+
+    </script>
+
+    
+</head>
+
+
+  <body> 
+  <div class="skip"> <a href="#maincontent">Skip to Main Content</a> </div>
+    
+    <header class="site-header">
+
+<div class="wrapper">
+
+<!--Start Banner -->
+<a id="top"></a>
+<div class="row top-header" role="banner">
+      <div class="large-6 columns"> <a href="/"> <span class="show-for-medium-up brand"></span>
+        <h1 class="header-logo-type">DEVELOPER PORTAL<br/>
+            UNITED STATES DEPARTMENT OF LABOR</h1>
+        </a> </div>
+      <div class="large-2 columns">
+        <div class="social-block right hide-for-small"> <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+        <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+        <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+        <a href="https://www.dol.gov/rss" class="sm-rss">RSS</a>
+        <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email">Email</a> </div>
+      </div>
+      <div class="large-4 columns">
+        <div id="searchbox" class="hide-for-small-only">
+            <!--<form accept-charset="UTF-8" action="http://search.usa.gov/search" id="search_form" method="get">
+                <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/></div>
+                <div class="small-10 columns">
+                    <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+                    <label for="query">Enter Search Term(s):</label>
+                    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text"/>
+                </div>
+                <div class="small-2 columns"><input name="commit" type="submit" value="Search"/>
+                </div>
+            </form></-->
+          <form action="//search.usa.gov/search" method="get" class="usagov" role="search">
+            <div class="small-10 columns">
+                <label for="query"><span class="hide">Search</span></label>
+                <input autocomplete="off" type="text" id="query" name="query" placeholder="Enter Search Terms" class="usagov-search-autocomplete" required="required" >
+            </div>
+            <div class="small-2 columns">
+                <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+
+              <input type="image"  src="/img/icon-search.png" alt="Search" class="usagov-submit">
+                <!--
+                <input type="image"  src="/img/beta_ribbon.png"  vspace="4"  alt="Search DOL" class="usagov-submit">
+                -->
+            </div>
+          </form>
+        </div>
+      </div>
+</div>
+    <div class="row">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="/beginner/">USE OUR API</a></li>
+                    <li><a href="/dataset/">EXPLORE OUR DATA</a></li>
+                    <li><a href="/sdk/">GRAB OUR CODE</a></li>
+                    <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">ASK QUESTIONS</a></li>
+                    <li><a href="https://github.com/USDepartmentofLabor/Developer/issues/new">REPORT BUGS</a></li>
+                </ul>
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li><a href="https://devtools.dol.gov/developer">API KEYS</a></li>
+                </ul>
+            </section>
+        </nav>
+
+
+
+</div>
+
+
+    </div>
+</header>
+
+
+    <div class="row">
+      
+            <div class="row" data-equalizer>
+        <div class="show-for-medium-up">
+    <div class="large-4 columns" data-equalizer-watch>
+        <div class="row">
+            
+            <div class="large-3 columns"><img src="/img/charticon.png" class="menu_title_dataset_img" alt="Chart Icon"></div>
+
+            <div class="large-9 columns"><h1 class="menu_title_dataset">Expanding Growth Opportunities & Learning</h1></div>
+            
+        </div>
+        <div class="row">
+            <ul class="accordion" data-accordion>
+            <li class="accordion-navigation ">
+                <a href="#healthsafe">Health & Safety</a>
+
+                <div id="healthsafe" class="content cmenu ">
+                    <ul>
+                        
+                            <li><a href="/health-and-safety/injuries-and-illness/" >Injuries And Illness <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/gulf-oil-spill/" >Gulf Oil Spill <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/osha-compliance/" >DOL OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/msha-employment-production/" >MSHA Employment Production <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-violation/" >Mine Violation <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/fatal-occupational-injuries/" >Fatal Occupational Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-enforcement/" >DOL OSHA Enforcement <span class="version_badge_small">V2</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/auto-workers/" >Auto Workers <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/safety-and-health/" >Safety and Health <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/full-mine-info-mines/" >Full Mine Information Mines <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/basic-mine-info/" >Basic Mine Information <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-accident-injuries/" >Mine Accident Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-compliance/" >OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-inspections/" >Mine Inspections <span class="version_badge_small">V1</span></a></li>
+
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#wagehour">Wage &amp; Hour Division</a>
+                <div id="wagehour" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/wage-and-hour-division/flc/" >Farm Labor Contractor and Farm Labor Contractor Employee <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/wage-and-hour-publications-system/" >Wage and Hour Publications System <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/whd-compliance/" >WHD Compliance <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation active">
+                <a href="#expanding">Expanding Growth<br />Opportunities & Learning</a>
+                <div id="expanding" class="content cmenu active">
+                    <ul>
+                        
+                        <li><a href="/expanding-growth/public-workforce-system/" >Public Workforce System <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/oui-inital-claims/" >OUI Initial Claims <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/ipia/" >IPIA <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-quarterly-census-employment-and-wage-cew/" >Quarterly Census Employment and Wage (CEW) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-occupational-employment-statistics-survey-oes/" >Occupational Employment Statistics Survey (OES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-population-survey-cps/" >Current Population Survey (CPS) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-employment-statistics-ces/" >Current Employment Statistics (CES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-consumer-price-indexes-cpi/" >Consumer Price Indexes (CPI) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-workforce-investment-act/" >2010 Workforce Investment Act <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-occupational-employment-statistics/" >2010 Occupational Employment Statistics <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-numbers/" class="current_item">BLS Numbers <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#others">Other Datasets</a>
+                <div id="others" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/others/sweat-and-toil/" >Sweat & Toil <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets4212/" >VETS4212 <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets100/" >VETS100 <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metrics-per-key/" >API Metrics (per key) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/research-and-evaluation-inventory/" >Research And Evaluation Inventory <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/geography/" >Geography <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/form/" >Form <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/faq/" >Frequently Asked Questions (FAQ) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metadata/" >API Metadata <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/agency/" >Agency <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            </ul>
+        </div>
+</div>
+</div>
+
+        <div class="small-12 large-8 columns post" id="maincontent" tabindex="-1" data-equalizer-watch>
+
+            <header class="post-header">
+                <div class="show-for-small-only">
+                    <div class="row">
+                        <div class="small-12 columns
+                     expand_background
+                     
+                     dataset_mob_head mobile_header">
+                            <div class="row">
+                                <a href="/dataset/">
+                                    <div class="small-3 columns datasets_back">
+                                        &lt; <span class="hide">Return to Datasets Menu</span>
+                                    </div>
+                                </a>
+
+                                <div class="small-9 columns ">
+                                    <h1>BLS Numbers</h1>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <h1 class="post_title_dataset">BLS Numbers  <span class="version_badge">V1</span> </h1>
+                <div class= "alert-box small-9-text-centre">
+                     New API (v3) coming Summer 2018.
+                </div>
+
+                <p class="post-meta"></p>
+            </header>
+
+            <article class="post_content_dataset">
+                <div class="force_wrap apiurl">
+<p>https://api.dol.gov/V1/statistics/BLS_Numbers</p>
+</div>
+
+<p>This Dataset contains historic data (last 10 years) for the most common economic indicators. For more information and details about the data provided can be found by looking for <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS Inflation and Prices Information&amp;fedpage=yes">Inflation &amp; Prices</a> information or <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS Employment Information&amp;fedpage=yes">Employment</a> information.</p>
+
+<p><a href="http://api.dol.gov/V1/statistics/BLS_Numbers/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=BLS%20Numbers" class="button radius button_dataset">Explore This Data</a></p>
+
+<h2 id="dataset-tables">Dataset Tables</h2>
+
+<ul>
+	<li><a href="#averageHourlyEarnings">averageHourlyEarnings</a></li>
+	<li><a href="#consumerPriceIndex">consumerPriceIndex</a></li>
+	<li><a href="#employmentCostIndex">employmentCostIndex</a></li>
+	<li><a href="#exportPriceIndex">exportPriceIndex</a></li>
+	<li><a href="#importPriceIndex">importPriceIndex</a></li>
+	<li><a href="#payrollEmployment">payrollEmployment</a></li>
+	<li><a href="#producerPriceIndex">producerPriceIndex</a></li>
+	<li><a href="#productivity">productivity</a></li>
+	<li><a href="#unemploymentRate">unemploymentRate</a></li>
+	<li><a href="#averageHourlyEarnings12MonthChange">averageHourlyEarnings12MonthChange</a></li>
+	<li><a href="#averageHourlyEarnings1MonthChange">averageHourlyEarnings1MonthChange</a></li>
+	<li><a href="#averageHourlyEarnings1MonthNetChange">averageHourlyEarnings1MonthNetChange</a></li>
+	<li><a href="#consumerPriceIndex12MonthChange">consumerPriceIndex12MonthChange</a></li>
+	<li><a href="#consumerPriceIndex1MonthChange">consumerPriceIndex1MonthChange</a></li>
+	<li><a href="#exportPriceIndex12MonthChange">exportPriceIndex12MonthChange</a></li>
+	<li><a href="#exportPriceIndex1MonthChange">exportPriceIndex1MonthChange</a></li>
+	<li><a href="#importPriceIndex12MonthChange">importPriceIndex12MonthChange</a></li>
+	<li><a href="#importPriceIndex1MonthChange">importPriceIndex1MonthChange</a></li>
+	<li><a href="#payrollEmployment12MonthChange">payrollEmployment12MonthChange</a></li>
+	<li><a href="#payrollEmployment12MonthNetChange">payrollEmployment12MonthNetChange</a></li>
+	<li><a href="#payrollEmployment1MonthChange">payrollEmployment1MonthChange</a></li>
+	<li><a href="#payrollEmployment1MonthNetChange">payrollEmployment1MonthNetChange</a></li>
+	<li><a href="#producerPriceIndex12MonthChange">producerPriceIndex12MonthChange</a></li>
+	<li><a href="#producerPriceIndex1MonthChange">producerPriceIndex1MonthChange</a></li>
+	<li><a href="#unemploymentRate12MonthChange">unemploymentRate12MonthChange</a></li>
+	<li><a href="#unemploymentRate1MonthChange">unemploymentRate1MonthChange</a></li>
+</ul>
+
+<h3 id="averageHourlyEarnings" tabindex="-1">averageHourlyEarnings Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
+
+<div>
+	<table class="accessible responsive" summary="Average Hourly Earnings - BLS Numbers">
+		<caption>Average Hourly Earnings</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="consumerPriceIndex" tabindex="-1">consumerPriceIndex Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
+
+<div>
+	<table class="accessible responsive" summary="Consumer Price Index - BLS Numbers">
+		<caption>Consumer Price Index</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="employmentCostIndex" tabindex="-1">employmentCostIndex Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CIS1010000000000Q&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CIS1010000000000Q</a></p>
+
+<div>
+	<table class="accessible responsive" summary="Employment Cost Index - BLS Numbers">
+		<caption>Employment Cost Index</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Quarters - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="exportPriceIndex" tabindex="-1">exportPriceIndex Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Export Price Index - BLS Numbers">
+		<caption>Export Price Index</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="importPriceIndex" tabindex="-1">importPriceIndex Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
+
+<div>
+	<table class="accessible responsive" summary="Import Price Index - BLS Numbers">
+		<caption>Import Price Index</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="payrollEmployment" tabindex="-1">payrollEmployment Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Payroll Employment - BLS Numbers">
+		<caption>Payroll Employment</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,0)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="producerPriceIndex" tabindex="-1">producerPriceIndex Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/</a></p>
+
+<div>
+	<table class="accessible responsive" summary="Producer Price Index - BLS Numbers">
+		<caption>Producer Price Index</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="productivity" tabindex="-1">productivity Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/PRS85006092&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/PRS85006092</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Productivity - BLS Numbers">
+		<caption>Productivity</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar(5)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - (A)Annual and (Q)Quarters - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="unemploymentRate" tabindex="-1">unemploymentRate Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Unemployment Rate - BLS Numbers">
+		<caption>Unemployment Rate</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="averageHourlyEarnings12MonthChange" tabindex="-1">averageHourlyEarnings12MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
+
+<div>
+	<table class="accessible responsive" summary="Average Hourly Earnings 12 Month Change - BLS Numbers">
+		<caption>Average Hourly Earnings 12 Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="averageHourlyEarnings1MonthChange" tabindex="-1">averageHourlyEarnings1MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Average Hourly Earnings One Month Change - BLS Numbers">
+		<caption>Average Hourly Earnings One Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="averageHourlyEarnings1MonthNetChange" tabindex="-1">averageHourlyEarnings1MonthNetChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0500000003?output_view=net_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Average Hourly Earnings One Month Net Change - BLS Numbers">
+		<caption>Average Hourly Earnings One Month Net Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="consumerPriceIndex12MonthChange" tabindex="-1">consumerPriceIndex12MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
+
+<div>
+	<table class="accessible responsive" summary="Consumer Price Index 12 Month Change - BLS Numbers">
+		<caption>Consumer Price Index 12 Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="consumerPriceIndex1MonthChange" tabindex="-1">consumerPriceIndex1MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CUSR0000SA0?output_view=pct_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Consumer Price Index One Month Change - BLS Numbers">
+		<caption>Consumer Price Index One Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="exportPriceIndex12MonthChange" tabindex="-1">exportPriceIndex12MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Export Price Index 12 Month Change - BLS Numbers">
+		<caption>Export Price Index 12 Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="exportPriceIndex1MonthChange" tabindex="-1">exportPriceIndex1MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIQ?output_view=pct_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Export Price Index One Month Change - BLS Numbers">
+		<caption>Export Price Index One Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="importPriceIndex12MonthChange" tabindex="-1">importPriceIndex12MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Import Price Index 12 Month Change - BLS Numbers">
+		<caption>Import Price Index 12 Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="importPriceIndex1MonthChange" tabindex="-1">importPriceIndex1MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/EIUIR?output_view=pct_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Import Price Index One Month Change - BLS Numbers">
+		<caption>Import Price Index One Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="payrollEmployment12MonthChange" tabindex="-1">payrollEmployment12MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Payroll Employment 12 Month Change - BLS Numbers">
+		<caption>Payroll Employment 12 Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="payrollEmployment12MonthNetChange" tabindex="-1">payrollEmployment12MonthNetChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Payroll Employment 12 Month Net Change - BLS Numbers">
+		<caption>Payroll Employment 12 Month Net Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="payrollEmployment1MonthChange" tabindex="-1">payrollEmployment1MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
+
+<div>
+	<table class="accessible responsive" summary="Payroll Employment One Month Change - BLS Numbers">
+		<caption>Payroll Employment One Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="payrollEmployment1MonthNetChange" tabindex="-1">payrollEmployment1MonthNetChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Payroll Employment One Month Net Change - BLS Numbers">
+		<caption>Payroll Employment One Month Net Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value (in thousands)
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="producerPriceIndex12MonthChange" tabindex="-1">producerPriceIndex12MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Producer Price Index 12 Month Change - BLS Numbers">
+		<caption>Producer Price Index 12 Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="producerPriceIndex1MonthChange" tabindex="-1">producerPriceIndex1MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS&amp;fedpage=yes">http://www.bls.gov/data/</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Producer Price Index One Month Change - BLS Numbers">
+		<caption>Producer Price Index One Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="unemploymentRate12MonthChange" tabindex="-1">unemploymentRate12MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Unemployment Rate 12 Month Change - BLS Numbers">
+		<caption>Unemployment Rate 12 Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3 id="unemploymentRate1MonthChange" tabindex="-1">unemploymentRate1MonthChange Table</h3>
+<p>More information and details about the data provided can be found at <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.bls.gov/timeseries/LNS14000000&amp;exitTitle=BLS&amp;fedpage=yes">http://data.bls.gov/timeseries/LNS14000000</a></p>
+
+<div>	
+	<table class="accessible responsive" summary="Unemployment Rate One Month Change - BLS Numbers">
+		<caption>Unemployment Rate One Month Change</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					year
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Year - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					period
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Period - Months - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					value
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					numeric(8,3)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Value
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					type
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					char(1)
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type - Preliminary(p), Revised(r), Final(F)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+            </article>
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <footer class="site-footer">
+
+<!-- Start Footer One -->
+<div role="contentinfo">
+<div class="row footer-one hide-for-small">
+  <div class="large-5 columns "> <a href="https://www.dol.gov/"> <img src="/img/dol-logo-white.png" alt="U.S.Department of Labor"/> <span class="header-logo-type-white">UNITED STATES <br>
+    DEPARTMENT OF LABOR </span> </a> </div>
+  <div class="large-3 columns">
+    <p class="footer-info1 a-bottom"><a href="https://www.dol.gov/general/contact">Contact Us </a></p>
+  </div>
+  <div class="large-4 columns">
+    <div class="social-block-btm mt">
+    <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+    <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+    <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+    <a href="https://plus.google.com/+USDOL/posts" class="sm-gplus">Google Plus</a>
+    <a href="https://www.dol.gov/rss" class="sm-rss-btm">RSS</a>
+    <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email-btm">Email</a>
+      </div>
+  </div>
+</div>
+<!-- End Footer One -->
+
+<!-- Start Footer Two -->
+<div class="row footer-two">
+  <div class="small-12 large-3 columns line-b-peach">
+    <p>200 Constitution Ave. NW<br>
+      Washington DC 20210<br>
+      <a href="tel:1-866-487-2365">1-866-4-USA-DOL</a><br>
+      <a href="tel:1-866-487-2365">1-866-487-2365</a><br>
+      <a href="https://www.dol.gov/general/contact-phonecallcenter">TTY</a><br>
+      <a href="https://www.dol.gov/">www.dol.gov </a> </p>
+  </div>
+  <div class="large-3 columns  line-b-peach hide-for-small">
+    <p><strong>ABOUT THE SITE</strong></p>
+    <ul role="navigation">
+      <li><a href="https://www.dol.gov/general/foia">Freedom of Information Act</a></li>
+      <li><a href="https://www.dol.gov/general/privacynotice">Privacy &amp; Security Statement</a></li>
+      <li><a href="https://www.dol.gov/general/disclaim">Disclaimers</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/website-policies">Important Web Site Notices</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/plug-ins">Plug-ins Used by DOL</a></li>
+      <li><a href="https://www.dol.gov/rss">RSS Feeds from DOL</a></li>
+      <li><a href=" https://www.dol.gov/general/aboutdol/accessibility">Accessibility Statement</a></li>
+    </ul>
+  </div>
+  <div class="large-3 columns end line-b-peach hide-for-small">
+    <p><strong>DEVELOPER</strong></p>
+    <ul role="navigation">
+        <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">Ask Questions</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/DOLAPI/issues/new">Report Bugs</a></li>
+        <li><a href="/terms-of-service/">Terms of Service</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/Developer/tree/gh-pages">Fork this site on Github</a></li>
+        <li><a href="/release-notes/">Changelog</a></li>
+      <!--<li><a href="http://www.dol.gov/dol/topic/Spanish-speakingTopic.htm">Espa&ntilde;ol</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/siteindex.htm">A to Z Index</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/organization.htm">Agencies</a></li>-->
+      <!--<li><a href="http://www.oig.dol.gov/">Office of Inspector General</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/contact-phonekeypersonnel.htm">Leadership Team</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/">Contact Us</a></li>-->
+      <!--<li><a href="https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167", onclick="window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167&pop=t', '', 'scrollbars=1,toolbar=0,menubar=0,resizable=1,width=800,height=384');return false;">Subscribe to the DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/_sec/newsletter/">Read The DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/easl/">Emergency Accountability Status Link</a></li>-->
+    </ul>
+  </div>
+  <!--<div class="large-3 columns">-->
+    <!--<p><strong>FEDERAL GOVERNMENT</strong></p>-->
+    <!--<ul role="navigation">-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.whitehouse.gov&exitTitle=www.whitehouse.gov&fedpage=yes">White House</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.healthcare.gov&exitTitle=www.healthcare.gov&fedpage=yes">Affordable Care Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/opa/disaster-recovery.htm">Disaster Recovery Assistance</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.usa.gov&exitTitle=www.usa.gov&fedpage=yes">USA.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.disability.gov&exitTitle=wwww.disability.gov&fedpage=yes">Disability.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/PlainWriting/">Plain Writing Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/recovery/">Recovery Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/oasam/programs/crc/NoFearResult.htm">No Fear Act</a></li>-->
+    <!--</ul>-->
+  <!--</div>-->
+</div>
+<!-- End Footer Two -->
+</div>
+
+</footer>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+
+  $(document).ready(function() {
+      //$('#appLink').attr('href',getAppStoreLink());
+  });
+</script>
+<!-- Never remove this: Resolved IE 8 issue on grids of the CSS Frameworks-->
+<script src="/js/rem.min.js" type="text/javascript"></script>
+<!-- Never remove above line -->
+
+
+
+  </body>
+
+</html>

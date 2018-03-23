@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Request Authorization - United States Department of Labor Developer Portal</title>
+    
+    <meta name="description" content="Department of Labor Developer API Site
+">
+    
+    
+    
+
+    <link rel="canonical" href="http://localhost:4000/request-authorization/">
+          <!-- css -->
+      <link rel="stylesheet" href="/css/foundation.css" />
+      <link rel="stylesheet" href="/css/dol-style.css" />
+      <link rel="stylesheet" href="/css/content.css" />
+      <link rel="stylesheet" href="/css/post.css" />
+      <link rel="stylesheet" href="/css/mobile.css" />
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
+    <script id="_fed_an_ua_tag" src="/js/federated-analytics-developer.js?agency=DOL&amp;subagency=DEVELOPER"></script>      
+      <script src="/js/modernizr.js"></script>
+      <script src="/js/safari_pushwoosh.js"></script> 
+      <script src="/js/developer_scripts.js"></script>
+      <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+      <![endif]-->
+
+    <script type="text/javascript">
+
+        //<![CDATA[
+
+        var usasearch_config = { siteHandle:"developer.dol.gov" };
+
+
+
+        var script = document.createElement("script");
+
+        script.type = "text/javascript";
+
+        script.src = "//search.usa.gov/javascripts/remote.loader.js";
+
+        document.getElementsByTagName("head")[0].appendChild(script);
+
+
+
+        //]]>
+
+    </script>
+
+    
+</head>
+
+
+  <body> 
+  <div class="skip"> <a href="#maincontent">Skip to Main Content</a> </div>
+    
+    <header class="site-header">
+
+<div class="wrapper">
+
+<!--Start Banner -->
+<a id="top"></a>
+<div class="row top-header" role="banner">
+      <div class="large-6 columns"> <a href="/"> <span class="show-for-medium-up brand"></span>
+        <h1 class="header-logo-type">DEVELOPER PORTAL<br/>
+            UNITED STATES DEPARTMENT OF LABOR</h1>
+        </a> </div>
+      <div class="large-2 columns">
+        <div class="social-block right hide-for-small"> <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+        <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+        <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+        <a href="https://www.dol.gov/rss" class="sm-rss">RSS</a>
+        <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email">Email</a> </div>
+      </div>
+      <div class="large-4 columns">
+        <div id="searchbox" class="hide-for-small-only">
+            <!--<form accept-charset="UTF-8" action="http://search.usa.gov/search" id="search_form" method="get">
+                <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/></div>
+                <div class="small-10 columns">
+                    <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+                    <label for="query">Enter Search Term(s):</label>
+                    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text"/>
+                </div>
+                <div class="small-2 columns"><input name="commit" type="submit" value="Search"/>
+                </div>
+            </form></-->
+          <form action="//search.usa.gov/search" method="get" class="usagov" role="search">
+            <div class="small-10 columns">
+                <label for="query"><span class="hide">Search</span></label>
+                <input autocomplete="off" type="text" id="query" name="query" placeholder="Enter Search Terms" class="usagov-search-autocomplete" required="required" >
+            </div>
+            <div class="small-2 columns">
+                <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+
+              <input type="image"  src="/img/icon-search.png" alt="Search" class="usagov-submit">
+                <!--
+                <input type="image"  src="/img/beta_ribbon.png"  vspace="4"  alt="Search DOL" class="usagov-submit">
+                -->
+            </div>
+          </form>
+        </div>
+      </div>
+</div>
+    <div class="row">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="/beginner/">USE OUR API</a></li>
+                    <li><a href="/dataset/">EXPLORE OUR DATA</a></li>
+                    <li><a href="/sdk/">GRAB OUR CODE</a></li>
+                    <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">ASK QUESTIONS</a></li>
+                    <li><a href="https://github.com/USDepartmentofLabor/Developer/issues/new">REPORT BUGS</a></li>
+                </ul>
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li><a href="https://devtools.dol.gov/developer">API KEYS</a></li>
+                </ul>
+            </section>
+        </nav>
+
+
+
+</div>
+
+
+    </div>
+</header>
+
+
+    <div class="row">
+      
+        <div class="post" id="maincontent"  tabindex="-1">
+
+    <header class="post-header">
+        <h1 class="post_title_dataset">Request Authorization</h1>
+    </header>
+
+    <article class="post_content_dataset">
+        <h2>API Key Registration</h2>
+
+<p>To make requests to the API service you must register at <a href="https://devtools.dol.gov/developer">https://devtools.dol.gov/developer</a> and create an API key for each application that will access the API. As part of the key generation process you must assign a shared secret to each key in order to sign every API request.</p>
+
+<h2>Request Authorization</h2>
+
+<p>All requests must include an authorization header to authorize the request.</p>
+
+<p>You must add a request header named <strong>Authorization </strong>that contains a timestamp, your API Key and a signature. Each individual item is created as follows:</p>
+
+<h2>Timestamp</h2>
+
+<p>The timestamp format shall be ISO 8601. Each date and time value has a fixed number of digits that must be padded with leading zeros. The timestamp shall be provided using the UTC time zone. The date format shall be <em>yyyy-MM-ddThh:mm:ssZ</em></p>
+
+<p>yyyy =&nbsp; four digit year (e.g. 2011)<br />
+MM = two digit month, padded if less than 10 (e.g. 04)<br />
+dd = two digit day, padded if less than 10 (e.g. 09)<br />
+T = Time separator (always T)<br />
+hh = two digit hour, in 24hr format, padded if less than 10 (e.g. 18)<br />
+mm = two digit minute, padded if less than 10 ( e.g. 09 )<br />
+ss = two digit second, padded if less than 10 ( e.g. 00 )<br />
+Z = timezone (always T which means UTC)</p>
+
+<h3>Example</h3>
+
+<p>Request from a client to the service on March 9th, 2011 at 6:09:00 PM. Local time zone is ADT (or UTC -4).<br />
+To create a valid time stamp you shall:</p>
+
+<ol>
+	<li>Convert time to UTC – Results in March 9th, 2011 at 10:09 PM</li>
+	<li>Apply the &nbsp;<em>yyyy-MM-ddThh:mm:ssZ </em>format –</li>
+</ol>
+
+<p>Results in 2011-03-09T22:09:00Z</p>
+
+<p><em>*Note: To accommodate for small differences on clocks and prevent request forgery there is a 15-minute window for valid timestamps to be accepted by the server.</em></p>
+
+<h2>API Key</h2>
+
+<p>The API key is provided to identify an application that requests data from the DOL Data API. You must register at [Registration URL] and create an API key for each application that accesses the API. This key must be provided with every request as part of the authorization header. The API keys are auto-generated in a standard GUID format. An example API key is <em>21EC2020-3AEA-1069-A2DD-08002B30309D</em></p>
+
+<h2>Signature</h2>
+
+<p>Each request must contain a signature to authenticate that the owner of the API key is the one making the request. The signature is computed using the HMAC-SHA1 algorithm providing the API key's Shared Secret as the secret key and the Authorization header as the input.</p>
+
+<h3>Example</h3>
+
+<p>You want to read data from table <em>Agencies</em> in the dataset named <em>FORMS</em>.</p>
+
+<p>The request URL is: <a>http://api.dol.gov/V1/FORMS/Agencies</a> (P.S. Request URL pattern may be different for each technology/platform,please see documentation and samples)<br />
+Your API Key is <span class="style1">d9c6c290-da4c-424e-a378-fb4bd027b58b</span><br />
+Your shared secret is <span class="style1">mysecret11111111111</span><br />
+Local time is <span class="style1">March 9th, 2011 at 6:09:00 PM UTC-4</span></p>
+
+<h3>Steps</h3>
+
+<ol>
+	<li>Calculate timestamp (see timestamp section):<span class="style1"> 2011-03-09T22:09:00Z</span></li>
+	<li>Build an authorization string using the request URI and appending the timestamp and API Key values. The URI must not include the top-level domain. Field names must be labeled Timestamp and ApiKey respectively and must be appended by the "&amp;" character. This string is case sensitive.<br />
+	<br />
+	Resulting Authorization String:<br />
+	<span class="style1">/V1/FORMS/Agencies&amp;Timestamp=2011-03-09T22:09:00Z&amp;ApiKey=d9c6c290-da4c-424e-a378-fb4bd027b58b</span></li>
+	<li>Pass the string through the HMAC-SHA1 algorithm using the shared secret as a key. Signature = HMAC-SHA1(<em>Authorization String</em>) using key <span class="style1">mysecret11111111111</span><br />
+	<br />
+	Signature = <span class="style1">CALCULATED SIGNATURE</span></li>
+</ol>
+
+<h2>Authorization Header</h2>
+
+<p>The Authorization header must be supplied with every request. It is composed of the Timestamp, ApiKey, and Signature values as specified in this document.</p>
+
+<p>The "Authorization" header must be set to <span class="style1">Timestamp={0}&amp;ApiKey={1}&amp;Signature={2}</span> where {0}, {1}, and {2} are the values for Timestamp, API Key, and Signature respectively. The values must be calculated as specified in this document.</p>
+
+<h3>Example</h3>
+
+<p>You want to read data from table <em>Agencies</em> in the dataset named <em>FORMS</em>.</p>
+
+<p>The request URL is: <a>http://api.dol.gov/V1/FORMS/Agencies</a> (P.S. Request URL pattern may be different for each technology/platform,please see documentation and samples)<br />
+Your API Key is <span class="style1">d9c6c290-da4c-424e-a378-fb4bd027b58b</span><br />
+Your shared secret is <span class="style1">mysecret11111111111</span><br />
+Local time is <span class="style1">March 9th, 2011 at 6:09:00 PM UTC-4</span></p>
+
+<h3>Steps</h3>
+
+<ol>
+	<li>Calculate timestamp (see timestamp section): <span class="style1">2011-03-09T22:09:00Z</span></li>
+	<li>Calculate signature (see signature section): <span class="style1">CALCULATED SIGNATURE</span></li>
+	<li>Create Authorization header:<br />
+	<span class="style1">Timestamp=2011-03-09T22:09:00Z&amp;ApiKey=d9c6c290-da4c-424e-a378-fb4bd027b58b &amp;Signature=CALCULATED SIGNATURE</span></li>
+	<li>Append a header to the request named "Authorization" and set its value to the calculated result. The service will validate your request using a similar process and respond with the data requested.</li>
+</ol>
+
+<h2>Response Formats - XML and JSON</h2>
+
+<p>The API is capable of returning results in both XML and JSON formats. XML is the default type returned if a type is not specified. To request results in JSON format you must modify the "Accept" header of the request and set it to <span class="style1">application/json</span>. If the Accept header is not present XML data will be returned.</p>
+
+    </article>
+
+</div>
+
+
+    </div>
+
+    <footer class="site-footer">
+
+<!-- Start Footer One -->
+<div role="contentinfo">
+<div class="row footer-one hide-for-small">
+  <div class="large-5 columns "> <a href="https://www.dol.gov/"> <img src="/img/dol-logo-white.png" alt="U.S.Department of Labor"/> <span class="header-logo-type-white">UNITED STATES <br>
+    DEPARTMENT OF LABOR </span> </a> </div>
+  <div class="large-3 columns">
+    <p class="footer-info1 a-bottom"><a href="https://www.dol.gov/general/contact">Contact Us </a></p>
+  </div>
+  <div class="large-4 columns">
+    <div class="social-block-btm mt">
+    <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+    <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+    <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+    <a href="https://plus.google.com/+USDOL/posts" class="sm-gplus">Google Plus</a>
+    <a href="https://www.dol.gov/rss" class="sm-rss-btm">RSS</a>
+    <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email-btm">Email</a>
+      </div>
+  </div>
+</div>
+<!-- End Footer One -->
+
+<!-- Start Footer Two -->
+<div class="row footer-two">
+  <div class="small-12 large-3 columns line-b-peach">
+    <p>200 Constitution Ave. NW<br>
+      Washington DC 20210<br>
+      <a href="tel:1-866-487-2365">1-866-4-USA-DOL</a><br>
+      <a href="tel:1-866-487-2365">1-866-487-2365</a><br>
+      <a href="https://www.dol.gov/general/contact-phonecallcenter">TTY</a><br>
+      <a href="https://www.dol.gov/">www.dol.gov </a> </p>
+  </div>
+  <div class="large-3 columns  line-b-peach hide-for-small">
+    <p><strong>ABOUT THE SITE</strong></p>
+    <ul role="navigation">
+      <li><a href="https://www.dol.gov/general/foia">Freedom of Information Act</a></li>
+      <li><a href="https://www.dol.gov/general/privacynotice">Privacy &amp; Security Statement</a></li>
+      <li><a href="https://www.dol.gov/general/disclaim">Disclaimers</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/website-policies">Important Web Site Notices</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/plug-ins">Plug-ins Used by DOL</a></li>
+      <li><a href="https://www.dol.gov/rss">RSS Feeds from DOL</a></li>
+      <li><a href=" https://www.dol.gov/general/aboutdol/accessibility">Accessibility Statement</a></li>
+    </ul>
+  </div>
+  <div class="large-3 columns end line-b-peach hide-for-small">
+    <p><strong>DEVELOPER</strong></p>
+    <ul role="navigation">
+        <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">Ask Questions</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/DOLAPI/issues/new">Report Bugs</a></li>
+        <li><a href="/terms-of-service/">Terms of Service</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/Developer/tree/gh-pages">Fork this site on Github</a></li>
+        <li><a href="/release-notes/">Changelog</a></li>
+      <!--<li><a href="http://www.dol.gov/dol/topic/Spanish-speakingTopic.htm">Espa&ntilde;ol</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/siteindex.htm">A to Z Index</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/organization.htm">Agencies</a></li>-->
+      <!--<li><a href="http://www.oig.dol.gov/">Office of Inspector General</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/contact-phonekeypersonnel.htm">Leadership Team</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/">Contact Us</a></li>-->
+      <!--<li><a href="https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167", onclick="window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167&pop=t', '', 'scrollbars=1,toolbar=0,menubar=0,resizable=1,width=800,height=384');return false;">Subscribe to the DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/_sec/newsletter/">Read The DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/easl/">Emergency Accountability Status Link</a></li>-->
+    </ul>
+  </div>
+  <!--<div class="large-3 columns">-->
+    <!--<p><strong>FEDERAL GOVERNMENT</strong></p>-->
+    <!--<ul role="navigation">-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.whitehouse.gov&exitTitle=www.whitehouse.gov&fedpage=yes">White House</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.healthcare.gov&exitTitle=www.healthcare.gov&fedpage=yes">Affordable Care Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/opa/disaster-recovery.htm">Disaster Recovery Assistance</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.usa.gov&exitTitle=www.usa.gov&fedpage=yes">USA.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.disability.gov&exitTitle=wwww.disability.gov&fedpage=yes">Disability.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/PlainWriting/">Plain Writing Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/recovery/">Recovery Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/oasam/programs/crc/NoFearResult.htm">No Fear Act</a></li>-->
+    <!--</ul>-->
+  <!--</div>-->
+</div>
+<!-- End Footer Two -->
+</div>
+
+</footer>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+
+  $(document).ready(function() {
+      //$('#appLink').attr('href',getAppStoreLink());
+  });
+</script>
+<!-- Never remove this: Resolved IE 8 issue on grids of the CSS Frameworks-->
+<script src="/js/rem.min.js" type="text/javascript"></script>
+<!-- Never remove above line -->
+
+
+
+  </body>
+
+</html>

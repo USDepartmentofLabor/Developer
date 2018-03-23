@@ -1,0 +1,3687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>VETS100 - United States Department of Labor Developer Portal</title>
+    <meta name="description" content="This dataset contains required veteran employment data by federal contractors/subcontractors. There are two tables V100DataDotGov and V100ADataDotGov. Both collections contain the past two years plus current filing cycle. V100DataDotGov are reports entered for contracts that were established prior to December 1, 2003 and greater than $25,000.00. V100AdataDotGov are reports entered for contracts that were established after December 1, 2003 and greater than $100,000.00.">
+    
+    
+    
+
+    <link rel="canonical" href="http://localhost:4000/others/vets100/">
+          <!-- css -->
+      <link rel="stylesheet" href="/css/foundation.css" />
+      <link rel="stylesheet" href="/css/dol-style.css" />
+      <link rel="stylesheet" href="/css/content.css" />
+      <link rel="stylesheet" href="/css/post.css" />
+      <link rel="stylesheet" href="/css/mobile.css" />
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
+    <script id="_fed_an_ua_tag" src="/js/federated-analytics-developer.js?agency=DOL&amp;subagency=DEVELOPER"></script>      
+      <script src="/js/modernizr.js"></script>
+      <script src="/js/safari_pushwoosh.js"></script> 
+      <script src="/js/developer_scripts.js"></script>
+      <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+      <![endif]-->
+
+    <script type="text/javascript">
+
+        //<![CDATA[
+
+        var usasearch_config = { siteHandle:"developer.dol.gov" };
+
+
+
+        var script = document.createElement("script");
+
+        script.type = "text/javascript";
+
+        script.src = "//search.usa.gov/javascripts/remote.loader.js";
+
+        document.getElementsByTagName("head")[0].appendChild(script);
+
+
+
+        //]]>
+
+    </script>
+
+    
+</head>
+
+
+  <body> 
+  <div class="skip"> <a href="#maincontent">Skip to Main Content</a> </div>
+    
+    <header class="site-header">
+
+<div class="wrapper">
+
+<!--Start Banner -->
+<a id="top"></a>
+<div class="row top-header" role="banner">
+      <div class="large-6 columns"> <a href="/"> <span class="show-for-medium-up brand"></span>
+        <h1 class="header-logo-type">DEVELOPER PORTAL<br/>
+            UNITED STATES DEPARTMENT OF LABOR</h1>
+        </a> </div>
+      <div class="large-2 columns">
+        <div class="social-block right hide-for-small"> <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+        <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+        <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+        <a href="https://www.dol.gov/rss" class="sm-rss">RSS</a>
+        <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email">Email</a> </div>
+      </div>
+      <div class="large-4 columns">
+        <div id="searchbox" class="hide-for-small-only">
+            <!--<form accept-charset="UTF-8" action="http://search.usa.gov/search" id="search_form" method="get">
+                <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/></div>
+                <div class="small-10 columns">
+                    <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+                    <label for="query">Enter Search Term(s):</label>
+                    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text"/>
+                </div>
+                <div class="small-2 columns"><input name="commit" type="submit" value="Search"/>
+                </div>
+            </form></-->
+          <form action="//search.usa.gov/search" method="get" class="usagov" role="search">
+            <div class="small-10 columns">
+                <label for="query"><span class="hide">Search</span></label>
+                <input autocomplete="off" type="text" id="query" name="query" placeholder="Enter Search Terms" class="usagov-search-autocomplete" required="required" >
+            </div>
+            <div class="small-2 columns">
+                <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+
+              <input type="image"  src="/img/icon-search.png" alt="Search" class="usagov-submit">
+                <!--
+                <input type="image"  src="/img/beta_ribbon.png"  vspace="4"  alt="Search DOL" class="usagov-submit">
+                -->
+            </div>
+          </form>
+        </div>
+      </div>
+</div>
+    <div class="row">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="/beginner/">USE OUR API</a></li>
+                    <li><a href="/dataset/">EXPLORE OUR DATA</a></li>
+                    <li><a href="/sdk/">GRAB OUR CODE</a></li>
+                    <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">ASK QUESTIONS</a></li>
+                    <li><a href="https://github.com/USDepartmentofLabor/Developer/issues/new">REPORT BUGS</a></li>
+                </ul>
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li><a href="https://devtools.dol.gov/developer">API KEYS</a></li>
+                </ul>
+            </section>
+        </nav>
+
+
+
+</div>
+
+
+    </div>
+</header>
+
+
+    <div class="row">
+      
+            <div class="row" data-equalizer>
+        <div class="show-for-medium-up">
+    <div class="large-4 columns" data-equalizer-watch>
+        <div class="row">
+            
+            <div class="large-3 columns"><img src="/img/purpleQs.png" class="menu_title_dataset_img" alt="Question Mark Icon"></div>
+
+            <div class="large-9 columns"><h1 class="menu_title_dataset">DOL OTHER DATASETS</h1></div>
+            
+        </div>
+        <div class="row">
+            <ul class="accordion" data-accordion>
+            <li class="accordion-navigation ">
+                <a href="#healthsafe">Health & Safety</a>
+
+                <div id="healthsafe" class="content cmenu ">
+                    <ul>
+                        
+                            <li><a href="/health-and-safety/injuries-and-illness/" >Injuries And Illness <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/gulf-oil-spill/" >Gulf Oil Spill <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/osha-compliance/" >DOL OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/msha-employment-production/" >MSHA Employment Production <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-violation/" >Mine Violation <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/fatal-occupational-injuries/" >Fatal Occupational Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-enforcement/" >DOL OSHA Enforcement <span class="version_badge_small">V2</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/auto-workers/" >Auto Workers <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/safety-and-health/" >Safety and Health <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/full-mine-info-mines/" >Full Mine Information Mines <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/basic-mine-info/" >Basic Mine Information <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-accident-injuries/" >Mine Accident Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-compliance/" >OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-inspections/" >Mine Inspections <span class="version_badge_small">V1</span></a></li>
+
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#wagehour">Wage &amp; Hour Division</a>
+                <div id="wagehour" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/wage-and-hour-division/flc/" >Farm Labor Contractor and Farm Labor Contractor Employee <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/wage-and-hour-publications-system/" >Wage and Hour Publications System <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/whd-compliance/" >WHD Compliance <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#expanding">Expanding Growth<br />Opportunities & Learning</a>
+                <div id="expanding" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/expanding-growth/public-workforce-system/" >Public Workforce System <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/oui-inital-claims/" >OUI Initial Claims <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/ipia/" >IPIA <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-quarterly-census-employment-and-wage-cew/" >Quarterly Census Employment and Wage (CEW) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-occupational-employment-statistics-survey-oes/" >Occupational Employment Statistics Survey (OES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-population-survey-cps/" >Current Population Survey (CPS) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-employment-statistics-ces/" >Current Employment Statistics (CES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-consumer-price-indexes-cpi/" >Consumer Price Indexes (CPI) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-workforce-investment-act/" >2010 Workforce Investment Act <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-occupational-employment-statistics/" >2010 Occupational Employment Statistics <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-numbers/" >BLS Numbers <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation active">
+                <a href="#others">Other Datasets</a>
+                <div id="others" class="content cmenu active">
+                    <ul>
+                        
+                        <li><a href="/others/sweat-and-toil/" >Sweat & Toil <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets4212/" >VETS4212 <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets100/" class="current_item">VETS100 <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metrics-per-key/" >API Metrics (per key) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/research-and-evaluation-inventory/" >Research And Evaluation Inventory <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/geography/" >Geography <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/form/" >Form <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/faq/" >Frequently Asked Questions (FAQ) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metadata/" >API Metadata <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/agency/" >Agency <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            </ul>
+        </div>
+</div>
+</div>
+
+        <div class="small-12 large-8 columns post" id="maincontent" tabindex="-1" data-equalizer-watch>
+
+            <header class="post-header">
+                <div class="show-for-small-only">
+                    <div class="row">
+                        <div class="small-12 columns
+                     others_background
+                     
+                     dataset_mob_head mobile_header">
+                            <div class="row">
+                                <a href="/dataset/">
+                                    <div class="small-3 columns datasets_back">
+                                        &lt; <span class="hide">Return to Datasets Menu</span>
+                                    </div>
+                                </a>
+
+                                <div class="small-9 columns ">
+                                    <h1>VETS100</h1>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <h1 class="post_title_dataset">VETS100  <span class="version_badge">V1</span> </h1>
+                <div class= "alert-box small-9-text-centre">
+                     New API (v3) coming Summer 2018.
+                </div>
+
+                <p class="post-meta"></p>
+            </header>
+
+            <article class="post_content_dataset">
+                <div class="force_wrap apiurl">
+<p>https://api.dol.gov/V1/VETS100</p>
+</div>
+
+<p>This dataset contains required veteran employment data by federal contractors/subcontractors. There are two tables V100DataDotGov and V100ADataDotGov. Both collections contain the past two years plus current filing cycle. V100DataDotGov are reports entered for contracts that were established prior to December 1, 2003 and greater than $25,000.00. V100AdataDotGov are reports entered for contracts that were established after December 1, 2003 and greater than $100,000.00.</p>
+
+<p><a href="http://api.dol.gov/V1/VETS100/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=VETS100%20Data" class="button radius button_dataset">Explore This Data</a></p>
+
+<h2 id="dataset-tables">Dataset Tables</h2>
+
+<div>
+	<ul>
+		<li><a href="#V100DataDotGov">V100DataDotGov</a></li>
+		<li><a href="#V100ADataDotGov">V100ADataDotGov</a></li>
+	</ul>
+</div>
+
+<div>
+	<h3 id="V100DataDotGov" tabindex="-1">V100DataDotGov</h3>
+	<table class="accessible responsive" summary="VETS100 Data Dot Gov - VETS100">
+		<caption>VETS100 Data Dot Gov</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ReportID
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Report ID - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ReportType
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Report Type - VETS-100 or VETS-100A
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					FilingCycle
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Filing Cycle - Year
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					EndingPeriod
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					date
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Ending Period - Date (mm/dd/yyyy)
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					FormType
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Form Type - Single Establishment (S), Multiple Establishment-Headquarters (MHQ), Multiple Establishment-Hiring Location (MHL), Multiple Establishment - State Consolidated (MSC)
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					OrgType
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type of Reporting Organization - Prime Contractor (P), Subcontractor (S), Both (B)
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoName
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company Name
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoAddress
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company Address
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoCity
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company City
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoCounty
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company County
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoState
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company State
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoZip
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company Zip
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlName
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location Name
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlAddress
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location Address
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlCity
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location City
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlCounty
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location County
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlState
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location State
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlZip
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location Zip
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NAICS
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					NAICS
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					MSC
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of MSC Locations
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					MaxNumber
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Maximum Number
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					MinNumber
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Minimum Number
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CreatedOn
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					datetime
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Created On - Date
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Officials and Managers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_VietNamEraVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Vietnam Era Veterans in the Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_VietNamEraVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Vietnam Era Veterans in the Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Professionals
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_VietNamEraVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Vietnam Era Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_VietNamEraVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Vietnam Era Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Technicians
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_VietNamEraVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Vietnam Era Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_VietNamEraVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Vietnam Era Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Sales Workers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_VietNamEraVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Vietnam Era Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_VietNamEraVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Vietnam Era Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Administrative Support Workers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_VietNamEraVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Vietnam Era Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_VietNamEraVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Vietnam Era Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Craft Workers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_VietNamEraVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Vietnam Era Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_VietNamEraVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Vietnam Era Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets6</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Operatives
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_VietNamEraVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Vietnam Era Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_VietNamEraVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Vietnam Era Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Laborers/Helpers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_VietNamEraVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Vietnam Era Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_VietNamEraVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Vietnam Era Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Service Workers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_VietNamEraVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Vietnam Era Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_VietNamEraVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Vietnam Era Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Total
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_DisabledVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Employees - Disabled Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_DisabledVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of New Hires - Disabled Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_VietNamEraVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Employees - Vietnam Era Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_VietNamEraVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of New Hires - Vietnam Era Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Employees - Other Protected Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of New Hires - Other Protected Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Employees - Recently Separated Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of New Hires - Recently Separated Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3 id="V100ADataDotGov" tabindex="-1">V100ADataDotGov</h3>
+	<table class="accessible responsive" summary="VETS100 A Data Dot Gov - VETS100">
+		<caption>VETS100 A Data Dot Gov</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ReportID
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Report ID - Primary Key
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					ReportType
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Report Type - VETS-100 or VETS-100A
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					FilingCycle
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Filing Cycle - Year
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					EndingPeriod
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Ending Period - Date (mm/dd/yyyy)
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					FormType
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Form Type - Single Establishment (S), Multiple Establishment-Headquarters (MHQ), Multiple Establishment-Hiring Location (MHL), Multiple Establishment – State Consolidated (MSC)
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					OrgType
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Type of Reporting Organization - Prime Contractor (P), Subcontractor (S), Both (B)
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoName
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company Name
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoAddress
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company Address
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoCity
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company City
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoCounty
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company County
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoState
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company State
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CoZip
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Company Zip
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlName
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location Name
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlAddress
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location Address
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlCity
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location City
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlCounty
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location County
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlState
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location State
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					HlZip
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Hiring Location Zip
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NAICS
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					varchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					NAICS
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					MSC
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of MSC Locations
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					MaxNumber
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Maximum Number
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					MinNumber
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Minimum Number
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					CreatedOn
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					datetime
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Created On - Date
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Executive/Senior Level Officials and Managers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Executive/Senior Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Executive/Senior Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Armed Forces Service Medal Veterans in the Executive/Senior Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Armed Forces Service Medal Veterans in the Executive/Senior Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Executive/Senior Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Executive/Senior Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran employees in the Executive/Senior Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees1
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Executive/Senior Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - First/Mid Level Officials and Managers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the First/Mid Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the First/Mid Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Armed Forces Service Medal Veterans in the First/Mid Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Armed Forces Service Medal Veterans in the First/Mid Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the First/Mid Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the First/Mid Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran employees in the First/Mid Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees2
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the First/Mid Level Officials and Managers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Professionals
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Armed Forces Service Medal Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Armed Forces Service Medal Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>	
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran employees in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees3
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Professionals Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Technicians
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Armed Forces Service Medal Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Armed Forces Service Medal Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>ss
+					NewHire_RecentlySeparatedVets4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran employees in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees4
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Technicians Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Sales Workers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Armed Forces Service Medal Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Armed Forces Service Medal Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran employees in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees5
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Sales Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Administrative Support Workers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Armed Forces Service Medal Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Armed Forces Service Medal Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran employees in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees6
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Administrative Support Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Craft Workers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Armed Forces Service Medal Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Armed Forces Service Medal Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran employees in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees7
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Craft Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Operatives
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Armed Forces Service Medal Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Armed Forces Service Medal Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran employees in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees8
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Operatives Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Laborers/Helpers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Armed Forces Service Medal Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Armed Forces Service Medal Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteranemployees in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees9
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veterannew hires in the Laborers/Helpers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Service Workers
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Other Protected Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Other Protected Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Armed Forces Service Medal Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Armed Forces Service Medal Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of Employees - Recently Separated Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Number of New Hires - Recently Separated Veterans in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran employees in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees10
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires in the Service Workers Job Category
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					JobCategCode11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					nvarchar
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Job Category - Total
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_DisabledVets11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Employees - Disabled Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_DisabledVets11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of New Hires - Disabled Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_OtherProtectedVets11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Employees - Other Protected Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_OtherProtectedVets11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of New Hires - Other Protected Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_ArmedForcesServiceMedalVets11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Employees - Armed Forces Service Medal Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_ArmedForcesServiceMedalVets11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of New Hires - Armed Forces Service Medal Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_RecentlySeparatedVets11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Employees - Recently Separated Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_RecentlySeparatedVets11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of New Hires - Recently Separated Veterans
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NumEmps_TotalAllEmployees11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran employees
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span class="small">Column Name</span>
+					NewHire_TotalAllEmployees11
+				</th>
+				<td>
+					<span class="small">Data Type</span>
+					int
+				</td>
+				<td>
+					<span class="small">Column Description</span>
+					Total Number of Veteran and Non-Veteran new hires
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+            </article>
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <footer class="site-footer">
+
+<!-- Start Footer One -->
+<div role="contentinfo">
+<div class="row footer-one hide-for-small">
+  <div class="large-5 columns "> <a href="https://www.dol.gov/"> <img src="/img/dol-logo-white.png" alt="U.S.Department of Labor"/> <span class="header-logo-type-white">UNITED STATES <br>
+    DEPARTMENT OF LABOR </span> </a> </div>
+  <div class="large-3 columns">
+    <p class="footer-info1 a-bottom"><a href="https://www.dol.gov/general/contact">Contact Us </a></p>
+  </div>
+  <div class="large-4 columns">
+    <div class="social-block-btm mt">
+    <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+    <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+    <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+    <a href="https://plus.google.com/+USDOL/posts" class="sm-gplus">Google Plus</a>
+    <a href="https://www.dol.gov/rss" class="sm-rss-btm">RSS</a>
+    <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email-btm">Email</a>
+      </div>
+  </div>
+</div>
+<!-- End Footer One -->
+
+<!-- Start Footer Two -->
+<div class="row footer-two">
+  <div class="small-12 large-3 columns line-b-peach">
+    <p>200 Constitution Ave. NW<br>
+      Washington DC 20210<br>
+      <a href="tel:1-866-487-2365">1-866-4-USA-DOL</a><br>
+      <a href="tel:1-866-487-2365">1-866-487-2365</a><br>
+      <a href="https://www.dol.gov/general/contact-phonecallcenter">TTY</a><br>
+      <a href="https://www.dol.gov/">www.dol.gov </a> </p>
+  </div>
+  <div class="large-3 columns  line-b-peach hide-for-small">
+    <p><strong>ABOUT THE SITE</strong></p>
+    <ul role="navigation">
+      <li><a href="https://www.dol.gov/general/foia">Freedom of Information Act</a></li>
+      <li><a href="https://www.dol.gov/general/privacynotice">Privacy &amp; Security Statement</a></li>
+      <li><a href="https://www.dol.gov/general/disclaim">Disclaimers</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/website-policies">Important Web Site Notices</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/plug-ins">Plug-ins Used by DOL</a></li>
+      <li><a href="https://www.dol.gov/rss">RSS Feeds from DOL</a></li>
+      <li><a href=" https://www.dol.gov/general/aboutdol/accessibility">Accessibility Statement</a></li>
+    </ul>
+  </div>
+  <div class="large-3 columns end line-b-peach hide-for-small">
+    <p><strong>DEVELOPER</strong></p>
+    <ul role="navigation">
+        <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">Ask Questions</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/DOLAPI/issues/new">Report Bugs</a></li>
+        <li><a href="/terms-of-service/">Terms of Service</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/Developer/tree/gh-pages">Fork this site on Github</a></li>
+        <li><a href="/release-notes/">Changelog</a></li>
+      <!--<li><a href="http://www.dol.gov/dol/topic/Spanish-speakingTopic.htm">Espa&ntilde;ol</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/siteindex.htm">A to Z Index</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/organization.htm">Agencies</a></li>-->
+      <!--<li><a href="http://www.oig.dol.gov/">Office of Inspector General</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/contact-phonekeypersonnel.htm">Leadership Team</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/">Contact Us</a></li>-->
+      <!--<li><a href="https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167", onclick="window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167&pop=t', '', 'scrollbars=1,toolbar=0,menubar=0,resizable=1,width=800,height=384');return false;">Subscribe to the DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/_sec/newsletter/">Read The DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/easl/">Emergency Accountability Status Link</a></li>-->
+    </ul>
+  </div>
+  <!--<div class="large-3 columns">-->
+    <!--<p><strong>FEDERAL GOVERNMENT</strong></p>-->
+    <!--<ul role="navigation">-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.whitehouse.gov&exitTitle=www.whitehouse.gov&fedpage=yes">White House</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.healthcare.gov&exitTitle=www.healthcare.gov&fedpage=yes">Affordable Care Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/opa/disaster-recovery.htm">Disaster Recovery Assistance</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.usa.gov&exitTitle=www.usa.gov&fedpage=yes">USA.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.disability.gov&exitTitle=wwww.disability.gov&fedpage=yes">Disability.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/PlainWriting/">Plain Writing Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/recovery/">Recovery Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/oasam/programs/crc/NoFearResult.htm">No Fear Act</a></li>-->
+    <!--</ul>-->
+  <!--</div>-->
+</div>
+<!-- End Footer Two -->
+</div>
+
+</footer>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+
+  $(document).ready(function() {
+      //$('#appLink').attr('href',getAppStoreLink());
+  });
+</script>
+<!-- Never remove this: Resolved IE 8 issue on grids of the CSS Frameworks-->
+<script src="/js/rem.min.js" type="text/javascript"></script>
+<!-- Never remove above line -->
+
+
+
+  </body>
+
+</html>

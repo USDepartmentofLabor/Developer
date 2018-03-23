@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Full Mine Information Mines - United States Department of Labor Developer Portal</title>
+    <meta name="description" content="The Full Mine Information dataset lists all Coal and Metal/Non-Metal mines under MSHA's jurisdiction since 1/1/1970.">
+    
+    
+    
+
+    <link rel="canonical" href="http://localhost:4000/health-and-safety/full-mine-info-mines/">
+          <!-- css -->
+      <link rel="stylesheet" href="/css/foundation.css" />
+      <link rel="stylesheet" href="/css/dol-style.css" />
+      <link rel="stylesheet" href="/css/content.css" />
+      <link rel="stylesheet" href="/css/post.css" />
+      <link rel="stylesheet" href="/css/mobile.css" />
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
+    <script id="_fed_an_ua_tag" src="/js/federated-analytics-developer.js?agency=DOL&amp;subagency=DEVELOPER"></script>      
+      <script src="/js/modernizr.js"></script>
+      <script src="/js/safari_pushwoosh.js"></script> 
+      <script src="/js/developer_scripts.js"></script>
+      <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+      <![endif]-->
+
+    <script type="text/javascript">
+
+        //<![CDATA[
+
+        var usasearch_config = { siteHandle:"developer.dol.gov" };
+
+
+
+        var script = document.createElement("script");
+
+        script.type = "text/javascript";
+
+        script.src = "//search.usa.gov/javascripts/remote.loader.js";
+
+        document.getElementsByTagName("head")[0].appendChild(script);
+
+
+
+        //]]>
+
+    </script>
+
+    
+</head>
+
+
+  <body> 
+  <div class="skip"> <a href="#maincontent">Skip to Main Content</a> </div>
+    
+    <header class="site-header">
+
+<div class="wrapper">
+
+<!--Start Banner -->
+<a id="top"></a>
+<div class="row top-header" role="banner">
+      <div class="large-6 columns"> <a href="/"> <span class="show-for-medium-up brand"></span>
+        <h1 class="header-logo-type">DEVELOPER PORTAL<br/>
+            UNITED STATES DEPARTMENT OF LABOR</h1>
+        </a> </div>
+      <div class="large-2 columns">
+        <div class="social-block right hide-for-small"> <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+        <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+        <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+        <a href="https://www.dol.gov/rss" class="sm-rss">RSS</a>
+        <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email">Email</a> </div>
+      </div>
+      <div class="large-4 columns">
+        <div id="searchbox" class="hide-for-small-only">
+            <!--<form accept-charset="UTF-8" action="http://search.usa.gov/search" id="search_form" method="get">
+                <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/></div>
+                <div class="small-10 columns">
+                    <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+                    <label for="query">Enter Search Term(s):</label>
+                    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text"/>
+                </div>
+                <div class="small-2 columns"><input name="commit" type="submit" value="Search"/>
+                </div>
+            </form></-->
+          <form action="//search.usa.gov/search" method="get" class="usagov" role="search">
+            <div class="small-10 columns">
+                <label for="query"><span class="hide">Search</span></label>
+                <input autocomplete="off" type="text" id="query" name="query" placeholder="Enter Search Terms" class="usagov-search-autocomplete" required="required" >
+            </div>
+            <div class="small-2 columns">
+                <input id="affiliate" name="affiliate" type="hidden" value="developer.dol.gov"/>
+
+              <input type="image"  src="/img/icon-search.png" alt="Search" class="usagov-submit">
+                <!--
+                <input type="image"  src="/img/beta_ribbon.png"  vspace="4"  alt="Search DOL" class="usagov-submit">
+                -->
+            </div>
+          </form>
+        </div>
+      </div>
+</div>
+    <div class="row">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="/beginner/">USE OUR API</a></li>
+                    <li><a href="/dataset/">EXPLORE OUR DATA</a></li>
+                    <li><a href="/sdk/">GRAB OUR CODE</a></li>
+                    <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">ASK QUESTIONS</a></li>
+                    <li><a href="https://github.com/USDepartmentofLabor/Developer/issues/new">REPORT BUGS</a></li>
+                </ul>
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li><a href="https://devtools.dol.gov/developer">API KEYS</a></li>
+                </ul>
+            </section>
+        </nav>
+
+
+
+</div>
+
+
+    </div>
+</header>
+
+
+    <div class="row">
+      
+            <div class="row" data-equalizer>
+        <div class="show-for-medium-up">
+    <div class="large-4 columns" data-equalizer-watch>
+        <div class="row">
+            
+            <div class="large-3 columns"><img src="/img/health.png" class="menu_title_dataset_img" alt="Health Icon"></div>
+
+            <div class="large-9 columns"><h1 class="menu_title_dataset">DOL HEALTH & SAFETY DATASETS</h1></div>
+            
+        </div>
+        <div class="row">
+            <ul class="accordion" data-accordion>
+            <li class="accordion-navigation active">
+                <a href="#healthsafe">Health & Safety</a>
+
+                <div id="healthsafe" class="content cmenu active">
+                    <ul>
+                        
+                            <li><a href="/health-and-safety/injuries-and-illness/" >Injuries And Illness <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/gulf-oil-spill/" >Gulf Oil Spill <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/osha-compliance/" >DOL OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/msha-employment-production/" >MSHA Employment Production <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-violation/" >Mine Violation <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/fatal-occupational-injuries/" >Fatal Occupational Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-enforcement/" >DOL OSHA Enforcement <span class="version_badge_small">V2</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/auto-workers/" >Auto Workers <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/safety-and-health/" >Safety and Health <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/full-mine-info-mines/" class="current_item">Full Mine Information Mines <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/basic-mine-info/" >Basic Mine Information <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-accident-injuries/" >Mine Accident Injuries <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/dol-osha-compliance/" >OSHA Compliance <span class="version_badge_small">V1</span></a></li>
+
+                        
+                            <li><a href="/health-and-safety/mine-inspections/" >Mine Inspections <span class="version_badge_small">V1</span></a></li>
+
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#wagehour">Wage &amp; Hour Division</a>
+                <div id="wagehour" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/wage-and-hour-division/flc/" >Farm Labor Contractor and Farm Labor Contractor Employee <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/wage-and-hour-publications-system/" >Wage and Hour Publications System <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/wage-and-hour-division/whd-compliance/" >WHD Compliance <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#expanding">Expanding Growth<br />Opportunities & Learning</a>
+                <div id="expanding" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/expanding-growth/public-workforce-system/" >Public Workforce System <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/oui-inital-claims/" >OUI Initial Claims <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/ipia/" >IPIA <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-quarterly-census-employment-and-wage-cew/" >Quarterly Census Employment and Wage (CEW) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-occupational-employment-statistics-survey-oes/" >Occupational Employment Statistics Survey (OES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-population-survey-cps/" >Current Population Survey (CPS) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-current-employment-statistics-ces/" >Current Employment Statistics (CES) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-consumer-price-indexes-cpi/" >Consumer Price Indexes (CPI) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-workforce-investment-act/" >2010 Workforce Investment Act <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/2010-occupational-employment-statistics/" >2010 Occupational Employment Statistics <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/expanding-growth/bls-numbers/" >BLS Numbers <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li class="accordion-navigation ">
+                <a href="#others">Other Datasets</a>
+                <div id="others" class="content cmenu ">
+                    <ul>
+                        
+                        <li><a href="/others/sweat-and-toil/" >Sweat & Toil <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets4212/" >VETS4212 <span class="version_badge_small">V2</span></a></li>
+                        
+                        <li><a href="/others/vets100/" >VETS100 <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metrics-per-key/" >API Metrics (per key) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/research-and-evaluation-inventory/" >Research And Evaluation Inventory <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/geography/" >Geography <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/form/" >Form <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/faq/" >Frequently Asked Questions (FAQ) <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/api-metadata/" >API Metadata <span class="version_badge_small">V1</span></a></li>
+                        
+                        <li><a href="/others/agency/" >Agency <span class="version_badge_small">V1</span></a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            </ul>
+        </div>
+</div>
+</div>
+
+        <div class="small-12 large-8 columns post" id="maincontent" tabindex="-1" data-equalizer-watch>
+
+            <header class="post-header">
+                <div class="show-for-small-only">
+                    <div class="row">
+                        <div class="small-12 columns
+                     health_background
+                     
+                     dataset_mob_head mobile_header">
+                            <div class="row">
+                                <a href="/dataset/">
+                                    <div class="small-3 columns datasets_back">
+                                        &lt; <span class="hide">Return to Datasets Menu</span>
+                                    </div>
+                                </a>
+
+                                <div class="small-9 columns ">
+                                    <h1>Full Mine Information Mines</h1>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <h1 class="post_title_dataset">Full Mine Information Mines  <span class="version_badge">V1</span> </h1>
+                <div class= "alert-box small-9-text-centre">
+                     New API (v3) coming Summer 2018.
+                </div>
+
+                <p class="post-meta"></p>
+            </header>
+
+            <article class="post_content_dataset">
+                <div class="force_wrap apiurl">
+<p>https://api.dol.gov/V1/Mining/FullMineInfo/</p>
+</div>
+
+<p>The Full Mine Info dataset lists all Coal and Metal/Non-Metal mines under MSHA's jurisdiction since 1/1/1970. It includes such information as the current status of each mine (Active, Abandoned, NonProducing, etc.), the current owner and operating company, commodity codes and physical attributes of the mine. Mine ID is the unique key for this data.</p>
+
+<p><a href="http://api.dol.gov/V1/Mining/FullMineInfo/$metadata" class="button radius button_dataset">Browse Metadata</a>
+<a href="https://devtools.dol.gov/APISampler/Home/Index1?datasetName=DOL%20Mines%20Dataset" class="button radius button_dataset">Explore This Data</a></p>
+
+<h2 id="dataset-tables">Dataset Tables</h2>
+
+<div>
+	<h3 id="MSHA_mines">MSHA_mines</h3>
+	<table class="accessible responsive" summary="MSHA Mines - Full Mine Information">
+		<caption>MSHA Mines</caption>
+		<thead>
+			<tr>
+				<th scope="col">Column Name</th>
+				<th scope="col">Data Type</th>
+				<th scope="col">Column Description</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				id
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				bigint
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Primary key of the table - Primary Key
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				MINE_ID
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (14)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identification number assigned to the mine by MSHA - Primary Key
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_MINE_NAME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Name of the mine as designated on the Legal ID Form
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				COAL_METAL_IND
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identifies if the mine is a Coal or Metal/Non-Metal mine
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_MINE_TYPE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (20)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				From the Legal ID (LID) form. The types are Facility, Surface or Underground
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_MINE_STATUS
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (50)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Current status of the mine.
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_STATUS_DT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				datetime
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Date the mine obtained the current status
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_CONTROLLER_ID
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (7)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identification number assigned by MSHA
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_CONTROLLER_NAME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (72)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Either the business name or a person's name for the Legal Entity
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_OPERATOR_ID
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (7)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Identification number assigned by MSHA Assessments Center
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_OPERATOR_NAME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (60)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				The latest operator name
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				STATE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (2)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				State in which the mine is located
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				BOM_STATE_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (2)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Bureau of Mines (BOM) assigned state codes
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				FIPS_CNTY_CD
+			</th>
+				<td>
+				<span class="small">Column Name</span>
+				varchar (3)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Federal Information Processing Standard county code
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				FIPS_CNTY_NM
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (80)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				FIPS county code name
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CONG_DIST_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (2)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				The Congressional District of the state
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				COMPANY_TYPE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (80)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Unique description for each legal entity type
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_CONTROLLER_BEGIN_DT
+			</th>
+				 <td>
+				 <span class="small">Data Type</span>
+				 datetime
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Start date of the operating period at the mine
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				DISTRICT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (3)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				The first three characters of the Coal districts
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				OFFICE_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (5)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				MSHA code that identifies the office
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				OFFICE_NAME
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (80)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				The name of the office to which the mine is assigned
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				ASSESS_CTRL_NO
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (20)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				The most recent Assessment Control Number
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PRIMARY_SIC_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (6)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				This is a code derived from the SIC codes
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PRIMARY_SIC
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (80)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Description of the SIC
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PRIMARY_SIC_CD_1
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (4)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Standard Industrial Classification Code
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PRIMARY_SIC_CD_SFX
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (2)
+			</td>
+				<td>
+				<span class="small">Column Name</span>
+				Suffix to the SIC
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				SECONDARY_SIC_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (6)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				This is a code derived from the SIC
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Description</span>
+				SECONDARY_SIC
+			</th>
+				<td>
+				<span class="small">Column Name</span>
+				varchar (80)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Description of the SIC
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				SECONDARY_SIC_CD_1
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (4)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Standard Industrial Classification Code (SIC)
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				SECONDARY_SIC_CD_SFX
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (2)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Suffix to the SIC
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PRIMARY_CANVASS_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (20)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Canvass code associated with the primary
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PRIMARY_CANVASS
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (20)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Unique code abbreviation for the primary
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				SECONDARY_CANVASS_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (20)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Canvass code associated with the secondary
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				SECONDARY_CANVASS
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (20)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Unique code abbreviation for the secondary
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_103I
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (80)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				This is the description of the Mine 103I Classification Code
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				CURRENT_103I_DT
+			</th>
+				 <td>
+				 <span class="small">Data Type</span>
+				 datetime
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				The date the mine entered the current 103I status
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PORTABLE_OPERATION
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Indicates whether this is a portable mine or not
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PORTABLE_FIPS_ST_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (2)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				FIPS state code if it is a portable mine
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				DAYS_PER_WEEK
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Number of days per week
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				HOURS_PER_SHIFT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Number of hours per shift at the mine
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PROD_SHIFTS_PER_DAY
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Number of production shifts per 24-hour day
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				MAINT_SHIFTS_PER_DAY
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Number of maintenance-only shifts per 24-hour day
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				NO_EMPLOYEES
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Number of workers employed at the mine
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PART48_TRAINING
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Indicates whether MSHA is restricted
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				LONGITUDE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Longitude denoting the mine location
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				LATITUDE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Latitude denoting the mine location
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				AVG_MINE_HEIGHT
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Average mining height in inches
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				MINE_GAS_CATEGORY_CD
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (20)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				This categorization is used by underground
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				METHANE_LIBERATION
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Methane Liberation on Section (cubic feet each 24 hrs).
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				NO_PRODUCING_PITS
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Number of pits that are actively producing
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				NO_NONPRODUCING_PITS
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Number of pits that are not producing
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				NO_TAILING_PONDS
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Number of tailing ponds (Metal/Non-Metal mines only).
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				PILLAR_RECOVERY_USED
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Indicator denoting whether or not a mine uses pillar
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				HIGHWALL_MINER_USED
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Indicator denoting whether or not a mine uses a highwall
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				MULTIPLE_PITS
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Indicates whether there are multiple pits
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				MINERS_REP_IND
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Indicates where there is a miners' representative
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				SAFETY_COMMITTEE_IND
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (1)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Values are 'Y' or 'N'.
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				MILES_FROM_OFFICE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				float
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Driving distance to the mine/mill
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				DIRECTIONS_TO_MINE
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (300)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Free-form description of directions
+			</td>
+				
+			</tr>
+			<tr>
+				<th scope="row">
+				<span class="small">Column Name</span>
+				NEAREST_TOWN
+			</th>
+				<td>
+				<span class="small">Data Type</span>
+				varchar (30)
+			</td>
+				<td>
+				<span class="small">Column Description</span>
+				Nearest town or city
+			</td>
+				
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+            </article>
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <footer class="site-footer">
+
+<!-- Start Footer One -->
+<div role="contentinfo">
+<div class="row footer-one hide-for-small">
+  <div class="large-5 columns "> <a href="https://www.dol.gov/"> <img src="/img/dol-logo-white.png" alt="U.S.Department of Labor"/> <span class="header-logo-type-white">UNITED STATES <br>
+    DEPARTMENT OF LABOR </span> </a> </div>
+  <div class="large-3 columns">
+    <p class="footer-info1 a-bottom"><a href="https://www.dol.gov/general/contact">Contact Us </a></p>
+  </div>
+  <div class="large-4 columns">
+    <div class="social-block-btm mt">
+    <a href="http://www.facebook.com/departmentoflabor"  class="sm-facebook">Facebook</a>
+    <a href="https://twitter.com/usdol" class="sm-twitter">Twitter</a>
+    <a href="https://www.instagram.com/USDOL/" class="sm-instagram">DOL Instagram</a>
+    <a href="https://plus.google.com/+USDOL/posts" class="sm-gplus">Google Plus</a>
+    <a href="https://www.dol.gov/rss" class="sm-rss-btm">RSS</a>
+    <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');"
+				 ONCLICK="window.status='Subscribe'; return true"
+				 ONMOUSEOVER="window.status='Subscribe'; return true"
+				 ONMOUSEOUT="window.status=''; return true" class="sm-email-btm">Email</a>
+      </div>
+  </div>
+</div>
+<!-- End Footer One -->
+
+<!-- Start Footer Two -->
+<div class="row footer-two">
+  <div class="small-12 large-3 columns line-b-peach">
+    <p>200 Constitution Ave. NW<br>
+      Washington DC 20210<br>
+      <a href="tel:1-866-487-2365">1-866-4-USA-DOL</a><br>
+      <a href="tel:1-866-487-2365">1-866-487-2365</a><br>
+      <a href="https://www.dol.gov/general/contact-phonecallcenter">TTY</a><br>
+      <a href="https://www.dol.gov/">www.dol.gov </a> </p>
+  </div>
+  <div class="large-3 columns  line-b-peach hide-for-small">
+    <p><strong>ABOUT THE SITE</strong></p>
+    <ul role="navigation">
+      <li><a href="https://www.dol.gov/general/foia">Freedom of Information Act</a></li>
+      <li><a href="https://www.dol.gov/general/privacynotice">Privacy &amp; Security Statement</a></li>
+      <li><a href="https://www.dol.gov/general/disclaim">Disclaimers</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/website-policies">Important Web Site Notices</a></li>
+      <li><a href="https://www.dol.gov/general/aboutdol/plug-ins">Plug-ins Used by DOL</a></li>
+      <li><a href="https://www.dol.gov/rss">RSS Feeds from DOL</a></li>
+      <li><a href=" https://www.dol.gov/general/aboutdol/accessibility">Accessibility Statement</a></li>
+    </ul>
+  </div>
+  <div class="large-3 columns end line-b-peach hide-for-small">
+    <p><strong>DEVELOPER</strong></p>
+    <ul role="navigation">
+        <li><a href="https://opendata.stackexchange.com/questions/ask?tags=labor">Ask Questions</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/DOLAPI/issues/new">Report Bugs</a></li>
+        <li><a href="/terms-of-service/">Terms of Service</a></li>
+        <li><a href="https://github.com/USDepartmentofLabor/Developer/tree/gh-pages">Fork this site on Github</a></li>
+        <li><a href="/release-notes/">Changelog</a></li>
+      <!--<li><a href="http://www.dol.gov/dol/topic/Spanish-speakingTopic.htm">Espa&ntilde;ol</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/siteindex.htm">A to Z Index</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/organization.htm">Agencies</a></li>-->
+      <!--<li><a href="http://www.oig.dol.gov/">Office of Inspector General</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/contact-phonekeypersonnel.htm">Leadership Team</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/contact/">Contact Us</a></li>-->
+      <!--<li><a href="https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167", onclick="window.open('https://public.govdelivery.com/accounts/USDOL/subscriber/new?topic_id=USDOL_167&pop=t', '', 'scrollbars=1,toolbar=0,menubar=0,resizable=1,width=800,height=384');return false;">Subscribe to the DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/_sec/newsletter/">Read The DOL Newsletter</a></li>-->
+      <!--<li><a href="http://www.dol.gov/easl/">Emergency Accountability Status Link</a></li>-->
+    </ul>
+  </div>
+  <!--<div class="large-3 columns">-->
+    <!--<p><strong>FEDERAL GOVERNMENT</strong></p>-->
+    <!--<ul role="navigation">-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.whitehouse.gov&exitTitle=www.whitehouse.gov&fedpage=yes">White House</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.healthcare.gov&exitTitle=www.healthcare.gov&fedpage=yes">Affordable Care Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/opa/disaster-recovery.htm">Disaster Recovery Assistance</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.usa.gov&exitTitle=www.usa.gov&fedpage=yes">USA.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.disability.gov&exitTitle=wwww.disability.gov&fedpage=yes">Disability.gov</a></li>-->
+      <!--<li><a href="http://www.dol.gov/dol/PlainWriting/">Plain Writing Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/recovery/">Recovery Act</a></li>-->
+      <!--<li><a href="http://www.dol.gov/oasam/programs/crc/NoFearResult.htm">No Fear Act</a></li>-->
+    <!--</ul>-->
+  <!--</div>-->
+</div>
+<!-- End Footer Two -->
+</div>
+
+</footer>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+
+  $(document).ready(function() {
+      //$('#appLink').attr('href',getAppStoreLink());
+  });
+</script>
+<!-- Never remove this: Resolved IE 8 issue on grids of the CSS Frameworks-->
+<script src="/js/rem.min.js" type="text/javascript"></script>
+<!-- Never remove above line -->
+
+
+
+  </body>
+
+</html>
