@@ -618,3 +618,11 @@ hr {
 .glbl-msg {
 	border: solid 3px #fff;
 }
+.specification-db {
+background: #fff9d8 url(http://guides.rubyonrails.org/images/tab_yellow.gif) no-repeat left top;
+border: none;
+padding: 1.25em 1em 1.25em 48px;
+margin-left: 0;
+margin-top: 0.25em;
+width: 200px;
+}
