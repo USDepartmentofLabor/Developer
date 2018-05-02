@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accessing the API V1 Using HTTP Requests
+title: Accessing the API Using HTTP Requests
 created: 1359565589
 ---
 
