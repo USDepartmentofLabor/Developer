@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accessing the API V1 Using HTTP Requests
+title: Accessing the API V2 Using HTTP Requests
 created: 1359565589
 ---
 
@@ -29,5 +29,5 @@ created: 1359565589
 
 {% endcapture %}
 
-{% include api_guide.html %}
+{% include api_guide_v2.html %}
 

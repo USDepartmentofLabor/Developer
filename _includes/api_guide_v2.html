@@ -1,13 +1,13 @@
 <div class = "alert-box small-9-text-centre">
-     New API (v3) coming in 2018.
+     New API (v3) coming Summer 2018.
 </div>
-<ul class="tabs" data-tab>
-    <li class="tab-title tab-title-documentation active"><a href="#apiv1"><h2>api.dol.gov (V1)</h2></a></li>
-    <li class="tab-title tab-title-feature"><a href="#apiv2"><h2>data.dol.gov (V2)</h2></a></li>
+<ul class="tabs">
+    <li class="tab-title tab-title-documentation"><a href="/accessing-the-v1-api-using-http-requests/"><h2>api.dol.gov (V1)</h2></a></li>
+    <li class="tab-title tab-title-feature active"><a href="#apiv2"><h2>data.dol.gov (V2)</h2></a></li>
 </ul>
 
 <div class="tabs-content">
-    <div class="content active panel documentation radius force_wrap" id="apiv1">
+    <!--div class="content panel documentation radius force_wrap" id="apiv1">
 
         {{ anchors | markdownify }}
 
@@ -431,9 +431,9 @@
                 <p>A maximum of 100 records will be returned</p>
             </div>
         </div>
-    </div>
+    </div-->
 
-    <div class="content panel feature radius force_wrap" id="apiv2">
+    <div class="content active panel feature radius force_wrap" id="apiv2">
 
         <h2>Use Your Quarry API Key (<span style="color:#990000;">Required</span>)</h2>
 
@@ -520,30 +520,30 @@
         <br/><a name="offset-page"></a>
          <h3>Offset</h3>
                     <table summary="Specifies the pagination in a request">
-		            <caption>Offset allows you to paginate a request and by using offset, you will be able to browse data in sets of up to 200 records at a time. Increasing the offset each time you request records will allow you to see additional records from the dataset you are viewing.</caption>
-		            <thead>
-		            <tr>
-		                <th scope="col">Key/Value</th>
-		                <th scope="col">Description</th>
-		            </tr>
-		            </thead>
-		            <tbody>
-		            <tr>
+                    <caption>Offset allows you to paginate a request and by using offset, you will be able to browse data in sets of up to 200 records at a time. Increasing the offset each time you request records will allow you to see additional records from the dataset you are viewing.</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Key/Value</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
 
-		            </tr>
-		            <tr>
-		                <td><span class="force_wrap apiurl"><p>/offset/YOUR_NUMBER</p></span></td>
-		                <td>Paginate the request starting at YOUR_NUMBER.</td>
-		            </tr>
-		            <tr>
+                    </tr>
+                    <tr>
+                        <td><span class="force_wrap apiurl"><p>/offset/YOUR_NUMBER</p></span></td>
+                        <td>Paginate the request starting at YOUR_NUMBER.</td>
+                    </tr>
+                    <tr>
 
-		            </tr>
-		            <tr>
+                    </tr>
+                    <tr>
 
-		            </tr>
+                    </tr>
 
-		            </tbody>
-		        </table>
+                    </tbody>
+                </table>
                 <p><i class="fas fa-exclamation big-icon"></i>&nbsp;specification-db</p>
                 <h3>Some of the datasets using different pattern to call offset method.</h3>
 
