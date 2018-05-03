@@ -1,13 +1,15 @@
 <div class = "alert-box small-9-text-centre">
      New API (v3) coming in 2018.
 </div>
-<ul class="tabs" data-tab>
-    <li class="tab-title tab-title-documentation active"><a href="#apiv1"><h2>api.dol.gov (V1)</h2></a></li>
-    <li class="tab-title tab-title-feature"><a href="#apiv2"><h2>data.dol.gov (V2)</h2></a></li>
+<div class="cmenu">
+<h2>Links</h2>
+<ul>
+    <li><a href="#apiv1">api.dol.gov <span class="version_badge_small">V1</span></a></li>
+    <li><a href="#apiv2">data.dol.gov <span class="version_badge_small">V2</span></a></li>
 </ul>
-
-<div class="tabs-content">
-    <div class="content active panel documentation radius force_wrap" id="apiv1">
+</div>
+<h2 id="apiv1">api.dol.gov (V1)</h2>
+<div class="content active panel documentation radius force_wrap">
 
         {{ anchors | markdownify }}
 
@@ -431,296 +433,290 @@
                 <p>A maximum of 100 records will be returned</p>
             </div>
         </div>
+    </div><h2 id="apiv2">data.dol.gov (V2)</h2>
+<div class="content panel documentation feature radius force_wrap" >
+
+    <h2>Use Your Quarry API Key (<span style="color:#990000;">Required</span>)</h2>
+
+    <div class="panel requirement radius">
+        <p>If you have an APIv1 Key, you may also use it for Quarry/APIV2</p>
     </div>
+    <p>Register at <a href="https://devtools.dol.gov/developer/Account/Register">https://devtools.dol.gov/developer/Account/Register</a>
+        to get a QUARRY API key. The new API key will be emailed to you.</p>
 
-    <div class="content panel feature radius force_wrap" id="apiv2">
+    <h2>Curl Generic Quarry Usage (<span style="color:#990000;">Strict Order</span>)</h2>
 
-        <h2>Use Your Quarry API Key (<span style="color:#990000;">Required</span>)</h2>
-
-        <div class="panel requirement radius">
-            <p>If you have an APIv1 Key, you may also use it for Quarry/APIV2</p>
-        </div>
-        <p>Register at <a href="https://devtools.dol.gov/developer/Account/Register">https://devtools.dol.gov/developer/Account/Register</a>
-            to get a QUARRY API key. The new API key will be emailed to you.</p>
-
-        <h2>Curl Generic Quarry Usage (<span style="color:#990000;">Strict Order</span>)</h2>
-
-        <div class="force_wrap apiurl">
-            <p>curl -H "X-API-KEY: <strong>YOUR_API_KEY</strong>"
-                https://data.dol.gov/get/ALIAS/filtername1/filtervalue1/filtername2/filtervalue2</p>
-        </div>
-        <br/>
-
-        {{ curl_table | markdownify }}
-
-        <br/>
-
-        <h2>Filtering Options</h2>
-
-        <h3>Format</h3>
-        <table summary="Return format">
-            <caption>Dataset will be in JSON or XML.</caption>
-            <thead>
-            <tr>
-                <th scope="col">Key/Value</th>
-                <th scope="col">Description</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/format/json</p></span></td>
-                <td>JSON</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/format/xml</p></span></td>
-                <td>XML</td>
-            </tr>
-            <tr>
-                <td>Default</td>
-                <td>JSON</td>
-            </tr>
-
-            </tbody>
-        </table>
-
-        <br/>
-
-        <h3>Limit</h3>
-        <table summary="Limiting rows to return">
-            <caption>Number of rows to return. While the maximum allowed for APIv2 is 200, a value of 0
-                will return the limit set by the server which could differ.
-            </caption>
-            <thead>
-            <tr>
-                <th scope="col">Key/Value</th>
-                <th scope="col">Description</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/limit/0</p></span></td>
-                <td>Return all allowable data.</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/limit/YOUR_NUMBER</p></span></td>
-                <td>Return desired number of rows.</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/limit/200</p></span></td>
-                <td>Quarry API return limit.</td>
-            </tr>
-            <tr>
-                <td>Default</td>
-                <td>Return all allowable data.</td>
-            </tr>
-
-            </tbody>
-        </table>
-
-        <br/><a name="offset-page"></a>
-         <h3>Offset</h3>
-                    <table summary="Specifies the pagination in a request">
-		            <caption>Offset allows you to paginate a request and by using offset, you will be able to browse data in sets of up to 200 records at a time. Increasing the offset each time you request records will allow you to see additional records from the dataset you are viewing.</caption>
-		            <thead>
-		            <tr>
-		                <th scope="col">Key/Value</th>
-		                <th scope="col">Description</th>
-		            </tr>
-		            </thead>
-		            <tbody>
-		            <tr>
-
-		            </tr>
-		            <tr>
-		                <td><span class="force_wrap apiurl"><p>/offset/YOUR_NUMBER</p></span></td>
-		                <td>Paginate the request starting at YOUR_NUMBER.</td>
-		            </tr>
-		            <tr>
-
-		            </tr>
-		            <tr>
-
-		            </tr>
-
-		            </tbody>
-		        </table>
-                <p><i class="fas fa-exclamation big-icon"></i>&nbsp;specification-db</p>
-                <h3>Some of the datasets using different pattern to call offset method.</h3>
-
-            <br/>
-
-        <h3>Order</h3>
-        <table summary="Sorting Order">
-            <caption>Ascending or descending sorting order as determined by the targeted datasource
-            </caption>
-            <thead>
-            <tr>
-                <th scope="col">Key/Value</th>
-                <th scope="col">Description</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/orderby/asc</p></span></td>
-                <td>Ascending order.</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/orderby/desc</p></span></td>
-                <td>Descending order.</td>
-            </tr>
-            <tr>
-                <td>Default</td>
-                <td>Ascending order.</td>
-            </tr>
-
-            </tbody>
-        </table>
-
-        <br />
-
-        <h3>Columns</h3>
-        <table summary="Selecting columns to return">
-            <caption>Columns can be selected individually with the columns keyword.  Datasets will be sorted by the
-                first column field.
-            </caption>
-            <thead>
-            <tr>
-                <th scope="col">Segment</th>
-                <th scope="col">Description</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>columns</p></span></td>
-                <td>Must be included for column filtering.</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>:</p></span></td>
-                <td>The delimiter separating columns </td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/columns/first_column:second_column:third_column </p></span></td>
-                <td>Example.</td>
-            </tr>
-
-            </tbody>
-        </table>
-
-        <br />
-
-        <h3> Filter Column</h3>
-        <table summary="Selecting columns to return">
-            <caption> Filter Column can be selected individually with the columns keyword or match keyword :For Example (user is searching by city Edmonton the search will show you all matching bits for that city.Datasets will be sorted by the first filter_column field.
-            </caption>
-            <thead>
-            <tr>
-                <th scope="col">Segment</th>
-                <th scope="col">Description</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>filter_column</p></span></td>
-                <td>Must be included for filter column filtering.</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>:</p></span></td>
-                <td>The delimiter separating filter column name </td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/filter_column/first_column:second_column:third_column </p></span></td>
-                <td>Example URL<p>curl -k -H "X-API-KEY: YOUR_API_KEY"
-                    https://data.dol.gov/get/violation/limit/130/filter_column/issuance_date:citation_id:standard </p> </td>
-            </tr>
-
-            </tbody>
-        </table>
-
-        <br />
-
-
-        <h3>Dates (yyyy-mm-dd)</h3>
-        <table summary="Selecting dates">
-            <caption>Searching by dates
-            </caption>
-            <thead>
-            <tr>
-                <th scope="col">Key/Value</th>
-                <th scope="col">Description</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>date_column</p></span></td>
-                <td>Must be included to search dates.</td>
-            </tr>
-            <tr>
-                <td>(Column Name)</td>
-                <td>Specify the column name to search by-date</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>start_date</p></span></td>
-                <td>Start date will search from the start date to now.</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>end_date</p></span></td>
-                <td>The past up to the end date (200 maximum rows returned in reversed order from the end date)</td>
-            </tr>
-            <tr>
-                <td>Both start_date and end_date</td>
-                <td>Exact date range.</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/start_date/YYYY-MM-DD</p></span></td>
-                <td>Example (by start date)</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/end_date/YYYY-MM-DD</p></span></td>
-                <td>Example (by end date)</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/start_date/YYYY-MM-DD/end_date/YYYY-MM-DD</p></span></td>
-                <td>Example (by date range)</td>
-            </tr>
-
-            </tbody>
-        </table>
-
-        <br />
-
-        <h3>Multi-Filtering</h3>
-        <table summary="Multi-filtering examples">
-            <caption>Examples
-            </caption>
-            <thead>
-            <tr>
-                <th scope="col">Example URL</th>
-                <th scope="col">Explanation</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>curl -H "X-API-KEY: YOUR_API_KEY"
-                    https://data.dol.gov/get/accident/format/xml/limit/10/orderby/desc/columns/summary_nr:event_desc:event_time</p></span></td>
-                <td>Select 10 rows from the <a href="/health-and-safety/dol-osha-enforcement#osha_accident/">OSHA accident table</a>.
-                    Result is in XML format, will include the 3 specified columns (summary_nr,event_desc,event_time) and will be sorted in
-                    descending order by the summary_nr column.</td>
-            </tr>
-            <tr>
-                <td><span class="force_wrap apiurl"><p>curl -k -H "X-API-KEY: YOUR_API_KEY"
-                    https://data.dol.gov/get/violation/limit/130/orderby/asc/columns/issuance_date:citation_id:standard/date_column/issuance_date/start_date/2010-03-15/end_date/2015-04-15</p></span></td>
-                <td>Select 130 rows from the <a href="/health-and-safety/dol-osha-enforcement#osha_violation/">OSHA Violation table</a>.
-                    Result is in JSON format, will include the 3 specified columns (issuance_date,citation_id,standard) and will be sorted in
-                    ascending order by the issuance_date column. Only returns results where issuance_date falls within
-                    the specified date range (2010-03-15 to 2015-04-15)</td>
-            </tr>
-
-            </tbody>
-        </table>
-
+    <div class="force_wrap apiurl">
+        <p>curl -H "X-API-KEY: <strong>YOUR_API_KEY</strong>"
+            https://data.dol.gov/get/ALIAS/filtername1/filtervalue1/filtername2/filtervalue2</p>
     </div>
+    <br/>
+
+    {{ curl_table | markdownify }}
+
+    <br/>
+
+    <h2>Filtering Options</h2>
+
+    <h3>Format</h3>
+    <table summary="Return format">
+        <caption>Dataset will be in JSON or XML.</caption>
+        <thead>
+        <tr>
+            <th scope="col">Key/Value</th>
+            <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/format/json</p></span></td>
+            <td>JSON</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/format/xml</p></span></td>
+            <td>XML</td>
+        </tr>
+        <tr>
+            <td>Default</td>
+            <td>JSON</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <br/>
+
+    <h3>Limit</h3>
+    <table summary="Limiting rows to return">
+        <caption>Number of rows to return. While the maximum allowed for APIv2 is 200, a value of 0
+            will return the limit set by the server which could differ.
+        </caption>
+        <thead>
+        <tr>
+            <th scope="col">Key/Value</th>
+            <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/limit/0</p></span></td>
+            <td>Return all allowable data.</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/limit/YOUR_NUMBER</p></span></td>
+            <td>Return desired number of rows.</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/limit/200</p></span></td>
+            <td>Quarry API return limit.</td>
+        </tr>
+        <tr>
+            <td>Default</td>
+            <td>Return all allowable data.</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <br/><a name="offset-page"></a>
+     <h3>Offset</h3>
+                <table summary="Specifies the pagination in a request">
+                <caption>Offset allows you to paginate a request and by using offset, you will be able to browse data in sets of up to 200 records at a time. Increasing the offset each time you request records will allow you to see additional records from the dataset you are viewing.</caption>
+                <thead>
+                <tr>
+                    <th scope="col">Key/Value</th>
+                    <th scope="col">Description</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+
+                </tr>
+                <tr>
+                    <td><span class="force_wrap apiurl"><p>/offset/YOUR_NUMBER</p></span></td>
+                    <td>Paginate the request starting at YOUR_NUMBER.</td>
+                </tr>
+                <tr>
+
+                </tr>
+                <tr>
+
+                </tr>
+
+                </tbody>
+            </table>
+            <p><i class="fas fa-exclamation big-icon"></i>&nbsp;specification-db</p>
+            <h3>Some of the datasets using different pattern to call offset method.</h3>
+
+        <br/>
+
+    <h3>Order</h3>
+    <table summary="Sorting Order">
+        <caption>Ascending or descending sorting order as determined by the targeted datasource
+        </caption>
+        <thead>
+        <tr>
+            <th scope="col">Key/Value</th>
+            <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/orderby/asc</p></span></td>
+            <td>Ascending order.</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/orderby/desc</p></span></td>
+            <td>Descending order.</td>
+        </tr>
+        <tr>
+            <td>Default</td>
+            <td>Ascending order.</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <br />
+
+    <h3>Columns</h3>
+    <table summary="Selecting columns to return">
+        <caption>Columns can be selected individually with the columns keyword.  Datasets will be sorted by the
+            first column field.
+        </caption>
+        <thead>
+        <tr>
+            <th scope="col">Segment</th>
+            <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>columns</p></span></td>
+            <td>Must be included for column filtering.</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>:</p></span></td>
+            <td>The delimiter separating columns </td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/columns/first_column:second_column:third_column </p></span></td>
+            <td>Example.</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <br />
+
+    <h3> Filter Column</h3>
+    <table summary="Selecting columns to return">
+        <caption> Filter Column can be selected individually with the columns keyword or match keyword :For Example (user is searching by city Edmonton the search will show you all matching bits for that city.Datasets will be sorted by the first filter_column field.
+        </caption>
+        <thead>
+        <tr>
+            <th scope="col">Segment</th>
+            <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>filter_column</p></span></td>
+            <td>Must be included for filter column filtering.</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>:</p></span></td>
+            <td>The delimiter separating filter column name </td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/filter_column/first_column:second_column:third_column </p></span></td>
+            <td>Example URL<p>curl -k -H "X-API-KEY: YOUR_API_KEY"
+                https://data.dol.gov/get/violation/limit/130/filter_column/issuance_date:citation_id:standard </p> </td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <br />
+
+
+    <h3>Dates (yyyy-mm-dd)</h3>
+    <table summary="Selecting dates">
+        <caption>Searching by dates
+        </caption>
+        <thead>
+        <tr>
+            <th scope="col">Key/Value</th>
+            <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>date_column</p></span></td>
+            <td>Must be included to search dates.</td>
+        </tr>
+        <tr>
+            <td>(Column Name)</td>
+            <td>Specify the column name to search by-date</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>start_date</p></span></td>
+            <td>Start date will search from the start date to now.</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>end_date</p></span></td>
+            <td>The past up to the end date (200 maximum rows returned in reversed order from the end date)</td>
+        </tr>
+        <tr>
+            <td>Both start_date and end_date</td>
+            <td>Exact date range.</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/start_date/YYYY-MM-DD</p></span></td>
+            <td>Example (by start date)</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/end_date/YYYY-MM-DD</p></span></td>
+            <td>Example (by end date)</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/start_date/YYYY-MM-DD/end_date/YYYY-MM-DD</p></span></td>
+            <td>Example (by date range)</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <br />
+
+    <h3>Multi-Filtering</h3>
+    <table summary="Multi-filtering examples">
+        <caption>Examples
+        </caption>
+        <thead>
+        <tr>
+            <th scope="col">Example URL</th>
+            <th scope="col">Explanation</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>curl -H "X-API-KEY: YOUR_API_KEY"
+                https://data.dol.gov/get/accident/format/xml/limit/10/orderby/desc/columns/summary_nr:event_desc:event_time</p></span></td>
+            <td>Select 10 rows from the <a href="/health-and-safety/dol-osha-enforcement#osha_accident/">OSHA accident table</a>.
+                Result is in XML format, will include the 3 specified columns (summary_nr,event_desc,event_time) and will be sorted in
+                descending order by the summary_nr column.</td>
+        </tr>
+        <tr>
+            <td><span class="force_wrap apiurl"><p>curl -k -H "X-API-KEY: YOUR_API_KEY"
+                https://data.dol.gov/get/violation/limit/130/orderby/asc/columns/issuance_date:citation_id:standard/date_column/issuance_date/start_date/2010-03-15/end_date/2015-04-15</p></span></td>
+            <td>Select 130 rows from the <a href="/health-and-safety/dol-osha-enforcement#osha_violation/">OSHA Violation table</a>.
+                Result is in JSON format, will include the 3 specified columns (issuance_date,citation_id,standard) and will be sorted in
+                ascending order by the issuance_date column. Only returns results where issuance_date falls within
+                the specified date range (2010-03-15 to 2015-04-15)</td>
+        </tr>
+
+        </tbody>
+    </table>
 
 </div>
-
-
-
