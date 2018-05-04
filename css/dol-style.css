@@ -587,3 +587,6 @@ h1.header-logo-type, #footer p a, #footer ul li a {
 	width: 30%;
 }
 }
+.post {
+	outline: 0;
+}
