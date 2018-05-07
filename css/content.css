@@ -563,7 +563,7 @@ hr {
 		color: black;
 }
 
-.guide_note, .guide_note p {
+.guide_note {
 		color: #3d3d3d;
 		font-size: 1em;
 		margin-bottom: 1.25rem;
@@ -571,6 +571,7 @@ hr {
 		padding: .5em 1em;
 		border: #3d3d3d solid 1px;
 		border-radius: 8px;
+		background-color: #fff3d9;
 }
 
 .version_badge, .version_badges, .version_badge_small {
@@ -618,7 +619,6 @@ hr {
 .glbl-msg {
 	border: solid 3px #fff;
 }
-
-.big-icon {
-    font-size: 24px;
+.fas {
+  color : red;
 }
