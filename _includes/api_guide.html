@@ -545,8 +545,8 @@
 
                 </tbody>
             </table>
-            <i class="fas fa-flag"></i><div class="guide_note large-8 medium-8">
-                <p><strong>Note:</strong> Offset are working different on this datasets it take columns value with offset.</p>
+            <div class="guide_note large-8 medium-8">
+                <p><strong>Note:</strong> The offset works differently for these datasets. You need to use the columns name with the offset amount such as "column name/offset number", An example would be  - "/flc_name/25".</p>
             </div>
 
         <br/>
@@ -612,7 +612,7 @@
 
     <h4> Filter Column</h4>
     <table summary="Selecting columns to return">
-        <caption> Filter Column can be selected individually with the columns keyword or match keyword :For Example (user is searching by city Edmonton the search will show you all matching bits for that city.Datasets will be sorted by the first filter_column field.
+        <caption> The "Filter Column" can be selected individually with the columns keyword or matching keywords. For example, the user is searching by city for "Edmonton". The search will show you all matching items for that city. NOTE: You can have multiple column searches by using ":" the between columns. The search results will be sorted by the first "filter_column" field in ascending order. See examples below for formatting.
         </caption>
         <thead>
         <tr>
@@ -626,13 +626,18 @@
             <td>Must be included for filter column filtering.</td>
         </tr>
         <tr>
-            <td><span class="force_wrap apiurl"><p>:</p></span></td>
+            <td><span class="apiurl"><p>=</p></span></td>
+            <td>The equal sign "<strong>=</strong>" must be included after seleted field for the filter column and before the fields value you are looking to find. Example URL<p>curl -k -H "X-API-KEY: YOUR_API_KEY" https://data.dol.gov/get/violation/limit/130/filter_column/issuance_date=the value</p>
+            </td>
+        </tr>
+        <tr>
+            <td><span class="apiurl"><p>:</p></span></td>
             <td>The delimiter separating filter column name </td>
         </tr>
         <tr>
-            <td><span class="force_wrap apiurl"><p>/filter_column/first_column:second_column:third_column </p></span></td>
+            <td><span class="force_wrap apiurl"><p>/filter_column/first_column=the value:second_column=the value:third_column=the value </p></span></td>
             <td>Example URL<p>curl -k -H "X-API-KEY: YOUR_API_KEY"
-                https://data.dol.gov/get/violation/limit/130/filter_column/issuance_date:citation_id:standard </p> </td>
+                https://data.dol.gov/get/violation/limit/130/filter_column/issuance_date=the value:citation_id=the value:standard=the value </p> </td>
         </tr>
 
         </tbody>
