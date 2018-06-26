@@ -6,10 +6,15 @@ version: V1
 description: This Dataset contains historic data (last 10 years) for the most common economic indicators.
 ---
 
+
+<p class="guide_note">
+	<strong>Depreciation Notice:</strong> The BLS Numbers datasets will be upgraded to APIv2 from APIv1 shortly.<br><br>
+	You will need to convert your application by 07/13/2018.<br><br>
+	<a href="/accessing-the-apis-using-http-requests/">Here is the documentation on how you can get your application to use the APIv2- data.dol.gov (V2).</a>
+</p>
 <div class="force_wrap apiurl">
 <p>https://api.dol.gov/V1/statistics/BLS_Numbers</p>
 </div>
-
 <p>This Dataset contains historic data (last 10 years) for the most common economic indicators. For more information and details about the data provided can be found by looking for <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS Inflation and Prices Information&amp;fedpage=yes">Inflation &amp; Prices</a> information or <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.bls.gov/data/&amp;exitTitle=BLS Employment Information&amp;fedpage=yes">Employment</a> information.</p>
 
 <a href ="http://api.dol.gov/V1/statistics/BLS_Numbers/$metadata" class="button radius button_dataset">Browse Metadata</a>
