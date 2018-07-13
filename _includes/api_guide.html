@@ -8,7 +8,7 @@
     <li><a href="#apiv2">Data.dol.gov</a> <span class="version_badge_small">V2</span></li>
 </ul>
 </div>
-<h2 id="apiv1">API.dol.gov (V1)</h2>
+<h2 id="apiv1" tabindex="-1">API.dol.gov (V1)</h2>
 <div class="content active panel documentation radius force_wrap">
 
         {{ anchors | markdownify }}
@@ -433,7 +433,7 @@
                 <p>A maximum of 100 records will be returned</p>
             </div>
         </div>
-    </div><h2 id="apiv2">Data.dol.gov (V2)</h2>
+    </div><h2 id="apiv2" tabindex="-1">Data.dol.gov (V2)</h2>
 <div class="content panel feature radius force_wrap" >
 
     <h3>Use Your Quarry API Key (<span style="color:#990000;">Required</span>)</h3>
@@ -608,7 +608,7 @@
             <td>The delimiter separating filter column name </td>
         </tr>
         <tr>
-            <td><span class="force_wrap apiurl"><p>/filter_column/first_column=column_name:second_column=second_columnname:third_column=third_columnname</p></span></td>
+            <td><span class="force_wrap apiurl"><p>/filter_column/firstcolumn=first_columnname:secondcolumn=second_columnname:thirdcolumn=third_columnname</p></span></td>
             <td>Example URL<p>curl -k -H "X-API-KEY: YOUR_API_KEY"
                 https://data.dol.gov/get/accident/limit/130/filter_column/filter_column/event_keyword=crushed:report_id=04547</p> </td>
         </tr>
