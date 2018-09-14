@@ -582,6 +582,54 @@
     </table>
 
     <br />
+    <h4>Dates (yyyy-mm-dd)</h4>
+        <table summary="Selecting dates">
+            <caption>Searching by dates
+            </caption>
+            <thead>
+            <tr>
+                <th scope="col">Key/Value</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>date_column</p></span></td>
+                <td>Search dates (start_date and / or end_date ) you want to see must be included. A maximum of 200 rows will be returned in reverse order from the end date or current date.</td>
+            </tr>
+            <tr>
+                <td>(Column Name)</td>
+                <td>Please specify the date column name to search by-date</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>start_date</p></span></td>
+                <td>Start date (start_date) will search from the start date to current date (today).</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>end_date</p></span></td>
+                <td> End date will be the last date in the search.</td>
+            </tr>
+            <tr>
+                <td>Both start_date and end_date</td>
+                <td>Exact date range incldues the start_date and end_date.</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/start_date/YYYY-MM-DD</p></span></td>
+                <td>Example start date parameter.</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/end_date/YYYY-MM-DD</p></span></td>
+                <td>Example end date parameter.</td>
+            </tr>
+            <tr>
+                <td><span class="force_wrap apiurl"><p>/date_column/COLUMN_NAME/start_date/YYYY-MM-DD/end_date/YYYY-MM-DD</p></span></td>
+                <td>Example date range which includes both start_date and end_date.</td>
+            </tr>
+
+            </tbody>
+        </table>
+        
+        <br />
 
     <h4> Filter Column</h4>
     <table summary="Selecting columns to return">
