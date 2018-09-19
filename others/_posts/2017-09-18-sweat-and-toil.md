@@ -1381,7 +1381,8 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
           Legal standard value
         </td>
       </tr>
-      <th scope="row">
+      <tr>
+        <th scope="row">
           <span class="small">Column Name</span>
           age
         </th>
