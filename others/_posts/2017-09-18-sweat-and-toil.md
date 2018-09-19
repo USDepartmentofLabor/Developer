@@ -334,7 +334,7 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
       <tr>
         <th scope="row">
           <span class="small">Column Name</span>
-          country_name
+          country
         </th>
         <td>
           <span class="small">Data Type</span>
@@ -634,7 +634,7 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
       <tr>
         <th scope="row">
           <span class="small">Column Name</span>
-          regionname
+          region_name
         </th>
         <td>
           <span class="small">Data Type</span>
@@ -771,6 +771,34 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
         <td>
           <span class="small">Column Description</span>
           Country Name
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <span class="small">Column Name</span>
+          territory_id
+        </th>
+        <td>    
+          <span class="small">Data Type</span>
+          int
+        </td>
+        <td>
+          <span class="small">Column Description</span>
+          Identifies territory id value
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <span class="small">Column Name</span>
+          territory_name
+        </th>
+        <td>    
+          <span class="small">Data Type</span>
+          varchar
+        </td>
+        <td>
+          <span class="small">Column Description</span>
+          Identifies territory name
         </td>
       </tr>
       <tr>
@@ -1300,6 +1328,34 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
       <tr>
         <th scope="row">
           <span class="small">Column Name</span>
+          territory_id
+        </th>
+        <td>
+          <span class="small">Data Type</span>
+          int
+        </td>
+        <td>
+          <span class="small">Column Description</span>
+          Identifies territory id
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <span class="small">Column Name</span>
+          territory_name
+        </th>
+        <td>
+          <span class="small">Data Type</span>
+          varchar
+        </td>
+        <td>
+          <span class="small">Column Description</span>
+          Identifies territory name
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <span class="small">Column Name</span>
           name
         </th>
         <td>
@@ -1323,6 +1379,19 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
         <td>
           <span class="small">Column Description</span>
           Legal standard value
+        </td>
+      </tr>
+      <th scope="row">
+          <span class="small">Column Name</span>
+          age
+        </th>
+        <td>
+          <span class="small">Data Type</span>
+          int
+        </td>
+        <td>
+          <span class="small">Column Description</span>
+          age description
         </td>
       </tr>
       <tr>
@@ -1442,7 +1511,21 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
       <tr>
         <th scope="row">
           <span class="small">Column Name</span>
-          type
+          territory_id
+        </th>
+        <td>
+          <span class="small">Data Type</span>
+          int
+        </td>
+        <td>
+          <span class="small">Column Description</span>
+          Identifies territory id
+        </td>
+      </tr>
+        <tr>
+        <th scope="row">
+          <span class="small">Column Name</span>
+          territory_name
         </th>
         <td>
           <span class="small">Data Type</span>
@@ -1450,7 +1533,7 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
         </td>
         <td>
           <span class="small">Column Description</span>
-          Enforcement type
+          Identifies territory name
         </td>
       </tr>
       <tr>
