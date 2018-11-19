@@ -30,4 +30,4 @@ created: 1359565589
 {% endcapture %}
 
 
-
+{% include api_guide.html %}
