@@ -7,8 +7,8 @@ redirect_from: "/child-labor/"
 ---
 These datasets contain information on child labor and forced labor worldwide from ILAB’s three flagship 
 reports: <i>Findings on the Worst Forms of Child Labor</i>; <i>List of Goods Produced by Child Labor or Forced Labor</i>
-; and <i>List of Products Produced by Forced or Indentured Child Labor</i>. There are 14 tables containing data from the 2015-2017 reporting cycles and 11 tables from the 2014 reporting cycle. This information is also available in ILAB’s app, Sweat & Toil: Child Labor, 
-Forced Labor, and Human Trafficking Around the World. For more information, see ILAB’s <a href="https://www.dol.gov/agencies/ilab/reports/child-labor">International Child Labor and Forced Labor Reports page</a>.
+; and <i>List of Products Produced by Forced or Indentured Child Labor</i>. There are 14 tables containing data from the 2015-2018 reporting cycles and 11 tables from the 2014 reporting cycle. This information is also available in ILAB’s app, Sweat & Toil: Child Labor, 
+Forced Labor, and Human Trafficking Around the World. For more information, see ILAB’s <a href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor">International Child Labor and Forced Labor Reports page</a>.
 <h2>Dataset Tables</h2>
 <div>
   <ul>
@@ -773,7 +773,7 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
           Country Name
         </td>
       </tr>
-      <tr>
+      <!--- <tr>
         <th scope="row">
           <span class="small">Column Name</span>
           territory_id
@@ -800,7 +800,7 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
           <span class="small">Column Description</span>
           Identifies territory name
         </td>
-      </tr>
+      </tr> --->
       <tr>
         <th scope="row">
           <span class="small">Column Name</span>
@@ -1367,7 +1367,7 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
           Name of legal standard
         </td>
       </tr>
-      <tr>
+     <!--- <tr>
         <th scope="row">
           <span class="small">Column Name</span>
           standard
@@ -1380,7 +1380,7 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
           <span class="small">Column Description</span>
           Legal standard value
         </td>
-      </tr>
+      </tr> --->
       <tr>
         <th scope="row">
           <span class="small">Column Name</span>
