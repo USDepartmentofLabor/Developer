@@ -773,34 +773,6 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
           Country Name
         </td>
       </tr>
-      <!--- <tr>
-        <th scope="row">
-          <span class="small">Column Name</span>
-          territory_id
-        </th>
-        <td>    
-          <span class="small">Data Type</span>
-          int
-        </td>
-        <td>
-          <span class="small">Column Description</span>
-          Identifies territory id value
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">
-          <span class="small">Column Name</span>
-          territory_name
-        </th>
-        <td>    
-          <span class="small">Data Type</span>
-          varchar
-        </td>
-        <td>
-          <span class="small">Column Description</span>
-          Identifies territory name
-        </td>
-      </tr> --->
       <tr>
         <th scope="row">
           <span class="small">Column Name</span>
@@ -1367,20 +1339,6 @@ Forced Labor, and Human Trafficking Around the World. For more information, see 
           Name of legal standard
         </td>
       </tr>
-     <!--- <tr>
-        <th scope="row">
-          <span class="small">Column Name</span>
-          standard
-        </th>
-        <td>
-          <span class="small">Data Type</span>
-          varchar
-        </td>
-        <td>
-          <span class="small">Column Description</span>
-          Legal standard value
-        </td>
-      </tr> --->
       <tr>
         <th scope="row">
           <span class="small">Column Name</span>
