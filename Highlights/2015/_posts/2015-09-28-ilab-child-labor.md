@@ -10,7 +10,7 @@ on the street to survive. While in school, Qusai had dreamed of being an enginee
 “We work because we need to, we need the money.... Where do we get rent from if we do not work?”
 
 
-Around the world, 152 million children like Qusai are involved in child labor, working instead of learning.
+Around the world, 160 million children like Qusai are involved in child labor, working instead of learning.
 Approximately 25 million children and adults are in forced labor. Finding a solution to these problems continues
 to be one of the world’s most pressing challenges. Overcoming this challenge will require new ideas,
 new ways of thinking, and innovative solutions. 
